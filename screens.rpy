@@ -1350,109 +1350,62 @@ screen history:
             frame at tr_fadein(1):
                 background None
 
-                if _preferences.language != "spanish":
-
-                    for item in setoptions[:]:
-                        if item[0] == 1: # Is an option title
-                            if eval(item[3]):
-                                imagebutton at tr_fadein(0.2):
-                                    xpos optionsxpos[setoptions.index(item)] ypos optionsypos[setoptions.index(item)]
-                                    idle "UI/input_plotback.png"
-                                    hover "UI/input_plotback.png"
-                                    action NullAction()
-                                
-                                    hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
-                                
-                                    unhovered SetVariable("htty",-5000)
-                                    activate_sound "sound/button1.ogg"
-
-                                text item[1]:
-                                    xpos 10+25 ypos optionsypos[setoptions.index(item)]+10
-                                    font "Fonts/ShareTech-Regular.ttf"
-                                    size 20
-                                    color "#F7F7F7"
-
-                        if item[0] == 2: # Is a pick able option
-                            if eval(item[3]):
-                                imagebutton:
-                                    xpos optionsxpos[setoptions.index(item)] ypos optionsypos[setoptions.index(item)]
-                                    idle "UI/input_decision.png"
-                                    hover "UI/input_decision.png"
-                                    selected_idle "UI/input_decision_select.png"
-                                    selected_hover "UI/input_decision_select.png"
-                                
-                                    hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
-                                
-                                    unhovered SetVariable("htty",-5000)
-                                    action SetVariable(item[4][0],item[4][1])
-                                    activate_sound "sound/button1.ogg" 
-
-                                text item[1]:
-                                    xpos optionsxpos[setoptions.index(item)]+25 ypos optionsypos[setoptions.index(item)]+10
-                                    font "Fonts/ShareTech-Regular.ttf"
-                                    size 20
-                                    color "#000000"
-                            
-                                if htt.value != "":
-                                    frame: # Frame matches required size, MAGIC!
-                                        xpos httx+200 ypos htty+20
-                                        background "#000000"
-                                        text htt.value:
-                                            font "Fonts/ShareTech-Regular.ttf"
-                                            size 20
-                                            color "#F7F7F7"
-
+                if _preferences.language == "spanish":
+                    $ title_text = -2
+                    $ hover_text = -1
                 else:
+                    $ title_text = 1
+                    $ hover_text = 2
 
-                    for item in setoptionssp[:]:
-                        if item[0] == 1: # Is an option title
-                            if eval(item[3]):
-                                imagebutton at tr_fadein(0.2):
-                                    xpos optionsxpos[setoptionssp.index(item)] ypos optionsypos[setoptionssp.index(item)]
-                                    idle "UI/input_plotback.png"
-                                    hover "UI/input_plotback.png"
-                                    action NullAction()
+                for item in setoptions[:]:
+                    if item[0] == 1: # Is an option title
+                        if eval(item[3]):
+                            imagebutton at tr_fadein(0.2):
+                                xpos optionsxpos[setoptions.index(item)] ypos optionsypos[setoptions.index(item)]
+                                idle "UI/input_plotback.png"
+                                hover "UI/input_plotback.png"
+                                action NullAction()
                                 
-                                    hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptionssp.index(item)]), SetVariable("htty",optionsypos[setoptionssp.index(item)])
+                                hovered htt.Action(item[hover_text]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
                                 
-                                    unhovered SetVariable("htty",-5000)
-                                    activate_sound "sound/button1.ogg"
+                                unhovered SetVariable("htty",-5000)
+                                activate_sound "sound/button1.ogg"
 
-                                text item[1]:
-                                    xpos 10+25 ypos optionsypos[setoptionssp.index(item)]+10
-                                    font "Fonts/ShareTech-Regular.ttf"
-                                    size 20
-                                    color "#F7F7F7"
+                            text item[title_text]:
+                                xpos 10+25 ypos optionsypos[setoptions.index(item)]+10
+                                font "Fonts/ShareTech-Regular.ttf"
+                                size 20
+                                color "#F7F7F7"
 
-                        if item[0] == 2: # Is a pick able option
-                            if eval(item[3]):
-                                imagebutton:
-                                    xpos optionsxpos[setoptionssp.index(item)] ypos optionsypos[setoptionssp.index(item)]
-                                    idle "UI/input_decision.png"
-                                    hover "UI/input_decision.png"
-                                    selected_idle "UI/input_decision_select.png"
-                                    selected_hover "UI/input_decision_select.png"
+                    if item[0] == 2: # Is a pick able option
+                        if eval(item[3]):
+                            imagebutton:
+                                xpos optionsxpos[setoptions.index(item)] ypos optionsypos[setoptions.index(item)]
+                                idle "UI/input_decision.png"
+                                hover "UI/input_decision.png"
+                                selected_idle "UI/input_decision_select.png"
+                                selected_hover "UI/input_decision_select.png"
                                 
-                                    hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptionssp.index(item)]), SetVariable("htty",optionsypos[setoptionssp.index(item)])
+                                hovered htt.Action(item[hover_text]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
                                 
-                                    unhovered SetVariable("htty",-5000)
-                                    action SetVariable(item[4][0],item[4][1])
-                                    activate_sound "sound/button1.ogg" 
+                                unhovered SetVariable("htty",-5000)
+                                action SetVariable(item[4][0],item[4][1])
+                                activate_sound "sound/button1.ogg" 
 
-                                text item[1]:
-                                    xpos optionsxpos[setoptionssp.index(item)]+25 ypos optionsypos[setoptionssp.index(item)]+10
-                                    font "Fonts/ShareTech-Regular.ttf"
-                                    size 20
-                                    color "#000000"
+                            text item[title_text]:
+                                xpos optionsxpos[setoptions.index(item)]+25 ypos optionsypos[setoptions.index(item)]+10
+                                font "Fonts/ShareTech-Regular.ttf"
+                                size 20
+                                color "#000000"
                             
-                                if htt.value != "":
-                                    frame: # Frame matches required size, MAGIC!
-                                        xpos httx+200 ypos htty+20
-                                        background "#000000"
-                                        text htt.value:
-                                            font "Fonts/ShareTech-Regular.ttf"
-                                            size 20
-                                            color "#F7F7F7"
+                            if htt.value != "":
+                                frame: # Frame matches required size, MAGIC!
+                                    xpos httx+200 ypos htty+20
+                                    background "#000000"
+                                    text htt.value:
+                                        font "Fonts/ShareTech-Regular.ttf"
+                                        size 20
+                                        color "#F7F7F7"
                                     
                 vbar value YScrollValue("history_box") xpos 1070
 
