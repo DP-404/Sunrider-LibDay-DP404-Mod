@@ -1400,7 +1400,7 @@ screen history:
                             
                             if htt.value != "":
                                 frame: # Frame matches required size, MAGIC!
-                                    xpos httx+200 ypos htty+20
+                                    xpos httx+20 ypos htty+30
                                     background "#000000"
                                     text htt.value:
                                         font "Fonts/ShareTech-Regular.ttf"
