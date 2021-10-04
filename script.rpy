@@ -354,12 +354,8 @@ label after_mission1:
                 
         if legion_destroyed == True:
             player_ships.insert(0,sunrider)
-            if _preferences.language == "spanish":
-                BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
-                BM.orders["CAÑÓN VANGUARDIA"] = [4000,'vanguard_cannon']
-            else:
-                BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
-                BM.orders["VANGUARD CANNON"] = [4000,'vanguard_cannon']
+            BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
+            BM.orders["VANGUARD CANNON"] = [4000,'vanguard_cannon']
     
     hide screen battle_screen
     hide screen commands
@@ -2788,14 +2784,9 @@ label mission2:
         python:
             sunrider.set_location(1,7)
             player_ships.append(sunrider)
-            if _preferences.language == "spanish":
-                BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
-                BM.orders["CAÑÓN VANGUARDIA"] = [4000,'vanguard_cannon']
-                BM.orders["DRONES REPARADORES"] = [750,'repair_drones']
-            else:
-                BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
-                BM.orders["VANGUARD CANNON"] = [4000,'vanguard_cannon']
-                BM.orders["REPAIR DRONES"] = [750,'repair_drones']
+            BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
+            BM.orders["VANGUARD CANNON"] = [4000,'vanguard_cannon']
+            BM.orders["REPAIR DRONES"] = [750,'repair_drones']
             
             if sunrider not in BM.ships:
                 BM.ships.append(sunrider)

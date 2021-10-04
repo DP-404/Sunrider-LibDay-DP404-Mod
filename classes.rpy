@@ -87,20 +87,12 @@ init -2 python:
             self.vanguard_damage = 2000
             self.vanguard_range = 99
             self.repair_drone_heal = 0.5
-            if _preferences.language != "spanish":
-                self.orders = {
-                    'FULL FORWARD':[750,'full_forward'],
-                    'ALL GUARD':[750,'all_guard'],
-                    'REPAIR DRONES':[750,'repair_drones'],
-                    'VANGUARD CANNON':[4000,'vanguard_cannon']
-                    }
-            else:
-                self.orders = {
-                    'AVANCE COMPLETO':[750,'full_forward'],
-                    'DEFENSA TOTAL':[750,'all_guard'],
-                    'DRONES REPARADORES':[750,'repair_drones'],
-                    'CAÑÓN VANGUARDIA':[4000,'vanguard_cannon']
-                    }
+            self.orders = {
+                _('FULL FORWARD'):[750,'full_forward'],
+                _('ALL GUARD'):[750,'all_guard'],
+                _('REPAIR DRONES'):[750,'repair_drones'],
+                _('VANGUARD CANNON'):[4000,'vanguard_cannon']
+                }
             self.order_used = False   #when True the orders button is hidden.
               #environment modifiers are initialized here and can be changed later
             self.environment = {
@@ -151,26 +143,15 @@ init -2 python:
                                        "selection"        : self.battle_selection,
                                        "move"             : self.battle_move,
                                        "cancel movement"  : self.battle_cancel_movement,
-                                       # English orders
-                                       "ALL POWER TO ENGINES" : self.battle_order_injection_rods,
-                                       "SUMMON BATTLESHIP" : self.battle_order_summon_battleship,
-                                       "RESURRECTION"     : self.battle_order_resurrection,
-                                       "ALL GUARD"        : self.battle_order_all_guard,
-                                       "FULL FORWARD"     : self.battle_order_full_forward,
-                                       "REPAIR DRONES"    : self.battle_order_repair_drones,
-                                       "SHORT RANGE WARP" : self.battle_short_range_warp,
-                                       "RETREAT"          : self.battle_retreat,
-                                       "VANGUARD CANNON"  : self.battle_order_vanguard_cannon,
-                                       # Spanish orders
-                                       "MÁXIMO PODER A LOS MOTORES" : self.battle_order_injection_rods,
-                                       "INVOCAR NAVE DE BATALLA" : self.battle_order_summon_battleship,
-                                       "RESURRECCIÓN"     : self.battle_order_resurrection,
-                                       "DEFENSA TOTAL"        : self.battle_order_all_guard,
-                                       "AVANCE COMPLETO"     : self.battle_order_full_forward,
-                                       "DRONES REPARADORES"    : self.battle_order_repair_drones,
-                                       "SALTO DE CORTO RANGO" : self.battle_short_range_warp,
-                                       "RETIRADA"          : self.battle_retreat,
-                                       "CAÑÓN VANGUARDIA"  : self.battle_order_vanguard_cannon,
+                                       _("ALL POWER TO ENGINES") : self.battle_order_injection_rods,
+                                       _("SUMMON BATTLESHIP") : self.battle_order_summon_battleship,
+                                       _("RESURRECTION")     : self.battle_order_resurrection,
+                                       _("ALL GUARD")        : self.battle_order_all_guard,
+                                       _("FULL FORWARD")     : self.battle_order_full_forward,
+                                       _("REPAIR DRONES")    : self.battle_order_repair_drones,
+                                       _("SHORT RANGE WARP") : self.battle_short_range_warp,
+                                       _("RETREAT")          : self.battle_retreat,
+                                       _("VANGUARD CANNON")  : self.battle_order_vanguard_cannon,
                                        "toggle player ai" : self.toggle_player_ai,
                                        "endturn"          : self.battle_end_turn,
                                        "battle won"       : self.you_win, }
@@ -450,10 +431,7 @@ init -2 python:
                 if ship.location == None:
                     unplaced_units = True
             if unplaced_units:
-                if _preferences.language != "spanish":
-                    show_message('there are still ships you have not placed!')
-                else:
-                    show_message('¡Todavía hay naves que no ha colocado!')
+                show_message(_('there are still ships you have not placed!'))
             else:
                 renpy.hide_screen('player_unit_pool_collapsed')
                 renpy.hide_screen('enemy_unit_pool_collapsed')
@@ -485,10 +463,7 @@ init -2 python:
 
                 #when setting up before a mission you can't put your ships farther to the right than column 7
                 if new_location[0] > self.formation_range:
-                    if _preferences.language != "spanish":
-                        show_message('too far infield')
-                    else:
-                        show_message('Demasiado lejos en el campo')
+                    show_message(_('too far infield'))
                 else:
                     set_cell_available(new_location,True) #passing True actually sets it unavailable
 
@@ -666,10 +641,7 @@ init -2 python:
                             voicer = 'Kryska'
                         else:
                             voicer = 'Ava'
-                        if _preferences.language != "spanish":
-                            renpy.say(voicer,'It\'s hopeless, captain!')
-                        else:
-                            renpy.say(voicer,'¡Eso es imposible, Capitán!')
+                        renpy.say(voicer,_('It\'s hopeless, captain!'))
                         self.draggable = True
                         self.targetingmode = False
                         self.active_weapon = None
@@ -751,10 +723,7 @@ init -2 python:
                 #bookkeeping
                 self.battle_log_insert(['order'], "ORDER: ALL POWER TO ENGINES")
                 BM.order_used = True
-                if _preferences.language != "spanish":
-                    store.show_message('all ships gained improved mobility!')
-                else:
-                    store.show_message('¡Todas las naves ganan una mejora en la movilidad!')
+                store.show_message(_('all ships gained improved mobility!'))
 
                 #play a voice
                 random_ship = renpy.random.choice( get_player_ships_in_battle() )
@@ -831,10 +800,7 @@ init -2 python:
                         self.end_turn_callbacks.remove(temp_battleship.expiry_callback)
                         BM.ships.remove(temp_battleship)
                         player_ships.remove(temp_battleship)
-                        if _preferences.language != "spanish":
-                            self.cmd += self.orders['SUMMON BATTLESHIP'][0]
-                        else:
-                            self.cmd += self.orders['INVOCAR NAVE DE BATALLA'][0]
+                        self.cmd += self.orders['SUMMON BATTLESHIP'][0]
                         looping = False
                         renpy.hide_screen('mousefollow')
                         self.phase = 'Player'
@@ -854,10 +820,7 @@ init -2 python:
                 result = ui.interact()
 
                 if result[0] == 'deselect':
-                    if _preferences.language != "spanish":
-                        self.cmd += self.orders['RESURRECTION'][0]
-                    else:
-                        self.cmd += self.orders['RESURRECCIÓN'][0]
+                    self.cmd += self.orders['RESURRECTION'][0]
                     renpy.hide_screen('ryderlist')
                     self.order_used = False
                     return
@@ -910,18 +873,12 @@ init -2 python:
                 strategy,remaining_turns = self.active_strategy
                 
                 if strategy == 'full forward':
-                    if _preferences.language != "spanish":
-                        show_message('Full Forward order cancelled!')
-                    else:
-                        show_message('¡Orden Avance Completo cancelada!')
+                    show_message(_('Full Forward order cancelled!'))
                     for ship in player_ships:
                         ship.remove_buff('Full Forward')
                 
                 if strategy == "all guard" and remaining_turns == 3:
-                    if _preferences.language != "spanish":
-                        show_message('alredy active!')
-                    else:
-                        show_message('¡Ya está activado!')
+                    show_message(_('alredy active!'))
                     self.order_used = False
                     self.cmd += self.orders[self.result[0]][0]
                 
@@ -933,10 +890,7 @@ init -2 python:
                 #bookkeeping
                 self.battle_log_insert(['order'], "ORDER: ALL GUARD")
                 BM.order_used = True
-                if _preferences.language != "spanish":
-                    store.show_message('all ships gained improved flak, shielding and evasion!')
-                else:
-                    store.show_message('¡Todas las naves ganaron una mejora a las torretas antiaéreas, los escudos y la evasión!')
+                store.show_message(_('all ships gained improved flak, shielding and evasion!'))
 
                 #play a voice
                 random_ship = renpy.random.choice( get_player_ships_in_battle() )
@@ -973,18 +927,12 @@ init -2 python:
                 strategy,remaining_turns = self.active_strategy
                 
                 if strategy == 'all guard':
-                    if _preferences.language != "spanish":
-                        show_message('All Guard order cancelled!')
-                    else:
-                        show_message('¡Orden Defensa Total cancelada!')
+                    show_message(_('All Guard order cancelled!'))
                     for ship in player_ships:
                         ship.remove_buff('All Guard')
                 
                 if strategy == "full forward" and remaining_turns == 3:
-                    if _preferences.language != "spanish":
-                        show_message('alredy active!')
-                    else:
-                        show_message('¡Ya está activado!')
+                    show_message(_('alredy active!'))
                     self.order_used = False
                     self.cmd += self.orders[self.result[0]][0]
                 
@@ -996,10 +944,7 @@ init -2 python:
                 #bookkeeping
                 self.battle_log_insert(['order'], "ORDER: FULL FORWARD")
                 BM.order_used = True
-                if _preferences.language != "spanish":
-                    store.show_message('All ships gain 20% damage and 15% accuracy!')
-                else:
-                    store.show_message('¡Todas las naves ganan 20% de daño y 15% de precisión!')
+                store.show_message(_('All ships gain 20% damage and 15% accuracy!'))
                 
                 #play a voice
                 if BM.english_battle_voices:
@@ -1039,19 +984,13 @@ init -2 python:
             if self.cmd >= self.orders[self.result[0]][0]:
                 if sunrider.repair_drones != None:
                     if sunrider.repair_drones <= 0:
-                        if _preferences.language != "spanish":
-                            show_message('no available droids in storage!')
-                        else:
-                            show_message('¡No hay drones disponibles en el almacén!')
+                        show_message(_('no available droids in storage!'))
                         self.order_used = False
                         return
                     else:
                         sunrider.repair_drones -= 1
                 self.cmd -= self.orders[self.result[0]][0]
-                if _preferences.language != "spanish":
-                    message = "ORDER: Repair drones restore {}% of Sunrider's hull integrity".format(str(int(BM.repair_drone_heal*100)))
-                else:
-                    message = "ORDEN: Drones reparadores restauran {}% de la integridad de la coraza del Sunrider".format(str(int(BM.repair_drone_heal*100)))
+                message = _("ORDER: Repair drones restore {}% of Sunrider's hull integrity").format(str(int(BM.repair_drone_heal*100)))
                 self.battle_log_insert(['order'], message)
                 show_message(message)
                 BM.order_used = True
@@ -1079,7 +1018,7 @@ init -2 python:
                 self.order_used = False
 
         def battle_short_range_warp(self):
-            order_cost,order_name = self.orders['SALTO DE CORTO RANGO'] #yes, second term is pointless. I don't even remember why it exists anymore
+            order_cost,order_name = self.orders['SHORT RANGE WARP'] #yes, second term is pointless. I don't even remember why it exists anymore
             if self.cmd >= order_cost:
                 self.cmd -= order_cost
                 if self.selected != None:
@@ -1115,7 +1054,7 @@ init -2 python:
                         self.targetwarp = False
                         renpy.hide_screen('battle_screen')
                         renpy.show_screen('battle_screen')
-                        self.orders['SALTO DE CORTO RANGO'] = [order_cost+250,order_name]
+                        self.orders['SHORT RANGE WARP'] = [order_cost+250,order_name]
                         chivo_process("Can't Touch This")
 
                     if result[0] == "zoom":
@@ -1173,7 +1112,7 @@ init -2 python:
                                         hasship = True
                         if not hasship:
                             #no good targets found
-                            self.cmd += self.orders['CAÑÓN VANGUARDIA'][0]
+                            self.cmd += self.orders['VANGUARD CANNON'][0]
                             looping = False
                             self.order_used = False
                             self.vanguardtarget = False
@@ -1217,7 +1156,7 @@ init -2 python:
                             BM.order_used = True
 
                     if result[0] == 'deselect':
-                        self.cmd += self.orders['CAÑÓN VANGUARDIA'][0]
+                        self.cmd += self.orders['VANGUARD CANNON'][0]
                         looping = False
                         self.vanguardtarget = False
                         self.order_used = False
@@ -1342,10 +1281,7 @@ init -2 python:
             if self.mission != 'skirmishbattle':
                 renpy.jump('sunrider_destroyed')
             else:
-                if _preferences.language != "spanish":
-                    show_message('You were defeated! better luck next time...')
-                else:
-                    show_message('¡Fuiste derrotado! Mejor suerte la próxima vez...')
+                show_message(_('You were defeated! better luck next time...'))
                 clean_battle_exit()
                 renpy.jump('dispatch')
 
@@ -1390,7 +1326,7 @@ init -2 python:
             self.weaponhover = None
             
             #reset short range warp order to standard cost
-            if 'SALTO DE CORTO RANGO' in self.orders: self.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp' ]
+            if 'SHORT RANGE WARP' in self.orders: self.orders['SHORT RANGE WARP'] = [750,'short_range_warp' ]
             
             #end of turn animation and sound
             renpy.music.play(EnemyTurnMusic)
@@ -1494,10 +1430,7 @@ init -2 python:
                     if not pship.modifiers['energy regen'][0] == -100:
                         pship.AI()
                     else:
-                        if _preferences.language != "spanish":
-                            show_message('the {} is disabled!'.format(pship.name) )
-                        else:
-                            show_message('¡El {} está desactivado!'.format(pship.name) )
+                        show_message(_('the {} is disabled!').format(pship.name) )
                 except:
                     pship.modifiers['energy regen'] = (0,0)
                     pship.AI()
@@ -1522,10 +1455,7 @@ init -2 python:
                     if not pship.modifiers['energy regen'][0] == -100:
                         pship.AI()
                     else:
-                        if _preferences.language != "spanish":
-                            show_message('the {} is disabled!'.format(pship.name) )
-                        else:
-                            show_message('¡El {} está desactivado!'.format(pship.name) )
+                        show_message(_('the {} is disabled!').format(pship.name) )
                 except:
                     pship.modifiers['energy regen'] = (0,0)
                     pship.AI()
@@ -1541,10 +1471,7 @@ init -2 python:
 
                     try:
                         if ship.modifiers['energy regen'][0] == -100:
-                            if _preferences.language != "spanish":
-                                show_message('the {} is disabled!'.format(pship.name) )
-                            else:
-                                show_message('¡El {} está desactivado!'.format(pship.name) )
+                            show_message(_('the {} is disabled!').format(pship.name) )
                             ship.en = 0
                         else:
                             ship.en = ship.max_en
@@ -1611,10 +1538,7 @@ init -2 python:
                         eship.AI()
                         clear_ship_animations() #failsafe
                     else:
-                        if _preferences.language != "spanish":
-                            show_message('the {} is disabled!'.format(eship.name) )
-                        else:
-                            show_message('¡El {} está desactivado!'.format(eship.name) )
+                        show_message(_('the {} is disabled!').format(eship.name) )
                 except:
                     eship.modifiers['energy regen'] = (0,0)
                     eship.AI()
@@ -1642,10 +1566,7 @@ init -2 python:
                     if not eship.modifiers['energy regen'][0] == -100:
                         eship.AI()
                     else:
-                        if _preferences.language != "spanish":
-                            show_message('the {} is disabled!'.format(eship.name) )
-                        else:
-                            show_message('¡El {} está desactivado!'.format(eship.name) )
+                        show_message(_('the {} is disabled!').format(eship.name) )
                 except:
                     eship.modifiers['energy regen'] = (0,0)
                     eship.AI()
@@ -1661,10 +1582,7 @@ init -2 python:
 
                     try:
                         if ship.modifiers['energy regen'][0] == -100:
-                            if _preferences.language != "spanish":
-                                show_message('the {} is disabled!'.format(ship.name) )
-                            else:
-                                show_message('¡El {} está desactivado!'.format(ship.name) )
+                            show_message(_('the {} is disabled!').format(ship.name) )
                             ship.en = 0
                         else:
                             if not ship.just_spawned: ship.en = ship.max_en
@@ -1699,7 +1617,7 @@ init -2 python:
             BM.enemy_vanguard_path = []
             renpy.hide_screen('tooltips')
             BM.phase = 'Player'
-            if 'SALTO DE CORTO RANGO' in self.orders: self.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp' ]
+            if 'SHORT RANGE WARP' in self.orders: self.orders['SHORT RANGE WARP'] = [750,'short_range_warp' ]
 
             if store.Difficulty < self.lowest_difficulty:
                 self.lowest_difficulty = store.Difficulty
@@ -2606,10 +2524,7 @@ init -2 python:
 
         def move_ship(self, new_location,bm):
             if not get_cell_available(new_location):  #failsafe
-                if _preferences.language != "spanish":
-                    show_message('Destination is occupied!')
-                else:
-                    show_message('¡El destino está ocupado!')
+                show_message(_('Destination is occupied!'))
                 show_message("Destination is occupied")
                 return
             
@@ -2679,10 +2594,7 @@ init -2 python:
                         if counter != None:
                             if counter.force_counter or enemy.flak > 0:
                                 enemy.en = enemy.max_en
-                                if _preferences.language != "spanish":
-                                    show_message('COUNTER ATTACK!')
-                                else:
-                                    show_message('¡CONTRAATAQUE!')
+                                show_message(_('COUNTER ATTACK!'))
                                 BM.battle_log_insert(['attack'], "{0} counter-attacks {1}".format(enemy.name, self.name))
                                 enemy.AI_attack_target(self,counter,True)
                                 BM.just_moved = False
@@ -2699,10 +2611,7 @@ init -2 python:
                                 if counter.force_counter or ship.flak > 0:
                                     EN = ship.en
                                     ship.en = 200
-                                    if _preferences.language != "spanish":
-                                        show_message('COUNTER ATTACK!')
-                                    else:
-                                        show_message('¡CONTRAATAQUE!')
+                                    show_message(_('COUNTER ATTACK!'))
                                     BM.battle_log_insert(['attack'], "{0} counter-attacks {1}".format(ship.name, self.name))
                                     self.update_stats()
                                     ##defunct
@@ -3741,10 +3650,7 @@ init -2 python:
                     
                 if not successful:
                     #wasted
-                    if _preferences.language != "spanish":
-                        message = "The buff could not be applied to the {0}".format(target.name)
-                    else:
-                        message = "No se pudo aplicar el buff a {0}".format(target.name)
+                    message = _("The buff could not be applied to the {0}").format(target.name)
                     BM.battle_log_insert(log_tags, message)
                     target.getting_buff = False
                     target.getting_curse = False
@@ -3921,10 +3827,7 @@ init -2 python:
             #basic verison only works on ryders
             if self.works_only_on is not None:
                 if target.stype != self.works_only_on:
-                    if _preferences.language != "spanish":
-                        show_message('you can only use this ability on ryders!')
-                    else:
-                        show_message('¡Solo puedes usar esta habilidad en ryders!')
+                    show_message(_('you can only use this ability on ryders!'))
                     return
 
             #energy handeling
@@ -4244,10 +4147,7 @@ init -2 python:
         def destroy(self):
             if self in BM.covers:
                 BM.covers.remove(self)
-                if _preferences.language != "spanish":
-                    show_message('The asteroid was destroyed!')
-                else:
-                    show_message('¡El asteroide fue destruido!')
+                show_message(_('The asteroid was destroyed!'))
                 renpy.pause(0.5)
 
          ### WEAPONFIRE PARTICLE GENERATOR ###
@@ -4565,7 +4465,7 @@ init -2 python:
                 store.sunrider.repair_drones = 0
 
             if self.lastMission >= 11:
-                BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
+                BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
 
             clean_grid() #cleans BM.grid, BM.ships, BM.covers and store.enemy_ships
             renpy.jump_out_of_context(self.jumpLoc)
@@ -4639,16 +4539,10 @@ init -2 python:
             self.parent.buffs.remove(self)
             if self.parent.hp > 0:
                 if self.curse:
-                    if _preferences.language != "spanish":
-                        message = "{0} recovered from {1}".format(self.parent.name, self.name)
-                    else:
-                        message = "{0} se recuperó de {1}".format(self.parent.name, self.name)
+                    message = __("{0} recovered from {1}").format(self.parent.name, self.name)
                     BM.battle_log_insert(['support', 'debuff'], message)
                 else:
-                    if _preferences.language != "spanish":
-                        message = "{1} expired from {0}".format(self.parent.name, self.name)
-                    else:
-                        message = "{1} expiró de {0}".format(self.parent.name, self.name)
+                    message = __("{1} expired from {0}").format(self.parent.name, self.name)
                     BM.battle_log_insert(['support', 'buff'], message)
                 if not silent:
                     show_message(message)

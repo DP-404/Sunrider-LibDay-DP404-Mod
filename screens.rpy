@@ -923,7 +923,7 @@ screen preferences:
                     hover "UI/usa_hover.jpg"
                     selected_idle "UI/usa_select.jpg"
                     selected_hover "UI/usa_select_hover.jpg"
-                    action Language(None),Show("update_lang")
+                    action Language(None)
                     hover_sound "sound/hover1.ogg"
                     activate_sound "sound/button1.ogg"
                     
@@ -943,7 +943,7 @@ screen preferences:
                     hover "UI/spain_hover.jpg"
                     selected_idle "UI/spain_select.jpg"
                     selected_hover "UI/spain_select_hover.jpg"
-                    action Language("spanish"),Show("update_lang")
+                    action Language("spanish")
                     hover_sound "sound/hover1.ogg"
                     activate_sound "sound/button1.ogg"
 
@@ -2475,74 +2475,6 @@ screen gallery_backgrounds:
                 add gallery.make_button("bg34", "REturn/thumbs/observationdeck.jpg", locked="CG/thumbs/locked.jpg",hover_border="CG/thumbs/hover.png", idle_border=None, hover_sound="Sound/hover1.ogg",activate_sound="Sound/button1.ogg", background=None)
                 text ""
                 text ""
-
-screen update_lang:
-
-    python:
-
-        if _preferences.language == "spanish":
-
-            for order in BM.orders:
-
-                if order == "ALL POWER TO ENGINES":
-                    del BM.orders['ALL POWER TO ENGINES']
-                    BM.orders['MÁXIMO PODER A LOS MOTORES'] = [800,'injection_rods']
-                if order == "SUMMON BATTLESHIP":
-                    del BM.orders['SUMMON BATTLESHIP']
-                    BM.orders['INVOCAR NAVE DE BATALLA'] = [2000,'summon_battleship']
-                if order == "RESURRECTION":
-                    del BM.orders['RESURRECTION']
-                    BM.orders['RESURRECCIÓN'] = [2500,'resurrection']
-                if order == "ALL GUARD":
-                    del BM.orders['ALL GUARD']
-                    BM.orders['DEFENSA TOTAL'] = [750,'all_guard']
-                if order == "FULL FORWARD":
-                    del BM.orders['FULL FORWARD']
-                    BM.orders['AVANCE COMPLETO'] = [750,'full_forward']
-                if order == "REPAIR DRONES":
-                    del BM.orders['REPAIR DRONES']
-                    BM.orders['DRONES REPARADORES'] = [750,'repair_drones']
-                if order == "SHORT RANGE WARP":
-                    del BM.orders['SHORT RANGE WARP']
-                    BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
-                if order == "RETREAT":
-                    del BM.orders['RETREAT']
-                    BM.orders['RETIRADA'] = [0,'retreat']
-                if order == "VANGUARD CANNON":
-                    del BM.orders['VANGUARD CANNON']
-                    BM.orders['CAÑÓN VANGUARDIA'] = [4000,'vanguard_cannon']
-
-        else:
-
-            for order in BM.orders:
-
-                if order == "MÁXIMO PODER A LOS MOTORES":
-                    del BM.orders['MÁXIMO PODER A LOS MOTORES']
-                    BM.orders['ALL POWER TO ENGINES'] = [800,'injection_rods']
-                if order == "INVOCAR NAVE DE BATALLA":
-                    del BM.orders['INVOCAR NAVE DE BATALLA']
-                    BM.orders['SUMMON BATTLESHIP'] = [2000,'summon_battleship']
-                if order == "RESURRECCIÓN":
-                    del BM.orders['RESURRECCIÓN']
-                    BM.orders['RESURRECTION'] = [2500,'resurrection']
-                if order == "DEFENSA TOTAL":
-                    del BM.orders['DEFENSA TOTAL']
-                    BM.orders['ALL GUARD'] = [750,'all_guard']
-                if order == "AVANCE COMPLETO":
-                    del BM.orders['AVANCE COMPLETO']
-                    BM.orders['FULL FORWARD'] = [750,'full_forward']
-                if order == "DRONES REPARADORES":
-                    del BM.orders['DRONES REPARADORES']
-                    BM.orders['REPAIR DRONES'] = [750,'repair_drones']
-                if order == "SALTO DE CORTO RANGO":
-                    del BM.orders['SALTO DE CORTO RANGO']
-                    BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
-                if order == "RETIRADA":
-                    del BM.orders['RETIRADA']
-                    BM.orders['RETREAT'] = [0,'retreat']
-                if order == "CAÑÓN VANGUARDIA":
-                    del BM.orders['CAÑÓN VANGUARDIA']
-                    BM.orders['VANGUARD CANNON'] = [4000,'short_range_warp']
 
 screen willbereborn:
     if _preferences.language == "spanish":
