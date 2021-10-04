@@ -9714,7 +9714,8 @@ label paradoxyearclaude:
     "From the ashes of this defeat, they would all be reborn..."
     "Deep inside of him... He knew..."
     "The Sunrider..."
-    show reborn
+    show reborn:
+        xalign 0.5 yalign 0.5
     with dissolvemedium
     pause
     stop music fadeout 1.5
@@ -9764,7 +9765,8 @@ label postcredits:
     play sound "sound/epictrailerhit.ogg"
     
     scene black
-    show tbc
+    show tbc:
+        xalign 0.5 yalign 0.5
     
     #save exporting
     $libday_save_dump() #uses multipersistent object with reference "Liberation Day"
