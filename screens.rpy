@@ -36,7 +36,7 @@ screen say(who, what, side_image=None, two_window=False):
 
                 if who:
                     
-                    if who != " " and who != "time":
+                    if who != " ":
                         add "UI/nametag.png" xpos -155 ypos -90
 
                         text who:
@@ -47,7 +47,7 @@ screen say(who, what, side_image=None, two_window=False):
                             font "Fonts/ShareTech-Regular.ttf"
                             outlines [ (3, "#0a0a0a", 0, 0) ] 
 
-                if _preferences.language == None or _preferences.language == "spanish":
+                if _preferences.language in (None, "spanish"):
 
                     if len(what) > 300:
                         $say_text_size = 45
@@ -67,25 +67,14 @@ screen say(who, what, side_image=None, two_window=False):
                     
                     if dlc == True:
 
-                        if who != "time":
-
-                            text what:
-                                id "what"
-                                size say_text_size
-                                xpos 0
-                                ypos -60
-                                xmaximum 1640
-                                font "Fonts/ShareTech-Regular.ttf"
-                                outlines [(2, "#000000", 2, 2),(1, "#272727", 0, 0) ]
-
-                        else:
-
-                            text what:
-                                id "what"
-                                size 40
-                                #text_align 0.5
-                                ypos -1.0
-                                xpos 0.0
+                        text what:
+                            id "what"
+                            size say_text_size
+                            xpos 0
+                            ypos -60
+                            xmaximum 1640
+                            font "Fonts/ShareTech-Regular.ttf"
+                            outlines [(2, "#000000", 2, 2),(1, "#272727", 0, 0) ]
                     
                 if _preferences.language == "japanese":
                     

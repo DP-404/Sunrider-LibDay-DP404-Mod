@@ -439,12 +439,10 @@ label select_asaga:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Colors_main.ogg" fadeout 1.5
     
@@ -620,12 +618,10 @@ label select_ava:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Colors_main.ogg" fadeout 1.5
     scene bg bridge with dissolve
@@ -759,12 +755,10 @@ label select_sola:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Cracking_the_Code.ogg" fadeout 1.5
     
@@ -933,12 +927,10 @@ label select_icari:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Colors_main.ogg" fadeout 1.5
     scene bg messhall with dissolve #I'm going to assume crew quarters was a misscopy
@@ -1637,11 +1629,9 @@ label afterdefeatingdrone:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream",size=40) as tminus:
-        #xalign 0.5
-        #yalign 0.5
+    show expression Text(_("T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream"),size=40) as tminus:
+        xalign 0.5
+        yalign 0.5
     pause 3
     hide tminus
     "... ... ..."
@@ -2317,12 +2307,10 @@ label distractingotherclaude:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 52 hours before the Liberation Day Massacre, 16 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 52 hours before the Liberation Day Massacre, 16 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 52 hours before the Liberation Day Massacre, 16 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     scene bg sickbay with dissolve
     
     play music "Music/Colors_sad.ogg" fadeout 1.5
@@ -2986,12 +2974,10 @@ label capturedkidnapping:
         
         play sound "sound/drum.ogg"
 
-        time "T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"
-
-        #show expression Text("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+        show expression Text(_("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
         
         $ renpy.music.set_volume(1.0, delay=1.0, channel='music')
         
@@ -3410,14 +3396,15 @@ label detainedinbrig:
 
     # Ava sped up your interrogatory, no time to lose!
     if ship_power == False and girl == "Ava":
-        time "T-minus 49 hours before the Liberation Day Massacre, 13 hours until Chigara enters the mind stream"
+        show expression Text(_("T-minus 49 hours before the Liberation Day Massacre, 13 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
     else:
-        time "T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+        show expression Text(_("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
     
     play music "Music/Fallen_Angel_drone.ogg" fadeout 1.5
     
@@ -3578,12 +3565,10 @@ label badend_trapped:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus ??? hours before the Liberation Day Massacre, ??? hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus ??? hours before the Liberation Day Massacre, ??? hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus ??? hours before the Liberation Day Massacre, ??? hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     if ship_power == True and girl != "Ava":
         scene bg brig with horizontalwipe
@@ -3880,12 +3865,10 @@ label freedbyicari:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Destinys_Path.ogg" fadeout 1.5
     
@@ -4050,12 +4033,10 @@ label freedbyava:
         
         play sound "sound/drum.ogg"
 
-        time "T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream"
-
-        #show expression Text("T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+        show expression Text(_("T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
         
         play music "Music/Colors_of_an_Orchestra_II.ogg" fadeout 1.5
         
@@ -4350,19 +4331,20 @@ label gotobackupftl:
     
     if captured == True:
         if girl == "Ava":
-            time "T-minus 48 hours before the Liberation Day Massacre, 12 hours until Chigara enters the mind stream"
+            show expression Text(_("T-minus 48 hours before the Liberation Day Massacre, 12 hours until Chigara enters the mind stream"),size=40):
+                xalign 0.5
+                yalign 0.5
+            pause
         else:
-            time "T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"
-        #show expression Text("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+            show expression Text(_("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"),size=40):
+                xalign 0.5
+                yalign 0.5
+            pause
     else:
-        time "T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"
-        #show expression Text("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+        show expression Text(_("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
     
     play music "Music/Cracking_the_Code.ogg" fadeout 1.5
     
@@ -5220,12 +5202,10 @@ label badend_deathbydecompression:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
         
     scene bg tunnel with dissolve
     "The pair continued their slow return to Deck 1. Gradually, the air thickened with oxygen and the temperature increased the further away they got from the ship's extremities."
@@ -5473,12 +5453,10 @@ label restoringpower:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     scene bg tunnel with dissolve
     play music "music/Colors_main.ogg"  fadeout 1.5
     "After what seemed like an eternity, the pair finally returned to the ship's core. They sighed in relief as the air once again became thick with oxygen and the frost on the tunnels gradually disappeared."
@@ -6882,12 +6860,10 @@ label endgame_awardhall:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 3 hours before the Liberation Day Massacre"
-
-    #show expression Text("T-minus 3 hours before the Liberation Day Massacre",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 3 hours before the Liberation Day Massacre"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "music/Anguish.ogg" fadeout 1.5
     
@@ -8284,12 +8260,10 @@ label gettingclaudetobianca:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Cracking_the_Code.ogg" fadeout 1.5
     
@@ -8553,12 +8527,10 @@ label reachbianca:
     #Hallway -  "T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"
     scene black with dissolve
 
-    time "T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     scene bg hallway with dissolve
     "Shields groggily woke up... He felt himself being dragged along the hallway of the ship..."
     "He looked around, his consciousness still fading in and out..."

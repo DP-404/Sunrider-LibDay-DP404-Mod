@@ -38690,123 +38690,87 @@ translate spanish theendfornow_dab4d171:
     # kay "For our greatest adventure yet."
     kay "Hacia nuestra mayor aventura hasta ahora."
 
-# game/REturn.rpy:442
-translate spanish select_asaga_32678968:
 
-    # time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-    time "T-mins 63h para la Masacre del Día de Liberación, 27h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:628
-translate spanish select_ava_32678968:
 
-    # time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-    time "T-mins 63h para la Masacre del Día de Liberación, 27h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:765
-translate spanish select_sola_32678968:
 
-    # time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-    time "T-mins 63h para la Masacre del Día de Liberación, 27h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:937
-translate spanish select_icari_32678968:
 
-    # time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-    time "T-mins 63h para la Masacre del Día de Liberación, 27h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:1638
-translate spanish afterdefeatingdrone_1164b1d1:
 
-    # time "T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream"
-    time "T-mins 53h para la Masacre del Día de Liberación, 17h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:2318
-translate spanish distractingotherclaude_4a2fe2ac:
 
-    # time "T-mins 52h para la Masacre del Día de Liberación, 16h para que Chigara entre al torrente de mentes"
-    time "T-mins 52h para la Masacre del Día de Liberación, 16h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:2987
-translate spanish capturedkidnapping_9f88dcfe:
 
-    # time "T-mins 50h para la Masacre del Día de Liberación, 14h para que Chigara entre al torrente de mentes"
-    time "T-mins 50h para la Masacre del Día de Liberación, 14h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:3409
-translate spanish detainedinbrig_ec71c82f:
 
-    # time "T-mins 47h para la Masacre del Día de Liberación, 11h para que Chigara entre el torrente de mentes"
-    time "T-mins 49h para la Masacre del Día de Liberación, 13h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:3409
-translate spanish detainedinbrig_a9542635:
 
-    # time "T-mins 47h para la Masacre del Día de Liberación, 11h para que Chigara entre el torrente de mentes"
-    time "T-mins 47h para la Masacre del Día de Liberación, 11h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:3569
-translate spanish badend_trapped_0ea8d41a:
 
-    # time "T-mins ???h para la Masacre del Día de Liberación, ???h para que Chigara entre al torrente de mentes"
-    time "T-mins ???h para la Masacre del Día de Liberación, ???h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:3873
-translate spanish freedbyicari_cff79466:
 
-    # time "T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"
-    time "T-mins 45h para la Masacre del Día de Liberación, 9h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:4043
-translate spanish freedbyava_6fcfe3db:
 
-    # time "T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream"
-    time "T-mins 46h para la Masacre del Día de Liberación, 10h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:4342
-translate spanish gotobackupftl_74b41bf4:
 
-    # time "T-minus 48 hours before the Liberation Day Massacre, 12 hours until Chigara enters the mind stream"
-    time "T-mins 48h para la Masacre del Día de Liberación, 12h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:4342
-translate spanish gotobackupftl_cff79466:
+    # game/REturn.rpy:444
+    old "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
+    new "T-minus 63h para la Masacre del Día de Liberación, 27h para que Chigara entre al torrente de mentes"
 
-    # time "T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"
-    time "T-mins 45h para la Masacre del Día de Liberación, 9h para que Chigara entre al torrente de mentes"
+    # game/REturn.rpy:1641
+    old "T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream"
+    new "T-minus 53h para la Masacre del Día de Liberación, 17h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:4348
-translate spanish gotobackupftl_9f88dcfe:
+    # game/REturn.rpy:2321
+    old "T-minus 52 hours before the Liberation Day Massacre, 16 hours until Chigara enters the mind stream"
+    new "T-minus 52h para la Masacre del Día de Liberación, 16h para que Chigara entre al torrente de mentes"
 
-    # time "T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"
-    time "T-mins 50h para la Masacre del Día de Liberación, 14h para que Chigara entre al torrente de mentes"
+    # game/REturn.rpy:2990
+    old "T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"
+    new "T-minus 50h para la Masacre del Día de Liberación, 14h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:5209
-translate spanish badend_deathbydecompression_9d7d2d82:
+    # game/REturn.rpy:3414
+    old "T-minus 49 hours before the Liberation Day Massacre, 13 hours until Chigara enters the mind stream"
+    new "T-minus 49h para la Masacre del Día de Liberación, 13h para que Chigara entre al torrente de mentes"
 
-    # time "T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream"
-    time "T-mins 43h para la Masacre del Día de Liberación, 7h para que Chigara entre al torrente de mentes"
+    # game/REturn.rpy:3421
+    old "T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"
+    new "T-minus 47h para la Masacre del Día de Liberación, 11h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:5462
-translate spanish restoringpower_a9542635:
+    # game/REturn.rpy:3587
+    old "T-minus ??? hours before the Liberation Day Massacre, ??? hours until Chigara enters the mind stream"
+    new "T-minus ???h para la Masacre del Día de Liberación, ???h para que Chigara entre al torrente de mentes"
 
-    # time "T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"
-    time "T-mins 47h para la Masacre del Día de Liberación, 11h para que Chigara entre al torrente de mentes"
+    # game/REturn.rpy:3889
+    old "T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"
+    new "T-minus 45h para la Masacre del Día de Liberación, 9h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:6871
-translate spanish endgame_awardhall_0f2624e2:
+    # game/REturn.rpy:4059
+    old "T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream"
+    new "T-minus 46h para la Masacre del Día de Liberación, 10h para que Chigara entre al torrente de mentes"
 
-    # time "T-minus 3 hours before the Liberation Day Massacre"
-    time "T-mins 3h para la Masacre del Día de Liberación"
+    # game/REturn.rpy:4358
+    old "T-minus 48 hours before the Liberation Day Massacre, 12 hours until Chigara enters the mind stream"
+    new "T-minus 48h para la Masacre del Día de Liberación, 12h para que Chigara entre al torrente de mentes"
 
-# game/REturn.rpy:8273
-translate spanish gettingclaudetobianca_d86cf71a:
+    # game/REturn.rpy:5233
+    old "T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream"
+    new "T-minus 43h para la Masacre del Día de Liberación, 7h para que Chigara entre al torrente de mentes"
 
-    # time "T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream"
-    time "T-mins 44h para la Masacre del Día de Liberación, 8h para que Chigara entre al torrente de mentes"
+    # game/REturn.rpy:6895
+    old "T-minus 3 hours before the Liberation Day Massacre"
+    new "T-minus 3h para la Masacre del Día de Liberación"
 
-# game/REturn.rpy:8542
-translate spanish reachbianca_91c8a5ff:
+    # game/REturn.rpy:8258
+    old "T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream"
+    new "T-minus 44h para la Masacre del Día de Liberación, 8h para que Chigara entre al torrente de mentes"
 
-    # time "T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"
-    time "T-mins 36h para la Masacre del Día de Liberación, 10m para que Chigara entre al torrente de mentes"
+    # game/REturn.rpy:8525
+    old "T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"
+    new "T-minus 36h para la Masacre del Día de Liberación, 10min para que Chigara entre al torrente de mentes"
+
+
 
