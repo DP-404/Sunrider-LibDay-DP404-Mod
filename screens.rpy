@@ -996,153 +996,77 @@ screen preferences:
                 
                 default tt = Tooltip("")
 
-                if _preferences.language != "spanish":
-
-                    imagebutton:
-                        xpos 90 ypos 170
-                        idle "UI/options_gameplay_waifu.png"
-                        hover tr_hoverglow("UI/options_gameplay_waifu.png")
-                        selected_idle "UI/options_gameplay_waifu_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_waifu_select.png")
-                        hovered tt.Action("Reduces the difficulty to near nill\nfor a stress free experience."),SetVariable("tty",170)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 0)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 170
+                    idle "UI/options_gameplay_waifu.png"
+                    hover tr_hoverglow("UI/options_gameplay_waifu.png")
+                    selected_idle "UI/options_gameplay_waifu_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_waifu_select.png")
+                    hovered tt.Action(_("Reduces the difficulty to near nill\nfor a stress free experience.")),SetVariable("tty",170)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 0)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
                 
-                    imagebutton:
-                        xpos 90 ypos 220
-                        idle "UI/options_gameplay_casual.png"
-                        hover tr_hoverglow("UI/options_gameplay_casual.png")
-                        selected_idle "UI/options_gameplay_casual_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_casual_select.png")
-                        hovered tt.Action("Easy for newcomers and people not\ninterested in strategy."),SetVariable("tty",220)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 1)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 220
+                    idle "UI/options_gameplay_casual.png"
+                    hover tr_hoverglow("UI/options_gameplay_casual.png")
+                    selected_idle "UI/options_gameplay_casual_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_casual_select.png")
+                    hovered tt.Action(_("Easy for newcomers and people not\ninterested in strategy.")),SetVariable("tty",220)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 1)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 270
-                        idle "UI/options_gameplay_ensign.png"
-                        hover tr_hoverglow("UI/options_gameplay_ensign.png")
-                        selected_idle "UI/options_gameplay_ensign_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_ensign_select.png")
-                        hovered tt.Action("Average difficulty for people who want\na reasonable challenge."),SetVariable("tty",270)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 2)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 270
+                    idle "UI/options_gameplay_ensign.png"
+                    hover tr_hoverglow("UI/options_gameplay_ensign.png")
+                    selected_idle "UI/options_gameplay_ensign_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_ensign_select.png")
+                    hovered tt.Action(_("Average difficulty for people who want\na reasonable challenge.")),SetVariable("tty",270)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 2)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 320
-                        idle "UI/options_gameplay_captain.png"
-                        hover tr_hoverglow("UI/options_gameplay_captain.png")
-                        selected_idle "UI/options_gameplay_captain_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_captain_select.png")
-                        action SetVariable("Difficulty", 3)
-                        hovered tt.Action("Challenging but fair. Your mistakes\nwill be punished without mercy."),SetVariable("tty",320)
-                        unhovered SetVariable("tty",-5000)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 320
+                    idle "UI/options_gameplay_captain.png"
+                    hover tr_hoverglow("UI/options_gameplay_captain.png")
+                    selected_idle "UI/options_gameplay_captain_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_captain_select.png")
+                    action SetVariable("Difficulty", 3)
+                    hovered tt.Action(_("Challenging but fair. Your mistakes\nwill be punished without mercy.")),SetVariable("tty",320)
+                    unhovered SetVariable("tty",-5000)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 370
-                        idle "UI/options_gameplay_admiral.png"
-                        hover tr_hoverglow("UI/options_gameplay_admiral.png")
-                        selected_idle "UI/options_gameplay_admiral_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_admiral_select.png")
-                        hovered tt.Action("For people who are good at this game."),SetVariable("tty",370)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 4)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 370
+                    idle "UI/options_gameplay_admiral.png"
+                    hover tr_hoverglow("UI/options_gameplay_admiral.png")
+                    selected_idle "UI/options_gameplay_admiral_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_admiral_select.png")
+                    hovered tt.Action(_("For people who are good at this game.")),SetVariable("tty",370)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 4)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 420
-                        idle "UI/options_gameplay_spacewhale.png"
-                        hover tr_hoverglow("UI/options_gameplay_spacewhale.png")
-                        selected_idle "UI/options_gameplay_spacewhale_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_spacewhale_select.png")
-                        hovered tt.Action("Why would you do this to yourself..."),SetVariable("tty",420)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 5)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                else:
-
-                    imagebutton:
-                        xpos 90 ypos 170
-                        idle "UI/options_gameplay_waifu.png"
-                        hover tr_hoverglow("UI/options_gameplay_waifu.png")
-                        selected_idle "UI/options_gameplay_waifu_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_waifu_select.png")
-                        hovered tt.Action("Reduce la dificultad a casi nula para\nuna experiencia libre de estrés."),SetVariable("tty",170)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 0)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-                
-                    imagebutton:
-                        xpos 90 ypos 220
-                        idle "UI/options_gameplay_casual.png"
-                        hover tr_hoverglow("UI/options_gameplay_casual.png")
-                        selected_idle "UI/options_gameplay_casual_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_casual_select.png")
-                        hovered tt.Action("Fácil para principiantes y personas\nno interesadas en la estrategia."),SetVariable("tty",220)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 1)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 270
-                        idle "UI/options_gameplay_ensign.png"
-                        hover tr_hoverglow("UI/options_gameplay_ensign.png")
-                        selected_idle "UI/options_gameplay_ensign_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_ensign_select.png")
-                        hovered tt.Action("Dificultad media para personas\nque quieren un reto razonable."),SetVariable("tty",270)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 2)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 320
-                        idle "UI/options_gameplay_captain.png"
-                        hover tr_hoverglow("UI/options_gameplay_captain.png")
-                        selected_idle "UI/options_gameplay_captain_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_captain_select.png")
-                        action SetVariable("Difficulty", 3)
-                        hovered tt.Action("Desafiante pero justo. Tus errores\nserán castigados sin piedad.."),SetVariable("tty",320)
-                        unhovered SetVariable("tty",-5000)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 370
-                        idle "UI/options_gameplay_admiral.png"
-                        hover tr_hoverglow("UI/options_gameplay_admiral.png")
-                        selected_idle "UI/options_gameplay_admiral_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_admiral_select.png")
-                        hovered tt.Action("Para personas que son buenas en este juego."),SetVariable("tty",370)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 4)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 420
-                        idle "UI/options_gameplay_spacewhale.png"
-                        hover tr_hoverglow("UI/options_gameplay_spacewhale.png")
-                        selected_idle "UI/options_gameplay_spacewhale_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_spacewhale_select.png")
-                        hovered tt.Action("Por qué te harías esto a tí mismo..."),SetVariable("tty",420)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 5)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 420
+                    idle "UI/options_gameplay_spacewhale.png"
+                    hover tr_hoverglow("UI/options_gameplay_spacewhale.png")
+                    selected_idle "UI/options_gameplay_spacewhale_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_spacewhale_select.png")
+                    hovered tt.Action(_("Why would you do this to yourself...")),SetVariable("tty",420)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 5)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
                 imagebutton:
                     xpos 600 ypos 168
