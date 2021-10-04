@@ -1350,13 +1350,6 @@ screen history:
             frame at tr_fadein(1):
                 background None
 
-                if _preferences.language == "spanish":
-                    $ title_text = -2
-                    $ hover_text = -1
-                else:
-                    $ title_text = 1
-                    $ hover_text = 2
-
                 for item in setoptions[:]:
                     if item[0] == 1: # Is an option title
                         if eval(item[3]):
@@ -1366,12 +1359,12 @@ screen history:
                                 hover "UI/input_plotback.png"
                                 action NullAction()
                                 
-                                hovered htt.Action(item[hover_text]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
+                                hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
                                 
                                 unhovered SetVariable("htty",-5000)
                                 activate_sound "sound/button1.ogg"
 
-                            text item[title_text]:
+                            text item[1]:
                                 xpos 10+25 ypos optionsypos[setoptions.index(item)]+10
                                 font "Fonts/ShareTech-Regular.ttf"
                                 size 20
@@ -1386,13 +1379,13 @@ screen history:
                                 selected_idle "UI/input_decision_select.png"
                                 selected_hover "UI/input_decision_select.png"
                                 
-                                hovered htt.Action(item[hover_text]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
+                                hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
                                 
                                 unhovered SetVariable("htty",-5000)
                                 action SetVariable(item[4][0],item[4][1])
                                 activate_sound "sound/button1.ogg" 
 
-                            text item[title_text]:
+                            text item[1]:
                                 xpos optionsxpos[setoptions.index(item)]+25 ypos optionsypos[setoptions.index(item)]+10
                                 font "Fonts/ShareTech-Regular.ttf"
                                 size 20
