@@ -452,7 +452,7 @@ screen REturn_menu():
                     
                     if persistent.unlocked_endings[ending] is False:
                         add "REturn/UI/ui_lockedend.png"
-                        text "Locked" xanchor 0.5 xpos 258 color "000"
+                        text _("Locked") xanchor 0.5 xpos 258 color "000"
                     else:
                         $unlocked_endings_count+=1
                         if "BAD" in ending:
