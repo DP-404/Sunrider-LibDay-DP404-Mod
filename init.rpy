@@ -23,8 +23,6 @@ define cul = Character('CULLEN'       , what_outlines=[(3, "#000000", 1, 1),(2, 
 define ica = Character('ICARI'        , what_outlines=[(3, "#000000", 1, 1),(2, "#7d660c", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#dd9c38", 0, 0)],ctc="ctc",ctc_position="fixed")
 define kry = Character('KRYSKA'       , what_outlines=[(3, "#000000", 1, 1),(2, "#3b3d66", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#3b3d66", 0, 0)],ctc="ctc",ctc_position="fixed")
 define cos = Character('COSETTE'      , what_outlines=[(3, "#000000", 1, 1),(2, "#d39980", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#d39980", 0, 0)],ctc="ctc",ctc_position="fixed")
-define pof = Character('OFFICER'      , what_outlines=[(3, "#000000", 1, 1),(2, "#d04545", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#d04545", 0, 0)],ctc="ctc",ctc_position="fixed")
-define pac = Character('ENSIGN'       , what_outlines=[(3, "#000000", 1, 1),(2, "#d04545", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#d04545", 0, 0)],ctc="ctc",ctc_position="fixed")
 define pof = Character(_('OFFICER')      , what_outlines=[(3, "#000000", 1, 1),(2, "#d04545", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#d04545", 0, 0)],ctc="ctc",ctc_position="fixed")
 define pac = Character(_('ENSIGN')       , what_outlines=[(3, "#000000", 1, 1),(2, "#d04545", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#d04545", 0, 0)],ctc="ctc",ctc_position="fixed")
 define unof = Character(_('OFFICER')     , what_outlines=[(3, "#000000", 1, 1),(2, "#d04545", 0, 0) ], who_outlines=[(5, "#000000", 1, 1),(3, "#d04545", 0, 0)],ctc="ctc",ctc_position="fixed")
