@@ -24430,3 +24430,61 @@ translate spanish preview_43161fd5:
     # sol "I return to the uneaten sesame b-erm, the abyss..."
     sol ""
 
+translate spanish strings:
+
+    # game/script.rpy:2219
+    old "Well commander, I think our pilots have a point."
+    new "Bueno comandante, creo que nuestras pilotos tienen un punto."
+
+    # game/script.rpy:2219
+    old "We can't use a ryder associated with the murder of innocents."
+    new "No podemos usar un ryder asociado con el asesinato de inocentes."
+
+    # game/script.rpy:3787
+    old "No, we scavenge the battle site for lost technology."
+    new "No, rastrearemos entre los escombros del campo de batalla en busca de tecnología perdida."
+
+    # game/script.rpy:3787
+    old "The men and women who perished a century prior deserve our respect."
+    new "Los hombres y mujeres que perecieron hace cien años merecen nuestro respeto."
+
+    # game/script.rpy:8469
+    old "You're lying... Chigara's not one of you."
+    new "Estás mintiendo... Chigara no es una de ustedes."
+
+    # game/script.rpy:8469
+    old "You're... not getting instructions. Are you?"
+    new "Tú... no estás recibiendo instrucciones. ¿Cierto?"
+
+    # game/script.rpy:8668
+    old "No... Chigara didn't betray me..."
+    new "No... Chigara no me traicionó..."
+
+    # game/script.rpy:8668
+    old "...You were right after all... I was... fooled...!"
+    new "...Tenías razón después de todo... ¡Yo fui... engañado...!"
+
+    # game/script.rpy:9057
+    old "Let's gag and bind her and then toss her in a cargo crate for now."
+    new "Amarrémosla y tirémosla en una caja de cargamento por ahora."
+
+    # game/script.rpy:9057
+    old "She did save me... I think we still have a lot we could learn by keeping her here."
+    new "Ella me salvó... Creo que todavía tenemos mucho que podríamos aprender manteniéndola aquí."
+
+    # game/script.rpy:9202
+    old "I know, Ava... I always knew. I'm sorry... It was my fault for pushing you away..."
+    new "Lo sé, Ava... Siempre lo supe. Lo lamento... Fue mi culpa por apartarte a la fuerza..."
+
+    # game/script.rpy:9202
+    old "The road ahead will be long. Can I count on you as my executive officer?"
+    new "El camino adelante será largo. ¿Puedo contar contigo como mi oficial ejecutiva?"
+
+    # game/script.rpy:9584
+    old "No. I'm not going to allow that, Sola!"
+    new "No. ¡No voy a permitir eso, Sola!"
+
+    # game/script.rpy:9584
+    old "How can we even do that!?"
+    new "¿¡Cómo podríamos siquiera hacer eso!?"
+

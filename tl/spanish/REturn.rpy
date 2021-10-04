@@ -38690,31 +38690,107 @@ translate spanish theendfornow_dab4d171:
     # kay "For our greatest adventure yet."
     kay "Hacia nuestra mayor aventura hasta ahora."
 
+translate spanish strings:
 
+    # game/REturn.rpy:827
+    old "All right, I trust you Claude."
+    new "Está bien, confío en tí Claude."
 
+    # game/REturn.rpy:827
+    old "I don't trust you yet... but we're still going to have to work together."
+    new "No confío en tí todavía... pero aún así vamos a tener que trabajar juntos."
 
+    # game/REturn.rpy:1163
+    old "Save the crewman."
+    new "Salvar al tripulante."
 
+    # game/REturn.rpy:1163
+    old "Don't blow cover."
+    new "No exponerme."
 
+    # game/REturn.rpy:1223
+    old "Grab the pistol and attack the drone."
+    new "Agarrar la pistola y atacar al dron."
 
+    # game/REturn.rpy:1223
+    old "Grab the pistol and fall back."
+    new "Agarrar la pistola y retirarse."
 
+    # game/REturn.rpy:1494
+    old "Fight the drone in the room."
+    new "Comnbatir al dron en la habitación."
 
+    # game/REturn.rpy:1494
+    old "Escape back into the service tunnel."
+    new "Escapar de vuelta al túnel de servicio."
 
+    # game/REturn.rpy:1723
+    old "We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."
+    new "Tomaremos ese riesgo. Tenemos que secuestrar a Chigara lo antes posible y no hay tiempo que perder."
 
+    # game/REturn.rpy:1723
+    old "There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."
+    new "*Hay* un cierto cuerpo doble en nuestra prisión ahora mismo que luce casi idéntico a Chigara..."
 
+    # game/REturn.rpy:2405
+    old "Try to steal Claude's holo."
+    new "Intentar robar el holo de Claude."
 
+    # game/REturn.rpy:2405
+    old "Leave the sickbay without the holo."
+    new "Dejar la bahía médica sin el holo."
 
+    # game/REturn.rpy:2746
+    old "Claude, I'm through with being your plaything!"
+    new "¡Claude, estoy cansado de ser tu juguete!"
 
+    # game/REturn.rpy:2746
+    old "We're in this too deep now. We have to keep working together."
+    new "Estamos en esto demasiado profundo ahora. Tenemos que seguir trabajando juntos."
 
+    # game/REturn.rpy:3093
+    old "I'll just have to trust Ava..."
+    new "Tendré simplemente que confiar en Ava..."
 
+    # game/REturn.rpy:3093
+    old "I can't get captured here! I'll have to try to escape!"
+    new "¡No puedo ser capturado aquí! ¡Tendré que intentar escapar!"
 
+    # game/REturn.rpy:4234
+    old "We kill Chigara: First, we sneak into my office and contact Fontana. Then we get Claude to swap with this universe's Claude on the Bianca tomorrow so that Asaga kills Chigara for us."
+    new "Matamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces hacemos que Claude se intercambie con la Claude de este universo en el Bianca mañana de forma que Asaga mate a Chigara por nosotros."
 
+    # game/REturn.rpy:4234
+    old "We capture Chigara: First, we sneak into my office and contact Fontana. Then, we confront this universe's Kayto Shields together to convince him to detain Chigara."
+    new "Capturamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces, confrontamos al Kayto Shields de este universo juntos para convencerlo de detener a Chigara."
 
+    # game/REturn.rpy:4253
+    old "We confront the other Kayto Shields and convince him to detain Chigara."
+    new "Confrontamos al otro Kayto Shields y lo convencemos de detener a Chigara."
 
+    # game/REturn.rpy:4253
+    old "We use Asaga to kill Chigara for us."
+    new "Usamos a Asaga para matar a Chigara por nosotros."
 
+    # game/REturn.rpy:6073
+    old "Get Asaga to kill Chigara"
+    new "Hacer que Asaga mate a Chigara."
 
+    # game/REturn.rpy:6073
+    old "Escape the ship with Sola"
+    new "Escapar de la nave con Sola."
 
+    # game/REturn.rpy:7027
+    old "Pull the trigger."
+    new "Tirar del gatillo."
 
+    # game/REturn.rpy:7027
+    old "Don't pull the trigger"
+    new "No tirar del gatillo."
 
+    # game/REturn.rpy:8401
+    old "Get Claude into the Bianca."
+    new "Meter a Claude dentro del Bianca."
 
     # game/REturn.rpy:444
     old "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"

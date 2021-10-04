@@ -106,17 +106,12 @@ screen decision:
             activate_sound "sound/button1.ogg"
             action (Hide("decision"),Jump(item[1]))
 
-        if _preferences.language == "spanish":
-            $dText = 2
-        else:
-            $dText = 0
-
-        if len(item[dText]) < 120:
+        if len(item[0]) < 120:
             $ separator = 0.04
         else:
             $ separator = 0.02
 
-        text item[dText] at tr_decision(0.2*menu_choices.index(item)):
+        text item[0] at tr_decision(0.2*menu_choices.index(item)):
             text_align 0.5 xanchor 0.5 ypos pointBase+separator +(0.15*menu_choices.index(item))
             size 40
             outlines [ (4, "#282828", 0, 0) ]  

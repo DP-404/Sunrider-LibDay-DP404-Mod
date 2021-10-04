@@ -2213,8 +2213,8 @@ label hangarlecture:
     "Shields crossed his arms in contemplation."
 
     $ menu_choices = [
-                     ["Well commander, I think our pilots have a point.","savehavoc","Bueno, comandante, creo que nuestros pilotos tienen razón."],
-                     ["We can't use a ryder associated with the murder of innocents.","scraphavoc","No podemos usar un ryder asociado con el asesinato de inocentes."],
+                     [_("Well commander, I think our pilots have a point."),"savehavoc"],
+                     [_("We can't use a ryder associated with the murder of innocents."),"scraphavoc"],
                      ]
     
     show screen decision
@@ -3776,8 +3776,8 @@ label after_mission4:
     kay "... ... ..."
 
     $ menu_choices = [
-                     ["No, we scavenge the battle site for lost technology.","scavagebattlesite","No, rastrearemos entre los escombros del campo de batalla en busca de tecnología perdida."],
-                     ["The men and women who perished a century prior deserve our respect.","leavebattlesite","Los hombres y mujeres que perecieron hace cien años merecen nuestro respeto."],
+                     [_("No, we scavenge the battle site for lost technology."),"scavagebattlesite"],
+                     [_("The men and women who perished a century prior deserve our respect."),"leavebattlesite"],
                      ]
     
     show screen decision
@@ -8458,8 +8458,8 @@ label newend:
     kay "(Then could something have happened to free Lynn?)"
 
     $ menu_choices = [
-                     ["You're lying... Chigara's not one of you.","chigaranotyou","Estás mintiendo... Chigara no es una de ustedes."],
-                     ["You're... not getting instructions. Are you?","notgettinginstructions","Tú... no estás recibiendo instrucciones. ¿Cierto?"],
+                     [_("You're lying... Chigara's not one of you."),"chigaranotyou"],
+                     [_("You're... not getting instructions. Are you?"),"notgettinginstructions"],
                      ]
 
     show screen decision
@@ -8657,8 +8657,8 @@ label premonitionurge:
     asa "I can't..."
     
     $ menu_choices = [
-                     ["No... Chigara didn't betray me...","chigaradidntbetray","No... Chigara no me traicionó..."],
-                     ["...You were right after all... I was... fooled...!","rightifooled","...Tenías razón después de todo... ¡Yo fui... engañado...!"],
+                     [_("No... Chigara didn't betray me..."),"chigaradidntbetray"],
+                     [_("...You were right after all... I was... fooled...!"),"rightifooled"],
                      ]
 
     show screen decision
@@ -9046,8 +9046,8 @@ label thoughtbitbullet:
     ava "But perhaps later at another location..."
 
     $ menu_choices = [
-                     ["Let's gag and bind her and then toss her in a cargo crate for now.","tielynnup","Amarrémosla y tirémosla en una caja de cargamento por ahora."],
-                     ["She did save me... I think we still have a lot we could learn by keeping her here.","didsavelearn","Ella me salvó... Creo que todavía tenemos mucho que podríamos aprender manteniéndola aquí."],
+                     [_("Let's gag and bind her and then toss her in a cargo crate for now."),"tielynnup"],
+                     [_("She did save me... I think we still have a lot we could learn by keeping her here."),"didsavelearn"],
                      ]
 
     show screen decision
@@ -9191,8 +9191,8 @@ label shieldslookedholoport:
     ava "Together, as one. No matter the impossible odds."
 
     $ menu_choices = [
-                     ["I know, Ava... I always knew. I'm sorry... It was my fault for pushing you away...","avaknowsorry","Lo sé, Ava... Siempre lo supe. Lo lamento... Fue mi culpa por apartarte a la fuerza..."],
-                     ["The road ahead will be long. Can I count on you as my executive officer?","roadlongofficer","El camino adelante será largo. ¿Puedo contar contigo como mi oficial ejecutiva?"],
+                     [_("I know, Ava... I always knew. I'm sorry... It was my fault for pushing you away..."),"avaknowsorry"],
+                     [_("The road ahead will be long. Can I count on you as my executive officer?"),"roadlongofficer"],
                      ]
     
     show screen decision
@@ -9573,8 +9573,8 @@ label commanderunfairme:
     sol "One which must be removed."
 
     $ menu_choices = [
-                     ["No. I'm not going to allow that, Sola!","notallowsola","No. ¡No voy a permitir eso, Sola!"],
-                     ["How can we even do that!?","howevendo","¿¡Cómo podríamos siquiera hacer eso!?"],
+                     [_("No. I'm not going to allow that, Sola!"),"notallowsola"],
+                     [_("How can we even do that!?"),"howevendo"],
                      ]
 
     show screen decision

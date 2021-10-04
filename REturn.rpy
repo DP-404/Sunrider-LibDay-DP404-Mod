@@ -411,10 +411,10 @@ label dlc_begin:
     #show screen selecting "Asaga," "Ava," "Sola," or "Icari"
     #Player selects from one of four girls.
     $ menu_choices = [
-                     ["Asaga","select_asaga","Asaga"],
-                     ["Ava","select_ava","Ava"],
-                     ["Sola","select_sola","Sola"],
-                     ["Icari","select_icari","Icari"],
+                     ["Asaga","select_asaga"],
+                     ["Ava","select_ava"],
+                     ["Sola","select_sola"],
+                     ["Icari","select_icari"],
                      ]
     show screen decision
     pause
@@ -819,8 +819,8 @@ label select_sola:
     cla "I was fine with helping the Prototypes accomplish that. But then the massacre happened..."
     
     $ menu_choices = [
-                 ["All right, I trust you Claude.","select_sola_trustclaude","De acuerdo, confío en tí, Claude."],
-                 ["I don't trust you yet... but we're still going to have to work together.","select_sola_donttrustclaude","No confío en tí todavía, pero aún así vamos a tener que trabajar juntos."],
+                 [_("All right, I trust you Claude."),"select_sola_trustclaude"],
+                 [_("I don't trust you yet... but we're still going to have to work together."),"select_sola_donttrustclaude"],
                  ]
     show screen decision
     pause
@@ -1153,8 +1153,8 @@ label firstbattleofcera:
     stop sound fadeout 1.5
     
     $ menu_choices = [
-                     ["Save the crewman.","savethecrewman","Salvar al tripulante."],
-                     ["Don't blow cover.","dontblowcover","No arruinar la cobertura."],
+                     [_("Save the crewman."),"savethecrewman"],
+                     [_("Don't blow cover."),"dontblowcover"],
                      ]
     show screen decision
     pause
@@ -1213,8 +1213,8 @@ label savethecrewman:
     "Shields looked around, and saw a pistol lying beside a fallen crewman. It would take far more than that to down a mechanized hunter drone, but it was something..."
     
     $ menu_choices = [
-                     ["Grab the pistol and attack the drone.","attackdronewithpistol","Tomar la pistola y atacar al dron."],
-                     ["Grab the pistol and fall back.","grabpistolfallback","Tomar la pistola y retirarse."],
+                     [_("Grab the pistol and attack the drone."),"attackdronewithpistol"],
+                     [_("Grab the pistol and fall back."),"grabpistolfallback"],
                      ]
     show screen decision
     pause
@@ -1485,8 +1485,8 @@ label dontblowcover:
     "The service gate where they had entered the room was behind them... They could use it to retreat..."
     "He also noted canisters of liquid Ongessite stored on the opposite end of the room... If he could somehow get to those..."
     $ menu_choices = [
-                    ["Fight the drone in the room.","fightdroneinroom","Luchar contra el dron dentro de la habitación."],
-                    ["Escape back into the service tunnel.","escapeintotunnel","Escapar de vuelta dentro del túnel de servicio."],
+                    [_("Fight the drone in the room."),"fightdroneinroom"],
+                    [_("Escape back into the service tunnel."),"escapeintotunnel"],
                     ]
     show screen decision
     pause
@@ -1712,8 +1712,8 @@ label meetasagaathangar:
     kay "(How are we going to do that...)"
     
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","asaga_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","asaga_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"asaga_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"asaga_bodyswap"],
                     ]
     show screen decision
     pause
@@ -1850,8 +1850,8 @@ label meetsolaathangar:
     sol "Given the duration we must hold her, we must find a way to prevent anyone from realizing she has gone missing."
 
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","sola_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","sola_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"sola_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"sola_bodyswap"],
                     ]
     show screen decision
     pause
@@ -2005,8 +2005,8 @@ label meeticariathangar:
     ica "On top of all that, we've got to figure out a way to make sure nobody notices Chigara's gone missing until at least the battle begins. No doubt, the other Kayto Shields will launch a search as soon as he discovers that Chigara has vanished off the face of the ship."
 
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","icari_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","icari_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"icari_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"icari_bodyswap"],
                     ]
     show screen decision
     pause
@@ -2132,8 +2132,8 @@ label meetavaatbridge:
     $dshow(32310)
     cla "One more thing... If Chigara just vanishes from the sickbay, it's only a matter of time until someone realizes what's happened. If the other Kayto Shields hears that his love has just up and vanished, he's going to launch a ship-wide search for her."
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","ava_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","ava_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"ava_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"ava_bodyswap"],
                     ]
     show screen decision
     pause
@@ -2392,8 +2392,8 @@ label distractingotherclaude:
     kay "(For some reason, I have a feeling there's something important on that holo... Maybe it's related to the memories I've temporarily lost.)"
     kay "(But do I risk blowing my cover by trying to steal it?)"
     $ menu_choices = [
-                    ["Try to steal Claude's holo.","stealclaudeholo","Intentar robar el holo de Claude."],
-                    ["Leave the sickbay without the holo.","dontstealclaudeholo","Dejar la bahía médica sin el holo."],
+                    [_("Try to steal Claude's holo."),"stealclaudeholo"],
+                    [_("Leave the sickbay without the holo."),"dontstealclaudeholo"],
                     ]
     show screen decision
     pause
@@ -2733,8 +2733,8 @@ label chigarakidnapped:
     kay "(C-come to think of it... Was there ever a moment when she wasn't playing me like a fiddle during the whole time I've known her!? Argghhh...!)"
 
     $ menu_choices = [
-                    ["Claude, I'm through with being your plaything!","donttrustclaude","¡Claude, estoy cansado de ser  tu juguete!"],
-                    ["We're in this too deep now. We have to keep working together.","trustclaude","Estamos demasiado profundo en esto ahora. Tenemos que seguir trabajando juntos."],
+                    [_("Claude, I'm through with being your plaything!"),"donttrustclaude"],
+                    [_("We're in this too deep now. We have to keep working together."),"trustclaude"],
                     ]
     show screen decision
     pause
@@ -3078,8 +3078,8 @@ label capturedkidnapping:
         kay "(What do I do...)"
         
         $ menu_choices = [
-                        ["I'll just have to trust Ava...","immediatecapture_trustava","Solo tendré que confiar en Ava..."],
-                        ["I can't get captured here! I'll have to try to escape!","immediatecapture_escape","¡No puedo ser capturado aquí! ¡Tendré que intentar escapar!"],
+                        [_("I'll just have to trust Ava..."),"immediatecapture_trustava"],
+                        [_("I can't get captured here! I'll have to try to escape!"),"immediatecapture_escape"],
                         ]
         show screen decision
         pause
@@ -4214,8 +4214,8 @@ label freedbyava:
                 kay "All right... Thanks, Sola..."
                 
                 $ menu_choices = [
-                    ["We kill Chigara: First, we sneak into my office and contact Fontana. Then we get Claude to swap with this universe's Claude on the Bianca tomorrow so that Asaga kills Chigara for us.","sola_killchigarawithasaga","Matamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces hacemos que Claude se intercambie con la Claude de este universo en el Bianca mañana de forma que Asaga mate a Chigara por nosotros."],
-                    ["We capture Chigara: First, we sneak into my office and contact Fontana. Then, we confront this universe's Kayto Shields together to convince him to detain Chigara.","sola_decideconfrontshields","Capturamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces, confrontamos al Kayto Shields de este universo juntos para convencerlo de detener a Chigara."],
+                    [_("We kill Chigara: First, we sneak into my office and contact Fontana. Then we get Claude to swap with this universe's Claude on the Bianca tomorrow so that Asaga kills Chigara for us."),"sola_killchigarawithasaga"],
+                    [_("We capture Chigara: First, we sneak into my office and contact Fontana. Then, we confront this universe's Kayto Shields together to convince him to detain Chigara."),"sola_decideconfrontshields"],
                     ] 
                 show screen decision
                 pause
@@ -4233,8 +4233,8 @@ label freedbyava:
                 kay "I know..."
                 
                 $ menu_choices = [
-                    ["We confront the other Kayto Shields and convince him to detain Chigara.","ava_decideconfrontshields","Confrontamos al Kayto Shields de este universo juntos para convencerlo de detener a Chigara."],
-                    ["We use Asaga to kill Chigara for us.","ava_killchigarawithasaga","Usamos a Asaga para que mate a Chigara por nosotros."],
+                    [_("We confront the other Kayto Shields and convince him to detain Chigara."),"ava_decideconfrontshields"],
+                    [_("We use Asaga to kill Chigara for us."),"ava_killchigarawithasaga"],
                     ]
                 show screen decision
                 pause
@@ -6050,8 +6050,8 @@ label engineering_sola:
         kay "(The other option is making a run for it right now and escaping the ship with Sola. We could then regroup and come up with a new plan to dispatch Chigara before the massacre. Then we wouldn't need to dirty Asaga's hands. But escaping and coming up with a new plan isn't going to be a walk in the park either...)"
         kay "(What do I do...?)"
     $ menu_choices = [
-                    ["Get Asaga to kill Chigara","engineering_asagakillschigara","Hacer que Asaga mate a Chigara."],
-                    ["Escape the ship with Sola","engineering_escapewithsola","Escapar de la nave con Sola."],
+                    [_("Get Asaga to kill Chigara"),"engineering_asagakillschigara"],
+                    [_("Escape the ship with Sola"),"engineering_escapewithsola"],
                     ]
     show screen decision
     pause    
@@ -7002,8 +7002,8 @@ label endgame_awardhall:
     with dissolve
     
     $ menu_choices = [
-                    ["Pull the trigger.","pullthetrigger","Tirar del gatillo."],
-                    ["Don't pull the trigger","dontpulltrigger","No tirar del gatillo."],
+                    [_("Pull the trigger."),"pullthetrigger"],
+                    [_("Don't pull the trigger"),"dontpulltrigger"],
                     ]
     show screen decision
     pause
@@ -8374,8 +8374,8 @@ label gettingclaudetobianca:
         "He looked forward, where the Bianca was waiting... And behind him, where Sola was writhing in pain with a squad of marines approaching..."
         
         $ menu_choices = [
-                    ["Get Claude into the Bianca.","getclaudebianca","Hacer que Claude entre al Bianca."],
-                    ["Rescue Sola.","rescuesola","Rescatar a Sola."],
+                    [_("Get Claude into the Bianca."),"getclaudebianca"],
+                    [_("Rescue Sola.","rescuesola")],
                     ]
         show screen decision
         pause
