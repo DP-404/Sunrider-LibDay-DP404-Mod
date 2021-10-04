@@ -4949,52 +4949,52 @@ init -1 python: ## store items ##
 python early: ## achievements ##
 
     class Lucky(Achievement):
-        name = 'Lucky!'
+        name = _('Lucky!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Survive an attack with less than 10hp remaining."
+            self.description = _("Survive an attack with less than 10hp remaining.")
             self.icon = "lucky_locked.png"
             
     class Unlucky(Achievement):
-        name = 'Unlucky!'
+        name = _('Unlucky!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have a player unit get killed at 0 to -9 HP."
+            self.description = _("Have a player unit get killed at 0 to -9 HP.")
             self.icon = "unlucky_locked.png"
     
     class LoseALife(Achievement):
-        name = 'Lose a life'
+        name = _('Lose a life')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have a non-mercenary player unit get destroyed for the first time."            
+            self.description = _("Have a non-mercenary player unit get destroyed for the first time.")
             self.icon = "loselife_locked.png"
             
     class PeopleDieWhenTheyAreKilled(Achievement):
-        name = 'People Die When They Are Killed'
+        name = _('People Die When They Are Killed')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Lose a mercenary unit."
+            self.description = _("Lose a mercenary unit.")
             self.icon = "peopledie_locked.png"
             
     class SpreadOut(Achievement):
-        name = 'Spread Out!'
+        name = _('Spread Out!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have 5 player ships or more get hit by an AoE rocket."
+            self.description = _("Have 5 player ships or more get hit by an AoE rocket.")
             self.icon = "spreadout_locked.png"
        
     class IHaveThePower(Achievement):
-        name = 'I Have the Power!'
+        name = _('I Have the Power!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Get 10 stacks of 'Awakening' on Asaga."
+            self.description = _("Get 10 stacks of 'Awakening' on Asaga.")
             self.icon = "ihavepower_locked.png"
             
     class PhoenixDown(Achievement):
-        name = 'Phoenix Down'
+        name = _('Phoenix Down')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Revive the Phoenix twice in the same battle."
+            self.description = _("Revive the Phoenix twice in the same battle.")
             self.times_revived = 0
             self.icon = "phoenixdown_locked.png"
             
@@ -5008,12 +5008,12 @@ python early: ## achievements ##
             self.times_revived = 0
 
     class Vengeance(Achievement):
-        name = 'Vengeance'
+        name = _('Vengeance')
         def __init__(self):
             self.stat_max = 1000
             self.stat_modulo = 100
             Achievement.__init__(self)
-            self.description = "Kill 1000 enemies."
+            self.description = _("Kill 1000 enemies.")
             self.tracked_value = 0
             self.icon = "vengeance_locked.png"
             
@@ -5025,12 +5025,12 @@ python early: ## achievements ##
                     self.unlock()
             
     class LibertyOrDeath(Achievement):
-        name = 'Liberty or Death'
+        name = _('Liberty or Death')
         def __init__(self):
             self.stat_max = 50000
             self.stat_modulo = 5000
             Achievement.__init__(self)
-            self.description = "Repair 50'000 hp in battle with the Liberty."
+            self.description = _("Repair 50'000 hp in battle with the Liberty.")
             self.tracked_value = 0
             self.icon = "liberty_locked.png"
             
@@ -5042,10 +5042,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class Captain(Achievement):
-        name = 'Captain'
+        name = _('Captain')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Beat the game on Captain difficulty or higher."
+            self.description = _("Beat the game on Captain difficulty or higher.")
             self.missions_completed = set()
             self.icon = "captain_locked.png"
             
@@ -5056,10 +5056,10 @@ python early: ## achievements ##
                         self.unlock()
                         
     class Admiral(Achievement):
-        name = 'Admiral'
+        name = _('Admiral')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Beat the game on Admiral difficulty or higher."
+            self.description = _("Beat the game on Admiral difficulty or higher.")
             self.missions_completed = set()
             self.icon = "admiral_locked.png"
             
@@ -5070,10 +5070,10 @@ python early: ## achievements ##
                         self.unlock()
 
     class SpaceWhaleRancher(Achievement):
-        name = 'Space Whale Rancher'
+        name = _('Space Whale Rancher')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Beat the game on Space Whale difficulty. Yeah, good luck with that."
+            self.description = _("Beat the game on Space Whale difficulty. Yeah, good luck with that.")
             self.missions_completed = set()
             self.icon = "spacewhale_locked.png"
             
@@ -5082,13 +5082,13 @@ python early: ## achievements ##
                 if BM.lowest_difficulty >= 5:
                     if BM.mission == self.total_missions:
                         self.unlock()
-                        show_message("Congratulations! You are officially better at the game than the people who made it.")
+                        show_message(_("Congratulations! You are officially better at the game than the people who made it."))
 
     class ByTheSkinOfOurTeeth(Achievement):
-        name = 'By the Skin of Our Teeth'
+        name = _('By the Skin of Our Teeth')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Win a battle with only the Sunrider left alive."
+            self.description = _("Win a battle with only the Sunrider left alive.")
             self.icon = "byskin_locked.png"
             
         def end_mission(self):
@@ -5096,10 +5096,10 @@ python early: ## achievements ##
                 self.unlock()
 
     class PennyPincher(Achievement):
-        name = 'Penny Pincher'
+        name = _('Penny Pincher')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete the game without buying anything at the store."
+            self.description = _("Complete the game without buying anything at the store.")
             self.icon = "pennypincher_locked.png"
             
         def end_mission(self):
@@ -5115,10 +5115,10 @@ python early: ## achievements ##
                 BM.achievement_data[self.name] = False
 
     class IsntItSad(Achievement):
-        name = "Isn't it Sad, Chigara?"
+        name = _("Isn't it Sad, Chigara?")
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete the game without ever buying new upgrades."
+            self.description = _("Complete the game without ever buying new upgrades.")
             self.icon = "aintitsad_locked.png"
         
         def end_mission(self):
@@ -5134,10 +5134,10 @@ python early: ## achievements ##
                 BM.achievement_data[self.name] = False                    
 
     class TooAwesomeToUse(Achievement):
-        name = 'Too Awesome to Use'
+        name = _('Too Awesome to Use')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete the game with the wishall still in your inventory."
+            self.description = _("Complete the game with the wishall still in your inventory.")
             self.icon = "tooawesome_locked.png"
         
         def end_mission(self):
@@ -5146,10 +5146,10 @@ python early: ## achievements ##
                     self.unlock()
                     
     class CantTouchThis(Achievement):
-        name = "Can't Touch This"
+        name = _("Can't Touch This")
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Use short range warp 3 times in the same turn."
+            self.description = _("Use short range warp 3 times in the same turn.")
             self.warp_count = 0
             self.icon = "canttouch_locked.png"
             
@@ -5167,17 +5167,17 @@ python early: ## achievements ##
             self.end_turn()                
             
     class MeetMyLittleFriend(Achievement):
-        name = 'Meet My Little Friend'
+        name = _('Meet My Little Friend')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill a PACT support with melee."
+            self.description = _("Kill a PACT support with melee.")
             self.icon = "meetfriend_locked.png"
 
     class NaturalEnemy(Achievement):
-        name = 'Natural Enemy'
+        name = _('Natural Enemy')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill 2 PACT support units in the same turn with Sola."
+            self.description = _("Kill 2 PACT support units in the same turn with Sola.")
             self.kill_count = 0
             self.icon = "naturalenemy_locked.png"
             
@@ -5195,10 +5195,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class Domination(Achievement):
-        name = 'Domination'
+        name = _('Domination')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill 10 units in the same turn."
+            self.description = _("Kill 10 units in the same turn.")
             self.kill_count = 0
             self.icon = "domination_locked.png"
             
@@ -5217,31 +5217,31 @@ python early: ## achievements ##
                     self.unlock()
             
     class Mogul(Achievement):
-        name = 'Mogul'
+        name = _('Mogul')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Save up to 50'000 credits."
+            self.description = _("Save up to 50'000 credits.")
             self.icon = "dollar_locked.png"
 
     class ThisIsMyCommand(Achievement):
-        name = 'This is My Command!'
+        name = _('This is My Command!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Use vanguard for the fist time."   
+            self.description = _("Use vanguard for the fist time.")
             self.icon = "thiscommand_locked.png"
 
     class GrandTactician(Achievement):
-        name = 'Grand Tactician'
+        name = _('Grand Tactician')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Hit 8 units at once."   
+            self.description = _("Hit 8 units at once.")
             self.icon = "grandtactician_locked.png"
 
     class FormingTheFleet(Achievement):
-        name = 'Forming the Fleet'
+        name = _('Forming the Fleet')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Contract your first merc."
+            self.description = _("Contract your first merc.")
             self.icon = "formingfleet_locked.png"
             
         def process(self):
@@ -5251,10 +5251,10 @@ python early: ## achievements ##
                         self.unlock()
             
     class CompulsiveHoarding(Achievement):
-        name = 'Compulsive Hoarding'
+        name = _('Compulsive Hoarding')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Buy at least 20 different things in the store (including merc contracts)."
+            self.description = _("Buy at least 20 different things in the store (including merc contracts).")
             self.bought_items = set()
             self.icon = "hoarder_locked.png"
             
@@ -5265,10 +5265,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class AllForOne(Achievement):
-        name = 'All For One'
+        name = _('All For One')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Put all debufs (except Disable) on the same enemy."   
+            self.description = _("Put all debufs (except Disable) on the same enemy.")   
             self.icon = "allforone_locked.png"
             
         def process(self,enemy):
@@ -5277,10 +5277,10 @@ python early: ## achievements ##
                     self.unlock()
             
     class OneForAll(Achievement):
-        name = 'One For All'
+        name = _('One For All')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Put 5 different buffs on the same friendly unit."
+            self.description = _("Put 5 different buffs on the same friendly unit.")
             self.icon = "oneforall_locked.png"
             
         def process(self,friendly):
@@ -5289,17 +5289,17 @@ python early: ## achievements ##
                     self.unlock()
             
     class HelloNurse(Achievement):
-        name = 'Hello Nurse'
+        name = _('Hello Nurse')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have Bianca use Restore on an allied unit afflicted by all possible debuffs."
+            self.description = _("Have Bianca use Restore on an allied unit afflicted by all possible debuffs.")
             self.icon = "hellonurse_locked.png"
 
     class WithOneRyder(Achievement):
-        name = 'With One Ryder Tied Behind My Back.'
+        name = _('With One Ryder Tied Behind My Back.')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete a battle while ignoring one of your Ryders."
+            self.description = _("Complete a battle while ignoring one of your Ryders.")
             self.idle_units = set()
             self.icon = "onehand_locked.png"
             
@@ -5335,17 +5335,17 @@ python early: ## achievements ##
                     self.active = True
 
     class Deathwish(Achievement):
-        name = 'Deathwish'
+        name = _('Deathwish')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have the Paladin get destroyed with Draw Fire ability active." 
+            self.description = _("Have the Paladin get destroyed with Draw Fire ability active." )
             self.icon = "deathwish_locked.png"
 
     class BlackJackChivo(Achievement):
-        name = 'Black Jack'
+        name = _('Black Jack')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Perform exactly 21 attacks with Black Jack in a battle." 
+            self.description = _("Perform exactly 21 attacks with Black Jack in a battle.")
             self.hidden = True
             self.attribution = "Akioklaus"
             self.attack_count = 0
@@ -5362,20 +5362,20 @@ python early: ## achievements ##
                 self.attack_count +=1
 
     class StingLikeABee(Achievement):
-        name = 'Sting Like a Bee'
+        name = _('Sting Like a Bee')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Destroy a capital ship with an assault weapon." 
+            self.description = _("Destroy a capital ship with an assault weapon.")
             self.attribution = 'SayuriUliana'
             self.icon = "stingbee_locked.png"
 
     class ThereCanBeOnlyOne(Achievement):
-        name = 'There Can Only Be One'
+        name = _('There Can Only Be One')
         def __init__(self):
             self.stat_max = 30
             self.stat_modulo = 10
             Achievement.__init__(self)
-            self.description = "Kill 30 units with melee." 
+            self.description = _("Kill 30 units with melee.")
             self.attribution = 'SayuriUliana'
             self.tracked_value = 0
             self.icon = "onlyone_locked.png"
@@ -5388,10 +5388,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class WhatAreYouImplying(Achievement):
-        name = 'What Are You Implying?'
+        name = _('What Are You Implying?')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have both the Phoenix and the Paladin end their turns next to each other every turn for an entire battle"
+            self.description = _("Have both the Phoenix and the Paladin end their turns next to each other every turn for an entire battle")
             self.attribution = 'Sir Fluffykins'
             self.hidden = True
             self.icon = "implying_locked.png"
@@ -5411,136 +5411,136 @@ python early: ## achievements ##
                     self.active = True
 
     class CosetteCaptured(Achievement):
-        name = 'Cosette Captured'
+        name = _('Cosette Captured')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Capture Cosette."
+            self.description = _("Capture Cosette.")
             self.icon = "cosettecaptured_locked.png"            
             self.hidden = True
             
     class CosetteDead(Achievement):
-        name = 'No Loli Space Pirate Route'
+        name = _('No Loli Space Pirate Route')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill Cosette."
+            self.description = _("Kill Cosette.")
             self.icon = "cosettedead_locked.png"            
             self.hidden = True
             
     class WelcomeBack(Achievement):
-        name = 'Welcome Back Captain'
+        name = _('Welcome Back Captain')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Finish the prologue."
+            self.description = _("Finish the prologue.")
             self.icon = "welcomeback_locked.png"            
             self.hidden = True
             
     class HavocRestored(Achievement):
-        name = 'Havoc Restored'
+        name = _('Havoc Restored')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Restore the Havoc."
+            self.description = _("Restore the Havoc.")
             self.icon = "havocrestored_locked.png"            
             self.hidden = True
             
     class FalconChivo(Achievement):
-        name = 'Falcon Discovered'
+        name = _('Falcon Discovered')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Scavage the starship grave yard to discover the Falcon."
+            self.description = _("Scavage the starship grave yard to discover the Falcon.")
             self.icon = "falcon_locked.png"            
             self.hidden = True
 
     class NoFalcon(Achievement):
-        name = 'No Falcon'
+        name = _('No Falcon')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Leave the starship grave yard alone."
+            self.description = _("Leave the starship grave yard alone.")
             self.icon = "nofalcon_locked.png"            
             self.hidden = True
             
     ## REturn chivos
     
     class RE_COMPLETE(Achievement):
-        name = 'REturn Completed'
+        name = _('REturn Completed')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find all the endings in REturn."
+            self.description = _("Find all the endings in REturn.")
             self.icon = "re_complete_locked.png"            
             self.hidden = False
     class RE_ASA_ALTERNATE(Achievement):
-        name = 'Asaga Alternate Ending'
+        name = _('Asaga Alternate Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Asaga's alternate ending."
+            self.description = _("Find Asaga's alternate ending.")
             self.icon = "re_asa_alternate_locked.png"            
             self.hidden = False
     class RE_ASA_HAPPY(Achievement):
-        name = 'Asaga Happy Ending'
+        name = _('Asaga Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Asaga's happy ending."
+            self.description = _("Find Asaga's happy ending.")
             self.icon = "re_asa_happy_locked.png"
             self.hidden = False
     class RE_ASA_NORMAL(Achievement):
-        name = 'Asaga Normal Ending'
+        name = _('Asaga Normal Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Asaga's normal ending."
+            self.description = _("Find Asaga's normal ending.")
             self.icon = "re_asa_normal_locked.png"            
             self.hidden = False
     class RE_AVA_HAPPY(Achievement):
-        name = 'Ava Happy Ending'
+        name = _('Ava Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Ava's happy ending."
+            self.description = _("Find Ava's happy ending.")
             self.icon = "re_ava_happy_locked.png"
             self.hidden = False
     class RE_AVA_NORMAL(Achievement):
-        name = 'Ava Normal Ending'
+        name = _('Ava Normal Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Ava's normal ending."
+            self.description = _("Find Ava's normal ending.")
             self.icon = "re_ava_normal_locked.png"            
             self.hidden = False
     class RE_SOLA_ALTERNATE(Achievement):
-        name = 'Sola Alternate Ending'
+        name = _('Sola Alternate Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's alternate ending."
+            self.description = _("Find Sola's alternate ending.")
             self.icon = "re_sol_alternate_locked.png"            
             self.hidden = False
     class RE_SOLA_HAPPY(Achievement):
-        name = 'Sola Happy Ending'
+        name = _('Sola Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's happy ending."
+            self.description = _("Find Sola's happy ending.")
             self.icon = "re_sol_happy_locked.png"
             self.hidden = False
     class RE_SOLA_NORMAL(Achievement):
-        name = 'Sola Normal Ending'
+        name = _('Sola Normal Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's normal ending."
+            self.description = _("Find Sola's normal ending.")
             self.icon = "re_sol_normal_locked.png"            
             self.hidden = False
     class RE_SOLA_WORST(Achievement):
-        name = 'Sola Worst Ending'
+        name = _('Sola Worst Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's worst ending."
+            self.description = _("Find Sola's worst ending.")
             self.icon = "re_sol_worst_locked.png"            
             self.hidden = False
     class RE_ICARI_HAPPY(Achievement):
-        name = 'Icari Happy Ending'
+        name = _('Icari Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Icari's happy ending."
+            self.description = _("Find Icari's happy ending.")
             self.icon = "re_ica_happy_locked.png"
             self.hidden = False
     class RE_CLAUDE_SECRET(Achievement):
-        name = 'Claude Secret Ending'
+        name = _('Claude Secret Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Claude's secret ending."
+            self.description = _("Find Claude's secret ending.")
             self.icon = "re_cla_secret_locked.png"
             self.hidden = True

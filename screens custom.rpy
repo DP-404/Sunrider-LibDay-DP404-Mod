@@ -2719,14 +2719,15 @@ screen gallery_achievements():
                                 $text_colour = '080' if achievement.cleared else 'fff'
                                 add "Chivos/" + achievement.icon zoom 0.75
                                 text achievement.name color text_colour size 22
-                            $attr_text = 'by: '+achievement.attribution+'\n' if achievement.attribution is not None else ''
                             if achievement.stat_max is not None:
                                 if achievement.tracked_value <= achievement.stat_max:
                                     text str(achievement.tracked_value) size 14 xpos int(achievement.tracked_value/float(achievement.stat_max) * 300)
                                 bar:
                                     value achievement.tracked_value
                                     range achievement.stat_max
-                            text attr_text + achievement.description size 18
+                            if achievement.attribution is not None:
+                                text 'by: '+achievement.attribution size 18
+                            text achievement.description size 18
                     else:
                         $hidden_chivos += 1
                 
@@ -2738,8 +2739,8 @@ screen gallery_achievements():
 transform tr_chivotoast():
     yalign 1.0
     xpos 1920
-    ease 1 xpos 1920 - 350
-    pause 2
+    ease 1 xpos 1920 - 450
+    pause 3
     ease 1 xpos 1920
                 
 screen achievement_toast(achievement):
@@ -2748,11 +2749,13 @@ screen achievement_toast(achievement):
     timer 240 repeat False action Hide('achievement_toast')
     
     frame:
+        xsize 450
         at tr_chivotoast
         background Solid((0,0,0,200))
         vbox:
-            text _("ACHIEVEMENT UNLOCKED!")
+            text _("     ACHIEVEMENT UNLOCKED!     ")
             hbox:
+                xsize 450
                 add "Chivos/" + achievement.icon
                 text achievement.name
                 

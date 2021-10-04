@@ -510,4 +510,423 @@ translate spanish strings:
     old "A powerful Ryuvian artifact currently being used to generate the plasma containment field for a massive ore refinery could be repurposed to improve the Vanguard Cannon's firing spread. However, acquiring it from the Union will not be cheap.\nThe Vanguard Cannon now deals splash damage."
     new "Un poderoso artefacto Ryuviano usado actualmente para generar el campo de contención de plasma para una refinería masiva de mineral podría ser reutilizado para mejorar la extensión del fuego del Cañón Vanguardia. De cualquier forma, adquirirlo de la Unión no será barato.\nEl Cañón Vanguardia provoca ahora daño en área."
 
+    # game/library.rpy:5109
+    old "Lucky!"
+    new "Afortunado!"
+
+    # game/library.rpy:5112
+    old "Survive an attack with less than 10hp remaining."
+    new "Sobrevive a un ataque con menos de 10hp restantes."
+
+    # game/library.rpy:5116
+    old "Unlucky!"
+    new "Desafortunado!"
+
+    # game/library.rpy:5119
+    old "Have a player unit get killed at 0 to -9 HP."
+    new "Que una unidad del jugador sea asesinada entre 0 y -9 HP."
+
+    # game/library.rpy:5123
+    old "Lose a life"
+    new "Perder una vida"
+
+    # game/library.rpy:5126
+    old "Have a non-mercenary player unit get destroyed for the first time."
+    new "Que una unidad no-mercenaria del jugador sea destruida por primera vez."
+
+    # game/library.rpy:5130
+    old "People Die When They Are Killed"
+    new "La Gente Muere Cuando Son Asesinados"
+
+    # game/library.rpy:5133
+    old "Lose a mercenary unit."
+    new "Pierde una unidad mercenaria."
+
+    # game/library.rpy:5137
+    old "Spread Out!"
+    new "Dispérsense!"
+
+    # game/library.rpy:5140
+    old "Have 5 player ships or more get hit by an AoE rocket."
+    new "Que 5 o más naves del jugador sean golpeadas por un proyectil AoE."
+
+    # game/library.rpy:5144
+    old "I Have the Power!"
+    new "Yo Tengo el Poder!"
+
+    # game/library.rpy:5147
+    old "Get 10 stacks of 'Awakening' on Asaga."
+    new "Acumular 10 veces 'Awakening' en Asaga."
+
+    # game/library.rpy:5151
+    old "Phoenix Down"
+    new "Phoenix Caído"
+
+    # game/library.rpy:5154
+    old "Revive the Phoenix twice in the same battle."
+    new "Revive al Phoenix dos veces en la misma batalla."
+
+    # game/library.rpy:5168
+    old "Vengeance"
+    new "Venganza"
+
+    # game/library.rpy:5173
+    old "Kill 1000 enemies."
+    new "Mata a 1000 enemigos."
+
+    # game/library.rpy:5185
+    old "Liberty or Death"
+    new "Libertad o Muerte"
+
+    # game/library.rpy:5190
+    old "Repair 50'000 hp in battle with the Liberty."
+    new "Repara 50'000 hp en batalla con el Liberty."
+
+    # game/library.rpy:5202
+    old "Captain"
+    new "Capitán"
+
+    # game/library.rpy:5205
+    old "Beat the game on Captain difficulty or higher."
+    new "Vence el juego en dificultad Capitán o mayor."
+
+    # game/library.rpy:5216
+    old "Admiral"
+    new "Almirante"
+
+    # game/library.rpy:5219
+    old "Beat the game on Admiral difficulty or higher."
+    new "Vence el juego en dificultad Almirante o mayor."
+
+    # game/library.rpy:5230
+    old "Space Whale Rancher"
+    new "Ranchero de Ballena Espacial"
+
+    # game/library.rpy:5233
+    old "Beat the game on Space Whale difficulty. Yeah, good luck with that."
+    new "Vence el juego en dificultad Ballena Espacial. Sí, buena suerte con eso."
+
+    # game/library.rpy:5242
+    old "Congratulations! You are officially better at the game than the people who made it."
+    new "¡Felicitaciones! Eres oficialmente mejor en el juego que las personas que lo hicieron."
+
+    # game/library.rpy:5245
+    old "By the Skin of Our Teeth"
+    new "Por la Piel de Nuestros Dientes"
+
+    # game/library.rpy:5248
+    old "Win a battle with only the Sunrider left alive."
+    new "Gana una batalla quedando solo el Sunrider vivo."
+
+    # game/library.rpy:5256
+    old "Penny Pincher"
+    new "Acaparador de Centavos"
+
+    # game/library.rpy:5259
+    old "Complete the game without buying anything at the store."
+    new "Completa el juego sin comprar nada en la tienda."
+
+    # game/library.rpy:5275
+    old "Isn't it Sad, Chigara?"
+    new "¿No es Triste, Chigara?"
+
+    # game/library.rpy:5278
+    old "Complete the game without ever buying new upgrades."
+    new "Completa el juego sin comprar nunca nuevas mejoras."
+
+    # game/library.rpy:5294
+    old "Too Awesome to Use"
+    new "Demasiado Aterrador para Usarlo"
+
+    # game/library.rpy:5297
+    old "Complete the game with the wishall still in your inventory."
+    new "Completa el juego con el wishall todavía en tu inventario."
+
+    # game/library.rpy:5306
+    old "Can't Touch This"
+    new "No Pueden Tocar Esto"
+
+    # game/library.rpy:5309
+    old "Use short range warp 3 times in the same turn."
+    new "Usa salto de corto rango 3 veces en el mismo turno."
+
+    # game/library.rpy:5327
+    old "Meet My Little Friend"
+    new "Conoce a Mi Pequeña Amiga"
+
+    # game/library.rpy:5330
+    old "Kill a PACT support with melee."
+    new "Mata a una unidad de apoyo del PACT con melee."
+
+    # game/library.rpy:5334
+    old "Natural Enemy"
+    new "Enemigo Natural"
+
+    # game/library.rpy:5337
+    old "Kill 2 PACT support units in the same turn with Sola."
+    new "Mata a 2 unidades de apoyo del PACT en el mismo turno con Sola."
+
+    # game/library.rpy:5355
+    old "Domination"
+    new "Dominación"
+
+    # game/library.rpy:5358
+    old "Kill 10 units in the same turn."
+    new "Mata a 10 unidades en el mismo turno."
+
+    # game/library.rpy:5377
+    old "Mogul"
+    new "Mogul"
+
+    # game/library.rpy:5380
+    old "Save up to 50'000 credits."
+    new "Ahorra 50'000 créditos."
+
+    # game/library.rpy:5384
+    old "This is My Command!"
+    new "¡Esta es Mi Orden!"
+
+    # game/library.rpy:5387
+    old "Use vanguard for the fist time."
+    new "Usa el vanguardia por primera vez."
+
+    # game/library.rpy:5391
+    old "Grand Tactician"
+    new "Gran Táctico"
+
+    # game/library.rpy:5394
+    old "Hit 8 units at once."
+    new "Golpea a 8 unidades a la vez."
+
+    # game/library.rpy:5398
+    old "Forming the Fleet"
+    new "Formando la Flota"
+
+    # game/library.rpy:5401
+    old "Contract your first merc."
+    new "Contrata a tu primer mercenario."
+
+    # game/library.rpy:5411
+    old "Compulsive Hoarding"
+    new "Acaparamiento Compulsivo"
+
+    # game/library.rpy:5414
+    old "Buy at least 20 different things in the store (including merc contracts)."
+    new "Compra al menos 20 cosas diferentes en la tienda (incluyendo contratos mercenarios)."
+
+    # game/library.rpy:5425
+    old "All For One"
+    new "Todos Para Uno"
+
+    # game/library.rpy:5428
+    old "Put all debufs (except Disable) on the same enemy."
+    new "Pon todos los debuffs (excepto Disable) en el mismo enemigo."
+
+    # game/library.rpy:5437
+    old "One For All"
+    new "Uno Para Todos"
+
+    # game/library.rpy:5440
+    old "Put 5 different buffs on the same friendly unit."
+    new "Pon 5 buffs diferentes en la misma unidad aliada."
+
+    # game/library.rpy:5449
+    old "Hello Nurse"
+    new "Hola Enfermera"
+
+    # game/library.rpy:5452
+    old "Have Bianca use Restore on an allied unit afflicted by all possible debuffs."
+    new "Que Bianca use Restore en una unidad aliada afligida por todos los posibles debuffs."
+
+    # game/library.rpy:5456
+    old "With One Ryder Tied Behind My Back."
+    new "Con Un Ryder Atado Tras Mi Espalda"
+
+    # game/library.rpy:5459
+    old "Complete a battle while ignoring one of your Ryders."
+    new "Completa una batalla mientras ignoras uno de tus Ryders."
+
+    # game/library.rpy:5495
+    old "Deathwish"
+    new "Deseo de Muerte"
+
+    # game/library.rpy:5498
+    old "Have the Paladin get destroyed with Draw Fire ability active."
+    new "Que el Paladin sea destruido con la habilidad Draw Fire activa."
+
+    # game/library.rpy:5502
+    old "Black Jack"
+    new "Black Jack"
+
+    # game/library.rpy:5505
+    old "Perform exactly 21 attacks with Black Jack in a battle."
+    new "Realiza exactamente 21 ataques con el Black Jack en una batalla."
+
+    # game/library.rpy:5522
+    old "Sting Like a Bee"
+    new "Pica Como una Abeja"
+
+    # game/library.rpy:5525
+    old "Destroy a capital ship with an assault weapon."
+    new "Destruye un acorazado con un arma de asalto."
+
+    # game/library.rpy:5530
+    old "There Can Only Be One"
+    new "Solo Puede Haber Uno"
+
+    # game/library.rpy:5535
+    old "Kill 30 units with melee."
+    new "Mata a 30 unidades con melee."
+
+    # game/library.rpy:5548
+    old "What Are You Implying?"
+    new "¿Qué Estás Insinuando?"
+
+    # game/library.rpy:5551
+    old "Have both the Phoenix and the Paladin end their turns next to each other every turn for an entire battle"
+    new "Que ambos el Phoenix y el Paladin terminen sus turnos junto al otro cada durno durante una batalla entera."
+
+    # game/library.rpy:5571
+    old "Cosette Captured"
+    new "Cosette Capturada"
+
+    # game/library.rpy:5574
+    old "Capture Cosette."
+    new "Captura a Cosette."
+
+    # game/library.rpy:5579
+    old "No Loli Space Pirate Route"
+    new "No Ruta De La Loli Pirata Espacial"
+
+    # game/library.rpy:5582
+    old "Kill Cosette."
+    new "Mata a Cosette."
+
+    # game/library.rpy:5587
+    old "Welcome Back Captain"
+    new "Bienvenido De Vuelta Capitán"
+
+    # game/library.rpy:5590
+    old "Finish the prologue."
+    new "Completa el prólogo."
+
+    # game/library.rpy:5595
+    old "Havoc Restored"
+    new "Havoc Restaurado"
+
+    # game/library.rpy:5598
+    old "Restore the Havoc."
+    new "Restaura el Havoc."
+
+    # game/library.rpy:5603
+    old "Falcon Discovered"
+    new "Falcon Descubierto"
+
+    # game/library.rpy:5606
+    old "Scavage the starship grave yard to discover the Falcon."
+    new "Rastrear el cementerio de naves y descubrir el Falcon."
+
+    # game/library.rpy:5611
+    old "No Falcon"
+    new "No Falcon"
+
+    # game/library.rpy:5614
+    old "Leave the starship grave yard alone."
+    new "Deja al cementerio de naves solo."
+
+    # game/library.rpy:5621
+    old "REturn Completed"
+    new "REturn Completado"
+
+    # game/library.rpy:5624
+    old "Find all the endings in REturn."
+    new "Encuentra todos los finales en REturn."
+
+    # game/library.rpy:5628
+    old "Asaga Alternate Ending"
+    new "Asaga Alternate Ending"
+
+    # game/library.rpy:5631
+    old "Find Asaga's alternate ending."
+    new "Encuentra el final alterno de Asaga."
+
+    # game/library.rpy:5635
+    old "Asaga Happy Ending"
+    new "Asaga Happy Ending"
+
+    # game/library.rpy:5638
+    old "Find Asaga's happy ending."
+    new "Encuentra el final feliz de Asaga."
+
+    # game/library.rpy:5642
+    old "Asaga Normal Ending"
+    new "Asaga Normal Ending"
+
+    # game/library.rpy:5645
+    old "Find Asaga's normal ending."
+    new "Encuentra el final normal de Asaga."
+
+    # game/library.rpy:5649
+    old "Ava Happy Ending"
+    new "Ava Happy Ending"
+
+    # game/library.rpy:5652
+    old "Find Ava's happy ending."
+    new "Encuentra el final feliz de Ava."
+
+    # game/library.rpy:5656
+    old "Ava Normal Ending"
+    new "Ava Normal Ending"
+
+    # game/library.rpy:5659
+    old "Find Ava's normal ending."
+    new "Encuentra el final normal de Ava."
+
+    # game/library.rpy:5663
+    old "Sola Alternate Ending"
+    new "Sola Alternate Ending"
+
+    # game/library.rpy:5666
+    old "Find Sola's alternate ending."
+    new "Encuentra el final alterno de Sola."
+
+    # game/library.rpy:5670
+    old "Sola Happy Ending"
+    new "Sola Happy Ending"
+
+    # game/library.rpy:5673
+    old "Find Sola's happy ending."
+    new "Encuentra el final feliz de Sola."
+
+    # game/library.rpy:5677
+    old "Sola Normal Ending"
+    new "Sola Normal Ending"
+
+    # game/library.rpy:5680
+    old "Find Sola's normal ending."
+    new "Encuentra el final normal de Sola."
+
+    # game/library.rpy:5684
+    old "Sola Worst Ending"
+    new "Sola Worst Ending"
+
+    # game/library.rpy:5687
+    old "Find Sola's worst ending."
+    new "Encuentra el peor final de Sola."
+
+    # game/library.rpy:5691
+    old "Icari Happy Ending"
+    new "Icari Happy Ending"
+
+    # game/library.rpy:5694
+    old "Find Icari's happy ending."
+    new "Encuentra el final feliz de Icari."
+
+    # game/library.rpy:5698
+    old "Claude Secret Ending"
+    new "Claude Secret Ending"
+
+    # game/library.rpy:5701
+    old "Find Claude's secret ending."
+    new "Encuentra el final secreto de Claude."
 
