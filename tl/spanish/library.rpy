@@ -2,6 +2,330 @@
 
 translate spanish strings:
 
+    # game/library.rpy:2015
+    old "The boss is immune!"
+    new "¡El jefe es inmune!"
+
+    # game/library.rpy:2020
+    old "The curse is only half as effective as normal"
+    new "¡La maldición es solo la mitad de efectiva de lo normal!"
+
+    # game/library.rpy:2063
+    old "\n            Lasers are accurate even from long distances, but lack fire power.\n            Mitigated by enemy shields."
+    new "        Los láseres tienen alta precisión incluso a largas distancias,\n        pero pierden poder de fuego. Mitigados por los escudos enemigos."
+
+    # game/library.rpy:2080
+    old "\n            Fires a barrage of guided missiles at the enemy. While individually weak,\n            their large numbers provide heavy fire power and great accuracy even\n            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."
+    new "        Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\n        proveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\n        El fuego antiaéreo enemigo y armaduras pesadas mitigan a los misiles."
+
+    # game/library.rpy:2096
+    old "\n            Kinetics pack a punch, but are inaccurate against distant or small foes.\n            Armor is twice as effective at mitigating kinetic weaponry."
+    new "        Kinéticos asestan un golpe, pero son imprecisos contra distantes o pequeños enemigos.\n        La armadura es el doble de efectiva al mitigar armamento kinético."
+
+    # game/library.rpy:2113
+    old "\n            Fires a high volume of laser pulses. Even if the enemy evades one bolt,\n            others may still strike. Collectively, they are more powerful than\n            stream lasers, but cannot pierce armor. Also mitigated by shields."
+    new "        Dispara un alto volumen de pulsos de láser. Incluso si el enemigo evade un rayo,\n        otros podrían golpearlo. Colectivamente, son mas poderosos que rayos láseres,\n        pero no pueden atravesar la armadura. También son mitigados por escudos."
+
+    # game/library.rpy:2129
+    old "\n            Assault guns spray explosive low caliber rounds at the enemy. Even if\n            the enemy evades one round, others may hit. Armor is twice as\n            effective against assault. Also used to shoot down incoming enemy missiles,\n            but loses effectiveness against sustained barrages."
+    new "        Armas de asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\n        el enemigo evade una ronda, otras podrían golpearlo. La armadura es el doble de\n        efectiva contra asalto. También pueden ser usadas para derribar misiles enemigos,\n        pero pierde efectividad contra barreras sustanciadas."
+
+    # game/library.rpy:2149
+    old "\n            Fires a large rocket at the enemy topped with a devastating warhead.\n            Highly limited in supply. Can be shot down by enemy flak."
+    new "        Dispara un gran proyectil al enemigo con una devastadora cabeza de guerra.\n        Áltamente limitado en suministros. Puede ser derribado por el\n        fuego antiaéreo enemigo."
+
+    # game/library.rpy:2160
+    old "\n            Fires a large MIRV rocket at the enemy topped with devastating warheads.\n            Deals half splash damage. Never misses, but can be shot down by enemy flak."
+    new "        Dispara un gran proyectil MIRV al enemigo encabezado con una devastadora cabeza de guerra.\n        Provoca la mitad del daño en área. Nunca falla, pero puede ser derribado por el fuego antiaéreo enemigo."
+
+    # game/library.rpy:2177
+    old "\n            While nowhere as powerful as the original, mounting such powerful\n            cannons onto the Falcon's light frame was a feat of engineering\n            in of itself.\n            Armor is twice as effective at mitigating kinetic weaponry."
+    new "        Aunque no tan poderoso como el original, montar cañones tan\n        poderosos en la armadura ligera del Falcon fue una proeza de ingeniería\n        por sí sola. La armadura es el doble de efectiva al mitigar armamento kinético."
+
+    # game/library.rpy:2297
+    old "\n            Following subpar performance by Alliance Infantry platoons against heavy\n            PACT armor, select squadrons were issued high powered anti-material\n            rifles. Preliminary reports indicate improved hull penetration, albeit at the cost\n            of reducing the ryder's speed and anti-ryder capabilities."
+    new "        Tras el impar desempeño de los pelotones de Infantería de la Alianza contra la armadura\n        pesada del PACT, escuadrones selectos fueron equipados con rifles de alto poder\n        anti-material. Reportes preeliminares indican un incremento en la penetración de la coraza,\n        a costa de reducir la velocidad del ryder y sus capacidades anti-ryder."
+
+    # game/library.rpy:2352
+    old "\n            The Union asteroid miner features powerful nose mounted lasers used to cut up \n            ore rich asteroids. Its possible military applications are vigoriously denied by \n            the Union's legal team. Mitigated by enemy shields."
+    new "        Los mineros de asteroides de la Unión presentan poderosos láseres delanteros montados usados para cortar\n        asteroides ricos en minerales. Sus posibles aplicaciones militares son vigorosamente rechazadas por\n        el equipo legal de la Unión. Mitigados por los escudos enemigos."
+
+    # game/library.rpy:2368
+    old "\n            A conspicous warning to pirates and Neutral Rim tyrants alike. \n            However, less effective compared to Alliance guns for legal and PR reasons.\n            Armor is twice as effective at mitigating kinetic weaponry."
+    new "        Una visible advertencia tanto a piratas como a tiranos del Margen Neutral.\n        Aún así, menos efectiva comparada con los cañones de la Alianza por razones legales y de RP.\n        La armadura es el doble de efectiva al mitigar armamento kinético."
+
+    # game/library.rpy:2384
+    old "\n            Rows upon rows of flak guns counter opportunistic pirates who primarily use smaller crafts\n            and torpedoes. Armor is twice as effective against assault. Also used to shoot\n            down incoming enemy missiles, but loses effectiveness against sustained barrages."
+    new "        Ronda tras ronda de cañones antiaéreos contrarrestan a piratas oportunistas que usan sobre todo naves pequeñas\n        y torpedos. La armadura es doblemente efectiva contra asalto. También usado para derribar\n        misiles enemigos entrantes, pero pierde efectividad contra barreras sustanciadas."
+
+    # game/library.rpy:2450
+    old "\n            The ultimate in interstellar destruction. Can punch holes through\n            the toughest armor, but requires an enormous amount of energy. Ineffective against\n            small targets."
+    new "        Lo último en destrucción interestelar. Puede crear agujeros a través de\n        las mas duras armaduras, pero requiere enorme cantidad de energía.\n        Inefectivo contra pequeños objetivos."
+
+    # game/library.rpy:2485
+    old "\n            The behemoth Alliance carrier has been retrofitted to mount\n            enough deck guns to simultaneously challenge entire fleets. Approaching\n            this titan with capital ships is highly inadvisable."
+    new "        El enorme carguero de la Alianza ha sido reconstruido con nuevas partes para montar\n        suficientes armas en la cubierta para enfrentarse simultáneamente a flotas enteras. Acercarse\n        a este titán con acorazados es áltamente no recomendable."
+
+    # game/library.rpy:2519
+    old "\n            Restores approximately 400 HP to an adjacent ryder."
+    new "        Restaura aproximadamente 400 HP a un ryder adyacente."
+
+    # game/library.rpy:2605
+    old "\n            Slice an enemy ryder for devastating damage. However, can only be used on adjacent\n            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."
+    new "        Corta a un ryder enemigo causando un daño devastador. De cualquier forma, solo puede ser usado en\n        ryders adyacentes. Moverse directamente hacia un ryder enemigo activara el contraataque del enemigo."
+
+    # game/library.rpy:2620
+    old "\n            These armor penetrating rounds are substantially more effective against armored targets."
+    new "        Estas rondas penetradoras de armaduras son sustancialmente más efectivas contra objetivos blindados."
+
+    # game/library.rpy:3400
+    old "\n            Restores approximately 300 HP to target.\n            Has unlimited range."
+    new "        Restaura aproximadamente 300 HP al objetivo.\nTiene rango ilimitado."
+
+    # game/library.rpy:3418
+    old "\n            The target's abilities now cost twice as much EN.\n            "
+    new "        Las habilidades del objetivo ahora cuestan el doble de EN."
+
+    # game/library.rpy:3429
+    old "\n            Removes all enemy status ailments from the target.\n            Has unlimited range."
+    new "        Remueve todos los estados alterados negativos del objetivo.\n        Tiene rango ilimitado."
+
+    # game/library.rpy:3446
+    old "\n            The target can no longer counter attack or fire flak at missiles for two turns."
+    new "        El objetivo no puede contraatacar ni disparar artillería antiaérea a misiles durante dos turnos."
+
+    # game/library.rpy:3462
+    old "\n            Deactivates the target's shields for two turns."
+    new "        Desactiva los escudos del objetivo por dos turnos."
+
+    # game/library.rpy:3644
+    old "\n            Sola's rifle is an elegant weapon from a more civilized age.\n            Incredibly powerful and accurate weapon, but demands much energy."
+    new "        El rifle de Sola es una elegante arma de una era mas civilizada.\n        Un arma increíblemente poderosa y precisa, pero demanda mucha energía."
+
+    # game/library.rpy:3662
+    old "\n            Provides reliable firepower, but highly inaccurate unless the target\n            is nearby and large. Can also be used for blindside attacks."
+    new "        Provee un seguro poder de fuego, pero áltamente impreciso sin importar si\n        el objetivo esta cerca o lejos. Puede ser usado para contraataques."
+
+    # game/library.rpy:4076
+    old "Full Forward"
+    new "Avance Completo"
+
+    # game/library.rpy:4077
+    old "Increases damage by 20% and accuracy by 15%"
+    new "Incrementa en daño en un 20% y la precisión en un 15%."
+
+    # game/library.rpy:4092
+    old "All Guard"
+    new "Defensa Total"
+
+    # game/library.rpy:4093
+    old "Increases flak by 20%, shield generation by 10% and evasion by 10%."
+    new "Mejora el fuego antiaéreo en un 20%, la generación de escudo en un 10% y la evasión en un 10%."
+
+    # game/library.rpy:4111
+    old "All Power To Engines"
+    new "Máximo Poder a los Motores"
+
+    # game/library.rpy:4112
+    old "movement energy cost is halved for the duration"
+    new "El coste de energía por movimiento es reducido a la mitad mientras dure."
+
+    # game/library.rpy:4125
+    old "Aim Up"
+    new "Precisión +"
+
+    # game/library.rpy:4126
+    old "Increases accuracy by 25."
+    new "Incrementa la precisión en 25."
+
+    # game/library.rpy:4137
+    old "Cover"
+    new "Cobertura"
+
+    # game/library.rpy:4138
+    old "Provide coordinated cover fire for the selected unit, boosting its flak by 15."
+    new "Provee fuego de cobertura coordinado para la unidad seleccionada, mejorando su fuego antiaéreo en 15."
+
+    # game/library.rpy:4150
+    old "Sentinel"
+    new "Centinela"
+
+    # game/library.rpy:4151
+    old "Drastically increases armor and increases the chance of enemies targeting this unit."
+    new "Incrementa drásticamente la armadura y la probabilidad de que los objetivos apunten a esta unidad."
+
+    # game/library.rpy:4167
+    old "Damage Up"
+    new "Daño +"
+
+    # game/library.rpy:4168
+    old "Increases damage by 30%."
+    new "Incrementa el daño en un 30%."
+
+    # game/library.rpy:4180
+    old "Stealth"
+    new "Sigilo"
+
+    # game/library.rpy:4181
+    old "Makes the user immune to counter attacks and reduces \n        the chance the enemy targets the unit."
+    new "Vuelve al usuario inmune a contraataques y reduce la\nprobabilidad de que los enemigos apunten a la unidad."
+
+    # game/library.rpy:4194
+    old "Cloak"
+    new "Camuflaje"
+
+    # game/library.rpy:4195
+    old "\n        Makes the user completely invisible to enemy sensors and \n        impossible to target. Only nearby enemy support units can detect this unit and\n        disrupt the effect."
+    new "        Vuelve al usuario completamente invisible a los sensores enemigos e\n        imposible de apuntar. Solo las unidades enemigas de apoyo cercanas pueden\n        detectar a esta unidad e interrumpir el efecto."
+
+    # game/library.rpy:4210
+    old "Awakened"
+    new "Despierto"
+
+    # game/library.rpy:4211
+    old "Gives an additional 100 points to accuracy and doubles damage."
+    new "Da un aumento de 100 puntos a la precisión y duplica el daño."
+
+    # game/library.rpy:4226
+    old "True Awakening"
+    new "Verdadero Despertar"
+
+    # game/library.rpy:4227
+    old "Increases armor, evasion and damage each turn it is active. Does not expire.\nProgressively damages the Black Jack."
+    new "Incrementa la armadura, evasión y daño cada turno mientras esta activo. No expira.\nDaña progresivamente al Black Jack."
+
+    # game/library.rpy:4258
+    old "Aim Down"
+    new "Precisión -"
+
+    # game/library.rpy:4259
+    old "Reduces accuracy by 25 points."
+    new "Reduce la precisión en 25 puntos."
+
+    # game/library.rpy:4271
+    old "SuppressiveFire"
+    new "Fuego Represivo"
+
+    # game/library.rpy:4272
+    old "Reduces evasion of target enemy by 25 points."
+    new "Reduce la evasión del objetivo enemigo en 25 puntos."
+
+    # game/library.rpy:4285
+    old "Disabled"
+    new "Desactivado"
+
+    # game/library.rpy:4286
+    old "Fully disables a unit, including shield generation and flak."
+    new "Desactiva completamente a la unidad, incluyendo la generación de escudo y las torretas antiaéreas."
+
+    # game/library.rpy:4298
+    old "Disable Lite"
+    new "Desactivar Menor"
+
+    # game/library.rpy:4299
+    old "Doubles cost of weapons,abilities and movement."
+    new "Duplica el coste de energía de las armas, habilidades y movimiento."
+
+    # game/library.rpy:4311
+    old "Flak Off"
+    new "Fuego Antiaéreo Off"
+
+    # game/library.rpy:4312
+    old "Disables flak."
+    new "Desactiva el fuego antiaéreo."
+
+    # game/library.rpy:4324
+    old "Shield Down"
+    new "Escudos -"
+
+    # game/library.rpy:4325
+    old "Removes all shield generation."
+    new "Remueve toda la generación de escudo."
+
+    # game/library.rpy:4337
+    old "Shield Jam"
+    new "Interferencia de Escudo"
+
+    # game/library.rpy:4339
+    old "Reduces shield generation each time it's applied."
+    new "Reduce la generación de escudo cada vez que se aplica."
+
+    # game/library.rpy:4352
+    old "Disruption"
+    new "Interferencia"
+
+    # game/library.rpy:4354
+    old "Stack this 6 times to win the battle"
+    new "Acumúlalo 6 veces para ganar la batalla"
+
+    # game/library.rpy:4379
+    old "\n            Restores approximately {} HP to target.\n            Has unlimited range."
+    new "Restaura aproximadamente {} HP al objetivo.\n        Tiene rango ilimitado."
+
+    # game/library.rpy:4393
+    old "\n            Adds an additional 25 points to the target's weapon accuracy.\n            Has unlimited range."
+    new "Añade 25 puntos adicionales a la precisión con armas del objetivo.\n        Tiene rango ilimitado."
+
+    # game/library.rpy:4409
+    old "\n            Provide coordinated cover fire for the selected unit, boosting its flak by 15.\n            Has a range of 3 hexes."
+    new "Provee una cobertura de fuego coordinada a la unidad seleccionada, mejorando sus torretas antiaéreas en 15.\n        Tiene un rango de 3 casillas."
+
+    # game/library.rpy:4424
+    old "\n            Increases armor and compels enemies to target you."
+    new "Incrementa la armadura y provoca a los enemigos a apuntarte."
+
+    # game/library.rpy:4437
+    old "\n            Increases the target's weapon damage by 30 percent.\n            Has unlimited range."
+    new "Incrementa el daño con armas del objetivo en un 30%.\n        Tiene rango ilimitado."
+
+    # game/library.rpy:4488
+    old "all curses were removed from {}"
+    new "Todas las maldiciones fueron removidas de {}"
+
+    # game/library.rpy:4512
+    old "\n            Become immune to enemy blindsides for one turn and reduces \n            the chance of enemies targeting you."
+    new "        Te vuelve inmune al contraataque enemigo por un turno y reduce\n        las probabilidades de que el enemigo te apunte."
+
+    # game/library.rpy:4524
+    old "\n            Become fully undetectable by nearly all enemy sensors. Specialized\n            support units may still be able to find you and disrupt the cloaking field."
+    new "        Te vuelve completamente indetectable por casi todos los sensores de enemigos. Unidades de\n        apoyo especializadas podrían ser capaces de detectarte y destruir el campo de camuflaje."
+
+    # game/library.rpy:4543
+    old "\n            Temporarily overcharges the Seraphim's systems, providing\n            an additional 100 additional points to accuracy as well as\n            doubling weapon damage for three turns."
+    new "        Sobrecarga temporalmente los sistemas del Seraphim, otorgando\n        100 puntos adicionales a la precisión asi como\n        duplicar el daño con armas durante tres turnos."
+
+    # game/library.rpy:4565
+    old "\n            Improves the Black Jack's damage, evasion and armor each turn, but also causes progressively more damage each turn until canceled."
+    new "        Icrementa el daño, la evasión y la armadura del Black Jack cada turno, pero también causa daño progresivo cada turno hasta que se cancele."
+
+    # game/library.rpy:4583
+    old "\n            Cancels the awakening effect"
+    new "Cancela el efecto despertar."
+
+    # game/library.rpy:4612
+    old "\n            Cast 6 times to win the battle."
+    new "Utilízalo 6 veces para ganar la batalla."
+
+    # game/library.rpy:4630
+    old "\n            Allows the user to move any unit a single hex.\n            This movement will provoke Blindside attacks, if you move an enemy unit\n            into the range of a friendly unit with an Assault type weapon.\n            Has unlimited range."
+    new "        Permite al usuario mover a cualquier unidad una sola casilla.\n        Este movimiento provocará contraataques, si mueves a una unidad enemiga\n        dentro de el rango de una unidad aliada con un arma de tipo Asalto.\n        Tiene rango ilimitado."
+
+    # game/library.rpy:4650
+    old "\n            Reduces the target's weapon accuracy by 25 points."
+    new "        Reduce la presición del objetivo en 25 puntos."
+
+    # game/library.rpy:4666
+    old "\n            Fire EMP rounds at the target, limiting its mobility to evade attacks. Has a maximum range of 3 hexes."
+    new "        Dispara rondas EMP al objetivo, limitando su movilidad para evadir ataques. Tiene un máximo de 3 casillas."
+
+    # game/library.rpy:4682
+    old "\n            Completely disables the target for one turn."
+    new "        Desactiva completamente al objetivo durante un turno."
+
+    # game/library.rpy:4728
+    old "\n            Temporarily reduce the target's shield generation by 15 points. Can be used multiple times on the same target."
+    new "        Reduce temporalmente la generación de escudo del objetivo en 15 puntos. Puede ser usado múltiples veces en el mismo objetivo."
+
     # game/library.rpy:4739
     old "TORPEDO AMMO"
     new "MUNICIÓN DE TORPEDO"

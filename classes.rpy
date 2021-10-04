@@ -2693,7 +2693,6 @@ init -2 python:
             self.accuracy = 100
             self.eccm = 0
             self.tooltip = ''
-            self.tooltip_es = ''
             #a dict that keeps track of what specific fields on this class should be after a reset.
             self.keep_after_reset = {}
             self.parent = None
@@ -3787,12 +3786,11 @@ init -2 python:
             self.buff_strength = 0 #how many points does it increase a stat?
             self.buff_duration = 1
             self.keep_after_reset = {} #used by save compatibility code
-            self.tooltip = """
+            self.tooltip = _("""
             Allows Claude to move any Ryder a single hex.
             This movement will provoke Blindside attacks, if you move an enemy Ryder
             into the range of a friendly unit with an Assault type weapon.
-            Has unlimited range."""
-            self.tooltip_es = "Permite al usuario mover a cualquier unidad una sola casilla.\nEste movimiento provocará contraataques, si mueves a una unidad enemiga\ndentro de el rango de una unidad aliada con un arma de tipo Asalto.\nTiene rango ilimitado."""
+            Has unlimited range.""")
 
             #always hits
             self.accuracy = 9999
@@ -3924,9 +3922,8 @@ init -2 python:
                 self.drone = PortableShieldDrone()
                 self.drone.location = None
             self.lbl = 'Battle UI/button_shldfly.png'
-            self.tooltip ="""
-            Allows the Liberty to send a drone with a personal shield anywhere on the battlefield."""
-            self.tooltip_es = "Permite al Liberty enviar a un dron con un escudo personal a cualquier lado del campo de batalla."
+            self.tooltip = _("""
+            Allows the Liberty to send a drone with a personal shield anywhere on the battlefield.""")
             
         def fire(self,parent,target,counter=False):
             self.parent = parent
@@ -4506,7 +4503,6 @@ init -2 python:
         The individual buffs are defined in the Library."""
         name = "Unnamed Buff"
         tooltip = "Empty Tooltip"
-        tooltip_es = "Empty Tooltip"
         affected_stats = []
         cumulative = False #when True applying the same buff on a target has some effect
         function_at_stacksize = None #stacking a buff a certain number of times can trigger something to happen, like an instant win for example.
