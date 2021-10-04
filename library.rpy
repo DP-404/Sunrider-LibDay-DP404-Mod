@@ -4735,11 +4735,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'new warhead'
-            self.display_name = "TORPEDO AMMO"
-            self.display_name_es = "MUNICIONES DE TORPEDO"
+            self.display_name = _("TORPEDO AMMO")
             self.cost = 300
-            self.tooltip = 'Purchase warheads to allow the Sunrider to fire powerful torpedoes at the enemy. A torpedo deals {} damage, but can be shot down by enemy flak. The Sunrider can carry a maximum of [sunrider.max_rockets] at a time.'.format(sunrider.weapons[3].damage)
-            self.tooltip_es = 'Comprar cabezas de guerra para permitirle al Sunrider disparar poderososos torpedos al enemigo. Un torpedo causa {} de daño, pero puede ser derribado por las torretas antiaéreas enemigas. El Sunrider puede cargar un máximo de [sunrider.max_rockets] torpedos a la vez.'.format(sunrider.weapons[3].damage)
+            self.tooltip = __('Purchase warheads to allow the Sunrider to fire powerful torpedoes at the enemy. A torpedo deals {} damage, but can be shot down by enemy flak. The Sunrider can carry a maximum of [sunrider.max_rockets] at a time.').format(sunrider.weapons[3].damage)
             self.variable_name = 'sunrider.rockets'    #this decides what is shown in the store after [owned:
             # self.visibility_condition = 'sunrider.rockets < sunrider.max_rockets'
             self.max_amt = sunrider.max_rockets    #you can buy no more than this number of this item. see previous field
@@ -4751,11 +4749,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Rocketupgrade1'
-            self.display_name = "QUANTUM TORPEDO LICENSE"
-            self.display_name_es = "LISENCIA DE TORPEDOS CUÁNTICOS"
+            self.display_name = _("QUANTUM TORPEDO LICENSE")
             self.cost = 2000
-            self.tooltip = 'While the proliferation of nuclear warheads throughout the galaxy has made them readily available, more powerful weapons are regulated closely by the Alliance. With the payment of appropriate fees, the Union can replace your current stock of nuclear warheads with quantum warheads, permanently increasing the Sunrider\'s rocket base damage (before upgrades) to 1200, a 50% improvement.'
-            self.tooltip_es = 'Si bien la proliferación de cabezas de guerra nucleares por toda la galaxia las ha hecho fácilmente disponibles, armas más poderosas son reguladas de cerca por la Alianza. Con el pago de apropiadas cuotas, la Unión puede reemplazar tus actuales reservas de cabezas de guerra nucleares por cabezas de guerra cuánticas, incrementando permanentemente el daño de los torpedos del Sunrider a 1200, una mejora del 50%.'
+            self.tooltip = _('While the proliferation of nuclear warheads throughout the galaxy has made them readily available, more powerful weapons are regulated closely by the Alliance. With the payment of appropriate fees, the Union can replace your current stock of nuclear warheads with quantum warheads, permanently increasing the Sunrider\'s rocket base damage (before upgrades) to 1200, a 50% improvement.')
             self.visibility_condition = 'sunrider_rocket.damage < 1200'
             self.background_image = "store/item_upgrade.png"
 
@@ -4767,11 +4763,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'RepairUpgrade1'
-            self.display_name = "PORTABLE REPAIR BOOSTER"
-            self.display_name_es = "ACELERADOR DE REPARACIONES PORTABLE"
+            self.display_name = _("PORTABLE REPAIR BOOSTER")
             self.cost = 1000
-            self.tooltip = 'While extensive repairs require time in the dry dock, battlefield repairs are still a must for combat operations. These new portable repair drones will allow the Liberty to repair 200 more HP. This upgrade also reduces the energy cost of the repair ability by 10EN'
-            self.tooltip_es = 'Si bien las reparaciones extensivas requieren tiempo en el puerto, las reparaciones en el campo de batalla siguen siendo lo mejor para operaciones de combate. Estos nuevos drones reparadores portables permiten al Liberty reparar 200 puntos más de HP. Esta mejora también reduce el costo de energía de la habilidad reparar en 10EN'
+            self.tooltip = _('While extensive repairs require time in the dry dock, battlefield repairs are still a must for combat operations. These new portable repair drones will allow the Liberty to repair 200 more HP. This upgrade also reduces the energy cost of the repair ability by 10EN')
             self.visibility_condition = 'store.chigara_repair.damage < 500'
             self.background_image = "store/item_upgrade.png"
 
@@ -4785,11 +4779,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'repair drones'
-            self.display_name = "REPAIR DRONE"
-            self.display_name_es = "DRONES REPARADORES"
+            self.display_name = _("REPAIR DRONE")
             self.cost = 400
-            self.tooltip = 'These autonomous robots can rapidly restore destroyed hull sections as well as complex electronic systems. They are a must have for all hostile operations.  Restores 50% of the Sunrider\'s HP on use. The Sunrider can carry a maximum of 8 at a time.'
-            self.tooltip_es = 'Estos robots autónomos pueden restaurar rápidamente secciones del casco destruidas así como complejos sistemas electrónicos. Es un deber tenerlos para todas las operaciones bélicas. Restauran el 50% del HP del Sunrider al usarlos. El Sunrider puede cargar un máximo de 8 a la vez.'
+            self.tooltip = _('These autonomous robots can rapidly restore destroyed hull sections as well as complex electronic systems. They are a must have for all hostile operations.  Restores 50% of the Sunrider\'s HP on use. The Sunrider can carry a maximum of 8 at a time.')
             self.visibility_condition = 'sunrider.repair_drones != None'
             self.variable_name = 'sunrider.repair_drones'
             self.max_amt = 8
@@ -4801,13 +4793,11 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'alliance cruiser'
-            self.display_name = "ALLIANCE CRUISER"
-            self.display_name_es = "CRUCERO DE LA ALIANZA"
+            self.display_name = _("ALLIANCE CRUISER")
             self.cost = 2000
             self.variable_name = "get_shipcount_in_list('Alliance Cruiser',player_ships)"
             self.max_amt = 2
-            self.tooltip = 'With the Solar Congress\' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider\'s escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to {} in your fleet at any time'.format(self.max_amt)
-            self.tooltip_es = 'Con la declaración de guerra del Congreso Solar, incontables cruceros de batalla de la Alianza han sido llamados al frente de batalla. Por una generosa paga, la Unión Minera puede usar sus contactos en el Congreso Solar para asignar un crucero de batalla de la Alianza completamente operacional como escolta del Sunrider. A pesar de ser lentos, el crucero de batalla de la Alianza esta construido como un ladrillo y asestan golpes. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('With the Solar Congress\' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider\'s escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to {} in your fleet at any time').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
             
 
@@ -4819,13 +4809,11 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'union frigate'
-            self.display_name = "UNION FRIGATE"
-            self.display_name_es = "FRAGATA DE LA UNIÓN"
+            self.display_name = _("UNION FRIGATE")
             self.cost = 750
             self.variable_name =  "get_shipcount_in_list('Mining Union Frigate',player_ships)"
             self.max_amt = 3
-            self.tooltip = 'The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to {} in your fleet at any time'.format(self.max_amt)
-            self.tooltip_es = 'La Unión Minera regularmente posiciona una gran armada privada para proteger sus envios de piratas. Con la paga de apropiadas cuotas, tú también puedes tener una fragata de seguridad de la Unión cuidando tu espalda. Aunque pequeñas y ligeramente armadas, estas fragatas son baratas y rápidas. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to {} in your fleet at any time').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4836,14 +4824,12 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'ceragunboat'
-            self.display_name = "CERA GUNBOAT"
-            self.display_name_es = "CAÑONEROS DE CERA"
+            self.display_name = _("CERA GUNBOAT")
             self.cost = 750
             self.variable_name =  "get_shipcount_in_list('Cera Gunboat',player_ships)"
             self.max_amt = 4
             self.visibility_condition = "store.mission2_complete"
-            self.tooltip = 'A stellar navy does not vanish overnight. The sudden fall of Cera left smaller assets scattered all over the galaxy with no chain of command. With some money, you can reinstate nimble Ceran gunboats back into your fleet. Designed for both stellar and atmospheric use as fire support dropships, these gunboats can provide flak and suppressive fire for larger ships. You can have up to {} in your fleet at any time'.format(self.max_amt)
-            self.tooltip_es = 'Una armada estelar no de desvanece de la noche a la mañana. La repentina caída de Cera dejó pequeños activos esparcidos por toda la galaxia sin una cadena de comando. Con algo de dinero, puedes reinstalar ágiles cañoneros Ceranos a tu flota. Designados tanto para usos estelares y atmosféricos como naves de fuego de apoyo, estos cañoneros pueden proveer cañones antiaéreos y fuego sorpresivo para grandes naves. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('A stellar navy does not vanish overnight. The sudden fall of Cera left smaller assets scattered all over the galaxy with no chain of command. With some money, you can reinstate nimble Ceran gunboats back into your fleet. Designed for both stellar and atmospheric use as fire support dropships, these gunboats can provide flak and suppressive fire for larger ships. You can have up to {} in your fleet at any time').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4854,14 +4840,12 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'ryuvianfalcon'
-            self.display_name = "RYUVIAN FALCON"
-            self.display_name_es = "FALCON RYUVIANO"
+            self.display_name = _("RYUVIAN FALCON")
             self.cost = 1500
             self.variable_name =  "get_shipcount_in_list('Ryuvian Falcon',player_ships)"
             self.max_amt = 2
             self.visibility_condition = "store.discoverfalcon == True"
-            self.tooltip = 'Using materials and data salvaged from the battlesite, we can reconstruct the Ryuvian ghost ship we encountered in the Pacemus Nebula to the best of our ability. While nowhere as powerful as the original, the Falcon is still a deadly destroyer, featuring oversized kinetic guns and nose mounted pulse guns. Its greatest asset is its speed and maneuverability, however, easily quicker and more nimble than most other vessels. You can have up to {} in your fleet.'.format(self.max_amt)
-            self.tooltip_es = 'Usando los materiales y los datos rescatados del campo de batalla, logramos reconstruir la nave fantasma Ryuviana que encontramos en la Pacemus Nebula en la medida de nuestras habilidades. Aunque ya no es tan poderoso como el original, el Falcon sigue siendo un destructor letal, notándose enormes cañones kinéticos y armas de pulso frontales. Su mejor cualidad es su velocidad y maniobrabilidad, aún así, más rápido y ágil que la mayoría de las demás naves. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('Using materials and data salvaged from the battlesite, we can reconstruct the Ryuvian ghost ship we encountered in the Pacemus Nebula to the best of our ability. While nowhere as powerful as the original, the Falcon is still a deadly destroyer, featuring oversized kinetic guns and nose mounted pulse guns. Its greatest asset is its speed and maneuverability, however, easily quicker and more nimble than most other vessels. You can have up to {} in your fleet.').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4872,14 +4856,12 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'unionbattleship'
-            self.display_name = "UNION BATTLESHIP"
-            self.display_name_es = "NAVE DE BATALLA DE LA UNIÓN"
+            self.display_name = _("UNION BATTLESHIP")
             self.cost = 3000
             self.variable_name =  "get_shipcount_in_list('Union Battleship',player_ships)"
             self.max_amt = 1
-            self.visibility_condition = "store.mission5_complete == True" and '_preferences.language != "spanish"'
-            self.tooltip = 'While the primary purpose of the Union Asteroid Miner is resource collection, the behemoth vessel makes a formidable battleship with heavy armor, powerful lasers, and a tractor beam. While the Union claims the ships\' weapons are primarily aimed at deterring pirates, critics allege the Miner is merely a thinly disguised battleship, intended to keep ore rich worlds in line with Union demands. You can have up to {} in your fleet.'.format(self.max_amt)
-            self.tooltip_es = 'Si bien el objetivo primario de la Unión Minera de Asteroides es la recolección de recursos, la colosal nave supone una formidable nave de batalla con armadura pesada, poderosos láseres y un rayo tractor. Aúnque la Unión aclama que las armas de las naves están concentradas a disuadir a los piratas, los críticos afirmas que esta es apenas una nave de batalla disfrazada, intentando mantener los mundos ricos en minerales en línea con las demandas de la Unión. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.visibility_condition = "store.mission5_complete == True"
+            self.tooltip = __('While the primary purpose of the Union Asteroid Miner is resource collection, the behemoth vessel makes a formidable battleship with heavy armor, powerful lasers, and a tractor beam. While the Union claims the ships\' weapons are primarily aimed at deterring pirates, critics allege the Miner is merely a thinly disguised battleship, intended to keep ore rich worlds in line with Union demands. You can have up to {} in your fleet.').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4890,11 +4872,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'wishall'
-            self.display_name = "SELL WISHALL"
-            self.display_name_es = "VENDER WISHALL"
+            self.display_name = _("SELL WISHALL")
             self.cost = -10000
-            self.tooltip = 'The Wishall is an ancient Ryuvian artifact which allows its user to make one free command decision during the story. Alternately, you may decide to sell it here for an instant cash infusion of 10 000 credits.'
-            self.tooltip_es = 'El Wishall es un antiguo artefacto Ryuviano que permite a su usuario realizar una desición libre de costo durante la historia. Alternativamente, puedes decidir venderlo por una infusion de efectivo instantánea de 10 000 creditos.'
+            self.tooltip = _('The Wishall is an ancient Ryuvian artifact which allows its user to make one free command decision during the story. Alternately, you may decide to sell it here for an instant cash infusion of 10 000 credits.')
             self.visibility_condition = "store.wishall"
 
         def buy(self): #here is where you decide what this item -does-.
@@ -4904,11 +4884,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'sunrider_shield_upgrade'
-            self.display_name = "SUNRIDER SHIELD UPGRADE"
-            self.display_name_es = "MEJORA DEL ESCUDO DEL SUNRIDER"
+            self.display_name = _("SUNRIDER SHIELD UPGRADE")
             self.cost = 1500
-            self.tooltip = "Due to the Sunrider's unexpected departure from Cera, she was never outfitted with energy shielding. While her top of the line shield generator was lost with the fall of Cera, the Union can outfit the Sunrider with a basic shield generator. The Sunrider's shields can be further upgraded in the Research Lab after it is purchased."
-            self.tooltip_es = "Debido a la inesperada partida del Sunrider de Cera, nunca fue provista de un escudo de energía. Aunque su mejor generador de escudo se perdió con la caida de Cera, la Unión puede proveer al Sunrider con un generador de escudos básico. Los escudos del Sunrider pueden ser mejorados en el Laboratorio de Investigación después de ser comprados."
+            self.tooltip = _("Due to the Sunrider's unexpected departure from Cera, she was never outfitted with energy shielding. While her top of the line shield generator was lost with the fall of Cera, the Union can outfit the Sunrider with a basic shield generator. The Sunrider's shields can be further upgraded in the Research Lab after it is purchased.")
             self.visibility_condition = 'store.sunrider.shield_generation == 0'
             self.background_image = "store/item_upgrade.png"
 
@@ -4921,11 +4899,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'black_jack_thrusters'
-            self.display_name = "LIQUID ONGESSITE FUEL"
-            self.display_name_es = "COMBUSTIBLE DE LÍQUIDO DE ONGESSITA"
+            self.display_name = _("LIQUID ONGESSITE FUEL")
             self.cost = 1500
-            self.tooltip = "The capture of Ongess assured the Alliance a steady supply of liquid Ongessite in the war. The Black Jack and Paladin's engines can be fueled with this supply of high grade liquid Ongessite, reducing their move energy cost by 25 percent."
-            self.tooltip_es = "La captura de Ongess le aseguró a la Alianza un suministro seguro de líquido de Ongessita en la guerra. Los motores del Black Jack y el Paladin pueden ser rellenados con este suministro de alto grado de líquido de Ongessita, reduciendo el costo de energía de movimiento en un 25%."
+            self.tooltip = _("The capture of Ongess assured the Alliance a steady supply of liquid Ongessite in the war. The Black Jack and Paladin's engines can be fueled with this supply of high grade liquid Ongessite, reducing their move energy cost by 25 percent.")
             self.visibility_condition = 'store.blackjack.move_cost > 15 and store.OngessTruth == False'
             self.background_image = "store/item_upgrade.png"
 
@@ -4937,11 +4913,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'gravity_gun_booster'
-            self.display_name = "GRAVITINO GENERATOR"
-            self.display_name_es = "GENERADOR GRAVITATORIO"
+            self.display_name = _("GRAVITINO GENERATOR")
             self.cost = 500
-            self.tooltip = "Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60)."
-            self.tooltip_es = "Chigara puede hacer al arma de gravedad del Bianca más eficiente añadiéndole uno de estos dispositivos técnicos. El coste de energía disminuye a 40 (de 60)."
+            self.tooltip = _("Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60).")
             self.visibility_condition = 'store.bianca.weapons[1].energy_use == 60'
             self.background_image = "store/item_upgrade.png"
 
@@ -4953,11 +4927,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Ship Clean Up'
-            self.display_name = "EXPANDED TORPEDO STORAGE"
-            self.display_name_es = "ALMACÉN DE TORPEDOS AMPLIADO"
+            self.display_name = _("EXPANDED TORPEDO STORAGE")
             self.cost = 2000
-            self.tooltip = "Not everything onboard a ship has to be gigantic. First Command Ava Crescentia has collected a list of unnecessarily large equipment and other non-essentials which could be upgraded or outright tossed to make additional room for more important assets.\n\nAllows the Sunrider to carry an additional torpedo."
-            self.tooltip_es = "No todo a bordo de una nave tiene que ser gigante. La Primer Oficial Ava Crescentia ha recopilado una lista de equipamiento innecesariamente grande y otros no esenciales que podrían ser mejorados o ser arrojados para crear una sala adicional para recursos más importantes.\n\nPermite al Sunrider cargar un torpedo adicional."
+            self.tooltip = _("Not everything onboard a ship has to be gigantic. First Command Ava Crescentia has collected a list of unnecessarily large equipment and other non-essentials which could be upgraded or outright tossed to make additional room for more important assets.\n\nAllows the Sunrider to carry an additional torpedo.")
             self.visibility_condition = "sunrider.max_rockets == 2"
             self.background_image = "store/item_upgrade.png"
 
@@ -4969,11 +4941,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Repair Drones Mk2'
-            self.display_name = "REPAIR DRONES MK2"
-            self.display_name_es = "DRONES DE REPARACIÓN MK2"
+            self.display_name = _("REPAIR DRONES MK2")
             self.cost = 1800
-            self.tooltip = "Due to the demands of the Neutral Rim War, Union scientists have scrambled to improve the current line of repair drones. The newest version is reinforced with better materials, improving survivability in hostile work conditions, and operates on an updated AI capable of repairing the newest hardware.\n\nRepair drones now repair 75 percent of the Sunrider's maximum HP."
-            self.tooltip_es = "Debido a las demandas de la Guerra del Margen Neutral, los científicos de la Unión han logrado mejorar la línea actual de drones de reparación. La versión más reciente está refozada con mejores materiales, mejorando la supervivencia en condiciones hostiles de trabajo, y opera con una IA capaz de reparar el más reciente hardware.\n\nLos drones de reparación ahora reparan el 75% del HP máximo del Sunrider."
+            self.tooltip = _("Due to the demands of the Neutral Rim War, Union scientists have scrambled to improve the current line of repair drones. The newest version is reinforced with better materials, improving survivability in hostile work conditions, and operates on an updated AI capable of repairing the newest hardware.\n\nRepair drones now repair 75 percent of the Sunrider's maximum HP.")
             self.visibility_condition = "BM.repair_drone_heal == 0.5"
             self.background_image = "store/item_upgrade.png"
 
@@ -4984,30 +4954,23 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Ongessite Injection Rods'
-            self.display_name = "ONGESSITE INJECTION RODS"
-            self.display_name_es = "BARRAS DE INYECCIÓN DE ONGESSITA"
+            self.display_name = _("ONGESSITE INJECTION RODS")
             self.cost = 3000
-            self.tooltip = "The latest invention by Alliance scientists, these Ongessite fuel rods can make practically any engine roar to life.\n\nUnlocks the All Power to Engines command, which halves the move EN cost of all player units for two turns for 800 CMD."
-            self.tooltip_es = "La última invención de los científicos de la Alianza, estas barras de combustible de Ongessita pueden hacer a cualquier motor rugir.\n\nDesbloquea el comando Máximo Poder a los Motores, el cual reduce a la mita el costo de EN de todas las unidades del jugador durante dos turnos por 800 CMD."
+            self.tooltip = _("The latest invention by Alliance scientists, these Ongessite fuel rods can make practically any engine roar to life.\n\nUnlocks the All Power to Engines command, which halves the move EN cost of all player units for two turns for 800 CMD.")
             self.visibility_condition = "not order_allpowertoengines and not OngessTruth"
             self.background_image = "store/item_upgrade.png"
 
         def buy(self):
             store.order_allpowertoengines = True
-            if _preferences.language == "spanish":
-                BM.orders["MÁXIMO PODER A LOS MOTORES"] = [800,'injection_rods']
-            else:
-                BM.orders["ALL POWER TO ENGINES"] = [800,'injection_rods']            
+            BM.orders["ALL POWER TO ENGINES"] = [800,'injection_rods']            
 
     class ArmorPenetratingRoundsAsaga(StoreItem):
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Asagas armor penetrating rounds'
-            self.display_name = "ARMOR PENETRATING ROUNDS"
-            self.display_name_es = "RONDAS PENETRADORAS DE ARMADURA"
+            self.display_name = _("ARMOR PENETRATING ROUNDS")
             self.cost = 3000
-            self.tooltip = "These full metal jacket rounds can be fired from the Black Jack's assault guns for substantially improved armor penetration.\n\nAdds a new kinetic attack for the Black Jack which deals 100x4 upgradable kinetic damage." 
-            self.tooltip_es = "Estas rondas recubiertas de metal pueden ser disparadas por los cañones de asalto del Black Jack para mejorar sustancialmente la penetración de armadura.\n\nAñade un nuevo ataque kinético al Black Jack que ocasiona 100x4 daño kinético mejorable." 
+            self.tooltip = _("These full metal jacket rounds can be fired from the Black Jack's assault guns for substantially improved armor penetration.\n\nAdds a new kinetic attack for the Black Jack which deals 100x4 upgradable kinetic damage.")
             self.visibility_condition = "not blackjack.has_weapon('Blackjack Kinetic')"
             self.background_image = "store/item_upgrade.png"
 
@@ -5018,11 +4981,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'MIRV Quantum Torpedo License'
-            self.display_name = "MIRV QUANTUM TORPEDO LICENCE"
-            self.display_name_es = "LISENCIA DE TORPEDOS CUÁNTICOS MIRV"
+            self.display_name = _("MIRV QUANTUM TORPEDO LICENCE")
             self.cost = 8000
-            self.tooltip = "While outlawed according to Alliance laws, it's not like those rules really apply to privateers like us, right? With a large payment to the Union, they can provide both the warheads, and the legal work to fill out the accompanying 12 000 page long 'terms of use' form.\nThe Sunrider's torpedoes will now deal splash damage." 
-            self.tooltip_es = "¿Aúnque fueron declarados ilegales de acuerdo a las leyes de la Alianza, no es como que esas reglas se apliquen realmente para corsarios como nosotros, cierto? Con una gran paga a la Unión, ellos pueden proveer tanto las cabezas de guerra, como el trabajo legal de rellenar las acompañantes 12 000 páginas del formulario de 'términos de uso'.\nLos torpedos del Sunrider ocasionan ahora daño en área." 
+            self.tooltip = _("While outlawed according to Alliance laws, it's not like those rules really apply to privateers like us, right? With a large payment to the Union, they can provide both the warheads, and the legal work to fill out the accompanying 12 000 page long 'terms of use' form.\nThe Sunrider's torpedoes will now deal splash damage.") 
             self.visibility_condition = 'sunrider_rocket.damage == 1200 and sunrider_rocket.aoe_range == 0'
             self.background_image = "store/item_upgrade.png"
 
@@ -5034,11 +4995,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Portable Shield Generator Upgrade"
-            self.display_name = "PORTABLE SHIELD GENERATOR"
-            self.display_name_es = "GENERADOR DE ESCUDOS PORTABLE"
+            self.display_name = _("PORTABLE SHIELD GENERATOR")
             self.cost = 1500
-            self.tooltip = "While digging through the crust of a remote world, the Union unearthed the remains of an ancient ryder. While the ryder was destroyed beyond use, the skeletal remains of a pilot were found inside clutching a personal shield generator. \nThe device could be fitted on one of the Liberty's flier drones to relocate its shields anywhere else on the map."
-            self.tooltip_es = "Mientras escavaban por la corteza de un mundo remoto, la Unión desenterró los restos de un antiguo ryder. Aúnque el ryder había sido destruido sin poder usarse, los restos del esqueleto del piloto fueron encontrados aprisionados dentro de un generador de escudo personal.\nEl dispositivo puede ser ajustado a uno de los drones voladores del Liberty para recolocar el escudo en cualquier otro lugar del mapa."
+            self.tooltip = _("While digging through the crust of a remote world, the Union unearthed the remains of an ancient ryder. While the ryder was destroyed beyond use, the skeletal remains of a pilot were found inside clutching a personal shield generator. \nThe device could be fitted on one of the Liberty's flier drones to relocate its shields anywhere else on the map.")
             self.visibility_condition = 'not liberty.has_weapon("Portable Shield Generator")'
             self.background_image = "store/item_upgrade.png"
 
@@ -5049,11 +5008,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Alliance Holo Show"
-            self.display_name = "SUMMON ALLIANCE BATTLESHIP"
-            self.display_name_es = "INVOCAR NAVE DE BATALLA DE LA ALIANZA"
+            self.display_name = _("SUMMON ALLIANCE BATTLESHIP")
             self.cost = 4000
-            self.tooltip = "With this purchase, the Union will use its media connections to broadcast the Sunrider's every day struggles and successes on prime time holovision. Thanks to the show's popularity, the Alliance will be keen to keep the Sunrider safe, lest something unfortunate happen to the beloved vessel...\nUnlocks a new order to summon an Alliance battleship for three turns for 2000 CMD."
-            self.tooltip_es = "Con esta compra, la Unión usará sus medios de comunicación para transmitir las luchas y victorias día a día del Sunrider en el período de mayor audiencia en la holovisión. Gracias a la popularidad del espectáculo, la Alianza será sutil con mantener al Sunrider a salvo, por temor a que algo desafortunado le suceda a su preciada nave...\nDesbloquea una nueva orden para invocar una nave de batalla de la Alianza durante tres turnos por 2000CMD."
+            self.tooltip = _("With this purchase, the Union will use its media connections to broadcast the Sunrider's every day struggles and successes on prime time holovision. Thanks to the show's popularity, the Alliance will be keen to keep the Sunrider safe, lest something unfortunate happen to the beloved vessel...\nUnlocks a new order to summon an Alliance battleship for three turns for 2000 CMD.")
             self.visibility_condition = '"SUMMON BATTLESHIP" not in BM.orders and (store.mission3_complete or store.mission4_complete)' or '"SUMMON BATTLESHIP" not in BM.orders and (store.mission3_complete or store.mission4_complete)'
             self.background_image = "store/item_upgrade.png"
 
@@ -5064,11 +5021,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Upgrade Stealth"
-            self.display_name = "CLOAKING FIELD GENERATOR"
-            self.display_name_es = "GENERADOR DE CAMPO DE CAMUFLAJE"
+            self.display_name = _("CLOAKING FIELD GENERATOR")
             self.cost = 2200
-            self.tooltip = "A Ryuvian relic capable of making a ryder vanish from all standard issue optical and electronic instruments. Installing it on the Phoenix will upgrade its stealth ability to make the Phoenix untargetable. Can still be nullified by nearby enemy support units."
-            self.tooltip_es = "Una reliquia Ryuviana capaz de hacer que un ryder desaparezca de todos los dispositivos ópticos regulares e instrumentos electrónicos. Instalarlo en el Phoenix mejorará su hablilidad de sigilo para hacer al Phoenix imposible de apuntar. Puede ser anulado por unidades de apoyo enemigas cercanas."
+            self.tooltip = _("A Ryuvian relic capable of making a ryder vanish from all standard issue optical and electronic instruments. Installing it on the Phoenix will upgrade its stealth ability to make the Phoenix untargetable. Can still be nullified by nearby enemy support units.")
             self.visibility_condition = 'not phoenix.has_weapon("Cloak") and affection_icari >= 5'
             self.background_image = "store/item_upgrade.png"
 
@@ -5079,11 +5034,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "CMD upgrade"
-            self.display_name = "CAPTAIN'S SOCIETY INDUCTION"
-            self.display_name_es = "INDUCCIÓN A LA SOCIEDAD DEL CAPITÁN"
+            self.display_name = _("CAPTAIN'S SOCIETY INDUCTION")
             self.cost = 5000
-            self.tooltip = "The Union will sponsor your induction into the Space Whale Order of Space Captains, a highly selective society of captains who have made their marks on history.\nIncreases the CMD Point cap to 5000."
-            self.tooltip_es = "La Unión patrocinará tu inducción a la Orden de la Ballena Espacial de Capitanes Espaciales, una áltamente selectiva sociedad de capitanes que dejaros su huella en la historia..\nIncrementa el límite de Puntos de CMD a 5000."
+            self.tooltip = _("The Union will sponsor your induction into the Space Whale Order of Space Captains, a highly selective society of captains who have made their marks on history.\nIncreases the CMD Point cap to 5000.")
             self.visibility_condition = 'BM.max_cmd < 5000'
             self.background_image = "store/item_upgrade.png"
 
@@ -5094,11 +5047,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Vanguard Splash2"
-            self.display_name = "VANGUARD SPREAD FIELD"
-            self.display_name_es = "CAMPO EXPANDIDO DEL VANGUARDIA"
+            self.display_name = _("VANGUARD SPREAD FIELD")
             self.cost = 20000
-            self.tooltip = "A powerful Ryuvian artifact currently being used to generate the plasma containment field for a massive ore refinery could be repurposed to improve the Vanguard Cannon's firing spread. However, acquiring it from the Union will not be cheap.\nThe Vanguard Cannon now deals splash damage."
-            self.tooltip_es = "Un poderoso artefacto Ryuviano usado actualmente para generar el campo de contención de plasma para una refinería masiva de mineral podría ser reutilizado para mejorar la extensión del fuego del Cañón Vanguardia. De cualquier forma, adquirirlo de la Unión no será barato.\nEl Cañón Vanguardia provoca ahora daño en área."
+            self.tooltip = _("A powerful Ryuvian artifact currently being used to generate the plasma containment field for a massive ore refinery could be repurposed to improve the Vanguard Cannon's firing spread. However, acquiring it from the Union will not be cheap.\nThe Vanguard Cannon now deals splash damage.")
             self.visibility_condition = 'BM.vanguard_splash == False'
             self.background_image = "store/item_upgrade.png"
 

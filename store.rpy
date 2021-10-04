@@ -79,10 +79,7 @@ screen store_union:
                     # ypos 12
                     for item in store_items:
                         if item.isVisible():
-                            if _preferences.language == "spanish":
-                                text item.display_name_es size item_text_size first_indent 50 line_spacing item_line_spacing color "fff" outlines [(2,'000',0,0)]
-                            else:
-                                text item.display_name size item_text_size first_indent 50 line_spacing item_line_spacing color "fff" outlines [(2,'000',0,0)]
+                            text item.display_name size item_text_size first_indent 50 line_spacing item_line_spacing color "fff" outlines [(2,'000',0,0)]
                                 
                 vbox:
                     # ypos 12
@@ -116,12 +113,8 @@ screen store_info:
 
         for item in store.store_items:
             if BM.hovered == item.id:
-                if _preferences.language == "spanish":
-                    text item.display_name_es size 35  color 'fff' outlines [(2,'000',0,0)]
-                    text item.tooltip_es ypos 50 size 25  color 'fff' outlines [(2,'000',0,0)]
-                else:
-                    text item.display_name size 35  color 'fff' outlines [(2,'000',0,0)]
-                    text item.tooltip ypos 50 size 25  color 'fff' outlines [(2,'000',0,0)]
+                text item.display_name size 35  color 'fff' outlines [(2,'000',0,0)]
+                text item.tooltip ypos 50 size 25  color 'fff' outlines [(2,'000',0,0)]
 
 
 

@@ -94,3 +94,7 @@ translate spanish strings:
     old "Choose which Ryder to repair"
     new "Elige cuál Ryder reparar"
 
+    # game/screens custom.rpy:2755
+    old "     ACHIEVEMENT UNLOCKED!     "
+    new "      LOGRO DESBLOQUEADO!      "
+
