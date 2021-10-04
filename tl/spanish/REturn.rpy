@@ -3616,7 +3616,7 @@ translate spanish savethecrewman_1036c795:
 translate spanish savethecrewman_26329fd7:
 
     # cre1 "C-Captain!?"
-    tri1 "¿¡C-Capitán!?"
+    cre1 "¿¡C-Capitán!?"
 
 # game/REturn.rpy:1178
 translate spanish savethecrewman_7e96072d:
@@ -3640,7 +3640,7 @@ translate spanish savethecrewman_9abf4b3a:
 translate spanish savethecrewman_f598229b:
 
     # cre1 "Sir!"
-    tri1 "¡Señor!"
+    cre1 "¡Señor!"
 
 # game/REturn.rpy:1182
 translate spanish savethecrewman_d284a151:
@@ -3880,7 +3880,7 @@ translate spanish grabpistolfallback_b960d2ce:
 translate spanish grabpistolfallback_21792de9:
 
     # cre1 "S-sir!"
-    tri1 "¡S-señor!"
+    cre1 "¡S-señor!"
 
 # game/REturn.rpy:1280
 translate spanish grabpistolfallback_b5062944:
@@ -3916,7 +3916,7 @@ translate spanish grabpistolfallback_babedc84:
 translate spanish grabpistolfallback_9231f7bd:
 
     # cre1 "No sir! Fire Control Crew C, reporting for duty! All we have are side arms!"
-    tri1 "¡No señor! ¡Personal de Control de Fuegos C, reportándose para el deber! ¡Todo lo que tenemos son armas menores!"
+    cre1 "¡No señor! ¡Personal de Control de Fuegos C, reportándose para el deber! ¡Todo lo que tenemos son armas menores!"
 
 # game/REturn.rpy:1293
 translate spanish grabpistolfallback_4865b396:
@@ -4084,13 +4084,13 @@ translate spanish grabpistolfallback_4bae01f4:
 translate spanish grabpistolfallback_595e916c:
 
     # cre1 "Captain! Y-you did it!!! You saved us all!!"
-    tri1 "¡Capitán! ¡¡L-lo hizo!! ¡¡Nos salvó a todos!!"
+    cre1 "¡Capitán! ¡¡L-lo hizo!! ¡¡Nos salvó a todos!!"
 
 # game/REturn.rpy:1368
 translate spanish grabpistolfallback_0775dc1b:
 
     # cre3 "CAPTAIN! CAPTAIN! CAPTAIN!"
-    tri3 "¡CAPITÁN! ¡CAPITÁN! ¡CAPITÁN!"
+    cre3 "¡CAPITÁN! ¡CAPITÁN! ¡CAPITÁN!"
 
 # game/REturn.rpy:1369
 translate spanish grabpistolfallback_2b0eef0f:
@@ -4102,7 +4102,7 @@ translate spanish grabpistolfallback_2b0eef0f:
 translate spanish grabpistolfallback_fbada6fc:
 
     # cre1 "Anyways, what are you doing here, with Fire Crew C?"
-    tri1 "De todas formas, ¿que está haciendo usted aquí, con el Personal de Fuego C?"
+    cre1 "De todas formas, ¿que está haciendo usted aquí, con el Personal de Fuego C?"
 
 # game/REturn.rpy:1371
 translate spanish grabpistolfallback_8233f64b:
@@ -4132,19 +4132,19 @@ translate spanish grabpistolfallback_92ff086c:
 translate spanish grabpistolfallback_9b45ae6e:
 
     # cre1 "Did you hear that? The captain said we did good work!"
-    tri1 "¿Oíste eso? ¡El capitán dijo que hicimos un buen trabajo!"
+    cre1 "¿Oíste eso? ¡El capitán dijo que hicimos un buen trabajo!"
 
 # game/REturn.rpy:1376
 translate spanish grabpistolfallback_dbabc162:
 
     # cre2 "Of course he did, kid! We risk our necks every day to keep the ship safe!"
-    tri2 "¡Por supuesto que lo hicimos, chico! ¡Arriesgamos nuestro cuello todos los días para mantener a esta nave a salvo!"
+    cre2 "¡Por supuesto que lo hicimos, chico! ¡Arriesgamos nuestro cuello todos los días para mantener a esta nave a salvo!"
 
 # game/REturn.rpy:1377
 translate spanish grabpistolfallback_d2680a6e:
 
     # cre3 "Hah! Hah! I'm gonna tell everyone in the mess hall about this!"
-    tri3 "¡Hah hah! ¡Voy a contarle a todo el mundo en el comedor acerca de esto!"
+    cre3 "¡Hah hah! ¡Voy a contarle a todo el mundo en el comedor acerca de esto!"
 
 # game/REturn.rpy:1380
 translate spanish grabpistolfallback_eb55bb0d:
@@ -4240,7 +4240,7 @@ translate spanish dontblowcover_f5901090:
 translate spanish dontblowcover_82e04378:
 
     # com "This is bridge, requesting helldarts at coordinates 92-19-27 stat! I repeat, this is bridge, requesting helldarts at coordinates 92-19-27! Auxiliary control, do you copy!?"
-    comm "¡Aquí el puente, pidiendo misiles a las coordenadas 92-19-27! ¡Repito, aquí el puente, pidiendo misiles a las coordenadas 92-19-27! ¿¡Control auxiliar, me copia!?"
+    com "¡Aquí el puente, pidiendo misiles a las coordenadas 92-19-27! ¡Repito, aquí el puente, pidiendo misiles a las coordenadas 92-19-27! ¿¡Control auxiliar, me copia!?"
 
 # game/REturn.rpy:1414
 translate spanish dontblowcover_ccef566f:
@@ -6466,7 +6466,7 @@ translate spanish kidnaplynn_0a3a3312:
 translate spanish kidnaplynn_76348b70:
 
     # cre1 "Wha- Is something the matter, doctor?"
-    tri1 "Qué- ¿Ocurre algo, doctora?"
+    cre1 "Qué- ¿Ocurre algo, doctora?"
 
 # game/REturn.rpy:2257
 translate spanish kidnaplynn_359757eb:
@@ -6478,7 +6478,7 @@ translate spanish kidnaplynn_359757eb:
 translate spanish kidnaplynn_16f63230:
 
     # cre1 "W-we weren't informed of-"
-    tri1 "No fuimos informados de-"
+    cre1 "No fuimos informados de-"
 
 # game/REturn.rpy:2259
 translate spanish kidnaplynn_fa7550db:
@@ -6514,19 +6514,19 @@ translate spanish kidnaplynn_f1ac08be:
 translate spanish kidnaplynn_0fdd1142:
 
     # cre2 "Shit... The doctor's right... My niece nearly died four years ago of the same thing..."
-    tri2 "Maldición... La doctora tiene razón... Mi sobrina casi muere hace cuatro años de la misma cosa..."
+    cre2 "Maldición... La doctora tiene razón... Mi sobrina casi muere hace cuatro años de la misma cosa..."
 
 # game/REturn.rpy:2265
 translate spanish kidnaplynn_1d969d8e:
 
     # cre3 "That's some nasty ass shit... You sure you want to keep the Prototype here, sarge?"
-    tri3 "Eso es algo realmente repugnante... ¿Seguro que quiere mantener al Prototipo aquí, sagento?"
+    cre3 "Eso es algo realmente repugnante... ¿Seguro que quiere mantener al Prototipo aquí, sagento?"
 
 # game/REturn.rpy:2266
 translate spanish kidnaplynn_d1fa14e4:
 
     # cre1 "All right, all right, you've made your point, doctor. Get her quarantined into sickbay."
-    tri1 "De acuerdo, de acuerdo, tienes un punto, doctora. Póngala en cuarentena en la bahía médica."
+    cre1 "De acuerdo, de acuerdo, tienes un punto, doctora. Póngala en cuarentena en la bahía médica."
 
 # game/REturn.rpy:2268
 translate spanish kidnaplynn_455cdca9:
@@ -8254,7 +8254,7 @@ translate spanish capturedkidnapping_2c7f1fb1:
 translate spanish capturedkidnapping_f8a8a7a8:
 
     # kayo "Well... I'll be damned."
-    kayp "Bueno... Podría ser maldecido..."
+    kayo "Bueno... Podría ser maldecido..."
 
 # game/REturn.rpy:2993
 translate spanish capturedkidnapping_bf277c6a:
@@ -8272,7 +8272,7 @@ translate spanish capturedkidnapping_e452256e:
 translate spanish capturedkidnapping_d954795d:
 
     # kayo "You... really do look like an identical copy."
-    kayp "Tú... realmente luces como una copia idéntica."
+    kayo "Tú... realmente luces como una copia idéntica."
 
 # game/REturn.rpy:2999
 translate spanish capturedkidnapping_95fe4e49:
@@ -8302,13 +8302,13 @@ translate spanish capturedkidnapping_84d1ca56:
 translate spanish capturedkidnapping_f347bc56:
 
     # kayo "Oh, trust me, this is real. The ship's security has been compromised by two intruders. One of them happens to look identical to me."
-    kayp "Oh, confía en mí, esto es real. La seguridad de la nave ha sido puesta en peligro por dos intrusos. Uno de ellos parece lucir idéntico a mí."
+    kayo "Oh, confía en mí, esto es real. La seguridad de la nave ha sido puesta en peligro por dos intrusos. Uno de ellos parece lucir idéntico a mí."
 
 # game/REturn.rpy:3007
 translate spanish capturedkidnapping_e9330ae4:
 
     # kayo "This fellow, right here."
-    kayp "Este tipo, justo aquí."
+    kayo "Este tipo, justo aquí."
 
 # game/REturn.rpy:3008
 translate spanish capturedkidnapping_70e4c9dd:
@@ -8326,7 +8326,7 @@ translate spanish capturedkidnapping_4ff8d319:
 translate spanish capturedkidnapping_34e60020:
 
     # kayo "I don't know what he sought to gain by kidnapping you... but I intend to find out."
-    kayp "No sé qué quería ganar al secuestrarte... pero pretendo averiguarlo."
+    kayo "No sé qué quería ganar al secuestrarte... pero pretendo averiguarlo."
 
 # game/REturn.rpy:3011
 translate spanish capturedkidnapping_bc52ed2e:
@@ -8368,13 +8368,13 @@ translate spanish capturedkidnapping_7b457c3d:
 translate spanish capturedkidnapping_a433864c:
 
     # kayo "So he's fooled [girl] too then. Get her to sickbay and make sure she's all right."
-    kayp "Así que ha engañado a [girl] también. Llévenla a la bahía médica y asegúrense que se encuentra bien."
+    kayo "Así que ha engañado a [girl] también. Llévenla a la bahía médica y asegúrense que se encuentra bien."
 
 # game/REturn.rpy:3028
 translate spanish capturedkidnapping_276a5ef6:
 
     # kayo "Take him away, boys. We can find out what he's after once he's secured in the brig. Resume the search for the other imposter. Keep the ship on high alert until she has been found."
-    kayp "Llévenselo, chicos. Podemos averiguar qué es lo que busca una vez que esté asegurado en la prisión. Resuman la búsqueda de la otra impostora. Mantengan a la nave en alta alerta hasta que haya sido encontrada."
+    kayo "Llévenselo, chicos. Podemos averiguar qué es lo que busca una vez que esté asegurado en la prisión. Resuman la búsqueda de la otra impostora. Mantengan a la nave en alta alerta hasta que haya sido encontrada."
 
 # game/REturn.rpy:3030
 translate spanish capturedkidnapping_ef68092c:
@@ -8464,7 +8464,7 @@ translate spanish capturedkidnapping_e66e2e5a:
 translate spanish capturedkidnapping_276a5ef6_1:
 
     # kayo "Take him away, boys. We can find out what he's after once he's secured in the brig. Resume the search for the other imposter. Keep the ship on high alert until she has been found."
-    kayp "Llévenselo, chicos. Podemos averiguar qué es lo que busca una vez que esté asegurado en la prisión. Resuman la búsqueda de la otra impostora. Mantengan a la nave en alta alerta hasta que haya sido encontrada."
+    kayo "Llévenselo, chicos. Podemos averiguar qué es lo que busca una vez que esté asegurado en la prisión. Resuman la búsqueda de la otra impostora. Mantengan a la nave en alta alerta hasta que haya sido encontrada."
 
 # game/REturn.rpy:3061
 translate spanish capturedkidnapping_ef68092c_1:
@@ -8650,7 +8650,7 @@ translate spanish immediatecapture_escape_ca6bd577:
 translate spanish immediatecapture_escape_728dc43c:
 
     # cre1 "C-captain?"
-    tri1 "¿C-capitán?"
+    cre1 "¿C-capitán?"
 
 # game/REturn.rpy:3139
 translate spanish immediatecapture_escape_21eb4c69:
@@ -8668,7 +8668,7 @@ translate spanish immediatecapture_escape_c66c0a9d:
 translate spanish immediatecapture_escape_131e5763:
 
     # cre1 "HOLY---"
-    tri1 "SANTA---"
+    cre1 "SANTA---"
 
 # game/REturn.rpy:3142
 translate spanish immediatecapture_escape_d0e24275:
@@ -8680,7 +8680,7 @@ translate spanish immediatecapture_escape_d0e24275:
 translate spanish immediatecapture_escape_7a87ad8b:
 
     # cre1 "UNBELIEVABLE--!!"
-    tri1 "¡¡INCREÍBLE--!!"
+    cre1 "¡¡INCREÍBLE--!!"
 
 # game/REturn.rpy:3147
 translate spanish immediatecapture_escape_7989666f:
@@ -9364,13 +9364,13 @@ translate spanish detainedinbrig_4b245b87:
 translate spanish detainedinbrig_c942fad1:
 
     # kayo "All right, enough about Chigara. I want to know how you got onboard this ship and who you're actually working for."
-    kayp "De acuerdo, suficiente de Chigara. Quiero saber cómo lograste entrar a bordo de esta nave y para quién realmente estás trabajando."
+    kayo "De acuerdo, suficiente de Chigara. Quiero saber cómo lograste entrar a bordo de esta nave y para quién realmente estás trabajando."
 
 # game/REturn.rpy:3420
 translate spanish detainedinbrig_751f11d2:
 
     # kayo "How did you shut off our ship's reactor? Is sabotage your mission? Or have you merely come here to spread subterfuge like Lynn?"
-    kayp "¿Cómo apagaste el reactor de nuestra nave? ¿Es sabotaje tu misión? ¿O solamente has venido aquí para esparcir temor como Lynn?"
+    kayo "¿Cómo apagaste el reactor de nuestra nave? ¿Es sabotaje tu misión? ¿O solamente has venido aquí para esparcir temor como Lynn?"
 
 # game/REturn.rpy:3421
 translate spanish detainedinbrig_86e5200c:
@@ -9388,25 +9388,25 @@ translate spanish detainedinbrig_fe6af082:
 translate spanish detainedinbrig_55dc470b:
 
     # kayo "You're a Prototype, aren't you? Have you guys started generating clones of me too now?"
-    kayp "Tú eres un Prototipo, ¿no? ¿Ustedes comenzaron a generar clones de mí también ahora?"
+    kayo "Tú eres un Prototipo, ¿no? ¿Ustedes comenzaron a generar clones de mí también ahora?"
 
 # game/REturn.rpy:3425
 translate spanish detainedinbrig_105c23f7:
 
     # kayo "Look, it was pretty weird when we discovered you Prototypes were making artificial clones of Chigara... But now me too? Just what is up with you guys and making clones of people on board this ship?"
-    kayp "Mira, fue bastante extraño cuando descubrimos que ustedes los Prototipos estaban haciendo clones artificiales de Chigara... ¿Pero ahora de mí también? ¿Qué es lo que buscan haciendo clones de la gente a bordo de esta nave?"
+    kayo "Mira, fue bastante extraño cuando descubrimos que ustedes los Prototipos estaban haciendo clones artificiales de Chigara... ¿Pero ahora de mí también? ¿Qué es lo que buscan haciendo clones de la gente a bordo de esta nave?"
 
 # game/REturn.rpy:3426
 translate spanish detainedinbrig_ca71062b:
 
     # kayo "What were you trying to gain by trying to recruit [girl] into your \"mission?\" And for what purpose did you kidnap Chigara?"
-    kayp "¿Qué estabas intentando obtener al intentar reclutar a [girl] en tu \"misión\"? ¿Y para qué propósito secuestraron a Chigara?"
+    kayo "¿Qué estabas intentando obtener al intentar reclutar a [girl] en tu \"misión\"? ¿Y para qué propósito secuestraron a Chigara?"
 
 # game/REturn.rpy:3426
 translate spanish detainedinbrig_3edd841a:
 
     # kayo "What were you trying to gain by trying to recruit [girl] into your \"mission?\" And for what purpose did you kidnap Chigara?"
-    kayp "¿Qué estabas intentando obtener con tu \"misión\"? ¿Y para qué propósito secuestraste a Chigara?"
+    kayo "¿Qué estabas intentando obtener con tu \"misión\"? ¿Y para qué propósito secuestraste a Chigara?"
 
 # game/REturn.rpy:3427
 translate spanish detainedinbrig_5e7da45c:
@@ -9442,13 +9442,13 @@ translate spanish detainedinbrig_f4dc31eb:
 translate spanish detainedinbrig_8a06b687:
 
     # kayo "Doesn't look like this is going to go anywhere. Maybe a little time alone will make you more willing to cooperate."
-    kayp "No parece que esto vaya a llevar a ningún lado. Tal vez un poco de tiempo solo te hará más voluntario a cooperar."
+    kayo "No parece que esto vaya a llevar a ningún lado. Tal vez un poco de tiempo solo te hará más voluntario a cooperar."
 
 # game/REturn.rpy:3435
 translate spanish detainedinbrig_27d5cf7f:
 
     # kayo "Lock him up."
-    kayp "Enciérrenlo."
+    kayo "Enciérrenlo."
 
 # game/REturn.rpy:3436
 translate spanish detainedinbrig_43646624:
@@ -9532,25 +9532,25 @@ translate spanish detainedinbrig_6c8d3896:
 translate spanish detainedinbrig_2cf3935e:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:3462
 translate spanish detainedinbrig_0b5898ca:
 
     # kayo "No. First off, he's not \"Kayto Shields.\""
-    kayp "No. Primero que todo, él no es \"Kayto Shields\"."
+    kayo "No. Primero que todo, él no es \"Kayto Shields\"."
 
 # game/REturn.rpy:3463
 translate spanish detainedinbrig_c22a7052:
 
     # kayo "Ava, you're still going on about that? How many times do I have to tell you, the Prototypes just want to sow division within our ranks. This imposter's probably just their latest attempt at the same strategy. In fact, everything here falls under the same pattern of them trying to get us to turn on each other."
-    kayp "Ava, ¿todavía sigues con eso? Cuántas veces tengo que decirte, los Prototipos solo quieren crear división entre muestras filas. Este impostor es probablemente solo su más reciente intento con la misma estrategia. De heho, todo aquí cae bajo su mismo patrón de intentar enfrentarnos entre nosotros."
+    kayo "Ava, ¿todavía sigues con eso? Cuántas veces tengo que decirte, los Prototipos solo quieren crear división entre muestras filas. Este impostor es probablemente solo su más reciente intento con la misma estrategia. De heho, todo aquí cae bajo su mismo patrón de intentar enfrentarnos entre nosotros."
 
 # game/REturn.rpy:3464
 translate spanish detainedinbrig_989ccf1f:
 
     # kayo "We're one family on board this ship. It's that bond which makes us strong. The Prototypes are trying to undermine it."
-    kayp "Somos una familia a bordo de esta nave. Es ese lazo el cual nos hace fuertes. Los Prototipos están intentando debilitarlo."
+    kayo "Somos una familia a bordo de esta nave. Es ese lazo el cual nos hace fuertes. Los Prototipos están intentando debilitarlo."
 
 # game/REturn.rpy:3465
 translate spanish detainedinbrig_2c6b2120:
@@ -9580,7 +9580,7 @@ translate spanish detainedinbrig_0726d943:
 translate spanish detainedinbrig_057354ba:
 
     # kayo "That's enough, commander."
-    kayp "Es suficiente, Comandante."
+    kayo "Es suficiente, Comandante."
 
 # game/REturn.rpy:3471
 translate spanish detainedinbrig_88926997:
@@ -9592,7 +9592,7 @@ translate spanish detainedinbrig_88926997:
 translate spanish detainedinbrig_b0077c01:
 
     # kayo "Continue to interrogate the prisoner. Find out what the Prototypes are after. That's an order."
-    kayp "Continúa interrogando al prisionero. Averigua detrás de qué están los Prototipos. Es una orden."
+    kayo "Continúa interrogando al prisionero. Averigua detrás de qué están los Prototipos. Es una orden."
 
 # game/REturn.rpy:3474
 translate spanish detainedinbrig_43da5497:
@@ -10624,25 +10624,25 @@ translate spanish badend_trapped_c97729fb:
 translate spanish badend_trapped_9923938b:
 
     # kayo "...Today, the Sunrider stood her ground!"
-    kayp "¡...Hoy, el Sunrider permaneció firme!"
+    kayo "¡...Hoy, el Sunrider permaneció firme!"
 
 # game/REturn.rpy:3793
 translate spanish badend_trapped_9c30d08a:
 
     # kayo "We did not run, but protected all those we hold dear until we fell into the black night!"
-    kayp "¡No huímos, sino protegimos a todos nuestros seres queridos hasta que caímos derrotados!"
+    kayo "¡No huímos, sino protegimos a todos nuestros seres queridos hasta que caímos derrotados!"
 
 # game/REturn.rpy:3794
 translate spanish badend_trapped_77eb2d35:
 
     # kayo "We did not falter in our defense of our family!"
-    kayp "¡No fallamos en la defensa de nuestra familia!"
+    kayo "¡No fallamos en la defensa de nuestra familia!"
 
 # game/REturn.rpy:3795
 translate spanish badend_trapped_9149c623:
 
     # kayo "Today, we perished to save our home!"
-    kayp "¡Hoy, morimos por salvar nuestro hogar!"
+    kayo "¡Hoy, morimos por salvar nuestro hogar!"
 
 # game/REturn.rpy:3796
 translate spanish badend_trapped_d419921d:
@@ -15155,7 +15155,7 @@ translate spanish badend_deathbydecompression_6f64f199:
 translate spanish badend_deathbydecompression_09c59eda:
 
     # cre1 "Sir! Crows' nest reports that the PACT fleet has advanced on our position! The Combined Fleet is trying to hold PACT back, but they are getting decimated by a new enemy ryder, unlike anything we've ever seen before!"
-    tri1 "¡Señor! ¡La torre de observación reporta que la flota del PACT ha avanzado hacia nuestra posición! ¡La Flota Combinada está intentando retener al PACT, pero están siendo diezmados por un nuevo ryder enemigo, distinto a cualquier cosa que habíamos visto antes!"
+    cre1 "¡Señor! ¡La torre de observación reporta que la flota del PACT ha avanzado hacia nuestra posición! ¡La Flota Combinada está intentando retener al PACT, pero están siendo diezmados por un nuevo ryder enemigo, distinto a cualquier cosa que habíamos visto antes!"
 
 # game/REturn.rpy:5231
 translate spanish badend_deathbydecompression_a2363df5:
@@ -15857,7 +15857,7 @@ translate spanish restoringpower_6f64f199:
 translate spanish restoringpower_09c59eda:
 
     # cre1 "Sir! Crows' nest reports that the PACT fleet has advanced on our position! The Combined Fleet is trying to hold PACT back, but they are getting decimated by a new enemy ryder, unlike anything we've ever seen before!"
-    tri1 "¡Señor! ¡La torre de observación reporta que la flota del PACT ha avanzado hacia nuestra posición! ¡La Flota Combinada está intentando retener al PACT, pero están siendo diezmados por un nuevo ryder enemigo, distinto a cualquier cosa que habíamos visto antes!"
+    cre1 "¡Señor! ¡La torre de observación reporta que la flota del PACT ha avanzado hacia nuestra posición! ¡La Flota Combinada está intentando retener al PACT, pero están siendo diezmados por un nuevo ryder enemigo, distinto a cualquier cosa que habíamos visto antes!"
 
 # game/REturn.rpy:5521
 translate spanish restoringpower_a2363df5:
@@ -16386,7 +16386,7 @@ translate spanish restoringpower_0a2af6e5:
 translate spanish restoringpower_6bb970b4:
 
     # kayo "That's not the captain, Icari! That's the spy who turned off our reactor in the first place!"
-    kayp "¡Ese no es el capitán, Icari! ¡Ese es el espía que apagó nuestro reactor en primer lugar!"
+    kayo "¡Ese no es el capitán, Icari! ¡Ese es el espía que apagó nuestro reactor en primer lugar!"
 
 # game/REturn.rpy:5688
 translate spanish restoringpower_875bd0ac:
@@ -16428,13 +16428,13 @@ translate spanish restoringpower_165637c0:
 translate spanish restoringpower_f3eda9f1:
 
     # kayo "[girl]? I don't know what that imposter's been telling you, but there's no question I'm the real Kayto Shields here..."
-    kayp "¿[girl]? No sé qué ese impostor te ha estado contando, pero no hay duda de que yo soy el verdadero Kayto Shields aquí..."
+    kayo "¿[girl]? No sé qué ese impostor te ha estado contando, pero no hay duda de que yo soy el verdadero Kayto Shields aquí..."
 
 # game/REturn.rpy:5702
 translate spanish restoringpower_cd597fa7:
 
     # kayo "Don't worry... You're just confused right now. But you'll be safe soon."
-    kayp "No te preocupes... Tú solo estás confundida ahora mismo. Pero estarás a salvo pronto."
+    kayo "No te preocupes... Tú solo estás confundida ahora mismo. Pero estarás a salvo pronto."
 
 # game/REturn.rpy:5705
 translate spanish restoringpower_219762e0:
@@ -16494,7 +16494,7 @@ translate spanish restoringpower_f616d3e5:
 translate spanish restoringpower_43222cc9:
 
     # kayo "You see? There's no reason for you guys to get caught up in this too. Just let security take in the imposter. In fact, you all need to sortie now to defend the ship."
-    kayp "¿Lo ves? No hay razón para que ustedes se dejen atrapar en esto también. Solo dejen que seguridad atrape al impostor. De hecho, todos ustedes necesitan hacerlo ahora para defender la nave."
+    kayo "¿Lo ves? No hay razón para que ustedes se dejen atrapar en esto también. Solo dejen que seguridad atrape al impostor. De hecho, todos ustedes necesitan hacerlo ahora para defender la nave."
 
 # game/REturn.rpy:5734
 translate spanish restoringpower_86cc84f1:
@@ -16572,7 +16572,7 @@ translate spanish restoringpower_7bb9239c:
 translate spanish restoringpower_0a70c0eb:
 
     # kayo "What could be worse than this?"
-    kayp "¿Qué podría ser peor que esto?"
+    kayo "¿Qué podría ser peor que esto?"
 
 # game/REturn.rpy:5749
 translate spanish restoringpower_59193c93:
@@ -16590,7 +16590,7 @@ translate spanish restoringpower_4e327453:
 translate spanish restoringpower_57ee3f93:
 
     # kayo "Tsch..."
-    kayp "Tsch..."
+    kayo "Tsch..."
 
 # game/REturn.rpy:5752
 translate spanish restoringpower_820867e1:
@@ -16602,7 +16602,7 @@ translate spanish restoringpower_820867e1:
 translate spanish restoringpower_76e299e1:
 
     # kayo "What are our options?"
-    kayp "¿Cuáles son nuestras opciones?"
+    kayo "¿Cuáles son nuestras opciones?"
 
 # game/REturn.rpy:5755
 translate spanish restoringpower_25d774d2:
@@ -16620,7 +16620,7 @@ translate spanish restoringpower_cd5598ed:
 translate spanish restoringpower_aec14b91:
 
     # kayo "Can you really do that, Chigara?"
-    kayp "¿Realmente puedes hacer eso, Chigara?"
+    kayo "¿Realmente puedes hacer eso, Chigara?"
 
 # game/REturn.rpy:5759
 translate spanish restoringpower_07b756af:
@@ -16638,13 +16638,13 @@ translate spanish restoringpower_be1f5b43:
 translate spanish restoringpower_0ac95519:
 
     # kayo "No. Chigara can do it."
-    kayp "No. Chigara puede hacerlo."
+    kayo "No. Chigara puede hacerlo."
 
 # game/REturn.rpy:5764
 translate spanish restoringpower_4f5d489a:
 
     # kayo "We'll just have to trust her."
-    kayp "Tenemos que confiar en ella."
+    kayo "Tenemos que confiar en ella."
 
 # game/REturn.rpy:5765
 translate spanish restoringpower_7d30c89f:
@@ -16680,25 +16680,25 @@ translate spanish restoringpower_f068446b:
 translate spanish restoringpower_14d3d8e5:
 
     # kayo "That's enough of your lies, Prototype."
-    kayp "Ya es suficiente de tus mentiras, Prototipo."
+    kayo "Ya es suficiente de tus mentiras, Prototipo."
 
 # game/REturn.rpy:5771
 translate spanish restoringpower_26300cc2:
 
     # kayo "You guys have been trying to tear this ship apart from the moment Lynn set foot in our brig. But your lies have no power here."
-    kayp "Ustedes han estado intentado destruir esta nave desde el momento en que Lynn pisó nuestra prisión. Pero tus mentiras no tienen poder aquí."
+    kayo "Ustedes han estado intentado destruir esta nave desde el momento en que Lynn pisó nuestra prisión. Pero tus mentiras no tienen poder aquí."
 
 # game/REturn.rpy:5772
 translate spanish restoringpower_3e062bef:
 
     # kayo "We're one family on board this ship. We're not going to begin to question each other."
-    kayp "Somos una familia a bordo de esta nave. No vamos a comenzar a dudar de los otros."
+    kayo "Somos una familia a bordo de esta nave. No vamos a comenzar a dudar de los otros."
 
 # game/REturn.rpy:5773
 translate spanish restoringpower_d9932d09:
 
     # kayo "The ties that bind us... is something you Prototypes will never understand!"
-    kayp "¡Los lazos que nos atan... es algo que ustedes Prototipos nunca entenderán!"
+    kayo "¡Los lazos que nos atan... es algo que ustedes Prototipos nunca entenderán!"
 
 # game/REturn.rpy:5774
 translate spanish restoringpower_ec7d2764:
@@ -17070,13 +17070,13 @@ translate spanish engineering_ava_13471ebf:
 translate spanish engineering_ava_e535fbc8:
 
     # kayo "End of the line, Prototype."
-    kayp "Fin del camino, Prototipo."
+    kayo "Fin del camino, Prototipo."
 
 # game/REturn.rpy:5898
 translate spanish engineering_ava_48debc50:
 
     # kayo "Commander, you damn well have a good explanation as to what you were doing with him... And how he escaped the brig."
-    kayp "Comandante, espero que tenga una maldita buena explicación acerca de lo que estaba haciendo con él... Y de cómo escapó de la prisión."
+    kayo "Comandante, espero que tenga una maldita buena explicación acerca de lo que estaba haciendo con él... Y de cómo escapó de la prisión."
 
 # game/REturn.rpy:5900
 translate spanish engineering_ava_9e522efd:
@@ -17112,7 +17112,7 @@ translate spanish engineering_ava_c724ddd0:
 translate spanish engineering_ava_2cf3935e:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:5908
 translate spanish engineering_ava_2c31146d:
@@ -17142,19 +17142,19 @@ translate spanish engineering_ava_bbdc75cd:
 translate spanish engineering_ava_74a37282:
 
     # kayo "I don't know what you're trying to pull here, Prototype... But to think you've actually managed to turn my own executive officer again me..."
-    kayp "No sé qué estás intentando hacer aquí, Prototipo... Pero pensar que realmente lograrías virar a mi propia oficial ejecutiva contra mí..."
+    kayo "No sé qué estás intentando hacer aquí, Prototipo... Pero pensar que realmente lograrías virar a mi propia oficial ejecutiva contra mí..."
 
 # game/REturn.rpy:5915
 translate spanish engineering_ava_0b41ec76:
 
     # kayo "Commander... You are effectively relieved of your rank and your duties. You are to be confined for the duration of this operation."
-    kayp "Comandante... Estás efectivamente relevada de tu rango y tus deberes. Serás apresada durante esta operación."
+    kayo "Comandante... Estás efectivamente relevada de tu rango y tus deberes. Serás apresada durante esta operación."
 
 # game/REturn.rpy:5916
 translate spanish engineering_ava_5eddcb55:
 
     # kayo "Take both of them in boys."
-    kayp "Tómenlos a ambos chicos."
+    kayo "Tómenlos a ambos chicos."
 
 # game/REturn.rpy:5917
 translate spanish engineering_ava_c519720a:
@@ -17196,7 +17196,7 @@ translate spanish engineering_ava_2f676be3:
 translate spanish engineering_ava_6f25aeaf:
 
     # kayo "Hmph... Is that so?"
-    kayp "Hmph... ¿Es así?"
+    kayo "Hmph... ¿Es así?"
 
 # game/REturn.rpy:5928
 translate spanish engineering_ava_eb6f13a4:
@@ -17208,13 +17208,13 @@ translate spanish engineering_ava_eb6f13a4:
 translate spanish engineering_ava_be9e4aa9:
 
     # kayo "All right. Take the Prototype to the bridge!"
-    kayp "De acuerdo. ¡Lleven al Prototipo al puente!"
+    kayo "De acuerdo. ¡Lleven al Prototipo al puente!"
 
 # game/REturn.rpy:5930
 translate spanish engineering_ava_74c7b5bd:
 
     # kayo "Everyone, man your stations!"
-    kayp "¡A toda la tripulación, a sus estaciones!"
+    kayo "¡A toda la tripulación, a sus estaciones!"
 
 # game/REturn.rpy:5936
 translate spanish engineering_icari_f1ea8bcf:
@@ -17244,7 +17244,7 @@ translate spanish engineering_icari_11b9e593:
 translate spanish engineering_icari_ddb5821f:
 
     # kayo "He did what?"
-    kayp "¿Él hizo qué?"
+    kayo "¿Él hizo qué?"
 
 # game/REturn.rpy:5942
 translate spanish engineering_icari_00a25432:
@@ -17268,7 +17268,7 @@ translate spanish engineering_icari_c5277ca6:
 translate spanish engineering_icari_986e74da:
 
     # kayo "Yeah, but if a spy turns traitor once... there's nothing to say he won't turn traitor again."
-    kayp "Sí, pero si un espía se convierte en un traidor una vez... no hay razón para que no se vuelva un traidor de nuevo."
+    kayo "Sí, pero si un espía se convierte en un traidor una vez... no hay razón para que no se vuelva un traidor de nuevo."
 
 # game/REturn.rpy:5951
 translate spanish engineering_icari_ab691ce7:
@@ -17292,7 +17292,7 @@ translate spanish engineering_icari_89557c64:
 translate spanish engineering_icari_5fa8687e:
 
     # kayo "...Tsch."
-    kayp "...Tsch..."
+    kayo "...Tsch..."
 
 # game/REturn.rpy:5956
 translate spanish engineering_icari_8d66df2a:
@@ -17304,13 +17304,13 @@ translate spanish engineering_icari_8d66df2a:
 translate spanish engineering_icari_b06e92ad:
 
     # kayo "All right. Looks like we don't have a choice."
-    kayp "De acuerdo. Parece que no tenemos elección."
+    kayo "De acuerdo. Parece que no tenemos elección."
 
 # game/REturn.rpy:5959
 translate spanish engineering_icari_ed4a2b6e:
 
     # kayo "Very well, Prototype. Let's see if you have anything insightful to offer. But if you try to pull anything, my marines will gun you down on the spot."
-    kayp "Muy bien, Prototipo. Veamos si tienes algo útil qué ofrecer. Pero si intentas hacer algo, mis marines se matarán a disparos en el sitio."
+    kayo "Muy bien, Prototipo. Veamos si tienes algo útil qué ofrecer. Pero si intentas hacer algo, mis marines se matarán a disparos en el sitio."
 
 # game/REturn.rpy:5960
 translate spanish engineering_icari_613ab04d:
@@ -17322,7 +17322,7 @@ translate spanish engineering_icari_613ab04d:
 translate spanish engineering_icari_e44abc7b:
 
     # kayo "Take him in boys."
-    kayp "Aprésenlo chicos."
+    kayo "Aprésenlo chicos."
 
 # game/REturn.rpy:5962
 translate spanish engineering_icari_bf5c69ec:
@@ -17532,7 +17532,7 @@ translate spanish engineering_asagakillschigara_79b5f065:
 translate spanish engineering_asagakillschigara_2cf3935e:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:6045
 translate spanish engineering_asagakillschigara_598ac227:
@@ -17550,13 +17550,13 @@ translate spanish engineering_asagakillschigara_427e7df5:
 translate spanish engineering_asagakillschigara_88329e56:
 
     # kayo "...All right. If he has something useful to say, we could use all the help we can get."
-    kayp "...De acuerdo. Si tiene algo útil que decir, podríamos necesitar toda la ayuda que podamos conseguir."
+    kayo "...De acuerdo. Si tiene algo útil que decir, podríamos necesitar toda la ayuda que podamos conseguir."
 
 # game/REturn.rpy:6049
 translate spanish engineering_asagakillschigara_f4b77097:
 
     # kayo "We're taking you captive, Prototype! Surrender peacefully and we won't harm you. We will escort you to the bridge in handcuffs where you'll help us defeat the Prototypes. If you try to pull anything, my marines will not hesitate to kill you on the spot."
-    kayp "¡Te tomaremos prisionero, Prototipo! Ríndete pacíficamente y no te haremos daño. Te escoltaremos hacia el puente esposado donde nos ayudarás a derrotar a los Prototipos. Si intentas hacer algo, mis marines no vacilarán en matarte en el sitio."
+    kayo "¡Te tomaremos prisionero, Prototipo! Ríndete pacíficamente y no te haremos daño. Te escoltaremos hacia el puente esposado donde nos ayudarás a derrotar a los Prototipos. Si intentas hacer algo, mis marines no vacilarán en matarte en el sitio."
 
 # game/REturn.rpy:6050
 translate spanish engineering_asagakillschigara_1a01a936:
@@ -17592,7 +17592,7 @@ translate spanish engineering_asagakillschigara_e9550a5c:
 translate spanish engineering_asagakillschigara_a237ab56:
 
     # kayo "We just have to accept it for now. Come on, get to the hangar, you two! Defend this ship from PACT!"
-    kayp "Solo tenemos que aceptarlo por ahora. ¡Vamos, vayan al hangar, ustedes dos! ¡Defiendan esta nave del PACT!"
+    kayo "Solo tenemos que aceptarlo por ahora. ¡Vamos, vayan al hangar, ustedes dos! ¡Defiendan esta nave del PACT!"
 
 # game/REturn.rpy:6060
 translate spanish engineering_asagakillschigara_dae5b605:
@@ -21504,7 +21504,7 @@ translate spanish endgame_asagakillschigara_7db988d6:
 translate spanish endgame_asagakillschigara_eeda67f8:
 
     # kayo "Prototype. What do you know about the Nightmare Ascendant?"
-    kayp "Prototipo. ¿Qué sabes acerca del Nightmare Ascendant?"
+    kayo "Prototipo. ¿Qué sabes acerca del Nightmare Ascendant?"
 
 # game/REturn.rpy:7419
 translate spanish endgame_asagakillschigara_41fc80d8:
@@ -21528,19 +21528,19 @@ translate spanish endgame_asagakillschigara_d13d0b1d:
 translate spanish endgame_asagakillschigara_be978b7f:
 
     # kayo "I see..."
-    kayp "Ya veo..."
+    kayo "Ya veo..."
 
 # game/REturn.rpy:7423
 translate spanish endgame_asagakillschigara_1f3e4c02:
 
     # kayo "The only way we're going to down that monstrosity is if the entire Combined Fleet and the allied PACT Fleet hits it with everything they've got."
-    kayp "La única forma para derribar esa monstruosidad es si toda la Flota Combinada y la Flota del PACT aliada lo golpean con todo lo que tienen."
+    kayo "La única forma para derribar esa monstruosidad es si toda la Flota Combinada y la Flota del PACT aliada lo golpean con todo lo que tienen."
 
 # game/REturn.rpy:7424
 translate spanish endgame_asagakillschigara_bf7c9b69:
 
     # kayo "Chigara, how soon can you begin to restore control to Fontana's ships?"
-    kayp "Chigara, ¿qué tan pronto puedes comenzar a recuperar el control de las naves de Fontana?"
+    kayo "Chigara, ¿qué tan pronto puedes comenzar a recuperar el control de las naves de Fontana?"
 
 # game/REturn.rpy:7425
 translate spanish endgame_asagakillschigara_0003d5ed:
@@ -21576,7 +21576,7 @@ translate spanish endgame_asagakillschigara_fee84c23:
 translate spanish endgame_asagakillschigara_67cdf5c4:
 
     # kayo "Prepare to enter the mind stream, Chigara."
-    kayp "Prepárete para entrar al torrente de mentes, Chigara."
+    kayo "Prepárete para entrar al torrente de mentes, Chigara."
 
 # game/REturn.rpy:7434
 translate spanish endgame_asagakillschigara_9e522efd:
@@ -21588,13 +21588,13 @@ translate spanish endgame_asagakillschigara_9e522efd:
 translate spanish endgame_asagakillschigara_76882d9f:
 
     # kayo "Commander, if we don't get Fontana's ships into the battle right now, then the entire Combined Fleet will be lost!"
-    kayp "¡Comandante, si no recuperamos las naves de Fontana para la batalla ahora mismo, entonces toda la Flota Combinada estará perdida!"
+    kayo "¡Comandante, si no recuperamos las naves de Fontana para la batalla ahora mismo, entonces toda la Flota Combinada estará perdida!"
 
 # game/REturn.rpy:7437
 translate spanish endgame_asagakillschigara_b9bf2290:
 
     # kayo "Does the Prototype have any other ideas on how to win?"
-    kayp "¿Tiene el Prototipo alguna otra idea de cómo ganar?"
+    kayo "¿Tiene el Prototipo alguna otra idea de cómo ganar?"
 
 # game/REturn.rpy:7438
 translate spanish endgame_asagakillschigara_126150a4:
@@ -21630,19 +21630,19 @@ translate spanish endgame_asagakillschigara_5429884c:
 translate spanish endgame_asagakillschigara_51be0a67:
 
     # kayo "We... have to trust Chigara!"
-    kayp "¡Nosotros... tenemos que confiar en Chigara!"
+    kayo "¡Nosotros... tenemos que confiar en Chigara!"
 
 # game/REturn.rpy:7449
 translate spanish endgame_asagakillschigara_9f1b9ea8:
 
     # kayo "I know she's not a Prototype! She's one of us."
-    kayp "¡Yo sé que ella no es un Prototipo! Ella es una de nosotros."
+    kayo "¡Yo sé que ella no es un Prototipo! Ella es una de nosotros."
 
 # game/REturn.rpy:7450
 translate spanish endgame_asagakillschigara_874a459c:
 
     # kayo "She's our trump card! She can turn this battle around in our favor!"
-    kayp "¡Ella es nuestra carta de triunfo! ¡Ella puede voltear esta batalla a nuestro favor!"
+    kayo "¡Ella es nuestra carta de triunfo! ¡Ella puede voltear esta batalla a nuestro favor!"
 
 # game/REturn.rpy:7451
 translate spanish endgame_asagakillschigara_6695680b:
@@ -21654,7 +21654,7 @@ translate spanish endgame_asagakillschigara_6695680b:
 translate spanish endgame_asagakillschigara_2dc85a86:
 
     # kayo "And face certain defeat!?"
-    kayp "¿¡Y encarar una derrota segura!?"
+    kayo "¿¡Y encarar una derrota segura!?"
 
 # game/REturn.rpy:7454
 translate spanish endgame_asagakillschigara_b90c2dcf:
@@ -21678,7 +21678,7 @@ translate spanish endgame_asagakillschigara_f6e47113:
 translate spanish endgame_asagakillschigara_e2a61171:
 
     # kayo "She isn't a spy! There's no way she would be working for the enemy!"
-    kayp "¡Ella no es una espía! ¡No hay forma de que ella pudiera estar trabajando para el enemigo!"
+    kayo "¡Ella no es una espía! ¡No hay forma de que ella pudiera estar trabajando para el enemigo!"
 
 # game/REturn.rpy:7458
 translate spanish endgame_asagakillschigara_2665b9f7:
@@ -21690,19 +21690,19 @@ translate spanish endgame_asagakillschigara_2665b9f7:
 translate spanish endgame_asagakillschigara_f38cf7a3:
 
     # kayo "I'll... damn the entire galaxy if it means protecting Chigara..."
-    kayp "Yo... condenaré a toda la galaxia si eso significa proteger a Chigara..."
+    kayo "Yo... condenaré a toda la galaxia si eso significa proteger a Chigara..."
 
 # game/REturn.rpy:7467
 translate spanish endgame_asagakillschigara_95f0222b:
 
     # kayo "S-she was there for me... when..."
-    kayp "E-ella estuvo ahí por mí... cuando..."
+    kayo "E-ella estuvo ahí por mí... cuando..."
 
 # game/REturn.rpy:7468
 translate spanish endgame_asagakillschigara_4158acb8:
 
     # kayo "While you... weren't...!!!"
-    kayp "¡¡¡Mientras tú... no estabas...!!!"
+    kayo "¡¡¡Mientras tú... no estabas...!!!"
 
 # game/REturn.rpy:7473
 translate spanish endgame_asagakillschigara_5b97aceb:
@@ -21744,19 +21744,19 @@ translate spanish endgame_asagakillschigara_5185bcfc:
 translate spanish endgame_asagakillschigara_1928cb9e:
 
     # kayo "ENOUGH!"
-    kayp "¡SUFICIENTE!"
+    kayo "¡SUFICIENTE!"
 
 # game/REturn.rpy:7481
 translate spanish endgame_asagakillschigara_693fca24:
 
     # kayo "I will not allow you to slander our Chief Engineer!"
-    kayp "¡No te permitiré difamar a nuestra Ingeniera Jefa!"
+    kayo "¡No te permitiré difamar a nuestra Ingeniera Jefa!"
 
 # game/REturn.rpy:7482
 translate spanish endgame_asagakillschigara_6b7f2f1e:
 
     # kayo "Commander... To think I once called you my friend..."
-    kayp "Comandante... Pensar que alguna vez te llamé mi amiga..."
+    kayo "Comandante... Pensar que alguna vez te llamé mi amiga..."
 
 # game/REturn.rpy:7483
 translate spanish endgame_asagakillschigara_252613b9:
@@ -21792,7 +21792,7 @@ translate spanish endgame_asagakillschigara_fd953d7f:
 translate spanish endgame_asagakillschigara_66b182e8:
 
     # kayo "What!?"
-    kayp "¿¡Qué!?"
+    kayo "¿¡Qué!?"
 
 # game/REturn.rpy:7496
 translate spanish endgame_asagakillschigara_91f8d8a8:
@@ -21834,7 +21834,7 @@ translate spanish endgame_asagakillschigara_e90cff4e:
 translate spanish endgame_asagakillschigara_1bb7dda0:
 
     # kayo "ASAGA!!!!"
-    kayp "¡¡¡ASAGA!!!"
+    kayo "¡¡¡ASAGA!!!"
 
 # game/REturn.rpy:7503
 translate spanish endgame_asagakillschigara_991f165a:
@@ -21864,7 +21864,7 @@ translate spanish endgame_asagakillschigara_b9f6a47a:
 translate spanish endgame_asagakillschigara_656ad874:
 
     # kayo "Sola! Can you snipe down the Black Jack!?"
-    kayp "¡Sola! ¿¡Puedes derribar al Black Jack!?"
+    kayo "¡Sola! ¿¡Puedes derribar al Black Jack!?"
 
 # game/REturn.rpy:7515
 translate spanish endgame_asagakillschigara_46438b18:
@@ -21876,7 +21876,7 @@ translate spanish endgame_asagakillschigara_46438b18:
 translate spanish endgame_asagakillschigara_2cb00584:
 
     # kayo "What...?"
-    kayp "¿Qué...?"
+    kayo "¿Qué...?"
 
 # game/REturn.rpy:7517
 translate spanish endgame_asagakillschigara_96fb9711:
@@ -21888,7 +21888,7 @@ translate spanish endgame_asagakillschigara_96fb9711:
 translate spanish endgame_asagakillschigara_aa1567bc:
 
     # kayo "You're... betraying me... too...?"
-    kayp "¿Tú estás... traicionándome... también...?"
+    kayo "¿Tú estás... traicionándome... también...?"
 
 # game/REturn.rpy:7519
 translate spanish endgame_asagakillschigara_b1720a1b:
@@ -21906,7 +21906,7 @@ translate spanish endgame_asagakillschigara_0ab91abd:
 translate spanish endgame_asagakillschigara_05d2170e:
 
     # kayo "Claude! Use the grav gun to stop Asaga!"
-    kayp "¡Claude! ¡Usa el arma de gravedad para detener a Asaga!"
+    kayo "¡Claude! ¡Usa el arma de gravedad para detener a Asaga!"
 
 # game/REturn.rpy:7522
 translate spanish endgame_asagakillschigara_9fc04efd:
@@ -21936,7 +21936,7 @@ translate spanish endgame_asagakillschigara_10cc7ec8:
 translate spanish endgame_asagakillschigara_05d2170e_1:
 
     # kayo "Claude! Use the grav gun to stop Asaga!"
-    kayp "¡Claude! ¡Usa el arma de gravedad para detener a Asaga!"
+    kayo "¡Claude! ¡Usa el arma de gravedad para detener a Asaga!"
 
 # game/REturn.rpy:7531
 translate spanish endgame_asagakillschigara_069ab558:
@@ -22014,7 +22014,7 @@ translate spanish endgame_asagakillschigara_979f7631:
 translate spanish endgame_asagakillschigara_262fc498:
 
     # kayo "YOU!!"
-    kayp "¡¡TÚ!!"
+    kayo "¡¡TÚ!!"
 
 # game/REturn.rpy:7547
 translate spanish endgame_asagakillschigara_a4841e1b:
@@ -22026,7 +22026,7 @@ translate spanish endgame_asagakillschigara_a4841e1b:
 translate spanish endgame_asagakillschigara_980a59e7:
 
     # kayo "What have you done to Asaga!? Why's she attacking the Liberty!?"
-    kayp "¿¡Qué le has hecho a Asaga!? ¿¡Por qué está atacando al Liberty!?"
+    kayo "¿¡Qué le has hecho a Asaga!? ¿¡Por qué está atacando al Liberty!?"
 
 # game/REturn.rpy:7549
 translate spanish endgame_asagakillschigara_832a7f93:
@@ -22080,7 +22080,7 @@ translate spanish endgame_asagakillschigara_f73c7be4:
 translate spanish endgame_asagakillschigara_dee0c1ef:
 
     # kayo "I see you've finally regained consciousness..."
-    kayp "Veo que finalmente has recuperado la conciencia..."
+    kayo "Veo que finalmente has recuperado la conciencia..."
 
 # game/REturn.rpy:7572
 translate spanish endgame_asagakillschigara_cd2e9b4b:
@@ -22104,25 +22104,25 @@ translate spanish endgame_asagakillschigara_330cc0e5:
 translate spanish endgame_asagakillschigara_faa5c114:
 
     # kayo "You son of a bitch..."
-    kayp "Tú hijo de perra..."
+    kayo "Tú hijo de perra..."
 
 # game/REturn.rpy:7579
 translate spanish endgame_asagakillschigara_ece31264:
 
     # kayo "Sola's now in sickbay thanks to your actions... Along with three of my marines..."
-    kayp "Sola está ahora en la bahía médica gracias a tus acciones... Junto con tres de mis marines..."
+    kayo "Sola está ahora en la bahía médica gracias a tus acciones... Junto con tres de mis marines..."
 
 # game/REturn.rpy:7580
 translate spanish endgame_asagakillschigara_79385bea:
 
     # kayo "And I see you've even turned my XO against me."
-    kayp "Y veo que incluso has virado a mi OE contra mí."
+    kayo "Y veo que incluso has virado a mi OE contra mí."
 
 # game/REturn.rpy:7582
 translate spanish endgame_asagakillschigara_a443a84d:
 
     # kayo "I see you've even turned my XO against me."
-    kayp "Veo que incluso has virado a mi OE contra mí."
+    kayo "Veo que incluso has virado a mi OE contra mí."
 
 # game/REturn.rpy:7584
 translate spanish endgame_asagakillschigara_fe3165f4:
@@ -22146,25 +22146,25 @@ translate spanish endgame_asagakillschigara_3581bdd1:
 translate spanish endgame_asagakillschigara_27f8f7bf:
 
     # kayo "Commander... No... Ex-commander."
-    kayp "Comandante... No... Ex-comandante."
+    kayo "Comandante... No... Ex-comandante."
 
 # game/REturn.rpy:7590
 translate spanish endgame_asagakillschigara_58749ad4:
 
     # kayo "After all we've been through... You disobeyed my orders... Worked behind my back..."
-    kayp "Después de todo por lo que hemos pasado... Desobedeció mis órdenes... Trabajando a mis espaldas..."
+    kayo "Después de todo por lo que hemos pasado... Desobedeció mis órdenes... Trabajando a mis espaldas..."
 
 # game/REturn.rpy:7594
 translate spanish endgame_asagakillschigara_b89e02ca:
 
     # kayo "We're through!"
-    kayp "¡Hemos terminado!"
+    kayo "¡Hemos terminado!"
 
 # game/REturn.rpy:7595
 translate spanish endgame_asagakillschigara_f22a21eb:
 
     # kayo "To think I once called you my friend..."
-    kayp "Pensar que una vez te llamé mi amiga..."
+    kayo "Pensar que una vez te llamé mi amiga..."
 
 # game/REturn.rpy:7596
 translate spanish endgame_asagakillschigara_252613b9_1:
@@ -22212,13 +22212,13 @@ translate spanish endgame_asagakillschigara_554e7026:
 translate spanish endgame_asagakillschigara_1928cb9e_1:
 
     # kayo "ENOUGH!"
-    kayp "¡SUFICIENTE!"
+    kayo "¡SUFICIENTE!"
 
 # game/REturn.rpy:7605
 translate spanish endgame_asagakillschigara_7b6afad5:
 
     # kayo "I will not be questioned in my own bridge!"
-    kayp "¡No seré cuestionado en mi propio puente!"
+    kayo "¡No seré cuestionado en mi propio puente!"
 
 # game/REturn.rpy:7606
 translate spanish endgame_asagakillschigara_f6e47113_1:
@@ -22236,19 +22236,19 @@ translate spanish endgame_asagakillschigara_87838b08:
 translate spanish endgame_asagakillschigara_f38cf7a3_1:
 
     # kayo "I'll... damn the entire galaxy if it means protecting Chigara..."
-    kayp "Yo... condenaré a toda la galaxia si eso significa proteger a Chigara..."
+    kayo "Yo... condenaré a toda la galaxia si eso significa proteger a Chigara..."
 
 # game/REturn.rpy:7615
 translate spanish endgame_asagakillschigara_95f0222b_1:
 
     # kayo "S-she was there for me... when..."
-    kayp "E-ella estuvo ahí por mí... cuando..."
+    kayo "E-ella estuvo ahí por mí... cuando..."
 
 # game/REturn.rpy:7616
 translate spanish endgame_asagakillschigara_4158acb8_1:
 
     # kayo "While you... weren't...!!!"
-    kayp "¡¡¡Mientras tú... no estabas...!!!"
+    kayo "¡¡¡Mientras tú... no estabas...!!!"
 
 # game/REturn.rpy:7621
 translate spanish endgame_asagakillschigara_5b97aceb_1:
@@ -22302,7 +22302,7 @@ translate spanish endgame_asagakillschigara_96b58508:
 translate spanish endgame_asagakillschigara_2cf3935e:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:7633
 translate spanish endgame_asagakillschigara_516056e9:
@@ -22326,7 +22326,7 @@ translate spanish endgame_asagakillschigara_4f75897e:
 translate spanish endgame_asagakillschigara_343af214:
 
     # kayo "Charge the Sunrider's trinities. Lock on to the Black Jack."
-    kayp "Carguen los láseres del Sunrider. Apunten al Black Jack."
+    kayo "Carguen los láseres del Sunrider. Apunten al Black Jack."
 
 # game/REturn.rpy:7637
 translate spanish endgame_asagakillschigara_3b0ca754:
@@ -22368,19 +22368,19 @@ translate spanish endgame_asagakillschigara_460b16a7:
 translate spanish endgame_asagakillschigara_5994bfad:
 
     # cre1 "Captain, we've got an unauthorized launch in the hangar!"
-    tri1 "¡Capitán, tenemos un despegue no autorizado en el hangar!"
+    cre1 "¡Capitán, tenemos un despegue no autorizado en el hangar!"
 
 # game/REturn.rpy:7647
 translate spanish endgame_asagakillschigara_66b182e8_1:
 
     # kayo "What!?"
-    kayp "¿¡Qué!?"
+    kayo "¿¡Qué!?"
 
 # game/REturn.rpy:7648
 translate spanish endgame_asagakillschigara_f4dad99c:
 
     # cre1 "It's the Seraphim!"
-    tri1 "¡Es el Seraphim!"
+    cre1 "¡Es el Seraphim!"
 
 # game/REturn.rpy:7649
 translate spanish endgame_asagakillschigara_bf40898d:
@@ -22410,7 +22410,7 @@ translate spanish endgame_asagakillschigara_47326640:
 translate spanish endgame_asagakillschigara_e1b860b9:
 
     # kayo "What the- Sola, what are you-"
-    kayp "Pero qué- Sola, qué estás-"
+    kayo "Pero qué- Sola, qué estás-"
 
 # game/REturn.rpy:7654
 translate spanish endgame_asagakillschigara_0a515c63:
@@ -22506,7 +22506,7 @@ translate spanish endgame_asagakillschigara_2f0411b0:
 translate spanish endgame_asagakillschigara_05d2170e_2:
 
     # kayo "Claude! Use the grav gun to stop Asaga!"
-    kayp "¡Claude! ¡Usa el arma de gravedad para detener a Asaga!"
+    kayo "¡Claude! ¡Usa el arma de gravedad para detener a Asaga!"
 
 # game/REturn.rpy:7674
 translate spanish endgame_asagakillschigara_069ab558_1:
@@ -22584,13 +22584,13 @@ translate spanish endgame_asagakillschigara_979f7631_1:
 translate spanish endgame_asagakillschigara_61d531aa:
 
     # kayo "W-WHAT!?"
-    kayp "¿¡Q-QUÉ!?"
+    kayo "¿¡Q-QUÉ!?"
 
 # game/REturn.rpy:7690
 translate spanish endgame_asagakillschigara_262fc498_1:
 
     # kayo "YOU!!"
-    kayp "¡¡TÚ!!"
+    kayo "¡¡TÚ!!"
 
 # game/REturn.rpy:7691
 translate spanish endgame_asagakillschigara_a4841e1b_1:
@@ -22656,7 +22656,7 @@ translate spanish endgame_asagakillschigara_48f64f85:
 translate spanish endgame_asagakillschigara_4c20e07e:
 
     # kayo "...FIRE ON-"
-    kayp "...DISPAREN AL-"
+    kayo "...DISPAREN AL-"
 
 # game/REturn.rpy:7706
 translate spanish endgame_asagakillschigara_88363130:
@@ -22680,7 +22680,7 @@ translate spanish endgame_asagakillschigara_1f078ae8:
 translate spanish endgame_asagakillschigara_d547e408:
 
     # kayo "SILENCE! You will obey me! I am the ship's captain!"
-    kayp "¡SILENCIO! ¡Ustedes me obedecerán! ¡Yo soy el capitán de la nave!"
+    kayo "¡SILENCIO! ¡Ustedes me obedecerán! ¡Yo soy el capitán de la nave!"
 
 # game/REturn.rpy:7712
 translate spanish endgame_asagakillschigara_df0c200f:
@@ -22698,7 +22698,7 @@ translate spanish endgame_asagakillschigara_5fa46091:
 translate spanish endgame_asagakillschigara_c7908913:
 
     # kayo "NO! At this rate Chigara will--"
-    kayp "¡NO! A este paso Chigara--"
+    kayo "¡NO! A este paso Chigara--"
 
 # game/REturn.rpy:7715
 translate spanish endgame_asagakillschigara_dcb9aa6a:
@@ -22812,7 +22812,7 @@ translate spanish endgame_asagakillschigara_f62d6461:
 translate spanish endgame_asagakillschigara_0d9ca198:
 
     # kayo "...FIRE ON THE BLACK JACK!!!"
-    kayp "¡¡¡...DISPAREN AL BLACK JACK!!!"
+    kayo "¡¡¡...DISPAREN AL BLACK JACK!!!"
 
 # game/REturn.rpy:7752
 translate spanish endgame_asagakillschigara_9a90cf13:
@@ -24594,7 +24594,7 @@ translate spanish gettingclaudetobianca_b3848833:
 translate spanish gettingclaudetobianca_2816b966:
 
     # kayo "End of the line, Prototype. Commander, you damn well have a good explanation as to what you were doing with him... And how he escaped the brig."
-    kayp "Fin del juego, Prototipo. Comandante, espero que tenga una maldita buena explicación acerca de lo que estaba haciendo con él... Y de cómo escapó de la prisión."
+    kayo "Fin del juego, Prototipo. Comandante, espero que tenga una maldita buena explicación acerca de lo que estaba haciendo con él... Y de cómo escapó de la prisión."
 
 # game/REturn.rpy:8392
 translate spanish gettingclaudetobianca_9e522efd:
@@ -24630,7 +24630,7 @@ translate spanish gettingclaudetobianca_c724ddd0:
 translate spanish gettingclaudetobianca_2cf3935e:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:8401
 translate spanish gettingclaudetobianca_2c31146d:
@@ -24660,19 +24660,19 @@ translate spanish gettingclaudetobianca_bbdc75cd:
 translate spanish gettingclaudetobianca_74a37282:
 
     # kayo "I don't know what you're trying to pull here, Prototype... But to think you've actually managed to turn my own executive officer again me..."
-    kayp "No sé qué estás intentando hacer aquí, Prototipo... Pero pensar que realmente lograrías virar a mi propia oficial ejecutiva contra mí..."
+    kayo "No sé qué estás intentando hacer aquí, Prototipo... Pero pensar que realmente lograrías virar a mi propia oficial ejecutiva contra mí..."
 
 # game/REturn.rpy:8406
 translate spanish gettingclaudetobianca_0b41ec76:
 
     # kayo "Commander... You are effectively relieved of your rank and your duties. You are to be confined for the duration of this operation."
-    kayp "Comandante... Estás efectivamente relevada de tu rango y tus deberes. Serás apresada durante esta operación."
+    kayo "Comandante... Estás efectivamente relevada de tu rango y tus deberes. Serás apresada durante esta operación."
 
 # game/REturn.rpy:8408
 translate spanish gettingclaudetobianca_5eddcb55:
 
     # kayo "Take both of them in boys."
-    kayp "Tómenlos a ambos chicos."
+    kayo "Tómenlos a ambos chicos."
 
 # game/REturn.rpy:8409
 translate spanish gettingclaudetobianca_c519720a:
@@ -24702,13 +24702,13 @@ translate spanish gettingclaudetobianca_b72bb92a:
 translate spanish gettingclaudetobianca_2aee8cfb:
 
     # kayo "Oh?"
-    kayp "¿Oh?"
+    kayo "¿Oh?"
 
 # game/REturn.rpy:8414
 translate spanish gettingclaudetobianca_8d5b1f5a:
 
     # kayo "We'll see about that."
-    kayp "Ya lo veremos."
+    kayo "Ya lo veremos."
 
 # game/REturn.rpy:8416
 translate spanish gettingclaudetobianca_d232d1e0:
@@ -24978,7 +24978,7 @@ translate spanish claude_end_c7c4895b:
 translate spanish claude_end_82d8af24:
 
     # kayo "What's wrong with Asaga!?"
-    kayp "¿¡Qué ocurre con Asaga!?"
+    kayo "¿¡Qué ocurre con Asaga!?"
 
 # game/REturn.rpy:8524
 translate spanish claude_end_7085a7c8:
@@ -24996,13 +24996,13 @@ translate spanish claude_end_05b0a5cd:
 translate spanish claude_end_6a60af2e:
 
     # kayo "Tsch... Put me through the Black Jack."
-    kayp "Tsch... Ponme con el Black Jack."
+    kayo "Tsch... Ponme con el Black Jack."
 
 # game/REturn.rpy:8527
 translate spanish claude_end_c6f47038:
 
     # kayo "Asaga, what's wrong!?"
-    kayp "¿¡Asaga, qué ocurre!?"
+    kayo "¿¡Asaga, qué ocurre!?"
 
 # game/REturn.rpy:8529
 translate spanish claude_end_91f8d8a8:
@@ -25044,19 +25044,19 @@ translate spanish claude_end_e90cff4e:
 translate spanish claude_end_69eec5a1:
 
     # kayo "What...!? E-even you--!?"
-    kayp "¿¡Qué...!? ¿¡I-incluso tú--!?"
+    kayo "¿¡Qué...!? ¿¡I-incluso tú--!?"
 
 # game/REturn.rpy:8538
 translate spanish claude_end_1803d174:
 
     # kayo "Asaga, listen to me... I don't know what you've been told... But that's only a filthy lie spread by the Prototypes to get us to doubt each other!"
-    kayp "Asaga, escúchame... No sé que te habrán dicho... ¡Pero esa es solo una asquerosa mentira esparcida por los Prototipos para hacernos dudar entre nosotros!"
+    kayo "Asaga, escúchame... No sé que te habrán dicho... ¡Pero esa es solo una asquerosa mentira esparcida por los Prototipos para hacernos dudar entre nosotros!"
 
 # game/REturn.rpy:8539
 translate spanish claude_end_e6511e08:
 
     # kayo "Defend the Liberty! Chigara's the only hope we have to win this battle!"
-    kayp "¡Defiende al Liberty! ¡Chigara es la única esperanza que tenemos de ganar esta batalla!"
+    kayo "¡Defiende al Liberty! ¡Chigara es la única esperanza que tenemos de ganar esta batalla!"
 
 # game/REturn.rpy:8541
 translate spanish claude_end_6636ae14:
@@ -25080,7 +25080,7 @@ translate spanish claude_end_e05f4c18:
 translate spanish claude_end_5dae7e7f:
 
     # kayo "Shit!"
-    kayp "¡Maldición!"
+    kayo "¡Maldición!"
 
 # game/REturn.rpy:8546
 translate spanish claude_end_6fb47945:
@@ -25092,7 +25092,7 @@ translate spanish claude_end_6fb47945:
 translate spanish claude_end_be73ec17:
 
     # kayo "I'm in charge here!"
-    kayp "¡Yo estoy a cargo aquí!"
+    kayo "¡Yo estoy a cargo aquí!"
 
 # game/REturn.rpy:8548
 translate spanish claude_end_307ab68e:
@@ -25104,7 +25104,7 @@ translate spanish claude_end_307ab68e:
 translate spanish claude_end_0fd8e574:
 
     # kayo "Tsch... Do what he says."
-    kayp "Tsch... Haz lo que dice."
+    kayo "Tsch... Haz lo que dice."
 
 # game/REturn.rpy:8550
 translate spanish claude_end_395b12b4:
@@ -25128,7 +25128,7 @@ translate spanish claude_end_e37921fc:
 translate spanish claude_end_2cf3935e:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:8556
 translate spanish claude_end_f6b5e811:
@@ -25194,13 +25194,13 @@ translate spanish claude_end_d39d9053:
 translate spanish claude_end_c891b538:
 
     # kayo "W-what the--"
-    kayp "¿¡P-pero qué--!?"
+    kayo "¿¡P-pero qué--!?"
 
 # game/REturn.rpy:8575
 translate spanish claude_end_ea055c05:
 
     # kayo "C-Claude!? A-Are you all right!?"
-    kayp "¿¡Claude!? ¿¡Estás bien!?"
+    kayo "¿¡Claude!? ¿¡Estás bien!?"
 
 # game/REturn.rpy:8580
 translate spanish claude_end_708d244b:
@@ -25278,7 +25278,7 @@ translate spanish claude_end_69ec5029:
 translate spanish claude_end_a79bc2e0:
 
     # kayo "W-WHAT!? Phoenix, what are you--"
-    kayp "¿¡Q-QUÉ!? Phoenix, qué estás--"
+    kayo "¿¡Q-QUÉ!? Phoenix, qué estás--"
 
 # game/REturn.rpy:8607
 translate spanish claude_end_4ecae64f:
@@ -25320,7 +25320,7 @@ translate spanish claude_end_b22f894d:
 translate spanish claude_end_262fc498:
 
     # kayo "YOU!!"
-    kayp "¡¡TÚ!!"
+    kayo "¡¡TÚ!!"
 
 # game/REturn.rpy:8620
 translate spanish claude_end_21fb2512:
@@ -25332,7 +25332,7 @@ translate spanish claude_end_21fb2512:
 translate spanish claude_end_5aecd053:
 
     # kayo "You planned this!"
-    kayp "¡Tú planeaste esto!"
+    kayo "¡Tú planeaste esto!"
 
 # game/REturn.rpy:8622
 translate spanish claude_end_8695d07b:
@@ -25368,7 +25368,7 @@ translate spanish claude_end_257749b9:
 translate spanish claude_end_e048c49f:
 
     # kayo "What...!?"
-    kayp "¿¡Qué...!?"
+    kayo "¿¡Qué...!?"
 
 # game/REturn.rpy:8628
 translate spanish claude_end_c2f14d02:
@@ -25410,7 +25410,7 @@ translate spanish claude_end_d72eb203:
 translate spanish claude_end_e61cd14f:
 
     # kayo "Put it on screen!"
-    kayp "¡Ponla en pantalla!"
+    kayo "¡Ponla en pantalla!"
 
 # game/REturn.rpy:8642
 translate spanish claude_end_b4a2b0fa:
@@ -25446,13 +25446,13 @@ translate spanish claude_end_326733c8:
 translate spanish claude_end_6f335b9f:
 
     # kayo "C-Chigara..."
-    kayp "C-Chigara..."
+    kayo "C-Chigara..."
 
 # game/REturn.rpy:8651
 translate spanish claude_end_5602884e:
 
     # kayo "W-what have you done to her...!?"
-    kayp "¿¡Q-qué le has hecho...!?"
+    kayo "¿¡Q-qué le has hecho...!?"
 
 # game/REturn.rpy:8652
 translate spanish claude_end_47203918:
@@ -25482,7 +25482,7 @@ translate spanish claude_end_a3f11aa3:
 translate spanish claude_end_2cf3935e_1:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:8657
 translate spanish claude_end_e4d97f3b:
@@ -25494,13 +25494,13 @@ translate spanish claude_end_e4d97f3b:
 translate spanish claude_end_9b53d7a1:
 
     # kayo "Then... I've been..."
-    kayp "Entonces... Yo he sido..."
+    kayo "Entonces... Yo he sido..."
 
 # game/REturn.rpy:8659
 translate spanish claude_end_2fe1ac9a:
 
     # kayo "All this time... Everyone else was right..."
-    kayp "Todo este tiempo... Todos los demás tenían razón..."
+    kayo "Todo este tiempo... Todos los demás tenían razón..."
 
 # game/REturn.rpy:8660
 translate spanish claude_end_58b5c014:
@@ -25512,13 +25512,13 @@ translate spanish claude_end_58b5c014:
 translate spanish claude_end_2cf3935e_2:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:8662
 translate spanish claude_end_b5ecf7d4:
 
     # kayo "Im... possible...!"
-    kayp "¡Im... posible...!"
+    kayo "¡Im... posible...!"
 
 # game/REturn.rpy:8663
 translate spanish claude_end_da3a022c:
@@ -25548,7 +25548,7 @@ translate spanish claude_end_9e522efd:
 translate spanish claude_end_2cf3935e_3:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:8686
 translate spanish claude_end_d0cccb01:
@@ -25830,7 +25830,7 @@ translate spanish claude_end_07328c9b:
 translate spanish claude_end_e17b03c2:
 
     # unp "This is the Cera Underground Resistance! We've got our hands on some gunboats and are ready to assist!"
-    pde "¡Aquí la Resistencia Clandestina de Cera! ¡Hemos puesto nuestras manos en algunos cañoneros y estamos listos para ayudar!"
+    unp "¡Aquí la Resistencia Clandestina de Cera! ¡Hemos puesto nuestras manos en algunos cañoneros y estamos listos para ayudar!"
 
 # game/REturn.rpy:8810
 translate spanish claude_end_83e504bb:
@@ -25854,7 +25854,7 @@ translate spanish claude_end_d2dca763:
 translate spanish claude_end_6bf4e974:
 
     # unp "We'll distract her! Hit her with everything you've got!"
-    pde "¡Nosotros la distraeremos! ¡Dispárenle con todo lo que tienen!"
+    unp "¡Nosotros la distraeremos! ¡Dispárenle con todo lo que tienen!"
 
 # game/REturn.rpy:8817
 translate spanish claude_end_35b9a9d4:
@@ -28188,7 +28188,7 @@ translate spanish confrontationwithfate_02c7f684:
 translate spanish confrontationwithfate_f04c3c2f:
 
     # kayo "No need."
-    kayp "No es necesario."
+    kayo "No es necesario."
 
 # game/REturn.rpy:9635
 translate spanish confrontationwithfate_d506e07d:
@@ -28206,7 +28206,7 @@ translate spanish confrontationwithfate_d2853f15:
 translate spanish confrontationwithfate_40a25dce:
 
     # kayo "You've got some guts breaking into my office. What were you trying to pull in there?"
-    kayp "Tienes agallas para irrumpir en mi oficina. ¿Qué estabas tratando de hacer ahí dentro?"
+    kayo "Tienes agallas para irrumpir en mi oficina. ¿Qué estabas tratando de hacer ahí dentro?"
 
 # game/REturn.rpy:9641
 translate spanish confrontationwithfate_ac26a47d:
@@ -28224,7 +28224,7 @@ translate spanish confrontationwithfate_a446de9b:
 translate spanish confrontationwithfate_9e2a6c6a:
 
     # kayo "Commander, you violated a direct order by setting the imposter free. And worse, I see that you're actively helping him sow dissention on board this ship. Have you lost your damned mind?"
-    kayp "Comandante, violó una orden directa al dejar libre al impostor. Y peor, veo que ahora lo está ayudando activamente a sembrar el desacuerdo a bordo de esta nave. ¿Ha perdido su maldito juicio?"
+    kayo "Comandante, violó una orden directa al dejar libre al impostor. Y peor, veo que ahora lo está ayudando activamente a sembrar el desacuerdo a bordo de esta nave. ¿Ha perdido su maldito juicio?"
 
 # game/REturn.rpy:9649
 translate spanish confrontationwithfate_8e60e587:
@@ -28242,7 +28242,7 @@ translate spanish confrontationwithfate_8cf30caf:
 translate spanish confrontationwithfate_0894e2f0:
 
     # kayo "What?"
-    kayp "¿Qué?"
+    kayo "¿Qué?"
 
 # game/REturn.rpy:9652
 translate spanish confrontationwithfate_8d1d54e5:
@@ -28266,13 +28266,13 @@ translate spanish confrontationwithfate_4134793a:
 translate spanish confrontationwithfate_69ca6fb2:
 
     # kayo "Y-you... you turned my own XO against me!"
-    kayp "¡T-tú... volviste a mi propia OE en mi contra!"
+    kayo "¡T-tú... volviste a mi propia OE en mi contra!"
 
 # game/REturn.rpy:9659
 translate spanish confrontationwithfate_e2e827d5:
 
     # kayo "After all we've been through... You'd trust a Prototype spy over me!?"
-    kayp "Después de todo por lo que hemos pasado... ¿¡Confías más en un espía Prototipo que en mí!?"
+    kayo "Después de todo por lo que hemos pasado... ¿¡Confías más en un espía Prototipo que en mí!?"
 
 # game/REturn.rpy:9660
 translate spanish confrontationwithfate_ffd05b5a:
@@ -28284,13 +28284,13 @@ translate spanish confrontationwithfate_ffd05b5a:
 translate spanish confrontationwithfate_db26e363:
 
     # kayo "Commander... No... Ex-commander Crescentia. I am relieving you of your command. You are to be confined to quarters until the battle is over so that you can be tried for insubordination."
-    kayp "Comandante... No... Ex-comandante Crescentia. Te estoy relevando de tu cargo. Serás confinada a las habitaciones hasta que la batalla haya terminado y puedas ser tratada por insubordinación."
+    kayo "Comandante... No... Ex-comandante Crescentia. Te estoy relevando de tu cargo. Serás confinada a las habitaciones hasta que la batalla haya terminado y puedas ser tratada por insubordinación."
 
 # game/REturn.rpy:9662
 translate spanish confrontationwithfate_556aa1e8:
 
     # kayo "As for you, Prototype... The brig!"
-    kayp "Y para tí, Prototipo... ¡La prisión!"
+    kayo "Y para tí, Prototipo... ¡La prisión!"
 
 # game/REturn.rpy:9668
 translate spanish confrontationwithfate_ad100abb:
@@ -28308,13 +28308,13 @@ translate spanish confrontationwithfate_3ce7fc25:
 translate spanish confrontationwithfate_46262b3f:
 
     # kayo "Icari... I don't know what's going on... but you helped this imposter escape by hacking into our security system."
-    kayp "Icari... No sé qué está ocurriendo... pero ayudaste a este impostor a escapar al hackear nuestro sistema de seguridad."
+    kayo "Icari... No sé qué está ocurriendo... pero ayudaste a este impostor a escapar al hackear nuestro sistema de seguridad."
 
 # game/REturn.rpy:9671
 translate spanish confrontationwithfate_17175c66:
 
     # kayo "When I brought you onboard this ship... you swore that you would play by my rules. What happened to that?"
-    kayp "Cuando te traje a bordo de esta nave... juraste que te atenderías a mis reglas. ¿Qué le pasó a eso?"
+    kayo "Cuando te traje a bordo de esta nave... juraste que te atenderías a mis reglas. ¿Qué le pasó a eso?"
 
 # game/REturn.rpy:9675
 translate spanish confrontationwithfate_51c1d57e:
@@ -28332,13 +28332,13 @@ translate spanish confrontationwithfate_0d8fbea7:
 translate spanish confrontationwithfate_c9bd87b6:
 
     # kayo "I don't see any new developments. Just the same old Prototype plot to split this ship apart!"
-    kayp "Yo no veo ningún nuevo acontecimiento. ¡Solo el mismo viejo plan Prototipo de dividir nuestra nave!"
+    kayo "Yo no veo ningún nuevo acontecimiento. ¡Solo el mismo viejo plan Prototipo de dividir nuestra nave!"
 
 # game/REturn.rpy:9682
 translate spanish confrontationwithfate_27a1192f:
 
     # kayo "Commander, you are out of line..."
-    kayp "Comandante, está fuera de lugar..."
+    kayo "Comandante, está fuera de lugar..."
 
 # game/REturn.rpy:9683
 translate spanish confrontationwithfate_09b59600:
@@ -28350,7 +28350,7 @@ translate spanish confrontationwithfate_09b59600:
 translate spanish confrontationwithfate_fb21548d:
 
     # kayo "Enough!"
-    kayp "¡Suficiente!"
+    kayo "¡Suficiente!"
 
 # game/REturn.rpy:9691
 translate spanish confrontationwithfate_2cc69c0c:
@@ -28368,7 +28368,7 @@ translate spanish confrontationwithfate_ca36ea4f:
 translate spanish confrontationwithfate_38c97da4:
 
     # kayo "You too, [girl]? What's..."
-    kayp "¿Tú también, [girl]? Qué es..."
+    kayo "¿Tú también, [girl]? Qué es..."
 
 # game/REturn.rpy:9698
 translate spanish confrontationwithfate_8b74f6dd:
@@ -28392,7 +28392,7 @@ translate spanish confrontationwithfate_98b48760:
 translate spanish confrontationwithfate_38c97da4_1:
 
     # kayo "You too, [girl]? What's..."
-    kayp "¿Tú también, [girl]? Qué es..."
+    kayo "¿Tú también, [girl]? Qué es..."
 
 # game/REturn.rpy:9707
 translate spanish confrontationwithfate_76209b54:
@@ -28452,7 +28452,7 @@ translate spanish confrontationwithfate_39e2fa12:
 translate spanish confrontationwithfate_6fbd2bcc:
 
     # kayo "Marines, hold your fire!"
-    kayp "¡Marines, aborten el fuego!"
+    kayo "¡Marines, aborten el fuego!"
 
 # game/REturn.rpy:9744
 translate spanish confrontationwithfate_caff8d5b:
@@ -28464,25 +28464,25 @@ translate spanish confrontationwithfate_caff8d5b:
 translate spanish confrontationwithfate_cc2cf0c5:
 
     # kayo "All right. I'll bite."
-    kayp "Está bien. Te escucharé."
+    kayo "Está bien. Te escucharé."
 
 # game/REturn.rpy:9746
 translate spanish confrontationwithfate_aa9b51a6:
 
     # kayo "If you really are me, you should know all that Chigara has done for us."
-    kayp "Si tú realmente eres yo, entonces deberías saber todo lo que Chigara ha hecho por nosotros."
+    kayo "Si tú realmente eres yo, entonces deberías saber todo lo que Chigara ha hecho por nosotros."
 
 # game/REturn.rpy:9747
 translate spanish confrontationwithfate_fd6751bb:
 
     # kayo "She's had hundreds of opportunities to kill us before. And yet, each time, she has defended this ship!"
-    kayp "Ella ha tenido cientos de oportunidades para matarnos antes. ¡Y aún así, cada vez, ella ha defendido esta nave!"
+    kayo "Ella ha tenido cientos de oportunidades para matarnos antes. ¡Y aún así, cada vez, ella ha defendido esta nave!"
 
 # game/REturn.rpy:9748
 translate spanish confrontationwithfate_7b4f56a9:
 
     # kayo "To question her now... Would be tantamount to betraying my family."
-    kayp "Dudar de ella ahora... Sería equivalente a traicionar a mi familia."
+    kayo "Dudar de ella ahora... Sería equivalente a traicionar a mi familia."
 
 # game/REturn.rpy:9749
 translate spanish confrontationwithfate_3cf9af21:
@@ -28494,7 +28494,7 @@ translate spanish confrontationwithfate_3cf9af21:
 translate spanish confrontationwithfate_eb9c9ec0:
 
     # kayo "If so, what would you have me do? Kill her? Imprison her for life?"
-    kayp "Si es así, ¿qué querrías que haga? ¿Matarla? ¿Encarcelarla de por vida?"
+    kayo "Si es así, ¿qué querrías que haga? ¿Matarla? ¿Encarcelarla de por vida?"
 
 # game/REturn.rpy:9751
 translate spanish confrontationwithfate_555c683a:
@@ -28524,25 +28524,25 @@ translate spanish confrontationwithfate_0dfa9943:
 translate spanish confrontationwithfate_7b496163:
 
     # kayo "All lies!"
-    kayp "¡Todo es mentira!"
+    kayo "¡Todo es mentira!"
 
 # game/REturn.rpy:9759
 translate spanish confrontationwithfate_e3038fb2:
 
     # kayo "Chigara... Chigara will save us! She's... all that matters!"
-    kayp "Chigara... ¡Chigara nos salvará! ¡Ella es... todo lo que importa!"
+    kayo "Chigara... ¡Chigara nos salvará! ¡Ella es... todo lo que importa!"
 
 # game/REturn.rpy:9760
 translate spanish confrontationwithfate_25e4be9e:
 
     # kayo "I won't betray her! SHE..."
-    kayp "¡Yo no la traicionaré! ELLA..."
+    kayo "¡Yo no la traicionaré! ELLA..."
 
 # game/REturn.rpy:9761
 translate spanish confrontationwithfate_e92408c8:
 
     # kayo "Is... everything...!"
-    kayp "¡Es... todo...!"
+    kayo "¡Es... todo...!"
 
 # game/REturn.rpy:9767
 translate spanish confrontationwithfate_223123b5:
@@ -28554,7 +28554,7 @@ translate spanish confrontationwithfate_223123b5:
 translate spanish confrontationwithfate_0da603e8:
 
     # kayo "All I need is her...!"
-    kayp "¡Todo lo que necesito es a ella...!"
+    kayo "¡Todo lo que necesito es a ella...!"
 
 # game/REturn.rpy:9769
 translate spanish confrontationwithfate_f7600cf5:
@@ -28638,7 +28638,7 @@ translate spanish confrontationwithfate_8e001bca:
 translate spanish confrontationwithfate_f6a71273:
 
     # kayo "G-GUGH!!"
-    kayp "¡¡G-GUGH!!"
+    kayo "¡¡G-GUGH!!"
 
 # game/REturn.rpy:9791
 translate spanish confrontationwithfate_0c6532c7:
@@ -28686,7 +28686,7 @@ translate spanish confrontationwithfate_eb0beb60:
 translate spanish confrontationwithfate_4f8b03ec:
 
     # kayo "T-tsch..."
-    kayp "T-tsch..."
+    kayo "T-tsch..."
 
 # game/REturn.rpy:9802
 translate spanish confrontationwithfate_e6d23614:
@@ -28740,7 +28740,7 @@ translate spanish confrontationwithfate_c8929ed9:
 translate spanish confrontationwithfate_2cf3935e:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:9811
 translate spanish confrontationwithfate_9971cf48:
@@ -28764,25 +28764,25 @@ translate spanish confrontationwithfate_646842be:
 translate spanish confrontationwithfate_2cf3935e_1:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:9822
 translate spanish confrontationwithfate_ff2e765e:
 
     # kayo "Commander..."
-    kayp "Comandante..."
+    kayo "Comandante..."
 
 # game/REturn.rpy:9823
 translate spanish confrontationwithfate_afd314f0:
 
     # kayo "Revoke... the Chief Engineer's security access..."
-    kayp "Revoque... el acceso de seguridad de la Ingeniera Jefa..."
+    kayo "Revoque... el acceso de seguridad de la Ingeniera Jefa..."
 
 # game/REturn.rpy:9824
 translate spanish confrontationwithfate_e9e17958:
 
     # kayo "And have her detained."
-    kayp "Y deténganla."
+    kayo "Y deténganla."
 
 # game/REturn.rpy:9825
 translate spanish confrontationwithfate_09637264:
@@ -28800,25 +28800,25 @@ translate spanish confrontationwithfate_de1705ee:
 translate spanish confrontationwithfate_2cf3935e_2:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:9831
 translate spanish confrontationwithfate_328b5d47:
 
     # kayo "The ghost which spawned from that wretched day will never leave my side..."
-    kayp "El fantasma que apareció de ese miserable día nunca dejará mi lado..."
+    kayo "El fantasma que apareció de ese miserable día nunca dejará mi lado..."
 
 # game/REturn.rpy:9832
 translate spanish confrontationwithfate_2cf3935e_3:
 
     # kayo "... ... ..."
-    kayp "... ... ..."
+    kayo "... ... ..."
 
 # game/REturn.rpy:9833
 translate spanish confrontationwithfate_c14a512d:
 
     # kayo "All the more reason she should not gain new friends in the afterlife."
-    kayp "Razón de más por la cual ella no ganaría nuevos amigos en su próxima vida."
+    kayo "Razón de más por la cual ella no ganaría nuevos amigos en su próxima vida."
 
 # game/REturn.rpy:9834
 translate spanish confrontationwithfate_4710cb25:
@@ -28830,25 +28830,25 @@ translate spanish confrontationwithfate_4710cb25:
 translate spanish confrontationwithfate_d19288a6:
 
     # kayo "I am convening an emergency staff meeting. We will have to devise a new battle plan without Chigara's participation."
-    kayp "Estoy convocando una reunión de emergencia del personal. Tendremos que idear un nuevo plan de batalla sin la participación de Chigara."
+    kayo "Estoy convocando una reunión de emergencia del personal. Tendremos que idear un nuevo plan de batalla sin la participación de Chigara."
 
 # game/REturn.rpy:9836
 translate spanish confrontationwithfate_c12c635f:
 
     # kayo "Commander, get the lieutenant."
-    kayp "Comandante, avise a la teniente."
+    kayo "Comandante, avise a la teniente."
 
 # game/REturn.rpy:9837
 translate spanish confrontationwithfate_11b51147:
 
     # kayo "As for my other self... I am sure his insight will be most valuable in the coming battle."
-    kayp "Y para mi otro yo... Estoy seguro de que su conocimiento será de mucho valor en la próxima batalla."
+    kayo "Y para mi otro yo... Estoy seguro de que su conocimiento será de mucho valor en la próxima batalla."
 
 # game/REturn.rpy:9838
 translate spanish confrontationwithfate_31b79d1f:
 
     # kayo "Heh. After all, he's at least as smart as I am."
-    kayp "Heh. Después de todo, él es al menos tan listo como yo."
+    kayo "Heh. Después de todo, él es al menos tan listo como yo."
 
 # game/REturn.rpy:9839
 translate spanish confrontationwithfate_daa4afab:
@@ -31620,7 +31620,7 @@ translate spanish thefinalbattle_19418643:
 translate spanish thefinalbattle_3cba4434:
 
     # kayo "Chigara's escaped. We don't know how, but she managed to open her cell."
-    kayp "Chigara escapó. No sabemos cómo, pero ella logró abrir su celda."
+    kayo "Chigara escapó. No sabemos cómo, pero ella logró abrir su celda."
 
 # game/REturn.rpy:10637
 translate spanish thefinalbattle_3d45c4e9:
@@ -31632,13 +31632,13 @@ translate spanish thefinalbattle_3d45c4e9:
 translate spanish thefinalbattle_8b48e0cb:
 
     # kayo "Eight marines, all in serious condition when a nearby conduit blew. Obviously not a coincidence."
-    kayp "Ocho marines, todos en seria condición cuando un conducto cercano estalló. Obviamente no fue una coincidencia."
+    kayo "Ocho marines, todos en seria condición cuando un conducto cercano estalló. Obviamente no fue una coincidencia."
 
 # game/REturn.rpy:10639
 translate spanish thefinalbattle_3b977969:
 
     # kayo "I've already got security turning the ship inside out to find her, but she somehow managed to manipulate all our cameras too. Took us a good half hour until we realized that all the footage was fake."
-    kayp "Ya he hecho que seguridad vire al revés la nave para encontrarla, pero ella de alguna manera logró manipular todas nuestras cámaras también. Nos tomó una buena media hora hasta que nos dimos cuenta de que todas las grabaciones eran falsas."
+    kayo "Ya he hecho que seguridad vire al revés la nave para encontrarla, pero ella de alguna manera logró manipular todas nuestras cámaras también. Nos tomó una buena media hora hasta que nos dimos cuenta de que todas las grabaciones eran falsas."
 
 # game/REturn.rpy:10640
 translate spanish thefinalbattle_39c1756d:
@@ -31668,7 +31668,7 @@ translate spanish thefinalbattle_96a1ac81:
 translate spanish thefinalbattle_7617d4c6:
 
     # kayo "Damn... We could have used it during the battle... To think we have to take apart our own ryder..."
-    kayp "Maldición... Podríamos haberlo usado durante la batalla... Pensar que tenemos que desmantelar nuestro propio ryder."
+    kayo "Maldición... Podríamos haberlo usado durante la batalla... Pensar que tenemos que desmantelar nuestro propio ryder."
 
 # game/REturn.rpy:10645
 translate spanish thefinalbattle_a8912dd5:
@@ -31680,7 +31680,7 @@ translate spanish thefinalbattle_a8912dd5:
 translate spanish thefinalbattle_834bac06:
 
     # kayo "Tsch. Do what he says, commander. You have authorization to remove the Liberty's reactor. Do it immediately."
-    kayp "Tsch. Haga lo que él dice, Comandante. Tiene autorización para remover el reactor del Liberty. Háganlo inmediatamente."
+    kayo "Tsch. Haga lo que él dice, Comandante. Tiene autorización para remover el reactor del Liberty. Háganlo inmediatamente."
 
 # game/REturn.rpy:10650
 translate spanish thefinalbattle_de1705ee:
@@ -31692,7 +31692,7 @@ translate spanish thefinalbattle_de1705ee:
 translate spanish thefinalbattle_87e32563:
 
     # kayo "Just disassembling the Liberty won't be enough though... She could still escape on a shuttle... or a lifepod... or any of the other ryders."
-    kayp "Sin embargo solo desensamblar al Liberty no será suficiente... Ella todavía podría escapar en una lanzadera... o en una cápsula de escape... o en cualquiera de los otros ryders."
+    kayo "Sin embargo solo desensamblar al Liberty no será suficiente... Ella todavía podría escapar en una lanzadera... o en una cápsula de escape... o en cualquiera de los otros ryders."
 
 # game/REturn.rpy:10652
 translate spanish thefinalbattle_5548422a:
@@ -31722,7 +31722,7 @@ translate spanish thefinalbattle_7736ce1e:
 translate spanish thefinalbattle_6eb62f71:
 
     # kayo "Red alert! Cease the resupply operations and man battle stations!"
-    kayp "¡Alerta roja! ¡Cesen las operaciones de reabastecimiento y tripulen hacia las estaciones de batalla!"
+    kayo "¡Alerta roja! ¡Cesen las operaciones de reabastecimiento y tripulen hacia las estaciones de batalla!"
 
 # game/REturn.rpy:10664
 translate spanish thefinalbattle_6493ccb2:
@@ -31734,7 +31734,7 @@ translate spanish thefinalbattle_6493ccb2:
 translate spanish thefinalbattle_f7de619f:
 
     # kayo "How did they get past the Alliance's defensive line!?"
-    kayp "¿¡Cómo atravesaron la línea defensiva de la Alianza!?"
+    kayo "¿¡Cómo atravesaron la línea defensiva de la Alianza!?"
 
 # game/REturn.rpy:10669
 translate spanish thefinalbattle_f59b42e2:
@@ -31770,7 +31770,7 @@ translate spanish thefinalbattle_f04d3e25:
 translate spanish thefinalbattle_3971581a:
 
     # kayo "And you say you defeated it in your timeline?"
-    kayp "¿Y dices que lo derrotaste en tu línea temporal?"
+    kayo "¿Y dices que lo derrotaste en tu línea temporal?"
 
 # game/REturn.rpy:10686
 translate spanish thefinalbattle_e92b28c5:
@@ -31782,7 +31782,7 @@ translate spanish thefinalbattle_e92b28c5:
 translate spanish thefinalbattle_4106ae51:
 
     # kayo "Tsch. Sounds like you were playing on easy mode when you went through this."
-    kayp "Tsch. Suena a que estabas jugando en modo fácil cuando pasaste por esto."
+    kayo "Tsch. Suena a que estabas jugando en modo fácil cuando pasaste por esto."
 
 # game/REturn.rpy:10688
 translate spanish thefinalbattle_c70a2b79:
@@ -31794,7 +31794,7 @@ translate spanish thefinalbattle_c70a2b79:
 translate spanish thefinalbattle_8d31a1c7:
 
     # kayo "We should have seen this ambush coming. With their spy onboard the Sunrider exposed, and Fontana onto their sabotage efforts, the Prototypes' best bet is to kill us all before Fontana's ships enter into play."
-    kayp "Debimos haber visto venir esta emboscada. Con su espía a bordo del Sunrider expuesta, y Fontana en sus esfuerzos de sabotaje, la mejor apuesta de los Prototipos es matarnos a todos antes de que las naves de Fontana entren en juego."
+    kayo "Debimos haber visto venir esta emboscada. Con su espía a bordo del Sunrider expuesta, y Fontana en sus esfuerzos de sabotaje, la mejor apuesta de los Prototipos es matarnos a todos antes de que las naves de Fontana entren en juego."
 
 # game/REturn.rpy:10690
 translate spanish thefinalbattle_6e4dd4c5:
@@ -31806,7 +31806,7 @@ translate spanish thefinalbattle_6e4dd4c5:
 translate spanish thefinalbattle_72aba0f4:
 
     # kayo "Unfortunately, our counter tactics are limited... The Sunrider still hasn't completed its resupply, while the Liberty is out of commission. Even knowing the ambush was going to occur, our only option was to meet it head on..."
-    kayp "Desafortunadamente, nuestras táctias de contraataque son limitadas... El Sunrider todavía no ha completado su reabastecimiento, mientras que el Liberty está fuera de servicio. Incluso sabiendo que la emboscada iba a ocurrir, nuestra única opción era enfrentarlos de frente..."
+    kayo "Desafortunadamente, nuestras táctias de contraataque son limitadas... El Sunrider todavía no ha completado su reabastecimiento, mientras que el Liberty está fuera de servicio. Incluso sabiendo que la emboscada iba a ocurrir, nuestra única opción era enfrentarlos de frente..."
 
 # game/REturn.rpy:10695
 translate spanish thefinalbattle_564a19f2:
@@ -31824,7 +31824,7 @@ translate spanish thefinalbattle_4f263e71:
 translate spanish thefinalbattle_9b2475e5:
 
     # kayo "Put Fontana on the line."
-    kayp "Pongan a Fontana en línea."
+    kayo "Pongan a Fontana en línea."
 
 # game/REturn.rpy:10698
 translate spanish thefinalbattle_7d956408:
@@ -31848,7 +31848,7 @@ translate spanish thefinalbattle_9a272e2c:
 translate spanish thefinalbattle_fcc2a30f:
 
     # kayo "We don't have an hour, Fontana. I don't care if you leave half your ships behind. Get your forces in order and assist us with whatever you can muster."
-    kayp "No tenemos una hora, Fontana. No me importa si dejas a la mitad de tus naves atrás. Ordena a tus fuerzas y asístenos con lo que sea que puedas reunir."
+    kayo "No tenemos una hora, Fontana. No me importa si dejas a la mitad de tus naves atrás. Ordena a tus fuerzas y asístenos con lo que sea que puedas reunir."
 
 # game/REturn.rpy:10708
 translate spanish thefinalbattle_70e9bf71:
@@ -31860,7 +31860,7 @@ translate spanish thefinalbattle_70e9bf71:
 translate spanish thefinalbattle_82b7e6b4:
 
     # kayo "All right. No choice."
-    kayp "Está bien. No hay elección."
+    kayo "Está bien. No hay elección."
 
 # game/REturn.rpy:10713
 translate spanish thefinalbattle_8ce69e64:
@@ -31878,13 +31878,13 @@ translate spanish thefinalbattle_afbfaab9:
 translate spanish thefinalbattle_4c3d0934:
 
     # kayo "Good. Begin sortie immediately! The map filling up with red all around us."
-    kayp "Bien. ¡Comienzen el ataque inmediatamente! ¡El mapa se está llenando con rojo a todo nuestro alrededor!"
+    kayo "Bien. ¡Comienzen el ataque inmediatamente! ¡El mapa se está llenando con rojo a todo nuestro alrededor!"
 
 # game/REturn.rpy:10716
 translate spanish thefinalbattle_8fc0b829:
 
     # kayo "Watch out for the new PACT ryder. Target designation Ascendant. It's lost technology, and its pilot can awaken, just like you."
-    kayp "Tengan cuidado con el nuevo ryder del PACT. Designación del objetivo Ascendant. Es tecnología perdida, y su piloto puede despertar, al igual que tú."
+    kayo "Tengan cuidado con el nuevo ryder del PACT. Designación del objetivo Ascendant. Es tecnología perdida, y su piloto puede despertar, al igual que tú."
 
 # game/REturn.rpy:10717
 translate spanish thefinalbattle_c44da0ca:
@@ -31920,7 +31920,7 @@ translate spanish thefinalbattle_6a0d9efa:
 translate spanish thefinalbattle_f50b98c3:
 
     # kayo "Close the hangar gate!"
-    kayp "¡Cierren la puerta del hangar!"
+    kayo "¡Cierren la puerta del hangar!"
 
 # game/REturn.rpy:10729
 translate spanish thefinalbattle_d01c9b89:
@@ -31938,7 +31938,7 @@ translate spanish thefinalbattle_3352e76f:
 translate spanish thefinalbattle_b3d051d8:
 
     # kayo "Where are you going?"
-    kayp "¿A dónde vas?"
+    kayo "¿A dónde vas?"
 
 # game/REturn.rpy:10732
 translate spanish thefinalbattle_0de10a3c:
@@ -31962,13 +31962,13 @@ translate spanish thefinalbattle_1ab4b6c2:
 translate spanish thefinalbattle_a10816dd:
 
     # kayo "All right."
-    kayp "Está bien."
+    kayo "Está bien."
 
 # game/REturn.rpy:10736
 translate spanish thefinalbattle_2475dbf4:
 
     # kayo "Good luck... partner!"
-    kayp "¡Buena suerte... compañero!"
+    kayo "¡Buena suerte... compañero!"
 
 # game/REturn.rpy:10737
 translate spanish thefinalbattle_bb375a48:
@@ -32316,7 +32316,7 @@ translate spanish thefinalbattle_b0e070c8:
 translate spanish thefinalbattle_f598229b:
 
     # cre1 "Sir!"
-    tri1 "¡Señor!"
+    cre1 "¡Señor!"
 
 # game/REturn.rpy:10893
 translate spanish thefinalbattle_bba2aebe:
