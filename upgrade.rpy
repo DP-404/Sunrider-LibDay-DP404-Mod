@@ -63,30 +63,21 @@ screen upgrade:
 
     if uses_kinetics:
         $ upgrade_list.append(["",None,None,None,None])
-        if _preferences.language == "spanish":
-            $ upgrade_list.append(["KINÉTICO",None,None,None,None])
-        else:
-            $ upgrade_list.append(["KINETIC",None,None,None,None])
+        $ upgrade_list.append([__("KINETIC"),None,None,None,None])
         $ upgrade_list.append(ship.upgrades['kinetic_dmg'])
         $ upgrade_list.append(ship.upgrades['kinetic_acc'])
         $ upgrade_list.append(ship.upgrades['kinetic_cost'])
 
     if uses_lasers:
         $ upgrade_list.append(["",None,None,None,None])
-        if _preferences.language == "spanish":
-            $ upgrade_list.append(["ENERGÍA",None,None,None,None])
-        else:
-            $ upgrade_list.append(["ENERGY",None,None,None,None])
+        $ upgrade_list.append([__("ENERGY"),None,None,None,None])
         $ upgrade_list.append(ship.upgrades['energy_dmg'])
         $ upgrade_list.append(ship.upgrades['energy_acc'])
         $ upgrade_list.append(ship.upgrades['energy_cost'])
 
     if ship.max_missiles > 0:
         $ upgrade_list.append(["",None,None,None,None])
-        if _preferences.language == "spanish":
-            $ upgrade_list.append(["MISILES",None,None,None,None])
-        else:
-            $ upgrade_list.append(["MISSILE",None,None,None,None])
+        $ upgrade_list.append([__("MISSILE"),None,None,None,None])
         $ upgrade_list.append(ship.upgrades['missile_dmg'])
         $ upgrade_list.append(ship.upgrades['missile_eccm'])
         $ upgrade_list.append(ship.upgrades['missile_cost'])
@@ -94,16 +85,13 @@ screen upgrade:
 
     if can_use_melee:
         $ upgrade_list.append(["",None,None,None,None])
-        $ upgrade_list.append(["MELEE",None,None,None,None])
+        $ upgrade_list.append([__("MELEE"),None,None,None,None])
         $ upgrade_list.append(ship.upgrades['melee_dmg'])
         $ upgrade_list.append(ship.upgrades['melee_acc'])
         $ upgrade_list.append(ship.upgrades['melee_cost'])
 
     $ upgrade_list.append(["",None,None,None,None])
-    if _preferences.language == "spanish":
-        $ upgrade_list.append(["DEFENSA",None,None,None,None])
-    else:
-        $ upgrade_list.append(["DEFENSE",None,None,None,None])
+    $ upgrade_list.append([__("DEFENSE"),None,None,None,None])
 
     if ship.shield_generation > 0:
         $ upgrade_list.append(ship.upgrades['shield_generation'])
@@ -271,7 +259,7 @@ screen upgrade:
             draggable True
             mousewheel True
             scrollbars "vertical"
-            child_size (150,2000)
+            child_size (200,2000)
             xadjustment xadj #not directly manipulated
             yadjustment yadj
 
@@ -298,68 +286,9 @@ screen upgrade:
                         $ current = getattr(ship,attribute)
                         #$ name = "{u}" + name + "{/u}"
                         
-                        if subgroup is not None:
-                            if subgroup.lower() in name.lower():
-                                $ name = name.lower().replace("{u}"+subgroup.lower(),"   {u}",1)
-
-                        if _preferences.language == "spanish":
-                            if name == 'Hull Plating':
-                                $ name = 'Dureza del Casco'
-                            if name == 'Energy Reactor':
-                                $ name = 'Reactor de Energía'
-                            if name == 'Movement Cost':
-                                $ name = 'Coste de Movimiento'
-                            if name == 'Evasion':
-                                $ name = 'Evasión'
-                            if 'Damage' in name:
-                                $ name = 'Daño'
-                            if 'Accuracy' in name:
-                                $ name = 'Precisión'
-                            if 'EN Cost' in name:
-                                $ name = 'Coste de EN'
-                            if 'Flak Resist' in name:
-                                $ name = 'Resistencia'
-                            if 'Storage' in name:
-                                $ name = 'Almacén'
-                            if name == 'Shield Power':
-                                $ name = 'Escudo: Poder'
-                            if name == 'Shield Range':
-                                $ name = 'Escudo: Rango'
-                            if name == 'Flak':
-                                $ name = 'Torretas Antiaéreas'
-                            if name == 'Armor':
-                                $ name = 'Armadura'
-                            if name == 'Repair Crew':
-                                $ name = 'Tripulación de Reparación'
-                        else:
-                            if name == 'Hull Plating':
-                                $ name = 'Hull Plating'
-                            if name == 'Energy Reactor':
-                                $ name = 'Energy Reactor'
-                            if name == 'Movement Cost':
-                                $ name = 'Movement Cost'
-                            if name == 'Evasion':
-                                $ name = 'Evasion'
-                            if 'damage' in name:
-                                $ name = 'Damage'
-                            if 'accuracy' in name:
-                                $ name = 'Accuracy'
-                            if 'en cost' in name:
-                                $ name = 'EN Cost'
-                            if 'flak resist' in name:
-                                $ name = 'Flak Resist'
-                            if 'storage' in name:
-                                $ name = 'Storage'
-                            if name == 'Shield Power':
-                                $ name = 'Shield Power'
-                            if name == 'Shield Range':
-                                $ name = 'Shield Range'
-                            if name == 'Flak':
-                                $ name = 'Flak'
-                            if name == 'Armor':
-                                $ name = 'Armor'
-                            if name == 'Repair Crew':
-                                $ name = 'Repair Crew'
+                        #if subgroup is not None:
+                            #if subgroup.lower() in name.lower():
+                                #$ name = name.lower().replace("{u}"+subgroup.lower(),"   {u}",1)
                         
                         hbox:
                             text name:
@@ -416,20 +345,10 @@ screen upgrade:
     vbox:
         pos (675,866)
         if ship.shield_generation > 0:
-            if _preferences.language == "spanish":
-                text "Escudo:    " + str(ship.shield_generation)+"%x"+str(ship.shield_range)+"hex        N/A           N/A":
-                    outlines [(2,'000',0,0)]
-                    size 22        
-            else:
-                text "Shielding:  " + str(ship.shield_generation)+"%x"+str(ship.shield_range)+"hex        N/A           N/A":
-                    outlines [(2,'000',0,0)]
-                    size 22        
+            text __("Shielding: ") + str(ship.shield_generation)+"%x"+str(ship.shield_range)+"hex        N/A           N/A":
+                outlines [(2,'000',0,0)]
+                size 22        
         if stats_missile != "NA":
-            if _preferences.language == "spanish":
-                text "Misil Res.:       " +str(BM.selected.missile_eccm):
-                    outlines [(2,'000',0,0)]
-                    size 22
-            else:
-                text "Flak Res.:        " +str(BM.selected.missile_eccm):
-                    outlines [(2,'000',0,0)]
-                    size 22
+            text __("Flak Res.:        ") +str(BM.selected.missile_eccm):
+                outlines [(2,'000',0,0)]
+                size 22

@@ -90,6 +90,90 @@ translate spanish strings:
     old "the {} is disabled!"
     new "¡El {} está desactivado!"
 
+    # game/classes.rpy:1973
+    old "Hull Plating"
+    new "Dureza del Casco"
+
+    # game/classes.rpy:1973
+    old "Energy Reactor"
+    new "Reactor de Energía"
+
+    # game/classes.rpy:1973
+    old "Evasion"
+    new "Evasión"
+
+    # game/classes.rpy:1973
+    old "Kinetic Damage"
+    new "Daño"
+
+    # game/classes.rpy:1973
+    old "Kinetic Accuracy"
+    new "Precisión"
+
+    # game/classes.rpy:1973
+    old "Kinetic EN Cost"
+    new "Coste de EN"
+
+    # game/classes.rpy:1973
+    old "Energy Damage"
+    new "Daño"
+
+    # game/classes.rpy:1973
+    old "Energy Accuracy"
+    new "Precisión"
+
+    # game/classes.rpy:1973
+    old "Energy EN Cost"
+    new "Coste de EN"
+
+    # game/classes.rpy:1973
+    old "Missile Damage"
+    new "Daño"
+
+    # game/classes.rpy:1973
+    old "Missile Flak Resistance"
+    new "Resistencia"
+
+    # game/classes.rpy:1973
+    old "Missile EN Cost"
+    new "Coste de EN"
+
+    # game/classes.rpy:1973
+    old "Missile Storage"
+    new "Almacén"
+
+    # game/classes.rpy:1973
+    old "Melee Damage"
+    new "Daño"
+
+    # game/classes.rpy:1973
+    old "Melee Accuracy"
+    new "Precisión"
+
+    # game/classes.rpy:1973
+    old "Melee EN Cost"
+    new "Coste de EN"
+
+    # game/classes.rpy:1973
+    old "Shield Power"
+    new "Escudo: Poder"
+
+    # game/classes.rpy:1973
+    old "Shield Range"
+    new "Escudo: Rango"
+
+    # game/classes.rpy:1973
+    old "Flak"
+    new "Fuego Antiaéreo"
+
+    # game/classes.rpy:1973
+    old "Armor"
+    new "Armadura"
+
+    # game/classes.rpy:1973
+    old "Repair Crew"
+    new "Tripulación de Reparación"
+
     # game/classes.rpy:2578
     old "Destination is occupied!"
     new "¡El destino está ocupado!"
