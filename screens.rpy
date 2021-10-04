@@ -2432,10 +2432,3 @@ screen gallery_backgrounds:
                 add gallery.make_button("bg34", "REturn/thumbs/observationdeck.jpg", locked="CG/thumbs/locked.jpg",hover_border="CG/thumbs/hover.png", idle_border=None, hover_sound="Sound/hover1.ogg",activate_sound="Sound/button1.ogg", background=None)
                 text ""
                 text ""
-
-# Main Game bad end
-screen badend:
-    if _preferences.language == "spanish":
-        add "UI/badend_es.jpg"
-    else:
-        add "UI/badend.jpg"
