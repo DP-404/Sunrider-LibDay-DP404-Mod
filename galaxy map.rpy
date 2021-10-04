@@ -8,22 +8,17 @@ init -1 python: # These are holding figures for screens
 init 5 python:
     # Add missions to planets
     # CERA
-    CERA.missions.append(["mission4_complete and mission5_complete and not Saveddiplomats and _preferences.language != 'spanish'","MAIN: Battle of Cera","battleofcera"])
-    CERA.missions.append(["mission3_complete and mission4_complete and mission5_complete and _preferences.language != 'spanish'","MAIN: Battle of Cera","battleofcera"])
-    CERA.missions.append(["mission4_complete and mission5_complete and not Saveddiplomats and _preferences.language == 'spanish'","PRINCIPAL: La Batalla de Cera","battleofcera"])
-    CERA.missions.append(["mission3_complete and mission4_complete and mission5_complete and _preferences.language == 'spanish'","PRINCIPAL: La Batalla de Cera","battleofcera"])
+    CERA.missions.append(["mission4_complete and mission5_complete and not Saveddiplomats","MAIN: Battle of Cera","battleofcera"])
+    CERA.missions.append(["mission3_complete and mission4_complete and mission5_complete","MAIN: Battle of Cera","battleofcera"])
     
     # TYDARIA
-    TYDARIA.missions.append(["mission5_complete == False and _preferences.language != 'spanish'", "Side: Battle of Tydaria", "battleoftydaria"])
-    TYDARIA.missions.append(["mission5_complete == False and _preferences.language == 'spanish'", "Lateral: La Batalla de Tydaria", "battleoftydaria"])
+    TYDARIA.missions.append(["mission5_complete == False", "Side: Battle of Tydaria", "battleoftydaria"])
     
     # VERSTA
-    VERSTA.missions.append(["mission3_complete == False and Saveddiplomats == True and _preferences.language != 'spanish'","Side: Return children","arrivalversta"])
-    VERSTA.missions.append(["mission3_complete == False and Saveddiplomats == True and _preferences.language == 'spanish'","Lateral: Regresar a los niños","arrivalversta"])
+    VERSTA.missions.append(["mission3_complete == False and Saveddiplomats == True","Side: Return children","arrivalversta"])
     
     # PACEMUS NEBULA
-    PACEMUS_NEBULA.missions.append(["mission4_complete == False and _preferences.language != 'spanish'","Side: Investigate nebula","pacemusnebula"])
-    PACEMUS_NEBULA.missions.append(["mission4_complete == False and _preferences.language == 'spanish'","Lateral: Investigar la nebulosa","pacemusnebula"])
+    PACEMUS_NEBULA.missions.append(["mission4_complete == False","Side: Investigate nebula","pacemusnebula"])
     
 screen galaxymap_buttons: ###################################GALAXY MAP BUTTONS
 # Now, picked planets are set to GM_selected so they can be traced by screen code
