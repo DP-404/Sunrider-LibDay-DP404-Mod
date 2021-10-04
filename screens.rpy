@@ -452,10 +452,7 @@ screen REturn_menu():
                     
                     if persistent.unlocked_endings[ending] is False:
                         add "REturn/UI/ui_lockedend.png"
-                        if _preferences.language == "spanish":
-                            text "Bloqueado" xanchor 0.5 xpos 258 color "000"
-                        else:
-                            text "Locked" xanchor 0.5 xpos 258 color "000"
+                        text "Locked" xanchor 0.5 xpos 258 color "000"
                     else:
                         $unlocked_endings_count+=1
                         if "BAD" in ending:
@@ -475,32 +472,8 @@ screen REturn_menu():
                                 action Function(renpy.load,save_name) 
                         else:
                             add ending_frame
-
-                        if _preferences.language == "spanish":
-                            if "BAD END 1" in ending:
-                                $ ending_name = ending.split(":")[0] + ": MATADO A DISPAROS"
-                            if "BAD END 2" in ending:
-                                $ ending_name = ending.split(":")[0] + ": APLASTADO"
-                            if "TRAPPED" in ending:
-                                $ ending_name = ending.split(":")[0] + ": ATRAPADO" + ending.split("TRAPPED")[1]
-                            if "BAD END 6" in ending:
-                                $ ending_name = ending.split(":")[0] + ": CONGELADO"
-                            if "BAD END 7" in ending:
-                                $ ending_name = ending.split(":")[0] + ": DEPRESURIZACIÓN EXPLOSIVA"
-                            if "WORST END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": QUÉ HE HECHO"
-                            if "NORMAL END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": AÚN ASÍ JUNTOS"
-                            if "ALTERNATIVE END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": FUTURO GANADO CON SANGRE"
-                            if "HAPPY END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": NUESTRA MAYOR AVENTURA HASTA AHORA"
-                            if "SECRET END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": SEÑOR DEL TIEMPO"
-                        else:
-                            $ ending_name = ending
                            
-                        text ending_name xanchor 0.5 yanchor 0.5 xpos 258 ypos 20 color "000" size 20
+                        text ending xanchor 0.5 yanchor 0.5 xpos 258 ypos 20 color "000" size 20
     
     text str(int(unlocked_endings_count/18.0*100))+"%" xanchor 0.5 yanchor 0.5 xpos 1240 ypos 910 size 50
         

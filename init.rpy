@@ -194,24 +194,24 @@ init -1 python:
     dlc = False
     if persistent.unlocked_endings is None:
         persistent.unlocked_endings = {
-                                    "BAD END 1: GUNNED DOWN":False,                        #Killed by drone
-                                    "BAD END 2: CRUSHED":False,                            #Crushed in burning tunnel
-                                    "BAD END 3: TRAPPED AVA VER":False,                    #Captured, Ava dies
-                                    "BAD END 4: TRAPPED ASAGA VER":False,                  #Captured, Asaga dies
-                                    "BAD END 5: TRAPPED SOLA VER":False,                   #Captured, Sola dies
-                                    "BAD END 6: FROZEN":False,                             #Fall off ladder after repairing the backup ftl comm
-                                    "BAD END 7: EXPLOSIVE DEPRESSURIZATION":False,         #Killed when flung into space in Engineering  
-                                    "SOLA WORST END: WHAT HAVE I DONE":False,
-                                    "SOLA NORMAL END: STILL TOGETHER":False,
-                                    "SOLA ALTERNATIVE END: FUTURE WON WITH BLOOD":False,
-                                    "SOLA HAPPY END: OUR GREATEST ADVENTURE YET":False,
-                                    "ASAGA NORMAL END: STILL TOGETHER":False,
-                                    "ASAGA ALTERNATIVE END: FUTURE WON WITH BLOOD":False,
-                                    "ASAGA HAPPY END: OUR GREATEST ADVENTURE YET":False,
-                                    "AVA NORMAL END: MAIDEN’S SUICIDE":False,
-                                    "AVA HAPPY END: OUR GREATEST ADVENTURE YET":False,
-                                    "ICARI HAPPY END: OUR GREATEST ADVENTURE YET":False,
-                                    "CLAUDE SECRET END: TIME LORD":False,
+                                    _("BAD END 1: GUNNED DOWN"):False,                        #Killed by drone
+                                    _("BAD END 2: CRUSHED"):False,                            #Crushed in burning tunnel
+                                    _("BAD END 3: TRAPPED AVA VER"):False,                    #Captured, Ava dies
+                                    _("BAD END 4: TRAPPED ASAGA VER"):False,                  #Captured, Asaga dies
+                                    _("BAD END 5: TRAPPED SOLA VER"):False,                   #Captured, Sola dies
+                                    _("BAD END 6: FROZEN"):False,                             #Fall off ladder after repairing the backup ftl comm
+                                    _("BAD END 7: EXPLOSIVE DEPRESSURIZATION"):False,         #Killed when flung into space in Engineering  
+                                    _("SOLA WORST END: WHAT HAVE I DONE"):False,
+                                    _("SOLA NORMAL END: STILL TOGETHER"):False,
+                                    _("SOLA ALTERNATIVE END: FUTURE WON WITH BLOOD"):False,
+                                    _("SOLA HAPPY END: OUR GREATEST ADVENTURE YET"):False,
+                                    _("ASAGA NORMAL END: STILL TOGETHER"):False,
+                                    _("ASAGA ALTERNATIVE END: FUTURE WON WITH BLOOD"):False,
+                                    _("ASAGA HAPPY END: OUR GREATEST ADVENTURE YET"):False,
+                                    _("AVA NORMAL END: MAIDEN’S SUICIDE"):False,
+                                    _("AVA HAPPY END: OUR GREATEST ADVENTURE YET"):False,
+                                    _("ICARI HAPPY END: OUR GREATEST ADVENTURE YET"):False,
+                                    _("CLAUDE SECRET END: TIME LORD"):False,
                                     }
     ########## GALLERY
 

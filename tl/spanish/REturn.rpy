@@ -38848,5 +38848,77 @@ translate spanish strings:
     old "T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"
     new "T-minus 36h para la Masacre del Día de Liberación, 10min para que Chigara entre al torrente de mentes"
 
+    # game/REturn.rpy:1275
+    old "BAD END: GUNNED DOWN"
+    new "BAD END: DERRIBADO A DISPAROS"
+
+    # game/REturn.rpy:1614
+    old "BAD END: CRUSHED"
+    new "BAD END: APLASTADO"
+
+    # game/REturn.rpy:3833
+    old "BAD END: TRAPPED, Ava Ver."
+    new "BAD END: ATRAPADO, Ver. Ava"
+
+    # game/REturn.rpy:3836
+    old "BAD END: TRAPPED, Sola Ver."
+    new "BAD END: ATRAPADO, Ver. Sola"
+
+    # game/REturn.rpy:3839
+    old "BAD END: TRAPPED, Asaga Ver."
+    new "BAD END: ATRAPADO, Ver. Asaga"
+
+    # game/REturn.rpy:5076
+    old "BAD END: FROZEN"
+    new "BAD END: CONGELADO"
+
+    # game/REturn.rpy:5436
+    old "BAD END: EXPLOSIVE DEPRESSURIZATION"
+    new "BAD END: DEPRESURIZACIÓN EXPLOSIVA"
+
+    # game/REturn.rpy:7133
+    old "ALTERNATE SOLA END:\nFUTURE WON WITH BLOOD"
+    new "ALTERNATE SOLA END:\nFUTURO GANADO CON SANGRE"
+
+    # game/REturn.rpy:7154
+    old "ALTERNATE ASAGA END:\nFUTURE WON WITH BLOOD"
+    new "ALTERNATE ASAGA END:\nFUTURO GANADO CON SANGRE"
+
+    # game/REturn.rpy:7313
+    old "NORMAL SOLA END:\nSTILL TOGETHER"
+    new "NORMAL SOLA END:\nAÚN ASÍ JUNTOS"
+
+    # game/REturn.rpy:7401
+    old "NORMAL ASAGA END:\nSTILL TOGETHER"
+    new "NORMAL ASAGA END:\nAÚN ASÍ JUNTOS"
+
+    # game/REturn.rpy:7910
+    old "WORST SOLA END:\nWHAT HAVE I DONE"
+    new "WORST SOLA END:\nQUÉ HE HECHO"
+
+    # game/REturn.rpy:7999
+    old "NORMAL AVA END:\nMAIDEN'S SUICIDE"
+    new "NORMAL AVA END:\nEL SUICIDIO DE LA DONCELLA"
+
+    # game/REturn.rpy:9602
+    old "SECRET CLAUDE END:\nTIME LORD"
+    new "SECRET CLAUDE END:\nSEÑOR DEL TIEMPO"
+
+    # game/REturn.rpy:13329
+    old "HAPPY ASAGA END:\nOUR GREATEST ADVENTURE"
+    new "HAPPY ASAGA END:\nNUESTRA MAYOR AVENTURA"
+
+    # game/REturn.rpy:13338
+    old "HAPPY SOLA END:\nOUR GREATEST ADVENTURE"
+    new "HAPPY SOLA END:\nNUESTRA MAYOR AVENTURA"
+
+    # game/REturn.rpy:13346
+    old "HAPPY AVA END:\nOUR GREATEST ADVENTURE"
+    new "HAPPY AVA END:\nNUESTRA MAYOR AVENTURA"
+
+    # game/REturn.rpy:13354
+    old "HAPPY ICARI END:\nOUR GREATEST ADVENTURE"
+    new "HAPPY ICARI END:\nNUESTRA MAYOR AVENTURA"
+
 
 
