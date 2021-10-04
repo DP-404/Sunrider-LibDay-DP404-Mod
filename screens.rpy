@@ -1328,7 +1328,7 @@ screen sidebuttons:
             hover tr_hoverglow("UI/menu_qsave.png")
             
             activate_sound "sound/button1.ogg"
-            action (QuickSave(message='                                   Quick save complete.', newest=False),Hide("sidebuttons"),SetVariable("show_sidemenu", False))
+            action (QuickSave(message=_('                                   Quick save complete.'), newest=False),Hide("sidebuttons"),SetVariable("show_sidemenu", False))
             at tr_sidemenu(100)
         imagebutton:
             idle "UI/menu_save.png"
@@ -1420,18 +1420,11 @@ screen wishall_cosettedead:
         activate_sound "sound/battle.ogg"
         action SetVariable("wishall_kill",False),SetVariable("wishall",False),Hide("wishall_cosettedead")
 
-    if _preferences.language == "spanish":
-        text "PERDONAR A COSETTE":
-            xpos 160 ypos 90
-            font "Fonts/ShareTech-Regular.ttf"
-            size 20
-            color "#F7F7F7"
-    else:
-        text "SPARE COSETTE":
-            xpos 160 ypos 90
-            font "Fonts/ShareTech-Regular.ttf"
-            size 20
-            color "#F7F7F7"
+    text _("SPARE COSETTE"):
+        xpos 160 ypos 90
+        font "Fonts/ShareTech-Regular.ttf"
+        size 20
+        color "#F7F7F7"
             
 screen battlewarning:
     

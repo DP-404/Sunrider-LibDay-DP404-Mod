@@ -34,4 +34,12 @@ translate spanish strings:
     old "Why would you do this to yourself..."
     new "Por qué te harías esto..."
 
+    # game/screens.rpy:1376
+    old "                                   Quick save complete."
+    new "                            Guardado rápido completado."
+
+    # game/screens.rpy:1468
+    old "SPARE COSETTE"
+    new "SALVAR A COSETTE"
+
 
