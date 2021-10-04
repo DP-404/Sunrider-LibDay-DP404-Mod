@@ -8,21 +8,13 @@ label splashscreen:
 
     scene black
     if CENSOR == False and CENSOR_ver == 3:
-        if _preferences.language == "spanish":
-            show warning_es:
-                xalign 0.5 yalign 0.5
-            with dissolve
-        else:
-            show warning:
-                xalign 0.5 yalign 0.5
-            with dissolve
+        show warning:
+            xalign 0.5 yalign 0.5
+        with dissolve
         
         $ renpy.pause(5)
 
-        if _preferences.language == "spanish":
-            hide warning_es with dissolve
-        else:
-            hide warning with dissolve
+        hide warning with dissolve
 
     $ renpy.movie_cutscene("3DCG/op.webm")
     
@@ -9722,7 +9714,7 @@ label paradoxyearclaude:
     "From the ashes of this defeat, they would all be reborn..."
     "Deep inside of him... He knew..."
     "The Sunrider..."
-    show screen willbereborn
+    show reborn
     with dissolvemedium
     pause
     stop music fadeout 1.5
@@ -9772,7 +9764,7 @@ label postcredits:
     play sound "sound/epictrailerhit.ogg"
     
     scene black
-    show screen tbc
+    show tbc
     
     #save exporting
     $libday_save_dump() #uses multipersistent object with reference "Liberation Day"
@@ -10244,25 +10236,14 @@ label credits:
 
     scene black
     show overhangar
-    if _preferences.language == "spanish":
-        show credit54_es:
-            ypos 0.5 xalign 0.5    
-        with dissolve
-        $renpy.pause(10)
-        hide credit54_es with dissolve
-    else:
-        show credit54:
-            ypos 0.5 xalign 0.5    
-        with dissolve
-        $renpy.pause(10)
-        hide credit54 with dissolve
-    
-    if _preferences.language == "spanish":
-        show credit55_es:
-            yalign 0.5 xalign 0.5
-    else:
-        show credit55:
-            yalign 0.5 xalign 0.5
+    show credit54:
+        ypos 0.5 xalign 0.5    
+    with dissolve
+    $renpy.pause(10)
+    hide credit54 with dissolve
+
+    show credit55:
+        yalign 0.5 xalign 0.5
 
     pause 3
     

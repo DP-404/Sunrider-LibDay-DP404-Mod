@@ -2460,99 +2460,9 @@ screen gallery_backgrounds:
                 text ""
                 text ""
 
-screen willbereborn:
-    if _preferences.language == "spanish":
-        add Text("RENACERÁ...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-    else:
-        add Text("WILL BE REBORN...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-
-screen tbc:
-    if _preferences.language == "spanish":
-        add Text("CONTINUARÁ...", size=150, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-    else:
-        add Text("TO BE CONTINUED...", size=150, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-
 # Main Game bad end
 screen badend:
     if _preferences.language == "spanish":
         add "UI/badend_es.jpg"
     else:
         add "UI/badend.jpg"
-
-# BAD ENDS
-screen bad_end1: # GUNNED DOWN
-    if _preferences.language == "spanish":
-        add Text("BAD END: MATADO A DISPAROS",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: GUNNED DOWN",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end2: # CRUSHED
-    if _preferences.language == "spanish":
-        add Text("BAD END: APLASTADO",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: CRUSHED",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end_trapped: # TRAPPED 3-5
-    if _preferences.language == "spanish":
-        add Text("BAD END: ATRAPADO, Ver. [girl]",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: TRAPPED, [girl] Ver.",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end6: # FROZEN
-    if _preferences.language == "spanish":
-        add Text("BAD END: CONGELADO",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: FROZEN",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end7: # EXPLOSIVE DEPRESSURIZATION
-    if _preferences.language == "spanish":
-        add Text("BAD END: DEPRESURIZACIÓN EXPLOSIVA",xalign=0.5,yalign=0.5,zpos=-1,size=90,color="a00")
-    else:
-        add Text("BAD END: EXPLOSIVE DEPRESSURIZATION",yalign=0.5,size=90,color="a00")
-
-# OTHER ENDS
-
-# WORST END: WHAT HAVE I DONE
-screen worst_end: 
-    if _preferences.language == "spanish":
-        add Text("WORST " + girl.upper() + " END:\nQUÉ HE HECHO",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("WORST " + girl.upper() + " END:\nWHAT HAVE I DONE",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-# NORMAL END: STILL TOGETHER / MAIDEN'S SUICIDE
-screen normal_end:
-    if girl == "Ava":
-        if _preferences.language == "spanish":
-            add Text("NORMAL " + girl.upper() + " END:\nEL SUICIDIO DE LA DONCELLA",xalign=0.5,yalign=0.5,size=90,color="fff")
-        else:
-            add Text("NORMAL " + girl.upper() + " END:\nMAIDEN’S SUICIDE",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        if _preferences.language == "spanish":
-            add Text("NORMAL " + girl.upper() + " END:\nAÚN ASÍ JUNTOS",xalign=0.5,yalign=0.5,size=90,color="fff")
-        else:
-            add Text("NORMAL " + girl.upper() + " END:\nSTILL TOGETHER",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-# ALTERNATIVE END: FUTURE WON WITH BLOOD
-screen alternate_end:
-    if _preferences.language == "spanish":
-        add Text("ALTERNATE " + girl.upper() + " END:\nFUTURO GANADO CON SANGRE",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        add Text("ALTERNATE " + girl.upper() + " END:\nFUTURE WON WITH BLOOD",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-# HAPPY END: OUR GREATEST ADVENTURE
-screen happy_end:
-    if _preferences.language == "spanish":
-        add Text("HAPPY " + girl.upper() + " END:\nNUESTRA MAYOR AVENTURA",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        add Text("HAPPY " + girl.upper() + " END:\nOUR GREATEST ADVENTURE",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-# SECRET END: TIME LORD
-screen secret_end:
-    if _preferences.language == "spanish":
-        add Text("SECRET CLAUDE END:\nSEÑOR DEL TIEMPO",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        add Text("SECRET CLAUDE END:\nTIME LORD",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-label restart:
-
-    $ renpy.full_restart()

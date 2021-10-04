@@ -1264,14 +1264,13 @@ label attackdronewithpistol:
     stop music
     $persistent.unlocked_endings["BAD END 1: GUNNED DOWN"] = True
     $check_for_all_endings()
-    show screen bad_end1
+    show expression Text(_("BAD END: GUNNED DOWN"),xalign=0.5,yalign=0.5,size=90,color="a00")
     pause 3
     $dshow(34311)
     cla "Mou... Captain, if you had just listened to me and stayed inside the tunnel, this sort of thing wouldn't have happened!"
     cla "What's more, you seriously thought you could take on a mechanized hunter drone with just a pistol? I can't believe you passed officer's training like this..."
     cla "Try again, this time by either staying inside the tunnel, or choosing not to fight the drone!"
     hide claude
-    hide screen bad_end1
     jump firstbattleofcera
 
 label grabpistolfallback:
@@ -1612,7 +1611,7 @@ label escapeintotunnel:
     
     $persistent.unlocked_endings["BAD END 2: CRUSHED"] = True
     $check_for_all_endings()
-    show screen bad_end2
+    show expression Text(_("BAD END: CRUSHED"),yalign=0.5,size=90,color="a00")
     pause 3
     $dshow(32311)
     cla "Aah, this is what you get for running away into a tunnel you knew would lead straight into a fire, captain..."
@@ -3831,12 +3830,14 @@ label badend_trapped:
     
     if girl == "Ava":
         $persistent.unlocked_endings["BAD END 3: TRAPPED AVA VER"] = True
-    if girl == "Asaga":
-        $persistent.unlocked_endings["BAD END 4: TRAPPED ASAGA VER"] = True
+        show expression Text(_("BAD END: TRAPPED, Ava Ver."),yalign=0.5,size=90,color="a00")
     if girl == "Sola":
         $persistent.unlocked_endings["BAD END 5: TRAPPED SOLA VER"] = True
+        show expression Text(_("BAD END: TRAPPED, Sola Ver."),yalign=0.5,size=90,color="a00")
+    if girl == "Asaga":
+        $persistent.unlocked_endings["BAD END 4: TRAPPED ASAGA VER"] = True
+        show expression Text(_("BAD END: TRAPPED, Asaga Ver."),yalign=0.5,size=90,color="a00")
     $check_for_all_endings()    
-    show screen bad_end_trapped
     pause 3
     $dshow(32310)
     
@@ -5072,7 +5073,7 @@ label gotobackupftl:
             play sound1 "sound/choirend.ogg"
             $persistent.unlocked_endings["BAD END 6: FROZEN"] = True
             $check_for_all_endings()
-            show screen bad_end6
+            show expression Text(_("BAD END: FROZEN"),yalign=0.5,size=90,color="a00")
             pause 3
             $dshow(34111)
             cla "Hmph... Captain, you made a very pivotal mistake here..."
@@ -5432,7 +5433,7 @@ label badend_deathbydecompression:
     
     $persistent.unlocked_endings["BAD END 7: EXPLOSIVE DEPRESSURIZATION"] = True
     $check_for_all_endings()
-    show screen bad_end7
+    show expression Text(_("BAD END: EXPLOSIVE DEPRESSURIZATION"),yalign=0.5,size=90,color="a00")
     pause 3
     $dshow(32310)
     cla "Eeah, what a gory end you met there... Explosive depressurization sure is a gnarly way to go..."
@@ -7129,8 +7130,7 @@ label pullthetrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen alternate_end
-        #show expression Text("ALTERNATE SOLA END:\nFUTURE WON WITH BLOOD",yalign=0.5,size=90,color="fff")
+        show expression Text(_("ALTERNATE SOLA END:\nFUTURE WON WITH BLOOD"),yalign=0.5,size=90,color="fff")
         pause 3
 
     if girl == "Asaga":
@@ -7151,8 +7151,7 @@ label pullthetrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen alternate_end
-        #show expression Text("ALTERNATE ASAGA END:\nFUTURE WON WITH BLOOD",yalign=0.5,size=90,color="fff")
+        show expression Text(_("ALTERNATE ASAGA END:\nFUTURE WON WITH BLOOD"),yalign=0.5,size=90,color="fff")
         pause 3
 
     $dshow(32210)
@@ -7311,8 +7310,7 @@ label dontpulltrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen normal_end
-        #show expression Text("NORMAL SOLA END:\nSTILL TOGETHER",yalign=0.5,size=90,color="fff")
+        show expression Text(_("NORMAL SOLA END:\nSTILL TOGETHER"),yalign=0.5,size=90,color="fff")
         
         pause 3
         
@@ -7400,8 +7398,7 @@ label dontpulltrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen normal_end
-        #show expression Text("NORMAL ASAGA END:\nSTILL TOGETHER",yalign=0.5,size=90,color="fff")
+        show expression Text(_("NORMAL ASAGA END:\nSTILL TOGETHER"),yalign=0.5,size=90,color="fff")
         $chivo_process('Asaga Normal Ending')        
         pause 3
         
@@ -7910,8 +7907,7 @@ label endgame_asagakillschigara:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen worst_end
-        #show expression Text("WORST SOLA END:\nWHAT HAVE I DONE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("WORST SOLA END:\nWHAT HAVE I DONE"),yalign=0.5,size=90,color="fff")
         pause 3
         $dshow(34311)
         cla "Aaah, you sure bungled this one up... Good going, \"hero!\" you managed to avert the massacre, but lost half your pilots in the process!"
@@ -8000,8 +7996,7 @@ label endgame_asagakillschigara:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen normal_end
-        #show expression Text("NORMAL AVA END:\nMAIDEN'S SUICIDE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("NORMAL AVA END:\nMAIDEN'S SUICIDE"),yalign=0.5,size=90,color="fff")
         pause 3
         $dshow(34110)
         cla "Well... You managed to prevent the massacre, but both Asaga and Chigara ended up dead."
@@ -9604,8 +9599,7 @@ label claude_end:  #secrats!
     $check_for_all_endings()
     stop music fadeout 1
     scene black with dissolve
-    show screen secret_end
-    #show expression Text("SECRET CLAUDE END:\nTIME LORD",yalign=0.5,size=90,color="fff")
+    show expression Text(_("SECRET CLAUDE END:\nTIME LORD"),yalign=0.5,size=90,color="fff")
     pause 3
     
     $dshow("claude boobs happy neutral neutral",ypos=1600)
@@ -13332,8 +13326,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY ASAGA END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY ASAGA END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
     if girl == "Sola":
     
@@ -13342,8 +13335,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY SOLA END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY SOLA END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
     if girl == "Ava":
         $persistent.unlocked_endings["AVA HAPPY END: OUR GREATEST ADVENTURE YET"] = True
@@ -13351,8 +13343,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY AVA END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY AVA END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
     if girl == "Icari":    
         $persistent.unlocked_endings["ICARI HAPPY END: OUR GREATEST ADVENTURE YET"] = True
@@ -13360,8 +13351,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY ICARI END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY ICARI END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
         
     $renpy.full_restart()
