@@ -676,7 +676,7 @@ translate spanish strings:
 
     # game/library.rpy:5377
     old "Mogul"
-    new "Mogul"
+    new "Magnate"
 
     # game/library.rpy:5380
     old "Save up to 50'000 credits."
