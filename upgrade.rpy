@@ -108,7 +108,7 @@ screen upgrade:
     # Upgrade backgrounds moved to their individual classes in the library
     # add ship.upgrade_menu
 
-    $ funds_text = '{!s}'.format(BM.intel) if BM.mission!='skirmish' else 'ILIMITADO'
+    $ funds_text = '{!s}'.format(BM.intel) if BM.mission!='skirmish' else 'UNLIMITED'
     text funds_text:
         size 50
         xanchor 0.5
