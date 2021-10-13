@@ -1483,7 +1483,7 @@ screen commands: ##show the weapon buttons etc##
                 $ stacksize = '' if not buff.cumulative else str(buff.stack_counter)+'x '
                 if stacksize == '':
                     $ spacer = str(" " * 23)
-                    $ correction = 25
+                    $ correction = 28
                 else:
                     $ spacer = str(" " * 20)
                     $ correction = 0
@@ -1496,7 +1496,7 @@ screen commands: ##show the weapon buttons etc##
                 $ stacksize = '' if not buff.cumulative else str(buff.stack_counter)+'x '
                 if stacksize == '':
                     $ spacer = str(" " * 23)
-                    $ correction = 15
+                    $ correction = 18
                 else:
                     $ spacer = str(" " * 20)
                     $ correction = 0
