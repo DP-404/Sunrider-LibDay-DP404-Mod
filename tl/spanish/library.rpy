@@ -108,7 +108,7 @@ translate spanish strings:
 
     # game/library.rpy:4076
     old "Full Forward"
-    new "Avance Completo"
+    new "AvanceCompleto"
 
     # game/library.rpy:4077
     old "Increases damage by 20% and accuracy by 15%"
@@ -124,7 +124,7 @@ translate spanish strings:
 
     # game/library.rpy:4111
     old "All Power To Engines"
-    new "Máximo Poder a los Motores"
+    new "Motores al Max"
 
     # game/library.rpy:4112
     old "movement energy cost is halved for the duration"
@@ -168,7 +168,7 @@ translate spanish strings:
 
     # game/library.rpy:4181
     old "Makes the user immune to counter attacks and reduces \n        the chance the enemy targets the unit."
-    new "Vuelve al usuario inmune a contraataques y reduce la\nprobabilidad de que los enemigos apunten a la unidad."
+    new "Vuelve al usuario inmune a contraataques y reduce la\n        probabilidad de que los enemigos apunten a la unidad."
 
     # game/library.rpy:4194
     old "Cloak"
@@ -188,7 +188,7 @@ translate spanish strings:
 
     # game/library.rpy:4226
     old "True Awakening"
-    new "Verdadero Despertar"
+    new "Gran Despertar"
 
     # game/library.rpy:4227
     old "Increases armor, evasion and damage each turn it is active. Does not expire.\nProgressively damages the Black Jack."
@@ -220,7 +220,7 @@ translate spanish strings:
 
     # game/library.rpy:4298
     old "Disable Lite"
-    new "Desactivar Menor"
+    new "Desactivar Lite"
 
     # game/library.rpy:4299
     old "Doubles cost of weapons,abilities and movement."
@@ -228,7 +228,7 @@ translate spanish strings:
 
     # game/library.rpy:4311
     old "Flak Off"
-    new "Fuego Antiaéreo Off"
+    new "Fuego AA Off"
 
     # game/library.rpy:4312
     old "Disables flak."
@@ -236,7 +236,7 @@ translate spanish strings:
 
     # game/library.rpy:4324
     old "Shield Down"
-    new "Escudos -"
+    new "Escudos Off"
 
     # game/library.rpy:4325
     old "Removes all shield generation."
@@ -244,7 +244,7 @@ translate spanish strings:
 
     # game/library.rpy:4337
     old "Shield Jam"
-    new "Interferencia de Escudo"
+    new "Escudos -"
 
     # game/library.rpy:4339
     old "Reduces shield generation each time it's applied."
