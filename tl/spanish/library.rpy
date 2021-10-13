@@ -424,7 +424,7 @@ translate spanish strings:
 
     # game/library.rpy:4941
     old "GRAVITINO GENERATOR"
-    new "GENERADOR GRAVITATORIO"
+    new "GENERADOR DE GRAVITINO"
 
     # game/library.rpy:4944
     old "Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60)."
