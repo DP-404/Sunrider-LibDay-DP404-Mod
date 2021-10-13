@@ -80,7 +80,7 @@ translate spanish strings:
 
     # game/library.rpy:3400
     old "\n            Restores approximately 300 HP to target.\n            Has unlimited range."
-    new "        Restaura aproximadamente 300 HP al objetivo.\nTiene rango ilimitado."
+    new "        Restaura aproximadamente 300 HP al objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:3418
     old "\n            The target's abilities now cost twice as much EN.\n            "
@@ -260,23 +260,23 @@ translate spanish strings:
 
     # game/library.rpy:4379
     old "\n            Restores approximately {} HP to target.\n            Has unlimited range."
-    new "Restaura aproximadamente {} HP al objetivo.\n        Tiene rango ilimitado."
+    new "        Restaura aproximadamente {} HP al objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:4393
     old "\n            Adds an additional 25 points to the target's weapon accuracy.\n            Has unlimited range."
-    new "Añade 25 puntos adicionales a la precisión con armas del objetivo.\n        Tiene rango ilimitado."
+    new "        Añade 25 puntos adicionales a la precisión con armas del objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:4409
     old "\n            Provide coordinated cover fire for the selected unit, boosting its flak by 15.\n            Has a range of 3 hexes."
-    new "Provee una cobertura de fuego coordinada a la unidad seleccionada, mejorando sus torretas antiaéreas en 15.\n        Tiene un rango de 3 casillas."
+    new "        Provee una cobertura de fuego coordinada a la unidad seleccionada, mejorando sus torretas antiaéreas en 15.\n        Tiene un rango de 3 casillas."
 
     # game/library.rpy:4424
     old "\n            Increases armor and compels enemies to target you."
-    new "Incrementa la armadura y provoca a los enemigos a apuntarte."
+    new "        Incrementa la armadura y provoca a los enemigos a apuntarte."
 
     # game/library.rpy:4437
     old "\n            Increases the target's weapon damage by 30 percent.\n            Has unlimited range."
-    new "Incrementa el daño con armas del objetivo en un 30%.\n        Tiene rango ilimitado."
+    new "        Incrementa el daño con armas del objetivo en un 30%.\n        Tiene rango ilimitado."
 
     # game/library.rpy:4488
     old "all curses were removed from {}"
@@ -296,15 +296,15 @@ translate spanish strings:
 
     # game/library.rpy:4565
     old "\n            Improves the Black Jack's damage, evasion and armor each turn, but also causes progressively more damage each turn until canceled."
-    new "        Icrementa el daño, la evasión y la armadura del Black Jack cada turno, pero también causa daño progresivo cada turno hasta que se cancele."
+    new "        Icrementa el daño, la evasión y la armadura del Black Jack cada turno,\n        pero también causa daño progresivo cada turno hasta que se cancele."
 
     # game/library.rpy:4583
     old "\n            Cancels the awakening effect"
-    new "Cancela el efecto despertar."
+    new "        Cancela el efecto despertar."
 
     # game/library.rpy:4612
     old "\n            Cast 6 times to win the battle."
-    new "Utilízalo 6 veces para ganar la batalla."
+    new "        Utilízalo 6 veces para ganar la batalla."
 
     # game/library.rpy:4630
     old "\n            Allows the user to move any unit a single hex.\n            This movement will provoke Blindside attacks, if you move an enemy unit\n            into the range of a friendly unit with an Assault type weapon.\n            Has unlimited range."
