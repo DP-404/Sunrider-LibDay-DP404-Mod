@@ -68,7 +68,7 @@ translate spanish strings:
 
     # game/library.rpy:2519
     old "\n            Restores approximately 400 HP to an adjacent ryder."
-    new "        Restaura aproximadamente 400 HP a un ryder adyacente."
+    new "        Restaura aproximadamente 400 PS a un ryder adyacente."
 
     # game/library.rpy:2605
     old "\n            Slice an enemy ryder for devastating damage. However, can only be used on adjacent\n            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."
@@ -80,7 +80,7 @@ translate spanish strings:
 
     # game/library.rpy:3400
     old "\n            Restores approximately 300 HP to target.\n            Has unlimited range."
-    new "        Restaura aproximadamente 300 HP al objetivo.\n        Tiene rango ilimitado."
+    new "        Restaura aproximadamente 300 PS al objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:3418
     old "\n            The target's abilities now cost twice as much EN.\n            "
@@ -260,7 +260,7 @@ translate spanish strings:
 
     # game/library.rpy:4379
     old "\n            Restores approximately {} HP to target.\n            Has unlimited range."
-    new "        Restaura aproximadamente {} HP al objetivo.\n        Tiene rango ilimitado."
+    new "        Restaura aproximadamente {} PS al objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:4393
     old "\n            Adds an additional 25 points to the target's weapon accuracy.\n            Has unlimited range."
@@ -316,7 +316,7 @@ translate spanish strings:
 
     # game/library.rpy:4666
     old "\n            Fire EMP rounds at the target, limiting its mobility to evade attacks. Has a maximum range of 3 hexes."
-    new "        Dispara rondas EMP al objetivo, limitando su movilidad para evadir ataques. Tiene un máximo de 3 casillas."
+    new "        Dispara rondas de PEM al objetivo, limitando su movilidad para evadir ataques. Tiene un máximo de 3 casillas."
 
     # game/library.rpy:4682
     old "\n            Completely disables the target for one turn."
@@ -348,7 +348,7 @@ translate spanish strings:
 
     # game/library.rpy:4774
     old "While extensive repairs require time in the dry dock, battlefield repairs are still a must for combat operations. These new portable repair drones will allow the Liberty to repair 200 more HP. This upgrade also reduces the energy cost of the repair ability by 10EN"
-    new "Si bien las reparaciones extensivas requieren tiempo en el puerto, las reparaciones en el campo de batalla siguen siendo lo mejor para operaciones de combate. Estos nuevos drones reparadores portables permiten al Liberty reparar 200 puntos más de HP. Esta mejora también reduce el costo de energía de la habilidad reparar en 10EN"
+    new "Si bien las reparaciones extensivas requieren tiempo en el puerto, las reparaciones en el campo de batalla siguen siendo lo mejor para operaciones de combate. Estos nuevos drones reparadores portables permiten al Liberty reparar 200 PS más. Esta mejora también reduce el costo de energía de la habilidad reparar en 10EN"
 
     # game/library.rpy:4789
     old "REPAIR DRONE"
@@ -356,7 +356,7 @@ translate spanish strings:
 
     # game/library.rpy:4792
     old "These autonomous robots can rapidly restore destroyed hull sections as well as complex electronic systems. They are a must have for all hostile operations.  Restores 50% of the Sunrider's HP on use. The Sunrider can carry a maximum of 8 at a time."
-    new "Estos robots autónomos pueden restaurar rápidamente secciones del casco destruidas así como complejos sistemas electrónicos. Es un deber tenerlos para todas las operaciones bélicas. Restauran el 50% del HP del Sunrider al usarlos. El Sunrider puede cargar un máximo de 8 a la vez."
+    new "Estos robots autónomos pueden restaurar rápidamente secciones del casco destruidas así como complejos sistemas electrónicos. Es un deber tenerlos para todas las operaciones bélicas. Restauran el 50% de los PS del Sunrider al usarlos. El Sunrider puede cargar un máximo de 8 a la vez."
 
     # game/library.rpy:4805
     old "ALLIANCE CRUISER"
@@ -444,7 +444,7 @@ translate spanish strings:
 
     # game/library.rpy:4976
     old "Due to the demands of the Neutral Rim War, Union scientists have scrambled to improve the current line of repair drones. The newest version is reinforced with better materials, improving survivability in hostile work conditions, and operates on an updated AI capable of repairing the newest hardware.\n\nRepair drones now repair 75 percent of the Sunrider's maximum HP."
-    new "Debido a las demandas de la Guerra del Margen Neutral, los científicos de la Unión han logrado mejorar la línea actual de drones de reparación. La versión más reciente está refozada con mejores materiales, mejorando la supervivencia en condiciones hostiles de trabajo, y opera con una IA capaz de reparar el más reciente hardware.\n\nLos drones de reparación ahora reparan el 75% del HP máximo del Sunrider."
+    new "Debido a las demandas de la Guerra del Margen Neutral, los científicos de la Unión han logrado mejorar la línea actual de drones de reparación. La versión más reciente está refozada con mejores materiales, mejorando la supervivencia en condiciones hostiles de trabajo, y opera con una IA capaz de reparar el más reciente hardware.\n\nLos drones de reparación ahora reparan el 75% de los PS máximos del Sunrider."
 
     # game/library.rpy:4988
     old "ONGESSITE INJECTION RODS"
@@ -516,7 +516,7 @@ translate spanish strings:
 
     # game/library.rpy:5112
     old "Survive an attack with less than 10hp remaining."
-    new "Sobrevive a un ataque con menos de 10hp restantes."
+    new "Sobrevive a un ataque con menos de 10PS restantes."
 
     # game/library.rpy:5116
     old "Unlucky!"
@@ -524,7 +524,7 @@ translate spanish strings:
 
     # game/library.rpy:5119
     old "Have a player unit get killed at 0 to -9 HP."
-    new "Que una unidad del jugador sea asesinada entre 0 y -9 HP."
+    new "Que una unidad del jugador sea asesinada entre 0 y -9 PS."
 
     # game/library.rpy:5123
     old "Lose a life"
@@ -580,7 +580,7 @@ translate spanish strings:
 
     # game/library.rpy:5190
     old "Repair 50'000 hp in battle with the Liberty."
-    new "Repara 50'000 hp en batalla con el Liberty."
+    new "Repara 50'000 PS en batalla con el Liberty."
 
     # game/library.rpy:5202
     old "Captain"
