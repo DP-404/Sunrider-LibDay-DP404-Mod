@@ -72,7 +72,7 @@ translate spanish strings:
 
     # renpy/common/00library.rpy:195
     old "Skip Mode"
-    new "Skip Mode"
+    new "Modo Saltar"
 
     # renpy/common/00preferences.rpy:551
     old "Self-voicing enabled. Press 'v' to unable."

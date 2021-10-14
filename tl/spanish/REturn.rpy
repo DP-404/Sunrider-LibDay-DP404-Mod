@@ -33624,7 +33624,7 @@ translate spanish thefinalbattle_998f877b:
 translate spanish thefinalbattle_bb18093e:
 
     # "The flaming hulk of the Ascendant emerged from the Vanguard's beam, and shot towards the Sunrider."
-    "El flameante casco del Ascendant emergió desde el rayo del Vanguardia, y disparó hacia el Sunrider."
+    "El flameante casco del Ascendant emergió desde el rayo del Vanguard, y disparó hacia el Sunrider."
 
 # game/REturn.rpy:11413
 translate spanish thefinalbattle_c4898522:
