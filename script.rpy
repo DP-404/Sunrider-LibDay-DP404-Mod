@@ -9719,7 +9719,7 @@ label paradoxyearclaude:
     with dissolvemedium
     pause
     stop music fadeout 1.5
-    hide screen willbereborn
+    hide reborn
     with dissolvemedium
 
 label postcredits:
