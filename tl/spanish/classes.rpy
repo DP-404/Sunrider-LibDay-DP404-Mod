@@ -16,7 +16,7 @@ translate spanish strings:
 
     # game/classes.rpy:90
     old "VANGUARD CANNON"
-    new "CAÑÓN VANGUARDIA"
+    new "CAÑÓN VANGUARD"
 
     # game/classes.rpy:136
     old "ALL POWER TO ENGINES"

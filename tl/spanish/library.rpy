@@ -504,11 +504,11 @@ translate spanish strings:
 
     # game/library.rpy:5095
     old "VANGUARD SPREAD FIELD"
-    new "CAMPO EXPANDIDO DEL VANGUARDIA"
+    new "CAMPO EXPANDIDO DEL VANGUARD"
 
     # game/library.rpy:5098
     old "A powerful Ryuvian artifact currently being used to generate the plasma containment field for a massive ore refinery could be repurposed to improve the Vanguard Cannon's firing spread. However, acquiring it from the Union will not be cheap.\nThe Vanguard Cannon now deals splash damage."
-    new "Un poderoso artefacto Ryuviano usado actualmente para generar el campo de contención de plasma para una refinería masiva de mineral podría ser reutilizado para mejorar la extensión del fuego del Cañón Vanguardia. De cualquier forma, adquirirlo de la Unión no será barato.\nEl Cañón Vanguardia provoca ahora daño en área."
+    new "Un poderoso artefacto Ryuviano usado actualmente para generar el campo de contención de plasma para una refinería masiva de mineral podría ser reutilizado para mejorar la extensión del fuego del Cañón Vanguard. De cualquier forma, adquirirlo de la Unión no será barato.\nEl Cañón Vanguard provoca ahora daño en área."
 
     # game/library.rpy:5109
     old "Lucky!"
@@ -688,7 +688,7 @@ translate spanish strings:
 
     # game/library.rpy:5387
     old "Use vanguard for the fist time."
-    new "Usa el vanguardia por primera vez."
+    new "Usa el vanguard por primera vez."
 
     # game/library.rpy:5391
     old "Grand Tactician"
