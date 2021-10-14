@@ -1,22 +1,35 @@
-# Sunrider LibDay DP404 Mod
+## Sunrider LibDay DP404 Mod
 # What is DP404 Mod?
 This is a mod for the open source visual novel Sunrider Liberation Day Captain's Edition 3.01.
 It contains several bug fixes of the code and other addings to the game.
 You are free to modify, translate and/or expand Sunrider or this mod in any maneer you desire, so long as you don't charge other people's money for any of Sunrider assets.
 
 # How to install?
-- Copy the mod files in the "game" folder within the Sunrider Liberation Day Captain's Edition main game folder.
-- Overwrite all files when prompted.
+- Get Sunrider Liberation Day Captain's Edition 3.01.
+- Copy the mod files into the "game" folder within the Sunrider LibDay main game folder. Overwrite all files when prompted.
+- Delete the "game/cache" folder within the Sunrider LibDay main game folder since it may cause some errors.
 - Run Sunrider Liberation Day.exe.
-- Check the top left corner of the main menu screen.
-- If 'DP404 Mod' text appears, then you're good to go.
+- Check the top left corner of the main menu screen. If 'DP404 Mod' text appears, then you're good to go.
+
+**Warning:** Compatibility with other mods is highly unlikely.
 
 # Changelog
+## DP404 Mod v1.1
+
+### Changes
+- The spanish translation code was completely des-hardcoded. It now fully uses the Ren'Py translation framework.
+- Translated the bonus achievements section, R&D, store, ship map, buffs tooltips, backgrounds, buttons and other images.
+
+### Bugs and Other Fixes
+- Achievement completed frame is now wider so that it can show the full name of the achievement.
+- Fixed the not showing nor hiding of certain images.
+- Fixed spanish translation errors.
+
 ## DP404 Mod v1.0
 
 ### Changes
 - Now game also supports Spanish language for all dialogues, tooltips, text-images, store items, upgrades and settings texts.
-- Censored Icari & Kryska bathroom scene without the decensor mod. (credits to Sorzo: https://forum.loveinspace.moe/thread/516/sorzos-sprite-packs-miscellaneous-tweaks)
+- Censored Icari & Kryska bathroom scene without the decensor mod. (credits to [Sorzo](https://forum.loveinspace.moe/thread/516/sorzos-sprite-packs-miscellaneous-tweaks))
 - 'Star of Bethlehem' bgm from Mask of Arcadius was imported and now plays in the galaxy map scene.
 - Music Gallery expanded with all the cuts of the bgms played throughout the game.
 - Battle backgrounds now show up with the unused battlewipe transition.
