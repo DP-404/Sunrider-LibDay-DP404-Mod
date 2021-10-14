@@ -166,7 +166,7 @@ translate spanish censored_asagahscene_8e9cee62:
 translate spanish censored_asagahscene_c975e164:
 
     # asa "The capt'n's Vanguard rod!"
-    asa "¡La vara Vanguardia del capitán!"
+    asa "¡La vara Vanguard del capitán!"
 
 # game/init_censored.rpy:255
 translate spanish censored_asagahscene_6fa6c8a0:
