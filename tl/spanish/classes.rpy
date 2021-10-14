@@ -16,7 +16,7 @@ translate spanish strings:
 
     # game/classes.rpy:90
     old "VANGUARD CANNON"
-    new "CAÑÓN VANGUARDIA"
+    new "CAÑÓN VANGUARD"
 
     # game/classes.rpy:136
     old "ALL POWER TO ENGINES"
@@ -185,6 +185,10 @@ translate spanish strings:
     # game/classes.rpy:3713
     old "The buff could not be applied to the {0}"
     new "¡La mejora no pudo ser aplicada a {0}!"
+
+    # game/library.rpy:2063
+    old "\n            Allows Claude to move any Ryder a single hex.\n            This movement will provoke Blindside attacks, if you move an enemy Ryder\n            into the range of a friendly unit with an Assault type weapon.\n            Has unlimited range."
+    new "        Permite a Claude mover a cualquier Ryder una sola casilla.\n        Este movimiento provocará contraataques, si mueves a un Ryder enemigo\n        en el rango de una unidad aliada con un arma de tipo Asalto.\n        Tiene rango ilimitado."
 
     # game/classes.rpy:3893
     old "you can only use this ability on ryders!"

@@ -1481,13 +1481,27 @@ screen commands: ##show the weapon buttons etc##
             if not buff.curse:
                 $ buff_turns_left = '  [[?]' if buff.turns_left == -1 else "  [[" + str(buff.turns_left-duration_correction) + "]"
                 $ stacksize = '' if not buff.cumulative else str(buff.stack_counter)+'x '
-                textbutton (stacksize + buff.name + buff_turns_left) action NullAction() xpos 1217 ypos (925+count*24) text_size 20 text_color 'fff' hovered BuffHover(buff) unhovered SetField(BM,'buffhover',None) #tt.Action(buff.tooltip) #outlines [(1,'000',0,0)]
+                if stacksize == '':
+                    $ spacer = str(" " * 23)
+                    $ correction = 28
+                else:
+                    $ spacer = str(" " * 20)
+                    $ correction = 0
+                textbutton (stacksize + spacer + buff_turns_left) action NullAction() xpos 1217 ypos (925+count*24) text_size 20 text_color 'fff' hovered BuffHover(buff) unhovered SetField(BM,'buffhover',None) #tt.Action(buff.tooltip) #outlines [(1,'000',0,0)]
+                text (buff.name) xpos (1252-correction) ypos (927+count*24) size 20 color 'fff'
                 $count += 1
         $count = 0
         for buff in BM.selected.buffs:    
             if buff.curse:
                 $ stacksize = '' if not buff.cumulative else str(buff.stack_counter)+'x '
-                textbutton (stacksize + buff.name + "  [[" + str(buff.turns_left-duration_correction) + "]") action NullAction() xpos 1562 ypos (925+count*24) text_size 20 text_color 'a00' hovered BuffHover(buff) unhovered SetField(BM,'buffhover',None) text_align 1.0 xanchor 1.0
+                if stacksize == '':
+                    $ spacer = str(" " * 23)
+                    $ correction = 18
+                else:
+                    $ spacer = str(" " * 20)
+                    $ correction = 0
+                textbutton (stacksize + spacer + "  [[" + str(buff.turns_left-duration_correction) + "]") action NullAction() xpos 1562 ypos (925+count*24) text_size 20 text_color 'a00' hovered BuffHover(buff) unhovered SetField(BM,'buffhover',None) text_align 1.0 xanchor 1.0
+                text (buff.name) xpos (1415-correction) ypos (927+count*24) size 20 color 'a00'
                 # text (buff.name + "  [[" + str(buff.turns_left) + "]") xpos 1562 ypos (925+count*24) size 20 outlines [(1,'000',0,0)] color 'a00' text_align 1.0 xanchor 1.0
                 $count += 1
         

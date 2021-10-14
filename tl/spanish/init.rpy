@@ -656,7 +656,7 @@ translate spanish strings:
 
     # game/init.rpy:985
     old "Did you send Ava to activate the Vanguard Cannon?"
-    new "¿Enviaste a Ava a activar el Cañón Vanguardia?"
+    new "¿Enviaste a Ava a activar el Cañón Vanguard?"
 
     # game/init.rpy:985
     old "Legion sank"
@@ -664,7 +664,7 @@ translate spanish strings:
 
     # game/init.rpy:985
     old "Ava activated the Vanguard Cannon, destroying the Legion."
-    new "Ava activó el Cañón Vanguardia, destruyendo al Legion."
+    new "Ava activó el Cañón Vanguard, destruyendo al Legion."
 
     # game/init.rpy:985
     old "Legion spared"

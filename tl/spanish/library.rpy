@@ -80,7 +80,7 @@ translate spanish strings:
 
     # game/library.rpy:3400
     old "\n            Restores approximately 300 HP to target.\n            Has unlimited range."
-    new "        Restaura aproximadamente 300 HP al objetivo.\nTiene rango ilimitado."
+    new "        Restaura aproximadamente 300 HP al objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:3418
     old "\n            The target's abilities now cost twice as much EN.\n            "
@@ -108,7 +108,7 @@ translate spanish strings:
 
     # game/library.rpy:4076
     old "Full Forward"
-    new "Avance Completo"
+    new "AvanceCompleto"
 
     # game/library.rpy:4077
     old "Increases damage by 20% and accuracy by 15%"
@@ -124,7 +124,7 @@ translate spanish strings:
 
     # game/library.rpy:4111
     old "All Power To Engines"
-    new "Máximo Poder a los Motores"
+    new "Motores al Max"
 
     # game/library.rpy:4112
     old "movement energy cost is halved for the duration"
@@ -168,7 +168,7 @@ translate spanish strings:
 
     # game/library.rpy:4181
     old "Makes the user immune to counter attacks and reduces \n        the chance the enemy targets the unit."
-    new "Vuelve al usuario inmune a contraataques y reduce la\nprobabilidad de que los enemigos apunten a la unidad."
+    new "Vuelve al usuario inmune a contraataques y reduce la\n        probabilidad de que los enemigos apunten a la unidad."
 
     # game/library.rpy:4194
     old "Cloak"
@@ -188,7 +188,7 @@ translate spanish strings:
 
     # game/library.rpy:4226
     old "True Awakening"
-    new "Verdadero Despertar"
+    new "Gran Despertar"
 
     # game/library.rpy:4227
     old "Increases armor, evasion and damage each turn it is active. Does not expire.\nProgressively damages the Black Jack."
@@ -220,7 +220,7 @@ translate spanish strings:
 
     # game/library.rpy:4298
     old "Disable Lite"
-    new "Desactivar Menor"
+    new "Desactivar Lite"
 
     # game/library.rpy:4299
     old "Doubles cost of weapons,abilities and movement."
@@ -228,7 +228,7 @@ translate spanish strings:
 
     # game/library.rpy:4311
     old "Flak Off"
-    new "Fuego Antiaéreo Off"
+    new "Fuego AA Off"
 
     # game/library.rpy:4312
     old "Disables flak."
@@ -236,7 +236,7 @@ translate spanish strings:
 
     # game/library.rpy:4324
     old "Shield Down"
-    new "Escudos -"
+    new "Escudos Off"
 
     # game/library.rpy:4325
     old "Removes all shield generation."
@@ -244,7 +244,7 @@ translate spanish strings:
 
     # game/library.rpy:4337
     old "Shield Jam"
-    new "Interferencia de Escudo"
+    new "Escudos -"
 
     # game/library.rpy:4339
     old "Reduces shield generation each time it's applied."
@@ -260,23 +260,23 @@ translate spanish strings:
 
     # game/library.rpy:4379
     old "\n            Restores approximately {} HP to target.\n            Has unlimited range."
-    new "Restaura aproximadamente {} HP al objetivo.\n        Tiene rango ilimitado."
+    new "        Restaura aproximadamente {} HP al objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:4393
     old "\n            Adds an additional 25 points to the target's weapon accuracy.\n            Has unlimited range."
-    new "Añade 25 puntos adicionales a la precisión con armas del objetivo.\n        Tiene rango ilimitado."
+    new "        Añade 25 puntos adicionales a la precisión con armas del objetivo.\n        Tiene rango ilimitado."
 
     # game/library.rpy:4409
     old "\n            Provide coordinated cover fire for the selected unit, boosting its flak by 15.\n            Has a range of 3 hexes."
-    new "Provee una cobertura de fuego coordinada a la unidad seleccionada, mejorando sus torretas antiaéreas en 15.\n        Tiene un rango de 3 casillas."
+    new "        Provee una cobertura de fuego coordinada a la unidad seleccionada, mejorando sus torretas antiaéreas en 15.\n        Tiene un rango de 3 casillas."
 
     # game/library.rpy:4424
     old "\n            Increases armor and compels enemies to target you."
-    new "Incrementa la armadura y provoca a los enemigos a apuntarte."
+    new "        Incrementa la armadura y provoca a los enemigos a apuntarte."
 
     # game/library.rpy:4437
     old "\n            Increases the target's weapon damage by 30 percent.\n            Has unlimited range."
-    new "Incrementa el daño con armas del objetivo en un 30%.\n        Tiene rango ilimitado."
+    new "        Incrementa el daño con armas del objetivo en un 30%.\n        Tiene rango ilimitado."
 
     # game/library.rpy:4488
     old "all curses were removed from {}"
@@ -296,15 +296,15 @@ translate spanish strings:
 
     # game/library.rpy:4565
     old "\n            Improves the Black Jack's damage, evasion and armor each turn, but also causes progressively more damage each turn until canceled."
-    new "        Icrementa el daño, la evasión y la armadura del Black Jack cada turno, pero también causa daño progresivo cada turno hasta que se cancele."
+    new "        Icrementa el daño, la evasión y la armadura del Black Jack cada turno,\n        pero también causa daño progresivo cada turno hasta que se cancele."
 
     # game/library.rpy:4583
     old "\n            Cancels the awakening effect"
-    new "Cancela el efecto despertar."
+    new "        Cancela el efecto despertar."
 
     # game/library.rpy:4612
     old "\n            Cast 6 times to win the battle."
-    new "Utilízalo 6 veces para ganar la batalla."
+    new "        Utilízalo 6 veces para ganar la batalla."
 
     # game/library.rpy:4630
     old "\n            Allows the user to move any unit a single hex.\n            This movement will provoke Blindside attacks, if you move an enemy unit\n            into the range of a friendly unit with an Assault type weapon.\n            Has unlimited range."
@@ -424,7 +424,7 @@ translate spanish strings:
 
     # game/library.rpy:4941
     old "GRAVITINO GENERATOR"
-    new "GENERADOR GRAVITATORIO"
+    new "GENERADOR DE GRAVITINO"
 
     # game/library.rpy:4944
     old "Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60)."
@@ -504,11 +504,11 @@ translate spanish strings:
 
     # game/library.rpy:5095
     old "VANGUARD SPREAD FIELD"
-    new "CAMPO EXPANDIDO DEL VANGUARDIA"
+    new "CAMPO EXPANDIDO DEL VANGUARD"
 
     # game/library.rpy:5098
     old "A powerful Ryuvian artifact currently being used to generate the plasma containment field for a massive ore refinery could be repurposed to improve the Vanguard Cannon's firing spread. However, acquiring it from the Union will not be cheap.\nThe Vanguard Cannon now deals splash damage."
-    new "Un poderoso artefacto Ryuviano usado actualmente para generar el campo de contención de plasma para una refinería masiva de mineral podría ser reutilizado para mejorar la extensión del fuego del Cañón Vanguardia. De cualquier forma, adquirirlo de la Unión no será barato.\nEl Cañón Vanguardia provoca ahora daño en área."
+    new "Un poderoso artefacto Ryuviano usado actualmente para generar el campo de contención de plasma para una refinería masiva de mineral podría ser reutilizado para mejorar la extensión del fuego del Cañón Vanguard. De cualquier forma, adquirirlo de la Unión no será barato.\nEl Cañón Vanguard provoca ahora daño en área."
 
     # game/library.rpy:5109
     old "Lucky!"
@@ -688,7 +688,7 @@ translate spanish strings:
 
     # game/library.rpy:5387
     old "Use vanguard for the fist time."
-    new "Usa el vanguardia por primera vez."
+    new "Usa el vanguard por primera vez."
 
     # game/library.rpy:5391
     old "Grand Tactician"
