@@ -96,9 +96,9 @@ screen deck0: # Each frame can make imagebuttons
         hover "UI/deck0_hover.jpg"
         idle "UI/deck0.jpg"
 
-        hotspot (1610, 858, 310, 70):
+        hotspot (1570, 855, 350, 76):
             action Show("deck1", dissolve)
-        hotspot (1610, 960, 310, 70):
+        hotspot (1570, 957, 350, 76):
             action Show("deck2", dissolve)
 
 
@@ -203,9 +203,9 @@ screen deck1:
         hover "UI/deck1_hover.jpg"
         idle "UI/deck1.jpg"
 
-        hotspot (1610, 758, 310, 70):
+        hotspot (1570, 755, 350, 76):
             action Show("deck0", dissolve)
-        hotspot (1610, 960, 310, 70):
+        hotspot (1570, 957, 350, 76):
             action Show("deck2", dissolve)
 
     frame:##################################### BRIDGE
@@ -288,9 +288,9 @@ screen deck2:
         hover "UI/deck2_hover.jpg"
         idle "UI/deck2.jpg"
 
-        hotspot (1610, 758, 310, 70):
+        hotspot (1570, 755, 350, 76):
             action Show("deck0", dissolve)
-        hotspot (1610, 858, 310, 70):
+        hotspot (1570, 855, 350, 76):
             action Show("deck1", dissolve)
 
     frame:##################################### Hangar
