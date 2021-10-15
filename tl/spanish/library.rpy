@@ -292,7 +292,7 @@ translate spanish strings:
 
     # game/library.rpy:4543
     old "\n            Temporarily overcharges the Seraphim's systems, providing\n            an additional 100 additional points to accuracy as well as\n            doubling weapon damage for three turns."
-    new "        Sobrecarga temporalmente los sistemas del Seraphim, otorgando\n        100 puntos adicionales a la precisión asi como\n        duplicar el daño con armas durante tres turnos."
+    new "        Sobrecarga temporalmente los sistemas del Seraphim, otorgando\n        100 puntos adicionales a la precisión así como\n        duplicar el daño con armas durante tres turnos."
 
     # game/library.rpy:4565
     old "\n            Improves the Black Jack's damage, evasion and armor each turn, but also causes progressively more damage each turn until canceled."
@@ -312,7 +312,7 @@ translate spanish strings:
 
     # game/library.rpy:4650
     old "\n            Reduces the target's weapon accuracy by 25 points."
-    new "        Reduce la presición del objetivo en 25 puntos."
+    new "        Reduce la precisión con armas del objetivo en 25 puntos."
 
     # game/library.rpy:4666
     old "\n            Fire EMP rounds at the target, limiting its mobility to evade attacks. Has a maximum range of 3 hexes."
@@ -348,7 +348,7 @@ translate spanish strings:
 
     # game/library.rpy:4774
     old "While extensive repairs require time in the dry dock, battlefield repairs are still a must for combat operations. These new portable repair drones will allow the Liberty to repair 200 more HP. This upgrade also reduces the energy cost of the repair ability by 10EN"
-    new "Si bien las reparaciones extensivas requieren tiempo en el puerto, las reparaciones en el campo de batalla siguen siendo lo mejor para operaciones de combate. Estos nuevos drones reparadores portables permiten al Liberty reparar 200 PS más. Esta mejora también reduce el costo de energía de la habilidad reparar en 10EN"
+    new "Si bien las reparaciones extensivas requieren tiempo en el puerto, las reparaciones en el campo de batalla siguen siendo una necesidad para operaciones de combate. Estos nuevos drones reparadores portables permitirán al Liberty reparar 200 PS más. Esta mejora también reduce el costo de energía de la habilidad reparar en 10EN"
 
     # game/library.rpy:4789
     old "REPAIR DRONE"
@@ -364,7 +364,7 @@ translate spanish strings:
 
     # game/library.rpy:4810
     old "With the Solar Congress' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider's escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to {} in your fleet at any time"
-    new "Con la declaración de guerra del Congreso Solar, incontables cruceros de batalla de la Alianza han sido llamados al frente de batalla. Por una generosa paga, la Unión Minera puede usar sus contactos en el Congreso Solar para asignar un crucero de batalla de la Alianza completamente operacional como escolta del Sunrider. A pesar de ser lentos, el crucero de batalla de la Alianza esta construido como un ladrillo y asestan golpes. Puedes tener hasta {} en tu flota al mismo tiempo."
+    new "Con la declaración de guerra del Congreso Solar, incontables cruceros de batalla de la Alianza han sido llamados al frente de batalla. Por una generosa paga, la Unión Minera puede usar sus contactos en el Congreso Solar para asignar un crucero de batalla de la Alianza completamente operacional como escolta del Sunrider. A pesar de ser lento, el crucero de batalla de la Alianza está construido como un ladrillo y asesta golpes. Puedes tener hasta {} en tu flota al mismo tiempo."
 
     # game/library.rpy:4823
     old "UNION FRIGATE"
@@ -372,7 +372,7 @@ translate spanish strings:
 
     # game/library.rpy:4828
     old "The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to {} in your fleet at any time"
-    new "La Unión Minera regularmente posiciona una gran armada privada para proteger sus envios de piratas. Con la paga de apropiadas cuotas, tú también puedes tener una fragata de seguridad de la Unión cuidando tu espalda. Aunque pequeñas y ligeramente armadas, estas fragatas son baratas y rápidas. Puedes tener hasta {} en tu flota al mismo tiempo."
+    new "La Unión Minera regularmente despliega una gran armada privada para proteger sus envíos de piratas. Con la paga de apropiadas cuotas, tú también puedes tener una fragata de seguridad de la Unión cuidando tu espalda. Aunque pequeñas y ligeramente armadas, estas fragatas son baratas y rápidas. Puedes tener hasta {} en tu flota al mismo tiempo."
 
     # game/library.rpy:4840
     old "CERA GUNBOAT"
@@ -404,7 +404,7 @@ translate spanish strings:
 
     # game/library.rpy:4897
     old "The Wishall is an ancient Ryuvian artifact which allows its user to make one free command decision during the story. Alternately, you may decide to sell it here for an instant cash infusion of 10 000 credits."
-    new "El Wishall es un antiguo artefacto Ryuviano que permite a su usuario realizar una desición libre de costo durante la historia. Alternativamente, puedes decidir venderlo por una infusion de efectivo instantánea de 10 000 creditos."
+    new "El Wishall es un antiguo artefacto Ryuviano que permite a su usuario realizar una desición libre de costo durante la historia. Alternativamente, puedes decidir venderlo por una infusion de efectivo instantánea de 10 000 créditos."
 
     # game/library.rpy:4908
     old "SUNRIDER SHIELD UPGRADE"
@@ -412,7 +412,7 @@ translate spanish strings:
 
     # game/library.rpy:4911
     old "Due to the Sunrider's unexpected departure from Cera, she was never outfitted with energy shielding. While her top of the line shield generator was lost with the fall of Cera, the Union can outfit the Sunrider with a basic shield generator. The Sunrider's shields can be further upgraded in the Research Lab after it is purchased."
-    new "Debido a la inesperada partida del Sunrider de Cera, nunca fue provista de un escudo de energía. Aunque su mejor generador de escudo se perdió con la caida de Cera, la Unión puede proveer al Sunrider con un generador de escudos básico. Los escudos del Sunrider pueden ser mejorados en el Laboratorio de Investigación después de ser comprados."
+    new "Debido a la inesperada partida del Sunrider de Cera, nunca fue provista de un escudo de energía. Aunque su mejor generador de escudo se perdió con la caída de Cera, la Unión puede proveer al Sunrider con un generador de escudos básico. Los escudos del Sunrider pueden ser mejorados en el Laboratorio de Investigación después de ser comprados."
 
     # game/library.rpy:4925
     old "LIQUID ONGESSITE FUEL"
@@ -428,7 +428,7 @@ translate spanish strings:
 
     # game/library.rpy:4944
     old "Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60)."
-    new "Chigara puede hacer al arma de gravedad del Bianca más eficiente añadiéndole uno de estos dispositivos técnicos. El coste de energía disminuye a 40 (de 60)."
+    new "Chigara puede hacer al arma de gravedad del Bianca más eficiente añadiéndole uno de estos dispositivos de alta tecnología. El coste de energía disminuye a 40 (de 60)."
 
     # game/library.rpy:4957
     old "EXPANDED TORPEDO STORAGE"

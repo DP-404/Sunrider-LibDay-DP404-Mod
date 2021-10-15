@@ -8,7 +8,7 @@ translate spanish strings:
 
     # game/screens custom.rpy:1294
     old "Provides +15 Aim and +20% damage to all allied units. Will cancel All Guard if active."
-    new "Provee +15 Presición y +20% daño a todas las unidades aliadas. Cancelará Defensa Total si se activa."
+    new "Provee +15 Precisión y +20% daño a todas las unidades aliadas. Cancelará Defensa Total si se activa."
 
     # game/screens custom.rpy:1307
     old "Provides +20 Flak, +10 Evasion and +10 shield generation to all ships. Will cancel Full Forward if active."
