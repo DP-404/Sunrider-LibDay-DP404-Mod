@@ -21516,7 +21516,7 @@ translate spanish endgame_asagakillschigara_41fc80d8:
 translate spanish endgame_asagakillschigara_d8283c8e:
 
     # kay "It's an ancient Ryuvian ryder used by Sharr Myren, who vanished millennia ago. Defeating it won't be easy, but if you stick it with enough lead, it'll go down like anything else."
-    kay "Es un antiguo ryder Ryuviano usado por el Sharr Myren, quien se desvaneció hace milenios. Derrotarlo no será fácil, pero si logras atacarlo con suficiente plomo, será derribado como cualquier otra cosa."
+    kay "Es un antiguo ryder Ryuviano usado por la Sharr Myren, quien se desvaneció hace milenios. Derrotarlo no será fácil, pero si logras atacarlo con suficiente plomo, será derribado como cualquier otra cosa."
 
 # game/REturn.rpy:7421
 translate spanish endgame_asagakillschigara_d13d0b1d:
@@ -25692,7 +25692,7 @@ translate spanish claude_end_136fcb38:
 translate spanish claude_end_285d4e2f:
 
     # ali "As long as Sharr Myren's ghost courses through my veins, I am invincible!"
-    ali "¡Mientras que el fantasma del Sharr Myren pase por mis venas, soy invencible!"
+    ali "¡Mientras que el fantasma de la Sharr Myren pase por mis venas, soy invencible!"
 
 # game/REturn.rpy:8742
 translate spanish claude_end_4468073c:
@@ -25794,7 +25794,7 @@ translate spanish claude_end_e2fa5337:
 translate spanish claude_end_cffac6a8:
 
     # asa "You're... not the Sharr!!"
-    asa "¡¡Tú... no eres el Sharr!!"
+    asa "¡¡Tú... no eres la Sharr!!"
 
 # game/REturn.rpy:8801
 translate spanish claude_end_61049e4c:
@@ -28020,7 +28020,7 @@ translate spanish claude_end_c44ab635:
 translate spanish claude_end_1e2154c3:
 
     # "But the Shields of today was different. He was, for all intents and purposes, immortal and timeless. He existed everywhere, and yet existed nowhere. Even the most powerful of the Sharrs were mere toddlers in his eyes, playing around with toys."
-    "Pero el Shields de hoy era diferente. Él era, para todos los efectos, inmortal y sin tiempo. Él existía en todas partes, y aún así no existía en ningún lugar. Incluso los más poderosos Sharrs eran meros bebés en sus ojos, jugando con juguetes."
+    "Pero el Shields de hoy era diferente. Él era, para todos los efectos, inmortal y sin tiempo. Él existía en todas partes, y aún así no existía en ningún lugar. Incluso las más poderosas Sharrs eran meras bebés en sus ojos, jugando con juguetes."
 
 # game/REturn.rpy:9556
 translate spanish claude_end_28aa506c:
@@ -33156,7 +33156,7 @@ translate spanish thefinalbattle_76f91c25:
 translate spanish thefinalbattle_a4118ae3:
 
     # asa "I'll show you... What a true Sharr can do!!!"
-    asa "Te enseñaré... ¡¡¡Lo que un verdadero Sharr puede hacer!!!"
+    asa "Te enseñaré... ¡¡¡Lo que una verdadera Sharr puede hacer!!!"
 
 # game/REturn.rpy:11260
 translate spanish thefinalbattle_c0a7811b:
@@ -33270,13 +33270,13 @@ translate spanish thefinalbattle_4480f691:
 translate spanish thefinalbattle_1d1b0821:
 
     # ali "Without hatred, you will never wield the power of Sharrs! Without tasting the true horror of the blackest defeat, you have no place in war!"
-    ali "¡Sin odio, nunca blandirás el poder de los Sharrs! ¡Sin probar el verdadero horror de la derrota más negra, no tienes lugar en la guerra!"
+    ali "¡Sin odio, nunca blandirás el poder de las Sharrs! ¡Sin probar el verdadero horror de la derrota más negra, no tienes lugar en la guerra!"
 
 # game/REturn.rpy:11299
 translate spanish thefinalbattle_8e05977b:
 
     # ali "Only when you are destroyed in mind and body, stripped naked, and stomped on until every ember of hope has been extinguished can you truly hold the power of Sharrs...!"
-    ali "¡Solo cuando estés destruida en mente y cuerpo, devastada hasta desnudarte, y aplastada hasta que cada llama de esperanza haya sido extinguida podrás verdaderamente sostener el poder de los Sharrs...!"
+    ali "¡Solo cuando estés destruida en mente y cuerpo, devastada hasta desnudarte, y aplastada hasta que cada llama de esperanza haya sido extinguida podrás verdaderamente sostener el poder de las Sharrs...!"
 
 # game/REturn.rpy:11300
 translate spanish thefinalbattle_bf237166:
@@ -34530,7 +34530,7 @@ translate spanish thefinalbattle_89ae14d9:
 translate spanish thefinalbattle_009195f4:
 
     # ali "You are... but a mockery of the Sharrs of Ryuvia...!"
-    ali "¡Tú... no eres más que una burla de los Sharrs de Ryuvia...!"
+    ali "¡Tú... no eres más que una burla de las Sharrs de Ryuvia...!"
 
 # game/REturn.rpy:11812
 translate spanish thefinalbattle_19ffd212:
@@ -36330,7 +36330,7 @@ translate spanish asaga_epilogue_939d040e:
 translate spanish asaga_epilogue_9bb7770c:
 
     # asa "In the end... that's the duty of the Sharr. To defend Ryuvia from all threats."
-    asa "Al final... ese es el deber del Sharr. Defender Ryuvia de todas las amenazas."
+    asa "Al final... ese es el deber de la Sharr. Defender Ryuvia de todas las amenazas."
 
 # game/REturn.rpy:12556
 translate spanish asaga_epilogue_76c2b220:
@@ -36540,7 +36540,7 @@ translate spanish sola_epilogue_352ce57c:
 translate spanish sola_epilogue_3aeec57a:
 
     # "There was still much Shields had not yet discovered about Sola's past. He still had none of the specifics of how she had become Sharr, or how she had been flung from time, two thousand years into the future."
-    "Todavía había mucho que Shields no había descubierto acerca del pasado de Sola. Él todavía no tenía ningún detalle específico de cómo se convirtió en Sharr, o de cómo ella había sido arrojada en el tiempo, a dos mil años en el futuro."
+    "Todavía había mucho que Shields no había descubierto acerca del pasado de Sola. Él todavía no tenía ningún detalle específico de cómo ella se había convertido en Sharr, o de cómo ella había sido arrojada en el tiempo, a dos mil años en el futuro."
 
 # game/REturn.rpy:12626
 translate spanish sola_epilogue_de72a5dc:
@@ -36978,7 +36978,7 @@ translate spanish sola_epilogue_f62b08bb:
 translate spanish sola_epilogue_1e97f328:
 
     # nar "Ryuvia was only big enough for a single Sharr."
-    nar "Ryuvia era solo lo suficientemente grande para un solo Sharr."
+    nar "Ryuvia era solo lo suficientemente grande para una sola Sharr."
 
 # game/REturn.rpy:12752
 translate spanish sola_epilogue_faf83114:

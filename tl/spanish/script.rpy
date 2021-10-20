@@ -643,7 +643,7 @@ translate spanish after_mission1_15eed324:
 translate spanish after_mission1_a6a88ee7:
 
     # asa "Now meet your judge, evildoer. For I, Sharr of Ryuvia, shall cast you into the eternal fire."
-    asa "Es la hora de acabar con esto. ¡Como el Sharr de Ryuvia, te juzgaré en los fuegos del infierno!"
+    asa "Es la hora de acabar con esto. ¡Como la Sharr de Ryuvia, te juzgaré en los fuegos del infierno!"
 
 # game/script.rpy:421
 translate spanish after_mission1_0e4be8c1:
@@ -2431,7 +2431,7 @@ translate spanish chigara_windows_3081aebf:
 translate spanish chigara_windows_8e8d491c:
 
     # sha "You are the Sharr. The one who will bring justice to the galaxy."
-    sha "Tú eres el Sharr. Aquella que juzgará al mundo."
+    sha "Tú eres la Sharr. Aquella que juzgará al mundo."
 
 # game/script.rpy:1054
 translate spanish chigara_windows_6181cf4c:
@@ -2509,7 +2509,7 @@ translate spanish chigara_windows_a8954308:
 translate spanish chigara_windows_ce07b1b2:
 
     #  "The vision vanished as quickly as it appeared."
-    "La sombra del Sharr flotando en la ventana desapareció en un instante."
+    "La sombra de la Sharr flotando en la ventana desapareció en un instante."
 
 # game/script.rpy:1073
 translate spanish chigara_windows_2b60a3ce:
@@ -2647,7 +2647,7 @@ translate spanish chigara_windows_fb13288a:
 translate spanish chigara_windows_584b5887:
 
     # sol "I am no Sharr. Merely a pale imitation, impressed into service."
-    sol "Yo no soy el Sharr. Yo solo fingía serlo como me habían dicho..."
+    sol "Yo no soy la Sharr. Yo solo fingía serlo como me habían dicho..."
 
 # game/script.rpy:1120
 translate spanish chigara_windows_e3340d60:
@@ -10123,7 +10123,7 @@ translate spanish messhallspeeches_b29897c8:
 translate spanish messhallspeeches_3bf7b70f:
 
     # sol "It is not my place to question the Queen's decision."
-    sol "No estoy en posición de cuestionar la decisión del Sharr..."
+    sol "No estoy en posición de cuestionar la decisión de la Sharr..."
 
 # game/script.rpy:3915
 translate spanish messhallspeeches_91f8d8a8_3:
@@ -11695,7 +11695,7 @@ translate spanish after_mission6_efce2d68:
 translate spanish after_mission6_27252f9e:
 
     # asa "I'm... the Sharr of Ryuvia!"
-    asa "¡Porque... yo soy el Sharr de Ryuvia!"
+    asa "¡Porque... yo soy la Sharr de Ryuvia!"
 
 # game/script.rpy:4613
 translate spanish after_mission6_841f325f:
@@ -12835,7 +12835,7 @@ translate spanish after_mission6_f03129e6:
 translate spanish after_mission6_2a9c9a5c:
 
     # chi "(She's... dangerous...! Corrupted by her power!)"
-    chi "(¡Asaga es... peligrosa! ¡Debe de haberse ahogado ya en el poder del Sharr!)"
+    chi "(¡Asaga es... peligrosa! ¡Debe de haberse ahogado ya en el poder de la Sharr!)"
 
 # game/script.rpy:4931
 translate spanish after_mission6_4dec8f29:
@@ -14785,7 +14785,7 @@ translate spanish after_mission8_8fa10985:
 translate spanish after_mission8_69e0961c:
 
     # sol "It was the personal ryder of Sharr Myren, who vanished without a trace four hundred years before my birth."
-    sol "Se había desvanecido sin dejar rastro cuatrocientos años antes de mi nacimiento. Era el ryder personal del Sharr Myren."
+    sol "Se había desvanecido sin dejar rastro cuatrocientos años antes de mi nacimiento. Era el ryder personal de la Sharr Myren."
 
 # game/script.rpy:6358
 translate spanish after_mission8_0ed45b7a:
@@ -23600,13 +23600,13 @@ translate spanish commanderunfairme_206da620:
 translate spanish commanderunfairme_fdd9ccd9:
 
     # sol "I must have warped forward in time two thousand years just moments before the activation of the Sharr'Lac's Final Tear."
-    sol "Debí de haber saltado en el tiempo dos mil años hacia adelante momentos antes de la activación de la Lágrima Final del Sharr'Lac."
+    sol "Debí de haber saltado en el tiempo dos mil años hacia adelante momentos antes de la activación de la Final Tear del Sharr'Lac."
 
 # game/script.rpy:9572
 translate spanish commanderunfairme_baba30f7:
 
     # sol "That would further explain why I survived the certain death that the Final Tear would have caused."
-    sol "Eso podría también explicar por qué sobreviví a la segura muerte que la Lágrima Final habría provocado."
+    sol "Eso podría también explicar por qué sobreviví a la segura muerte que la Final Tear habría provocado."
 
 # game/script.rpy:9573
 translate spanish commanderunfairme_4116f2bf:
@@ -23708,7 +23708,7 @@ translate spanish notallowsola_4e524db5:
 translate spanish notallowsola_902d118b:
 
     # kay "You said it yourself, right? You time warped just a second before the final tear burst."
-    kay "Lo dijiste tú misma, ¿cierto? Saltaste en el tiempo solo segundos antes de la explosión de la Lágrima Final."
+    kay "Lo dijiste tú misma, ¿cierto? Saltaste en el tiempo solo segundos antes de la explosión de la Final Tear."
 
 # game/script.rpy:9607
 translate spanish notallowsola_c43464be:

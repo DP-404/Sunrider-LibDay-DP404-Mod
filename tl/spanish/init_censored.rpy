@@ -2374,7 +2374,7 @@ translate spanish censor_solahscene_62cebc71:
 translate spanish censor_solahscene_bbbdd4c6:
 
     # sol "A-ah! C-captain! A-ah... D-defiling t-the Sharr... A-ah!!"
-    sol "¡A-ah! ¡C-capitán! A-ah... P-profanando a-al Sharr... ¡¡A-ah!!"
+    sol "¡A-ah! ¡C-capitán! A-ah... P-profanando a l-la Sharr... ¡¡A-ah!!"
 
 # game/init_censored.rpy:751
 translate spanish censor_solahscene_f4fd4f97:
@@ -2440,7 +2440,7 @@ translate spanish censor_solahscene_a79038da:
 translate spanish censor_solahscene_a5a6ca21:
 
     # sol "F-foul man... M-making the Sharr of Ryuvia speak such shameful words... and do such shameful deeds..."
-    sol "T-tonto... Ha-aciendo al Sharr de Ryuvia decir tan vergonzosas palabras... y hacer tan vergonzosas acciones..."
+    sol "T-tonto... Ha-aciendo a la Sharr de Ryuvia decir tan vergonzosas palabras... y hacer tan vergonzosas acciones..."
 
 # game/init_censored.rpy:762
 translate spanish censor_solahscene_a345271d:
@@ -2638,7 +2638,7 @@ translate spanish censor_solahscene_0667ea77:
 translate spanish censor_solahscene_b081ae74:
 
     # "His hips thrusted into her and slammed against the rear of her passageway as he shot forth again. His cum spurted from her opening and dripped down onto him."
-    "Sus caderas se empujaron contra ella y golpearon contra la parte trasera de su pasaje mientras él disparaba hacia adelante de nuevo. Su semen salió a chorros de su abertura y gotearon sobre él."
+    "Sus caderas se empujaron contra ella y golpearon contra la parte trasera de su pasaje mientras él disparaba hacia adelante de nuevo. Su semen salió a chorros de su abertura y goteó sobre él."
 
 # game/init_censored.rpy:801
 translate spanish censor_solahscene_0001ca10:
@@ -2698,7 +2698,7 @@ translate spanish censor_solahscene_78fb21ee:
 translate spanish censor_solahscene_f658b2f1:
 
     # sol "Now... my only option as the Sharr is to either live out the rest of my life as your wife... or disembowel myself immediately."
-    sol "Ahora... mi única opción como el Sharr es vivir contigo por el resto de mi vida como tu esposa... o desentrañarme yo misma inmediatamente."
+    sol "Ahora... mi única opción como la Sharr es vivir contigo por el resto de mi vida como tu esposa... o desentrañarme yo misma inmediatamente."
 
 # game/init_censored.rpy:814
 translate spanish censor_solahscene_daa48cc0:
