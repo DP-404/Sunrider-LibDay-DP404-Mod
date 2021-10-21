@@ -9890,12 +9890,6 @@ label credits:
             ease 1.0 alpha 0.7
             pause 4
             ease 1.0 alpha 0  
-
-    show credit10b:
-        ypos 1.1 xpos 0.7 xanchor 0.5
-        linear 14 ypos -0.2
-        
-    pause 3 
     
     show credit11:
         ypos 1.1 xpos 0.7 xanchor 0.5

@@ -17,7 +17,6 @@ image credit7 = Text("Additional Programming {p}Matthew Warren, Roman Shnitser, 
 image credit8 = Text("Renpy Engine Programming {p}Tom Rothamel", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit9 = Text("Sound Effects Engineer {p}Steve Green", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit10 = Text("Japanese Translator {p}Stein Lien", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image credit10b = Text("Mod Creator {p}DP404", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit11 = Text("Voice Recording Engineer {p}Takanashi Keita", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
 image credit12 = Text("Starring", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
