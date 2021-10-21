@@ -755,7 +755,7 @@ label select_sola:
     
     play sound "sound/drum.ogg"
 
-    show expression Text(("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
         xalign 0.5
         yalign 0.5
     pause
