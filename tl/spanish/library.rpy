@@ -168,7 +168,7 @@ translate spanish strings:
 
     # game/library.rpy:4181
     old "Makes the user immune to counter attacks and reduces \n        the chance the enemy targets the unit."
-    new "Vuelve al usuario inmune a contraataques y reduce la\n        probabilidad de que los enemigos apunten a la unidad."
+    new "Vuelve al usuario inmune a contraataques y reduce la\nprobabilidad de que los enemigos apunten a la unidad."
 
     # game/library.rpy:4194
     old "Cloak"
