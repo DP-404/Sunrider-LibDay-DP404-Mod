@@ -28,7 +28,7 @@ translate spanish strings:
 
     # game/screens custom.rpy:1360
     old "Deals {} unavoidable damage to all units in a straight line extending outwards from the Sunrider with a maximum range of {} hexes."
-    new "Provoca {} daño inevadible a todas las unidades en una línea recta hacia afuera desde el Sunrider con un rango máximo de {} casillas."
+    new "Provoca {} daño inevadible a todas las unidades en línea recta hacia afuera desde el Sunrider con un rango máximo de {} casillas."
 
     # game/screens custom.rpy:1373
     old "Moves the Sunrider to any point on the map. Subsequent uses in the same turn become more expensive each time."
