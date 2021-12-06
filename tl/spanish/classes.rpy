@@ -206,4 +206,6 @@ translate spanish strings:
     old "{1} expired from {0}"
     new "{1} expiró del {0}"
 
-
+    # /gae/classes.rpy:unknown
+    old "miss"
+    new "Fallo"
