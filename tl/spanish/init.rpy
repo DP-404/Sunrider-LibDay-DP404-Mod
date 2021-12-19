@@ -42,6 +42,78 @@ translate spanish strings:
     old "UNKNOWN PILOT"
     new "PILOTO DESCONOCIDO"
 
+    # game/init.rpy:196
+    old "BAD END 1: GUNNED DOWN"
+    new "BAD END 1: DERRIBADO A DISPAROS"
+
+    # game/init.rpy:196
+    old "BAD END 2: CRUSHED"
+    new "BAD END 2: APLASTADO"
+
+    # game/init.rpy:196
+    old "BAD END 3: TRAPPED AVA VER"
+    new "BAD END 3: ATRAPADO VER. AVA"
+
+    # game/init.rpy:196
+    old "BAD END 4: TRAPPED ASAGA VER"
+    new "BAD END 4: ATRAPADO VER. ASAGA"
+
+    # game/init.rpy:196
+    old "BAD END 5: TRAPPED SOLA VER"
+    new "BAD END 5: ATRAPADO VER. SOLA"
+
+    # game/init.rpy:196
+    old "BAD END 6: FROZEN"
+    new "BAD END 6: CONGELADO"
+
+    # game/init.rpy:196
+    old "BAD END 7: EXPLOSIVE DEPRESSURIZATION"
+    new "BAD END 7: DEPRESURIZACIÓN EXPLOSIVA"
+
+    # game/init.rpy:196
+    old "SOLA WORST END: WHAT HAVE I DONE"
+    new "SOLA WORST END: QUÉ HE HECHO"
+
+    # game/init.rpy:196
+    old "SOLA NORMAL END: STILL TOGETHER"
+    new "SOLA NORMAL END: AÚN ASÍ JUNTOS"
+
+    # game/init.rpy:196
+    old "SOLA ALTERNATIVE END: FUTURE WON WITH BLOOD"
+    new "SOLA ALTERNATIVE END: FUTURO GANADO CON SANGRE"
+
+    # game/init.rpy:196
+    old "SOLA HAPPY END: OUR GREATEST ADVENTURE YET"
+    new "SOLA HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+
+    # game/init.rpy:196
+    old "ASAGA NORMAL END: STILL TOGETHER"
+    new "ASAGA NORMAL END: AÚN ASÍ JUNTOS"
+
+    # game/init.rpy:196
+    old "ASAGA ALTERNATIVE END: FUTURE WON WITH BLOOD"
+    new "ASAGA ALTERNATIVE END: FUTURO GANADO CON SANGRE"
+
+    # game/init.rpy:196
+    old "ASAGA HAPPY END: OUR GREATEST ADVENTURE YET"
+    new "ASAGA HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+
+    # game/init.rpy:196
+    old "AVA NORMAL END: MAIDEN’S SUICIDE"
+    new "AVA NORMAL END: EL SUICIDIO DE LA DONCELLA"
+
+    # game/init.rpy:196
+    old "AVA HAPPY END: OUR GREATEST ADVENTURE YET"
+    new "AVA HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+
+    # game/init.rpy:196
+    old "ICARI HAPPY END: OUR GREATEST ADVENTURE YET"
+    new "ICARI HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+
+    # game/init.rpy:196
+    old "CLAUDE SECRET END: TIME LORD"
+    new "CLAUDE SECRET END: SEÑOR DEL TIEMPO"
+
     # game/init.rpy:985
     old "Flag"
     new "Bandera"
