@@ -8370,7 +8370,7 @@ label gettingclaudetobianca:
         
         $ menu_choices = [
                     [_("Get Claude into the Bianca."),"getclaudebianca"],
-                    [_("Rescue Sola.","rescuesola")],
+                    [_("Rescue Sola."),"rescuesola"],
                     ]
         show screen decision
         pause
@@ -9810,10 +9810,10 @@ label confrontationwithfate:
     ava "The captain has gone... insane!"
     "The marines looked around in a panic, at a loss as to what to do."
 
-    if girl != Icari:
+    if girl != "Icari":
         "On one hand, the captain of the ship had just relieved the commander of her authority, but it was clear from his mad raving that their captain was no longer fit to lead them."
 
-    if girl == Icari:
+    if girl == "Icari":
         "On one hand, the captain of the ship was the highest ranked officer, hence they had to obbey his orders, but it was clear from his mad raving that their captain was no longer fit to lead them."
 
     kay "Y-YOU MORON!!!"
