@@ -10,19 +10,19 @@ translate spanish dlc_prologue_fb0ad573:
 translate spanish dlc_prologue_7cd53044:
 
     # "During the search for this Holy Grail, countless other findings which would come to greatly aid - and terrorize - humanity were discovered. The warp drive. Warheads which could level entire continents. Faster than light communications. Even a massive doomsday weapon which could extinguish entire stars: The Paradox Core."
-    "Durante la búsqueda de este Santo Grial, incontables otros descubrimientos que podrían ayudar - y horrorizar - enormemente a la humanidad fueron descubiertos. El dispositivo de salto. Cabezas de guerra que podrían derribar continentes enteros. Comunicaciones más rápidas que la luz. Incluso una masiva y fatal arma que podría extinguir estrellas enteras, el Paradox Core."
+    "Durante la búsqueda de este Santo Grial, incontables otros descubrimientos que llegarían a ayudar - y aterrorizar - enormemente a la humanidad fueron descubiertos. El dispositivo de salto. Cabezas de guerra que podrían derribar continentes enteros. Comunicaciones más rápidas que la luz. Incluso una masiva y fatal arma que podría extinguir estrellas enteras, El Paradox Core."
 
 # game/REturn.rpy:29
 translate spanish dlc_prologue_4b3975b0:
 
     # "But all those powers were irrelevant next to what would be possible with the Holy Grail: A time machine."
-    "Pero todos esos poderes eran irrelevantes comparados con lo que podría ser posible con el Santo Grial, una máquina del tiempo."
+    "Pero todos esos poderes eran irrelevantes comparados con lo que podría ser posible con el Santo Grial: una máquina del tiempo."
 
 # game/REturn.rpy:34
 translate spanish dlc_prologue_0699b24e:
 
     # "In its most simple application, one could undo past mistakes. If an action ended up causing an adverse reaction later in time, one could simply travel to before when the action was made and react differently, with the benefit of hindsight."
-    "En su más simple aplicación, se podrían deshacer los errores del pasado. Si una acción terminase causando una reacción adversa más tarde, se podría simplemente viajar a antes de que la acción fuese hecha y actuar diferente, con el conocimiento de lo sucedido."
+    "En su más simple aplicación, se podrían deshacer los errores del pasado. Si una acción terminase causando una reacción adversa más tarde en el tiempo, se podría simplemente viajar a antes de que la acción fuese hecha y reactuar diferente, con el conocimiento de lo sucedido."
 
 # game/REturn.rpy:35
 translate spanish dlc_prologue_4ebdb636:
@@ -34,19 +34,19 @@ translate spanish dlc_prologue_4ebdb636:
 translate spanish dlc_prologue_fd48c405:
 
     # "One could stop aging. Freeze time for everyone else but oneself and perform an unlimited number of actions while everyone else was frozen. Translocate other people and objects anywhere, at any time. Become older. Become younger. Given an infinite amount of time, one could become anyone, and accomplish anything."
-    "Se podría dejar de envejecer. Detener el tiempo para todo el mundo excepto para uno mismo y realizar un ilimitado número de acciones mientras todo el resto del mundo estaba paralizado. Desplazar a otras personas y objetos a cualquier lugar, y a cualquier tiempo. Envejecer. Rejuvenecer. Dado una infinita cantidad de tiempo, uno podría volverse cualquiera, y lograr cualquier cosa."
+    "Se podría dejar de envejecer. Congelar el tiempo para todo el mundo excepto para uno mismo y realizar un ilimitado número de acciones mientras todo el resto del mundo estuviera congelado. Desplazar a otras personas y objetos a cualquier lugar, en cualquier momento. Envejecer. Rejuvenecer. Dada una infinita cantidad de tiempo, uno podría volverse cualquiera, y lograr cualquier cosa."
 
 # game/REturn.rpy:41
 translate spanish dlc_prologue_5531543c:
 
     # "By no exaggeration, someone with a time machine would not be a human, but a god."
-    "Alguien con una máquina del tiempo dejaría de ser un humano, para convertirse en un dios."
+    "Sin exagerar, alguien con una máquina del tiempo no sería un humano, sino un dios."
 
 # game/REturn.rpy:50
 translate spanish dlc_prologue_622306dc:
 
     # "Alice Ashada pondered those thoughts as she walked through the Diode Cloning Facility."
-    "Alice Ashada meditaba acerca de esos pensamientos mientras caminaba a través de la Instalación de Clonación de Diode."
+    "Alice Ashada meditaba acerca de esos pensamientos mientras caminaba por de la Instalación de Clonación de Diode."
 
 # game/REturn.rpy:51
 translate spanish dlc_prologue_67b87dfb:
@@ -64,7 +64,7 @@ translate spanish dlc_prologue_691b116c:
 translate spanish dlc_prologue_edc8077d:
 
     # "It was here, where for the merest sliver of a second, she brushed her fingers against that almighty power..."
-    "Fue aquí donde se reveló contra los todopoderosos..."
+    "Fue aquí, donde por el más mínimo segundo, rozó sus dedos contra ese omnipotente poder..."
 
 # game/REturn.rpy:54
 translate spanish dlc_prologue_c6c8289d:
@@ -100,19 +100,19 @@ translate spanish dlc_prologue_cb4caaca:
 translate spanish dlc_prologue_412d43de:
 
     # "It was then when they realized such knowledge was beyond the comprehension of mere humans. They needed to create a new race, capable of thought processes beyond the capacity of even the most gifted of homo sapiens."
-    "Fue entonces que comprendieron que ese conocimiento estaba por encima de la comprensión de los humanos. Entonces, ellos necesitaron crear una nueva raza, capaz de pensar procesos por encima de la capacidad de la mayoría de los humanos superdotados."
+    "Fue entonces que comprendieron que ese conocimiento estaba por encima de la comprensión de los humanos. Necesitaron crear una nueva raza, capaz de pensar procesos por encima de la capacidad de incluso los más superdotados homo sapiens."
 
 # game/REturn.rpy:60
 translate spanish dlc_prologue_b7f9981a:
 
     # "First, a prototype was created. Alice Ashada."
-    "Entonces, crearon a un Prototipo. Alice Ashada."
+    "Primero, un prototipo fue creado. Alice Ashada."
 
 # game/REturn.rpy:61
 translate spanish dlc_prologue_3a1c123c:
 
     # "They watched her. Raised her as a one of their own. Even gave her the surname of the director of the Paradox Project, who assumed the role of her father."
-    "La observaron. La criaron como a una humana. Incluso le dieron el apellido del director del Proyecto Paradox, quien asumió el papel de su padre."
+    "La observaron. La criaron como a una de ellos. Incluso le dieron el apellido del director del Proyecto Paradox, quien asumió el papel de su padre."
 
 # game/REturn.rpy:65
 translate spanish dlc_prologue_7785e407:
@@ -130,13 +130,13 @@ translate spanish dlc_prologue_60fb7ca1:
 translate spanish dlc_prologue_a81e0187:
 
     # "The Prototype produced some promising results. Accomplishing what super computers and the galaxy's best minds could not, Alice successfully translocated molecules by fractions of a second. A breakthrough, produced even before the artificial girl had turned sixteen."
-    "El Prototipo produjo resultados prometedores. Logró lo que las super computadoras y las mayores mentes de la galaxia no habían podido, Alice desplazó exitosamente moléculas en fracciones de segundos. Un logro, producido por una chica artificial que tenía dieciséis años."
+    "El Prototipo produjo resultados prometedores. Logró lo que las super computadoras y las mayores mentes de la galaxia no habían podido, Alice desplazó exitosamente moléculas en fracciones de segundos. Un logro, producido incluso antes de que la chica artificial cumpliera dieciséis años."
 
 # game/REturn.rpy:68
 translate spanish dlc_prologue_c9d1d756:
 
     # "Using the lessons learned from the Prototype, the Alpha was finally created."
-    "Usando lo aprendido del Prototipo, el Alpha fue finalmente creado."
+    "Usando las lecciones aprendidas del Prototipo, el Alpha fue finalmente creado."
 
 # game/REturn.rpy:69
 translate spanish dlc_prologue_7535327e:
@@ -172,7 +172,7 @@ translate spanish dlc_prologue_b3e869f4:
 translate spanish dlc_prologue_3e31acca:
 
     # "Her belief that she was a normal human girl who lived with her caring parents in a research station was shattered that day - the first of the many pieces of her sanity which would break following that day."
-    "Su creencia de que ella era una chica humana normal que vivía con sus cariñosos padres en una estación de investigación fue destrozada ese día. La primera de las muchas piezas de su cordura que se romperían a partir de ese día."
+    "Su creencia de que ella era una chica humana normal que vivía con sus cariñosos padres en una estación de investigación fue destrozada ese día - la primera de las muchas piezas de su cordura que se romperían a partir de ese día."
 
 # game/REturn.rpy:78
 translate spanish dlc_prologue_3ac30798:
@@ -190,13 +190,13 @@ translate spanish dlc_prologue_9b5b3f1f:
 translate spanish dlc_prologue_2bb26239:
 
     # ali "What else could I do? I was merely a test run. They were going to toss me away, like an obsolete machine."
-    ali "¿Qué más podría haber hecho? Yo era solamente una prueba. Ellos iban a desecharme, como a una máquina obsoleta."
+    ali "¿Qué más podía hacer? Yo era solamente una prueba. Ellos iban a desecharme, como una máquina obsoleta."
 
 # game/REturn.rpy:81
 translate spanish dlc_prologue_99241deb:
 
     # ali "I had no choice! I was going to rescue my sister and escape this prison..."
-    ali "¡No tenía elección! Yo iba a rescatar a mi hermana y escapar de esta prisión..."
+    ali "¡No tuve elección! Iba a rescatar a mi hermana y escapar de esta prisión..."
 
 # game/REturn.rpy:82
 translate spanish dlc_prologue_51ac9e69:
@@ -250,7 +250,7 @@ translate spanish dlc_prologue_ddd84df0:
 translate spanish dlc_prologue_c9c1eef7:
 
     # alp "Why do you retreat to the abyss so?"
-    alp "¿Por qué te alejas de esa forma?"
+    alp "¿Por qué te retiras al abismo?"
 
 # game/REturn.rpy:100
 translate spanish dlc_prologue_a27b0349:
@@ -262,25 +262,25 @@ translate spanish dlc_prologue_a27b0349:
 translate spanish dlc_prologue_3d94c11a:
 
     # alp "Our spy continues to make great inroads into controlling the would-be savior of humanity: The mighty Captain Shields..."
-    alp "Nuestra espía continúa haciendo grandes ataques para controlar a quien será el salvador de la humanidad, el poderoso Capitán Kayto Shields..."
+    alp "Nuestra espía continúa haciendo grandes ataques para controlar a quien será el salvador de la humanidad, el poderoso Capitán Shields..."
 
 # game/REturn.rpy:102
 translate spanish dlc_prologue_0a1e3fc7:
 
     # alp "If he continues to follow our plan, then both the Alliance and PACT will unify. And when the Ebon Fleet arrives, he will rally the galaxy against humanity's greatest threat. As a result of that conflict, he will become, not merely captain, but... something far more powerful..."
-    alp "Si él sigue de acuerdo a nuestro plan, entonces tanto la Alianza como el PACT se unirán. Y cuando la Flota Negra llegue, unirá a toda la galaxia contra la mayor amenaza de la humanidad. Como resultado de ese conflicto, él se volverá, no solo un capitán, sino... algo mucho más poderoso..."
+    alp "Si él sigue de acuerdo a nuestro plan, entonces tanto la Alianza como el PACT se unirán. Y cuando la Flota de Ébano llegue, unirá a toda la galaxia contra la mayor amenaza de la humanidad. Como resultado de ese conflicto, él se volverá, no solo un capitán, sino... algo mucho más poderoso..."
 
 # game/REturn.rpy:103
 translate spanish dlc_prologue_4113273d:
 
     # alp "And with his greatest love... our proxy controlling him... We will rule the galaxy from the shadows... Constantly leading him down the path we desire..."
-    alp "Y con su gran amor... nuestra hermana controlándolo... gobernaremos la galaxia desde las sombras... guiándolo todo el tiempo por el camino que deseemos..."
+    alp "Y con su gran amor... nuestra hermana controlándolo... Gobernaremos la galaxia desde las sombras... Guiándolo todo el tiempo por el camino que deseemos..."
 
 # game/REturn.rpy:104
 translate spanish dlc_prologue_3c704fac:
 
     # alp "Such is our destiny, no? We were created to be greater than them."
-    alp "Ese es nuestro destino, ¿no? Fuimos creados para ser mejores que ellos."
+    alp "Tal es nuestro destino, ¿no? Fuimos creadas para ser mejores que ellos."
 
 # game/REturn.rpy:108
 translate spanish dlc_prologue_34cd7e54:
@@ -298,7 +298,7 @@ translate spanish dlc_prologue_12ecb26f:
 translate spanish dlc_prologue_f290e823:
 
     # ali "(The galaxy would do better if every last trace of them were wiped from existence...!)"
-    ali "(¡La galaxia estaría mejor si todos ellos fueran exterminados...!)"
+    ali "(¡La galaxia estaría mejor si hasta la última pista de ellos fuera  extinguida...!)"
 
 # game/REturn.rpy:116
 translate spanish dlc_prologue_eb6ffc6b:
@@ -514,7 +514,7 @@ translate spanish dlc_begin_9eac5ce7:
 translate spanish dlc_begin_341ea6f1:
 
     # "He felt... someone... sleeping beside him..."
-    "Él sintió... a alguien... durmiendo junto a él..."
+    "Sintió... a alguien... durmiendo junto a él..."
 
 # game/REturn.rpy:211
 translate spanish dlc_begin_6e0ae5e4:
@@ -874,7 +874,7 @@ translate spanish dlc_begin_9d378261:
 translate spanish dlc_begin_b2436baf:
 
     # kay "Uhh... After we arrived at Cera... I spoke with the ryder team in the mess hall... Then I returned to my office to do some paperwork... And then the next thing I knew, I was in bed with you!"
-    kay "Uh... Después de que llegamos a Cera... hablé con el escuadrón de ryders en el comedor... Entonces regresé a mi oficina a rellenar algo de papeleo... ¡Y entonces, lo próximo que supe es que estaba en la cama junto a tí!"
+    kay "Uh... Después de que llegamos a Cera... hablé con el escuadrón de ryders en el comedor... Luego regresé a mi oficina a rellenar algo de papeleo... ¡Y entonces, lo próximo que supe es que estaba en la cama junto a tí!"
 
 # game/REturn.rpy:315
 translate spanish dlc_begin_1ba91ba2:
@@ -886,7 +886,7 @@ translate spanish dlc_begin_1ba91ba2:
 translate spanish dlc_begin_fa73f748:
 
     # kay "What the hell are you talking about!? How would I know what happened after! The operation hasn't even begun yet!"
-    kay "¿¡De qué diablos estás hablando!? ¡Cómo podría saber qué sucedió después! ¡La operación ni siquiera ha empezado todavía!"
+    kay "¿¡De qué diablos estás hablando!? ¡Cómo podría saber qué sucedió después! ¡La operación ni siquiera ha comenzado todavía!"
 
 # game/REturn.rpy:317
 translate spanish dlc_begin_e3dbc000:
@@ -1090,19 +1090,19 @@ translate spanish dlc_begin_758c4f70:
 translate spanish dlc_begin_a66086c3:
 
     # "He shook his head at his own naivety. Of course, resolving this wasn't going to be that simple."
-    "Se sacudió la cabeza por su propia ingenuidad. Por supuesto, resolver esto no iba a ser tán simple."
+    "Se sacudió la cabeza por su propia ingenuidad. Por supuesto, resolver esto no iba a ser tan simple."
 
 # game/REturn.rpy:400
 translate spanish dlc_begin_dc30732f:
 
     # "For all intents and purposes, the Kayto Shields hitting on Chigara in his office right now was the captain everyone accepted in this timeline. If he just revealed himself now, he would be the one to get detained and questioned."
-    "Para todo el mundo, el Kayto Shields que estaba junto a Chigara en su oficina ahora mismo era el capitán que todos aceptaron en esta línea del tiempo. Si él se revelaba ahora, él sería quien el detenido e interrogado."
+    "Para todo el mundo, el Kayto Shields que estaba junto a Chigara en su oficina ahora mismo era el capitán que todos aceptaron en esta línea del tiempo. Si él se revelaba ahora, él sería quien sería detenido e interrogado."
 
 # game/REturn.rpy:401
 translate spanish dlc_begin_862bd1b4:
 
     # "And given his doppelganger's infatuation with the chief, he doubted that convincing him that she was a spy would be so easy... especially from inside a brig cell."
-    "Y debido al enamoramiento de su doppelganger con la jefa, dudaba que converncerlo de que ella era una espía fuera a ser tan fácil... especialmente desde dentro de una celda en la prisión."
+    "Y debido al enamoramiento de su doppelganger con la jefa, dudaba que convencerlo de que ella era una espía fuera a ser tan fácil... especialmente desde dentro de una celda en la prisión."
 
 # game/REturn.rpy:402
 translate spanish dlc_begin_c024b241:
@@ -1120,7 +1120,7 @@ translate spanish dlc_begin_e5d46f27:
 translate spanish dlc_begin_ceefcbef:
 
     # kay "We can't afford to blow our cover. We'll have to... approach this differently..."
-    kay "No podemos permitirnos arruinar nuestra cubierta. Tendremos que... lograr esto de una forma diferente..."
+    kay "No podemos permitirnos ser expuestos. Tendremos que... lograr esto de una forma diferente..."
 
 # game/REturn.rpy:405
 translate spanish dlc_begin_97491e67:
@@ -1258,7 +1258,7 @@ translate spanish select_asaga_c4134fa8:
 translate spanish select_asaga_cdc9e8a8:
 
     # "Asaga joined the two time travelers in a secluded corner of the hangar. The trio whispered to each other."
-    "Asaga se unió a los dos viajeros temporales en una esquina solitaria del hangar. Los tres comenzaron a susurrarse entre ellos."
+    "Asaga se unió a los dos viajeros del tiempo en una esquina solitaria del hangar. Los tres comenzaron a susurrarse entre ellos."
 
 # game/REturn.rpy:475
 translate spanish select_asaga_0a7babfc:
@@ -1918,7 +1918,7 @@ translate spanish select_ava_69f1b874:
 translate spanish select_ava_ddd916f7:
 
     # kay "I'm... very glad you believe me. Honestly... if our positions had been reversed... I...."
-    kay "Estoy... contento de que me hayas creído. Honestamente... si nuestras posiciones se hubiesen invertido... yo..."
+    kay "Estoy... muy contento de que me creas. Honestamente... si nuestras posiciones hubiesen sido invertidas... yo..."
 
 # game/REturn.rpy:665
 translate spanish select_ava_d9f9bddd:
@@ -2104,7 +2104,7 @@ translate spanish select_ava_2d477ea6:
 translate spanish select_ava_a66d1247:
 
     # kay "I still can't believe some of the things I said... I... was emotional... I should never have accused you of being jealous or anything stupid like that..."
-    kay "Todavía no puedo creer algunas de las cosas que dije... Yo... estaba sensible... Yo nunca debí haberte acusado de estar celosa o nada tan estúpido como eso..."
+    kay "Todavía no puedo creer algunas de las cosas que dije... Yo... estaba sensible... Nunca debí haberte acusado de estar celosa o nada tan estúpido como eso..."
 
 # game/REturn.rpy:708
 translate spanish select_ava_ba48ef02:
@@ -2164,7 +2164,7 @@ translate spanish select_ava_5bfaa398:
 translate spanish select_ava_e438bf93:
 
     # "Shields sprang to action. His past self was going to come running out the door any moment now! He had to hide!"
-    "Shields entró en acción. ¡Su pasado yo iba a venir corriendo por la puerta en cualquier momento! ¡Tenía que esconderse!"
+    "Shields entró en acción. ¡Su yo del pasado iba a venir corriendo por la puerta en cualquier momento! ¡Tenía que esconderse!"
 
 # game/REturn.rpy:723
 translate spanish select_ava_53da891c:
@@ -2506,7 +2506,7 @@ translate spanish select_sola_trustclaude_1a04e100:
 translate spanish select_sola_trustclaude_3f769346:
 
     # kay "I was completely blind. It wasn't until I had the benefit of hindsight that I realized how wrong I was in this time period."
-    kay "Yo estaba completamente ciego. No fue hasta que tuve el beneficio de conocer el futuro que me di cuenta de cuán equivocado estuve todo este tiempo."
+    kay "Yo estaba completamente ciego. No fue hasta que tuve el beneficio de conocer el futuro que me di cuenta de cuan equivocado estuve todo este tiempo."
 
 # game/REturn.rpy:838
 translate spanish select_sola_trustclaude_ade3d5dc:
@@ -2536,7 +2536,7 @@ translate spanish select_sola_donttrustclaude_1753ba43:
 translate spanish select_sola_afterclaude_ac2d3160:
 
     # kay "Sola, you can put the gun down. No matter the circumstances, we're going to have to solve this together... We don't have the time to fight amongst ourselves."
-    kay "Sola, puedes bajar el arma. Sin importar las circunstancias, vamos a tener que solucionar esto juntos... No tenemos tiempo para luchar entre nosotros mismos."
+    kay "Sola, puedes bajar el arma. Sin importar las circunstancias, vamos a tener que solucionar esto juntos... No tenemos tiempo para pelear entre nosotros mismos."
 
 # game/REturn.rpy:861
 translate spanish select_sola_afterclaude_a682bce6:
@@ -2566,7 +2566,7 @@ translate spanish select_sola_afterclaude_15954293:
 translate spanish select_sola_afterclaude_72171ddd:
 
     # kay "Chigara will enter the Prototypes' mindstream tomorrow, during the Battle for Cera. It will be at that moment when the Prototypes' leader will embed herself into Chigara's mind in order to mind control her during the victory celebration."
-    kay "Chigara entrará en el torrente de mentes de los Prototipos mañana, durante la Batalla de Cera. Será en ese momento en el que la líder de los Prototipos se meterá en la mente de Chigara con el objetivo de controlarla durante la celebración de victoria."
+    kay "Chigara entrará en el torrente de mentes de los Prototipos mañana, durante la Batalla de Cera. Será en ese momento cuando la líder de los Prototipos se meterá en la mente de Chigara con el objetivo de controlarla durante la celebración de victoria."
 
 # game/REturn.rpy:870
 translate spanish select_sola_afterclaude_65cf8777:
@@ -2818,7 +2818,7 @@ translate spanish select_icari_0d70ae23:
 translate spanish select_icari_2de761f2:
 
     # kay "(That would be the first thing a dutiful soldier like her would do... And that'll cause complications for me, since then they'll then expect to coordinate a counter-intelligence operation to thwart the assassination with the real Kayto Shields, instantly blowing my cover...)"
-    kay "(Eso sería lo primero que una soldado dedicada como ella haría... Y eso causará complicaciones para mí, ya que ellos entonces esperarán coordinar una operación de contra-inteligencia para frustrar el asesinato con el verdadero Kayto Shields, arruinando inmediatamente mi cobertura...)"
+    kay "(Eso sería lo primero que una soldado dedicada como ella haría... Y eso causará complicaciones para mí, ya que ellos entonces esperarán coordinar una operación de contra-inteligencia para frustrar el asesinato con el verdadero Kayto Shields, exponiéndome inmediatamente...)"
 
 # game/REturn.rpy:943
 translate spanish select_icari_cecc45ef:
@@ -3550,7 +3550,7 @@ translate spanish firstbattleofcera_a568b955:
 translate spanish firstbattleofcera_3232eb76:
 
     # kay "(I have to do something... but it would mean blowing my cover...!)"
-    kay "(¡Tengo que hacer algo... pero eso significaría arruinar mi cobertura...!)"
+    kay "(¡Tengo que hacer algo... pero eso significaría exponerme...!)"
 
 # game/REturn.rpy:1164
 translate spanish savethecrewman_f8cb3981:
@@ -3868,7 +3868,7 @@ translate spanish grabpistolfallback_afa9da4d:
 translate spanish grabpistolfallback_80fff452:
 
     # "Shields shouted orders to the other crewmen."
-    "Shields le gritó órdenes a los otros tripulantes."
+    "Shields les gritó órdenes a los otros tripulantes."
 
 # game/REturn.rpy:1278
 translate spanish grabpistolfallback_b960d2ce:
@@ -4162,7 +4162,7 @@ translate spanish grabpistolfallback_ac56b945:
 translate spanish grabpistolfallback_95a6e621:
 
     # "Despite blowing his cover... He smiled in spite of himself."
-    "A pesar de haber arruinado su cobertura... Sonrió pese a ello."
+    "A pesar de haberse expuesto... Sonrió pese a ello."
 
 # game/REturn.rpy:1383
 translate spanish grabpistolfallback_e8c8fb1e:
@@ -4180,7 +4180,7 @@ translate spanish dontblowcover_41fc80d8:
 translate spanish dontblowcover_45ff5eb1:
 
     # kay "(Tsch... I still had my mission to prevent the massacre... I can't afford to blow my cover here.)"
-    kay "(Tsch... Yo todavía tengo mi misión para prevenir la masacre... No puedo permitirme arruinar mi cobertura aquí.)"
+    kay "(Tsch... Yo todavía tengo mi misión para prevenir la masacre... No puedo permitirme exponerme aquí.)"
 
 # game/REturn.rpy:1399
 translate spanish dontblowcover_5e9d4924:
@@ -4282,7 +4282,7 @@ translate spanish dontblowcover_f9456cc1:
 translate spanish dontblowcover_c9e393dc:
 
     # "All this time, he had never realized how helpless most of the crew must feel during battle... Just performing their roles, completely blind to the overall tactical situation..."
-    "Todo este tiempo, nunca se había dado cuenta de cuán inútil se sentía la mayor parte de la tripulación durante la batalla... Simplemente desarrollando sus labores, completamente ciegos a la situación táctica global..."
+    "Todo este tiempo, nunca se había dado cuenta de cuan inútil se sentía la mayor parte de la tripulación durante la batalla... Simplemente desarrollando sus labores, completamente ciegos a la situación táctica global..."
 
 # game/REturn.rpy:1422
 translate spanish dontblowcover_41346881:
@@ -4348,7 +4348,7 @@ translate spanish dontblowcover_5e584370:
 translate spanish dontblowcover_3fe9680f:
 
     # "He had received some instruction about invasion drones during his training, but had figured they saw limited practical applications after never encountering one on the field. Indeed, this was the first time he had ever seen them deployed during ship-to-ship operations."
-    "Él había recibido algunas instrucciones acerca de invasión de drones durante su entrenamiento, pero se había imaginado que vio aplicaciones prácticas limitadas tras nunca encontrarse uno en el campo. Sin duda, esta era la primera vez que los había visto ser lanzados durante operaciones nave-a-nave."
+    "Él había recibido algunas instrucciones acerca de invasión de drones durante su entrenamiento, pero había pensado que vieron aplicaciones prácticas limitadas tras nunca encontrarse uno en el campo. Sin duda, esta era la primera vez que los había visto ser lanzados durante operaciones nave-a-nave."
 
 # game/REturn.rpy:1448
 translate spanish dontblowcover_ef1fc647:
@@ -4360,7 +4360,7 @@ translate spanish dontblowcover_ef1fc647:
 translate spanish dontblowcover_cb0d50ec:
 
     # kay "Get baackk!!!"
-    kay "¡¡Regresa!!"
+    kay "¡¡Retrocedee!!"
 
 # game/REturn.rpy:1455
 translate spanish dontblowcover_bdacce44:
@@ -4486,7 +4486,7 @@ translate spanish dontblowcover_c42f84b5:
 translate spanish dontblowcover_a6cc0c0b:
 
     # "Now armed, he surveyed the room for other tactical advantages..."
-    "Ahora armado, inspeccionó la habitación por otras ventajas tácticas..."
+    "Ahora armado, inspeccionó la habitación en busca de otras ventajas tácticas..."
 
 # game/REturn.rpy:1481
 translate spanish dontblowcover_2c676127:
@@ -4528,13 +4528,13 @@ translate spanish fightdroneinroom_20019527:
 translate spanish fightdroneinroom_df148eec:
 
     # "He popped out from behind cover and taunted the drone closer into the room by sparkling it with small arms fire."
-    "Salió de pronto de dentrás de su cobertura y provocó al dron a acercarse al dispararle con una pequeña arma de fuego."
+    "Salió de pronto de detrás de su cobertura y provocó al dron a acercarse al dispararle con una pequeña arma de fuego."
 
 # game/REturn.rpy:1503
 translate spanish fightdroneinroom_3efd8fc3:
 
     # "As planned, the drone's unwieldy legs got caught between the crisscross of consoles and generators as it closed in on him."
-    "Como lo había planeado, las difícl de manejar piernas del dron fueron atrapadas en el entrecruzamiento de las consolas y el generador mientras se acercaba a él."
+    "Como lo había planeado, las difícil de manejar piernas del dron fueron atrapadas en el entrecruzamiento de las consolas y el generador mientras se acercaba a él."
 
 # game/REturn.rpy:1504
 translate spanish fightdroneinroom_261eabb3:
@@ -4636,7 +4636,7 @@ translate spanish fightdroneinroom_7fc3d581:
 translate spanish fightdroneinroom_f94ee5b1:
 
     # "His lips cracked into a smile when his shot penetrated the canister of Ongessite now sitting directly under the drone, imploding its softly armored underbelly with an bright explosion."
-    "Sus labios se convirtieron en una sonrisa cuando su disparo penetró el barril de Ongessita ahora colocado directamente bajo el dron, implotando su suave armadura inferior con una brillante explosión."
+    "Sus labios se convirtieron en una sonrisa cuando su disparo penetró el barril de Ongessita ahora colocado directamente bajo el dron, implosionando su suave armadura inferior con una brillante explosión."
 
 # game/REturn.rpy:1535
 translate spanish fightdroneinroom_0752509c:
@@ -4744,7 +4744,7 @@ translate spanish escapeintotunnel_d6457f5e:
 translate spanish escapeintotunnel_08f30192:
 
     # "Shields popped from cover and shot at the liquid Ongessite canisters. They erupted in a bright blue mushroom cloud, momentarily distracting the drone."
-    "Shields saltó fuera de su cobertura y le diparó a los barriles de líquido de Ongessita. Hicieron erupción en una brillante nube azul con forma de hongo, distrayendo momentáneamente al dron."
+    "Shields saltó fuera de su cobertura y les diparó a los barriles de líquido de Ongessita. Hicieron erupción en una brillante nube azul con forma de hongo, distrayendo momentáneamente al dron."
 
 # game/REturn.rpy:1577
 translate spanish escapeintotunnel_7265c3c7:
@@ -4768,7 +4768,7 @@ translate spanish escapeintotunnel_0329b5e7:
 translate spanish escapeintotunnel_5828483f:
 
     # "Before the drone could resume fire, Shields pushed Claude into the tunnel and climbed up himself."
-    "Antes de que el dron pudiera resumir el fuego, Shields empujó a Claude dentro del tunel y subió."
+    "Antes de que el dron pudiera resumir el fuego, Shields empujó a Claude dentro del túnel y subió."
 
 # game/REturn.rpy:1584
 translate spanish escapeintotunnel_a2e41c64:
@@ -4912,7 +4912,7 @@ translate spanish afterdefeatingdrone_48726f14:
 translate spanish afterdefeatingdrone_5f0ede3d:
 
     # "The ship had now returned to condition yellow. For now, it appeared the battle had concluded."
-    "La nave había regresado ahora a alerta amarilla. Por ahora, parecía que la batalla había concluído."
+    "La nave había regresado ahora a alerta amarilla. Por ahora, parecía que la batalla había concluido."
 
 # game/REturn.rpy:1648
 translate spanish afterdefeatingdrone_7b474d94:
@@ -4966,7 +4966,7 @@ translate spanish meetasagaathangar_300e199b:
 translate spanish meetasagaathangar_b6b991b5:
 
     # "Shields remembered what Asaga was talking about. During the battle, the Liberty's shoulder maneuvering valve had fractured, sending it into an uncontrollable spin. While Chigara wasn't injured, his past self had sent her to the sickbay to be on the safe side."
-    "Shields recordó acerca de lo que Asaga estaba hablando. Durante la batalla, el acelerador del hombro izquierdo del Liberty se había salido de control, haciéndolo girar de forma incontrolable. Aunque Chigara no había sido herida, su pasado yo la había enviado a la bahía médica para estar seguro."
+    "Shields recordó acerca de lo que Asaga estaba hablando. Durante la batalla, el acelerador del hombro izquierdo del Liberty se había salido de control, haciéndolo girar de forma incontrolable. Aunque Chigara no había sido herida, su yo del pasado la había enviado a la bahía médica para estar seguro."
 
 # game/REturn.rpy:1679
 translate spanish meetasagaathangar_a1031fcc:
@@ -4996,7 +4996,7 @@ translate spanish meetasagaathangar_312ee2ba:
 translate spanish meetasagaathangar_ea7672d1:
 
     # kay "The PACT forces under Fontana's command scheduled to reinforce the Combined Fleet tomorrow actually have been sabotaged by the Prototypes. There's a Trojan virus embedded deep in their ships' systems which will allow the Prototypes to hijack control of the ships using their hyper brain waves."
-    kay "Las fuerzas del PACT bajo las órdenes de Fontana que planificaron apoyar a la Flota Combinada mañana en realidad han sido saboteadas por los Prototipos. Hay un virus Troyano implantado en lo profundo de los sistemas de sus naves que les permitirá a los Prototipos tomar el control de las naves usando sus ondas hyper cerebrales."
+    kay "Las fuerzas del PACT bajo las órdenes de Fontana que planificaron apoyar a la Flota Combinada mañana en realidad han sido saboteadas por los Prototipos. Hay un virus Troyano implantado en lo profundo de los sistemas de sus naves que les permitirá a los Prototipos tomar el control de las naves usando sus ondas hiper cerebrales."
 
 # game/REturn.rpy:1686
 translate spanish meetasagaathangar_f55c925e:
@@ -5080,7 +5080,7 @@ translate spanish meetasagaathangar_31326f77:
 translate spanish meetasagaathangar_6b8450a3:
 
     # asa "If we uhh... just nab her from sickbay... People are gonna realize that she's gone missing. And then, they'll come searching for her, which will just tip the Prototypes off that we're onto 'em..."
-    asa "Si nosotros, uhh... solo la secuestramos de la bahía médica... La gente se dará cuenta de que falta. Y entonces, vendrán a buscarla, lo que le advertiría a los Prototipos de que estamos tras de ellos..."
+    asa "Si nosotros, uhh... solo la secuestramos de la bahía médica... La gente se dará cuenta de que falta. Y entonces, vendrán a buscarla, lo que les advertiría a los Prototipos de que estamos tras de ellos..."
 
 # game/REturn.rpy:1705
 translate spanish meetasagaathangar_0319db5b:
@@ -5218,7 +5218,7 @@ translate spanish asaga_kidnapplan_0084c461:
 translate spanish asaga_kidnapplan_a7aabbff:
 
     # cla "So... We'll have to devise a plan... to kidnap Chigara out from under my nose without my past self realizing what's going on."
-    cla "Entonces... Tendremos que formular un plan... para secuestrar a Chigara de mi custodia sin que mi pasado yo se dé cuenta de lo que está sucediendo."
+    cla "Entonces... Tendremos que formular un plan... para secuestrar a Chigara de mi custodia sin que mi yo del pasado se dé cuenta de lo que está ocurriendo."
 
 # game/REturn.rpy:1773
 translate spanish asaga_kidnapplan_ee47ab08:
@@ -5242,7 +5242,7 @@ translate spanish asaga_kidnapplan_78bda5f9:
 translate spanish asaga_kidnapplan_4c0cde22:
 
     # cla "I think it'd be best if I remained out of sight of my past self for the duration of my stay here. For all our sakes."
-    cla "Creo que sería lo mejor si permaneciera fuera de la vista de mi pasado yo durante mi estadía aquí. Para el bien de todos nosotros."
+    cla "Creo que sería lo mejor si permaneciera fuera de la vista de mi yo del pasado durante mi estadía aquí. Por el bien de todos nosotros."
 
 # game/REturn.rpy:1779
 translate spanish asaga_kidnapplan_6e985481:
@@ -5392,13 +5392,13 @@ translate spanish meetsolaathangar_1419b88c:
 translate spanish meetsolaathangar_b8c044c5:
 
     # sol "In that case, the situation from the battle presents an opportunity."
-    sol "En ese caso, la situación de la situación de la batalla presenta una oportunidad."
+    sol "En ese caso, la situación de la batalla presenta una oportunidad."
 
 # game/REturn.rpy:1834
 translate spanish meetsolaathangar_4a1011ef:
 
     # kay "(I remember... After the battle, Chigara was admitted into the sickbay with minor injuries.)"
-    kay "(Recuerdo... Después de la batalla, Chigara fue llevada a la bahía médica con heridas menores.)"
+    kay "(Lo recuerdo... Después de la batalla, Chigara fue llevada a la bahía médica con heridas menores.)"
 
 # game/REturn.rpy:1835
 translate spanish meetsolaathangar_7b21fa83:
@@ -5470,7 +5470,7 @@ translate spanish sola_nobodyswap_9eb9b4e7:
 translate spanish sola_nobodyswap_a6b9c9e5:
 
     # kay "I'm going to go to the sickbay and distract this timeline's Claude, while Sola sneaks in and wheels Chigara's medical trolley away. You two will take Chigara to crew quarter 8, which is currently unoccupied, and wait until I arrive."
-    kay "Iré a la bahía médica y distraeré a la Claude de esta línea temporal, mientras Asaga se escabulle dentro y rueda la cama médica de Chigara fuera. Ustedes dos llevarán a Chigara a la habitación de la tripulación 8, la cual está actualmente desocupada, y esperarán hasta que yo llegue."
+    kay "Iré a la bahía médica y distraeré a la Claude de esta línea temporal, mientras Sola se escabulle dentro y rueda la cama médica de Chigara fuera. Ustedes dos llevarán a Chigara a la habitación de la tripulación 8, la cual está actualmente desocupada, y esperarán hasta que yo llegue."
 
 # game/REturn.rpy:1870
 translate spanish sola_bodyswap_f36234c4:
@@ -5752,7 +5752,7 @@ translate spanish meeticariathangar_6198e045:
 translate spanish meeticariathangar_b35e68f3:
 
     # "Shields remembered what Icari was talking about. During the battle, the Liberty's shoulder maneuvering valve had fractured, sending it into an uncontrollable spin. While Chigara wasn't injured, his past self had sent her to the sickbay to be on the safe side."
-    "Shields recordó acerca de lo que Icari estaba hablando. Durante la batalla, el acelerador del hombro izquierdo del Liberty se había salido de control, haciéndolo girar de forma incontrolable. Aunque Chigara no había sido herida, su pasado yo la había enviado a la bahía médica para estar seguro."
+    "Shields recordó acerca de lo que Icari estaba hablando. Durante la batalla, el acelerador del hombro izquierdo del Liberty se había salido de control, haciéndolo girar de forma incontrolable. Aunque Chigara no había sido herida, su yo del pasado la había enviado a la bahía médica para estar seguro."
 
 # game/REturn.rpy:1965
 translate spanish meeticariathangar_75a9e7b7:
@@ -5776,7 +5776,7 @@ translate spanish meeticariathangar_c8813d6a:
 translate spanish meeticariathangar_a723a188:
 
     # kay "Honestly, if I were the captain right now, I would have already detained Chigara myself. But the reality is that I can't afford to blow my cover, or else the other Kayto Shields will most likely throw me into the brig."
-    kay "Honestamente, si yo fuese el capitán ahora mismo, habría detenido ya a Chigara por mí mismo. Pero la realidad es que no puedo permitirme arruinar mi cobertura, o de lo contrario el otro Kayto Shields probablemente me lanzará a la prisión."
+    kay "Honestamente, si yo fuese el capitán ahora mismo, habría detenido ya a Chigara por mí mismo. Pero la realidad es que no puedo permitirme exponerme, o de lo contrario el otro Kayto Shields probablemente me lanzará a la prisión."
 
 # game/REturn.rpy:1971
 translate spanish meeticariathangar_429f5756:
@@ -5842,7 +5842,7 @@ translate spanish meeticariathangar_e49a85b7:
 translate spanish meeticariathangar_ea7672d1:
 
     # kay "The PACT forces under Fontana's command scheduled to reinforce the Combined Fleet tomorrow actually have been sabotaged by the Prototypes. There's a Trojan virus embedded deep in their ships' systems which will allow the Prototypes to hijack control of the ships using their hyper brain waves."
-    kay "Las fuerzas del PACT bajo las órdenes de Fontana que planificaron apoyar a la Flota Combinada mañana en realidad han sido saboteadas por los Prototipos. Hay un virus Troyano implantado en lo profundo de los sistemas de sus naves que le permitirá a los Prototipos tomar el control de las naves usando sus ondas hyper cerebrales."
+    kay "Las fuerzas del PACT bajo las órdenes de Fontana que planificaron apoyar a la Flota Combinada mañana en realidad han sido saboteadas por los Prototipos. Hay un virus Troyano implantado en lo profundo de los sistemas de sus naves que les permitirá a los Prototipos tomar el control de las naves usando sus ondas hiper cerebrales."
 
 # game/REturn.rpy:1990
 translate spanish meeticariathangar_5a093a7a:
@@ -5992,7 +5992,7 @@ translate spanish meetavaatbridge_230f698d:
 translate spanish meetavaatbridge_1df2b9e0:
 
     # kay "(Crap... We better tread carefully... If the other Kayto Shields is still in the bridge, all hell will break loose when I wander in.)"
-    kay "(Diablos... Mejor caminamos cuidadosamente... Si el otro Kayto Shields todavía está en el puente, de desataría todo el infierno cuando entre ahí.)"
+    kay "(Diablos... Mejor caminamos cuidadosamente... Si el otro Kayto Shields todavía está en el puente, se desataría todo el infierno cuando entre ahí.)"
 
 # game/REturn.rpy:2070
 translate spanish meetavaatbridge_27bfc167:
@@ -6022,7 +6022,7 @@ translate spanish meetavaatbridge_4bd68118:
 translate spanish meetavaatbridge_fc4f0a4d:
 
     # cla "No go, captain! The commander's busy talking with your other version!"
-    cla "¡No, capitán! ¡La Comandante está ocupada hablando con tu otra versión!"
+    cla "¡No puedes venir, capitán! ¡La Comandante está ocupada hablando con tu otra versión!"
 
 # game/REturn.rpy:2081
 translate spanish meetavaatbridge_ab9dd969:
@@ -6172,7 +6172,7 @@ translate spanish meetavaatbridge_78bda5f9:
 translate spanish meetavaatbridge_4c0cde22:
 
     # cla "I think it'd be best if I remained out of sight of my past self for the duration of my stay here. For all our sakes."
-    cla "Creo que sería lo mejor si permaneciera fuera de la vista de mi pasado yo durante mi estadía aquí. Para el bien de todos nosotros."
+    cla "Creo que sería lo mejor si permaneciera fuera de la vista de mi yo del pasado durante mi estadía aquí. Por el bien de todos nosotros."
 
 # game/REturn.rpy:2117
 translate spanish meetavaatbridge_6e985481:
@@ -6598,7 +6598,7 @@ translate spanish distractingotherclaude_ef04e281:
 translate spanish distractingotherclaude_b2c1f469:
 
     # "He grimaced to discover that Chigara was sleeping just two beds away from where Claude was working in her office. This was going to be harder than expected..."
-    "Hizo una mueca de disgusto al descubrir que Chigara estaba durmiendo a solo dos camas de donde Claude estaba trabajando en su oficina. Esto iba a ser más difícl de lo esperado..."
+    "Hizo una mueca de disgusto al descubrir que Chigara estaba durmiendo a solo dos camas de donde Claude estaba trabajando en su oficina. Esto iba a ser más difícil de lo esperado..."
 
 # game/REturn.rpy:2314
 translate spanish distractingotherclaude_3c2db33d:
@@ -6610,7 +6610,7 @@ translate spanish distractingotherclaude_3c2db33d:
 translate spanish distractingotherclaude_0bdcaf25:
 
     # "He pretended to walk over to Chigara and stand over her, like he was concerned for her health. As expected, Old Claude sniffed out his presence like a canine and creeped up behind him."
-    "Pretendió caminar hacia Claude y qudarse junto a ella, como si estuviera preocupado por su salud. Como se esperaba, la Antigua Claude olfateó su presencia como un perro y gateó hasta detrás de él."
+    "Pretendió caminar hacia Chigara y qudarse junto a ella, como si estuviera preocupado por su salud. Como se esperaba, la Antigua Claude olfateó su presencia como un perro y gateó hasta detrás de él."
 
 # game/REturn.rpy:2317
 translate spanish distractingotherclaude_f78ef053:
@@ -6676,7 +6676,7 @@ translate spanish distractingotherclaude_8ab5169a:
 translate spanish distractingotherclaude_acf4ad86:
 
     # kay "I just don't know, doctor..."
-    kay "Yo solo no sé, Claude..."
+    kay "Yo simplemente no sé, Claude..."
 
 # game/REturn.rpy:2332
 translate spanish distractingotherclaude_094e5343:
@@ -6904,7 +6904,7 @@ translate spanish distractingotherclaude_bc8b98be:
 translate spanish distractingotherclaude_feca1338:
 
     # kay "(But do I risk blowing my cover by trying to steal it?)"
-    kay "(¿Pero arriesgo mi cobertura al intentar robarlo?)"
+    kay "(¿Pero me arriesgo a delatarme al intentar robarlo?)"
 
 # game/REturn.rpy:2402
 translate spanish stealclaudeholo_b9f544c1:
@@ -7420,7 +7420,7 @@ translate spanish chigarakidnapped_a0382baf_1:
 translate spanish chigarakidnapped_b3e4e60a:
 
     # cla "Ah, that's just my old holo. I used it to communicate with the Prototypes while I was working with them."
-    cla "Ah, ese solo es mi antiguo holo. Lo usaba para comunicarme con los Prototipos mientras entaba trabajando con ellos."
+    cla "Ah, ese solo es mi antiguo holo. Lo usaba para comunicarme con los Prototipos mientras estaba trabajando con ellos."
 
 # game/REturn.rpy:2604
 translate spanish chigarakidnapped_0a61c4ef:
@@ -7624,7 +7624,7 @@ translate spanish chigarakidnapped_31317e8f:
 translate spanish chigarakidnapped_06ee9328:
 
     # cla "Either you stop the Liberation Day Massacre from occurring and avert the tragedy which befalls upon everyone... and destroy this universe and the universe you came from, and replace them with the new universe you create with your decision."
-    cla "O evitas que la Masacre del Día de Liberación ocurra y previenes la tragedia que le ocurrirá a todos... y destruyes este universo y el universo del que vienes, y los reemplazas con un nuevo universo que creas con tu decisión."
+    cla "O evitas que la Masacre del Día de Liberación ocurra y previenes la tragedia que les ocurrirá a todos... y destruyes este universo y el universo del que vienes, y los reemplazas con un nuevo universo que creas con tu decisión."
 
 # game/REturn.rpy:2681
 translate spanish chigarakidnapped_5390bc71:
@@ -7690,7 +7690,7 @@ translate spanish chigarakidnapped_6883afda:
 translate spanish chigarakidnapped_1c6b6fee:
 
     # ica "Ah, this time travel still's hard to understand."
-    ica "Ah, esto del viaje temporal todavía es difícl de entender."
+    ica "Ah, esto del viaje temporal todavía es difícil de entender."
 
 # game/REturn.rpy:2701
 translate spanish chigarakidnapped_3bb4f23a:
@@ -7720,7 +7720,7 @@ translate spanish chigarakidnapped_8ca986d2:
 translate spanish chigarakidnapped_47f76d97:
 
     # cla "In this circumstance, I intentionally sought to create a time paradox, in order to manipulate the law of causality into destroying the universe you don't want, and into creating the one you do want. Well... it was pretty drastic, but it's not like there's anyone out there who can stop me, so... teehee~!"
-    cla "En esta circunstancia, yo intencionalmente quiero crear una paradoja temporal, con el objetivo de manipular la ley de la casualidad para destruir el universo que no quieras, y crear el universo que quieras. ¡Bueno... fue bastante drástico, pero no es como que haya alguien ahí fuera que pueda detenerme, así que... teehee~!"
+    cla "En esta circunstancia, yo intencionalmente quise crear una paradoja temporal, con el objetivo de manipular la ley de la casualidad para destruir el universo que no quieras, y crear el universo que quieras. ¡Bueno... era bastante drástico, pero no es como que haya alguien ahí fuera que pueda detenerme, así que... teehee~!"
 
 # game/REturn.rpy:2718
 translate spanish chigarakidnapped_3cd772fb:
@@ -7738,7 +7738,7 @@ translate spanish chigarakidnapped_c4dc27ad:
 translate spanish chigarakidnapped_ff27bd3b:
 
     # cla "All of this is so I can watch you more. I want to watch you run around, fighting desperately against impossible odds. I want to see the tears in your eyes when you fail. The euphoria cursing through your veins when you're victorious. The bigger the stakes, the more tortured your dilemmas, the mightier your enemies, the more I want to see you fight. Because it brings me sooo much pleasure, seeing you in action... Hwaaahh---"
-    cla "Todo esto es para que pueda observarte más. Quiero verte correr por ahí, luchar desesperadamente contra probabilidades imposibles. Quiero ver las lágrimas en tus ojos cuando fallas. La euforia circulando por tus venas cuando vences. Mientras mayor el peligro, mayor torturadores tus dilemas, mientras más poderosos tus enemigos, más quiero verte pelear. Porque me trae taaanto placer, verte en acción... Hwaaahh---"
+    cla "Todo esto es para que pueda observarte más. Quiero verte correr por ahí, luchar desesperadamente contra probabilidades imposibles. Quiero ver las lágrimas en tus ojos cuando fallas. La euforia circulando por tus venas cuando vences. Mientras mayor el peligro, más torturadores tus dilemas, mientras más poderosos tus enemigos, más quiero verte pelear. Porque me trae taaanto placer, verte en acción... Hwaaahh---"
 
 # game/REturn.rpy:2723
 translate spanish chigarakidnapped_10d2d917:
@@ -7876,13 +7876,13 @@ translate spanish donttrustclaude_bdc8aa18:
 translate spanish donttrustclaude_7fbe043b:
 
     # kay "(At this rate... Looks like I'm stuck in this nightmarish box of Claude's making...)"
-    kay "(A este paso... Parece que estoy atrapado en esta caja de pesadilla que Claude ha confeccionado...)"
+    kay "(A este paso... Parece que estoy atrapado en esta caja de pesadilla hecha por Claude...)"
 
 # game/REturn.rpy:2782
 translate spanish donttrustclaude_0d8a703c:
 
     # kay "(And I won't be able to leave until either the massacre is thwarted, or I fail.)"
-    kay "(Y no seré capaz de salir ya sea hasta que la masacre sea prevenida)"
+    kay "(Y no seré capaz de irme ya sea hasta que la masacre sea frustrada, o falle.)"
 
 # game/REturn.rpy:2792
 translate spanish trustclaude_dd0ba808:
@@ -8128,7 +8128,7 @@ translate spanish chigarawakesup_7fe428cb:
 translate spanish chigarawakesup_8a00cf1e:
 
     # kay "(And that's... exactly how the Shields in this universe feels about her...)"
-    kay "(Y así es... exactamente cómo el Shields en este universo se sentía por ella...)"
+    kay "(Y así es... exactamente como el Shields en este universo se sentía por ella...)"
 
 # game/REturn.rpy:2876
 translate spanish chigarawakesup_7e079e26:
@@ -8314,7 +8314,7 @@ translate spanish capturedkidnapping_e9330ae4:
 translate spanish capturedkidnapping_70e4c9dd:
 
     # kay "(Ah fuck... My cover's been blown, and now Chigara's playing along with my past self's suspicions... And on top of all that, does my voice seriously sound like that...!?)"
-    kay "(Ah diablos... Mi cobertura ha sido arruinada, y ahora Chigara está siguiendo la corriente con las sospechas de mi antiguo yo... Y encima de eso, ¿¡mi voz en serio suena así!?)"
+    kay "(Ah diablos... He sido expuesto, y ahora Chigara está siguiendo la corriente con las sospechas de mi antiguo yo... Y encima de eso, ¿¡mi voz en serio suena así!?)"
 
 # game/REturn.rpy:3009
 translate spanish capturedkidnapping_4ff8d319:
@@ -8662,7 +8662,7 @@ translate spanish immediatecapture_escape_21eb4c69:
 translate spanish immediatecapture_escape_c66c0a9d:
 
     # "Just then, a squad of marines burst in after Shields."
-    "En ese momento, un escuadrón de marines irrumpió detrás de Shields."
+    "Justo entonces, un escuadrón de marines irrumpió detrás de Shields."
 
 # game/REturn.rpy:3141
 translate spanish immediatecapture_escape_131e5763:
@@ -8998,7 +8998,7 @@ translate spanish shiplosespower_20c4b019:
 translate spanish shiplosespower_d32a77a9:
 
     # kay "(No... The reason why we have to prevent Chigara from entering the mindstream is to prevent the Prototype leader from body jacking her after the leader is dead! Chigara can be body snatched whenever the Prototypes want while their leader's still alive!)"
-    kay "(No... ¡La razón por la que tenemos que evitar que Chigara entre al torrente de mentes es para evitar que la líder de los Prototipos tome el control de su cuerpo después de que haya muerto! ¡Le pueden arrebatar el cuerpo a Chigara cuando los Prototipos quieran siempre que su líder todavía esté vivo!)"
+    kay "(No... ¡La razón por la que tenemos que evitar que Chigara entre al torrente de mentes es para evitar que la líder de los Prototipos tome el control de su cuerpo después de que haya muerto! ¡Le pueden arrebatar el cuerpo a Chigara cuando los Prototipos quieran siempre que su líder todavía esté viva!)"
 
 # game/REturn.rpy:3262
 translate spanish shiplosespower_fa5f42a3:
@@ -9082,7 +9082,7 @@ translate spanish shiplosespower_b4ab0b54:
 translate spanish shiplosespower_f8ff09c6:
 
     # kay "Without it, we won't be able to get a FTL transmission sent to Fontana. Even worse, we're essentially sitting ducks for the loyalist PACT Fleet now. Unless we can get power restored ASAP, this ship is going to be destroyed!"
-    kay "Sin él, no seremos capaces de enviar una transmisión FTL a Fontana. Aún peor, somos esencialmente un blanco muy fácil para las Flotas del PACT leales ahora. ¡A menos de que logramos restaurar la energía lo más pronto posible, esta nave va a ser destruida!"
+    kay "Sin él, no seremos capaces de enviar una transmisión FTL a Fontana. Aún peor, somos esencialmente un blanco muy fácil para las Flotas del PACT leales ahora. ¡A menos que logramos restaurar la energía lo más pronto posible, esta nave va a ser destruida!"
 
 # game/REturn.rpy:3290
 translate spanish shiplosespower_ace9d596:
@@ -9160,7 +9160,7 @@ translate spanish shiplosespower_8260b601:
 translate spanish shiplosespower_856d4776:
 
     # kay "We go to the back up comm first. Then we go to Engineering and restore power."
-    kay "Iremos al comunicador de respaldo primero. Entonces iremos a Ingeniería y restauraremos la energía."
+    kay "Iremos al comunicador de respaldo primero. Luego iremos a Ingeniería y restauraremos la energía."
 
 # game/REturn.rpy:3317
 translate spanish shiplosespower_28c06fb4:
@@ -9250,7 +9250,7 @@ translate spanish shiplosespower_cae9341c:
 translate spanish shiplosespower_1a6fa5a3:
 
     # kay "(Without it, we won't be able to get a FTL transmission sent to Fontana. Even worse, we're essentially sitting ducks for the loyalist PACT Fleet now. Unless we can get power restored ASAP, this ship is going to be destroyed!)"
-    kay "(Sin él, no seremos capaces de enviar una transmisión FTL a Fontana. Incluso pero, somos esencialmente un blanco muy fácil para las Flotas del PACT leales ahora. ¡A menos de que logramos restaurar la energía lo más pronto posible, esta nave va a ser destruida!)"
+    kay "(Sin él, no seremos capaces de enviar una transmisión FTL a Fontana. Incluso peor, somos esencialmente un blanco muy fácil para las Flotas del PACT leales ahora. ¡A menos que logramos restaurar la energía lo más pronto posible, esta nave va a ser destruida!)"
 
 # game/REturn.rpy:3357
 translate spanish shiplosespower_df933418:
@@ -9436,7 +9436,7 @@ translate spanish detainedinbrig_aeb3d936:
 translate spanish detainedinbrig_f4dc31eb:
 
     # "He was one agonizingly stubborn individual to argue with. All of a sudden, he felt compelled to apologize to Ava for his personality once all of this was over. He had never known he was so stubborn until now."
-    "Él era un indivudio angustiosamente terco con quien discutir. De repente, se sintió forzado a disculparse con Ava por su personalidad una vez que todo esto hubiera terminado. Él nunca había sabido que era tan terco hasta ahora."
+    "Él era un individuo angustiosamente terco con quien discutir. De repente, se sintió forzado a disculparse con Ava por su personalidad una vez que todo esto hubiera terminado. Él nunca había sabido que era tan terco hasta ahora."
 
 # game/REturn.rpy:3434
 translate spanish detainedinbrig_8a06b687:
@@ -9670,7 +9670,7 @@ translate spanish detainedinbrig_eda35407:
 translate spanish detainedinbrig_6bf6b7b8:
 
     # "Ava looked around to check if the coast was clear, then approached the holding tank."
-    "Ava obserbó alrededor para revisar si no había nadie, entonces se acercó a la celda."
+    "Ava observó alrededor para revisar si no había nadie, entonces se acercó a la celda."
 
 # game/REturn.rpy:3509
 translate spanish detainedinbrig_bebd00cc:
@@ -9868,7 +9868,7 @@ translate spanish badend_trapped_7c72072f:
 translate spanish badend_trapped_a1167aad:
 
     # kay "What was the point of this... In the end... I couldn't accomplish anything..."
-    kay "Cuál era el punto de esto... Al final... No pude lograr nada..."
+    kay "Cuál fue el punto de esto... Al final... No pude lograr nada..."
 
 # game/REturn.rpy:3604
 translate spanish badend_trapped_ef635018_1:
@@ -10210,7 +10210,7 @@ translate spanish badend_trapped_9317e1d5:
 translate spanish badend_trapped_2a5bdd31:
 
     # asa "Everything happened exactly the way you said... Chigara entered the mind stream, and then killed everyone at the victory celebration... I... I tried to stop her... But the hunter drones got to me first."
-    asa "Todo pasó exactamente de la forma que dijiste... Chigara entró al torrente de mentes, y entonces mató a todos en la celebración de vitoria... Yo... Yo inteté detenerla... Pero los drones de caza me atraparon primero."
+    asa "Todo pasó exactamente de la forma que dijiste... Chigara entró al torrente de mentes, y entonces mató a todos en la celebración de vitoria... Yo... Yo intenté detenerla... Pero los drones de caza me atraparon primero."
 
 # game/REturn.rpy:3684
 translate spanish badend_trapped_01d00419:
@@ -10258,7 +10258,7 @@ translate spanish badend_trapped_a03cd95b:
 translate spanish badend_trapped_9face618:
 
     # asa "Ah... What a shitty end... H-heh... ehehe... Y-you can barely even laugh at it... Despite everything we worked for... it had to end like this..."
-    asa "Ah... Qué final más malo... H-heh... ehehe... P-puedes apenas reírte de él... A pesar de todo por lo que luchamos... tenía que terminar de esta forma..."
+    asa "Ah... Qué final más malo... H-heh... ehehe... A-apenas puedes incluso reírte de eso... A pesar de todo por lo que trabajamos... tenía que terminar de esta forma..."
 
 # game/REturn.rpy:3700
 translate spanish badend_trapped_2df8a24a:
@@ -10354,7 +10354,7 @@ translate spanish badend_trapped_4e8e18fe:
 translate spanish badend_trapped_b697148d:
 
     # "Sola leaned against the cell's door frame while clutching her gut. Blood oozed out from a hole the size of a tennis ball on her stomach."
-    "Sola se inclinó contra el marco de la puerta de la elda mientras agarraba su abdomen. La sangre se filtraba fuera de un agujero del tamaño de una pelota de tenis en su estómago."
+    "Sola se inclinó contra el marco de la puerta de la celda mientras agarraba su abdomen. La sangre se filtraba fuera de un agujero del tamaño de una pelota de tenis en su estómago."
 
 # game/REturn.rpy:3727
 translate spanish badend_trapped_eb64f262:
@@ -10414,7 +10414,7 @@ translate spanish badend_trapped_7161ef97_1:
 translate spanish badend_trapped_151db7e9_1:
 
     # "The ship groaned as it took hits."
-    "La nave hacía ruidos mientras recibía disparos."
+    "La nave hizo ruidos mientras recibía disparos."
 
 # game/REturn.rpy:3749
 translate spanish badend_trapped_315e868a:
@@ -10690,7 +10690,7 @@ translate spanish badend_trapped_bf9bec17:
 translate spanish badend_trapped_b9670a7d:
 
     # cla "Try again, this time by either stealing the holo from sickbay, or not blowing your cover!"
-    cla "¡Intenta de nuevo, esta vez intentando robar el holo de la bahía médica, o no arruinando tu cobertura!"
+    cla "¡Intenta de nuevo, esta vez intentando robar el holo de la bahía médica, o no exponiéndote!"
 
 # game/REturn.rpy:3834
 translate spanish badend_trapped_53d42eb0:
@@ -10828,7 +10828,7 @@ translate spanish freedbyicari_af3acb5b:
 translate spanish freedbyicari_10913564:
 
     # kay "This is hardly to be the time to be worried about that!"
-    kay "¡Este es apenas el momento para estar preocupados por eso!"
+    kay "¡Este es difícilmente el momento para estar preocupada por eso!"
 
 # game/REturn.rpy:3895
 translate spanish freedbyicari_b2c90de9:
@@ -10960,7 +10960,7 @@ translate spanish freedbyava_04d0f0f1:
 translate spanish freedbyava_7bfed40c:
 
     # ava "It won't be long until security comes back. Escape through the emergency maintenance shaft, then meet me inside lifepod 15, where there are no cameras."
-    ava "No pasará mucho hasta que seguridad regrese. Escapa a través del túnel de mantenimiento de emergencia, entonces nos reuniremos dentro de la cápsula de escape 15, donde no hay cámaras."
+    ava "No pasará mucho hasta que seguridad regrese. Escapa a través del túnel de mantenimiento de emergencia, luego nos reuniremos dentro de la cápsula de escape 15, donde no hay cámaras."
 
 # game/REturn.rpy:3948
 translate spanish freedbyava_3524760b:
@@ -11104,7 +11104,7 @@ translate spanish freedbyava_f8edb57a:
 translate spanish freedbyava_2fa11161:
 
     # ava "I thought to lure the Chief into a false sense of security by having it appear as if you were detained by ship security before she could trigger the logic bomb, and then to let you out to foil her plans, but it appears that plan failed."
-    ava "Pensé en engañar a la Jefa con una falsa alarma de seguridad al hacerlo ver como que eras detenido por la seguridad de la nave antes de que pudiera activar la bomba lógica, y entonces dejarte frustrar sus planes, pero parece que ese plan falló."
+    ava "Pensé en engañar a la Jefa con una falsa alarma de seguridad al hacerlo ver como que era detenido por la seguridad de la nave antes de que pudiera activar la bomba lógica, y entonces dejarle frustrar sus planes, pero parece que ese plan falló."
 
 # game/REturn.rpy:3987
 translate spanish freedbyava_ba189592:
@@ -11218,7 +11218,7 @@ translate spanish freedbyava_2c080439:
 translate spanish freedbyava_5caddbcc:
 
     # asa "And geez, just what the hell is up with the other captain anyways!? Is he stupid or something? I can't believe he just locked you up in the brig and completely ignored everything you said!"
-    asa "Y dios, ¿¡qué demonios le pasa al otro capitán de todas formas!? ¿¡Es estúpido o algo!? ¡No puedo creer que él solo te encerró en la prisión e ignoró completamente todo lo que dijiste!"
+    asa "Y dios, ¿¡qué demonios le pasa al otro capitán de todas formas!? ¿¡Es estúpido o algo!? ¡No puedo creer que él simplemente te encerró en la prisión e ignoró completamente todo lo que dijiste!"
 
 # game/REturn.rpy:4037
 translate spanish freedbyava_a1afdfe1:
@@ -11278,7 +11278,7 @@ translate spanish freedbyava_03435c36:
 translate spanish freedbyava_8b6a808b:
 
     # "Just then, a certain pink haired ditz poked her head out from the front of the escape pod as well."
-    "En ese momento, cierta persona de pelo rosado asomó su cabeza desde el frente de la cápsula de escape también."
+    "Justo entonces, cierta persona de pelo rosado asomó su cabeza desde el frente de la cápsula de escape también."
 
 # game/REturn.rpy:4057
 translate spanish freedbyava_26b5167a:
@@ -11404,7 +11404,7 @@ translate spanish freedbyava_ee6186c3:
 translate spanish freedbyava_5658937d:
 
     # ava "Further, the Chief Engineer is the only member of the crew with easy access to the reactor core's controls. Most likely, she is the one behind the ship's loss of power as well."
-    ava "Además, la Ingeniera Jefa es la únca miembro de la tripulación con fácil acceso a los controles del núcleo del reactor. Lo más probable, es que ella sea quien está detrás de la pérdida de energía también."
+    ava "Además, la Ingeniera Jefa es la única miembro de la tripulación con fácil acceso a los controles del núcleo del reactor. Lo más probable, es que ella sea quien está detrás de la pérdida de energía también."
 
 # game/REturn.rpy:4090
 translate spanish freedbyava_e1577c21:
@@ -11722,7 +11722,7 @@ translate spanish freedbyava_6f2adeb6:
 translate spanish freedbyava_214537b4:
 
     # kay "Even though Asaga was ultimately thwarted in my version of events, if we manipulate the timeline a bit, I think we could change the future by having Asaga kill Chigara."
-    kay "Aunque Asaga fue finalmente detenida en mi versión de los eventos, si manipulamos la línea temporal un poco, creo que podríamos cambiar el futuro al hacer que Asaga mate a Chigara."
+    kay "Aunque Asaga fue finalmente detenida en mi versión de los hechos, si manipulamos la línea temporal un poco, creo que podríamos cambiar el futuro al hacer que Asaga mate a Chigara."
 
 # game/REturn.rpy:4211
 translate spanish freedbyava_3b7813f5:
@@ -11776,7 +11776,7 @@ translate spanish freedbyava_71abc258:
 translate spanish freedbyava_51a77015:
 
     # kay "(No... I can't risk Asaga like that... My past self was willing to kill her to protect Chigara, and I doubt the situation's changed.)"
-    kay "(No... No puedo arriesgar a Asaga de esa forma... Mi pasado yo estaba queriendo matarla para proteger a Chigara, y sin duda la situación ha cambiado.)"
+    kay "(No... No puedo arriesgar a Asaga de esa forma... Mi yo del pasado estaba dispuesto a matarla para proteger a Chigara, y dudo que la situación haya cambiado.)"
 
 # game/REturn.rpy:4233
 translate spanish freedbyava_04bd10c0:
@@ -11788,7 +11788,7 @@ translate spanish freedbyava_04bd10c0:
 translate spanish freedbyava_7a4f7017:
 
     # kay "We don't have a choice. We're going to have to convince the captain of this ship that Chigara is a spy. In other words, my past self."
-    kay "No tenemos elección. Vamos a convencer al capitán de esta nave de que Chigara es una espía. En otras palabras, mi pasado yo."
+    kay "No tenemos elección. Vamos a convencer al capitán de esta nave de que Chigara es una espía. En otras palabras, mi yo del pasado."
 
 # game/REturn.rpy:4236
 translate spanish freedbyava_94aa7fde:
@@ -11968,7 +11968,7 @@ translate spanish gotobackupftl_fd356d58:
 translate spanish gotobackupftl_cfe687d6:
 
     # kay "(Another problem is that the batteries are still nowhere powerful enough to power life support for the entire ship. The air's going to get really thin on deck 2 real fast.)"
-    kay "(Otro problema es que las baterías no son lo suficientemente poderosas para encender el soporte de vida para toda la nave. El aire va a volverse realmente diluido en la Cubierta 2 realmente rápido.)"
+    kay "(Otro problema es que las baterías no son lo suficientemente poderosas para encender el soporte de vida para toda la nave. El aire va a volverse verdaderamente diluido en la cubierta 2 realmente rápido.)"
 
 # game/REturn.rpy:4339
 translate spanish gotobackupftl_760ebc06:
@@ -12052,7 +12052,7 @@ translate spanish gotobackupftl_ee08e3ce:
 translate spanish gotobackupftl_a7ad5129:
 
     # "Shields looked down in embarrassment. He was desperately reliant on Ava where the day to day operations of the ship were concerned. In fact, unless they were in combat, Ava was more or less the captain of the ship."
-    "Shields miró hacia abajo avergonzado. Él había dependido desesperadamente en Ava el día a día de las operaciones de la nave. De hecho, a menos de que estuvieran en combate, Ava era más o menos la capitán de la nave."
+    "Shields miró hacia abajo avergonzado. Él había dependido desesperadamente en Ava el día a día de las operaciones de la nave. De hecho, a menos que estuvieran en combate, Ava era más o menos la capitán de la nave."
 
 # game/REturn.rpy:4354
 translate spanish gotobackupftl_1ac54a1d:
@@ -12250,7 +12250,7 @@ translate spanish gotobackupftl_605f0488:
 translate spanish gotobackupftl_a6f8c693:
 
     # "Shields spoke with Ava about the universe getting wiped from existence and being replaced with a new universe."
-    "Shields habló con Ava acerca del universo dejando de existir y siendo reeemplazado con un nuevo universo."
+    "Shields habló con Ava acerca del universo dejando de existir y siendo reemplazado con un nuevo universo."
 
 # game/REturn.rpy:4401
 translate spanish gotobackupftl_fc52c8ab:
@@ -12532,7 +12532,7 @@ translate spanish gotobackupftl_1f59636f:
 translate spanish gotobackupftl_0057b8fe:
 
     # ava "I assure you, I am just as cold as you are right now. I... just don't bellyache."
-    ava "Te aseguro, tengo tanto frío como tú ahora mismo. Yo... solo no tengo dolor de barriga."
+    ava "Te lo aseguro, tengo tanto frío como tú ahora mismo. Yo... solo no tengo dolor de barriga."
 
 # game/REturn.rpy:4467
 translate spanish gotobackupftl_3b220b9e:
@@ -12766,7 +12766,7 @@ translate spanish gotobackupftl_6bf1bd54:
 translate spanish gotobackupftl_9758b667:
 
     # ava "I'm... still not quite used to the new you. You're a leader now. A far more capable one than me. And... sometimes I fear you will soon have no need of me at your side."
-    ava "Yo... todavía no estoy bastante acostumbrada al nuevo tú. Eres el líder ahora. Uno mucho más capaz que yo. Y... algunas veces temo que pronto no me necesitarás más a tu lado."
+    ava "Yo... todavía no estoy muy acostumbrada al nuevo tú. Eres el líder ahora. Uno mucho más capaz que yo. Y... algunas veces temo que pronto no me necesitarás más a tu lado."
 
 # game/REturn.rpy:4519
 translate spanish gotobackupftl_6ed76c38:
@@ -12862,7 +12862,7 @@ translate spanish gotobackupftl_1852d750:
 translate spanish gotobackupftl_5707a45c:
 
     # kay "Another problem is that the batteries are still nowhere powerful enough to power life support for the entire ship. The air's going to get really thin on deck 2 real fast."
-    kay "Otro problema es que las baterías no son lo suficientemente poderosas para encender el soporte de vida para toda la nave. El aire va a volverse realmente diluido en la Cubierta 2 realmente rápido."
+    kay "Otro problema es que las baterías no son lo suficientemente poderosas para encender el soporte de vida para toda la nave. El aire va a volverse realmente diluido en la cubierta 2 realmente rápido."
 
 # game/REturn.rpy:4547
 translate spanish gotobackupftl_f1d96f6c:
@@ -12880,7 +12880,7 @@ translate spanish gotobackupftl_fd356d58_1:
 translate spanish gotobackupftl_cfe687d6_1:
 
     # kay "(Another problem is that the batteries are still nowhere powerful enough to power life support for the entire ship. The air's going to get really thin on deck 2 real fast.)"
-    kay "(Otro problema es que las baterías no son lo suficientemente poderosas para encender el soporte de vida para toda la nave. El aire va a volverse realmente diluido en la Cubierta 2 realmente rápido.)"
+    kay "(Otro problema es que las baterías no son lo suficientemente poderosas para encender el soporte de vida para toda la nave. El aire va a volverse realmente diluido en la cubierta 2 realmente rápido.)"
 
 # game/REturn.rpy:4552
 translate spanish gotobackupftl_7f8d88be:
@@ -12958,7 +12958,7 @@ translate spanish gotobackupftl_155767d0:
 translate spanish gotobackupftl_4d2656ee:
 
     # "Sola's teeth was chattering, but she otherwise did not exhibit any signs of hypothermia."
-    "Los dientes de sola estaban produciendo sonidos, pero ella al contrario no exibía ningún signo de hipotermia."
+    "Los dientes de Sola estaban produciendo sonidos, pero por lo demás no exibía ningún signo de hipotermia."
 
 # game/REturn.rpy:4583
 translate spanish gotobackupftl_e4d9d131:
@@ -13000,7 +13000,7 @@ translate spanish gotobackupftl_7b9669d6:
 translate spanish gotobackupftl_d2f15a88:
 
     # "Shields's head spun thanks to the lack of oxygen, which only made the numbness in his fingers and toes worse."
-    "La cabeza de Shields daba vueltas gracias a la falta de oxígeno, lo que solo hizo al entumecimiento de sus dedos de las manos y piés peor."
+    "La cabeza de Shields daba vueltas gracias a la falta de oxígeno, lo que solo empeoró el entumecimiento de sus dedos de las manos y pies."
 
 # game/REturn.rpy:4603
 translate spanish gotobackupftl_c788c62b:
@@ -13210,7 +13210,7 @@ translate spanish gotobackupftl_7f960bce:
 translate spanish gotobackupftl_92c6daa4:
 
     # sol "Alas... P-perhaps m-m-my l-l-lifelong misfortune is s-sabotaging the mission..."
-    sol "Oh... Q-quizás m-m-mi d-d-desgracia de siempre está s-saboteando la misión..."
+    sol "Oh... Q-quizás m-m-mi d-d-desgracia de t-toda la v-vida esté s-saboteando la misión..."
 
 # game/REturn.rpy:4663
 translate spanish gotobackupftl_01ed796d:
@@ -13234,7 +13234,7 @@ translate spanish gotobackupftl_5264ca3c:
 translate spanish gotobackupftl_626fb42c:
 
     # kay "(Hindsight is always 20/20...)"
-    kay "(La vista siempre es 20/20...)"
+    kay "(La retrospectiva es siempre 20/20...)"
 
 # game/REturn.rpy:4667
 translate spanish gotobackupftl_cef9a231:
@@ -13402,7 +13402,7 @@ translate spanish gotobackupftl_a6f95c69:
 translate spanish gotobackupftl_21fede92:
 
     # "Their extremities were now completely numb and their consciousness faded in and out because of the thin air. The return trip proved far more difficult than their first expedition. Worse still, since they were heading to deck 1, they now had to climb up frozen ladders, instead of climbing downwards."
-    "Sus extremidades estaban ahora completamente entumecidas y sus conciencias se desvanecían a intervalos por culpa del diluído aire. El viaje de regreso resultó ser más difícil que su primera expedición. Peor aún, ya que se estaban dirigiendo a la Cubierta 1, ellos ahora tenían que subir escaleras congeladas, en vez de descender."
+    "Sus extremidades estaban ahora completamente entumecidas y sus conciencias se desvanecían a intervalos por culpa del diluido aire. El viaje de regreso resultó ser más difícil que su primera expedición. Peor aún, ya que se estaban dirigiendo a la cubierta 1, ellos ahora tenían que subir escaleras congeladas, en vez de descender."
 
 # game/REturn.rpy:4738
 translate spanish gotobackupftl_b50187ba:
@@ -13414,7 +13414,7 @@ translate spanish gotobackupftl_b50187ba:
 translate spanish gotobackupftl_b62dd675:
 
     # "His extremities were now completely numb and his consciousness faded in and out because of the thin air. The return trip proved far more difficult than his first expedition. Worse still, since he was heading to deck 1, he now had to climb up frozen ladders, instead of climbing downwards."
-    "Sus extremidades estaban ahora completamente entumecidas y su conciencia se desvanecía a intervalos por culpa del diluído aire. El viaje de regreso resultó ser más difícil que su primera expedición. Peor aún, ya que se estaba dirigiendo a la Cubierta 1, ellos ahora tenía que subir escaleras congeladas, en vez de descender."
+    "Sus extremidades estaban ahora completamente entumecidas y su conciencia se desvanecía a intervalos por culpa del diluido aire. El viaje de regreso resultó ser más difícil que su primera expedición. Peor aún, ya que se estaba dirigiendo a la cubierta 1, él ahora tenía que subir escaleras congeladas, en vez de descender."
 
 # game/REturn.rpy:4744
 translate spanish gotobackupftl_d64790aa:
@@ -13739,7 +13739,7 @@ translate spanish gotobackupftl_db5fd8f1:
 translate spanish gotobackupftl_2531e87c:
 
     # kay "If I have any feelings for her... I need to control them. For the sake of this mission. The lives of billions are at stake now."
-    kay "Si tengo algún sentimiento por ella... necesito controlarlos. Por el bien de esta misión. Las vidas de billones están en peligro ahora."
+    kay "Si tengo sentimientos por ella... necesito controlarlos. Por el bien de esta misión. Las vidas de miles de millones están en peligro ahora."
 
 # game/REturn.rpy:4819
 translate spanish gotobackupftl_4e9a9451:
@@ -14021,7 +14021,7 @@ translate spanish gotobackupftl_1bbde958:
 translate spanish gotobackupftl_882c4207:
 
     # "Her stomach was twitching as she gagged for air, saliva bubbling at the corner of her mouth. At this rate, she was going to suffer brain damage due to the lack of oxygen or lose her limbs when her body water froze."
-    "Su estómago se retorcía bruscamente mientras se silenciaba por falta de aire, la saliva burbujeaba an la esquina de su boca. A este paso, ella iba a sufir daños cerebrales debido a la falta de oxígeno o la pérdida de sus extremidades cuando su cuerpo estuviera completamente congelado."
+    "Su estómago se retorcía bruscamente mientras se silenciaba por falta de aire, la saliva burbujeaba en la esquina de su boca. A este paso, ella iba a sufir daños cerebrales debido a la falta de oxígeno o la pérdida de sus extremidades cuando su cuerpo estuviera completamente congelado."
 
 # game/REturn.rpy:4897
 translate spanish gotobackupftl_92f10c57:
@@ -14453,7 +14453,7 @@ translate spanish gotobackupftl_433f5ff2:
 translate spanish gotobackupftl_a51ba983:
 
     # "His knees and hands burned from hours of crawling through the Sunrider's frozen maintenance tunnels. He knew he had to head deeper into the ship quickly, before his body gave out on him."
-    "Sus rodillas y manos ardías de las horas de arrastrarse a través de los congelados túneles de mantenimiento del Sunrider. Él sabía que tenía que dirigirse más profundo dentro de la nave rápidamente, antes de que su cuerpo se cansara."
+    "Sus rodillas y manos ardían de las horas de arrastrarse a través de los congelados túneles de mantenimiento del Sunrider. Él sabía que tenía que dirigirse más profundo dentro de la nave rápidamente, antes de que su cuerpo se cansara."
 
 # game/REturn.rpy:5002
 translate spanish gotobackupftl_26a4f017:
@@ -14909,7 +14909,7 @@ translate spanish gotobackupftl_36de74a9:
 translate spanish gotobackupftl_258cc058:
 
     # cla "Mou, I don't appreciate the sudden tsundere act, captain... This ship already has plenty of those..."
-    cla "Moi, no aprecio el repentino acto tsundere, capitán... Esta nave ya tiene bastantes de esos..."
+    cla "Mou, no aprecio el repentino acto tsundere, capitán... Esta nave ya tiene bastantes de esos..."
 
 # game/REturn.rpy:5129
 translate spanish gotobackupftl_c2c82f1b:
@@ -14945,7 +14945,7 @@ translate spanish gotobackupftl_3880da3f:
 translate spanish gotobackupftl_be331210:
 
     # cla "Of course, captain! Unless another sticky situation happens where I might be forced to use my powers, of course..."
-    cla "¡Por supuesto, capitán! A menos de que otra mala situación ocurra donde podría forzarme a usar mis poderes, por supuesto..."
+    cla "¡Por supuesto, capitán! A menos que otra mala situación ocurra donde podría forzarme a usar mis poderes, por supuesto..."
 
 # game/REturn.rpy:5137
 translate spanish gotobackupftl_b1617d15:
@@ -15179,7 +15179,7 @@ translate spanish badend_deathbydecompression_f13d5fe9:
 translate spanish badend_deathbydecompression_d1e87855:
 
     # "In other words, unless he found a way to restore power, they were all going to be dead in moments."
-    "En otras palabras, a menos de que encontrara una forma de restaurar la energía, todos ellos iban a estar muertos en momentos."
+    "En otras palabras, a menos que encontrara una forma de restaurar la energía, todos ellos iban a estar muertos en momentos."
 
 # game/REturn.rpy:5244
 translate spanish badend_deathbydecompression_daa3bfd9:
@@ -15881,7 +15881,7 @@ translate spanish restoringpower_f13d5fe9:
 translate spanish restoringpower_d1e87855:
 
     # "In other words, unless he found a way to restore power, they were all going to be dead in moments."
-    "En otras palabras, a menos de que encontrara una forma de restaurar la energía, todos ellos iban a estar muertos en momentos."
+    "En otras palabras, a menos que encontrara una forma de restaurar la energía, todos ellos iban a estar muertos en momentos."
 
 # game/REturn.rpy:5537
 translate spanish restoringpower_54b05504:
@@ -16110,7 +16110,7 @@ translate spanish restoringpower_67f44329:
 translate spanish restoringpower_84409885:
 
     # kay "(There it is! I see it!)"
-    kay "(¡Ahí está! ¡Lo veo!)"
+    kay "(¡Ahí está! ¡La veo!)"
 
 # game/REturn.rpy:5583
 translate spanish restoringpower_4d7c3c14:
@@ -16122,7 +16122,7 @@ translate spanish restoringpower_4d7c3c14:
 translate spanish restoringpower_98fc3ded:
 
     # "Shields swiped the command ID located on the cuff of his wrist against console's reader."
-    "Shields golpeó su ID de comando localizada en el puño de su manga contra el lector de la consola."
+    "Shields golpeó su ID de comando localizado en el puño de su manga contra el lector de la consola."
 
 # game/REturn.rpy:5585
 translate spanish restoringpower_27b5bb27:
@@ -16212,7 +16212,7 @@ translate spanish restoringpower_180c4488:
 translate spanish restoringpower_219db07c:
 
     # "With the last of his strength, he heaved himself through the gate and clambered onto the ladder, shutting the gate behind him and spinning the wheel as quickly as he could muster."
-    "Con lo último de su fuerza, se arrojó a través de la puerta y trepó la escalera, cerrando la puerta detrás de él y girando la rueda tán rápido como podía."
+    "Con lo último de su fuerza, se arrojó a través de la puerta y trepó la escalera, cerrando la puerta detrás de él y girando la rueda tan rápido como podía."
 
 # game/REturn.rpy:5612
 translate spanish restoringpower_980d5bfd:
@@ -16422,7 +16422,7 @@ translate spanish restoringpower_052009bf:
 translate spanish restoringpower_165637c0:
 
     # sol "Alas, this is real. But you must believe in the Kayto Shields standing beside you. He has just defended the ship from doom and will save us all from a grim future..."
-    sol "No, este es real. Pero debes creer en el Kayto Shields parado junto a tí. Él acaba de defender la nave de ser condenada y nos salvará a todos nosotros de un sombrío futuro..."
+    sol "No, esto es real. Pero debes creer en el Kayto Shields parado junto a tí. Él acaba de defender la nave de ser condenada y nos salvará a todos nosotros de un sombrío futuro..."
 
 # game/REturn.rpy:5701
 translate spanish restoringpower_f3eda9f1:
@@ -16530,7 +16530,7 @@ translate spanish restoringpower_f9d14be9:
 translate spanish restoringpower_266528b5:
 
     # "The marines approached, rifles drawn."
-    "Los marines se le acercaron y sacaron sus rifles."
+    "Los marines se acercaron, con sus rifles listos."
 
 # game/REturn.rpy:5740
 translate spanish restoringpower_1f45590d:
@@ -16704,7 +16704,7 @@ translate spanish restoringpower_d9932d09:
 translate spanish restoringpower_ec7d2764:
 
     # kay "Nice speech, captain... But you're the one completely blind to the truth!"
-    kay "Buen discurso, capitán... ¡Pero tú eres quien está completamente ciego a la verdad!"
+    kay "Buen discurso, capitán... ¡Pero eres tú quien está completamente ciego a la verdad!"
 
 # game/REturn.rpy:5775
 translate spanish restoringpower_a1988651:
@@ -17598,7 +17598,7 @@ translate spanish engineering_asagakillschigara_a237ab56:
 translate spanish engineering_asagakillschigara_dae5b605:
 
     # ica "All right, I'm on my way!"
-    ica "¡Está bien, estoy en camino.!"
+    ica "¡Está bien, estoy en camino!"
 
 # game/REturn.rpy:6061
 translate spanish engineering_asagakillschigara_d8957712:
@@ -17676,7 +17676,7 @@ translate spanish engineering_escapewithsola_f4382189:
 translate spanish engineering_escapewithsola_50bfe56f:
 
     # "She suddenly shoved Shields down to the floor. Before the marines could react, she had already drawn her holstered pistol. Within the span of a blink, she unloaded the entire clip into each of the marines' shins."
-    "Ella repentinamente empujó a Shields hacia el suelo. Antes de que los marines pudieran reaccionar, ella ya había desenfundado la pistola de su cinto. En el intervalo de un parpadeo, descargó el cargador completo en cada una de las canillas de los marines."
+    "Ella repentinamente empujó a Shields hacia el suelo. Antes de que los marines pudieran reaccionar, ya había desenfundado la pistola de su cinto. En el intervalo de un parpadeo, descargó el cargador completo en cada una de las canillas de los marines."
 
 # game/REturn.rpy:6102
 translate spanish engineering_escapewithsola_c546774a:
@@ -17934,7 +17934,7 @@ translate spanish escapefromengineering_0516eb42:
 translate spanish escapefromengineering_e8324f50:
 
     # "Just then, the entire ship lurched as a massive explosion reverberated throughout the hull, sending Shields and [girl] tumbling to their faces."
-    "Justo entonces, toda la nave se sacudió mientras una enorme exposión repercutía por todo el casco, enviando a Shields y a [girl] a caerse."
+    "Justo entonces, toda la nave se sacudió mientras una enorme explosión repercutía por todo el casco, enviando a Shields y a [girl] a caerse."
 
 # game/REturn.rpy:6200
 translate spanish escapefromengineering_155184f3:
@@ -18066,7 +18066,7 @@ translate spanish escapehangersola_dcc404d8:
 translate spanish escapehangersola_93b978d0:
 
     # "She took aim and opened fire. The shock round struck a marine directly on his exposed arm, embedding itself and delivering its electric payload. He fell off his buggy in convulsions, sending it flying into a supply crate."
-    "Apuntó y abrió fuego. Las rondas eléctricas hirieron a un marine directamente en su brazo expuesto, incrustándose y enviando sus descárgas eléctricas. Cayó fuera de su transportador en convulsiones, enviándolo a volar hacia una caja de suministros."
+    "Apuntó y abrió fuego. Las rondas eléctricas hirieron a un marine directamente en su brazo expuesto, incrustándose y enviando sus descargas eléctricas. Cayó fuera de su transportador en convulsiones, enviándolo a volar hacia una caja de suministros."
 
 # game/REturn.rpy:6252
 translate spanish escapehangersola_016b2f25:
@@ -18090,7 +18090,7 @@ translate spanish escapehangersola_1e0a7da2:
 translate spanish escapehangersola_a10cf678:
 
     # kay "Come on, we're here! Let's go!"
-    kay "¡Vamos, estamos aquí! ¡En marcha!"
+    kay "¡Vamos, aquí estamos! ¡En marcha!"
 
 # game/REturn.rpy:6256
 translate spanish escapehangersola_a682bce6:
@@ -18114,7 +18114,7 @@ translate spanish escapehangersola_5117eeea:
 translate spanish escapehangersola_515192dd:
 
     # kay "I sure hope this thing can accommodate two! Get us outta here, Sola!"
-    kay "¡Seguro espero que esta cosa pueda acomodar a dos! ¡Sácanos de aquí, Sola!"
+    kay "¡Solo espero que esta cosa pueda acomodar a dos! ¡Sácanos de aquí, Sola!"
 
 # game/REturn.rpy:6269
 translate spanish escapehangersola_33ef3619:
@@ -18216,7 +18216,7 @@ translate spanish escapehangersola_91635969:
 translate spanish escapehangersola_b5b8a195:
 
     # "Alliance and PACT ships were tangled at dagger range, pounding each other with kinetic rounds. Ships exploded around them, as swarms of ryders spiraled around ships, bombers trying to take down larger ships with missiles, while interceptors cut down the bombers with assault rounds."
-    "Naves de la Alianza y del PACT estaban enredadas a corto rango, atacándose entre ellas con rondas kinéticas. Las naves explotabal alrededor de elos, mientras enjambres de ryders giraban en espiral alrededor de las naves, los bombarderos intentando derribar grandes naves con misiles, mientras los interceptores destruían a los bombarderos con rondas de asalto."
+    "Naves de la Alianza y del PACT estaban enredadas a corto rango, atacándose entre ellas con rondas kinéticas. Las naves explotaban alrededor de elos, mientras enjambres de ryders giraban en espiral alrededor de las naves, los bombarderos intentando derribar grandes naves con misiles, mientras los interceptores destruían a los bombarderos con rondas de asalto."
 
 # game/REturn.rpy:6293
 translate spanish escapehangersola_92ffbdb2:
@@ -18384,7 +18384,7 @@ translate spanish escapehangersola_21f68954:
 translate spanish escapehangersola_d2f6d6d4:
 
     # "The missiles were nowhere as skilled at dodging the flak, and imploded behind the Seraphim."
-    "Los misiles no fueron tan habilidosos esquivando el fuego antiaéreo, y explotaron detrás del Seraphim."
+    "Los misiles no fueron tan habilidosos esquivando el fuego antiaéreo, e implosionaron detrás del Seraphim."
 
 # game/REturn.rpy:6366
 translate spanish escapehangersola_373e16b2:
@@ -18474,7 +18474,7 @@ translate spanish escapehangersola_cfe9f6fd:
 translate spanish escapehangersola_bf1332e1:
 
     # "The Nightmare Ascendant met the Phoenix's blade with its own. In a grand display of its overwhelming strength, the Ascendant shoved the Phoenix away like a titan pushing back the valiant hero who had dared stand against it."
-    "El Nightmare Ascendant golpeó a la hoja del Phoenix con la suya. En una gran demostración de su abrumadora fuerza, el Ascendant empujó al Phoenix a otro lado como un titán haciendo retroceder al valiente héroe que se había opuesto a él."
+    "El Nightmare Ascendant golpeó la hoja del Phoenix con la suya. En una gran demostración de su abrumadora fuerza, el Ascendant empujó al Phoenix a otro lado como un titán haciendo retroceder al valiente héroe que se había opuesto a él."
 
 # game/REturn.rpy:6406
 translate spanish escapehangersola_bc739ce6:
@@ -18780,7 +18780,7 @@ translate spanish escapehangerasaga_da579d5a:
 translate spanish escapehangerasaga_6d207940:
 
     # "Once the buggy finished accelerating, Shields spun around and trained his rifle on the nearest marine burning rubber behind them."
-    "Una vez que el transportador terminó de acelerar, Shields se dio la vuelta y apuntó su rifle contra el marine más cercano detrás de elllos."
+    "Una vez que el transportador terminó de acelerar, Shields se dio la vuelta y apuntó su rifle contra el marine más cercano detrás de ellos."
 
 # game/REturn.rpy:6541
 translate spanish escapehangerasaga_52f50945:
@@ -19092,7 +19092,7 @@ translate spanish escapehangerasaga_6c878bed:
 translate spanish escapehangerasaga_b68d40fa:
 
     # "Alarms blared throughout the cockpit as seven Prototype Ryders approached the Black Jack in a flying V."
-    "Las alarmas sonaron fuertemente en la cabina cuando siete Ryders Prototipos se acercaban al Black Jack en formación V."
+    "Las alarmas sonaron fuertemente en la cabina cuando siete Ryders Prototipo se acercaban al Black Jack en formación V."
 
 # game/REturn.rpy:6635
 translate spanish escapehangerasaga_446bf25f:
@@ -19290,7 +19290,7 @@ translate spanish escapehangerasaga_83163cd0:
 translate spanish escapehangerasaga_63058d7c:
 
     # "She rolled the Black Jack, sending Shields tumbling across the cockpit, and then pulled into a dive, tossing him onto her lap."
-    "Ella giró al Black Jack, enviando a Shields a dar vuetlas por la cabina, y entonces cayó, lanzándolo hacia su regazo."
+    "Ella giró al Black Jack, enviando a Shields a dar vueltas por la cabina, y entonces cayó, lanzándolo hacia su regazo."
 
 # game/REturn.rpy:6731
 translate spanish escapehangerasaga_84aca901:
@@ -19584,7 +19584,7 @@ translate spanish endgame_awardhall_780d9b50:
 translate spanish endgame_awardhall_7e8359e6:
 
     # "After a night of desperate fighting, the tide of the battle had finally turned when Chigara devised a method to interfere with the Prototypes' brain waves by entering their mindstream."
-    "Después de una noche de lucha desesperada, la marea de la batalla había finalmente cambiado cuando Chigara ideó un método para interferir con las ondas hyper cerebrales de los Prototipos al entrar en su torrente de mentes."
+    "Después de una noche de lucha desesperada, la marea de la batalla había finalmente cambiado cuando Chigara ideó un método para interferir con las ondas cerebrales de los Prototipos al entrar en su torrente de mentes."
 
 # game/REturn.rpy:6851
 translate spanish endgame_awardhall_614657d6:
@@ -19596,7 +19596,7 @@ translate spanish endgame_awardhall_614657d6:
 translate spanish endgame_awardhall_0ea99a94:
 
     # "Veniczar Fontana, newly instated leader of PACT, shortly thereafter announced his intent to sign a peace treaty with the Solar Alliance, wherein PACT relinquished all military control over the Neutral Rim. A victory celebration wherein Chigara would be awarded with the Fereldin Cross was announced as well."
-    "Veniczar Fontana, recientemente establecido líder del PACT, poco después anunció su interés de firmar un tratado de paz con la Alianza Solar, en donde el PACT renunciaba a todo el control militar sobre el Margen Neutral. Una celebración de victoria donde Chigara sería premiada con el Fereldan Cross fue también anunciada."
+    "Veniczar Fontana, recientemente establecido líder del PACT, poco después anunció su interés en firmar un tratado de paz con la Alianza Solar, en donde el PACT renunciaba a todo el control militar sobre el Margen Neutral. Una celebración de victoria donde Chigara sería premiada con el Fereldan Cross fue también anunciada."
 
 # game/REturn.rpy:6853
 translate spanish endgame_awardhall_cff42245:
@@ -19962,7 +19962,7 @@ translate spanish endgame_awardhall_5aea9364:
 translate spanish endgame_awardhall_5cbb4c1f:
 
     # "He had promised her... That he would burn the very galaxy if it meant protecting her... Yet... He found himself here, breaching that very promise."
-    "Él le había prometido... Que él quemaría la misma galaxia si eso significara protegerla... Aún así... Se encontró aquí, rompiendo esa misma promesa."
+    "Él le había prometido... Que quemaría la misma galaxia si eso significara protegerla... Aún así... Se encontró aquí, rompiendo esa misma promesa."
 
 # game/REturn.rpy:6945
 translate spanish endgame_awardhall_1694e0ed:
@@ -20352,7 +20352,7 @@ translate spanish pullthetrigger_d85e76eb:
 translate spanish pullthetrigger_23ac2d9c:
 
     # "Asaga's face crumpled. She fell to the floor in tears."
-    "El rostro de Asaga se arrugó. Ella cayó al piso en lágrimas."
+    "El rostro de Asaga se arrugó. Ella cayó al suelo en lágrimas."
 
 # game/REturn.rpy:7067
 translate spanish pullthetrigger_29def14b:
@@ -20454,7 +20454,7 @@ translate spanish pullthetrigger_93a4ba55:
 translate spanish pullthetrigger_eee99f15:
 
     # "For the rest of his life, he would merely wander on, working as a civil servant, picking up the usual paycheck, and grow old with Sola, until they finally disappeared from the face of the planet..."
-    "Durante el resto de su vida, él simplemente viajaría sin rumbo fijo, trabajando como un sirviente civil, recibiendo su pago usual, y volviéndose viejo con Sola, hasta que ellos finalmente desaparecieron de la faz del planeta..."
+    "Durante el resto de su vida, él simplemente viajaría sin rumbo fijo, trabajando como un sirviente civil, recibiendo su pago usual, y volviéndose viejo con Sola, hasta que ellos finalmente desaparecieran de la faz del planeta..."
 
 # game/REturn.rpy:7107
 translate spanish pullthetrigger_cf06e4f3:
@@ -20508,7 +20508,7 @@ translate spanish pullthetrigger_93a4ba55_1:
 translate spanish pullthetrigger_190aed19:
 
     # "For the rest of his life, he would merely wander on, working at his civil servant job, picking up the usual paycheck, and grow old with Asaga, until they finally disappeared from the face of the planet..."
-    "Durante el resto de su vida, él simplemente viajaría sin rumbo fijo, trabajando como un sirviente civil, recibiendo su pago usual, y volviéndose viejo con Asaga, hasta que ellos finalmente desaparecieron de la faz del planeta..."
+    "Durante el resto de su vida, él simplemente viajaría sin rumbo fijo, trabajando como un sirviente civil, recibiendo su pago usual, y volviéndose viejo con Asaga, hasta que ellos finalmente desaparecieran de la faz del planeta..."
 
 # game/REturn.rpy:7127
 translate spanish pullthetrigger_7022106b:
@@ -20634,7 +20634,7 @@ translate spanish dontpulltrigger_e640fc29:
 translate spanish dontpulltrigger_4d7713cb:
 
     # kay "And I cannot kill an innocent. Even if that decision will indirectly lead to the death of billions. For that is a moral imperative no captain ought cross."
-    kay "Y yo no puedo matar a una inocente. Incluso si esa decisión conducirá indirectamente a la muerte de billones."
+    kay "Y yo no puedo matar a una inocente. Incluso si esa decisión conducirá indirectamente a la muerte de miles de millones."
 
 # game/REturn.rpy:7171
 translate spanish dontpulltrigger_af203c52:
@@ -20700,7 +20700,7 @@ translate spanish dontpulltrigger_6120a206:
 translate spanish dontpulltrigger_85055381:
 
     # kay "Come on, [girl]. We're leaving."
-    kay "Vamos, [girl]. Nos vamos."
+    kay "Ven, [girl]. Nos vamos."
 
 # game/REturn.rpy:7182
 translate spanish dontpulltrigger_27b4d4e0:
@@ -20958,7 +20958,7 @@ translate spanish dontpulltrigger_96b3d328:
 translate spanish dontpulltrigger_f623de99:
 
     # "He had to remain optimistic... But with each passing day, he became more despondent. A second prototype assault carrier was not simply going to fall on their laps."
-    "Él tenía que permanecer optimista... Pero con cada día que pasaba, él se volvía más desanimado. Un segudo prototipo de carguero de asalto no iba simplemente a caer en sus regazos."
+    "Él tenía que permanecer optimista... Pero con cada día que pasaba, se volvía más desanimado. Un segudo prototipo de carguero de asalto no iba simplemente a caer en sus regazos."
 
 # game/REturn.rpy:7247
 translate spanish dontpulltrigger_9712e01d:
@@ -21348,7 +21348,7 @@ translate spanish dontpulltrigger_e6d23614_1:
 translate spanish dontpulltrigger_ccf05760:
 
     # "Somewhere deep in his sub consciousness, he felt as if he had held onto Asaga before. His arms were wrapped around her so tightly they nearly melded together. And then they had kissed."
-    "En algún lugar en lo profundo de su subconciencia, él sintió como si él hubiera agarrado a Asaga antes. Sus brazos estaban envueltos alrededor de ella tan apretadamente que casi se mezclaron juntos. Y entonces se habían besado."
+    "En algún lugar en lo profundo de su subconciencia, sintió como si hubiera agarrado a Asaga antes. Sus brazos estaban envueltos alrededor de ella tan apretadamente que casi se mezclaron juntos. Y entonces se habían besado."
 
 # game/REturn.rpy:7353
 translate spanish dontpulltrigger_d4f57d3c:
@@ -21366,13 +21366,13 @@ translate spanish dontpulltrigger_89e5abb4:
 translate spanish dontpulltrigger_8a1012a3:
 
     # kay "(No matter the scars we carry... We can't keep regretting the past.)"
-    kay "(Sin importar qué cicatrices carguemos... No podemos seguir lamentándonos del pasado.)"
+    kay "(Sin importar qué cicatrices carguemos... No podemos seguir lamentándonos por el pasado.)"
 
 # game/REturn.rpy:7356
 translate spanish dontpulltrigger_90395f3e:
 
     # kay "(Because humans do not carry redo buttons. And we are better off for it.)"
-    kay "(Porque los humanos no cargan botones para rehacer. Y estamos mejor sin ellos.)"
+    kay "(Porque los humanos no cargan botones para rehacerlo. Y estamos mejor sin ellos.)"
 
 # game/REturn.rpy:7357
 translate spanish dontpulltrigger_a372f848:
@@ -21708,7 +21708,7 @@ translate spanish endgame_asagakillschigara_4158acb8:
 translate spanish endgame_asagakillschigara_5b97aceb:
 
     # "Sweat dripped down Shields' face as he heard his past self rave in madness."
-    "El sudor descendió por el rostro de Shields mientras oía a su pasado yo delirar con locura."
+    "El sudor descendió por el rostro de Shields mientras oía a su yo del pasado delirar con locura."
 
 # game/REturn.rpy:7474
 translate spanish endgame_asagakillschigara_be212cf9:
@@ -21786,7 +21786,7 @@ translate spanish endgame_asagakillschigara_8482f456:
 translate spanish endgame_asagakillschigara_fd953d7f:
 
     # ica "O-oy, captain, A-Asaga's gone berserk!!! W-what are we supposed to do!?"
-    ica "¡¡¡O-oy, capitán, A-Asaga está fuera de sí!!! ¿¡Q-qué se supone que hagamos!?"
+    ica "¡¡¡O-oy, capitán, O-Oakrun está fuera de sí!!! ¿¡Q-qué se supone que hagamos!?"
 
 # game/REturn.rpy:7492
 translate spanish endgame_asagakillschigara_66b182e8:
@@ -22050,7 +22050,7 @@ translate spanish endgame_asagakillschigara_c7ebb2cc:
 translate spanish endgame_asagakillschigara_dd7d0942:
 
     # "This would be where he would defeat his past self... and rewrite the future."
-    "Aquí sería donde él derrotaría a su pasado yo... y reescribiría el futuro."
+    "Aquí sería donde él derrotaría a su yo del pasado... y reescribiría el futuro."
 
 # game/REturn.rpy:7553
 translate spanish endgame_asagakillschigara_9c20c805:
@@ -22098,7 +22098,7 @@ translate spanish endgame_asagakillschigara_2001e630:
 translate spanish endgame_asagakillschigara_330cc0e5:
 
     # "Shields tried to throw himself at his past self, but found that he was completely bound at the foot and wrists. He only struggled in futility against his captor."
-    "Shields intentó lanzarse hacia su pasado yo, pero descubrió que estaba completamente atado por los pies y las muñecas. Él solo forcejeó en vano contra su apresor."
+    "Shields intentó lanzarse hacia su yo del pasado, pero descubrió que estaba completamente atado por los pies y las muñecas. Él solo forcejeó en vano contra su apresor."
 
 # game/REturn.rpy:7575
 translate spanish endgame_asagakillschigara_faa5c114:
@@ -22116,13 +22116,13 @@ translate spanish endgame_asagakillschigara_ece31264:
 translate spanish endgame_asagakillschigara_79385bea:
 
     # kayo "And I see you've even turned my XO against me."
-    kayo "Y veo que incluso has virado a mi OE contra mí."
+    kayo "Y veo que incluso has vuelto a mi OE contra mí."
 
 # game/REturn.rpy:7582
 translate spanish endgame_asagakillschigara_a443a84d:
 
     # kayo "I see you've even turned my XO against me."
-    kayo "Veo que incluso has virado a mi OE contra mí."
+    kayo "Veo que incluso has vuelto a mi OE contra mí."
 
 # game/REturn.rpy:7584
 translate spanish endgame_asagakillschigara_fe3165f4:
@@ -22254,7 +22254,7 @@ translate spanish endgame_asagakillschigara_4158acb8_1:
 translate spanish endgame_asagakillschigara_5b97aceb_1:
 
     # "Sweat dripped down Shields' face as he heard his past self rave in madness."
-    "El sudor descendió por el rostro de Shields mientras oía a su pasado yo delirar con locura."
+    "El sudor descendió por el rostro de Shields mientras oía a su yo del pasado delirar con locura."
 
 # game/REturn.rpy:7622
 translate spanish endgame_asagakillschigara_be212cf9_1:
@@ -22614,7 +22614,7 @@ translate spanish endgame_asagakillschigara_c7ebb2cc_1:
 translate spanish endgame_asagakillschigara_4218da40:
 
     # "This would be where he would finally defeat his past self... and rewrite the future."
-    "Aquí sería donde él derrotaría a su pasado yo... y reescribiría el futuro."
+    "Aquí sería donde él derrotaría a su yo del pasado... y reescribiría el futuro."
 
 # game/REturn.rpy:7695
 translate spanish endgame_asagakillschigara_9c20c805_1:
@@ -22980,7 +22980,7 @@ translate spanish endgame_asagakillschigara_c2b89911:
 translate spanish endgame_asagakillschigara_d5ecbe85:
 
     # "He had only managed to trade one tragic universe for another."
-    "ÉL solo había logrado cambiar un trágico universo por otro."
+    "Él solo había logrado cambiar un trágico universo por otro."
 
 # game/REturn.rpy:7809
 translate spanish endgame_asagakillschigara_efda771e:
@@ -23154,19 +23154,19 @@ translate spanish endgame_asagakillschigara_028ac098:
 translate spanish endgame_asagakillschigara_f89feb0c:
 
     # "He took deep breathes. No. He mustn't get angry again..."
-    "Él tomó profundas respiraciones. No. Él no debe enfadarse de nuevo..."
+    "Tomó profundas respiraciones. No. No debe enfadarse de nuevo..."
 
 # game/REturn.rpy:7847
 translate spanish endgame_asagakillschigara_628b0cbd:
 
     # "The local police force was already well acquainted with him, and had to remove him from the park on a number of prior occasions..."
-    "La fuerza policial local ya estaba bien informada con él, y tuvo que removerlo del parque en un número de ocasiones anteriores..."
+    "La fuerza policial local ya estaba bien informada de él, y tuvo que removerlo del parque en un número de ocasiones anteriores..."
 
 # game/REturn.rpy:7848
 translate spanish endgame_asagakillschigara_a158bbd1:
 
     # "Instead, he took another swig of his vodka..."
-    "En cambio, él tomó otro trago de su vodka..."
+    "En cambio, tomó otro trago de su vodka..."
 
 # game/REturn.rpy:7849
 translate spanish endgame_asagakillschigara_58f74dfe:
@@ -23394,13 +23394,13 @@ translate spanish endgame_asagakillschigara_dd908b5b:
 translate spanish endgame_asagakillschigara_10c66783:
 
     # "Ultimately, they lived in a mostly happy future, where the billions of lives which would have been lost had the massacre took place were spared."
-    "Finalmente, ellos vivían en un futuro mayormente feliz, en el que las billones de vidas que podrían haber sido perdidas de haber ocurrido la masacre fueron salvadas."
+    "Finalmente, ellos vivían en un futuro mayormente feliz, en el que las miles de millones de vidas que podrían haber sido perdidas de haber ocurrido la masacre fueron salvadas."
 
 # game/REturn.rpy:7919
 translate spanish endgame_asagakillschigara_2ca12982:
 
     # "However, the guilt of sending Asaga to kill Chigara would weigh on Shields' heart for the rest of his life."
-    "Sin embargo, la culpa de enviar a Asaga a matar a Chigara tendría peso en el corazón de Shields por el resto de su vida."
+    "Sin embargo, la culpa por enviar a Asaga a matar a Chigara tendría peso en el corazón de Shields por el resto de su vida."
 
 # game/REturn.rpy:7920
 translate spanish endgame_asagakillschigara_ca98e861:
@@ -23454,7 +23454,7 @@ translate spanish endgame_asagakillschigara_c28124e0:
 translate spanish endgame_asagakillschigara_3b04dcc0:
 
     # ava "Her death saved the lives of Admiral Grey as well as a dozen other Alliance officials. And even that pales in comparison to the billions she saved by preventing an all-out war between the Alliance and PACT."
-    ava "Su muerte salvó tanto la vida del Almirante Grey como las de docenas de otros oficiales de la Alianza. E incluso eso carece de importancia en comparación con las billones de vidas que ella salvó al prevenir una completa guerra entre la Alianza y el PACT."
+    ava "Su muerte salvó tanto la vida del Almirante Grey como las de docenas de otros oficiales de la Alianza. E incluso eso carece de importancia en comparación con las miles de millones de vidas que ella salvó al prevenir una completa guerra entre la Alianza y el PACT."
 
 # game/REturn.rpy:7930
 translate spanish endgame_asagakillschigara_b39ef226:
@@ -23640,7 +23640,7 @@ translate spanish endgame_asagakillschigara_f6c14e0f_1:
 translate spanish officeftlfontana_b5aa3709:
 
     # "The two of them climbed out of the service tunnel and dropped down near the captain's office."
-    "Ambos descendieron fuera del túnel de servicio y cayeron cerca de la oficina del capitán."
+    "Ambas descendieron fuera del túnel de servicio y cayeron cerca de la oficina del capitán."
 
 # game/REturn.rpy:8011
 translate spanish officeftlfontana_38195e2f:
@@ -24360,13 +24360,13 @@ translate spanish gettingclaudetobianca_6914a752:
 translate spanish gettingclaudetobianca_b29d533f:
 
     # "Sola shot her pistol and hit the button to raise the bridge as the marines were running across. They fell to the ground as the bridge suddenly lurched upwards, towards the Phoenix's cockpit."
-    "Sola disparó su pistola y golpeó el botón para levantar el puente mientras los marines estaban correindo a través de él. Ellos cayeron al suelo cuando el puente repentinamente se sacudió hacia arriba, hacia la cabina del Phoenix."
+    "Sola disparó su pistola y golpeó el botón para levantar el puente mientras los marines estaban corrindo a través de él. Ellos cayeron al suelo cuando el puente repentinamente se sacudió hacia arriba, hacia la cabina del Phoenix."
 
 # game/REturn.rpy:8314
 translate spanish gettingclaudetobianca_667c0847:
 
     # "With another shot, she pushed forward a control lever, moving a ryder rifle attached to cables hanging from ceiling rails up against the wall, temporarily blocking off the catwalk behind them."
-    "Con otro disparo, ella empujó hacia adelante una palanca de control, moviendo un rifle de ryder atado a unos cables colgando de los rieles del techo contra la pared, bloqueando temporalmente el puente de trabajo detrás de ellos."
+    "Con otro disparo, empujó hacia adelante una palanca de control, moviendo un rifle de ryder atado a unos cables colgando de los rieles del techo contra la pared, bloqueando temporalmente el puente de trabajo detrás de ellos."
 
 # game/REturn.rpy:8315
 translate spanish gettingclaudetobianca_96b0570a:
@@ -24396,7 +24396,7 @@ translate spanish gettingclaudetobianca_68dc2521:
 translate spanish gettingclaudetobianca_eca72cee:
 
     # "Shields could feel his skin tingling as electric currents passed through the catwalk, through his body."
-    "Shields pudo sentir su piel cosquilleando mientras correintes eléctricas pasaban a través del puente de mantenimiento, a través de su cuerpo."
+    "Shields pudo sentir su piel cosquilleando mientras corrintes eléctricas pasaban a través del puente de mantenimiento, a través de su cuerpo."
 
 # game/REturn.rpy:8324
 translate spanish gettingclaudetobianca_352afcd5:
@@ -25422,7 +25422,7 @@ translate spanish claude_end_b4a2b0fa:
 translate spanish claude_end_1f385ff6:
 
     # ali "But it's still too late! Thanks to your Chief shutting down your ship, you couldn't get the warning sent to Fontana's fleet in time!"
-    ali "¡Pero aún así es demasiado tarde! ¡Gracias a que tu Jefa apagó tu nave, no pudiste enviarle la advertencia a la flota de Fontana a timpo!"
+    ali "¡Pero aún así es demasiado tarde! ¡Gracias a que tu Jefa apagó tu nave, no pudiste enviarle la advertencia a la flota de Fontana a tiempo!"
 
 # game/REturn.rpy:8644
 translate spanish claude_end_9316920d:
@@ -25584,7 +25584,7 @@ translate spanish claude_end_bf915b6a:
 translate spanish claude_end_36470877:
 
     # asa "Ya see! Ya see! I told ya guys that Chigara was up to no good!"
-    asa "¡Lo ves! ¡Lo ves! ¡Les dije que Chigara no era para nada buena!"
+    asa "¡Lo ven! ¡Lo ven! ¡Les dije que Chigara no era para nada buena!"
 
 # game/REturn.rpy:8697
 translate spanish claude_end_16c63c94:
@@ -25614,7 +25614,7 @@ translate spanish claude_end_6b018e7f:
 translate spanish claude_end_f9574747:
 
     # cla "Teeheehee... Aside from that, it looks like I've wandered into something reeaalllyyy interesting..."
-    cla "Teeheehee... Aparte de eso, parece que he viajado hacia algo realmeeennnte interesante..."
+    cla "Teeheehee... Aparte de eso, parece que he viajado hacia algo reeealllmennnte interesante..."
 
 # game/REturn.rpy:8708
 translate spanish claude_end_a8f5fe93:
@@ -25626,7 +25626,7 @@ translate spanish claude_end_a8f5fe93:
 translate spanish claude_end_3ac5035f:
 
     # asa "The Ascendant's defenses are too good! Without Chigara's ECM, nothing we have's gonna get through!"
-    asa "¡Las defensas del Ascendant son demasiado buenas! ¡Sin los ECM de Chigara no va a pasar nada!"
+    asa "¡Las defensas del Ascendant son demasiado buenas! ¡Sin los ECM de Chigara, nada de lo que tengamos va a lograr atravezarlas!"
 
 # game/REturn.rpy:8713
 translate spanish claude_end_5c0d131c:
@@ -26082,7 +26082,7 @@ translate spanish claude_end_2c228db0:
 translate spanish claude_end_6c7cbdec:
 
     # ali "Hahahaha... You will never awaken to the fullest extent I have unless you have tasted true despair...!"
-    ali "Hahahaha... ¡Tú nunca despertarás al máximo grado como yo lo he hecho a menos de que hayas probado la verdadera desesperación...!"
+    ali "Hahahaha... ¡Tú nunca despertarás al máximo grado como yo lo he hecho a menos que hayas probado la verdadera desesperación...!"
 
 # game/REturn.rpy:8904
 translate spanish claude_end_bc1e4ab7:
@@ -26148,7 +26148,7 @@ translate spanish claude_end_04e073fd:
 translate spanish claude_end_277994d4:
 
     # adr "I apologize for our late appearance captain... But let my men deal with this... abomination!"
-    adr "Me disculpo por nuestra retrasada aparición Capitán... ¡Pero deja que mis hombres traten con esta... abominación!"
+    adr "Me disculpo por nuestra retrasada aparición Capitán... ¡Pero deje que mis hombres traten con esta... abominación!"
 
 # game/REturn.rpy:8924
 translate spanish claude_end_5135a6f2:
@@ -26190,7 +26190,7 @@ translate spanish claude_end_a3ca38d1:
 translate spanish claude_end_f5348282:
 
     # "A torrent of crimson death shot from the particle gun, spearing infantry after infantry, the beam never losing strength no matter the distance or number of ryders maimed."
-    "Un torrente de muerte carmesí se disparó desde su cañón de partículas, atravesando infantería tras infantería, el rayo sin perder nunca fuerza no importa la distancia o el número de ryders mutilados."
+    "Un torrente de muerte carmesí se disparó desde su cañón de partículas, atravesando infantería tras infantería, el rayo sin perder nunca fuerza sin importar la distancia o el número de ryders mutilados."
 
 # game/REturn.rpy:8941
 translate spanish claude_end_3d135725:
@@ -26514,13 +26514,13 @@ translate spanish claude_end_6803caae:
 translate spanish claude_end_9b842a00:
 
     # kry "A soldier's death... is nothing to be ashamed of..."
-    kry "Una muerte de un soldado... no es nada de lo que avergonzarse..."
+    kry "Una muerte de soldado... no es nada de lo que avergonzarse..."
 
 # game/REturn.rpy:9056
 translate spanish claude_end_43c8cbf8:
 
     # ali "Good words. As expected from a loyal soldier of the Alliance Fleet."
-    ali "Buenas palabras. Como esperaba de un leal soldado de la Flota de la Alianza."
+    ali "Buenas palabras. Como esperaba de una leal soldado de la Flota de la Alianza."
 
 # game/REturn.rpy:9057
 translate spanish claude_end_5515018c:
@@ -27810,7 +27810,7 @@ translate spanish claude_end_124823a3:
 translate spanish claude_end_67de385f:
 
     # cla "Meanwhile, Claude will stay here, and keep this universe frozen so that the paradox doesn't spread to the others."
-    cla "Mientras tanto, CLaude se quedará aquí y mantendrá este universo congelado con el objetivo de que la paradoja no se expanda a otros."
+    cla "Mientras tanto, Claude se quedará aquí y mantendrá este universo congelado con el objetivo de que la paradoja no se expanda a otros."
 
 # game/REturn.rpy:9487
 translate spanish claude_end_42e8166f:
@@ -27996,7 +27996,7 @@ translate spanish claude_end_95426fac:
 translate spanish claude_end_14b4fb6c:
 
     # "The past proved far more difficult to change than anticipated, as Shields soon realized that while he could use his powers to observe and manipulate others into acting for him, he could not take matters into his own hands without risking tearing the fabric of reality a second time."
-    "El pasado demostró ser mucho más difícil de cambiar que lo anticipado, y Shields pronto se dio cuenta de que mientras que pudiera usar sus poderes para observar y manipular a otros para que actuaran por él, él no podría hacerse cargo de los asuntos con sus propias manos sin arriesgarse a destrozar el tejido de la realidad una segunda vez."
+    "El pasado demostró ser mucho más difícil de cambiar que lo anticipado, y Shields pronto se dio cuenta de que mientras pudiera usar sus poderes para observar y manipular a otros para que actuaran por él, él no podría hacerse cargo de los asuntos con sus propias manos sin arriesgarse a destrozar el tejido de la realidad una segunda vez."
 
 # game/REturn.rpy:9552
 translate spanish claude_end_70b507e2:
@@ -28014,7 +28014,7 @@ translate spanish claude_end_5d18624b:
 translate spanish claude_end_c44ab635:
 
     # "He had traveled through millennia of history in search for her. He had dug into top secret Ryuvian archives and manipulated technologists who wielded powers beyond what his past self could even have imagined."
-    "Había viajado a través de milenios de historia buscándola. Había cavado en los mayores archivos secretos Ryuvianos y manipulado tecnologías que poseían poderes más allá que los que su pasado yo pudiera siquiera haber imaginado."
+    "Había viajado a través de milenios de historia buscándola. Había cavado en los mayores archivos secretos Ryuvianos y manipulado tecnologías que poseían poderes más allá que los que su yo del pasado pudiera siquiera haber imaginado."
 
 # game/REturn.rpy:9555
 translate spanish claude_end_1e2154c3:
@@ -28158,7 +28158,7 @@ translate spanish confrontationwithfate_783e7e38:
 translate spanish confrontationwithfate_4e9c7405:
 
     # "He faced his companions, but found that Claude had once again vanished into thin air."
-    "Él miró hacia sus compañeros, pero halló que Claude se había una vez más deshecho como el humo."
+    "Miró hacia sus compañeras, pero halló que Claude se había una vez más deshecho como el humo."
 
 # game/REturn.rpy:9622
 translate spanish confrontationwithfate_b638100a:
@@ -28506,7 +28506,7 @@ translate spanish confrontationwithfate_555c683a:
 translate spanish confrontationwithfate_9ed30ce3:
 
     # kay "This is for Chigara's sake as well! And for the lives of everyone on board this ship, and the billions who will be saved if this war ends now!"
-    kay "¡Esto también es por el bien de Chigara! ¡Y por las vidas de todo el mundo a bordo de esta nave, y las billones que serán salvadas si esta guerra termina ahora!"
+    kay "¡Esto también es por el bien de Chigara! ¡Y por las vidas de todo el mundo a bordo de esta nave, y las miles de millones que serán salvadas si esta guerra termina ahora!"
 
 # game/REturn.rpy:9753
 translate spanish confrontationwithfate_9237032d:
@@ -28548,7 +28548,7 @@ translate spanish confrontationwithfate_e92408c8:
 translate spanish confrontationwithfate_223123b5:
 
     # "The other Shields grabbed Shields by the scruff of the collar. Staring deep within his past self's eyes, Shields only saw a massive, empty void, as deep as the darkest trench."
-    "El otro Shields agarró a Shields por el cuello de la camisa. Mirando fijo en lo profundo dentro de los ojos de su pasado yo, Shields solo vio un enorme, y desocupado vacío, tan profundo como el pozo más oscuro."
+    "El otro Shields agarró a Shields por el cuello de la camisa. Mirando fijo en lo profundo dentro de los ojos de su yo del pasado, Shields solo vio un enorme, y desocupado vacío, tan profundo como el pozo más oscuro."
 
 # game/REturn.rpy:9768
 translate spanish confrontationwithfate_0da603e8:
@@ -28854,7 +28854,7 @@ translate spanish confrontationwithfate_31b79d1f:
 translate spanish confrontationwithfate_daa4afab:
 
     # "Despite the two men being at each other's throats a second ago, Shields could not help but chuckle at his own joke."
-    "A pesar de que los dos hombres estaban furiosos entre sí hace un segundo, Shields no pudo evitar reírse de su propia broma."
+    "A pesar de que los dos hombres estuvieron furiosos entre sí hace un segundo, Shields no pudo evitar reírse de su propia broma."
 
 # game/REturn.rpy:9859
 translate spanish asagahscene_daa8d225:
@@ -28866,7 +28866,7 @@ translate spanish asagahscene_daa8d225:
 translate spanish asagahscene_bb5e366e:
 
     # "He had told his future self everything he knew of the enemies' capabilities. Meanwhile, Fontana informed them that his best minds were working around the clock to restore control over their ships. However, it would be another two hours before the fixes were completed."
-    "Él le había dicho a su pasado yo todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
+    "Él le había contado a su yo del pasado todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
 
 # game/REturn.rpy:9861
 translate spanish asagahscene_5cca6d1d:
@@ -29004,7 +29004,7 @@ translate spanish asagahscene_7da700b5:
 translate spanish asagahscene_681b56c1:
 
     # kay "Even in my version of events... you never gave up, Asaga."
-    kay "Incluso en mi versión de los eventos... tú nunca te rendiste, Asaga."
+    kay "Incluso en mi versión de los hechos... tú nunca te rendiste, Asaga."
 
 # game/REturn.rpy:9898
 translate spanish asagahscene_3bc97d07:
@@ -29118,7 +29118,7 @@ translate spanish asagahscene_90ce2e54:
 translate spanish asagahscene_a68c4137:
 
     # kay "(I keep forgetting... This girl has one hell of a strong jealous streak...)"
-    kay "(Sigo olvidándolo... Esta chica tiene un muy fuerte ataque de celos...)"
+    kay "(Sigo olvidándolo... Esta chica tiene muy fuertes ataques de celos...)"
 
 # game/REturn.rpy:9935
 translate spanish asagahscene_636524ce:
@@ -29166,7 +29166,7 @@ translate spanish asagahscene_b51b2346:
 translate spanish asagahscene_fb0e5695:
 
     # asa "Well... I guess I tried practicing with Chigara a few years back... B-but... ugh... All that proved was that we don't swing that way..."
-    asa "Bueno... supongo que intenté practicar con Chigara hace unos cuantos años...{p}P-pero... ugh... Todo aquello demostró que no servimos de esa forma..."
+    asa "Bueno... supongo que intenté practicar con Chigara hace unos pocos años...\nP-pero... ugh... Todo aquello demostró que no servimos de esa forma..."
 
 # game/REturn.rpy:9946
 translate spanish asagahscene_85056ac4:
@@ -29550,7 +29550,7 @@ translate spanish avahscene_c2a076cb:
 translate spanish avahscene_bb5e366e:
 
     # "He had told his future self everything he knew of the enemies' capabilities. Meanwhile, Fontana informed them that his best minds were working around the clock to restore control over their ships. However, it would be another two hours before the fixes were completed."
-    "Él le había dicho a su pasado yo todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
+    "Él le había contado a su yo del pasado todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
 
 # game/REturn.rpy:10072
 translate spanish avahscene_5cca6d1d:
@@ -29682,7 +29682,7 @@ translate spanish avahscene_97f23570:
 translate spanish avahscene_96eb415e:
 
     # kay "You know, in my version of events, you uhh... told me that you lied about not remembering our promise... You know, that promise we made after we uhh... did it in advanced academy a week before your graduation?"
-    kay "Sabes, en mi versión de los eventos, tú uhh... me dijiste que mentiste acerca de no recordar nuestra promesa... ¿Sabes, esa promesa que hicimos después de que uhh... lo hicimos en la academia avanzada una semana antes de tu graduación?"
+    kay "Sabes, en mi versión de los hechos, tú uhh... me dijiste que mentiste acerca de no recordar nuestra promesa... ¿Sabes, esa promesa que hicimos después de que uhh... lo hicimos en la academia avanzada una semana antes de tu graduación?"
 
 # game/REturn.rpy:10112
 translate spanish avahscene_c28124e0:
@@ -29892,13 +29892,13 @@ translate spanish avahscene_e32440e9:
 translate spanish avahscene_5b89b3df:
 
     # ava "You are the very same Kayto I grew fond of... all those years back. The very same Kayto who never left my side, no matter how unreasonable my orders."
-    ava "Eres el mismo Kayto con el que crecí amando... todos aquellos años. El mismo Kayto que nunca dejaría mi lado, sin importar cuán irrazonables fueran mis órdenes."
+    ava "Eres el mismo Kayto con el que crecí amando... todos aquellos años. El mismo Kayto que nunca dejaría mi lado, sin importar cuan irrazonables fueran mis órdenes."
 
 # game/REturn.rpy:10179
 translate spanish avahscene_39e547a1:
 
     # ava "And so I, Ava Crescentia, will do the very same. If you wish to march to the center of the sun, then I shall accompany you by your side, to the very end."
-    ava "Y así yo, Ava Crescentia, haré lo mismo. Si deseas marchar al centro del sol, entonces de acompañaré a tu lado, hasta el final."
+    ava "Y así yo, Ava Crescentia, haré lo mismo. Si deseas marchar al centro del sol, entonces te acompañaré a tu lado, hasta el final."
 
 # game/REturn.rpy:10180
 translate spanish avahscene_3b82bd3a:
@@ -29958,7 +29958,7 @@ translate spanish solakiss_ce03c1ad:
 translate spanish solakiss_bb5e366e:
 
     # "He had told his future self everything he knew of the enemies' capabilities. Meanwhile, Fontana informed them that his best minds were working around the clock to restore control over their ships. However, it would be another two hours before the fixes were completed."
-    "Él le había dicho a su pasado yo todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
+    "Él le había contado a su yo del pasado todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
 
 # game/REturn.rpy:10208
 translate spanish solakiss_5cca6d1d:
@@ -30054,7 +30054,7 @@ translate spanish solakiss_03a11b97:
 translate spanish solakiss_689c9c7c:
 
     # kay "(In my version of events, Asaga never could confess her feelings to me until it was too late...)"
-    kay "(En mi versión de los eventos, Asaga nunca me pudo confesar sus sentimientos hasta que fue demasiado tarde...)"
+    kay "(En mi versión de los hechos, Asaga nunca me pudo confesar sus sentimientos hasta que fue demasiado tarde...)"
 
 # game/REturn.rpy:10231
 translate spanish solakiss_72de36f6:
@@ -30348,7 +30348,7 @@ translate spanish solakiss_f0b1c638:
 translate spanish solakiss_c6326aff:
 
     # kay "Anyways... uhh... You know, you're free to say the things you want now. We don't live in a military dictatorship any longer. In fact, every Ceran is proud of the freedoms we won from the New Empire. Our civil liberties were won only through the blood of the martyrs. Those liberties won't exist unless we chose to exercise them."
-    kay "De todas forma... uhh... Sabes, eres libre de decir las cosas que quieras ahora. Ya no vivimos más en una dictadura militar. De hecho, cada Cerano está orgulloso de las libertades que ganamos del Nuevo Imperio. Nuestras libertades civiles fueron ganadas solo a través de la sangre de los mártires. Esas libertades no existirían a menos de que eligiéramos ejercerlas."
+    kay "De todas formas... uhh... Sabes, eres libre de decir las cosas que quieras ahora. Ya no vivimos más en una dictadura militar. De hecho, cada Cerano está orgulloso de las libertades que ganamos del Nuevo Imperio. Nuestras libertades civiles fueron ganadas solo a través de la sangre de los mártires. Esas libertades no existirían a menos que eligiéramos ejercerlas."
 
 # game/REturn.rpy:10299
 translate spanish solakiss_bd0f2a0b:
@@ -30708,7 +30708,7 @@ translate spanish icarikiss_ce03c1ad:
 translate spanish icarikiss_bb5e366e:
 
     # "He had told his future self everything he knew of the enemies' capabilities. Meanwhile, Fontana informed them that his best minds were working around the clock to restore control over their ships. However, it would be another two hours before the fixes were completed."
-    "Él le había dicho a su pasado yo todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
+    "Él le había contado a su yo del pasado todo lo que sabía de las capacidades del enemigo. Mientras tanto, Fontana informó que sus mejores mentes estaban trabajando constantemente para restaurar el control sobre sus naves. Sin embargo, pasarían otras dos horas antes de que los arreglos estuviesen completados."
 
 # game/REturn.rpy:10387
 translate spanish icarikiss_5cca6d1d:
@@ -30750,7 +30750,7 @@ translate spanish icarikiss_db503553:
 translate spanish icarikiss_8ab41f0f:
 
     # kay "Heh. It's still too soon to celebrate, Icari. We might have managed to send the transmission to Fontana and detain Chigara, but the battle still has to be won."
-    kay "Heh. Todavía es demasiado pronto para celebrar, Icari. Podremos haberle logrado enviarle la transmisión a Fontana y haber detenido a Chigara, pero la batalla todavía tiene que ser ganada."
+    kay "Heh. Todavía es demasiado pronto para celebrar, Icari. Podremos haber logrado enviarle la transmisión a Fontana y detenido a Chigara, pero la batalla todavía tiene que ser ganada."
 
 # game/REturn.rpy:10399
 translate spanish icarikiss_90638dea:
@@ -30990,13 +30990,13 @@ translate spanish icarikiss_f0e12760:
 translate spanish icarikiss_771ec0c5:
 
     # ica "I-it's not like I've ever liked you! This is just a favor! Consider it a 'lil fixer upper so you can go back to full combat status. All for the sake of the ship!"
-    ica "¡N-no es como si tú me llegaste a gustar! ¡Esto es solo un favor! Considéralo un pequeño arreglo para que puedas volver a un completo estado de combate. ¡Todo por el bien de la nave!"
+    ica "¡N-no es como si tú me hubieras gustado en algún momento! ¡Esto es solo un favor! Considéralo un pequeño arreglo para que puedas volver a un completo estado de combate. ¡Todo por el bien de la nave!"
 
 # game/REturn.rpy:10461
 translate spanish icarikiss_93b55100:
 
     # ica "Aaah, all guys are so easy to deal with. Pretty much any male ailment can be fixed by waking up with a naked girl the morning. Heh, if only women worked that way..."
-    ica "Aaah, es tan fácil de tratar con todos los tipos. Bastantes de las dolencias de los hombres pueden ser reparadas al despertarse con una chica desnuda en la mañana. Heh, si solo las mujeres funcionaran de esa forma..."
+    ica "Aaah, es tan fácil tratar con todos ustedes chicos. Bastantes de las dolencias de los hombres pueden ser reparadas al despertarse con una chica desnuda en la mañana. Heh, si solo las mujeres funcionaran de esa forma..."
 
 # game/REturn.rpy:10463
 translate spanish icarikiss_be036dfd:
@@ -31452,7 +31452,7 @@ translate spanish icarikiss_82bb8c09:
 translate spanish icarikiss_74e56661:
 
     # kry "You know fraternization with your fellow servicemen is highly unprofessional. Of course, that is exactly the sort of disregard for the rules that I've come to expect from a civilian contractor such as yourself..."
-    kry "Sabes que fraternizar con tus compañeros soldados es áltamente antiprofesional. Por supuesto, ese es exactamente el tipo de poco aprecio por las reglas que me esperaba de un contratista civil como tú..."
+    kry "Sabes que fraternizar con tus compañeros soldados es áltamente antiprofesional. Por supuesto, ese es exactamente el tipo de poco aprecio por las reglas que me esperaba de una contratista civil como tú..."
 
 # game/REturn.rpy:10576
 translate spanish icarikiss_373673e4:
@@ -31596,7 +31596,7 @@ translate spanish thefinalbattle_a20cefa7:
 translate spanish thefinalbattle_ef21aece:
 
     # "While Shields had momentarily caught a respite thanks to his actions, he had no idea that his biggest crisis was still yet to come."
-    "Aunque Shields había tenido momentáneamente un respiro gracias a sus acciones, él no tenía idea de que su mayor crisis estaba por venir."
+    "Aunque Shields había tenido momentáneamente un respiro gracias a sus acciones, no tenía idea de que su mayor crisis estaba por venir."
 
 # game/REturn.rpy:10625
 translate spanish thefinalbattle_50645988:
@@ -31608,7 +31608,7 @@ translate spanish thefinalbattle_50645988:
 translate spanish thefinalbattle_9c618980:
 
     # "He arrived to see the tense faces of the command crew."
-    "Él llegó para ver los tensos rostros de la tripulación al mando."
+    "Llegó para ver los tensos rostros de la tripulación al mando."
 
 # game/REturn.rpy:10635
 translate spanish thefinalbattle_19418643:
@@ -33042,7 +33042,7 @@ translate spanish thefinalbattle_9c4e9e6e:
 translate spanish thefinalbattle_2d0d7f02:
 
     # ali "Tsch! The so called Sharr of Ryuvia!"
-    ali "¡Tsch! ¡La llamada Sharr de Ryuvia!"
+    ali "¡Tsch! ¡La auto-proclamada Sharr de Ryuvia!"
 
 # game/REturn.rpy:11215
 translate spanish thefinalbattle_58531699:
@@ -33234,13 +33234,13 @@ translate spanish thefinalbattle_c318525b:
 translate spanish thefinalbattle_f5a34078:
 
     # "Suddenly, the pain struck her all at once. She collapsed in agony, her eyes losing focus."
-    "De repente, el dolor la golpeó al mismo tiempo. Ella colapsó en agonía, con sus ojos perdiendo el enfoque."
+    "De repente, el dolor la golpeó al mismo tiempo. Colapsó en agonía, con sus ojos perdiendo el enfoque."
 
 # game/REturn.rpy:11293
 translate spanish thefinalbattle_4f375dc3:
 
     # asa "(N-no way... I lost...? T-that quickly...?)"
-    asa "(N-no puede ser... ¿Yo perdí...? ¿T-tán rápido...?)"
+    asa "(N-no puede ser... ¿Yo perdí...? ¿T-tan rápido...?)"
 
 # game/REturn.rpy:11294
 translate spanish thefinalbattle_54c8ef2f:
@@ -33264,7 +33264,7 @@ translate spanish thefinalbattle_a587b459:
 translate spanish thefinalbattle_4480f691:
 
     # ali "For the truth of our power is that it feeds upon our dark emotions... Twists and corrupts our minds... Brings out the absolute evil, lurking deep inside our hearts..."
-    ali "Ya que la verdad de nuestro poder es que se alimenta de nuestras emociones oscuras... Retuerce y corrompe nuestras mentes... Saca a la luz la absoluta maldad, que asecha dentro en lo profundo de nuestros corazones..."
+    ali "Ya que la verdad de nuestro poder es que se alimenta de nuestras emociones oscuras... Retuerce y corrompe nuestras mentes... Saca a la luz la absoluta maldad, que acecha dentro en lo profundo de nuestros corazones..."
 
 # game/REturn.rpy:11298
 translate spanish thefinalbattle_1d1b0821:
@@ -33468,7 +33468,7 @@ translate spanish thefinalbattle_42f1e883:
 translate spanish thefinalbattle_dbe40f3e:
 
     # "His future self's gambit had worked. Even without Chigara's help, they had managed to restore Fontana's fleet."
-    "La estrategia de su futuro yo había funcionado. Incluso sin la ayuda de Chigara, ellos habían logrado recuperar la flota de Fontana."
+    "La estrategia de su yo del futuro había funcionado. Incluso sin la ayuda de Chigara, ellos habían logrado recuperar la flota de Fontana."
 
 # game/REturn.rpy:11355
 translate spanish thefinalbattle_23012a08:
@@ -33828,7 +33828,7 @@ translate spanish thefinalbattle_ab9dd969:
 translate spanish thefinalbattle_948e42f5:
 
     # "He drew his pistol. Gauging from the sound of her weapon, Shields surmised she had commandeered one of the marines' rifles. In other words, he was outmatched in terms of firepower."
-    "Él sacó su pistola. A juzgar por el sonido de su arma, Shieds supuso que se había apropiado de uno de los rifles de los marines. En otras palabras, él era superado en términos de potencia de fuego."
+    "Sacó su pistola. A juzgar por el sonido del arma de ella, Shieds supuso que se había apropiado de uno de los rifles de los marines. En otras palabras, él era superado en términos de potencia de fuego."
 
 # game/REturn.rpy:11498
 translate spanish thefinalbattle_ef34c496:
@@ -34680,7 +34680,7 @@ translate spanish thefinalbattle_22bf7bb3:
 translate spanish thefinalbattle_0302676f:
 
     # "While Alice's attention was diverted, Shields had grabbed ahold of her rifle. He unleashed the rifle's entire clip against Alice the moment Icari rolled out of the way."
-    "Cuando la atención de Alice fue desviada, Shields se había agarrado de su rifle. Descargó todo el clip del rifle contra Alice en el momento en que Icari rodó fuera del camino."
+    "Cuando la atención de Alice fue desviada, Shields había agarrado su rifle. Descargó todo el clip del rifle contra Alice en el momento en que Icari rodó fuera del camino."
 
 # game/REturn.rpy:11879
 translate spanish thefinalbattle_f407aec0:
@@ -35502,7 +35502,7 @@ translate spanish thefinalbattle_b52ac47c:
 translate spanish thefinalbattle_218a0a98:
 
     # "Streams of foam shot from every direction, lathing the reactor in coolant. The flames around the reactor hissed and eventually fizzled out."
-    "Chorros de espuma fueron disparados desde todas direcciones, envolviendo al reactor en líquido de refrigeración. Las llamas alrededor del reactor producieron un sonido silbante y finalmente se apagaron."
+    "Chorros de espuma fueron disparados desde todas direcciones, envolviendo al reactor en líquido de refrigeración. Las llamas alrededor del reactor produjeron un sonido silbante y finalmente se apagaron."
 
 # game/REturn.rpy:12269
 translate spanish thefinalbattle_924ba427:
@@ -35874,7 +35874,7 @@ translate spanish epilogue_start_bbc4efb3:
 translate spanish epilogue_start_31f6c395:
 
     # mar "I'm... not sad I came to see you off that day... Even though I would still be alive... I wouldn't be able to call myself your sister if I missed a thing like that."
-    mar "Yo... no estoy triste por haber venido a verte partir ese día... Incluso si yo todavía estuviera viva... Yo no sería capaz de llamarme tu hermana si me perdiera una cosa como esa."
+    mar "Yo... no estoy triste por haber venido a verte partir ese día... Incluso si todavía estuviera viva... No sería capaz de llamarme tu hermana si me perdiera una cosa como esa."
 
 # game/REturn.rpy:12412
 translate spanish epilogue_start_357d7814:
@@ -36666,7 +36666,7 @@ translate spanish sola_epilogue_af8c9696:
 translate spanish sola_epilogue_da103bab:
 
     # sol "To bear your troubles by your lonesome."
-    sol "Soportar tus problemas por tí misma."
+    sol "Soportar tus problemas por tí mismo."
 
 # game/REturn.rpy:12654
 translate spanish sola_epilogue_2039fa8c:
@@ -36966,7 +36966,7 @@ translate spanish sola_epilogue_e31dd577:
 translate spanish sola_epilogue_ed28d7e8:
 
     # nar "Shields had believed that her suffering had ended. That she had escaped her life of being a pawn when she escaped her timeline. Little did he know of how wrong he was..."
-    nar "Shields había creído que su sufrimiento había terminado. Que ella había escapado de su vida de ser un peón cuando escapó de su línea temporal. Poco él sabía de cuán equivocado estaba..."
+    nar "Shields había creído que su sufrimiento había terminado. Que ella había escapado de su vida de ser un peón cuando escapó de su línea temporal. Poco él sabía de cuan equivocado estaba..."
 
 # game/REturn.rpy:12750
 translate spanish sola_epilogue_f62b08bb:
@@ -37020,7 +37020,7 @@ translate spanish sola_epilogue_f8824aa0:
 translate spanish icari_epilogue_e948cf37:
 
     # ica "What? Why are you staring at me like that for?"
-    ica "¿Qué? ¿Para que te estás quedando mirándome así?"
+    ica "¿Qué? ¿Por qué te estás quedando mirándome así?"
 
 # game/REturn.rpy:12767
 translate spanish icari_epilogue_c94bc035:
@@ -37134,7 +37134,7 @@ translate spanish icari_epilogue_05f526d5:
 translate spanish icari_epilogue_f03d4c9c:
 
     # "Icari's face glowed so red it looked like it was going to melt like paraffin wax."
-    "La cara de icari brilló tan roja que parecía que se iba a derretir como cera de parafina."
+    "La cara de Icari brilló tan roja que parecía que se iba a derretir como cera de parafina."
 
 # game/REturn.rpy:12802
 translate spanish icari_epilogue_b52f6470:
@@ -37176,7 +37176,7 @@ translate spanish icari_epilogue_9a333591:
 translate spanish icari_epilogue_d11e1f49:
 
     # "He had discovered this cove many years ago. It was a spot he had spent with Maray on numerous occasions, collecting sea shells and diving into the clear waters."
-    "Él había descubierto esta ensenada hacía muchos años. Era un sitio donde había utilizado con Maray en numerosas ocasiones, recolectando conchas de mar y buceando en las cristalinas aguas."
+    "Él había descubierto esta ensenada hacía muchos años. Era un sitio que donde había pasado tiempo con Maray en numerosas ocasiones, recolectando conchas de mar y buceando en las cristalinas aguas."
 
 # game/REturn.rpy:12818
 translate spanish icari_epilogue_fee651a0:
@@ -37410,7 +37410,7 @@ translate spanish icari_epilogue_a4e9e4bc:
 translate spanish icari_epilogue_49247ccf:
 
     # "The floodgates of Icari's hesitation broke apart and their kisses intensified. Their hands ran against their skin, marveling at each other's physiques."
-    "Las compuertas de la indecisión de Icari se hicieron pedazos y sus pesos se intensificaron. Sus manos sus pieles, admirando el físico del otro."
+    "Las compuertas de la indecisión de Icari se hicieron pedazos y sus pesos se intensificaron. Sus manos recorrieron sus pieles, admirando el físico del otro."
 
 # game/REturn.rpy:12888
 translate spanish icari_epilogue_2f85b142:
@@ -37464,7 +37464,7 @@ translate spanish icari_epilogue_3313849a:
 translate spanish icari_epilogue_8253b8c5:
 
     # ica "Heh! G-go ahead and check yourself if you want! Then you'll see that it's dry as a desert!"
-    ica "¡Heh! ¡A-adelante y revsa por tí mismo si quieres! ¡Entonces verás que está seco como un desierto!"
+    ica "¡Heh! ¡A-adelante y revisa por tí mismo si quieres! ¡Entonces verás que está seco como un desierto!"
 
 # game/REturn.rpy:12903
 translate spanish icari_epilogue_2c4b965f:
@@ -37518,7 +37518,7 @@ translate spanish icari_epilogue_244389f6:
 translate spanish icari_epilogue_c3c1f448:
 
     # nar "While the very next morning, she would return to acting the part of the cool mercenary who definitely didn't have any feelings for the stupid captain, Shields knew that he would one day discover the true Icari..."
-    nar "Anque a la misma mañana siguiente, ella regresaría a actuar la parte de la genial mercenaria que definitivamente no tenía ningún sentimiento por el estúpido capitán, Shields sabía que él algún día descubriría a la verdadera Icari..."
+    nar "Aunque a la misma mañana siguiente, ella regresaría a actuar la parte de la genial mercenaria que definitivamente no tenía ningún sentimiento por el estúpido capitán, Shields sabía que él algún día descubriría a la verdadera Icari..."
 
 # game/REturn.rpy:12920
 translate spanish icari_epilogue_f54308e2:
@@ -37614,7 +37614,7 @@ translate spanish ava_epilogue_f598842f:
 translate spanish ava_epilogue_6fba6afb:
 
     # "In a way, the two of them were destined from the very beginning to stay together. A partnership where each one covered for the other. Standing alone, neither Shields or Ava could be described as perfect, but together, they formed a complementary whole."
-    "De una forma, ambos estaban destinados desde el mismo comienzo a estar juntos. Una asociación donde cada uno cubría al otro. Estando solos, ni Shields ni Ava podrían ser descritos como perfectos, pero juntos, formaban un todo complementario."
+    "De alguna forma, ambos estaban destinados desde el mismo comienzo a estar juntos. Una asociación donde cada uno cubría al otro. Estando solos, ni Shields ni Ava podrían ser descritos como perfectos, pero juntos, formaban un todo complementario."
 
 # game/REturn.rpy:12952
 translate spanish ava_epilogue_76c1c8ef:
@@ -37806,7 +37806,7 @@ translate spanish ava_epilogue_532e2c7f:
 translate spanish ava_epilogue_6b1b9c68:
 
     # "Asaga was busy trying to get Sola to socialize with the others, filling her plate with more food than she could eat."
-    "Asaga estaba ocupada intentando hacer que Sola socializara con las otras, llenando su plato con más comida de la que ella podía comer."
+    "Asaga estaba ocupada intentando hacer que Sola socializara con las otras, llenando su plato con más comida de la que podía comer."
 
 # game/REturn.rpy:12996
 translate spanish ava_epilogue_b4606c18:
@@ -37992,7 +37992,7 @@ translate spanish ava_epilogue_27401984:
 translate spanish ava_epilogue_5d74f1c7:
 
     # "No matter how cold she acted towards him... Shields knew that she wanted him with all her heart."
-    "Sin importar cuán fría ella actuase hacia él... Shields sabía que ella lo quería con todo su corazón."
+    "Sin importar cuan fría ella actuase hacia él... Shields sabía que ella lo quería con todo su corazón."
 
 # game/REturn.rpy:13047
 translate spanish ava_epilogue_29125234:
@@ -38376,7 +38376,7 @@ translate spanish theendfornow_720a1e2c:
 translate spanish theendfornow_ced50369:
 
     # ava "Her current whereabouts are unknown. Our primary objective is the capture or destruction of the final leader of the Prototypes."
-    ava "Su paradero actual es desconocido. Nuestro objetivo primario es la captura o la destrucción del último líder de los Prototipos."
+    ava "Su paradero actual es desconocido. Nuestro objetivo primario es la captura o la destrucción de la última líder de los Prototipos."
 
 # game/REturn.rpy:13175
 translate spanish theendfornow_3163a419:
@@ -38466,7 +38466,7 @@ translate spanish theendfornow_1ac9aa59:
 translate spanish theendfornow_bcc51a4c:
 
     # "No matter how difficult their next voyage... He swore he would come back and see it again."
-    "Sin importar cuán difícil fuera su siguiente viaje... Él juró que regresaría y la vería de nuevo."
+    "Sin importar cuan difícil fuera su siguiente viaje... Él juró que regresaría y la vería de nuevo."
 
 # game/REturn.rpy:13202
 translate spanish theendfornow_f5159209:
@@ -38714,11 +38714,11 @@ translate spanish strings:
 
     # game/REturn.rpy:1223
     old "Grab the pistol and fall back."
-    new "Agarrar la pistola y retirarse."
+    new "Agarrar la pistola y retirarme."
 
     # game/REturn.rpy:1494
     old "Fight the drone in the room."
-    new "Comnbatir al dron en la habitación."
+    new "Combatir al dron en la habitación."
 
     # game/REturn.rpy:1494
     old "Escape back into the service tunnel."
@@ -38758,11 +38758,11 @@ translate spanish strings:
 
     # game/REturn.rpy:4234
     old "We kill Chigara: First, we sneak into my office and contact Fontana. Then we get Claude to swap with this universe's Claude on the Bianca tomorrow so that Asaga kills Chigara for us."
-    new "Matamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces hacemos que Claude se intercambie con la Claude de este universo en el Bianca mañana de forma que Asaga mate a Chigara por nosotros."
+    new "Matamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Luego hacemos que Claude se intercambie con la Claude de este universo en el Bianca mañana de forma que Asaga mate a Chigara por nosotros."
 
     # game/REturn.rpy:4234
     old "We capture Chigara: First, we sneak into my office and contact Fontana. Then, we confront this universe's Kayto Shields together to convince him to detain Chigara."
-    new "Capturamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces, confrontamos al Kayto Shields de este universo juntos para convencerlo de detener a Chigara."
+    new "Capturamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Luego, confrontamos al Kayto Shields de este universo juntos para convencerlo de detener a Chigara."
 
     # game/REturn.rpy:4253
     old "We confront the other Kayto Shields and convince him to detain Chigara."
@@ -38790,7 +38790,11 @@ translate spanish strings:
 
     # game/REturn.rpy:8401
     old "Get Claude into the Bianca."
-    new "Meter a Claude dentro del Bianca."
+    new "Entrar a Claude al Bianca."
+
+    # game/REturn.rpy:8401
+    old "Rescue Sola."
+    new "Rescatar a Sola."
 
     # game/REturn.rpy:444
     old "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"

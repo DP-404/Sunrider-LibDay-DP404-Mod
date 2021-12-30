@@ -1240,7 +1240,7 @@ translate spanish censor_avahscene_87b55683:
 translate spanish censor_avahscene_037910d1:
 
     # "Ava's taste and scent overpowered his senses. A tidal wave of juices poured from Ava's insides, drenching them until he had no idea where he ended and where Ava began."
-    "El sabor y la escencia de Ava superó sus sentidos. Una marea de jugos se derramó desde el interior de Ava, empapándolos hasta que él no tenía idea de dónde terminaba y dónde empezaba Ava."
+    "El sabor y la escencia de Ava superó sus sentidos. Una marea de jugos se derramó desde el interior de Ava, empapándolos hasta que él no tenía idea de dónde él terminaba y dónde empezaba Ava."
 
 # game/init_censored.rpy:479
 translate spanish censor_avahscene_14469b02:
@@ -1252,7 +1252,7 @@ translate spanish censor_avahscene_14469b02:
 translate spanish censor_avahscene_b806822a:
 
     # ava "Haa... haa... Hit me harder...! U-ugn... Everything you've got!"
-    ava "Haa... haa... ¡Golpéame más fuerte! U-ugn... ¡Con todo lo que tienes!"
+    ava "Haa... haa... ¡Golpéame más fuerte! U-ugn... ¡Con todo lo que tengas!"
 
 # game/init_censored.rpy:481
 translate spanish censor_avahscene_ac48262a:
@@ -1378,7 +1378,7 @@ translate spanish censor_avahscene_904af322:
 translate spanish censor_avahscene_5947b8c0:
 
     # "She rested her arm on top of his back."
-    "Ella descansó su brazo encima de la espalda de é."
+    "Ella descansó su brazo encima de la espalda de él."
 
 # game/init_censored.rpy:516
 translate spanish censor_avahscene_f8dcc177:
@@ -1666,7 +1666,7 @@ translate spanish censor_icarihscene_a3ffce16:
 translate spanish censor_icarihscene_0c6d3988:
 
     # "He had never noticed before how impressive her ass was. He grabbed handfuls with both palms, her bounty overflowing between his fingers. Her asshole flinched with each of his thrusts as pleasure shot up her spine."
-    "Él nunca había notado antes cuán impresionante era su trasero. Él agarró un puñado con ambas palmas, con su recompensa virtiéndose entre sus dedos. El trasero de ella se sobresaltaba con cada uno de sus empujes mientras el placer se disparaba por su espina dorsal."
+    "Él nunca había notado antes cuan impresionante era su trasero. Agarró un puñado con ambas palmas, con su recompensa virtiéndose entre sus dedos. El trasero de ella se sobresaltaba con cada uno de sus empujes mientras el placer se disparaba por su espina dorsal."
 
 # game/init_censored.rpy:589
 translate spanish censor_icarihscene_f0abc12a:
@@ -1852,7 +1852,7 @@ translate spanish censor_icarihscene_56c5d331:
 translate spanish censor_icarihscene_098fb2a5:
 
     # "With another firm slap to her ass, Icari finally gave out."
-    "Con otro firma manotazo a su trasero, Icari finalmente acabó."
+    "Con otro firme manotazo a su trasero, Icari finalmente acabó."
 
 # game/init_censored.rpy:638
 translate spanish censor_icarihscene_6ae08f59:
@@ -1954,7 +1954,7 @@ translate spanish censor_icarihscene_b5ac1c0e:
 translate spanish censor_icarihscene_8f0005dd:
 
     # "Sweat was now dripping down her butt despite the cool evening air. Her asshole was still convulsing, soaked with cum and juices."
-    "Sudor ahora se goteaba desde su trasero a pesar del fresco aire de la tarde. Su trasero estaba todavía convulsionando, empapado con semen y jugos."
+    "Sudor ahora goteaba desde su trasero a pesar del fresco aire de la tarde. Su trasero estaba todavía convulsionando, empapado con semen y jugos."
 
 # game/init_censored.rpy:662
 translate spanish censor_icarihscene_e33b7ab0:
@@ -2716,7 +2716,7 @@ translate spanish censor_solahscene_53dcdac4:
 translate spanish censor_solahscene_c4c1e9f9:
 
     # kay "Wait, wait! Y-you don't have to do that!! N-nobody believes that stuff anymore!!!"
-    kay "¡Espera, espera! ¡¡N-no tienes que hacer eso!! ¡¡¡Y-ta nadie cree más en esas cosas!!!"
+    kay "¡Espera, espera! ¡¡N-no tienes que hacer eso!! ¡¡¡Y-ya nadie cree más en esas cosas!!!"
 
 # game/init_censored.rpy:820
 translate spanish censor_solahscene_828aea13:

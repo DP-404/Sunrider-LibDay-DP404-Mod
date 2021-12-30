@@ -973,7 +973,7 @@ translate spanish titlecardstart_be5dc19f:
 translate spanish titlecardstart_1f25f099:
 
     # pof "I am reading hyper brain waves! A prototype still lives!"
-    pof "¡El sensor de ondas hyper cerebrales está respondiendo! ¡Un prototipo! ¡Queda uno con vida!"
+    pof "¡El sensor de ondas hiper cerebrales está respondiendo! ¡Un prototipo! ¡Queda uno con vida!"
 
 # game/script.rpy:595
 translate spanish titlecardstart_e51f9d03:
@@ -9817,7 +9817,7 @@ translate spanish messhallspeeches_9c44ec0c:
 translate spanish messhallspeeches_1e2ae702:
 
     # alp "Only under our control can humanity hope to meet the ebon fleet and survive."
-    alp "Solo unidos bajo nuestra guía, los seres humanos podrán sobrevivir a los fuegos de la flota negra."
+    alp "Solo unidos bajo nuestra guía, los seres humanos podrán sobrevivir a los fuegos de la flota de ébano."
 
 # game/script.rpy:3827
 translate spanish messhallspeeches_d8df8b89:
@@ -18854,7 +18854,7 @@ translate spanish after_mission10_102d2f2f:
 translate spanish after_mission10_8bdcfcaa:
 
     # pac "Captain, we detect enemy escape pods."
-    pac "Capitán. Detectamos cápsulas de escape del enemigo."
+    pac "Capitán, detectamos cápsulas de escape de la nave enemiga."
 
 # game/script.rpy:4524
 translate spanish after_mission10_02af4486:
@@ -19454,7 +19454,7 @@ translate spanish newend_b598506a:
 translate spanish newend_7f829c57:
 
     # cla "Somehow, the Queen of Ryuvia could sense Chigara's hyper brain waves!"
-    cla "¡De alguna forma, la Reina de Ryuvia pudo sentir las ondas hyper cerebrales de Chigara!"
+    cla "¡De alguna forma, la Reina de Ryuvia pudo sentir las ondas hiper cerebrales de Chigara!"
 
 # game/script.rpy:8282
 translate spanish newend_f077edb3:
@@ -19496,7 +19496,7 @@ translate spanish newend_423dc517:
 translate spanish newend_4761eccd:
 
     # cla "So you sent Chigara to learn about humanity to one day control them in the fight against the Ebon Fleet..."
-    cla "Enviaste a Chigara a aprender acerca de los humanos, para un día controlarlos en la lucha contra la Flota Negra..."
+    cla "Enviaste a Chigara a aprender acerca de los humanos, para un día controlarlos en la lucha contra la Flota de Ébano..."
 
 # game/script.rpy:8298
 translate spanish newend_e59353a5:
@@ -20156,7 +20156,7 @@ translate spanish chigaranotyou_440e9bff:
 translate spanish chigaranotyou_1e13b41d:
 
     # lyn "Listen here, we can read the brain waves of other prototypes. That's how we communicate with each other."
-    lyn "Escucha, nosotros podemos leer las ondas hyper cerebrales de otros prototipos. Así es como nos comunicamos entre nosotros."
+    lyn "Escucha, nosotros podemos leer las ondas hiper cerebrales de otros prototipos. Así es como nos comunicamos entre nosotros."
 
 # game/script.rpy:8474
 translate spanish chigaranotyou_f376bfea:
@@ -21590,7 +21590,7 @@ translate spanish thoughtbitbullet_1364ac12:
 translate spanish thoughtbitbullet_8e35b2e0:
 
     # asa "Look, that artificial moon is just folklore that people spread to remind themselves how great we used to be. People say all sorts of things, like that moon's actually an enormous battle station with the firepower to destroy an entire planet..."
-    asa "Mira, esa luna artificial no es más que un espectáculo que la gente ha esparcido para recordarnos cuán grandes solíamos ser. La gente dice todo tipo de cosas, como que esa luna es en realidad una enorme estación de batalla con la potencia de fuego para destruir un planeta entero..."
+    asa "Mira, esa luna artificial no es más que un espectáculo que la gente ha esparcido para recordarnos cuan grandes solíamos ser. La gente dice todo tipo de cosas, como que esa luna es en realidad una enorme estación de batalla con la potencia de fuego para destruir un planeta entero..."
 
 # game/script.rpy:8853
 translate spanish thoughtbitbullet_46d7b842:

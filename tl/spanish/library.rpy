@@ -536,7 +536,7 @@ translate spanish strings:
 
     # game/library.rpy:5130
     old "People Die When They Are Killed"
-    new "La Gente Muere Cuando Son Asesinados"
+    new "La Gente Muere Cuando Es Asesinada"
 
     # game/library.rpy:5133
     old "Lose a mercenary unit."
