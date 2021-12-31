@@ -28,7 +28,7 @@ translate spanish censored_asagahscene_412787e9:
 translate spanish censored_asagahscene_a407e0ff:
 
     # "He pulled his pants down and raised Asaga up by her plump ass."
-    "Bajó las bragas y levantó a Asaga por su gran trasero."
+    "Bajó sus calzones y levantó a Asaga por su gran trasero."
 
 # game/init_censored.rpy:229
 translate spanish censored_asagahscene_d376ed80:
@@ -88,7 +88,7 @@ translate spanish censored_asagahscene_47018944:
 translate spanish censored_asagahscene_f9f1c559:
 
     # asa "P-pretty... good actually..."
-    asa "B-bastante... bien en realidad..."
+    asa "B-bastante... bien de hecho..."
 
 # game/init_censored.rpy:239
 translate spanish censored_asagahscene_a23c1621:
@@ -112,7 +112,7 @@ translate spanish censored_asagahscene_733c2058:
 translate spanish censored_asagahscene_a1f71001:
 
     # asa "Make me feel real good, 'kay?"
-    asa "¿Hazme sentir realmente bien, de acuerdo?"
+    asa "Hazme sentir realmente bien, ¿de acuerdo?"
 
 # game/init_censored.rpy:243
 translate spanish censored_asagahscene_58984c84:
@@ -130,7 +130,7 @@ translate spanish censored_asagahscene_789c80c5:
 translate spanish censored_asagahscene_9c1fbb23:
 
     # "He stripped off her clothes in a rush. Her twin tails floated about as the two slowly revolved in midair."
-    "Le abrió la ropa en un apuro. Las dos colas de su pelo flotaron mientras ambos giraban lentamente en medio del aire."
+    "Le abrió sus ropas en un apuro. Las dos colas de su pelo flotaron mientras ambos giraban lentamente en medio del aire."
 
 # game/init_censored.rpy:249
 translate spanish censored_asagahscene_58963f38:
@@ -154,7 +154,7 @@ translate spanish censored_asagahscene_d610ff60:
 translate spanish censored_asagahscene_a2bdeb8c:
 
     # asa "Hiyahh... T-this is totally different... from fapping... M-mou!"
-    asa "Hiyahh... E-esto es totalmente diferente... de masturbarse... ¡M-mou!"
+    asa "Hiyahh... E-esto es totalmente diferente... a masturbarse... ¡M-mou!"
 
 # game/init_censored.rpy:253
 translate spanish censored_asagahscene_8e9cee62:
@@ -226,7 +226,7 @@ translate spanish censored_asagahscene_622ec021:
 translate spanish censored_asagahscene_14be1b9d:
 
     # kay "(Shit... T-this is actually too good!)"
-    kay "(Diablos... ¡E-esto es de hecho demasiado bueno!)"
+    kay "(Diablos... ¡E-esto es en realidad demasiado bueno!)"
 
 # game/init_censored.rpy:265
 translate spanish censored_asagahscene_61e574f5:
@@ -286,7 +286,7 @@ translate spanish censored_asagahscene_c4ceb92f:
 translate spanish censored_asagahscene_42ae9081:
 
     # "Asaga gasped and held Shields close as she unexpectedly came."
-    "Asaga jadeó y sostuvo a Shields cerca mientras ella inesperadamente se corría."
+    "Asaga jadeó y sostuvo a Shields cerca mientras ella inesperadamente se venía."
 
 # game/init_censored.rpy:275
 translate spanish censored_asagahscene_191c66be:
@@ -334,7 +334,7 @@ translate spanish censored_asagahscene_95fc819d:
 translate spanish censored_asagahscene_2937ed2a:
 
     # "He rammed her in as deep as he could reach, her ass overflowing between his fingers."
-    "Se metió a la fuerza tan frofundo como pudo alcanzar, con el trasero de ella desbordándose entre sus dedos."
+    "Se metió a la fuerza tan profundo como pudo alcanzar, con el trasero de ella desbordándose entre sus dedos."
 
 # game/init_censored.rpy:283
 translate spanish censored_asagahscene_e2f97615:
@@ -406,7 +406,7 @@ translate spanish censored_asagahscene_41fc80d8:
 translate spanish censored_asagahscene_c8468dfb:
 
     # kay "(I'm sorry Asaga, but I'm pretty sure nobody else in the galaxy even noticed that...)"
-    kay "(Lo siento Asaga, pero estoy bastante seguro de que nadie más en la galaxia siquiera ha notado eso...)"
+    kay "(Lo siento Asaga, pero estoy bastante seguro de que nadie más en la galaxia siquiera notó eso...)"
 
 # game/init_censored.rpy:295
 translate spanish censored_asagahscene_4a5e48a8:
@@ -424,7 +424,7 @@ translate spanish censored_asagahscene_94767e94:
 translate spanish censored_asagahscene_0ab36517:
 
     # "Shields quickened his pace, slapping himself against her upper thighs."
-    "Shields aceleró su paso, golpeándose contra sus muslos superiores."
+    "Shields aceleró su ritmo, golpeándose contra sus muslos superiores."
 
 # game/init_censored.rpy:298
 translate spanish censored_asagahscene_2df8a24a_1:
@@ -544,13 +544,13 @@ translate spanish censored_asagahscene_e8bf8ee0:
 translate spanish censored_asagahscene_9ac8099b:
 
     # "With a final heave, he pushed as deep as he could go, squeezing into her narrow channel."
-    "Con un aventón final, presionó tan profundo como pudo ir, apretándose dentro de su estrecho canal."
+    "Con un aventón final, se empujó tan profundo como pudo ir, apretándose dentro de su estrecho canal."
 
 # game/init_censored.rpy:325
 translate spanish censored_asagahscene_d25edf79:
 
     # "His weapon shot forth, loading Asaga's hole with more cream than it could hold."
-    "Su arma disparó hacia adelante, llenando el hoyo de Asaga con más crema de la que podía"
+    "Su arma disparó hacia adelante, llenando el hoyo de Asaga con más crema de la que podía aguantar."
 
 # game/init_censored.rpy:326
 translate spanish censored_asagahscene_384b00d9:
@@ -592,7 +592,7 @@ translate spanish censored_asagahscene_07c6ac98:
 translate spanish censored_asagahscene_d7aeeb32:
 
     # "The blue fire faded from her eyes."
-    "El azul fuego se desvaneció de sus ojos."
+    "El fuego azul se desvaneció de sus ojos."
 
 # game/init_censored.rpy:336
 translate spanish censored_asagahscene_7e1308dd:
@@ -646,7 +646,7 @@ translate spanish censored_asagahscene_0aec8bf3:
 translate spanish censored_asagahscene_7c1e15dd:
 
     # "Asaga cringed as she came again, just from Shields removing himself."
-    "Asaga se encogió mientras se venía de nuevo, solo de Shields salirse."
+    "Asaga se encogió mientras se venía de nuevo, solo por Shields sacándose."
 
 # game/init_censored.rpy:345
 translate spanish censored_asagahscene_808601ed:
@@ -658,7 +658,7 @@ translate spanish censored_asagahscene_808601ed:
 translate spanish censored_asagahscene_932a5e50:
 
     # "They were now levitating upside down, their feet against the ceiling, orbs of their body fluids circling them. Truly a surreal scene, to be sure."
-    "Ellos estaban ahora levitando de cabeza, con sus pies contra el techo, y orbes de sus fluidos corporales dando vueltas a su alrededor. Realmente una escena surreal, con seguridad."
+    "Ellos estaban ahora levitando de cabeza, con sus pies contra el techo, y orbes de sus fluidos corporales dando vueltas a su alrededor. Verdaderamente una escena surreal, sin duda."
 
 # game/init_censored.rpy:347
 translate spanish censored_asagahscene_56c9a3e2:
@@ -706,7 +706,7 @@ translate spanish censored_asagahscene_4fc211b6:
 translate spanish censored_asagahscene_56b80b02:
 
     # kay "Crap... Quite a mess down there..."
-    kay "Demonios... Es un gran desorden ahí abajo..."
+    kay "Demonios... Es un gran desastre ahí abajo..."
 
 # game/init_censored.rpy:355
 translate spanish censored_asagahscene_a13d9afa:
