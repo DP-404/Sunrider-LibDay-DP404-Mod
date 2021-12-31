@@ -29,7 +29,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "Release"
-    config.version = " DP404 Mod v1.0(3.01)"
+    config.version = " DP404 Mod v1.1(3.01)"
     
     config.thumbnail_height = 480
     config.thumbnail_width = 270

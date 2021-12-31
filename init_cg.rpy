@@ -326,7 +326,7 @@ image shower2_censored:
     "CG/shower2_censored.jpg"
 image shower3_censored:
     "CG/shower3_censored.jpg"
-image shower4_censoreed:
+image shower4_censored:
     "CG/shower4_censored.jpg"
 image shower5_censored:
     "CG/shower5_censored.jpg"

@@ -36,7 +36,7 @@ screen say(who, what, side_image=None, two_window=False):
 
                 if who:
                     
-                    if who != " " and who != "time":
+                    if who != " ":
                         add "UI/nametag.png" xpos -155 ypos -90
 
                         text who:
@@ -47,7 +47,7 @@ screen say(who, what, side_image=None, two_window=False):
                             font "Fonts/ShareTech-Regular.ttf"
                             outlines [ (3, "#0a0a0a", 0, 0) ] 
 
-                if _preferences.language == None or _preferences.language == "spanish":
+                if _preferences.language in (None, "spanish"):
 
                     if len(what) > 300:
                         $say_text_size = 45
@@ -67,25 +67,14 @@ screen say(who, what, side_image=None, two_window=False):
                     
                     if dlc == True:
 
-                        if who != "time":
-
-                            text what:
-                                id "what"
-                                size say_text_size
-                                xpos 0
-                                ypos -60
-                                xmaximum 1640
-                                font "Fonts/ShareTech-Regular.ttf"
-                                outlines [(2, "#000000", 2, 2),(1, "#272727", 0, 0) ]
-
-                        else:
-
-                            text what:
-                                id "what"
-                                size 40
-                                #text_align 0.5
-                                ypos -1.0
-                                xpos 0.0
+                        text what:
+                            id "what"
+                            size say_text_size
+                            xpos 0
+                            ypos -60
+                            xmaximum 1640
+                            font "Fonts/ShareTech-Regular.ttf"
+                            outlines [(2, "#000000", 2, 2),(1, "#272727", 0, 0) ]
                     
                 if _preferences.language == "japanese":
                     
@@ -117,17 +106,12 @@ screen decision:
             activate_sound "sound/button1.ogg"
             action (Hide("decision"),Jump(item[1]))
 
-        if _preferences.language == "spanish":
-            $dText = 2
-        else:
-            $dText = 0
-
-        if len(item[dText]) < 120:
+        if len(item[0]) < 120:
             $ separator = 0.04
         else:
             $ separator = 0.02
 
-        text item[dText] at tr_decision(0.2*menu_choices.index(item)):
+        text item[0] at tr_decision(0.2*menu_choices.index(item)):
             text_align 0.5 xanchor 0.5 ypos pointBase+separator +(0.15*menu_choices.index(item))
             size 40
             outlines [ (4, "#282828", 0, 0) ]  
@@ -468,10 +452,7 @@ screen REturn_menu():
                     
                     if persistent.unlocked_endings[ending] is False:
                         add "REturn/UI/ui_lockedend.png"
-                        if _preferences.language == "spanish":
-                            text "Bloqueado" xanchor 0.5 xpos 258 color "000"
-                        else:
-                            text "Locked" xanchor 0.5 xpos 258 color "000"
+                        text _("Locked") xanchor 0.5 xpos 258 color "000"
                     else:
                         $unlocked_endings_count+=1
                         if "BAD" in ending:
@@ -491,32 +472,8 @@ screen REturn_menu():
                                 action Function(renpy.load,save_name) 
                         else:
                             add ending_frame
-
-                        if _preferences.language == "spanish":
-                            if "BAD END 1" in ending:
-                                $ ending_name = ending.split(":")[0] + ": MATADO A DISPAROS"
-                            if "BAD END 2" in ending:
-                                $ ending_name = ending.split(":")[0] + ": APLASTADO"
-                            if "TRAPPED" in ending:
-                                $ ending_name = ending.split(":")[0] + ": ATRAPADO" + ending.split("TRAPPED")[1]
-                            if "BAD END 6" in ending:
-                                $ ending_name = ending.split(":")[0] + ": CONGELADO"
-                            if "BAD END 7" in ending:
-                                $ ending_name = ending.split(":")[0] + ": DEPRESURIZACIÓN EXPLOSIVA"
-                            if "WORST END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": QUÉ HE HECHO"
-                            if "NORMAL END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": AÚN ASÍ JUNTOS"
-                            if "ALTERNATIVE END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": FUTURO GANADO CON SANGRE"
-                            if "HAPPY END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": NUESTRA MAYOR AVENTURA HASTA AHORA"
-                            if "SECRET END" in ending:
-                                $ ending_name = ending.split(":")[0] + ": SEÑOR DEL TIEMPO"
-                        else:
-                            $ ending_name = ending
                            
-                        text ending_name xanchor 0.5 yanchor 0.5 xpos 258 ypos 20 color "000" size 20
+                        text ending xanchor 0.5 yanchor 0.5 xpos 258 ypos 20 color "000" size 20
     
     text str(int(unlocked_endings_count/18.0*100))+"%" xanchor 0.5 yanchor 0.5 xpos 1240 ypos 910 size 50
         
@@ -923,7 +880,7 @@ screen preferences:
                     hover "UI/usa_hover.jpg"
                     selected_idle "UI/usa_select.jpg"
                     selected_hover "UI/usa_select_hover.jpg"
-                    action Language(None),Show("update_lang")
+                    action Language(None)
                     hover_sound "sound/hover1.ogg"
                     activate_sound "sound/button1.ogg"
                     
@@ -943,7 +900,7 @@ screen preferences:
                     hover "UI/spain_hover.jpg"
                     selected_idle "UI/spain_select.jpg"
                     selected_hover "UI/spain_select_hover.jpg"
-                    action Language("spanish"),Show("update_lang")
+                    action Language("spanish")
                     hover_sound "sound/hover1.ogg"
                     activate_sound "sound/button1.ogg"
 
@@ -1039,153 +996,77 @@ screen preferences:
                 
                 default tt = Tooltip("")
 
-                if _preferences.language != "spanish":
-
-                    imagebutton:
-                        xpos 90 ypos 170
-                        idle "UI/options_gameplay_waifu.png"
-                        hover tr_hoverglow("UI/options_gameplay_waifu.png")
-                        selected_idle "UI/options_gameplay_waifu_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_waifu_select.png")
-                        hovered tt.Action("Reduces the difficulty to near nill\nfor a stress free experience."),SetVariable("tty",170)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 0)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 170
+                    idle "UI/options_gameplay_waifu.png"
+                    hover tr_hoverglow("UI/options_gameplay_waifu.png")
+                    selected_idle "UI/options_gameplay_waifu_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_waifu_select.png")
+                    hovered tt.Action(_("Reduces the difficulty to near nill\nfor a stress free experience.")),SetVariable("tty",170)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 0)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
                 
-                    imagebutton:
-                        xpos 90 ypos 220
-                        idle "UI/options_gameplay_casual.png"
-                        hover tr_hoverglow("UI/options_gameplay_casual.png")
-                        selected_idle "UI/options_gameplay_casual_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_casual_select.png")
-                        hovered tt.Action("Easy for newcomers and people not\ninterested in strategy."),SetVariable("tty",220)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 1)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 220
+                    idle "UI/options_gameplay_casual.png"
+                    hover tr_hoverglow("UI/options_gameplay_casual.png")
+                    selected_idle "UI/options_gameplay_casual_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_casual_select.png")
+                    hovered tt.Action(_("Easy for newcomers and people not\ninterested in strategy.")),SetVariable("tty",220)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 1)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 270
-                        idle "UI/options_gameplay_ensign.png"
-                        hover tr_hoverglow("UI/options_gameplay_ensign.png")
-                        selected_idle "UI/options_gameplay_ensign_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_ensign_select.png")
-                        hovered tt.Action("Average difficulty for people who want\na reasonable challenge."),SetVariable("tty",270)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 2)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 270
+                    idle "UI/options_gameplay_ensign.png"
+                    hover tr_hoverglow("UI/options_gameplay_ensign.png")
+                    selected_idle "UI/options_gameplay_ensign_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_ensign_select.png")
+                    hovered tt.Action(_("Average difficulty for people who want\na reasonable challenge.")),SetVariable("tty",270)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 2)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 320
-                        idle "UI/options_gameplay_captain.png"
-                        hover tr_hoverglow("UI/options_gameplay_captain.png")
-                        selected_idle "UI/options_gameplay_captain_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_captain_select.png")
-                        action SetVariable("Difficulty", 3)
-                        hovered tt.Action("Challenging but fair. Your mistakes\nwill be punished without mercy."),SetVariable("tty",320)
-                        unhovered SetVariable("tty",-5000)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 320
+                    idle "UI/options_gameplay_captain.png"
+                    hover tr_hoverglow("UI/options_gameplay_captain.png")
+                    selected_idle "UI/options_gameplay_captain_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_captain_select.png")
+                    action SetVariable("Difficulty", 3)
+                    hovered tt.Action(_("Challenging but fair. Your mistakes\nwill be punished without mercy.")),SetVariable("tty",320)
+                    unhovered SetVariable("tty",-5000)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 370
-                        idle "UI/options_gameplay_admiral.png"
-                        hover tr_hoverglow("UI/options_gameplay_admiral.png")
-                        selected_idle "UI/options_gameplay_admiral_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_admiral_select.png")
-                        hovered tt.Action("For people who are good at this game."),SetVariable("tty",370)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 4)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 370
+                    idle "UI/options_gameplay_admiral.png"
+                    hover tr_hoverglow("UI/options_gameplay_admiral.png")
+                    selected_idle "UI/options_gameplay_admiral_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_admiral_select.png")
+                    hovered tt.Action(_("For people who are good at this game.")),SetVariable("tty",370)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 4)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
-                    imagebutton:
-                        xpos 90 ypos 420
-                        idle "UI/options_gameplay_spacewhale.png"
-                        hover tr_hoverglow("UI/options_gameplay_spacewhale.png")
-                        selected_idle "UI/options_gameplay_spacewhale_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_spacewhale_select.png")
-                        hovered tt.Action("Why would you do this to yourself..."),SetVariable("tty",420)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 5)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                else:
-
-                    imagebutton:
-                        xpos 90 ypos 170
-                        idle "UI/options_gameplay_waifu.png"
-                        hover tr_hoverglow("UI/options_gameplay_waifu.png")
-                        selected_idle "UI/options_gameplay_waifu_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_waifu_select.png")
-                        hovered tt.Action("Reduce la dificultad a casi nula para\nuna experiencia libre de estrés."),SetVariable("tty",170)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 0)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-                
-                    imagebutton:
-                        xpos 90 ypos 220
-                        idle "UI/options_gameplay_casual.png"
-                        hover tr_hoverglow("UI/options_gameplay_casual.png")
-                        selected_idle "UI/options_gameplay_casual_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_casual_select.png")
-                        hovered tt.Action("Fácil para principiantes y personas\nno interesadas en la estrategia."),SetVariable("tty",220)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 1)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 270
-                        idle "UI/options_gameplay_ensign.png"
-                        hover tr_hoverglow("UI/options_gameplay_ensign.png")
-                        selected_idle "UI/options_gameplay_ensign_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_ensign_select.png")
-                        hovered tt.Action("Dificultad media para personas\nque quieren un reto razonable."),SetVariable("tty",270)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 2)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 320
-                        idle "UI/options_gameplay_captain.png"
-                        hover tr_hoverglow("UI/options_gameplay_captain.png")
-                        selected_idle "UI/options_gameplay_captain_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_captain_select.png")
-                        action SetVariable("Difficulty", 3)
-                        hovered tt.Action("Desafiante pero justo. Tus errores\nserán castigados sin piedad.."),SetVariable("tty",320)
-                        unhovered SetVariable("tty",-5000)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 370
-                        idle "UI/options_gameplay_admiral.png"
-                        hover tr_hoverglow("UI/options_gameplay_admiral.png")
-                        selected_idle "UI/options_gameplay_admiral_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_admiral_select.png")
-                        hovered tt.Action("Para personas que son buenas en este juego."),SetVariable("tty",370)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 4)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
-
-                    imagebutton:
-                        xpos 90 ypos 420
-                        idle "UI/options_gameplay_spacewhale.png"
-                        hover tr_hoverglow("UI/options_gameplay_spacewhale.png")
-                        selected_idle "UI/options_gameplay_spacewhale_select.png"
-                        selected_hover tr_hoverglow("UI/options_gameplay_spacewhale_select.png")
-                        hovered tt.Action("Por qué te harías esto a tí mismo..."),SetVariable("tty",420)
-                        unhovered SetVariable("tty",-5000)
-                        action SetVariable("Difficulty", 5)
-                        hover_sound "sound/hover1.ogg"
-                        activate_sound "sound/button1.ogg"
+                imagebutton:
+                    xpos 90 ypos 420
+                    idle "UI/options_gameplay_spacewhale.png"
+                    hover tr_hoverglow("UI/options_gameplay_spacewhale.png")
+                    selected_idle "UI/options_gameplay_spacewhale_select.png"
+                    selected_hover tr_hoverglow("UI/options_gameplay_spacewhale_select.png")
+                    hovered tt.Action(_("Why would you do this to yourself...")),SetVariable("tty",420)
+                    unhovered SetVariable("tty",-5000)
+                    action SetVariable("Difficulty", 5)
+                    hover_sound "sound/hover1.ogg"
+                    activate_sound "sound/button1.ogg"
 
                 imagebutton:
                     xpos 600 ypos 168
@@ -1350,13 +1231,6 @@ screen history:
             frame at tr_fadein(1):
                 background None
 
-                if _preferences.language == "spanish":
-                    $ title_text = -2
-                    $ hover_text = -1
-                else:
-                    $ title_text = 1
-                    $ hover_text = 2
-
                 for item in setoptions[:]:
                     if item[0] == 1: # Is an option title
                         if eval(item[3]):
@@ -1366,12 +1240,12 @@ screen history:
                                 hover "UI/input_plotback.png"
                                 action NullAction()
                                 
-                                hovered htt.Action(item[hover_text]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
+                                hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
                                 
                                 unhovered SetVariable("htty",-5000)
                                 activate_sound "sound/button1.ogg"
 
-                            text item[title_text]:
+                            text item[1]:
                                 xpos 10+25 ypos optionsypos[setoptions.index(item)]+10
                                 font "Fonts/ShareTech-Regular.ttf"
                                 size 20
@@ -1386,13 +1260,13 @@ screen history:
                                 selected_idle "UI/input_decision_select.png"
                                 selected_hover "UI/input_decision_select.png"
                                 
-                                hovered htt.Action(item[hover_text]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
+                                hovered htt.Action(item[2]), SetVariable("httx",optionsxpos[setoptions.index(item)]), SetVariable("htty",optionsypos[setoptions.index(item)])
                                 
                                 unhovered SetVariable("htty",-5000)
                                 action SetVariable(item[4][0],item[4][1])
                                 activate_sound "sound/button1.ogg" 
 
-                            text item[title_text]:
+                            text item[1]:
                                 xpos optionsxpos[setoptions.index(item)]+25 ypos optionsypos[setoptions.index(item)]+10
                                 font "Fonts/ShareTech-Regular.ttf"
                                 size 20
@@ -1454,7 +1328,7 @@ screen sidebuttons:
             hover tr_hoverglow("UI/menu_qsave.png")
             
             activate_sound "sound/button1.ogg"
-            action (QuickSave(message='                                   Quick save complete.', newest=False),Hide("sidebuttons"),SetVariable("show_sidemenu", False))
+            action (QuickSave(message=_('                                   Quick save complete.'), newest=False),Hide("sidebuttons"),SetVariable("show_sidemenu", False))
             at tr_sidemenu(100)
         imagebutton:
             idle "UI/menu_save.png"
@@ -1546,18 +1420,11 @@ screen wishall_cosettedead:
         activate_sound "sound/battle.ogg"
         action SetVariable("wishall_kill",False),SetVariable("wishall",False),Hide("wishall_cosettedead")
 
-    if _preferences.language == "spanish":
-        text "PERDONAR A COSETTE":
-            xpos 160 ypos 90
-            font "Fonts/ShareTech-Regular.ttf"
-            size 20
-            color "#F7F7F7"
-    else:
-        text "SPARE COSETTE":
-            xpos 160 ypos 90
-            font "Fonts/ShareTech-Regular.ttf"
-            size 20
-            color "#F7F7F7"
+    text _("SPARE COSETTE"):
+        xpos 160 ypos 90
+        font "Fonts/ShareTech-Regular.ttf"
+        size 20
+        color "#F7F7F7"
             
 screen battlewarning:
     
@@ -2482,168 +2349,3 @@ screen gallery_backgrounds:
                 add gallery.make_button("bg34", "REturn/thumbs/observationdeck.jpg", locked="CG/thumbs/locked.jpg",hover_border="CG/thumbs/hover.png", idle_border=None, hover_sound="Sound/hover1.ogg",activate_sound="Sound/button1.ogg", background=None)
                 text ""
                 text ""
-
-screen update_lang:
-
-    python:
-
-        if _preferences.language == "spanish":
-
-            for order in BM.orders:
-
-                if order == "ALL POWER TO ENGINES":
-                    del BM.orders['ALL POWER TO ENGINES']
-                    BM.orders['MÁXIMO PODER A LOS MOTORES'] = [800,'injection_rods']
-                if order == "SUMMON BATTLESHIP":
-                    del BM.orders['SUMMON BATTLESHIP']
-                    BM.orders['INVOCAR NAVE DE BATALLA'] = [2000,'summon_battleship']
-                if order == "RESURRECTION":
-                    del BM.orders['RESURRECTION']
-                    BM.orders['RESURRECCIÓN'] = [2500,'resurrection']
-                if order == "ALL GUARD":
-                    del BM.orders['ALL GUARD']
-                    BM.orders['DEFENSA TOTAL'] = [750,'all_guard']
-                if order == "FULL FORWARD":
-                    del BM.orders['FULL FORWARD']
-                    BM.orders['AVANCE COMPLETO'] = [750,'full_forward']
-                if order == "REPAIR DRONES":
-                    del BM.orders['REPAIR DRONES']
-                    BM.orders['DRONES REPARADORES'] = [750,'repair_drones']
-                if order == "SHORT RANGE WARP":
-                    del BM.orders['SHORT RANGE WARP']
-                    BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
-                if order == "RETREAT":
-                    del BM.orders['RETREAT']
-                    BM.orders['RETIRADA'] = [0,'retreat']
-                if order == "VANGUARD CANNON":
-                    del BM.orders['VANGUARD CANNON']
-                    BM.orders['CAÑÓN VANGUARDIA'] = [4000,'vanguard_cannon']
-
-        else:
-
-            for order in BM.orders:
-
-                if order == "MÁXIMO PODER A LOS MOTORES":
-                    del BM.orders['MÁXIMO PODER A LOS MOTORES']
-                    BM.orders['ALL POWER TO ENGINES'] = [800,'injection_rods']
-                if order == "INVOCAR NAVE DE BATALLA":
-                    del BM.orders['INVOCAR NAVE DE BATALLA']
-                    BM.orders['SUMMON BATTLESHIP'] = [2000,'summon_battleship']
-                if order == "RESURRECCIÓN":
-                    del BM.orders['RESURRECCIÓN']
-                    BM.orders['RESURRECTION'] = [2500,'resurrection']
-                if order == "DEFENSA TOTAL":
-                    del BM.orders['DEFENSA TOTAL']
-                    BM.orders['ALL GUARD'] = [750,'all_guard']
-                if order == "AVANCE COMPLETO":
-                    del BM.orders['AVANCE COMPLETO']
-                    BM.orders['FULL FORWARD'] = [750,'full_forward']
-                if order == "DRONES REPARADORES":
-                    del BM.orders['DRONES REPARADORES']
-                    BM.orders['REPAIR DRONES'] = [750,'repair_drones']
-                if order == "SALTO DE CORTO RANGO":
-                    del BM.orders['SALTO DE CORTO RANGO']
-                    BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
-                if order == "RETIRADA":
-                    del BM.orders['RETIRADA']
-                    BM.orders['RETREAT'] = [0,'retreat']
-                if order == "CAÑÓN VANGUARDIA":
-                    del BM.orders['CAÑÓN VANGUARDIA']
-                    BM.orders['VANGUARD CANNON'] = [4000,'short_range_warp']
-
-screen willbereborn:
-    if _preferences.language == "spanish":
-        add Text("RENACERÁ...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-    else:
-        add Text("WILL BE REBORN...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-
-screen tbc:
-    if _preferences.language == "spanish":
-        add Text("CONTINUARÁ...", size=150, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-    else:
-        add Text("TO BE CONTINUED...", size=150, font="Fonts/ShareTech-Regular.ttf",text_align=0.5,xalign=0.5,yalign=0.5)
-
-# Main Game bad end
-screen badend:
-    if _preferences.language == "spanish":
-        add "UI/badend_es.jpg"
-    else:
-        add "UI/badend.jpg"
-
-# BAD ENDS
-screen bad_end1: # GUNNED DOWN
-    if _preferences.language == "spanish":
-        add Text("BAD END: MATADO A DISPAROS",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: GUNNED DOWN",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end2: # CRUSHED
-    if _preferences.language == "spanish":
-        add Text("BAD END: APLASTADO",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: CRUSHED",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end_trapped: # TRAPPED 3-5
-    if _preferences.language == "spanish":
-        add Text("BAD END: ATRAPADO, Ver. [girl]",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: TRAPPED, [girl] Ver.",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end6: # FROZEN
-    if _preferences.language == "spanish":
-        add Text("BAD END: CONGELADO",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("BAD END: FROZEN",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-screen bad_end7: # EXPLOSIVE DEPRESSURIZATION
-    if _preferences.language == "spanish":
-        add Text("BAD END: DEPRESURIZACIÓN EXPLOSIVA",xalign=0.5,yalign=0.5,zpos=-1,size=90,color="a00")
-    else:
-        add Text("BAD END: EXPLOSIVE DEPRESSURIZATION",yalign=0.5,size=90,color="a00")
-
-# OTHER ENDS
-
-# WORST END: WHAT HAVE I DONE
-screen worst_end: 
-    if _preferences.language == "spanish":
-        add Text("WORST " + girl.upper() + " END:\nQUÉ HE HECHO",xalign=0.5,yalign=0.5,size=90,color="a00")
-    else:
-        add Text("WORST " + girl.upper() + " END:\nWHAT HAVE I DONE",xalign=0.5,yalign=0.5,size=90,color="a00")
-
-# NORMAL END: STILL TOGETHER / MAIDEN'S SUICIDE
-screen normal_end:
-    if girl == "Ava":
-        if _preferences.language == "spanish":
-            add Text("NORMAL " + girl.upper() + " END:\nEL SUICIDIO DE LA DONCELLA",xalign=0.5,yalign=0.5,size=90,color="fff")
-        else:
-            add Text("NORMAL " + girl.upper() + " END:\nMAIDEN’S SUICIDE",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        if _preferences.language == "spanish":
-            add Text("NORMAL " + girl.upper() + " END:\nAÚN ASÍ JUNTOS",xalign=0.5,yalign=0.5,size=90,color="fff")
-        else:
-            add Text("NORMAL " + girl.upper() + " END:\nSTILL TOGETHER",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-# ALTERNATIVE END: FUTURE WON WITH BLOOD
-screen alternate_end:
-    if _preferences.language == "spanish":
-        add Text("ALTERNATE " + girl.upper() + " END:\nFUTURO GANADO CON SANGRE",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        add Text("ALTERNATE " + girl.upper() + " END:\nFUTURE WON WITH BLOOD",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-# HAPPY END: OUR GREATEST ADVENTURE
-screen happy_end:
-    if _preferences.language == "spanish":
-        add Text("HAPPY " + girl.upper() + " END:\nNUESTRA MAYOR AVENTURA",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        add Text("HAPPY " + girl.upper() + " END:\nOUR GREATEST ADVENTURE",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-# SECRET END: TIME LORD
-screen secret_end:
-    if _preferences.language == "spanish":
-        add Text("SECRET CLAUDE END:\nSEÑOR DEL TIEMPO",xalign=0.5,yalign=0.5,size=90,color="fff")
-    else:
-        add Text("SECRET CLAUDE END:\nTIME LORD",xalign=0.5,yalign=0.5,size=90,color="fff")
-
-label restart:
-
-    $ renpy.full_restart()

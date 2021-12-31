@@ -411,10 +411,10 @@ label dlc_begin:
     #show screen selecting "Asaga," "Ava," "Sola," or "Icari"
     #Player selects from one of four girls.
     $ menu_choices = [
-                     ["Asaga","select_asaga","Asaga"],
-                     ["Ava","select_ava","Ava"],
-                     ["Sola","select_sola","Sola"],
-                     ["Icari","select_icari","Icari"],
+                     ["Asaga","select_asaga"],
+                     ["Ava","select_ava"],
+                     ["Sola","select_sola"],
+                     ["Icari","select_icari"],
                      ]
     show screen decision
     pause
@@ -439,12 +439,10 @@ label select_asaga:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Colors_main.ogg" fadeout 1.5
     
@@ -620,12 +618,10 @@ label select_ava:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Colors_main.ogg" fadeout 1.5
     scene bg bridge with dissolve
@@ -759,12 +755,10 @@ label select_sola:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Cracking_the_Code.ogg" fadeout 1.5
     
@@ -825,8 +819,8 @@ label select_sola:
     cla "I was fine with helping the Prototypes accomplish that. But then the massacre happened..."
     
     $ menu_choices = [
-                 ["All right, I trust you Claude.","select_sola_trustclaude","De acuerdo, confío en tí, Claude."],
-                 ["I don't trust you yet... but we're still going to have to work together.","select_sola_donttrustclaude","No confío en tí todavía, pero aún así vamos a tener que trabajar juntos."],
+                 [_("All right, I trust you Claude."),"select_sola_trustclaude"],
+                 [_("I don't trust you yet... but we're still going to have to work together."),"select_sola_donttrustclaude"],
                  ]
     show screen decision
     pause
@@ -933,12 +927,10 @@ label select_icari:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 63 hours until the Liberation Day Massacre, 27 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Colors_main.ogg" fadeout 1.5
     scene bg messhall with dissolve #I'm going to assume crew quarters was a misscopy
@@ -1161,8 +1153,8 @@ label firstbattleofcera:
     stop sound fadeout 1.5
     
     $ menu_choices = [
-                     ["Save the crewman.","savethecrewman","Salvar al tripulante."],
-                     ["Don't blow cover.","dontblowcover","No arruinar la cobertura."],
+                     [_("Save the crewman."),"savethecrewman"],
+                     [_("Don't blow cover."),"dontblowcover"],
                      ]
     show screen decision
     pause
@@ -1221,8 +1213,8 @@ label savethecrewman:
     "Shields looked around, and saw a pistol lying beside a fallen crewman. It would take far more than that to down a mechanized hunter drone, but it was something..."
     
     $ menu_choices = [
-                     ["Grab the pistol and attack the drone.","attackdronewithpistol","Tomar la pistola y atacar al dron."],
-                     ["Grab the pistol and fall back.","grabpistolfallback","Tomar la pistola y retirarse."],
+                     [_("Grab the pistol and attack the drone."),"attackdronewithpistol"],
+                     [_("Grab the pistol and fall back."),"grabpistolfallback"],
                      ]
     show screen decision
     pause
@@ -1272,14 +1264,13 @@ label attackdronewithpistol:
     stop music
     $persistent.unlocked_endings["BAD END 1: GUNNED DOWN"] = True
     $check_for_all_endings()
-    show screen bad_end1
+    show expression Text(_("BAD END: GUNNED DOWN"),xalign=0.5,yalign=0.5,size=90,color="a00")
     pause 3
     $dshow(34311)
     cla "Mou... Captain, if you had just listened to me and stayed inside the tunnel, this sort of thing wouldn't have happened!"
     cla "What's more, you seriously thought you could take on a mechanized hunter drone with just a pistol? I can't believe you passed officer's training like this..."
     cla "Try again, this time by either staying inside the tunnel, or choosing not to fight the drone!"
     hide claude
-    hide screen bad_end1
     jump firstbattleofcera
 
 label grabpistolfallback:
@@ -1493,8 +1484,8 @@ label dontblowcover:
     "The service gate where they had entered the room was behind them... They could use it to retreat..."
     "He also noted canisters of liquid Ongessite stored on the opposite end of the room... If he could somehow get to those..."
     $ menu_choices = [
-                    ["Fight the drone in the room.","fightdroneinroom","Luchar contra el dron dentro de la habitación."],
-                    ["Escape back into the service tunnel.","escapeintotunnel","Escapar de vuelta dentro del túnel de servicio."],
+                    [_("Fight the drone in the room."),"fightdroneinroom"],
+                    [_("Escape back into the service tunnel."),"escapeintotunnel"],
                     ]
     show screen decision
     pause
@@ -1620,7 +1611,7 @@ label escapeintotunnel:
     
     $persistent.unlocked_endings["BAD END 2: CRUSHED"] = True
     $check_for_all_endings()
-    show screen bad_end2
+    show expression Text(_("BAD END: CRUSHED"),yalign=0.5,size=90,color="a00")
     pause 3
     $dshow(32311)
     cla "Aah, this is what you get for running away into a tunnel you knew would lead straight into a fire, captain..."
@@ -1637,11 +1628,9 @@ label afterdefeatingdrone:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream",size=40) as tminus:
-        #xalign 0.5
-        #yalign 0.5
+    show expression Text(_("T-minus 53 hours before the Liberation Day Massacre, 17 hours until Chigara enters the mind stream"),size=40) as tminus:
+        xalign 0.5
+        yalign 0.5
     pause 3
     hide tminus
     "... ... ..."
@@ -1722,8 +1711,8 @@ label meetasagaathangar:
     kay "(How are we going to do that...)"
     
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","asaga_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","asaga_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"asaga_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"asaga_bodyswap"],
                     ]
     show screen decision
     pause
@@ -1860,8 +1849,8 @@ label meetsolaathangar:
     sol "Given the duration we must hold her, we must find a way to prevent anyone from realizing she has gone missing."
 
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","sola_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","sola_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"sola_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"sola_bodyswap"],
                     ]
     show screen decision
     pause
@@ -2015,8 +2004,8 @@ label meeticariathangar:
     ica "On top of all that, we've got to figure out a way to make sure nobody notices Chigara's gone missing until at least the battle begins. No doubt, the other Kayto Shields will launch a search as soon as he discovers that Chigara has vanished off the face of the ship."
 
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","icari_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","icari_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"icari_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"icari_bodyswap"],
                     ]
     show screen decision
     pause
@@ -2142,8 +2131,8 @@ label meetavaatbridge:
     $dshow(32310)
     cla "One more thing... If Chigara just vanishes from the sickbay, it's only a matter of time until someone realizes what's happened. If the other Kayto Shields hears that his love has just up and vanished, he's going to launch a ship-wide search for her."
     $ menu_choices = [
-                    ["We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste.","ava_nobodyswap","Correremos ese riesgo. Tenemos que secuestrar a Chigara cuanto antes y no hay tiempo que perder."],
-                    ["There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara...","ava_bodyswap","*Hay* ciertamente un cuerpo doble que luce casi idéntico a Chigara..."],
+                    [_("We'll just take that risk. We have to kidnap Chigara as soon as possible and there's no time to waste."),"ava_nobodyswap"],
+                    [_("There *is* a certain body double sitting in our brig right now who looks almost identical to Chigara..."),"ava_bodyswap"],
                     ]
     show screen decision
     pause
@@ -2317,12 +2306,10 @@ label distractingotherclaude:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 52 hours before the Liberation Day Massacre, 16 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 52 hours before the Liberation Day Massacre, 16 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 52 hours before the Liberation Day Massacre, 16 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     scene bg sickbay with dissolve
     
     play music "Music/Colors_sad.ogg" fadeout 1.5
@@ -2404,8 +2391,8 @@ label distractingotherclaude:
     kay "(For some reason, I have a feeling there's something important on that holo... Maybe it's related to the memories I've temporarily lost.)"
     kay "(But do I risk blowing my cover by trying to steal it?)"
     $ menu_choices = [
-                    ["Try to steal Claude's holo.","stealclaudeholo","Intentar robar el holo de Claude."],
-                    ["Leave the sickbay without the holo.","dontstealclaudeholo","Dejar la bahía médica sin el holo."],
+                    [_("Try to steal Claude's holo."),"stealclaudeholo"],
+                    [_("Leave the sickbay without the holo."),"dontstealclaudeholo"],
                     ]
     show screen decision
     pause
@@ -2745,8 +2732,8 @@ label chigarakidnapped:
     kay "(C-come to think of it... Was there ever a moment when she wasn't playing me like a fiddle during the whole time I've known her!? Argghhh...!)"
 
     $ menu_choices = [
-                    ["Claude, I'm through with being your plaything!","donttrustclaude","¡Claude, estoy cansado de ser  tu juguete!"],
-                    ["We're in this too deep now. We have to keep working together.","trustclaude","Estamos demasiado profundo en esto ahora. Tenemos que seguir trabajando juntos."],
+                    [_("Claude, I'm through with being your plaything!"),"donttrustclaude"],
+                    [_("We're in this too deep now. We have to keep working together."),"trustclaude"],
                     ]
     show screen decision
     pause
@@ -2986,12 +2973,10 @@ label capturedkidnapping:
         
         play sound "sound/drum.ogg"
 
-        time "T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"
-
-        #show expression Text("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+        show expression Text(_("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
         
         $ renpy.music.set_volume(1.0, delay=1.0, channel='music')
         
@@ -3092,8 +3077,8 @@ label capturedkidnapping:
         kay "(What do I do...)"
         
         $ menu_choices = [
-                        ["I'll just have to trust Ava...","immediatecapture_trustava","Solo tendré que confiar en Ava..."],
-                        ["I can't get captured here! I'll have to try to escape!","immediatecapture_escape","¡No puedo ser capturado aquí! ¡Tendré que intentar escapar!"],
+                        [_("I'll just have to trust Ava..."),"immediatecapture_trustava"],
+                        [_("I can't get captured here! I'll have to try to escape!"),"immediatecapture_escape"],
                         ]
         show screen decision
         pause
@@ -3410,14 +3395,15 @@ label detainedinbrig:
 
     # Ava sped up your interrogatory, no time to lose!
     if ship_power == False and girl == "Ava":
-        time "T-minus 49 hours before the Liberation Day Massacre, 13 hours until Chigara enters the mind stream"
+        show expression Text(_("T-minus 49 hours before the Liberation Day Massacre, 13 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
     else:
-        time "T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+        show expression Text(_("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
     
     play music "Music/Fallen_Angel_drone.ogg" fadeout 1.5
     
@@ -3578,12 +3564,10 @@ label badend_trapped:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus ??? hours before the Liberation Day Massacre, ??? hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus ??? hours before the Liberation Day Massacre, ??? hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus ??? hours before the Liberation Day Massacre, ??? hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     if ship_power == True and girl != "Ava":
         scene bg brig with horizontalwipe
@@ -3846,12 +3830,14 @@ label badend_trapped:
     
     if girl == "Ava":
         $persistent.unlocked_endings["BAD END 3: TRAPPED AVA VER"] = True
-    if girl == "Asaga":
-        $persistent.unlocked_endings["BAD END 4: TRAPPED ASAGA VER"] = True
+        show expression Text(_("BAD END: TRAPPED, Ava Ver."),yalign=0.5,size=90,color="a00")
     if girl == "Sola":
         $persistent.unlocked_endings["BAD END 5: TRAPPED SOLA VER"] = True
+        show expression Text(_("BAD END: TRAPPED, Sola Ver."),yalign=0.5,size=90,color="a00")
+    if girl == "Asaga":
+        $persistent.unlocked_endings["BAD END 4: TRAPPED ASAGA VER"] = True
+        show expression Text(_("BAD END: TRAPPED, Asaga Ver."),yalign=0.5,size=90,color="a00")
     $check_for_all_endings()    
-    show screen bad_end_trapped
     pause 3
     $dshow(32310)
     
@@ -3880,12 +3866,10 @@ label freedbyicari:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Destinys_Path.ogg" fadeout 1.5
     
@@ -4050,12 +4034,10 @@ label freedbyava:
         
         play sound "sound/drum.ogg"
 
-        time "T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream"
-
-        #show expression Text("T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+        show expression Text(_("T-minus 46 hours before the Liberation Day Massacre, 10 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
         
         play music "Music/Colors_of_an_Orchestra_II.ogg" fadeout 1.5
         
@@ -4233,8 +4215,8 @@ label freedbyava:
                 kay "All right... Thanks, Sola..."
                 
                 $ menu_choices = [
-                    ["We kill Chigara: First, we sneak into my office and contact Fontana. Then we get Claude to swap with this universe's Claude on the Bianca tomorrow so that Asaga kills Chigara for us.","sola_killchigarawithasaga","Matamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces hacemos que Claude se intercambie con la Claude de este universo en el Bianca mañana de forma que Asaga mate a Chigara por nosotros."],
-                    ["We capture Chigara: First, we sneak into my office and contact Fontana. Then, we confront this universe's Kayto Shields together to convince him to detain Chigara.","sola_decideconfrontshields","Capturamos a Chigara: Primero, nos escabullimos en mi oficina y contactamos a Fontana. Entonces, confrontamos al Kayto Shields de este universo juntos para convencerlo de detener a Chigara."],
+                    [_("We kill Chigara: First, we sneak into my office and contact Fontana. Then we get Claude to swap with this universe's Claude on the Bianca tomorrow so that Asaga kills Chigara for us."),"sola_killchigarawithasaga"],
+                    [_("We capture Chigara: First, we sneak into my office and contact Fontana. Then, we confront this universe's Kayto Shields together to convince him to detain Chigara."),"sola_decideconfrontshields"],
                     ] 
                 show screen decision
                 pause
@@ -4252,8 +4234,8 @@ label freedbyava:
                 kay "I know..."
                 
                 $ menu_choices = [
-                    ["We confront the other Kayto Shields and convince him to detain Chigara.","ava_decideconfrontshields","Confrontamos al Kayto Shields de este universo juntos para convencerlo de detener a Chigara."],
-                    ["We use Asaga to kill Chigara for us.","ava_killchigarawithasaga","Usamos a Asaga para que mate a Chigara por nosotros."],
+                    [_("We confront the other Kayto Shields and convince him to detain Chigara."),"ava_decideconfrontshields"],
+                    [_("We use Asaga to kill Chigara for us."),"ava_killchigarawithasaga"],
                     ]
                 show screen decision
                 pause
@@ -4350,19 +4332,20 @@ label gotobackupftl:
     
     if captured == True:
         if girl == "Ava":
-            time "T-minus 48 hours before the Liberation Day Massacre, 12 hours until Chigara enters the mind stream"
+            show expression Text(_("T-minus 48 hours before the Liberation Day Massacre, 12 hours until Chigara enters the mind stream"),size=40):
+                xalign 0.5
+                yalign 0.5
+            pause
         else:
-            time "T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"
-        #show expression Text("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+            show expression Text(_("T-minus 45 hours before the Liberation Day Massacre, 9 hours until Chigara enters the mind stream"),size=40):
+                xalign 0.5
+                yalign 0.5
+            pause
     else:
-        time "T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"
-        #show expression Text("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream",size=40):
-            #xalign 0.5
-            #yalign 0.5
-        #pause
+        show expression Text(_("T-minus 50 hours before the Liberation Day Massacre, 14 hours until Chigara enters the mind stream"),size=40):
+            xalign 0.5
+            yalign 0.5
+        pause
     
     play music "Music/Cracking_the_Code.ogg" fadeout 1.5
     
@@ -5090,7 +5073,7 @@ label gotobackupftl:
             play sound1 "sound/choirend.ogg"
             $persistent.unlocked_endings["BAD END 6: FROZEN"] = True
             $check_for_all_endings()
-            show screen bad_end6
+            show expression Text(_("BAD END: FROZEN"),yalign=0.5,size=90,color="a00")
             pause 3
             $dshow(34111)
             cla "Hmph... Captain, you made a very pivotal mistake here..."
@@ -5220,12 +5203,10 @@ label badend_deathbydecompression:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 43 hours before the Liberation Day Massacre, 7 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
         
     scene bg tunnel with dissolve
     "The pair continued their slow return to Deck 1. Gradually, the air thickened with oxygen and the temperature increased the further away they got from the ship's extremities."
@@ -5452,7 +5433,7 @@ label badend_deathbydecompression:
     
     $persistent.unlocked_endings["BAD END 7: EXPLOSIVE DEPRESSURIZATION"] = True
     $check_for_all_endings()
-    show screen bad_end7
+    show expression Text(_("BAD END: EXPLOSIVE DEPRESSURIZATION"),yalign=0.5,size=90,color="a00")
     pause 3
     $dshow(32310)
     cla "Eeah, what a gory end you met there... Explosive depressurization sure is a gnarly way to go..."
@@ -5473,12 +5454,10 @@ label restoringpower:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 47 hours before the Liberation Day Massacre, 11 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     scene bg tunnel with dissolve
     play music "music/Colors_main.ogg"  fadeout 1.5
     "After what seemed like an eternity, the pair finally returned to the ship's core. They sighed in relief as the air once again became thick with oxygen and the frost on the tunnels gradually disappeared."
@@ -6072,8 +6051,8 @@ label engineering_sola:
         kay "(The other option is making a run for it right now and escaping the ship with Sola. We could then regroup and come up with a new plan to dispatch Chigara before the massacre. Then we wouldn't need to dirty Asaga's hands. But escaping and coming up with a new plan isn't going to be a walk in the park either...)"
         kay "(What do I do...?)"
     $ menu_choices = [
-                    ["Get Asaga to kill Chigara","engineering_asagakillschigara","Hacer que Asaga mate a Chigara."],
-                    ["Escape the ship with Sola","engineering_escapewithsola","Escapar de la nave con Sola."],
+                    [_("Get Asaga to kill Chigara"),"engineering_asagakillschigara"],
+                    [_("Escape the ship with Sola"),"engineering_escapewithsola"],
                     ]
     show screen decision
     pause    
@@ -6882,12 +6861,10 @@ label endgame_awardhall:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 3 hours before the Liberation Day Massacre"
-
-    #show expression Text("T-minus 3 hours before the Liberation Day Massacre",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 3 hours before the Liberation Day Massacre"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "music/Anguish.ogg" fadeout 1.5
     
@@ -7026,8 +7003,8 @@ label endgame_awardhall:
     with dissolve
     
     $ menu_choices = [
-                    ["Pull the trigger.","pullthetrigger","Tirar del gatillo."],
-                    ["Don't pull the trigger","dontpulltrigger","No tirar del gatillo."],
+                    [_("Pull the trigger."),"pullthetrigger"],
+                    [_("Don't pull the trigger"),"dontpulltrigger"],
                     ]
     show screen decision
     pause
@@ -7153,8 +7130,7 @@ label pullthetrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen alternate_end
-        #show expression Text("ALTERNATE SOLA END:\nFUTURE WON WITH BLOOD",yalign=0.5,size=90,color="fff")
+        show expression Text(_("ALTERNATE SOLA END:\nFUTURE WON WITH BLOOD"),yalign=0.5,size=90,color="fff")
         pause 3
 
     if girl == "Asaga":
@@ -7175,8 +7151,7 @@ label pullthetrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen alternate_end
-        #show expression Text("ALTERNATE ASAGA END:\nFUTURE WON WITH BLOOD",yalign=0.5,size=90,color="fff")
+        show expression Text(_("ALTERNATE ASAGA END:\nFUTURE WON WITH BLOOD"),yalign=0.5,size=90,color="fff")
         pause 3
 
     $dshow(32210)
@@ -7335,8 +7310,7 @@ label dontpulltrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen normal_end
-        #show expression Text("NORMAL SOLA END:\nSTILL TOGETHER",yalign=0.5,size=90,color="fff")
+        show expression Text(_("NORMAL SOLA END:\nSTILL TOGETHER"),yalign=0.5,size=90,color="fff")
         
         pause 3
         
@@ -7424,8 +7398,7 @@ label dontpulltrigger:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen normal_end
-        #show expression Text("NORMAL ASAGA END:\nSTILL TOGETHER",yalign=0.5,size=90,color="fff")
+        show expression Text(_("NORMAL ASAGA END:\nSTILL TOGETHER"),yalign=0.5,size=90,color="fff")
         $chivo_process('Asaga Normal Ending')        
         pause 3
         
@@ -7934,8 +7907,7 @@ label endgame_asagakillschigara:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen worst_end
-        #show expression Text("WORST SOLA END:\nWHAT HAVE I DONE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("WORST SOLA END:\nWHAT HAVE I DONE"),yalign=0.5,size=90,color="fff")
         pause 3
         $dshow(34311)
         cla "Aaah, you sure bungled this one up... Good going, \"hero!\" you managed to avert the massacre, but lost half your pilots in the process!"
@@ -8024,8 +7996,7 @@ label endgame_asagakillschigara:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolve
-        show screen normal_end
-        #show expression Text("NORMAL AVA END:\nMAIDEN'S SUICIDE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("NORMAL AVA END:\nMAIDEN'S SUICIDE"),yalign=0.5,size=90,color="fff")
         pause 3
         $dshow(34110)
         cla "Well... You managed to prevent the massacre, but both Asaga and Chigara ended up dead."
@@ -8284,12 +8255,10 @@ label gettingclaudetobianca:
     
     play sound "sound/drum.ogg"
 
-    time "T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 44 hours before the Liberation Day Massacre, 8 hours until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     
     play music "Music/Cracking_the_Code.ogg" fadeout 1.5
     
@@ -8400,8 +8369,8 @@ label gettingclaudetobianca:
         "He looked forward, where the Bianca was waiting... And behind him, where Sola was writhing in pain with a squad of marines approaching..."
         
         $ menu_choices = [
-                    ["Get Claude into the Bianca.","getclaudebianca","Hacer que Claude entre al Bianca."],
-                    ["Rescue Sola.","rescuesola","Rescatar a Sola."],
+                    [_("Get Claude into the Bianca."),"getclaudebianca"],
+                    [_("Rescue Sola."),"rescuesola"],
                     ]
         show screen decision
         pause
@@ -8553,12 +8522,10 @@ label reachbianca:
     #Hallway -  "T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"
     scene black with dissolve
 
-    time "T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"
-
-    #show expression Text("T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream",size=40):
-        #xalign 0.5
-        #yalign 0.5
-    #pause
+    show expression Text(_("T-minus 36 hours before the Liberation Day Massacre, 10 minutes until Chigara enters the mind stream"),size=40):
+        xalign 0.5
+        yalign 0.5
+    pause
     scene bg hallway with dissolve
     "Shields groggily woke up... He felt himself being dragged along the hallway of the ship..."
     "He looked around, his consciousness still fading in and out..."
@@ -9632,8 +9599,7 @@ label claude_end:  #secrats!
     $check_for_all_endings()
     stop music fadeout 1
     scene black with dissolve
-    show screen secret_end
-    #show expression Text("SECRET CLAUDE END:\nTIME LORD",yalign=0.5,size=90,color="fff")
+    show expression Text(_("SECRET CLAUDE END:\nTIME LORD"),yalign=0.5,size=90,color="fff")
     pause 3
     
     $dshow("claude boobs happy neutral neutral",ypos=1600)
@@ -9844,10 +9810,10 @@ label confrontationwithfate:
     ava "The captain has gone... insane!"
     "The marines looked around in a panic, at a loss as to what to do."
 
-    if girl != Icari:
+    if girl != "Icari":
         "On one hand, the captain of the ship had just relieved the commander of her authority, but it was clear from his mad raving that their captain was no longer fit to lead them."
 
-    if girl == Icari:
+    if girl == "Icari":
         "On one hand, the captain of the ship was the highest ranked officer, hence they had to obbey his orders, but it was clear from his mad raving that their captain was no longer fit to lead them."
 
     kay "Y-YOU MORON!!!"
@@ -13360,8 +13326,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY ASAGA END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY ASAGA END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
     if girl == "Sola":
     
@@ -13370,8 +13335,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY SOLA END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY SOLA END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
     if girl == "Ava":
         $persistent.unlocked_endings["AVA HAPPY END: OUR GREATEST ADVENTURE YET"] = True
@@ -13379,8 +13343,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY AVA END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY AVA END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
     if girl == "Icari":    
         $persistent.unlocked_endings["ICARI HAPPY END: OUR GREATEST ADVENTURE YET"] = True
@@ -13388,8 +13351,7 @@ label theendfornow:
         $check_for_all_endings()
         stop music fadeout 1
         scene black with dissolvemedium
-        show screen happy_end
-        #show expression Text("HAPPY ICARI END:\nOUR GREATEST ADVENTURE",yalign=0.5,size=90,color="fff")
+        show expression Text(_("HAPPY ICARI END:\nOUR GREATEST ADVENTURE"),yalign=0.5,size=90,color="fff")
         pause 3
         
     $renpy.full_restart()

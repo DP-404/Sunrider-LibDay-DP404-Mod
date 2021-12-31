@@ -2,41 +2,9 @@
 
 translate spanish strings:
 
-    # renpy/common/00action_file.rpy:353
-    old "Save slot %s: [text]"
-    new "Guardar en ranura %s: [text]"
-
-    # renpy/common/00action_file.rpy:434
-    old "Load slot %s: [text]"
-    new "Cargar ranura %s: [text]"
-
-    # renpy/common/00action_file.rpy:487
-    old "Delete slot [text]"
-    new "Eliminar ranura %s: [text]"
-
-    # renpy/common/00action_file.rpy:631
-    old "Automatic saves"
-    new "Auto"
-
-    # renpy/common/00action_file.rpy:631
-    old "Quick saves"
-    new "Rápido"
-
     # renpy/common/00action_file.rpy:906
     old "Quick save complete."
     new "Guardado rápido completado"
-
-    # renpy/common/00action_file.rpy:924
-    old "Quick save."
-    new "Guardado rápido"
-
-    # renpy/common/00action_file.rpy:943
-    old "Quick load."
-    new "Cargado rápido"
-
-    # renpy/common/00action_other.rpy:375
-    old "Language [text]"
-    new "Language [text]"
 
     # renpy/common/00gui.rpy:374
     old "Are you sure?"
@@ -72,7 +40,7 @@ translate spanish strings:
 
     # renpy/common/00library.rpy:195
     old "Skip Mode"
-    new "Skip Mode"
+    new "Modo Saltar"
 
     # renpy/common/00preferences.rpy:551
     old "Self-voicing enabled. Press 'v' to unable."

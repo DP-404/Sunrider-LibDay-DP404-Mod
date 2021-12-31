@@ -347,12 +347,8 @@ label mission0_inits:
         
         BM.money = 3000
         BM.cmd = 4000
-        if _preferences.language == "spanish":
-            BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
-            BM.orders["RESURRECCIÓN"] = [2500,'resurrection']
-        else:
-            BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
-            BM.orders["RESURRECTION"] = [2500,'resurrection']
+        BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
+        BM.orders["RESURRECTION"] = [2500,'resurrection']
 
         sunrider_weapons = [SunriderLaser(),SunriderKinetic(),SunriderMissile(),SunriderRocket(),SunriderAssault(),SunriderPulse()]
         sunrider = create_ship(Sunrider(),(1,1),sunrider_weapons)
@@ -482,12 +478,8 @@ label mission0_inits:
         alliancebs2 = create_ship(AllianceBattleship(),(1,1))
         alliancecruiser1 = create_ship(AllianceCruiser(),(1,1))
         alliancecruiser2 = create_ship(AllianceCruiser(),(1,1))
-        if _preferences.language == "spanish":
-            del BM.orders['CAÑÓN VANGUARDIA']
-            del BM.orders['SALTO DE CORTO RANGO']
-        else:
-            del BM.orders['VANGUARD CANNON']
-            del BM.orders['SHORT RANGE WARP']
+        del BM.orders['VANGUARD CANNON']
+        del BM.orders['SHORT RANGE WARP']
 
         
 
@@ -526,12 +518,8 @@ label mission1_inits:
         
         BM.money = 3000
         BM.cmd = 0
-        if _preferences.language == "spanish":
-            BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
-            BM.orders["RESURRECCIÓN"] = [2500,'resurrection']
-        else:
-            BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
-            BM.orders["RESURRECTION"] = [2500,'resurrection']
+        BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
+        BM.orders["RESURRECTION"] = [2500,'resurrection']
 
         sunrider_weapons = [SunriderLaser(),SunriderKinetic(),SunriderMissile(),SunriderRocket(),SunriderAssault(),SunriderPulse()]
         sunrider = create_ship(Sunrider(),(1,1),sunrider_weapons)
@@ -558,12 +546,8 @@ label mission1_inits:
             BM.ships.remove(sunrider)
             alliancebs1 = create_ship(AllianceBattleship(),(5,5))
             alliancecruiser1 = create_ship(AllianceCruiser(),(10,13))
-            if _preferences.language == "spanish":
-                del BM.orders['CAÑÓN VANGUARDIA']
-                del BM.orders['SALTO DE CORTO RANGO']
-            else:
-                del BM.orders['VANGUARD CANNON']
-                del BM.orders['SHORT RANGE WARP']
+            del BM.orders['VANGUARD CANNON']
+            del BM.orders['SHORT RANGE WARP']
 
         blackjack_weapons = [BlackjackMelee(),BlackjackLaser(),BlackjackAssault(),BlackjackMissile(),BlackjackPulse()]
         blackjack = create_ship(BlackJack(),(1,2),blackjack_weapons)
@@ -689,14 +673,9 @@ label mission2_inits:
 
         player_ships.remove(sunrider)
         sunrider.location = None
-        if _preferences.language == "spanish":
-            del BM.orders['CAÑÓN VANGUARDIA']
-            del BM.orders['SALTO DE CORTO RANGO']
-            del BM.orders['DRONES REPARADORES']
-        else:
-            del BM.orders['VANGUARD CANNON']
-            del BM.orders['SHORT RANGE WARP']
-            del BM.orders['REPAIR DRONES']
+        del BM.orders['VANGUARD CANNON']
+        del BM.orders['SHORT RANGE WARP']
+        del BM.orders['REPAIR DRONES']
         
         create_ship(PactMook(),(12,5))
         create_ship(PactMook(),(11,6))
@@ -1031,16 +1010,10 @@ label mission10_inits:
         enemy_ships = []
         destroyed_ships = []
         
-        if 'SALTO DE CORTO RANGO' in BM.orders:
-            del BM.orders['SALTO DE CORTO RANGO']
         if 'SHORT RANGE WARP' in BM.orders:
             del BM.orders['SHORT RANGE WARP']
-        if 'MÁXIMO PODER A LOS MOTORES' in BM.orders:
-            del BM.orders['MÁXIMO PODER A LOS MOTORES']
         if 'ALL POWER TO ENGINES' in BM.orders:
             del BM.orders['ALL POWER TO ENGINES']
-        if 'INVOCAR NAVE DE BATALLA' in BM.orders:
-            del BM.orders['INVOCAR NAVE DE BATALLA']
         if 'SUMMON BATTLESHIP' in BM.orders:
             del BM.orders['SUMMON BATTLESHIP']
         

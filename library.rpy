@@ -2012,12 +2012,12 @@ init 2 python: #Ships
                 
             #this unit is immune to disable
             if buff.name == "Disabled":
-                show_message("¡El jefe es inmune!")
+                show_message(_("The boss is immune!"))
                 return False
                 
             buff = buff(self)
             if buff.curse:
-                show_message("¡La maldición es solo la mitad de efectiva de lo normal!")
+                show_message(_("The curse is only half as effective as normal"))
             
             if self.has_buff(buff.name):
                 if buff.cumulative:
@@ -2060,10 +2060,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'Trinities'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
+            Mitigated by enemy shields.""")
 
     class SunriderMissile(Missile):
         def __init__(self):
@@ -2077,11 +2076,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'Sunrider_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
 
     class SunriderKinetic(Kinetic):
         def __init__(self):
@@ -2093,10 +2091,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'Sunrider\'s main guns'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Kinéticos asestan un golpe, pero son imprecisos contra distantes o pequeños enemigos.\nLa armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
     class SunriderPulse(Laser):
         def __init__(self):
@@ -2110,11 +2107,10 @@ init 2 python: ### Weapons ###
             self.attack_voice = ["sound/Voice/Ava/Ava Attacking Lasers 3.ogg",
                                 "sound/Voice/Ava/Ava Attacking Lasers 4.ogg"]
             self.lbl = Image('Battle UI/button_pulse.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a high volume of laser pulses. Even if the enemy evades one bolt,
             others may still strike. Collectively, they are more powerful than
-            stream lasers, but cannot pierce armor. Also mitigated by shields."""
-            self.tooltip_es = "Dispara un alto volumen de pulsos de láser. Incluso si el enemigo evade un rayo,\notros podrían golpearlo. Colectivamente, ellos son mas poderosos que rayos láseres,\npero no pueden atravesar la armadura. También son mitigados por escudos."
+            stream lasers, but cannot pierce armor. Also mitigated by shields.""")
 
     class SunriderAssault(Kinetic):
         def __init__(self):
@@ -2126,12 +2122,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'Sunrider\'s Flak'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
     class SunriderRocket(Missile):
         def __init__(self):
@@ -2146,10 +2141,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Rocket'
             self.name = 'Thermonuclear warhead'
             self.lbl = Image('Battle UI/button_rocket.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a large rocket at the enemy topped with a devastating warhead.
-            Highly limited in supply. Can be shot down by enemy flak."""
-            self.tooltip_es = "Dispara un largo torpedo al enemigo con una devastadora cabeza de guerra.\nÁltamente limitado en suministros. Puede ser derribado por las\ntorretas antiaéreas del enemigo."
+            Highly limited in supply. Can be shot down by enemy flak.""")
             
     class SunriderMIRV(SuperRocket):
         def __init__(self):
@@ -2157,10 +2151,9 @@ init 2 python: ### Weapons ###
             self.damage = 1200
             self.energy_use = 30
             self.splash_reduction = 0.5
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a large MIRV rocket at the enemy topped with devastating warheads.
-            Deals half splash damage. Never misses, but can be shot down by enemy flak."""
-            self.tooltip_es = "Dispara un largo proyectil MIRV al enemigo encabezado con una devastadora cabeza de guerra.\nProvoca la mitad del daño en área. Nunca falla, pero puede ser derribado por las torretas antiaéreas enemigas."
+            Deals half splash damage. Never misses, but can be shot down by enemy flak.""")
 
 ########################RYUVIAN FALCON
 
@@ -2174,12 +2167,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'Falcon Punch'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             While nowhere as powerful as the original, mounting such powerful
             cannons onto the Falcon's light frame was a feat of engineering
             in of itself.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Mientras nada fue tan poderoso como lo original, montar cañones tan\npoderosos en la armadura ligera del Falcon fue una proeza de ingeniería\npor sí sola. La armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
     class RyuvianFalconPulse(Laser):
         def __init__(self):
@@ -2191,12 +2183,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Pulse'
             self.name = 'Sunrider_Pulse'
             self.lbl = Image('Battle UI/button_pulse.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a high volume of laser pulses. Even if the enemy evades one bolt,
             others may still strike. Collectively, they are more powerful than
-            stream lasers, but cannot pierce armor. Also mitigated by shields."""
-            self.tooltip_es = "Dispara un alto volumen de pulsos de láser. Incluso si el enemigo evade un rayo,\notros podrían golpearlo. Colectivamente, ellos son mas poderosos que rayos láseres,\npero no pueden atravesar la armadura. También son mitigados por escudos."
-
+            stream lasers, but cannot pierce armor. Also mitigated by shields.""")
 
 ##############ALLIANCE CRUISER WEAPONS
     class AllianceCruiserLaser(Laser):
@@ -2209,10 +2199,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'AllianceCruiser_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
+            Mitigated by enemy shields.""")
 
     class AllianceCruiserMissile(Missile):
         def __init__(self):
@@ -2226,11 +2215,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'AllianceCruiser_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
 
     class AllianceCruiserKinetic(Kinetic):
         def __init__(self):
@@ -2242,10 +2230,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'AllianceCruiser_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Kinéticos asestan un golpe, pero son imprecisos contra distantes o pequeños enemigos.\nLa armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
     class AllianceCruiserAssault(Kinetic):
         def __init__(self):
@@ -2257,12 +2244,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'AllianceCruiser_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
 ##############ALLIANCE INFANTRY WEAPONS
 
@@ -2278,11 +2264,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'AllianceInfantry_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
 
     class AllianceInfantryKinetic(Kinetic):
         def __init__(self):
@@ -2294,12 +2279,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'AllianceInfantry_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Following subpar performance by Alliance Infantry platoons against heavy
             PACT armor, select squadrons were issued high powered anti-material
             rifles. Preliminary reports indicate improved hull penetration, albeit at the cost
-            of reducing the ryder's speed and anti-ryder capabilities."""
-            self.tooltip_es = "Tras el impar desempeño de los pelotones de Infantería de la Alianza contra las armaduras\npesadas del PACT, escuadrones selectos fueron equipados con rifles de alto poder\nanti-material. Reportes preeliminares indican un incremento en la penetración de la coraza,\na costa de reducir la velocidad del ryder y sus capacidades anti-ryder."
+            of reducing the ryder's speed and anti-ryder capabilities.""")
 
     class AllianceInfantryAssault(Kinetic):
         def __init__(self):
@@ -2311,13 +2295,12 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'AllianceCruiser_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
-            
+            but loses effectiveness against sustained barrages.""")
+
 #################################CERA GUNBOAT WEAPONS
 
     class CeraGunboatAssault(Kinetic):
@@ -2330,12 +2313,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'CeraGunboat_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
 #############################UNION BATTLESHIP WEAPONS
 
@@ -2349,11 +2331,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'AllianceBattleship_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             The Union asteroid miner features powerful nose mounted lasers used to cut up 
             ore rich asteroids. Its possible military applications are vigoriously denied by 
-            the Union's legal team. Mitigated by enemy shields."""
-            self.tooltip_es = "Los mineros de asteroides de la Unión presentan poderosos láseres delanteros montados que solían cortar\nasteroides ricos en minerales. Sus posibles aplicaciones militares son vigorozamente rechazadas por\nel equipo legal de la Unión. Mitigados por los escudos enemigos."
+            the Union's legal team. Mitigated by enemy shields.""")
 
     class UnionBattleshipKinetic(Kinetic):
         def __init__(self):
@@ -2365,11 +2346,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'UnionBattleship_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             A conspicous warning to pirates and Neutral Rim tyrants alike. 
             However, less effective compared to Alliance guns for legal and PR reasons.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Una visible advertencia tanto a piratas como a tiranos del Margen Neutral.\nAún asi, menos efectiva comparada con las armas de la alianza por razones legales y PR.\nLa armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
     class UnionBattleshipAssault(Kinetic):
         def __init__(self):
@@ -2381,11 +2361,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'UnionBattleship_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Rows upon rows of flak guns counter opportunistic pirates who primarily use smaller crafts
             and torpedoes. Armor is twice as effective against assault. Also used to shoot
-            down incoming enemy missiles, but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Fila tras fila de armas antiaéreas contrarrestana piratas oportunistas que usan principalmente pequeñas naves\ny torpedos. La armadura es doblemente efectiva contra asalto. También usado para derribar\nmisiles enemigos entrantes, pero pierde efectividad contra barreras sustanciadas."
+            down incoming enemy missiles, but loses effectiveness against sustained barrages.""")
 
 ##############ALLIANCE BATTLESHIP WEAPONS
     class AllianceBattleshipLaser(Laser):
@@ -2398,10 +2377,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'AllianceBattleship_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
+            Mitigated by enemy shields.""")
 
     class AllianceBattleshipMissile(Missile):
         def __init__(self):
@@ -2415,11 +2393,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'AllianceBattleship_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
 
     class AllianceBattleshipKinetic(Kinetic):
         def __init__(self):
@@ -2431,10 +2408,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'AllianceBattleship_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Kinéticos asestan un golpe, pero son imprecisos contra distantes o pequeños enemigos.\nLa armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
     class AllianceBattleshipCannon(Kinetic):
         def __init__(self):
@@ -2447,11 +2423,10 @@ init 2 python: ### Weapons ###
             self.name = 'AllianceBattleship_Cannon'
             self.lbl = Image('Battle UI/button_cannon.png')
             self.animation_name = 'kinetic2'
-            self.tooltip = """
+            self.tooltip = _("""
             The ultimate in interstellar destruction. Can punch holes through
             the toughest armor, but requires an enormous amount of energy. Ineffective against
-            small targets."""
-            self.tooltip_es = "Lo ultimo en destruccion interestelar. Puede crear agujeros a traves de\nlas mas duras armaduras, pero requiere enorme cantidad de energia.\nInefectivo contra objetivos pequeños."
+            small targets.""")
 
     class AllianceBattleshipAssault(Kinetic):
         def __init__(self):
@@ -2463,12 +2438,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'AllianceBattleship_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
 ##############ALLIANCE CARRIER WEAPONS
 
@@ -2482,11 +2456,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'AllianceCarrier_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             The behemoth Alliance carrier has been retrofitted to mount
             enough deck guns to simultaneously challenge entire fleets. Approaching
-            this titan with capital ships is highly inadvisable."""
-            self.tooltip_es = "El enorme carguero de la Alianza ha sido reconstruido con nuevas partes para montar\nsuficientes armas en la cubierta para enfrentarse simultáneamente a flotas enteras. Acercarse\na este titán con naves capitales es áltamente no recomendable."
+            this titan with capital ships is highly inadvisable.""")
 
     class AllianceCarrierAssault(Kinetic):
         def __init__(self):
@@ -2498,13 +2471,12 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'AllianceCarrier_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
-            
+            but loses effectiveness against sustained barrages.""")
+
     class AllianceCarrierRepair(Support):
         def __init__(self):
             Support.__init__(self)
@@ -2516,10 +2488,9 @@ init 2 python: ### Weapons ###
             self.lbl = Image('Battle UI/button_repair.png')
             self.max_range = 1
             self.target_type_restriction = ['Ryder']
-            self.tooltip = """
-            Restores approximately 400 HP to an adjacent ryder."""
-            self.tooltip_es = "Restaura aproximadamente 400 HP a un ryder adyacente."
-            
+            self.tooltip = _("""
+            Restores approximately 400 HP to an adjacent ryder.""")
+
 ###################BLACK JACK WEAPONS
 
     class BlackjackLaser(Laser):
@@ -2532,11 +2503,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'Blackjack_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
-
+            Mitigated by enemy shields.""")
 
     class BlackjackMissile(Missile):
         def __init__(self):
@@ -2550,12 +2519,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'Blackjack_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.
-            """
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
 
     class BlackjackPulse(Laser):
         def __init__(self):
@@ -2567,11 +2534,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Pulse'
             self.name = 'Blackjack_Pulse'
             self.lbl = Image('Battle UI/button_pulse.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a high volume of laser pulses. Even if the enemy evades one bolt,
             others may still strike. Collectively, they are more powerful than
-            stream lasers, but cannot pierce armor. Also mitigated by shields."""
-            self.tooltip_es = "Dispara un alto volumen de pulsos de láser. Incluso si el enemigo evade un rayo,\notros podrían golpearlo. Colectivamente, ellos son mas poderosos que rayos láseres,\npero no pueden atravesar la armadura. También son mitigados por escudos."
+            stream lasers, but cannot pierce armor. Also mitigated by shields.""")
 
     class BlackjackAssault(Kinetic):
         def __init__(self):
@@ -2583,12 +2549,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'Blackjack_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
     class BlackjackMelee(Melee):
         def __init__(self):
@@ -2602,11 +2567,10 @@ init 2 python: ### Weapons ###
             self.type = 'Melee'
             self.shot_count = 1
             self.lbl = Image('Battle UI/button_melee.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Slice an enemy ryder for devastating damage. However, can only be used on adjacent
-            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."""
-            self.tooltip_es = "Corta a un ryder enemigo causando un daño devastador. De cualquier forma, solo puede ser usada en\nryders adyacentes. Moverse directamente hacia un ryder enemigo activara el contraataque del enemigo."
-            
+            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack.""")
+
     class BlackjackKinetic(Kinetic):
         def __init__(self):
             Kinetic.__init__(self)
@@ -2617,10 +2581,8 @@ init 2 python: ### Weapons ###
             self.accuracy = 65
             self.wtype = 'Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
-            These armor penetrating rounds are substantially more effective against armored targets."""   
-            self.tooltip_es = "Estas rondas penetradoras de armaduras son sustancialmente más efectivas contra objetivos blindados."            
-
+            self.tooltip = _("""
+            These armor penetrating rounds are substantially more effective against armored targets.""")
 
 #############################################LIBERTY WEAPONS
 
@@ -2634,11 +2596,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'Liberty_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
-
+            Mitigated by enemy shields.""")
 
 ###################PALADIN WEAPONS
 
@@ -2654,11 +2614,10 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'Paladin_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
 
     class PaladinAssault(Kinetic):
         def __init__(self):
@@ -2670,13 +2629,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'Paladin_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
-
+            but loses effectiveness against sustained barrages.""")
 
     class PaladinKinetic(Kinetic):
         def __init__(self):
@@ -2688,10 +2645,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'Paladin_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Kinéticos asestan un golpe, pero son imprecisos contra distantes o pequeños enemigos.\nLa armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
 ################################################FRIENDLY ASSAULT CARRIER
 
@@ -2705,10 +2661,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'Friendly_PACTAssaultCarrier_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
+            Mitigated by enemy shields.""")
 
     class FriendlyPACTAssaultCarrierKinetic(Kinetic):
         def __init__(self):
@@ -2720,10 +2675,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'Friendly_PACTAssaultCarrier_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Kinéticos asestan un golpe, pero son imprecisos contra distantes o pequeños enemigos.\nLa armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
     class FriendlyPACTAssaultCarrierAssault(Kinetic):
         def __init__(self):
@@ -2735,12 +2689,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'Friendly_PACTAssaultCarrier_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
     class FriendlyPACTAssaultCarrierMissile(Missile):
         def __init__(self):
@@ -2754,12 +2707,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'Friendly_PACTAssaultCarrier_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
-            
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
+
 #############################################################FRIENDLY FAST CRUISER
 
     class FriendlyPACTFastCruiserKinetic(Kinetic):
@@ -2772,10 +2724,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Kinetic'
             self.name = 'Friendly_PACTFastCruiser_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
-            self.tooltip_es = "Kinéticos asestan un golpe, pero son imprecisos contra distantes o pequeños enemigos.\nLa armadura es el doble de efectiva al mitigar armamento kinético."
+            Armor is twice as effective at mitigating kinetic weaponry.""")
 
     class FriendlyPACTFastCruiserAssault(Kinetic):
         def __init__(self):
@@ -2787,13 +2738,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'Friendly_PACTFastCruiser_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages.""" 
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."           
-
+            but loses effectiveness against sustained barrages.""")
 
 ########################################################FRIENDLY PACT ELITE
 
@@ -2807,12 +2756,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Missile'
             self.name = 'Friendly_PACTElite_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
-            
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
+
     class FriendlyPACTEliteAssault(Kinetic):
         def __init__(self):
             Kinetic.__init__(self)
@@ -2824,12 +2772,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'Friendly_PACTElite_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""  
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."           
+            but loses effectiveness against sustained barrages.""")
 
     class FriendlyPACTEliteLaser(Laser):
         def __init__(self):
@@ -2840,10 +2787,9 @@ init 2 python: ### Weapons ###
             self.shot_count = 1
             self.name = 'Friendly_PACTElite_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
+            Mitigated by enemy shields.""")
 
     class FriendlyPACTEliteMelee(Melee):
         def __init__(self):
@@ -2858,10 +2804,9 @@ init 2 python: ### Weapons ###
             self.type = 'Melee'
             self.shot_count = 1
             self.lbl = Image('Battle UI/button_melee.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Slice an enemy ryder for devastating damage. However, can only be used on adjacent
-            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."""
-            self.tooltip_es = "Corta a un ryder enemigo causando un daño devastador. De cualquier forma, solo puede ser usada en\nryders adyacentes. Moverse directamente hacia un ryder enemigo activara el contraataque del enemigo."
+            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack.""")
 
 ############################################## FRIENDLY PACT SUPPORT
 
@@ -2915,12 +2860,10 @@ init 2 python: ### Weapons ###
             self.accuracy = 80
             self.wtype = 'Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Fires a barrage of guided missiles at the enemy. While individually weak,
             their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.
-            """
-            self.tooltip_es = "Dispara una barrera de misiles guiados al enemigo. Siendo débiles individualmente, sus largos números\nproveen un pesado poder de fuego, y gran precisión incluso a largo rango. Limitados por suministros.\nLa artillería antiaérea del enemigo y armaduras pesadas mitigan a los misiles."
+            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.""")
 
     class HavocAssault(Kinetic):
         def __init__(self):
@@ -2931,12 +2874,11 @@ init 2 python: ### Weapons ###
             self.accuracy = 70
             self.wtype = 'Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
     class HavocRocket(Missile):
         def __init__(self):
@@ -2961,10 +2903,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Melee'
             self.shot_count = 10
             self.lbl = Image('Battle UI/button_melee.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Slice an enemy ryder for devastating damage. However, can only be used on adjacent
-            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."""
-            self.tooltip_es = "Corta a un ryder enemigo causando un daño devastador. De cualquier forma, solo puede ser usada en\nryders adyacentes. Moverse directamente hacia un ryder enemigo activara el contraataque del enemigo."
+            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack.""")
 
 ########################################## PIRATE BOMBER
 
@@ -3397,12 +3338,9 @@ init 2 python: ### Weapons ###
             self.name = 'Repair I'
             self.shot_count = 1
             self.lbl = Image('Battle UI/button_repair.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Restores approximately 300 HP to target.
-            Has unlimited range."""
-            self.tooltip_es = """
-            Restaura aproximadamente 300 HP al objetivo.
-            Tiene rango ilimitado."""
+            Has unlimited range.""")
 
     class DisableLite(Curse): #halves available EN
         def __init__(self):
@@ -3415,10 +3353,9 @@ init 2 python: ### Weapons ###
             self.buff_duration = 2
             self.name = 'Disable Lite'
             self.lbl = Image('Battle UI/button_disable.png')
-            self.tooltip = """
+            self.tooltip = _("""
             The target's abilities now cost twice as much EN.
-            """
-            self.tooltip_es = "Las habilidades del objetivo ahora cuestan el doble de EN."
+            """)
 
     class PactRestore(Restore):
         def __init__(self):
@@ -3426,10 +3363,9 @@ init 2 python: ### Weapons ###
             self.energy_use = 60
             self.name = 'Restore'
             self.lbl = Image('Battle UI/button_restore.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Removes all enemy status ailments from the target.
-            Has unlimited range."""
-            self.tooltip_es = "Remueve todos los estados alterados enemigos del objetivo.\nTiene rango ilimitado."
+            Has unlimited range.""")
 
     class PactFlakOff(Curse):
         def __init__(self):
@@ -3443,9 +3379,8 @@ init 2 python: ### Weapons ###
             self.buff_duration = 2
             self.name = 'Flak Off'
             self.lbl = Image('Battle UI/button_flak.png')
-            self.tooltip = """
-            The target can no longer counter attack or fire flak at missiles for two turns."""
-            self.tooltip_es = "El objetivo no puede contraatacar ni disparar artillería antiaérea a misiles por dos turnos."
+            self.tooltip = _("""
+            The target can no longer counter attack or fire flak at missiles for two turns.""")
 
     class PactShutOff(Curse):
         def __init__(self):
@@ -3459,10 +3394,8 @@ init 2 python: ### Weapons ###
             self.buff_duration = 2
             self.name = 'Shield Down'
             self.lbl = Image('Battle UI/button_shutoff.png')
-            self.tooltip = """
-            Deactivates the target's shields for two turns."""
-            self.tooltip_es = "Desactiva los escudos del objetivo por dos turnos."
-
+            self.tooltip = _("""
+            Deactivates the target's shields for two turns.""")
 
 ############################################## PIRATE BASE
 
@@ -3591,12 +3524,11 @@ init 2 python: ### Weapons ###
             self.wtype = 'Assault'
             self.name = 'Phoenix_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Assault guns spray explosive low caliber rounds at the enemy. Even if
             the enemy evades one round, others may hit. Armor is twice as
             effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
-            self.tooltip_es = "Armas de Asalto disparan rondas explosivos de bajo calibre al enemigo. Incluso si\nel enemigo evade una ronda, otras podrían golpearlo. La Armadura es el doble de\nefectiva contra Asalto. También pueden ser usadas para derribar misiles enemigos,\npero pierde efectividad contra barreras sustanciadas."
+            but loses effectiveness against sustained barrages.""")
 
     class PhoenixMelee(Melee):
         def __init__(self):
@@ -3611,11 +3543,9 @@ init 2 python: ### Weapons ###
             self.type = 'Melee'
             self.shot_count = 2
             self.lbl = Image('Battle UI/button_melee.png')
-            self.tooltip = """ 
+            self.tooltip = _("""
             Slice an enemy ryder for devastating damage. However, can only be used on adjacent
-            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."""
-            self.tooltip_es = "Corta a un ryder enemigo causando un dano devastador. De cualquier forma, solo puede ser usada en ryders adyacentes.\nMoverse directamente hacia un ryder enemigo activará el contraataque del enemigo."
-
+            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack.""")
 
  ###########################################PHOENIX ENEMY
 
@@ -3641,10 +3571,9 @@ init 2 python: ### Weapons ###
             self.energy_use = 100
             self.shot_count = 1
             self.accuracy = 150
-            self.tooltip = """
+            self.tooltip = _("""
             Sola\'s rifle is an elegant weapon from a more civilized age.
-            Incredibly powerful and accurate weapon, but demands much energy."""
-            self.tooltip_es = "El rifle de Sola es un arma de una edad mas civilizada.\nUn arma increíblemente poderosa y precisa, pero demanda mucha energía."
+            Incredibly powerful and accurate weapon, but demands much energy.""")
 
 ################################################### BIANCA
 
@@ -3659,11 +3588,9 @@ init 2 python: ### Weapons ###
             self.force_counter = True
             self.name = 'Bianca Shotgun'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Provides reliable firepower, but highly inaccurate unless the target
-            is nearby and large. Can also be used for blindside attacks."""
-            self.tooltip_es = "Provee un seguro poder de fuego, pero áltamente impreciso sin importar si\nel objetivo esta cerca o lejos. Puede ser usada para contraataques."
-
+            is nearby and large. Can also be used for blindside attacks.""")
 
 ##################################################### UNION FRIGATE
 
@@ -3678,10 +3605,9 @@ init 2 python: ### Weapons ###
             self.wtype = 'Laser'
             self.name = 'Trinities'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
-            self.tooltip_es = "Los Láseres tienen alta precisión incluso a largas distancias,\npero pierden poder de fuego. Mitigados por los escudos enemigos."
+            Mitigated by enemy shields.""")
 
 
 ###################################################NIGHTMARE ASCENDANT FLIER
@@ -4073,9 +3999,8 @@ init 2 python: ### Weapons ###
 init 2 python: ### Buffs ###
 
     class FullForward(Buff):
-        name = "Full Forward"
-        tooltip = "Increases damage by 20% and accuracy by 15%"
-        tooltip_es = "Incrementa en daño en un 20% y la precisión en un 15%"
+        name = _("Full Forward")
+        tooltip = _("Increases damage by 20% and accuracy by 15%")
         affected_stats = ['damage','accuracy']
         duration = 3
         
@@ -4089,9 +4014,8 @@ init 2 python: ### Buffs ###
                 return int(v * 1.20)
                 
     class AllGuard(Buff):
-        name = "All Guard"
-        tooltip = "Increases flak by 20%, shield generation by 10% and evasion by 10%."
-        tooltip_es = "Mejora las torretas antiaéreas en un 20%, la generacion de escudo en un 10% y la evasión en un 10%."
+        name = _("All Guard")
+        tooltip = _("Increases flak by 20%, shield generation by 10% and evasion by 10%.")
         affected_stats = ['flak','shield_generation','evasion']
         duration = 3
         
@@ -4108,9 +4032,8 @@ init 2 python: ### Buffs ###
                 return v + 10
                 
     class InjectionRods(Buff):
-        name = "All Power To Engines"
-        tooltip = "movement energy cost is halved for the duration"
-        tooltip_es = "El coste de energia por movimiento es reducido a la mitad mientras dure."
+        name = _("All Power To Engines")
+        tooltip = _("movement energy cost is halved for the duration")
         affected_stats = ['move_cost']
         duration = 2
         
@@ -4122,8 +4045,8 @@ init 2 python: ### Buffs ###
                 return int(v / 2)
                 
     class AccuracyUpB(Buff):
-        name = "Aim Up"
-        tooltip_es = "Incrementa la precisión en 25 puntos."
+        name = _("Aim Up")
+        tooltip = _("Increases accuracy by 25.")
         affected_stats = ['accuracy']
         duration = 3
         
@@ -4134,9 +4057,8 @@ init 2 python: ### Buffs ###
             return v + 25
             
     class FlakUpB(Buff):
-        name = "Cover"
-        tooltip = "Provide coordinated cover fire for the selected unit, boosting its flak by 15."
-        tooltip_es = "Provee una cobertura de fuego coordinada a la unidad seleccionada, mejorando sus torretas antiaéreas en 15."
+        name = _("Cover")
+        tooltip = _("Provide coordinated cover fire for the selected unit, boosting its flak by 15.")
         affected_stats = ['flak']
         duration = 2
         
@@ -4147,9 +4069,8 @@ init 2 python: ### Buffs ###
             return v + 15
             
     class Sentinel(Buff):
-        name = "Sentinel"
-        tooltip = "Drastically increases armor and increases the chance of enemies targeting this unit."
-        tooltip_es = "Incrementa drásticamente la armadura y la probabilidad de que los objetivos apunten a esta unidad."
+        name = _("Sentinel")
+        tooltip = _("Drastically increases armor and increases the chance of enemies targeting this unit.")
         affected_stats = ['armor','hate']
         
         duration = 2
@@ -4164,9 +4085,8 @@ init 2 python: ### Buffs ###
                 return (v+500) * 8
             
     class DamageUpB(Buff):
-        name = "Damage Up"
-        tooltip = "Increases damage by 30%."
-        tooltip_es = "Incrementa el daño en un 30%."
+        name = _("Damage Up")
+        tooltip = _("Increases damage by 30%.")
         affected_stats = ['damage']
         duration = 3
         
@@ -4177,10 +4097,9 @@ init 2 python: ### Buffs ###
             return int(v * 1.3)
 
     class StealthB(Buff):
-        name = "Stealth"
-        tooltip = """Makes the user immune to counter attacks and reduces 
-        the chance the enemy targets the unit."""
-        tooltip_es = "Hace al usuario inmune a contraataques y reduce la\nprobabilidad de que los enemigos apunten a esta unidad."
+        name = _("Stealth")
+        tooltip = _("""Makes the user immune to counter attacks and reduces 
+        the chance the enemy targets the unit.""")
         affected_stats = ['hate']
         duration = 1
         
@@ -4191,11 +4110,11 @@ init 2 python: ### Buffs ###
             return int(v * 0.25)
     
     class CloakB(Buff):
-        name = "Cloak"
-        tooltip = """Makes the user completely invisible to enemy sensors and 
+        name = _("Cloak")
+        tooltip = _("""
+        Makes the user completely invisible to enemy sensors and 
         impossible to target. Only nearby enemy support units can detect this unit and
-        disrupt the effect."""
-        tooltip_es = "Hace al usuario completamente invisible a los sensores enemigos e\nimposible de apuntar. Solo las unidades enemigas de apoyo cercanas pueden\ndetectar a esta unidad e interrumpir el efecto."
+        disrupt the effect.""")
         affected_stats = ['hate']
         duration = 1
         
@@ -4206,9 +4125,8 @@ init 2 python: ### Buffs ###
             return int(v * 0)
             
     class AwakenedSeraphim(Buff):
-        name = "Awakened"
-        tooltip = "Gives an additional 100 points to accuracy and doubles damage."
-        tooltip_es = "Da un aumento de 100 puntos a la precisión y duplica el daño."
+        name = _("Awakened")
+        tooltip = _("Gives an additional 100 points to accuracy and doubles damage.")
         affected_stats = ['accuracy','damage']
         duration = 3
         
@@ -4222,9 +4140,8 @@ init 2 python: ### Buffs ###
                 return v * 2
                 
     class AwakenedAsaga(Buff):
-        name = "True Awakening"
-        tooltip = "Increases armor, evasion and damage each turn it is active. Does not expire.\nProgressively damages the Black Jack."
-        tooltip_es = "Incrementa la armadura, evasión y daño cada turno mientras esta activo. No expira.\nDaña progresivamente al Black Jack."
+        name = _("True Awakening")
+        tooltip = _("Increases armor, evasion and damage each turn it is active. Does not expire.\nProgressively damages the Black Jack.")
         affected_stats = ['armor','evasion','damage']
         duration = -1 #does not expire.
         
@@ -4254,9 +4171,8 @@ init 2 python: ### Buffs ###
         #doesn't do anything as it'll expire right away.
         
     class AccDownD(Buff):
-        name = "Aim Down"
-        tooltip = "Reduces accuracy by 25 points."
-        tooltip_es = "Reduce la precisión en 25 puntos."
+        name = _("Aim Down")
+        tooltip = _("Reduces accuracy by 25 points.")
         affected_stats = ['accuracy']
         duration = 3
         
@@ -4267,9 +4183,8 @@ init 2 python: ### Buffs ###
             return v - 25
 
     class EvnDownD(Buff):
-        name = "SuppressiveFire"
-        tooltip = "Reduces evasion of target enemy by 25 points."
-        tooltip_es = "Reduce la evasión del objetivo enemigo en 25 puntos."
+        name = _("SuppressiveFire")
+        tooltip = _("Reduces evasion of target enemy by 25 points.")
         affected_stats = ['evasion']
         duration = 1
         
@@ -4281,9 +4196,8 @@ init 2 python: ### Buffs ###
 
 
     class DisableD(Buff):
-        name = "Disabled"
-        tooltip = "Fully disables a unit, including shield generation and flak."
-        tooltip_es = "Desactiva completamente a la unidad, incluyendo la generación de escudo y las torretas antiaéreas."
+        name = _("Disabled")
+        tooltip = _("Fully disables a unit, including shield generation and flak.")
         affected_stats = ['en','flak','shield_generation']
         duration = 2
         
@@ -4294,9 +4208,8 @@ init 2 python: ### Buffs ###
             return 0 #wow, looks harsh
             
     class DisableLiteD(Buff):
-        name = "Disable Lite"
-        tooltip = "Doubles cost of weapons,abilities and movement."
-        tooltip_es = "Duplica el coste de energía de las armas, habilidades y movimiento."
+        name = _("Disable Lite")
+        tooltip = _("Doubles cost of weapons,abilities and movement.")
         affected_stats = ['energy_use','move_cost']
         duration = 2
         
@@ -4307,9 +4220,8 @@ init 2 python: ### Buffs ###
             return v * 2
 
     class FlakOffD(Buff):
-        name = "Flak Off"
-        tooltip = "Disables flak."
-        tooltip_es = "Desactiva las torretas antiaéreas."
+        name = _("Flak Off")
+        tooltip = _("Disables flak.")
         affected_stats = ['flak']
         duration = 2
         
@@ -4320,9 +4232,8 @@ init 2 python: ### Buffs ###
             return 0
             
     class ShieldDown(Buff):
-        name = "Shield Down"
-        tooltip = "Removes all shield generation."
-        tooltip_es = "Remueve toda la generación de escudo."
+        name = _("Shield Down")
+        tooltip = _("Removes all shield generation.")
         affected_stats = ['shield_generation']
         duration = 2
         
@@ -4333,10 +4244,9 @@ init 2 python: ### Buffs ###
             return 0
 
     class ShieldJam(Buff):
-        name = "Shield Jam"
+        name = _("Shield Jam")
         cumulative = True
-        tooltip = "Reduces shield generation each time it's applied."
-        tooltip_es = "Reduce la generación de escudo cada vez que se utiliza."
+        tooltip_es = ""
         affected_stats = ['shield_generation']
         duration = 2
         
@@ -4348,10 +4258,9 @@ init 2 python: ### Buffs ###
             return v - 15 * self.stack_counter
             
     class Disruption(Buff):
-        name = "Disruption"
+        name = _("Disruption")
         cumulative = True     
-        tooltip = "Stack this 6 times to win the battle"   
-        tooltip_es = "Utilízalo 6 veces para ganar la batalla."
+        tooltip = _("Stack this 6 times to win the battle")
         affected_stats = []
         duration = -1
         
@@ -4375,10 +4284,9 @@ init -1 python: ### SUPPORT SKILLS ###
             self.name = 'Repair I'
             self.shot_count = 1
             self.lbl = Image('Battle UI/button_repair.png')
-            self.tooltip = """
-            Restores approximately {} HP to target.
-            Has unlimited range.""".format(self.damage)
-            self.tooltip_es = "Restaura aproximadamente {} HP al objetivo.\nTiene rango ilimitado.".format(self.damage)
+            self.tooltip = _("""
+            Restores approximately 300 HP to target.
+            Has unlimited range.""")
 
     class AccUp(Support):
         def __init__(self):
@@ -4389,10 +4297,9 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 3
             self.name = 'Aim Up'
             self.lbl = Image('Battle UI/button_aimup.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Adds an additional 25 points to the target's weapon accuracy.
-            Has unlimited range."""
-            self.tooltip_es = "Añade 25 puntos adicionales a la precisión con armas del objetivo.\nTiene rango ilimitado."
+            Has unlimited range.""")
 
     class FlakUp(Support):
         def __init__(self):
@@ -4405,10 +4312,9 @@ init -1 python: ### SUPPORT SKILLS ###
             self.energy_use = 50
             self.name = 'Cover'
             self.lbl = Image('Battle UI/button_cover.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Provide coordinated cover fire for the selected unit, boosting its flak by 15.
-            Has a range of 3 hexes."""
-            self.tooltip_es = "Provee una cobertura de fuego coordinada a la unidad seleccionada, mejorando sus torretas antiaéreas en 15.\nTiene un rango de 3 casillas."
+            Has a range of 3 hexes.""")
 
     class Taunt(Support):
         def __init__(self):
@@ -4420,9 +4326,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.name = 'Taunt'
             self.self_buff = True
             self.lbl = Image('Battle UI/button_drawfire.png') 
-            self.tooltip = """
-            Increases armor and compels enemies to target you."""
-            self.tooltip_es = "Incrementa la armadura y provoca a los enemigos a apuntarte."           
+            self.tooltip = _("""
+            Increases armor and compels enemies to target you.""")
 
     class DamageUp(Support):
         def __init__(self):
@@ -4433,10 +4338,9 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 3
             self.name = 'Damage Up'
             self.lbl = Image('Battle UI/button_atkup.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Increases the target's weapon damage by 30 percent.
-            Has unlimited range."""
-            self.tooltip_es = "Incrementa el daño con armas del objetivo en un 30%.\nTiene rango ilimitado."
+            Has unlimited range.""")
 
     class Restore(Support):
         def __init__(self):
@@ -4448,10 +4352,9 @@ init -1 python: ### SUPPORT SKILLS ###
             self.name = 'Restore'
             self.energy_use = 40  #don't refer to this directly, use the energy_cost method instead
             self.lbl = Image('Battle UI/button_restore.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Removes all enemy status ailments from the target.
-            Has unlimited range."""
-            self.tooltip_es = "Remueve todos los estados alterados negativos del objetivo.\nTiene rango ilimitado."
+            Has unlimited range.""")
             
         def fire(self,parent,target,counter = False,hidden=False):
             if self.parent is None: self.parent = parent
@@ -4484,7 +4387,7 @@ init -1 python: ### SUPPORT SKILLS ###
                 if BM.phase == 'Player':
                     if target is not parent and target.pilot is not None:
                         target.voice("HitBuff")
-                message = "Todas las maldiciones fueron removidas del {}".format(target.name)
+                message = __("all curses were removed from {}").format(target.name)
                 BM.battle_log_insert(['support', 'debuff'], message)
                 show_message(message)
                 target.getting_buff = False
@@ -4508,10 +4411,9 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 1
             self.name = 'Stealth'
             self.lbl = Image('Battle UI/button_stealth.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Become immune to enemy blindsides for one turn and reduces 
-            the chance of enemies targeting you."""
-            self.tooltip_es = "Te vuelve inmune al contraataque enemigo por un turno y reduce\nlas probabilidades de que el enemigo te apunte."
+            the chance of enemies targeting you.""")
             
     class Cloak(Stealth):
         def __init__(self):
@@ -4520,10 +4422,9 @@ init -1 python: ### SUPPORT SKILLS ###
             self.energy_use = 30
             self.name = 'Cloak'
             self.lbl = Image('Battle UI/button_cloak.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Become fully undetectable by nearly all enemy sensors. Specialized
-            support units may still be able to find you and disrupt the cloaking field."""
-            self.tooltip_es = "Te vuelve completamente indetectable por casi todos los sensores de enemigos. Unidades de\napoyo especializadas podrían ser capaces de detectarte y destruir el campo de camuflaje."
+            support units may still be able to find you and disrupt the cloaking field.""")
 
     class Awaken(Support):
         def __init__(self):
@@ -4539,11 +4440,10 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 3
             self.name = 'Awaken'
             self.lbl = Image('Battle UI/button_awaken.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Temporarily overcharges the Seraphim's systems, providing
             an additional 100 additional points to accuracy as well as
-            doubling weapon damage for three turns."""
-            self.tooltip_es = "Sobrecarga temporalmente los sistemas del Seraphim, otorgando\n100 puntos adicionales a la precisión asi como\nduplicar el daño con armas durante tres turnos."
+            doubling weapon damage for three turns.""")
 
     class AwakenAsaga(Support):
         def __init__(self):
@@ -4561,9 +4461,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.lbl = Image('Battle UI/button_asaawaken.png')
             # self.end_of_turn_callback = self.callback
             self.weapon_replace = EndAwakenAsaga()
-            self.tooltip = """
-            Improves the Black Jack's damage, evasion and armor each turn, but also causes progressively more damage each turn until canceled."""
-            self.tooltip_es = "Icrementa el daño, la evasión y la armadura del Black Jack cada turno, pero también causa daño progresivo cada turno hasta que se cancele."
+            self.tooltip = _("""
+            Improves the Black Jack's damage, evasion and armor each turn, but also causes progressively more damage each turn until canceled.""")
 
         def callback(self):
             if self.parent.has_buff("True Awakening"):
@@ -4579,9 +4478,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.accuracy = 100
             self.name = "Cancel Awakening"
             self.lbl = Image('Battle UI/button_asaawaken.png')
-            self.tooltip = """
-            Cancels the awakening effect"""
-            self.tooltip_es = "Cancela el efecto despertar."
+            self.tooltip = _("""
+            Cancels the awakening effect""")
 
         def fire(self,parent,target,counter = False):
             blackjack.remove_buff("True Awakening")            
@@ -4608,9 +4506,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.cumulative = True  #do not overwrite but add to the current modifier.
             self.name = 'Disrupt'
             self.lbl = Image('Battle UI/button_disrupt.png')
-            self.tooltip = """
-            Cast 6 times to win the battle."""  
-            self.tooltip_es = "Utilízalo 6 veces para ganar la batalla."  
+            self.tooltip = _("""
+            Cast 6 times to win the battle.""") 
         
         def energy_cost(self,parent):
             if parent is None: parent = self.parent
@@ -4626,12 +4523,11 @@ init -1 python: ### SUPPORT SKILLS ###
             self.works_only_on = None
             self.energy_use = 40
             self.lbl = Image('Battle UI/button_uniongravity.png')
-            self.tooltip = """
+            self.tooltip = _("""
             Allows the user to move any unit a single hex.
             This movement will provoke Blindside attacks, if you move an enemy unit
             into the range of a friendly unit with an Assault type weapon.
-            Has unlimited range."""
-            self.tooltip_es = "Permite al usuario mover a cualquier unidad una sola casilla.\nEste movimiento provocará contraataques, si mueves a una unidad enemiga\ndentro de el rango de una unidad aliada con un arma de tipo Asalto.\nTiene rango ilimitado."""
+            Has unlimited range.""")
 
 #### curse skills ####
 
@@ -4646,9 +4542,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 3
             self.name = 'Aim Down'
             self.lbl = Image('Battle UI/button_aimdown.png')
-            self.tooltip = """
-            Reduces the target's weapon accuracy by 25 points."""
-            self.tooltip_es = "Reduce la presición del objetivo en 25 puntos."
+            self.tooltip = _("""
+            Reduces the target's weapon accuracy by 25 points.""")
 
     class SuppressiveFire(Curse):
         def __init__(self):
@@ -4662,9 +4557,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.max_range = 3
             self.name = 'Suppressive Fire'
             self.lbl = Image('Battle UI/button_suppress.png')
-            self.tooltip = """
-            Fire EMP rounds at the target, limiting its mobility to evade attacks. Has a maximum range of 3 hexes."""
-            self.tooltip_es = "Dispara rondas de EMP al objetivo, limitando su movilidad para evadir ataque. Tiene un rango maximo de tres casillas."
+            self.tooltip = _("""
+            Fire EMP rounds at the target, limiting its mobility to evade attacks. Has a maximum range of 3 hexes.""")
 
     class Disable(Curse): #takes away all EN
         def __init__(self):
@@ -4678,9 +4572,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 2 #has to be 2 or else the debuff won't last beyond the start of their next turn
             self.name = 'Disable'
             self.lbl = Image('Battle UI/button_disable.png')
-            self.tooltip = """
-            Completely disables the target for one turn."""
-            self.tooltip_es = "Desactiva al objetivo completamente por un turno."
+            self.tooltip = _("""
+            Completely disables the target for one turn.""")
 
     class FlakOff(Curse):
         def __init__(self):
@@ -4693,9 +4586,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 2
             self.name = 'Flak Off'
             self.lbl = Image('Battle UI/button_flak.png')
-            self.tooltip = """
-            The target can no longer counter attack or fire flak at missiles for two turns."""
-            self.tooltip_es = "El objetivo no puede contraatacar o disparar las torretas antiaéreas a misiles por dos turnos."
+            self.tooltip = _("""
+            The target can no longer counter attack or fire flak at missiles for two turns.""")
 
     class ShutOff(Curse):  #shuts down shield generation
         def __init__(self):
@@ -4708,9 +4600,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.buff_duration = 2
             self.name = 'Shield Down'
             self.lbl = Image('Battle UI/button_shutoff.png')
-            self.tooltip = """
-            Deactivates the target's shields for two turns."""
-            self.tooltip_es = "Desactiva los escudos del objetivo por dos turnos."
+            self.tooltip = _("""
+            Deactivates the target's shields for two turns.""")
 
     class ShdJam(Curse):  #shuts down shield generation
         def __init__(self):
@@ -4724,9 +4615,8 @@ init -1 python: ### SUPPORT SKILLS ###
             self.cumulative = True  #do not overwrite but add to the current modifier.
             self.name = 'Shield Jam'
             self.lbl = Image('Battle UI/button_shdjam.png')
-            self.tooltip = """
-            Temporarily reduce the target's shield generation by 15 points. Can be used multiple times on the same target."""
-            self.tooltip_es = "Reduce temporalmente la generación de escudos del objetivo en 15 puntos.\nPuede ser usado multiples veces en el mismo objetivo."
+            self.tooltip = _("""
+            Temporarily reduce the target's shield generation by 15 points. Can be used multiple times on the same target.""")
             
 init -1 python: ## store items ##
     # see classes.rpy for more details on what each field does
@@ -4735,11 +4625,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'new warhead'
-            self.display_name = "TORPEDO AMMO"
-            self.display_name_es = "MUNICIONES DE TORPEDO"
+            self.display_name = _("TORPEDO AMMO")
             self.cost = 300
-            self.tooltip = 'Purchase warheads to allow the Sunrider to fire powerful torpedoes at the enemy. A torpedo deals {} damage, but can be shot down by enemy flak. The Sunrider can carry a maximum of [sunrider.max_rockets] at a time.'.format(sunrider.weapons[3].damage)
-            self.tooltip_es = 'Comprar cabezas de guerra para permitirle al Sunrider disparar poderososos torpedos al enemigo. Un torpedo causa {} de daño, pero puede ser derribado por las torretas antiaéreas enemigas. El Sunrider puede cargar un máximo de [sunrider.max_rockets] torpedos a la vez.'.format(sunrider.weapons[3].damage)
+            self.tooltip = __('Purchase warheads to allow the Sunrider to fire powerful torpedoes at the enemy. A torpedo deals {} damage, but can be shot down by enemy flak. The Sunrider can carry a maximum of [sunrider.max_rockets] at a time.').format(sunrider.weapons[3].damage)
             self.variable_name = 'sunrider.rockets'    #this decides what is shown in the store after [owned:
             # self.visibility_condition = 'sunrider.rockets < sunrider.max_rockets'
             self.max_amt = sunrider.max_rockets    #you can buy no more than this number of this item. see previous field
@@ -4751,11 +4639,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Rocketupgrade1'
-            self.display_name = "QUANTUM TORPEDO LICENSE"
-            self.display_name_es = "LISENCIA DE TORPEDOS CUÁNTICOS"
+            self.display_name = _("QUANTUM TORPEDO LICENSE")
             self.cost = 2000
-            self.tooltip = 'While the proliferation of nuclear warheads throughout the galaxy has made them readily available, more powerful weapons are regulated closely by the Alliance. With the payment of appropriate fees, the Union can replace your current stock of nuclear warheads with quantum warheads, permanently increasing the Sunrider\'s rocket base damage (before upgrades) to 1200, a 50% improvement.'
-            self.tooltip_es = 'Si bien la proliferación de cabezas de guerra nucleares por toda la galaxia las ha hecho fácilmente disponibles, armas más poderosas son reguladas de cerca por la Alianza. Con el pago de apropiadas cuotas, la Unión puede reemplazar tus actuales reservas de cabezas de guerra nucleares por cabezas de guerra cuánticas, incrementando permanentemente el daño de los torpedos del Sunrider a 1200, una mejora del 50%.'
+            self.tooltip = _('While the proliferation of nuclear warheads throughout the galaxy has made them readily available, more powerful weapons are regulated closely by the Alliance. With the payment of appropriate fees, the Union can replace your current stock of nuclear warheads with quantum warheads, permanently increasing the Sunrider\'s rocket base damage (before upgrades) to 1200, a 50% improvement.')
             self.visibility_condition = 'sunrider_rocket.damage < 1200'
             self.background_image = "store/item_upgrade.png"
 
@@ -4767,11 +4653,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'RepairUpgrade1'
-            self.display_name = "PORTABLE REPAIR BOOSTER"
-            self.display_name_es = "ACELERADOR DE REPARACIONES PORTABLE"
+            self.display_name = _("PORTABLE REPAIR BOOSTER")
             self.cost = 1000
-            self.tooltip = 'While extensive repairs require time in the dry dock, battlefield repairs are still a must for combat operations. These new portable repair drones will allow the Liberty to repair 200 more HP. This upgrade also reduces the energy cost of the repair ability by 10EN'
-            self.tooltip_es = 'Si bien las reparaciones extensivas requieren tiempo en el puerto, las reparaciones en el campo de batalla siguen siendo lo mejor para operaciones de combate. Estos nuevos drones reparadores portables permiten al Liberty reparar 200 puntos más de HP. Esta mejora también reduce el costo de energía de la habilidad reparar en 10EN'
+            self.tooltip = _('While extensive repairs require time in the dry dock, battlefield repairs are still a must for combat operations. These new portable repair drones will allow the Liberty to repair 200 more HP. This upgrade also reduces the energy cost of the repair ability by 10EN')
             self.visibility_condition = 'store.chigara_repair.damage < 500'
             self.background_image = "store/item_upgrade.png"
 
@@ -4785,11 +4669,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'repair drones'
-            self.display_name = "REPAIR DRONE"
-            self.display_name_es = "DRONES REPARADORES"
+            self.display_name = _("REPAIR DRONE")
             self.cost = 400
-            self.tooltip = 'These autonomous robots can rapidly restore destroyed hull sections as well as complex electronic systems. They are a must have for all hostile operations.  Restores 50% of the Sunrider\'s HP on use. The Sunrider can carry a maximum of 8 at a time.'
-            self.tooltip_es = 'Estos robots autónomos pueden restaurar rápidamente secciones del casco destruidas así como complejos sistemas electrónicos. Es un deber tenerlos para todas las operaciones bélicas. Restauran el 50% del HP del Sunrider al usarlos. El Sunrider puede cargar un máximo de 8 a la vez.'
+            self.tooltip = _('These autonomous robots can rapidly restore destroyed hull sections as well as complex electronic systems. They are a must have for all hostile operations.  Restores 50% of the Sunrider\'s HP on use. The Sunrider can carry a maximum of 8 at a time.')
             self.visibility_condition = 'sunrider.repair_drones != None'
             self.variable_name = 'sunrider.repair_drones'
             self.max_amt = 8
@@ -4801,13 +4683,11 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'alliance cruiser'
-            self.display_name = "ALLIANCE CRUISER"
-            self.display_name_es = "CRUCERO DE LA ALIANZA"
+            self.display_name = _("ALLIANCE CRUISER")
             self.cost = 2000
             self.variable_name = "get_shipcount_in_list('Alliance Cruiser',player_ships)"
             self.max_amt = 2
-            self.tooltip = 'With the Solar Congress\' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider\'s escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to {} in your fleet at any time'.format(self.max_amt)
-            self.tooltip_es = 'Con la declaración de guerra del Congreso Solar, incontables cruceros de batalla de la Alianza han sido llamados al frente de batalla. Por una generosa paga, la Unión Minera puede usar sus contactos en el Congreso Solar para asignar un crucero de batalla de la Alianza completamente operacional como escolta del Sunrider. A pesar de ser lentos, el crucero de batalla de la Alianza esta construido como un ladrillo y asestan golpes. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('With the Solar Congress\' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider\'s escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to {} in your fleet at any time').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
             
 
@@ -4819,13 +4699,11 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'union frigate'
-            self.display_name = "UNION FRIGATE"
-            self.display_name_es = "FRAGATA DE LA UNIÓN"
+            self.display_name = _("UNION FRIGATE")
             self.cost = 750
             self.variable_name =  "get_shipcount_in_list('Mining Union Frigate',player_ships)"
             self.max_amt = 3
-            self.tooltip = 'The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to {} in your fleet at any time'.format(self.max_amt)
-            self.tooltip_es = 'La Unión Minera regularmente posiciona una gran armada privada para proteger sus envios de piratas. Con la paga de apropiadas cuotas, tú también puedes tener una fragata de seguridad de la Unión cuidando tu espalda. Aunque pequeñas y ligeramente armadas, estas fragatas son baratas y rápidas. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to {} in your fleet at any time').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4836,14 +4714,12 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'ceragunboat'
-            self.display_name = "CERA GUNBOAT"
-            self.display_name_es = "CAÑONEROS DE CERA"
+            self.display_name = _("CERA GUNBOAT")
             self.cost = 750
             self.variable_name =  "get_shipcount_in_list('Cera Gunboat',player_ships)"
             self.max_amt = 4
             self.visibility_condition = "store.mission2_complete"
-            self.tooltip = 'A stellar navy does not vanish overnight. The sudden fall of Cera left smaller assets scattered all over the galaxy with no chain of command. With some money, you can reinstate nimble Ceran gunboats back into your fleet. Designed for both stellar and atmospheric use as fire support dropships, these gunboats can provide flak and suppressive fire for larger ships. You can have up to {} in your fleet at any time'.format(self.max_amt)
-            self.tooltip_es = 'Una armada estelar no de desvanece de la noche a la mañana. La repentina caída de Cera dejó pequeños activos esparcidos por toda la galaxia sin una cadena de comando. Con algo de dinero, puedes reinstalar ágiles cañoneros Ceranos a tu flota. Designados tanto para usos estelares y atmosféricos como naves de fuego de apoyo, estos cañoneros pueden proveer cañones antiaéreos y fuego sorpresivo para grandes naves. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('A stellar navy does not vanish overnight. The sudden fall of Cera left smaller assets scattered all over the galaxy with no chain of command. With some money, you can reinstate nimble Ceran gunboats back into your fleet. Designed for both stellar and atmospheric use as fire support dropships, these gunboats can provide flak and suppressive fire for larger ships. You can have up to {} in your fleet at any time').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4854,14 +4730,12 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'ryuvianfalcon'
-            self.display_name = "RYUVIAN FALCON"
-            self.display_name_es = "FALCON RYUVIANO"
+            self.display_name = _("RYUVIAN FALCON")
             self.cost = 1500
             self.variable_name =  "get_shipcount_in_list('Ryuvian Falcon',player_ships)"
             self.max_amt = 2
             self.visibility_condition = "store.discoverfalcon == True"
-            self.tooltip = 'Using materials and data salvaged from the battlesite, we can reconstruct the Ryuvian ghost ship we encountered in the Pacemus Nebula to the best of our ability. While nowhere as powerful as the original, the Falcon is still a deadly destroyer, featuring oversized kinetic guns and nose mounted pulse guns. Its greatest asset is its speed and maneuverability, however, easily quicker and more nimble than most other vessels. You can have up to {} in your fleet.'.format(self.max_amt)
-            self.tooltip_es = 'Usando los materiales y los datos rescatados del campo de batalla, logramos reconstruir la nave fantasma Ryuviana que encontramos en la Pacemus Nebula en la medida de nuestras habilidades. Aunque ya no es tan poderoso como el original, el Falcon sigue siendo un destructor letal, notándose enormes cañones kinéticos y armas de pulso frontales. Su mejor cualidad es su velocidad y maniobrabilidad, aún así, más rápido y ágil que la mayoría de las demás naves. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.tooltip = __('Using materials and data salvaged from the battlesite, we can reconstruct the Ryuvian ghost ship we encountered in the Pacemus Nebula to the best of our ability. While nowhere as powerful as the original, the Falcon is still a deadly destroyer, featuring oversized kinetic guns and nose mounted pulse guns. Its greatest asset is its speed and maneuverability, however, easily quicker and more nimble than most other vessels. You can have up to {} in your fleet.').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4872,14 +4746,12 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'unionbattleship'
-            self.display_name = "UNION BATTLESHIP"
-            self.display_name_es = "NAVE DE BATALLA DE LA UNIÓN"
+            self.display_name = _("UNION BATTLESHIP")
             self.cost = 3000
             self.variable_name =  "get_shipcount_in_list('Union Battleship',player_ships)"
             self.max_amt = 1
-            self.visibility_condition = "store.mission5_complete == True" and '_preferences.language != "spanish"'
-            self.tooltip = 'While the primary purpose of the Union Asteroid Miner is resource collection, the behemoth vessel makes a formidable battleship with heavy armor, powerful lasers, and a tractor beam. While the Union claims the ships\' weapons are primarily aimed at deterring pirates, critics allege the Miner is merely a thinly disguised battleship, intended to keep ore rich worlds in line with Union demands. You can have up to {} in your fleet.'.format(self.max_amt)
-            self.tooltip_es = 'Si bien el objetivo primario de la Unión Minera de Asteroides es la recolección de recursos, la colosal nave supone una formidable nave de batalla con armadura pesada, poderosos láseres y un rayo tractor. Aúnque la Unión aclama que las armas de las naves están concentradas a disuadir a los piratas, los críticos afirmas que esta es apenas una nave de batalla disfrazada, intentando mantener los mundos ricos en minerales en línea con las demandas de la Unión. Puedes tener hasta {} en tu flota al mismo tiempo.'.format(self.max_amt)
+            self.visibility_condition = "store.mission5_complete == True"
+            self.tooltip = __('While the primary purpose of the Union Asteroid Miner is resource collection, the behemoth vessel makes a formidable battleship with heavy armor, powerful lasers, and a tractor beam. While the Union claims the ships\' weapons are primarily aimed at deterring pirates, critics allege the Miner is merely a thinly disguised battleship, intended to keep ore rich worlds in line with Union demands. You can have up to {} in your fleet.').format(self.max_amt)
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4890,11 +4762,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'wishall'
-            self.display_name = "SELL WISHALL"
-            self.display_name_es = "VENDER WISHALL"
+            self.display_name = _("SELL WISHALL")
             self.cost = -10000
-            self.tooltip = 'The Wishall is an ancient Ryuvian artifact which allows its user to make one free command decision during the story. Alternately, you may decide to sell it here for an instant cash infusion of 10 000 credits.'
-            self.tooltip_es = 'El Wishall es un antiguo artefacto Ryuviano que permite a su usuario realizar una desición libre de costo durante la historia. Alternativamente, puedes decidir venderlo por una infusion de efectivo instantánea de 10 000 creditos.'
+            self.tooltip = _('The Wishall is an ancient Ryuvian artifact which allows its user to make one free command decision during the story. Alternately, you may decide to sell it here for an instant cash infusion of 10 000 credits.')
             self.visibility_condition = "store.wishall"
 
         def buy(self): #here is where you decide what this item -does-.
@@ -4904,11 +4774,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'sunrider_shield_upgrade'
-            self.display_name = "SUNRIDER SHIELD UPGRADE"
-            self.display_name_es = "MEJORA DEL ESCUDO DEL SUNRIDER"
+            self.display_name = _("SUNRIDER SHIELD UPGRADE")
             self.cost = 1500
-            self.tooltip = "Due to the Sunrider's unexpected departure from Cera, she was never outfitted with energy shielding. While her top of the line shield generator was lost with the fall of Cera, the Union can outfit the Sunrider with a basic shield generator. The Sunrider's shields can be further upgraded in the Research Lab after it is purchased."
-            self.tooltip_es = "Debido a la inesperada partida del Sunrider de Cera, nunca fue provista de un escudo de energía. Aunque su mejor generador de escudo se perdió con la caida de Cera, la Unión puede proveer al Sunrider con un generador de escudos básico. Los escudos del Sunrider pueden ser mejorados en el Laboratorio de Investigación después de ser comprados."
+            self.tooltip = _("Due to the Sunrider's unexpected departure from Cera, she was never outfitted with energy shielding. While her top of the line shield generator was lost with the fall of Cera, the Union can outfit the Sunrider with a basic shield generator. The Sunrider's shields can be further upgraded in the Research Lab after it is purchased.")
             self.visibility_condition = 'store.sunrider.shield_generation == 0'
             self.background_image = "store/item_upgrade.png"
 
@@ -4921,11 +4789,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'black_jack_thrusters'
-            self.display_name = "LIQUID ONGESSITE FUEL"
-            self.display_name_es = "COMBUSTIBLE DE LÍQUIDO DE ONGESSITA"
+            self.display_name = _("LIQUID ONGESSITE FUEL")
             self.cost = 1500
-            self.tooltip = "The capture of Ongess assured the Alliance a steady supply of liquid Ongessite in the war. The Black Jack and Paladin's engines can be fueled with this supply of high grade liquid Ongessite, reducing their move energy cost by 25 percent."
-            self.tooltip_es = "La captura de Ongess le aseguró a la Alianza un suministro seguro de líquido de Ongessita en la guerra. Los motores del Black Jack y el Paladin pueden ser rellenados con este suministro de alto grado de líquido de Ongessita, reduciendo el costo de energía de movimiento en un 25%."
+            self.tooltip = _("The capture of Ongess assured the Alliance a steady supply of liquid Ongessite in the war. The Black Jack and Paladin's engines can be fueled with this supply of high grade liquid Ongessite, reducing their move energy cost by 25 percent.")
             self.visibility_condition = 'store.blackjack.move_cost > 15 and store.OngessTruth == False'
             self.background_image = "store/item_upgrade.png"
 
@@ -4937,11 +4803,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'gravity_gun_booster'
-            self.display_name = "GRAVITINO GENERATOR"
-            self.display_name_es = "GENERADOR GRAVITATORIO"
+            self.display_name = _("GRAVITINO GENERATOR")
             self.cost = 500
-            self.tooltip = "Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60)."
-            self.tooltip_es = "Chigara puede hacer al arma de gravedad del Bianca más eficiente añadiéndole uno de estos dispositivos técnicos. El coste de energía disminuye a 40 (de 60)."
+            self.tooltip = _("Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60).")
             self.visibility_condition = 'store.bianca.weapons[1].energy_use == 60'
             self.background_image = "store/item_upgrade.png"
 
@@ -4953,11 +4817,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Ship Clean Up'
-            self.display_name = "EXPANDED TORPEDO STORAGE"
-            self.display_name_es = "ALMACÉN DE TORPEDOS AMPLIADO"
+            self.display_name = _("EXPANDED TORPEDO STORAGE")
             self.cost = 2000
-            self.tooltip = "Not everything onboard a ship has to be gigantic. First Command Ava Crescentia has collected a list of unnecessarily large equipment and other non-essentials which could be upgraded or outright tossed to make additional room for more important assets.\n\nAllows the Sunrider to carry an additional torpedo."
-            self.tooltip_es = "No todo a bordo de una nave tiene que ser gigante. La Primer Oficial Ava Crescentia ha recopilado una lista de equipamiento innecesariamente grande y otros no esenciales que podrían ser mejorados o ser arrojados para crear una sala adicional para recursos más importantes.\n\nPermite al Sunrider cargar un torpedo adicional."
+            self.tooltip = _("Not everything onboard a ship has to be gigantic. First Command Ava Crescentia has collected a list of unnecessarily large equipment and other non-essentials which could be upgraded or outright tossed to make additional room for more important assets.\n\nAllows the Sunrider to carry an additional torpedo.")
             self.visibility_condition = "sunrider.max_rockets == 2"
             self.background_image = "store/item_upgrade.png"
 
@@ -4969,11 +4831,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Repair Drones Mk2'
-            self.display_name = "REPAIR DRONES MK2"
-            self.display_name_es = "DRONES DE REPARACIÓN MK2"
+            self.display_name = _("REPAIR DRONES MK2")
             self.cost = 1800
-            self.tooltip = "Due to the demands of the Neutral Rim War, Union scientists have scrambled to improve the current line of repair drones. The newest version is reinforced with better materials, improving survivability in hostile work conditions, and operates on an updated AI capable of repairing the newest hardware.\n\nRepair drones now repair 75 percent of the Sunrider's maximum HP."
-            self.tooltip_es = "Debido a las demandas de la Guerra del Margen Neutral, los científicos de la Unión han logrado mejorar la línea actual de drones de reparación. La versión más reciente está refozada con mejores materiales, mejorando la supervivencia en condiciones hostiles de trabajo, y opera con una IA capaz de reparar el más reciente hardware.\n\nLos drones de reparación ahora reparan el 75% del HP máximo del Sunrider."
+            self.tooltip = _("Due to the demands of the Neutral Rim War, Union scientists have scrambled to improve the current line of repair drones. The newest version is reinforced with better materials, improving survivability in hostile work conditions, and operates on an updated AI capable of repairing the newest hardware.\n\nRepair drones now repair 75 percent of the Sunrider's maximum HP.")
             self.visibility_condition = "BM.repair_drone_heal == 0.5"
             self.background_image = "store/item_upgrade.png"
 
@@ -4984,30 +4844,23 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Ongessite Injection Rods'
-            self.display_name = "ONGESSITE INJECTION RODS"
-            self.display_name_es = "BARRAS DE INYECCIÓN DE ONGESSITA"
+            self.display_name = _("ONGESSITE INJECTION RODS")
             self.cost = 3000
-            self.tooltip = "The latest invention by Alliance scientists, these Ongessite fuel rods can make practically any engine roar to life.\n\nUnlocks the All Power to Engines command, which halves the move EN cost of all player units for two turns for 800 CMD."
-            self.tooltip_es = "La última invención de los científicos de la Alianza, estas barras de combustible de Ongessita pueden hacer a cualquier motor rugir.\n\nDesbloquea el comando Máximo Poder a los Motores, el cual reduce a la mita el costo de EN de todas las unidades del jugador durante dos turnos por 800 CMD."
+            self.tooltip = _("The latest invention by Alliance scientists, these Ongessite fuel rods can make practically any engine roar to life.\n\nUnlocks the All Power to Engines command, which halves the move EN cost of all player units for two turns for 800 CMD.")
             self.visibility_condition = "not order_allpowertoengines and not OngessTruth"
             self.background_image = "store/item_upgrade.png"
 
         def buy(self):
             store.order_allpowertoengines = True
-            if _preferences.language == "spanish":
-                BM.orders["MÁXIMO PODER A LOS MOTORES"] = [800,'injection_rods']
-            else:
-                BM.orders["ALL POWER TO ENGINES"] = [800,'injection_rods']            
+            BM.orders["ALL POWER TO ENGINES"] = [800,'injection_rods']            
 
     class ArmorPenetratingRoundsAsaga(StoreItem):
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Asagas armor penetrating rounds'
-            self.display_name = "ARMOR PENETRATING ROUNDS"
-            self.display_name_es = "RONDAS PENETRADORAS DE ARMADURA"
+            self.display_name = _("ARMOR PENETRATING ROUNDS")
             self.cost = 3000
-            self.tooltip = "These full metal jacket rounds can be fired from the Black Jack's assault guns for substantially improved armor penetration.\n\nAdds a new kinetic attack for the Black Jack which deals 100x4 upgradable kinetic damage." 
-            self.tooltip_es = "Estas rondas recubiertas de metal pueden ser disparadas por los cañones de asalto del Black Jack para mejorar sustancialmente la penetración de armadura.\n\nAñade un nuevo ataque kinético al Black Jack que ocasiona 100x4 daño kinético mejorable." 
+            self.tooltip = _("These full metal jacket rounds can be fired from the Black Jack's assault guns for substantially improved armor penetration.\n\nAdds a new kinetic attack for the Black Jack which deals 100x4 upgradable kinetic damage.")
             self.visibility_condition = "not blackjack.has_weapon('Blackjack Kinetic')"
             self.background_image = "store/item_upgrade.png"
 
@@ -5018,11 +4871,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'MIRV Quantum Torpedo License'
-            self.display_name = "MIRV QUANTUM TORPEDO LICENCE"
-            self.display_name_es = "LISENCIA DE TORPEDOS CUÁNTICOS MIRV"
+            self.display_name = _("MIRV QUANTUM TORPEDO LICENCE")
             self.cost = 8000
-            self.tooltip = "While outlawed according to Alliance laws, it's not like those rules really apply to privateers like us, right? With a large payment to the Union, they can provide both the warheads, and the legal work to fill out the accompanying 12 000 page long 'terms of use' form.\nThe Sunrider's torpedoes will now deal splash damage." 
-            self.tooltip_es = "¿Aúnque fueron declarados ilegales de acuerdo a las leyes de la Alianza, no es como que esas reglas se apliquen realmente para corsarios como nosotros, cierto? Con una gran paga a la Unión, ellos pueden proveer tanto las cabezas de guerra, como el trabajo legal de rellenar las acompañantes 12 000 páginas del formulario de 'términos de uso'.\nLos torpedos del Sunrider ocasionan ahora daño en área." 
+            self.tooltip = _("While outlawed according to Alliance laws, it's not like those rules really apply to privateers like us, right? With a large payment to the Union, they can provide both the warheads, and the legal work to fill out the accompanying 12 000 page long 'terms of use' form.\nThe Sunrider's torpedoes will now deal splash damage.") 
             self.visibility_condition = 'sunrider_rocket.damage == 1200 and sunrider_rocket.aoe_range == 0'
             self.background_image = "store/item_upgrade.png"
 
@@ -5034,11 +4885,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Portable Shield Generator Upgrade"
-            self.display_name = "PORTABLE SHIELD GENERATOR"
-            self.display_name_es = "GENERADOR DE ESCUDOS PORTABLE"
+            self.display_name = _("PORTABLE SHIELD GENERATOR")
             self.cost = 1500
-            self.tooltip = "While digging through the crust of a remote world, the Union unearthed the remains of an ancient ryder. While the ryder was destroyed beyond use, the skeletal remains of a pilot were found inside clutching a personal shield generator. \nThe device could be fitted on one of the Liberty's flier drones to relocate its shields anywhere else on the map."
-            self.tooltip_es = "Mientras escavaban por la corteza de un mundo remoto, la Unión desenterró los restos de un antiguo ryder. Aúnque el ryder había sido destruido sin poder usarse, los restos del esqueleto del piloto fueron encontrados aprisionados dentro de un generador de escudo personal.\nEl dispositivo puede ser ajustado a uno de los drones voladores del Liberty para recolocar el escudo en cualquier otro lugar del mapa."
+            self.tooltip = _("While digging through the crust of a remote world, the Union unearthed the remains of an ancient ryder. While the ryder was destroyed beyond use, the skeletal remains of a pilot were found inside clutching a personal shield generator. \nThe device could be fitted on one of the Liberty's flier drones to relocate its shields anywhere else on the map.")
             self.visibility_condition = 'not liberty.has_weapon("Portable Shield Generator")'
             self.background_image = "store/item_upgrade.png"
 
@@ -5049,11 +4898,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Alliance Holo Show"
-            self.display_name = "SUMMON ALLIANCE BATTLESHIP"
-            self.display_name_es = "INVOCAR NAVE DE BATALLA DE LA ALIANZA"
+            self.display_name = _("SUMMON ALLIANCE BATTLESHIP")
             self.cost = 4000
-            self.tooltip = "With this purchase, the Union will use its media connections to broadcast the Sunrider's every day struggles and successes on prime time holovision. Thanks to the show's popularity, the Alliance will be keen to keep the Sunrider safe, lest something unfortunate happen to the beloved vessel...\nUnlocks a new order to summon an Alliance battleship for three turns for 2000 CMD."
-            self.tooltip_es = "Con esta compra, la Unión usará sus medios de comunicación para transmitir las luchas y victorias día a día del Sunrider en el período de mayor audiencia en la holovisión. Gracias a la popularidad del espectáculo, la Alianza será sutil con mantener al Sunrider a salvo, por temor a que algo desafortunado le suceda a su preciada nave...\nDesbloquea una nueva orden para invocar una nave de batalla de la Alianza durante tres turnos por 2000CMD."
+            self.tooltip = _("With this purchase, the Union will use its media connections to broadcast the Sunrider's every day struggles and successes on prime time holovision. Thanks to the show's popularity, the Alliance will be keen to keep the Sunrider safe, lest something unfortunate happen to the beloved vessel...\nUnlocks a new order to summon an Alliance battleship for three turns for 2000 CMD.")
             self.visibility_condition = '"SUMMON BATTLESHIP" not in BM.orders and (store.mission3_complete or store.mission4_complete)' or '"SUMMON BATTLESHIP" not in BM.orders and (store.mission3_complete or store.mission4_complete)'
             self.background_image = "store/item_upgrade.png"
 
@@ -5064,11 +4911,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Upgrade Stealth"
-            self.display_name = "CLOAKING FIELD GENERATOR"
-            self.display_name_es = "GENERADOR DE CAMPO DE CAMUFLAJE"
+            self.display_name = _("CLOAKING FIELD GENERATOR")
             self.cost = 2200
-            self.tooltip = "A Ryuvian relic capable of making a ryder vanish from all standard issue optical and electronic instruments. Installing it on the Phoenix will upgrade its stealth ability to make the Phoenix untargetable. Can still be nullified by nearby enemy support units."
-            self.tooltip_es = "Una reliquia Ryuviana capaz de hacer que un ryder desaparezca de todos los dispositivos ópticos regulares e instrumentos electrónicos. Instalarlo en el Phoenix mejorará su hablilidad de sigilo para hacer al Phoenix imposible de apuntar. Puede ser anulado por unidades de apoyo enemigas cercanas."
+            self.tooltip = _("A Ryuvian relic capable of making a ryder vanish from all standard issue optical and electronic instruments. Installing it on the Phoenix will upgrade its stealth ability to make the Phoenix untargetable. Can still be nullified by nearby enemy support units.")
             self.visibility_condition = 'not phoenix.has_weapon("Cloak") and affection_icari >= 5'
             self.background_image = "store/item_upgrade.png"
 
@@ -5079,11 +4924,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "CMD upgrade"
-            self.display_name = "CAPTAIN'S SOCIETY INDUCTION"
-            self.display_name_es = "INDUCCIÓN A LA SOCIEDAD DEL CAPITÁN"
+            self.display_name = _("CAPTAIN'S SOCIETY INDUCTION")
             self.cost = 5000
-            self.tooltip = "The Union will sponsor your induction into the Space Whale Order of Space Captains, a highly selective society of captains who have made their marks on history.\nIncreases the CMD Point cap to 5000."
-            self.tooltip_es = "La Unión patrocinará tu inducción a la Orden de la Ballena Espacial de Capitanes Espaciales, una áltamente selectiva sociedad de capitanes que dejaros su huella en la historia..\nIncrementa el límite de Puntos de CMD a 5000."
+            self.tooltip = _("The Union will sponsor your induction into the Space Whale Order of Space Captains, a highly selective society of captains who have made their marks on history.\nIncreases the CMD Point cap to 5000.")
             self.visibility_condition = 'BM.max_cmd < 5000'
             self.background_image = "store/item_upgrade.png"
 
@@ -5094,11 +4937,9 @@ init -1 python: ## store items ##
         def __init__(self):
             StoreItem.__init__(self)
             self.id = "Vanguard Splash2"
-            self.display_name = "VANGUARD SPREAD FIELD"
-            self.display_name_es = "CAMPO EXPANDIDO DEL VANGUARDIA"
+            self.display_name = _("VANGUARD SPREAD FIELD")
             self.cost = 20000
-            self.tooltip = "A powerful Ryuvian artifact currently being used to generate the plasma containment field for a massive ore refinery could be repurposed to improve the Vanguard Cannon's firing spread. However, acquiring it from the Union will not be cheap.\nThe Vanguard Cannon now deals splash damage."
-            self.tooltip_es = "Un poderoso artefacto Ryuviano usado actualmente para generar el campo de contención de plasma para una refinería masiva de mineral podría ser reutilizado para mejorar la extensión del fuego del Cañón Vanguardia. De cualquier forma, adquirirlo de la Unión no será barato.\nEl Cañón Vanguardia provoca ahora daño en área."
+            self.tooltip = _("A powerful Ryuvian artifact currently being used to generate the plasma containment field for a massive ore refinery could be repurposed to improve the Vanguard Cannon's firing spread. However, acquiring it from the Union will not be cheap.\nThe Vanguard Cannon now deals splash damage.")
             self.visibility_condition = 'BM.vanguard_splash == False'
             self.background_image = "store/item_upgrade.png"
 
@@ -5108,52 +4949,52 @@ init -1 python: ## store items ##
 python early: ## achievements ##
 
     class Lucky(Achievement):
-        name = 'Lucky!'
+        name = _('Lucky!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Survive an attack with less than 10hp remaining."
+            self.description = _("Survive an attack with less than 10hp remaining.")
             self.icon = "lucky_locked.png"
             
     class Unlucky(Achievement):
-        name = 'Unlucky!'
+        name = _('Unlucky!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have a player unit get killed at 0 to -9 HP."
+            self.description = _("Have a player unit get killed at 0 to -9 HP.")
             self.icon = "unlucky_locked.png"
     
     class LoseALife(Achievement):
-        name = 'Lose a life'
+        name = _('Lose a life')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have a non-mercenary player unit get destroyed for the first time."            
+            self.description = _("Have a non-mercenary player unit get destroyed for the first time.")
             self.icon = "loselife_locked.png"
             
     class PeopleDieWhenTheyAreKilled(Achievement):
-        name = 'People Die When They Are Killed'
+        name = _('People Die When They Are Killed')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Lose a mercenary unit."
+            self.description = _("Lose a mercenary unit.")
             self.icon = "peopledie_locked.png"
             
     class SpreadOut(Achievement):
-        name = 'Spread Out!'
+        name = _('Spread Out!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have 5 player ships or more get hit by an AoE rocket."
+            self.description = _("Have 5 player ships or more get hit by an AoE rocket.")
             self.icon = "spreadout_locked.png"
        
     class IHaveThePower(Achievement):
-        name = 'I Have the Power!'
+        name = _('I Have the Power!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Get 10 stacks of 'Awakening' on Asaga."
+            self.description = _("Get 10 stacks of 'Awakening' on Asaga.")
             self.icon = "ihavepower_locked.png"
             
     class PhoenixDown(Achievement):
-        name = 'Phoenix Down'
+        name = _('Phoenix Down')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Revive the Phoenix twice in the same battle."
+            self.description = _("Revive the Phoenix twice in the same battle.")
             self.times_revived = 0
             self.icon = "phoenixdown_locked.png"
             
@@ -5167,12 +5008,12 @@ python early: ## achievements ##
             self.times_revived = 0
 
     class Vengeance(Achievement):
-        name = 'Vengeance'
+        name = _('Vengeance')
         def __init__(self):
             self.stat_max = 1000
             self.stat_modulo = 100
             Achievement.__init__(self)
-            self.description = "Kill 1000 enemies."
+            self.description = _("Kill 1000 enemies.")
             self.tracked_value = 0
             self.icon = "vengeance_locked.png"
             
@@ -5184,12 +5025,12 @@ python early: ## achievements ##
                     self.unlock()
             
     class LibertyOrDeath(Achievement):
-        name = 'Liberty or Death'
+        name = _('Liberty or Death')
         def __init__(self):
             self.stat_max = 50000
             self.stat_modulo = 5000
             Achievement.__init__(self)
-            self.description = "Repair 50'000 hp in battle with the Liberty."
+            self.description = _("Repair 50'000 hp in battle with the Liberty.")
             self.tracked_value = 0
             self.icon = "liberty_locked.png"
             
@@ -5201,10 +5042,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class Captain(Achievement):
-        name = 'Captain'
+        name = _('Captain')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Beat the game on Captain difficulty or higher."
+            self.description = _("Beat the game on Captain difficulty or higher.")
             self.missions_completed = set()
             self.icon = "captain_locked.png"
             
@@ -5215,10 +5056,10 @@ python early: ## achievements ##
                         self.unlock()
                         
     class Admiral(Achievement):
-        name = 'Admiral'
+        name = _('Admiral')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Beat the game on Admiral difficulty or higher."
+            self.description = _("Beat the game on Admiral difficulty or higher.")
             self.missions_completed = set()
             self.icon = "admiral_locked.png"
             
@@ -5229,10 +5070,10 @@ python early: ## achievements ##
                         self.unlock()
 
     class SpaceWhaleRancher(Achievement):
-        name = 'Space Whale Rancher'
+        name = _('Space Whale Rancher')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Beat the game on Space Whale difficulty. Yeah, good luck with that."
+            self.description = _("Beat the game on Space Whale difficulty. Yeah, good luck with that.")
             self.missions_completed = set()
             self.icon = "spacewhale_locked.png"
             
@@ -5241,13 +5082,13 @@ python early: ## achievements ##
                 if BM.lowest_difficulty >= 5:
                     if BM.mission == self.total_missions:
                         self.unlock()
-                        show_message("Congratulations! You are officially better at the game than the people who made it.")
+                        show_message(_("Congratulations! You are officially better at the game than the people who made it."))
 
     class ByTheSkinOfOurTeeth(Achievement):
-        name = 'By the Skin of Our Teeth'
+        name = _('By the Skin of Our Teeth')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Win a battle with only the Sunrider left alive."
+            self.description = _("Win a battle with only the Sunrider left alive.")
             self.icon = "byskin_locked.png"
             
         def end_mission(self):
@@ -5255,10 +5096,10 @@ python early: ## achievements ##
                 self.unlock()
 
     class PennyPincher(Achievement):
-        name = 'Penny Pincher'
+        name = _('Penny Pincher')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete the game without buying anything at the store."
+            self.description = _("Complete the game without buying anything at the store.")
             self.icon = "pennypincher_locked.png"
             
         def end_mission(self):
@@ -5274,10 +5115,10 @@ python early: ## achievements ##
                 BM.achievement_data[self.name] = False
 
     class IsntItSad(Achievement):
-        name = "Isn't it Sad, Chigara?"
+        name = _("Isn't it Sad, Chigara?")
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete the game without ever buying new upgrades."
+            self.description = _("Complete the game without ever buying new upgrades.")
             self.icon = "aintitsad_locked.png"
         
         def end_mission(self):
@@ -5293,10 +5134,10 @@ python early: ## achievements ##
                 BM.achievement_data[self.name] = False                    
 
     class TooAwesomeToUse(Achievement):
-        name = 'Too Awesome to Use'
+        name = _('Too Awesome to Use')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete the game with the wishall still in your inventory."
+            self.description = _("Complete the game with the wishall still in your inventory.")
             self.icon = "tooawesome_locked.png"
         
         def end_mission(self):
@@ -5305,10 +5146,10 @@ python early: ## achievements ##
                     self.unlock()
                     
     class CantTouchThis(Achievement):
-        name = "Can't Touch This"
+        name = _("Can't Touch This")
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Use short range warp 3 times in the same turn."
+            self.description = _("Use short range warp 3 times in the same turn.")
             self.warp_count = 0
             self.icon = "canttouch_locked.png"
             
@@ -5326,17 +5167,17 @@ python early: ## achievements ##
             self.end_turn()                
             
     class MeetMyLittleFriend(Achievement):
-        name = 'Meet My Little Friend'
+        name = _('Meet My Little Friend')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill a PACT support with melee."
+            self.description = _("Kill a PACT support with melee.")
             self.icon = "meetfriend_locked.png"
 
     class NaturalEnemy(Achievement):
-        name = 'Natural Enemy'
+        name = _('Natural Enemy')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill 2 PACT support units in the same turn with Sola."
+            self.description = _("Kill 2 PACT support units in the same turn with Sola.")
             self.kill_count = 0
             self.icon = "naturalenemy_locked.png"
             
@@ -5354,10 +5195,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class Domination(Achievement):
-        name = 'Domination'
+        name = _('Domination')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill 10 units in the same turn."
+            self.description = _("Kill 10 units in the same turn.")
             self.kill_count = 0
             self.icon = "domination_locked.png"
             
@@ -5376,31 +5217,31 @@ python early: ## achievements ##
                     self.unlock()
             
     class Mogul(Achievement):
-        name = 'Mogul'
+        name = _('Mogul')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Save up to 50'000 credits."
+            self.description = _("Save up to 50'000 credits.")
             self.icon = "dollar_locked.png"
 
     class ThisIsMyCommand(Achievement):
-        name = 'This is My Command!'
+        name = _('This is My Command!')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Use vanguard for the fist time."   
+            self.description = _("Use vanguard for the fist time.")
             self.icon = "thiscommand_locked.png"
 
     class GrandTactician(Achievement):
-        name = 'Grand Tactician'
+        name = _('Grand Tactician')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Hit 8 units at once."   
+            self.description = _("Hit 8 units at once.")
             self.icon = "grandtactician_locked.png"
 
     class FormingTheFleet(Achievement):
-        name = 'Forming the Fleet'
+        name = _('Forming the Fleet')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Contract your first merc."
+            self.description = _("Contract your first merc.")
             self.icon = "formingfleet_locked.png"
             
         def process(self):
@@ -5410,10 +5251,10 @@ python early: ## achievements ##
                         self.unlock()
             
     class CompulsiveHoarding(Achievement):
-        name = 'Compulsive Hoarding'
+        name = _('Compulsive Hoarding')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Buy at least 20 different things in the store (including merc contracts)."
+            self.description = _("Buy at least 20 different things in the store (including merc contracts).")
             self.bought_items = set()
             self.icon = "hoarder_locked.png"
             
@@ -5424,10 +5265,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class AllForOne(Achievement):
-        name = 'All For One'
+        name = _('All For One')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Put all debufs (except Disable) on the same enemy."   
+            self.description = _("Put all debufs (except Disable) on the same enemy.")   
             self.icon = "allforone_locked.png"
             
         def process(self,enemy):
@@ -5436,10 +5277,10 @@ python early: ## achievements ##
                     self.unlock()
             
     class OneForAll(Achievement):
-        name = 'One For All'
+        name = _('One For All')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Put 5 different buffs on the same friendly unit."
+            self.description = _("Put 5 different buffs on the same friendly unit.")
             self.icon = "oneforall_locked.png"
             
         def process(self,friendly):
@@ -5448,17 +5289,17 @@ python early: ## achievements ##
                     self.unlock()
             
     class HelloNurse(Achievement):
-        name = 'Hello Nurse'
+        name = _('Hello Nurse')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have Bianca use Restore on an allied unit afflicted by all possible debuffs."
+            self.description = _("Have Bianca use Restore on an allied unit afflicted by all possible debuffs.")
             self.icon = "hellonurse_locked.png"
 
     class WithOneRyder(Achievement):
-        name = 'With One Ryder Tied Behind My Back.'
+        name = _('With One Ryder Tied Behind My Back.')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Complete a battle while ignoring one of your Ryders."
+            self.description = _("Complete a battle while ignoring one of your Ryders.")
             self.idle_units = set()
             self.icon = "onehand_locked.png"
             
@@ -5494,17 +5335,17 @@ python early: ## achievements ##
                     self.active = True
 
     class Deathwish(Achievement):
-        name = 'Deathwish'
+        name = _('Deathwish')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have the Paladin get destroyed with Draw Fire ability active." 
+            self.description = _("Have the Paladin get destroyed with Draw Fire ability active." )
             self.icon = "deathwish_locked.png"
 
     class BlackJackChivo(Achievement):
-        name = 'Black Jack'
+        name = _('Black Jack')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Perform exactly 21 attacks with Black Jack in a battle." 
+            self.description = _("Perform exactly 21 attacks with Black Jack in a battle.")
             self.hidden = True
             self.attribution = "Akioklaus"
             self.attack_count = 0
@@ -5521,20 +5362,20 @@ python early: ## achievements ##
                 self.attack_count +=1
 
     class StingLikeABee(Achievement):
-        name = 'Sting Like a Bee'
+        name = _('Sting Like a Bee')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Destroy a capital ship with an assault weapon." 
+            self.description = _("Destroy a capital ship with an assault weapon.")
             self.attribution = 'SayuriUliana'
             self.icon = "stingbee_locked.png"
 
     class ThereCanBeOnlyOne(Achievement):
-        name = 'There Can Only Be One'
+        name = _('There Can Only Be One')
         def __init__(self):
             self.stat_max = 30
             self.stat_modulo = 10
             Achievement.__init__(self)
-            self.description = "Kill 30 units with melee." 
+            self.description = _("Kill 30 units with melee.")
             self.attribution = 'SayuriUliana'
             self.tracked_value = 0
             self.icon = "onlyone_locked.png"
@@ -5547,10 +5388,10 @@ python early: ## achievements ##
                     self.unlock()
 
     class WhatAreYouImplying(Achievement):
-        name = 'What Are You Implying?'
+        name = _('What Are You Implying?')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Have both the Phoenix and the Paladin end their turns next to each other every turn for an entire battle"
+            self.description = _("Have both the Phoenix and the Paladin end their turns next to each other every turn for an entire battle")
             self.attribution = 'Sir Fluffykins'
             self.hidden = True
             self.icon = "implying_locked.png"
@@ -5570,136 +5411,136 @@ python early: ## achievements ##
                     self.active = True
 
     class CosetteCaptured(Achievement):
-        name = 'Cosette Captured'
+        name = _('Cosette Captured')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Capture Cosette."
+            self.description = _("Capture Cosette.")
             self.icon = "cosettecaptured_locked.png"            
             self.hidden = True
             
     class CosetteDead(Achievement):
-        name = 'No Loli Space Pirate Route'
+        name = _('No Loli Space Pirate Route')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Kill Cosette."
+            self.description = _("Kill Cosette.")
             self.icon = "cosettedead_locked.png"            
             self.hidden = True
             
     class WelcomeBack(Achievement):
-        name = 'Welcome Back Captain'
+        name = _('Welcome Back Captain')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Finish the prologue."
+            self.description = _("Finish the prologue.")
             self.icon = "welcomeback_locked.png"            
             self.hidden = True
             
     class HavocRestored(Achievement):
-        name = 'Havoc Restored'
+        name = _('Havoc Restored')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Restore the Havoc."
+            self.description = _("Restore the Havoc.")
             self.icon = "havocrestored_locked.png"            
             self.hidden = True
             
     class FalconChivo(Achievement):
-        name = 'Falcon Discovered'
+        name = _('Falcon Discovered')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Scavage the starship grave yard to discover the Falcon."
+            self.description = _("Scavage the starship grave yard to discover the Falcon.")
             self.icon = "falcon_locked.png"            
             self.hidden = True
 
     class NoFalcon(Achievement):
-        name = 'No Falcon'
+        name = _('No Falcon')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Leave the starship grave yard alone."
+            self.description = _("Leave the starship grave yard alone.")
             self.icon = "nofalcon_locked.png"            
             self.hidden = True
             
     ## REturn chivos
     
     class RE_COMPLETE(Achievement):
-        name = 'REturn Completed'
+        name = _('REturn Completed')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find all the endings in REturn."
+            self.description = _("Find all the endings in REturn.")
             self.icon = "re_complete_locked.png"            
             self.hidden = False
     class RE_ASA_ALTERNATE(Achievement):
-        name = 'Asaga Alternate Ending'
+        name = _('Asaga Alternate Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Asaga's alternate ending."
+            self.description = _("Find Asaga's alternate ending.")
             self.icon = "re_asa_alternate_locked.png"            
             self.hidden = False
     class RE_ASA_HAPPY(Achievement):
-        name = 'Asaga Happy Ending'
+        name = _('Asaga Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Asaga's happy ending."
+            self.description = _("Find Asaga's happy ending.")
             self.icon = "re_asa_happy_locked.png"
             self.hidden = False
     class RE_ASA_NORMAL(Achievement):
-        name = 'Asaga Normal Ending'
+        name = _('Asaga Normal Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Asaga's normal ending."
+            self.description = _("Find Asaga's normal ending.")
             self.icon = "re_asa_normal_locked.png"            
             self.hidden = False
     class RE_AVA_HAPPY(Achievement):
-        name = 'Ava Happy Ending'
+        name = _('Ava Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Ava's happy ending."
+            self.description = _("Find Ava's happy ending.")
             self.icon = "re_ava_happy_locked.png"
             self.hidden = False
     class RE_AVA_NORMAL(Achievement):
-        name = 'Ava Normal Ending'
+        name = _('Ava Normal Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Ava's normal ending."
+            self.description = _("Find Ava's normal ending.")
             self.icon = "re_ava_normal_locked.png"            
             self.hidden = False
     class RE_SOLA_ALTERNATE(Achievement):
-        name = 'Sola Alternate Ending'
+        name = _('Sola Alternate Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's alternate ending."
+            self.description = _("Find Sola's alternate ending.")
             self.icon = "re_sol_alternate_locked.png"            
             self.hidden = False
     class RE_SOLA_HAPPY(Achievement):
-        name = 'Sola Happy Ending'
+        name = _('Sola Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's happy ending."
+            self.description = _("Find Sola's happy ending.")
             self.icon = "re_sol_happy_locked.png"
             self.hidden = False
     class RE_SOLA_NORMAL(Achievement):
-        name = 'Sola Normal Ending'
+        name = _('Sola Normal Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's normal ending."
+            self.description = _("Find Sola's normal ending.")
             self.icon = "re_sol_normal_locked.png"            
             self.hidden = False
     class RE_SOLA_WORST(Achievement):
-        name = 'Sola Worst Ending'
+        name = _('Sola Worst Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Sola's worst ending."
+            self.description = _("Find Sola's worst ending.")
             self.icon = "re_sol_worst_locked.png"            
             self.hidden = False
     class RE_ICARI_HAPPY(Achievement):
-        name = 'Icari Happy Ending'
+        name = _('Icari Happy Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Icari's happy ending."
+            self.description = _("Find Icari's happy ending.")
             self.icon = "re_ica_happy_locked.png"
             self.hidden = False
     class RE_CLAUDE_SECRET(Achievement):
-        name = 'Claude Secret Ending'
+        name = _('Claude Secret Ending')
         def __init__(self):
             Achievement.__init__(self)
-            self.description = "Find Claude's secret ending."
+            self.description = _("Find Claude's secret ending.")
             self.icon = "re_cla_secret_locked.png"
             self.hidden = True

@@ -17,7 +17,6 @@ image credit7 = Text("Additional Programming {p}Matthew Warren, Roman Shnitser, 
 image credit8 = Text("Renpy Engine Programming {p}Tom Rothamel", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit9 = Text("Sound Effects Engineer {p}Steve Green", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit10 = Text("Japanese Translator {p}Stein Lien", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image credit10b = Text("Mod Creator {p}DP404", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit11 = Text("Voice Recording Engineer {p}Takanashi Keita", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
 image credit12 = Text("Starring", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
@@ -64,26 +63,20 @@ image credit50 = Text("Additional Sound Effects {p}Licensed from the Pond5 libra
 image credit51 = Text("Fonts {p}Ralph du Carrois, Paul D. Hunt, {p}Google Inc, M+ Web Fonts {p}{size=20}(Used under SIL Open Font License, 1.1){/size}", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit52 = Text("Love in Space Inc. (c)2015-2016", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image credit53 = Text("This game is a work of fiction. Any resemblance to real world persons, places, and products is coincidental.{p}The viewpoints expressed in this work do not necessarily reflect the viewpoints of Love in Space Inc. or any of its agents.{p}No space whales were harmed in the making of this game.", size=20, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image credit54 = Text("From death, all will be REBORN...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image credit54_es = Text("De la muerte, todos RENACERÁN...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
+image credit54 = Text(_("From death, all will be REBORN..."),outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
-image credit55 = Text("We thank the following Kickstarter backers...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image credit55_es = Text("We thank the following Kickstarter backers...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
+image credit55 = Text(_("We thank the following Kickstarter backers..."),outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
-image credit56 = Text("We thank the following $20 tier Patreon backers...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image credit56_es = Text("We thank the following $20 tier Patreon backers...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
+image credit56 = Text(_("We thank the following $20 tier Patreon backers..."),outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
-image tbc = Text("TO BE CONTINUED...", size=150, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image tbc_es = Text("CONTINUARÁ...", size=150, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
+image tbc = Text(_("TO BE CONTINUED..."), size=150, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
-image warning = Text("WARNING\n\nADULTS ONLY\nYou must be 18 years or older to play this game\nPlease supervise children responsibly", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image warning_es = Text("ADVERTENCIA\n\nSOLO ADULTOS\nDebes tener 18 años o más para jugar este juego\nPor favor supervisen la responsabilidad de sus hijos", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
+image warning = Text(_("WARNING\n\nADULTS ONLY\nYou must be 18 years or older to play this game\nPlease supervise children responsibly"), size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
 image logo:
     "UI/logo.png"
     
-image reborn = Text("WILL BE REBORN...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image reborn_es = Text("RENACERÁ...",outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
+image reborn = Text(_("WILL BE REBORN..."),outlines=[(5, "#000000", 1, 1),(2, "#272727", 0, 0) ], size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 
 
 image dlccredit 1 = Text("Written and Produced by {p}Sam Yang", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
@@ -93,7 +86,6 @@ image dlccredit 4 = Text("Background Artist {p}Sam Yang", size=50, font="Fonts/S
 image dlccredit 5 = Text("Programmer {p}Paul Schovers", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image dlccredit 6 = Text("Renpy Engine Programming {p}Tom Rothamel", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image dlccredit 7 = Text("Sound Effects Engineer {p}Steve Green", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
-image dlccredit a7 = Text("Spanish Translator {p}DestinyPath404", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image dlccredit b7 = Text("Opening Theme{p}|SORA NO KODOU|{p}Vocals: Rita{p}composition and arrangement: TAKANASHI KEITA{p}lyrics: KAZUKI RAN{p}choir: Fujiwara Yui, Tominaga Tamami, {p}Minoura Ayano, Yamashita Misa, {p}Igarashi Shouichi, Takada Keiichi{p}(c)Iced Blade 2016", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image dlccredit 8 = Text("Distributed By{p}Sekai Project", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
 image dlccredit 9 = Text("Additional Background Props {p}Sub-Licensed from Sketchup 3D Warehouse", size=50, font="Fonts/ShareTech-Regular.ttf",text_align=0.5)
