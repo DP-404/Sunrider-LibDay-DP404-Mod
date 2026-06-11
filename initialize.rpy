@@ -40,12 +40,12 @@ init -10 python:
         'affection_sola','affection_cosette','wishall','Saveddiplomats',
         'OngessTruth','legion_destroyed' ]
     DIFFICULTY_NAMES = {
-        0 : 'Visual Novel Mode',
-        1 : 'Casual Mode',
-        2 : 'Ensign',
-        3 : 'Captain',
-        4 : 'Admiral',
-        5 : 'Space Whale Mode' }
+        0 : _('Visual Novel Mode'),
+        1 : _('Casual Mode'),
+        2 : _('Ensign'),
+        3 : _('Captain'),
+        4 : _('Admiral'),
+        5 : _('Space Whale Mode') }
         
     
         

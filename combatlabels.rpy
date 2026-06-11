@@ -46,7 +46,7 @@ label test_battle:
         destroyed_ships = []
         BM.mission = 'test'
 
-        BM.orders['SALTO DE CORTO RANGO'] = [750,'short_range_warp']
+        BM.orders['SHORT RANGE WARP'] = [750,'short_range_warp']
 
         #create the sunrider. you only have to create a player ship once:
         sunrider_weapons = [SunriderLaser(),SunriderKinetic(),SunriderMissile(),SunriderRocket(),SunriderAssault()]

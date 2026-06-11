@@ -20,7 +20,7 @@ translate spanish strings:
 
     # game/screens custom.rpy:1333
     old "Summon an Alliance battleship to your designated coordinates to fight alongside your fleet for three turns."
-    new "Invoca un acorazado de la Alianza en tus coordenadas designadas para luchar al lado de tu flota durante tres turnos."
+    new "Invoca un acorazado de la Alianza en tus coordenadas designadas para luchar al lado de tu flota por tres turnos."
 
     # game/screens custom.rpy:1346
     old "Restores {}% of the Sunrider's health."
@@ -28,7 +28,7 @@ translate spanish strings:
 
     # game/screens custom.rpy:1360
     old "Deals {} unavoidable damage to all units in a straight line extending outwards from the Sunrider with a maximum range of {} hexes."
-    new "Provoca {} daño inevadible a todas las unidades en línea recta hacia afuera desde el Sunrider con un rango máximo de {} casillas."
+    new "Provoca {} daño ineludible a todas las unidades en línea recta desde el Sunrider con un rango máximo de {} casillas."
 
     # game/screens custom.rpy:1373
     old "Moves the Sunrider to any point on the map. Subsequent uses in the same turn become more expensive each time."
@@ -36,11 +36,15 @@ translate spanish strings:
 
     # game/screens custom.rpy:1386
     old "Select a downed unit to launch into the battle once more at full health."
-    new "Selecciona una unidad caída para lanzarla al combate una vez más a completa salud."
+    new "Selecciona una unidad caída para lanzarla al combate una vez más con completa salud."
 
     # game/screens custom.rpy:1399
     old "Retreat your units from battle without applying penalties."
     new "Retira a tus unidades de la batalla sin aplicar penalizaciones."
+
+    # game/screens custom.rpy:1593
+    old "HP"
+    new "PS"
 
     # game/screens custom.rpy:2018
     old "Victory!"
@@ -93,6 +97,10 @@ translate spanish strings:
     # game/screens custom.rpy:2254
     old "Choose which Ryder to repair"
     new "Elige cuál Ryder reparar"
+
+    # game/screens custom.rpy:2745
+    old "by: "
+    new "por: "
 
     # game/screens custom.rpy:2755
     old "     ACHIEVEMENT UNLOCKED!     "

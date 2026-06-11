@@ -38,6 +38,22 @@ translate spanish strings:
     old "RETREAT"
     new "RETIRADA"
 
+    # game/classes.rpy:302
+    old "Please add at least 1 enemy ship"
+    new "Por favor añade al menos 1 unidad enemiga."
+
+    # game/classes.rpy:310
+    old "Please add at least 1 player ship"
+    new "Por favor añade al menos 1 unidad del jugador."
+
+    # game/classes.rpy:351
+    old "Player music was changed"
+    new "La música del jugador cambió."
+
+    # game/classes.rpy:355
+    old "Enemy music was changed"
+    new "La música del enemigo cambió."
+
     # game/classes.rpy:445
     old "there are still ships you have not placed!"
     new "¡Todavía quedan naves que no has colocado!"
@@ -54,6 +70,10 @@ translate spanish strings:
     old "all ships gained improved mobility!"
     new "¡Todas las naves ganan mejoras en la movilidad!"
 
+    # game/classes.rpy:880
+    old "all guard"
+    new "Defensa Total"
+
     # game/classes.rpy:896
     old "Full Forward order cancelled!"
     new "¡Orden Avance Completo cancelada!"
@@ -65,6 +85,10 @@ translate spanish strings:
     # game/classes.rpy:913
     old "all ships gained improved flak, shielding and evasion!"
     new "¡Todas las naves ganan mejoras a las torretas antiaéreas, escudos y evasión!"
+
+    # game/classes.rpy:934
+    old "full forward"
+    new "Avance Completo"
 
     # game/classes.rpy:950
     old "All Guard order cancelled!"
@@ -88,7 +112,7 @@ translate spanish strings:
 
     # game/classes.rpy:1466
     old "the {} is disabled!"
-    new "¡El {} está desactivado!"
+    new "¡{} está desactivado!"
 
     # game/classes.rpy:1973
     old "Hull Plating"
@@ -174,6 +198,10 @@ translate spanish strings:
     old "Repair Crew"
     new "Tripulación de Reparación"
 
+    # game/classes.rpy:1973
+    old "Move Cost"
+    new "Coste de Movimiento"
+
     # game/classes.rpy:2578
     old "Destination is occupied!"
     new "¡El destino está ocupado!"
@@ -184,15 +212,23 @@ translate spanish strings:
 
     # game/classes.rpy:3713
     old "The buff could not be applied to the {0}"
-    new "¡La mejora no pudo ser aplicada a {0}!"
+    new "¡La mejora no se pudo aplicar a {0}!"
 
     # game/library.rpy:2063
     old "\n            Allows Claude to move any Ryder a single hex.\n            This movement will provoke Blindside attacks, if you move an enemy Ryder\n            into the range of a friendly unit with an Assault type weapon.\n            Has unlimited range."
-    new "        Permite a Claude mover a cualquier Ryder una sola casilla.\n        Este movimiento provocará contraataques, si mueves a un Ryder enemigo\n        en el rango de una unidad aliada con un arma de tipo Asalto.\n        Tiene rango ilimitado."
+    new "\n        Permite a Claude mover a cualquier Ryder una sola casilla.\n        Este movimiento provocará contraataques, si mueves a un Ryder enemigo\n        en el rango de una unidad aliada con un arma de tipo Asalto.\n        Tiene rango ilimitado."
 
     # game/classes.rpy:3893
     old "you can only use this ability on ryders!"
     new "¡Solo puedes usar esta habilidad en ryders!"
+
+    # gane/classes.rpy:3906
+    old "SHIELD DRONE"
+    new "DRON ESCUDO"
+
+    # game/classes.rpy:3924
+    old "\n            Allows the Liberty to send a drone with a personal shield anywhere on the battlefield."
+    new "\n            Permite al Liberty enviar un dron con un escudo personal a cualquier parte del campo de batalla."
 
     # game/classes.rpy:4216
     old "The asteroid was destroyed!"
@@ -200,12 +236,13 @@ translate spanish strings:
 
     # game/classes.rpy:4611
     old "{0} recovered from {1}"
-    new "El {0} se recuperó de {1}"
+    new "{0} se recuperó de {1}"
 
     # game/classes.rpy:4617
     old "{1} expired from {0}"
-    new "{1} expiró del {0}"
+    new "{1} expiró de {0}"
 
     # /gae/classes.rpy:unknown
     old "miss"
     new "Fallo"
+

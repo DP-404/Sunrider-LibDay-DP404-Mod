@@ -10,6 +10,10 @@ translate spanish strings:
     old "Locked"
     new "Bloqueado"
 
+    # game/screens.rpy:611
+    old "Empty Slot."
+    new "Espacio Vacío."
+
     # game/screens.rpy:1043
     old "Reduces the difficulty to near nill\nfor a stress free experience."
     new "Reduce la dificultad hasta casi nula\npara una experiencia libre de estrés."
@@ -40,6 +44,5 @@ translate spanish strings:
 
     # game/screens.rpy:1468
     old "SPARE COSETTE"
-    new "SALVAR A COSETTE"
-
+    new "PERDONAR A COSETTE"
 

@@ -299,7 +299,7 @@ init -2 python:
         #similar to formation. Should be merged?
         def skirmish_start(self):
             if len(enemy_ships) == 0:
-                show_message('Please add at least 1 enemy ship')
+                show_message(_('Please add at least 1 enemy ship'))
                 renpy.jump('mission_skirmish')
             player_ship_present = False
 
@@ -307,7 +307,7 @@ init -2 python:
                 if ship.location != None:
                     player_ship_present = True
             if not player_ship_present:
-                 show_message('Please add at least 1 player ship')
+                 show_message(_('Please add at least 1 player ship'))
                  renpy.jump('mission_skirmish')
 
             renpy.hide_screen('player_unit_pool_collapsed')
@@ -348,11 +348,11 @@ init -2 python:
 
         def skirmish_playermusic(self):
             store.PlayerTurnMusic = self.result[1]
-            show_message('Player music was changed')
+            show_message(_('Player music was changed'))
 
         def skirmish_enemymusic(self):
             store.EnemyTurnMusic = self.result[1]
-            show_message('Enemy music was changed')
+            show_message(_('Enemy music was changed'))
 
         def skirmish_selection(self):
             # this result can be from one of the imagebuttons in the pool screens or returned from
@@ -877,7 +877,7 @@ init -2 python:
                     for ship in player_ships:
                         ship.remove_buff('Full Forward')
                 
-                if strategy == "all guard" and remaining_turns == 3:
+                if strategy == _("all guard") and remaining_turns == 3:
                     show_message(_('alredy active!'))
                     self.order_used = False
                     self.cmd += self.orders[self.result[0]][0]
@@ -931,7 +931,7 @@ init -2 python:
                     for ship in player_ships:
                         ship.remove_buff('All Guard')
                 
-                if strategy == "full forward" and remaining_turns == 3:
+                if strategy == _("full forward") and remaining_turns == 3:
                     show_message(_('alredy active!'))
                     self.order_used = False
                     self.cmd += self.orders[self.result[0]][0]
@@ -990,7 +990,7 @@ init -2 python:
                     else:
                         sunrider.repair_drones -= 1
                 self.cmd -= self.orders[self.result[0]][0]
-                message = _("ORDER: Repair drones restore {}% of Sunrider's hull integrity").format(str(int(BM.repair_drone_heal*100)))
+                message = __("ORDER: Repair drones restore {}% of Sunrider's hull integrity").format(str(int(BM.repair_drone_heal*100)))
                 self.battle_log_insert(['order'], message)
                 show_message(message)
                 BM.order_used = True
@@ -1430,7 +1430,7 @@ init -2 python:
                     if not pship.modifiers['energy regen'][0] == -100:
                         pship.AI()
                     else:
-                        show_message(_('the {} is disabled!').format(pship.name) )
+                        show_message(__('the {} is disabled!').format(_(pship.name)) )
                 except:
                     pship.modifiers['energy regen'] = (0,0)
                     pship.AI()
@@ -1455,7 +1455,7 @@ init -2 python:
                     if not pship.modifiers['energy regen'][0] == -100:
                         pship.AI()
                     else:
-                        show_message(_('the {} is disabled!').format(pship.name) )
+                        show_message(__('the {} is disabled!').format(__(pship.name)) )
                 except:
                     pship.modifiers['energy regen'] = (0,0)
                     pship.AI()
@@ -1471,7 +1471,7 @@ init -2 python:
 
                     try:
                         if ship.modifiers['energy regen'][0] == -100:
-                            show_message(_('the {} is disabled!').format(pship.name) )
+                            show_message(__('the {} is disabled!').format(__(pship.name)) )
                             ship.en = 0
                         else:
                             ship.en = ship.max_en
@@ -1538,7 +1538,7 @@ init -2 python:
                         eship.AI()
                         clear_ship_animations() #failsafe
                     else:
-                        show_message(_('the {} is disabled!').format(eship.name) )
+                        show_message(__('the {} is disabled!').format(__(eship.name)) )
                 except:
                     eship.modifiers['energy regen'] = (0,0)
                     eship.AI()
@@ -1566,7 +1566,7 @@ init -2 python:
                     if not eship.modifiers['energy regen'][0] == -100:
                         eship.AI()
                     else:
-                        show_message(_('the {} is disabled!').format(eship.name) )
+                        show_message(__('the {} is disabled!').format(__(eship.name)) )
                 except:
                     eship.modifiers['energy regen'] = (0,0)
                     eship.AI()
@@ -1582,7 +1582,7 @@ init -2 python:
 
                     try:
                         if ship.modifiers['energy regen'][0] == -100:
-                            show_message(_('the {} is disabled!').format(ship.name) )
+                            show_message(__('the {} is disabled!').format(__(ship.name)) )
                             ship.en = 0
                         else:
                             if not ship.just_spawned: ship.en = ship.max_en
@@ -1635,7 +1635,7 @@ init -2 python:
                 renpy.hide_screen('commands')
                 self.draggable = False
                 renpy.show_screen('victory')
-                renpy.pause(3.0)
+                renpy.pause(3.5)
                 renpy.hide_screen('victory')
                 
                 #check Asaga's awakening and reset if required.
@@ -2525,7 +2525,6 @@ init -2 python:
         def move_ship(self, new_location,bm):
             if not get_cell_available(new_location):  #failsafe
                 show_message(_('Destination is occupied!'))
-                show_message("Destination is occupied")
                 return
             
             if self.faction == 'Player':
@@ -3649,7 +3648,7 @@ init -2 python:
                     
                 if not successful:
                     #wasted
-                    message = _("The buff could not be applied to the {0}").format(target.name)
+                    message = __("The buff could not be applied to the {0}").format(__(target.name))
                     BM.battle_log_insert(log_tags, message)
                     target.getting_buff = False
                     target.getting_curse = False
@@ -3904,7 +3903,7 @@ init -2 python:
             self.max_hp = 50 #bit of future proofing? for now they're invulnerable
             self.evasion = 100
             # renpy.invoke_in_new_context(show_message,'debug: newly added drone')
-            self.drone_lbl = Text('SHIELD DRONE',size=10)
+            self.drone_lbl = 'SHIELD DRONE'
             self.lbl = 'Battle UI/blue hex.png'
             
         def __eq__(self,other):
@@ -4534,10 +4533,10 @@ init -2 python:
             self.parent.buffs.remove(self)
             if self.parent.hp > 0:
                 if self.curse:
-                    message = __("{0} recovered from {1}").format(self.parent.name, self.name)
+                    message = __("{0} recovered from {1}").format(__(self.parent.name), __(self.name))
                     BM.battle_log_insert(['support', 'debuff'], message)
                 else:
-                    message = __("{1} expired from {0}").format(self.parent.name, self.name)
+                    message = __("{1} expired from {0}").format(__(self.parent.name), __(self.name))
                     BM.battle_log_insert(['support', 'buff'], message)
                 if not silent:
                     show_message(message)
@@ -4723,19 +4722,19 @@ init -2 python:
             
     class AutoPlace(Action):
         def __call__(self):
-            if sunrider in BM.ships:
+            if sunrider in player_ships:
                 sunrider.set_location(5,9)
-            if blackjack in BM.ships:
+            if blackjack in player_ships:
                 blackjack.set_location(5,8)
-            if paladin in BM.ships:
+            if paladin in player_ships:
                 paladin.set_location(6,9)
-            if phoenix in BM.ships:
+            if phoenix in player_ships:
                 phoenix.set_location(5,10)
-            if bianca in BM.ships:
+            if bianca in player_ships:
                 bianca.set_location(4,10)
-            if liberty in BM.ships:
+            if liberty in player_ships:
                 liberty.set_location(4,8)
-            if seraphim in BM.ships:
+            if seraphim in player_ships:
                 seraphim.set_location(4,9)
             renpy.restart_interaction()
             
