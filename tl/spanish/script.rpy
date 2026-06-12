@@ -23636,7 +23636,7 @@ translate spanish commanderunfairme_7e64fce2:
 translate spanish commanderunfairme_d88e4e4c:
 
     # kay "Slow down, Sola! I'm... not quite following!"
-    kay "¡Ve más despacio, Sola! ¡Yo... no logro entenderte muy bien!"
+    kay "¡Ve más despacio, Sola! ¡Yo... no te estoy siguiendo bien!"
 
 # game/script.rpy:9578
 translate spanish commanderunfairme_4e6eb90f:
