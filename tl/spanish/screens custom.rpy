@@ -104,5 +104,5 @@ translate spanish strings:
 
     # game/screens custom.rpy:2755
     old "     ACHIEVEMENT UNLOCKED!     "
-    new "      LOGRO DESBLOQUEADO!      "
+    new "     ¡LOGRO DESBLOQUEADO!      "
 
