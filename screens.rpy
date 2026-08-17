@@ -610,7 +610,7 @@ screen save():
 
                                     $ description = "% 2s. %s\n%s" % (
                                         FileSlotName(i, rows*columns),
-                                        FileTime(i, empty=_("Empty Slot.")),
+                                        FileTime(i, empty=__("Empty Slot.")),
                                         FileSaveName(i))
                                     
                                     text description ysize 10 color "F7F7F7" font "Fonts/SourceCodePro-Regular.ttf" size 13
@@ -720,7 +720,7 @@ screen load:
 
                                     $ description = "% 2s. %s\n%s" % (
                                         FileSlotName(i, rows*columns),
-                                        FileTime(i, empty=_("Empty Slot.")),
+                                        FileTime(i, empty=__("Empty Slot.")),
                                         FileSaveName(i))
                                     
                                     text description ysize 10 color "F7F7F7" font "Fonts/SourceCodePro-Regular.ttf" size 13
@@ -1132,7 +1132,7 @@ screen yesno_prompt(message, yes_action, no_action):
     modal True
     fixed at tr_fadein(0):
         add "UI/yesno_base.png"
-                    
+
         imagebutton:
             xpos 0.4 ypos 0.58 xanchor 0.5 yanchor 0.5
             idle "UI/yesno_yes.png"

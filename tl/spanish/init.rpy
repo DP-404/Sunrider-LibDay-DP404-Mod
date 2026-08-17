@@ -12,11 +12,11 @@ translate spanish strings:
 
     # game/init.rpy:27
     old "ENSIGN"
-    new "TENIENTE"
+    new "ALFÉREZ"
 
     # game/init.rpy:30
     old "WANDERER"
-    new "PEREGRINO"
+    new "ERRANTE"
 
     # game/init.rpy:32
     old "CREWMAN1"
@@ -44,75 +44,79 @@ translate spanish strings:
 
     # game/init.rpy:196
     old "BAD END 1: GUNNED DOWN"
-    new "BAD END 1: DERRIBADO A DISPAROS"
+    new "FINAL MALO 1: DERRIBADO A DISPAROS"
 
     # game/init.rpy:196
     old "BAD END 2: CRUSHED"
-    new "BAD END 2: APLASTADO"
+    new "FINAL MALO 2: APLASTADO"
 
     # game/init.rpy:196
     old "BAD END 3: TRAPPED AVA VER"
-    new "BAD END 3: ATRAPADO VER. AVA"
+    new "FINAL MALO 3: ATRAPADO VER. AVA"
 
     # game/init.rpy:196
     old "BAD END 4: TRAPPED ASAGA VER"
-    new "BAD END 4: ATRAPADO VER. ASAGA"
+    new "FINAL MALO 4: ATRAPADO VER. ASAGA"
 
     # game/init.rpy:196
     old "BAD END 5: TRAPPED SOLA VER"
-    new "BAD END 5: ATRAPADO VER. SOLA"
+    new "FINAL MALO 5: ATRAPADO VER. SOLA"
 
     # game/init.rpy:196
     old "BAD END 6: FROZEN"
-    new "BAD END 6: CONGELADO"
+    new "FINAL MALO 6: CONGELADO"
 
     # game/init.rpy:196
     old "BAD END 7: EXPLOSIVE DEPRESSURIZATION"
-    new "BAD END 7: DEPRESURIZACIÓN EXPLOSIVA"
+    new "FINAL MALO 7: DESPRESURIZACIÓN EXPLOSIVA"
 
     # game/init.rpy:196
     old "SOLA WORST END: WHAT HAVE I DONE"
-    new "SOLA WORST END: QUÉ HE HECHO"
+    new "FINAL PEOR | SOLA: QUÉ HE HECHO"
 
     # game/init.rpy:196
     old "SOLA NORMAL END: STILL TOGETHER"
-    new "SOLA NORMAL END: AÚN ASÍ JUNTOS"
+    new "FINAL NORMAL | SOLA: AUN ASÍ JUNTOS"
 
     # game/init.rpy:196
     old "SOLA ALTERNATIVE END: FUTURE WON WITH BLOOD"
-    new "SOLA ALTERNATIVE END: FUTURO GANADO CON SANGRE"
+    new "FINAL ALTERNATIVO | SOLA: FUTURO GANADO CON SANGRE"
 
     # game/init.rpy:196
     old "SOLA HAPPY END: OUR GREATEST ADVENTURE YET"
-    new "SOLA HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+    new "FINAL FELIZ | SOLA: NUESTRA MAYOR AVENTURA HASTA AHORA"
 
     # game/init.rpy:196
     old "ASAGA NORMAL END: STILL TOGETHER"
-    new "ASAGA NORMAL END: AÚN ASÍ JUNTOS"
+    new "FINAL NORMAL | ASAGA: AUN ASÍ JUNTOS"
 
     # game/init.rpy:196
     old "ASAGA ALTERNATIVE END: FUTURE WON WITH BLOOD"
-    new "ASAGA ALTERNATIVE END: FUTURO GANADO CON SANGRE"
+    new "FINAL ALTERNATIVO | ASAGA: FUTURO GANADO CON SANGRE"
 
     # game/init.rpy:196
     old "ASAGA HAPPY END: OUR GREATEST ADVENTURE YET"
-    new "ASAGA HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+    new "FINAL FELIZ | ASAGA: NUESTRA MAYOR AVENTURA HASTA AHORA"
 
     # game/init.rpy:196
     old "AVA NORMAL END: MAIDEN’S SUICIDE"
-    new "AVA NORMAL END: EL SUICIDIO DE LA DONCELLA"
+    new "FINAL NORMAL | AVA: EL SUICIDIO DE LA DONCELLA"
 
     # game/init.rpy:196
     old "AVA HAPPY END: OUR GREATEST ADVENTURE YET"
-    new "AVA HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+    new "FINAL FELIZ | AVA: NUESTRA MAYOR AVENTURA HASTA AHORA"
 
     # game/init.rpy:196
     old "ICARI HAPPY END: OUR GREATEST ADVENTURE YET"
-    new "ICARI HAPPY END: NUESTRA MAYOR AVENTURA HASTA AHORA"
+    new "FINAL FELIZ | ICARI: NUESTRA MAYOR AVENTURA HASTA AHORA"
 
     # game/init.rpy:196
     old "CLAUDE SECRET END: TIME LORD"
-    new "CLAUDE SECRET END: SEÑOR DEL TIEMPO"
+    new "FINAL SECRETO | CLAUDE: SEÑOR DEL TIEMPO"
+
+    # game/init.rpy:931
+    old "PACT STATION"
+    new "ESTACIÓN{p}DEL PACT"
 
     # game/init.rpy:985
     old "Flag"
@@ -120,7 +124,7 @@ translate spanish strings:
 
     # game/init.rpy:985
     old "After the fall of Cera, which flag did you suggest flying?"
-    new "Tras la caída de Cera, ¿qué bandera sugeriste volar?"
+    new "Tras la caída de Cera, ¿qué bandera sugeriste ondear?"
 
     # game/init.rpy:985
     old "Cera"
@@ -128,7 +132,7 @@ translate spanish strings:
 
     # game/init.rpy:985
     old "You told Ava the Sunrider would always fly Cera's flag."
-    new "Le dijiste a Ava que el Sunrider siempre volaría la bandera de Cera."
+    new "Le dijiste a Ava que el Sunrider siempre ondearía la bandera de Cera."
 
     # game/init.rpy:985
     old "Pirate"
@@ -248,7 +252,7 @@ translate spanish strings:
 
     # game/init.rpy:985
     old "You saved the diplomats."
-    new "Salvaste a los diplomáticos"
+    new "Salvaste a los diplomáticos."
 
     # game/init.rpy:985
     old "The Agamemnon was sank and all lives onboard were lost."
@@ -344,7 +348,7 @@ translate spanish strings:
 
     # game/init.rpy:985
     old "Give PACT hell"
-    new "Dar la perdición al PACT"
+    new "Darle la perdición al PACT"
 
     # game/init.rpy:985
     old "You told Sola to give PACT hell."
@@ -560,7 +564,7 @@ translate spanish strings:
 
     # game/init.rpy:985
     old "You told her she was brave to be willing to\n die for her people."
-    new "Le dijiste que fue valiente al querer\nmorir por su gente."
+    new "Le dijiste que fue valiente al querer\nmorir por su pueblo."
 
     # game/init.rpy:985
     old "Ceran deserters"

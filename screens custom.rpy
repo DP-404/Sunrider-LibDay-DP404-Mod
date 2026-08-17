@@ -529,7 +529,7 @@ screen battle_screen():
                 $xposition = dispx(drone.location[0],drone.location[1],zoomlevel,0.50 * ADJX) + int(zoomlevel * MOVX)
                 $yposition = dispy(drone.location[0],drone.location[1],zoomlevel,1.25 * ADJY) + int(zoomlevel * MOVY)
                 
-                add drone.drone_lbl:
+                add Text(_(drone.drone_lbl),size=10):
                     anchor (0.5,0.5)
                     xpos xposition
                     ypos yposition
@@ -1439,7 +1439,9 @@ screen commands: ##show the weapon buttons etc##
                 if BM.selected in enemy_ships:
                     $ index = ' ' + str(enemy_ships.index(BM.selected))
                 # text str(index) xanchor 1.0 xpos 1880 ypos 800 size 20 outlines [(1,'000',0,0)]
-            text (BM.selected.name + index) xanchor 1.0 xpos 1880 ypos 726 outlines [(1,'000',0,0)]
+            text (__(BM.selected.name).replace('[[','\n[[')) xanchor 1.0 xpos 1880 ypos 726 outlines [(1,'000',0,0)]
+            if index != '':
+                text ('# ' + index) xanchor 1.0 xpos 1880 ypos 788 outlines [(1,'000',0,0)]
 
         $hp_size = int(374*(float(BM.selected.hp)/BM.selected.max_hp))
         $en_size = int(298*(float(BM.selected.en)/BM.selected.max_en))
@@ -1588,7 +1590,7 @@ screen commands: ##show the weapon buttons etc##
                 python:
                     if not hasattr(weapon,'hp_cost'): weapon.hp_cost = 0
                 if weapon.hp_cost > 0:
-                    text str(-weapon.hp_cost) + 'HP':
+                    text str(-weapon.hp_cost) + _('HP'):
                         xanchor 0.5
                         yanchor 0.5
                         xpos (x_offset+80+120*count)
@@ -2043,7 +2045,7 @@ screen victory:
             outlines [(4,'000',0,0)]
             at victory_tf(xx,wait)
 
-        $wait += 0.2
+        $wait += 0.22
         $xx += 75
 
 transform victory_ships(xx,wait,zz):
@@ -2212,8 +2214,8 @@ screen victory2:
         # outlines [(2,'000',0,0)]
         # at delay_text(wait)
 
-    $ diff_text = __("Current dificulty: {}").format( DIFFICULTY_NAMES[store.Difficulty] )
-    $ low_diff_text = __("Lowest dificulty: {}").format( DIFFICULTY_NAMES[BM.lowest_difficulty] )
+    $ diff_text = __("Current dificulty: {}").format( __(DIFFICULTY_NAMES[store.Difficulty]) )
+    $ low_diff_text = __("Lowest dificulty: {}").format( __(DIFFICULTY_NAMES[BM.lowest_difficulty]) )
         
 
     vbox:
@@ -2740,7 +2742,7 @@ screen gallery_achievements():
                                     value achievement.tracked_value
                                     range achievement.stat_max
                             if achievement.attribution is not None:
-                                text 'by: '+achievement.attribution size 18
+                                text __('by: ')+achievement.attribution size 18
                             text achievement.description size 18
                     else:
                         $hidden_chivos += 1

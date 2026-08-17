@@ -292,7 +292,7 @@ init 2 python: #Ships
         def __init__(self):
             super(AllianceCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'Alliance Cruiser'
+            self.name = _('Alliance Cruiser')
             self.animation_name = 'alliancecruiser'
             self.pilot = 'Alliance Captain'
             self.faction = 'Player'
@@ -348,7 +348,7 @@ init 2 python: #Ships
         def __init__(self):
             super(EnemyAllianceCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'Alliance Cruiser'
+            self.name = _('Alliance Cruiser')
             self.animation_name = 'alliancecruiser'
             self.faction = 'Alliance'
             self.max_hp = 1200
@@ -374,7 +374,7 @@ init 2 python: #Ships
         def __init__(self):
             super(EnemyAllianceInfantry, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'Alliance Infantry'
+            self.name = _('Alliance Infantry')
             self.faction = 'Alliance'
             self.max_hp = 600
             self.hp = self.max_hp
@@ -399,7 +399,7 @@ init 2 python: #Ships
         def __init__(self):
             super(AllianceInfantry, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'Alliance Infantry'
+            self.name = _('Alliance Infantry')
             self.animation_name = 'alliancecruiser'
             self.faction = 'Player'
             self.mercenary = True
@@ -431,7 +431,7 @@ init 2 python: #Ships
         def __init__(self):
             super(EnemyAllianceSupportCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'Alliance Support Cruiser'
+            self.name = _('Alliance Support Cruiser')
             self.animation_name = 'alliancecruiser'
             self.faction = 'Alliance'
             self.max_hp = 1100
@@ -460,7 +460,7 @@ init 2 python: #Ships
         def __init__(self):
             super(AllianceSupportCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'Alliance Support Cruiser'
+            self.name = _('Alliance Support Cruiser')
             self.animation_name = 'alliancecruiser'
             self.faction = 'Player'
             self.mercenary = True
@@ -495,7 +495,7 @@ init 2 python: #Ships
         def __init__(self):
             super(AllianceCarrier, self).__init__()
             self.stype = 'Carrier'
-            self.name = 'Alliance Carrier'
+            self.name = _('Alliance Carrier')
             self.animation_name = 'alliancebattleship'
             self.faction = 'Player'
             self.mercenary = True
@@ -530,7 +530,7 @@ init 2 python: #Ships
         def __init__(self):
             super(EnemyAllianceCarrier, self).__init__()
             self.stype = 'Battleship'
-            self.name = 'Alliance Carrier'
+            self.name = _('Alliance Carrier')
             self.animation_name = 'alliancebattleship'
             self.faction = 'Alliance'
             self.max_hp = 3300
@@ -559,7 +559,7 @@ init 2 python: #Ships
         def __init__(self):
             super(CeraGunboat, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'Cera Gunboat'
+            self.name = _('Cera Gunboat')
             self.animation_name = 'alliancecruiser'
             self.faction = 'Player'
             self.mercenary = True
@@ -591,7 +591,7 @@ init 2 python: #Ships
         def __init__(self):
             super(RyuvianFalcon, self).__init__()
             self.stype = 'Destroyer'
-            self.name = 'Ryuvian Falcon'
+            self.name = _('Ryuvian Falcon')
             self.animation_name = 'ryuvianfalcon'
             self.faction = 'Player'
             self.mercenary = True
@@ -624,7 +624,7 @@ init 2 python: #Ships
         def __init__(self):
             super(UnionBattleship, self).__init__()
             self.stype = 'Battleship'
-            self.name = 'Union Battleship'
+            self.name = _('Union Battleship')
             self.animation_name = 'unionbattleship'
             self.faction = 'Player'
             self.mercenary = True
@@ -656,7 +656,7 @@ init 2 python: #Ships
         def __init__(self):
             super(AllianceBattleship, self).__init__()
             self.stype = 'Battleship'
-            self.name = 'Alliance Battleship'
+            self.name = _('Alliance Battleship')
             self.animation_name = 'alliancebattleship'
             self.pilot = 'Alliance Commander'
             self.faction = 'Player'
@@ -705,7 +705,7 @@ init 2 python: #Ships
         def __init__(self):
             super(EnemyAllianceBattleship, self).__init__()
             self.stype = 'Battleship'
-            self.name = 'Alliance Battleship'
+            self.name = _('Alliance Battleship')
             self.animation_name = 'alliancebattleship'
             self.faction = 'Alliance'
             self.mercenary = True
@@ -732,7 +732,7 @@ init 2 python: #Ships
         def __init__(self):
             super(FriendlyPactAssaultCarrier, self).__init__()
             self.stype = 'Assault Carrier'
-            self.name = 'PACT Assault Carrier'
+            self.name = _('PACT Assault Carrier')
             #indicate what units this carrier can spawn. syntax: [ship,cost,weaponlist]
             self.faction = 'Player'
             self.mercenary = True
@@ -769,7 +769,7 @@ init 2 python: #Ships
         def __init__(self):
             super(FriendlyPactFastCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'PACT Fast Cruiser'
+            self.name = _('PACT Fast Cruiser')
             self.faction = 'Player'
             self.mercenary = True
             self.animation_name = 'pactfastcruiser'
@@ -806,7 +806,7 @@ init 2 python: #Ships
         def __init__(self):
             super(FriendlyPactElite, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'PACT Elite'
+            self.name = _('PACT Elite')
             self.animation_name = 'pactelite'
             self.faction = 'Player'
             self.mercenary = True
@@ -843,7 +843,7 @@ init 2 python: #Ships
         def __init__(self):
             super(FriendlyPactSupport, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'PACT Support'
+            self.name = _('PACT Support')
             self.support = True  #signifies to the AI this unit uses support skills
             self.animation_name = 'pactsupport'
             self.faction = 'Player'
@@ -885,7 +885,7 @@ init 2 python: #Ships
             
         def expiry_callback(self):
             if self.turns_alive > 3: #this counter starts at 1 and is increased just before callbacks are run. this ship lasts for 3 turns
-                show_message("The Alliance Battleship goes back to base")
+                show_message(_("The Alliance Battleship goes back to base"))
                 BM.temp_battleship_active = False
                 delete_ship(self)
                 BM.end_turn_callbacks.remove(self.expiry_callback)
@@ -894,7 +894,7 @@ init 2 python: #Ships
         def __init__(self):
             super(UnionFrigate, self).__init__()
             self.stype = 'Frigate'
-            self.name = 'Mining Union Frigate'
+            self.name = _('Mining Union Frigate')
             self.animation_name = 'unionfrigate'
             self.pilot = 'Union Luitenant'
             self.faction = 'Player'
@@ -946,7 +946,7 @@ init 2 python: #Ships
         def __init__(self):
             super(Agamemnon, self).__init__()
             self.stype = 'Ship'
-            self.name = 'Agamemnon'
+            self.name = _('Agamemnon')
             self.animation_name = 'agamemnon'
             self.faction = 'Player'
             self.max_hp = 800
@@ -988,7 +988,7 @@ init 2 python: #Ships
         def __init__(self):
             super(Freighter, self).__init__()
             self.stype = 'Ship'
-            self.name = 'Freighter'
+            self.name = _('Freighter')
             self.animation_name = 'mochi'
             self.faction = 'Player'
             self.max_hp = 1000
@@ -1031,7 +1031,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PhoenixBoaster, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'Unknown Hostile'
+            self.name = _('Unknown Hostile')
             self.animation_name = 'phoenixboaster'
             self.faction = 'PACT'
             self.max_hp = 700
@@ -1056,7 +1056,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactBomber, self).__init__()
             self.stype = 'Ryder' #subtype bomber
-            self.name = 'PACT Bomber'
+            self.name = _('PACT Bomber')
             self.animation_name = 'pactbomber'
             self.faction = 'PACT'
             self.max_hp = 550
@@ -1085,7 +1085,7 @@ init 2 python: #Ships
         def __init__(self):
             super(SeraphimEnemy, self).__init__()
             self.stype = 'Ryder' #subtype bomber
-            self.name = 'Ryuvian Ryder'
+            self.name = _('Ryuvian Ryder')
             self.animation_name = 'seraphimenemy'
             self.faction = 'PACT'
             self.max_hp = 375
@@ -1161,7 +1161,7 @@ init 2 python: #Ships
         def __init__(self):
             super(MissileFrigate, self).__init__()
             self.stype = 'Frigate'
-            self.name = 'PACT Missile Frigate'
+            self.name = _('PACT Missile Frigate')
             self.animation_name = 'pactmissilefrigate'
             self.faction = 'PACT'
             self.max_hp = 400
@@ -1183,7 +1183,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactMook, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'PACT Mook'
+            self.name = _('PACT Mook')
             self.animation_name = 'pactmook'
             self.faction = 'PACT'
             self.max_hp = 400
@@ -1307,7 +1307,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactElite, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'PACT Elite'
+            self.name = _('PACT Elite')
             self.animation_name = 'pactelite'
             self.faction = 'PACT'
             self.max_hp = 700
@@ -1340,7 +1340,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactSupport, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'PACT Support'
+            self.name = _('PACT Support')
             self.support = True  #signifies to the AI this unit uses support skills
             self.animation_name = 'pactsupport'
             self.faction = 'PACT'
@@ -1373,7 +1373,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'PACT Cruiser'
+            self.name = _('PACT Cruiser')
             self.faction = 'PACT'
             self.animation_name = 'pactcruiser'
             self.max_hp = 900
@@ -1402,7 +1402,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactFastCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'PACT Fast Cruiser'
+            self.name = _('PACT Fast Cruiser')
             self.faction = 'PACT'
             self.animation_name = 'pactfastcruiser'
             self.max_hp = 900
@@ -1431,7 +1431,7 @@ init 2 python: #Ships
         def __init__(self):
             super(RyuvianCruiser, self).__init__()
             self.stype = 'Cruiser'
-            self.name = 'Ryuvian Cruiser'
+            self.name = _('Ryuvian Cruiser')
             self.faction = 'PACT'
             self.animation_name = 'ryuviancruiser'
             self.max_hp = 1200
@@ -1460,7 +1460,7 @@ init 2 python: #Ships
         def __init__(self):
             super(RyuvianFalconEnemy, self).__init__()
             self.stype = 'Destroyer'
-            self.name = 'Ryuvian Falcon'
+            self.name = _('Ryuvian Falcon')
             self.faction = 'PACT'
             self.animation_name = 'ryuvianfalconenemy'
             self.max_hp = 9001
@@ -1489,7 +1489,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactOutpost, self).__init__()
             self.stype = 'Station'
-            self.name = 'PACT Outpost'
+            self.name = _('PACT Outpost')
             self.faction = 'PACT'
             self.animation_name = 'pactstation'
             self.max_hp = 900
@@ -1519,7 +1519,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactBattleship, self).__init__()
             self.stype = 'Battleship'
-            self.name = 'PACT Battleship'
+            self.name = _('PACT Battleship')
             self.faction = 'PACT'
             self.animation_name = 'pactbattleship'
             self.max_hp = 2100
@@ -1548,7 +1548,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactDestroyer, self).__init__()
             self.stype = 'Destroyer'
-            self.name = 'PACT Destroyer'
+            self.name = _('PACT Destroyer')
             self.faction = 'PACT'
             self.animation_name = 'pactdestroyer'
             self.max_hp = 550
@@ -1577,7 +1577,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactCarrier, self).__init__()
             self.stype = 'Carrier'
-            self.name = 'PACT Carrier'
+            self.name = _('PACT Carrier')
             #indicate what units this carrier can spawn. syntax: [ship,cost,weaponlist]
             self.spawns = [
                 ( PactMook,50,[ PACTMookLaser(),PACTMookMissile(),PACTMookAssault() ] ),
@@ -1611,7 +1611,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactProtoCarrier, self).__init__()
             self.stype = 'Carrier'
-            self.name = 'PACT Carrier'
+            self.name = _('PACT Carrier')
             #indicate what units this carrier can spawn. syntax: [ship,cost,weaponlist]
             self.spawns = [
                 ( Arcadius,100,[ ArcadiusMelee(),ArcadiusMissile(),ArcadiusLaser(),ArcadiusPulse() ] ),
@@ -1645,7 +1645,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PactAssaultCarrier, self).__init__()
             self.stype = 'Assault Carrier'
-            self.name = 'PACT Assault Carrier'
+            self.name = _('PACT Assault Carrier')
             #indicate what units this carrier can spawn. syntax: [ship,cost,weaponlist]
             self.spawns = [
                 ( PactElite,60,[ PACTEliteLaser(),PACTEliteMissile(),PACTEliteAssault(),PACTEliteMelee() ] ),
@@ -1679,7 +1679,7 @@ init 2 python: #Ships
         def __init__(self):
             super(EnemyBlackjack, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'Enemy Black Jack'
+            self.name = _('Enemy Black Jack')
             #indicate what units this carrier can spawn. syntax: [ship,cost,weaponlist]
             self.faction = 'PACT'
             self.animation_name = 'enemyblackjack'
@@ -1741,7 +1741,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PirateBomber, self).__init__()
             self.stype = 'Ryder' #subtype bomber
-            self.name = 'Pirate Bomber'
+            self.name = _('Pirate Bomber')
             self.animation_name = 'piratebomber'
             self.faction = 'Pirate'
             self.max_hp = 350
@@ -1819,7 +1819,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PirateGrunt, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'Pirate Grunt'
+            self.name = _('Pirate Grunt')
             self.animation_name = 'pirategrunt'
             self.faction = 'Pirate'
             self.max_hp = 275
@@ -1846,7 +1846,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PirateDestroyer, self).__init__()
             self.stype = 'Destroyer'
-            self.name = 'Pirate Destroyer'
+            self.name = _('Pirate Destroyer')
             self.animation_name = 'piratedestroyer'
             self.faction = 'Pirate'
             self.max_hp = 500
@@ -1866,7 +1866,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PirateBase, self).__init__()
             self.stype = 'Station'
-            self.name = 'Pirate Base'
+            self.name = _('Pirate Base')
             self.faction = 'Pirate'
             self.animation_name = 'piratebase'
             self.max_hp = 2200
@@ -1896,7 +1896,7 @@ init 2 python: #Ships
         def __init__(self):
             super(PirateIronhog, self).__init__()
             self.stype = 'Destroyer'
-            self.name = 'Pirate Ironhog'
+            self.name = _('Pirate Ironhog')
             self.faction = 'Pirate'
             self.animation_name = 'pirateironhog'
             self.max_hp = 480
@@ -1926,7 +1926,7 @@ init 2 python: #Ships
         def __init__(self):
             super(Nightmare_Flierdrone, self).__init__()
             self.stype = 'Ryder'
-            self.name = 'Flier Drone'
+            self.name = _('Flier Drone')
             self.faction = 'PACT'
             self.max_hp = 500
             self.hp = self.max_hp
@@ -4246,7 +4246,7 @@ init 2 python: ### Buffs ###
     class ShieldJam(Buff):
         name = _("Shield Jam")
         cumulative = True
-        tooltip_es = ""
+        tooltip = "Reduces shield generation each time it's applied."
         affected_stats = ['shield_generation']
         duration = 2
         
@@ -4627,7 +4627,7 @@ init -1 python: ## store items ##
             self.id = 'new warhead'
             self.display_name = _("TORPEDO AMMO")
             self.cost = 300
-            self.tooltip = __('Purchase warheads to allow the Sunrider to fire powerful torpedoes at the enemy. A torpedo deals {} damage, but can be shot down by enemy flak. The Sunrider can carry a maximum of [sunrider.max_rockets] at a time.').format(sunrider.weapons[3].damage)
+            self.tooltip = _('Purchase warheads to allow the Sunrider to fire powerful torpedoes at the enemy. A torpedo deals 800 damage, but can be shot down by enemy flak. The Sunrider can carry a maximum of [sunrider.max_rockets] at a time.')
             self.variable_name = 'sunrider.rockets'    #this decides what is shown in the store after [owned:
             # self.visibility_condition = 'sunrider.rockets < sunrider.max_rockets'
             self.max_amt = sunrider.max_rockets    #you can buy no more than this number of this item. see previous field
@@ -4687,7 +4687,7 @@ init -1 python: ## store items ##
             self.cost = 2000
             self.variable_name = "get_shipcount_in_list('Alliance Cruiser',player_ships)"
             self.max_amt = 2
-            self.tooltip = __('With the Solar Congress\' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider\'s escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to {} in your fleet at any time').format(self.max_amt)
+            self.tooltip = _('With the Solar Congress\' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider\'s escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to 2 in your fleet at any time')
             self.background_image = "store/item_mercenary.png"
             
 
@@ -4703,7 +4703,7 @@ init -1 python: ## store items ##
             self.cost = 750
             self.variable_name =  "get_shipcount_in_list('Mining Union Frigate',player_ships)"
             self.max_amt = 3
-            self.tooltip = __('The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to {} in your fleet at any time').format(self.max_amt)
+            self.tooltip = _('The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to 3 in your fleet at any time')
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4719,7 +4719,7 @@ init -1 python: ## store items ##
             self.variable_name =  "get_shipcount_in_list('Cera Gunboat',player_ships)"
             self.max_amt = 4
             self.visibility_condition = "store.mission2_complete"
-            self.tooltip = __('A stellar navy does not vanish overnight. The sudden fall of Cera left smaller assets scattered all over the galaxy with no chain of command. With some money, you can reinstate nimble Ceran gunboats back into your fleet. Designed for both stellar and atmospheric use as fire support dropships, these gunboats can provide flak and suppressive fire for larger ships. You can have up to {} in your fleet at any time').format(self.max_amt)
+            self.tooltip = _('A stellar navy does not vanish overnight. The sudden fall of Cera left smaller assets scattered all over the galaxy with no chain of command. With some money, you can reinstate nimble Ceran gunboats back into your fleet. Designed for both stellar and atmospheric use as fire support dropships, these gunboats can provide flak and suppressive fire for larger ships. You can have up to 4 in your fleet at any time')
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4735,7 +4735,7 @@ init -1 python: ## store items ##
             self.variable_name =  "get_shipcount_in_list('Ryuvian Falcon',player_ships)"
             self.max_amt = 2
             self.visibility_condition = "store.discoverfalcon == True"
-            self.tooltip = __('Using materials and data salvaged from the battlesite, we can reconstruct the Ryuvian ghost ship we encountered in the Pacemus Nebula to the best of our ability. While nowhere as powerful as the original, the Falcon is still a deadly destroyer, featuring oversized kinetic guns and nose mounted pulse guns. Its greatest asset is its speed and maneuverability, however, easily quicker and more nimble than most other vessels. You can have up to {} in your fleet.').format(self.max_amt)
+            self.tooltip = _('Using materials and data salvaged from the battlesite, we can reconstruct the Ryuvian ghost ship we encountered in the Pacemus Nebula to the best of our ability. While nowhere as powerful as the original, the Falcon is still a deadly destroyer, featuring oversized kinetic guns and nose mounted pulse guns. Its greatest asset is its speed and maneuverability, however, easily quicker and more nimble than most other vessels. You can have up to 2 in your fleet.')
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):
@@ -4751,7 +4751,7 @@ init -1 python: ## store items ##
             self.variable_name =  "get_shipcount_in_list('Union Battleship',player_ships)"
             self.max_amt = 1
             self.visibility_condition = "store.mission5_complete == True"
-            self.tooltip = __('While the primary purpose of the Union Asteroid Miner is resource collection, the behemoth vessel makes a formidable battleship with heavy armor, powerful lasers, and a tractor beam. While the Union claims the ships\' weapons are primarily aimed at deterring pirates, critics allege the Miner is merely a thinly disguised battleship, intended to keep ore rich worlds in line with Union demands. You can have up to {} in your fleet.').format(self.max_amt)
+            self.tooltip = _('While the primary purpose of the Union Asteroid Miner is resource collection, the behemoth vessel makes a formidable battleship with heavy armor, powerful lasers, and a tractor beam. While the Union claims the ships\' weapons are primarily aimed at deterring pirates, critics allege the Miner is merely a thinly disguised battleship, intended to keep ore rich worlds in line with Union demands. You can have up to 1 in your fleet.')
             self.background_image = "store/item_mercenary.png"
 
         def buy(self):

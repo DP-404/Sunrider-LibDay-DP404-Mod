@@ -5081,8 +5081,6 @@ label gotobackupftl:
             $dshow(34301)
             cla "Mou, I can't even look at you any more..."
             cla "Go back to when you kidnapped Chigara and chose to trust me instead! Then maybe I'll help you... Hmph!"  #where the hell is Thor when you need him?
-            hide claude
-            pause
             $renpy.full_restart()
 
         "... ... ..."

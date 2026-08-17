@@ -4,7 +4,7 @@
 translate spanish censored_asagahscene_8c4f5c0d:
 
     # "Shields pulled Asaga from the bunk and wrapped her legs around his waist as the two of them floated through the room."
-    "Shields sacó a Asaga de la litera y envolvió sus piernas alrededor de su cintura mientras ambos flotaban por la habitación."
+    "Shields sacó a Asaga de la litera y envolvió las piernas de ella alrededor de su cintura mientras ambos flotaban por la habitación."
 
 # game/init_censored.rpy:225
 translate spanish censored_asagahscene_fa5c8003:
@@ -16,19 +16,19 @@ translate spanish censored_asagahscene_fa5c8003:
 translate spanish censored_asagahscene_f80071a9:
 
     # asa "D-doing it for the first time like this... Uwaah, the capt'n's sure bold..."
-    asa "Ha-acer esto por primera vez de esta forma... Uwaah, el capitán ciertamente es atrevido..."
+    asa "E-estar haciéndolo por primera vez de esta forma... Uwaah, el capitán sí que es atrevido..."
 
 # game/init_censored.rpy:227
 translate spanish censored_asagahscene_412787e9:
 
     # kay "Put your arms around behind my neck."
-    kay "Pon tus brazos por detrás de mi cuello."
+    kay "Envuelve tus brazos por detrás de mi cuello."
 
 # game/init_censored.rpy:228
 translate spanish censored_asagahscene_a407e0ff:
 
     # "He pulled his pants down and raised Asaga up by her plump ass."
-    "Bajó sus calzones y levantó a Asaga por su gran trasero."
+    "Se bajó sus calzones y levantó a Asaga por su gran trasero."
 
 # game/init_censored.rpy:229
 translate spanish censored_asagahscene_d376ed80:
@@ -64,7 +64,7 @@ translate spanish censored_asagahscene_5fe90868:
 translate spanish censored_asagahscene_585c9c39:
 
     # "He slowly slid her in, her entrance stretching to accommodate his girth."
-    "Lentamente se deslizó dentro de ella, su entrada se estiró para acomodarse a su circunferencia."
+    "Lentamente se deslizó dentro de ella, su entrada se estiró para acomodarse a la circunferencia de él."
 
 # game/init_censored.rpy:235
 translate spanish censored_asagahscene_a7f7c2fe:
@@ -112,7 +112,7 @@ translate spanish censored_asagahscene_733c2058:
 translate spanish censored_asagahscene_a1f71001:
 
     # asa "Make me feel real good, 'kay?"
-    asa "Hazme sentir realmente bien, ¿de acuerdo?"
+    asa "Hazme sentir realmente bien, ¿okey?"
 
 # game/init_censored.rpy:243
 translate spanish censored_asagahscene_58984c84:
@@ -130,13 +130,13 @@ translate spanish censored_asagahscene_789c80c5:
 translate spanish censored_asagahscene_9c1fbb23:
 
     # "He stripped off her clothes in a rush. Her twin tails floated about as the two slowly revolved in midair."
-    "Le abrió sus ropas en un apuro. Las dos colas de su pelo flotaron mientras ambos giraban lentamente en medio del aire."
+    "Le abrió sus ropas en un apuro. Las dos coletas de su pelo flotaron mientras ambos giraban lentamente en medio del aire."
 
 # game/init_censored.rpy:249
 translate spanish censored_asagahscene_58963f38:
 
     # "Asaga's fluid soaked his loins and dripped off, floating in strings around them."
-    "Los fluidos de Asaga empapaban sus piernas y se escurrían fuera, flotando como hilos alrededor de ellos."
+    "Los fluidos de Asaga empapaban sus piernas y goteaban, flotando como hilos alrededor de ellos."
 
 # game/init_censored.rpy:250
 translate spanish censored_asagahscene_5208e0b7:
@@ -148,7 +148,7 @@ translate spanish censored_asagahscene_5208e0b7:
 translate spanish censored_asagahscene_d610ff60:
 
     # "He pounded Asaga against him, her entryway slapping against his pelvis. Asaga's fingers dug into his neck as her pussy muscles untensed, sending forth another tidal wave of juice."
-    "Golpeaba a Asaga contra él, con su entrada golpeando contra su pelvis. Los dedos de Asaga se enterraban en su cuello mientras los músculos de su vagina se destensaban, enviando adelante otra ola de jugo."
+    "Golpeaba a Asaga contra él, con su entrada chocando contra su pelvis. Los dedos de Asaga se enterraron en su cuello mientras los músculos de su vagina se relajaban, enviando adelante otra oleada de jugo."
 
 # game/init_censored.rpy:252
 translate spanish censored_asagahscene_a2bdeb8c:
@@ -196,7 +196,7 @@ translate spanish censored_asagahscene_d8c0e455:
 translate spanish censored_asagahscene_b870caa9:
 
     # asa "F-feels so good... m-might pee myself..."
-    asa "S-se siente tan bien... que p-podría hacerme pís..."
+    asa "S-se siente tan bien... que p-podría hacerme pis..."
 
 # game/init_censored.rpy:260
 translate spanish censored_asagahscene_7cf66f0d:
@@ -220,7 +220,7 @@ translate spanish censored_asagahscene_103b132b:
 translate spanish censored_asagahscene_622ec021:
 
     # "Asaga's scent flooded his senses, making Shields feel light headed. He felt pressure surge south."
-    "El aroma de Asaga inundó sus sentidos, haciendo sentir a Shieds tonto. Sintió la presión emerger desde abajo."
+    "El aroma de Asaga inundó sus sentidos, haciendo sentir a Shields tonto. Sintió la presión emerger desde abajo."
 
 # game/init_censored.rpy:264
 translate spanish censored_asagahscene_14be1b9d:
@@ -238,13 +238,13 @@ translate spanish censored_asagahscene_61e574f5:
 translate spanish censored_asagahscene_a551d431:
 
     # "Asaga's taste filled his head with warmth, and traveled down his neck, and gathered at the base of his cannon rod, now prepped for imminent action."
-    "El sabor de Asaga llenó su cabeza con calor, y viajó hacia abajo de su cuello, y se reunió en la base de su cañón, ahora preparado para la acción inminente."
+    "El sabor de Asaga llenó su cabeza con calor, y viajó hacia abajo por su cuello, y se reunió en la base de su cañón, ahora preparado para la acción inminente."
 
 # game/init_censored.rpy:267
 translate spanish censored_asagahscene_ca29507b:
 
     # "Her modest but still laudable boobs squeezed against his chest with each pound, her hard little tits tickling him."
-    "Sus modestos pero aún así admirables pechos se apretaban contra su tórax con cada golpe, con sus duros y pequeños pezones haciéndole cosquillas a él."
+    "Sus modestos pero aun así admirables pechos se apretaban contra su tórax con cada golpe, con sus duros y pequeños pezones haciéndole cosquillas a él."
 
 # game/init_censored.rpy:268
 translate spanish censored_asagahscene_8f40b4fe:
@@ -286,7 +286,7 @@ translate spanish censored_asagahscene_c4ceb92f:
 translate spanish censored_asagahscene_42ae9081:
 
     # "Asaga gasped and held Shields close as she unexpectedly came."
-    "Asaga jadeó y sostuvo a Shields cerca mientras ella inesperadamente se venía."
+    "Asaga jadeó y acercó a Shields cuando ella inesperadamente se vino."
 
 # game/init_censored.rpy:275
 translate spanish censored_asagahscene_191c66be:
@@ -304,7 +304,7 @@ translate spanish censored_asagahscene_71986a21:
 translate spanish censored_asagahscene_6bc3d593:
 
     # "Battles were decided by whoever lost their cool first and committed too early. Shields was not about to make such a rookie mistake."
-    "Las batallas eran decididas por quienquiera que perdiera su compostura primero y cometiera un error demasiado pronto. Shields no estaba próximo a cometer semejante error de principiante."
+    "Las batallas eran decididas por quienquiera que perdiera su compostura primero y cometiera un error demasiado pronto. Shields no pretendía cometer semejante error de principiante."
 
 # game/init_censored.rpy:278
 translate spanish censored_asagahscene_e702f6ca:
@@ -322,13 +322,13 @@ translate spanish censored_asagahscene_1991b41e:
 translate spanish censored_asagahscene_8b567d3c:
 
     # asa "T-that was just a 'lil accident anyways... There's still a big one lurking inside... Can feel it..."
-    asa "E-eso fue solo un pequeño accidente de todas formas... Todavía hay uno grande escondiéndose dentro... Lo puedo sentir..."
+    asa "E-eso fue solo un pequeño accidente de todas formas... Todavía hay uno grande escondiéndose dentro... Puedo sentirlo..."
 
 # game/init_censored.rpy:281
 translate spanish censored_asagahscene_95fc819d:
 
     # kay "Well then, better go in deep and smoke it out."
-    kay "En fin, mejor seguir más profundo y sacarlo fuera."
+    kay "En fin, mejor ir más profundo y sacarlo fuera."
 
 # game/init_censored.rpy:282
 translate spanish censored_asagahscene_2937ed2a:
@@ -388,7 +388,7 @@ translate spanish censored_asagahscene_98c92b80:
 translate spanish censored_asagahscene_658e914c:
 
     # kay "What, then what did you think was your charm point?"
-    kay "¿Qué, entonces cuál pensabas que era tu punto de encanto?"
+    kay "¿Qué, entonces cuál pensabas que era tu atractivo?"
 
 # game/init_censored.rpy:292
 translate spanish censored_asagahscene_cde7be65:
@@ -424,7 +424,7 @@ translate spanish censored_asagahscene_94767e94:
 translate spanish censored_asagahscene_0ab36517:
 
     # "Shields quickened his pace, slapping himself against her upper thighs."
-    "Shields aceleró su ritmo, golpeándose contra sus muslos superiores."
+    "Shields aceleró su ritmo, golpeándose contra los muslos de ella."
 
 # game/init_censored.rpy:298
 translate spanish censored_asagahscene_2df8a24a_1:
@@ -472,7 +472,7 @@ translate spanish censored_asagahscene_a4adc277:
 translate spanish censored_asagahscene_b2cdceec:
 
     # "At this point, Asaga was too messed up to even realize what she was saying."
-    "A este punto, Asaga estaba demasiado confundida como para siquiera darse cuenta de lo que estaba diciendo."
+    "A estas alturas, Asaga estaba demasiado confundida como para siquiera darse cuenta de lo que estaba diciendo."
 
 # game/init_censored.rpy:306
 translate spanish censored_asagahscene_51ea0bdd:
@@ -550,7 +550,7 @@ translate spanish censored_asagahscene_9ac8099b:
 translate spanish censored_asagahscene_d25edf79:
 
     # "His weapon shot forth, loading Asaga's hole with more cream than it could hold."
-    "Su arma disparó hacia adelante, llenando el hoyo de Asaga con más crema de la que podía aguantar."
+    "Su arma disparó hacia adelante, llenando el hoyo de Asaga con más crema de la que podía contener."
 
 # game/init_censored.rpy:326
 translate spanish censored_asagahscene_384b00d9:
@@ -658,7 +658,7 @@ translate spanish censored_asagahscene_808601ed:
 translate spanish censored_asagahscene_932a5e50:
 
     # "They were now levitating upside down, their feet against the ceiling, orbs of their body fluids circling them. Truly a surreal scene, to be sure."
-    "Ellos estaban ahora levitando de cabeza, con sus pies contra el techo, y orbes de sus fluidos corporales dando vueltas a su alrededor. Verdaderamente una escena surreal, sin duda."
+    "Ellos estaban ahora levitando de cabeza, con sus pies contra el techo, y orbes de sus fluidos corporales dándoles vueltas en círculo. Verdaderamente una escena surrealista, sin duda."
 
 # game/init_censored.rpy:347
 translate spanish censored_asagahscene_56c9a3e2:
@@ -688,19 +688,19 @@ translate spanish censored_asagahscene_6b57f572:
 translate spanish censored_asagahscene_cf3943ed:
 
     # kay "Wouldn't that be nice..."
-    kay "No sería eso bueno..."
+    kay "Sí que sería bueno eso..."
 
 # game/init_censored.rpy:352
 translate spanish censored_asagahscene_8530bcac:
 
     # asa "Aaah!! That's hardly a plus!!"
-    asa "¡¡Aaah!! ¡¡Eso es difícilmente una ventaja!!"
+    asa "¡¡Aaah!! ¡¡Eso es difícilmente algo bueno!!"
 
 # game/init_censored.rpy:353
 translate spanish censored_asagahscene_4fc211b6:
 
     # asa "I'll hafta fly the Black Jack with muh cum face! Nobody's ever gonna take me seriously again!"
-    asa "¡Tendré que volar el Black Jack con semen en la cara! ¡Nadie nunca me va a tomar en serio de nuevo!"
+    asa "¡Tendré que volar el Black Jack con mi cara llena de semen! ¡Nunca nadie me va a tomar en serio de nuevo!"
 
 # game/init_censored.rpy:354
 translate spanish censored_asagahscene_56b80b02:
@@ -712,7 +712,7 @@ translate spanish censored_asagahscene_56b80b02:
 translate spanish censored_asagahscene_a13d9afa:
 
     # "Asaga's hole was caked with an ugly batter of cum, juice, and blood. And that was only the beginning of the huge mess the two found themselves floating through."
-    "El agujero de Asaga estaba lleno con un feo batido de semen, jugos y sangre. Y ese era solo el comienzo del gran desastre a través del cual ambos se encontraban."
+    "El agujero de Asaga estaba lleno de un feo batido de semen, jugos y sangre. Y ese era solo el comienzo del gran desastre a través del cual ambos se encontraban flotando."
 
 # game/init_censored.rpy:356
 translate spanish censored_asagahscene_7694e377:
@@ -724,13 +724,13 @@ translate spanish censored_asagahscene_7694e377:
 translate spanish censored_asagahscene_75e95f89:
 
     # "Shields opened a storage locker and withdrew the drone. It buzzed around, dutifully cleaning up their mess."
-    "Shields abrió un casillero de almacén y extrajo al dron. Zumbó alrededor, limpiando obedientemente su desastre."
+    "Shields abrió un casillero de almacenamiento y retiró al dron. Zumbó alrededor, limpiando obedientemente el desastre de ellos."
 
 # game/init_censored.rpy:358
 translate spanish censored_asagahscene_f0947ff6:
 
     # asa "Eeeh... You weren't gonna force me to fly around and eat it all up?"
-    asa "Eeeh... ¿No ibas a forzarme a volar y comerlo todo?"
+    asa "Eeeh... ¿No ibas a obligarme a volar y comérmelo todo?"
 
 # game/init_censored.rpy:359
 translate spanish censored_asagahscene_ec96b39a:
@@ -748,7 +748,7 @@ translate spanish censored_asagahscene_990d6d17:
 translate spanish censor_avahscene_1531c972:
 
     # "Ava wrapped her arms around Shields and brought him down to the floor. Shields raised her head with his arms and locked their mouths together, their tongues tasting each other."
-    "Ava envolvió sus brazos alrededor de Shields y lo trajo hacia abajo al suelo. Shields levantó su cabeza con sus brazos y cerró sus bocas juntándolas, sus lenguas probando el sabor de la otra."
+    "Ava envolvió sus brazos alrededor de Shields y lo bajó al suelo. Shields levantó la cabeza de ella con sus brazos y juntó sus bocas, con sus lenguas saboreándose entre sí."
 
 # game/init_censored.rpy:373
 translate spanish censor_avahscene_d7962526:
@@ -766,7 +766,7 @@ translate spanish censor_avahscene_691d1774:
 translate spanish censor_avahscene_697df2f2:
 
     # "Pushing her bra up, her plentiful bounty spilled forth, a pair of glorious breasts which Shields had longed to see since that day. He wrapped his lips around her tit and suckled on it, drawing out all manner of unspeakable noises."
-    "Levantando su sostén, su abundante recompensa se resbaló hacia adelante, un par de gloriosos senos que Shields no había visto desde aquel día. Envolvió sus labios alrededor de su pezón y lo chupó, realizando todo tipo de inexplicables ruidos."
+    "Levantando su sostén, su abundante recompensa se derramó hacia adelante, un par de gloriosos senos que Shields no había visto desde aquel día. Envolvió sus labios alrededor de su pezón y lo chupó, realizando todo tipo de inexplicables ruidos."
 
 # game/init_censored.rpy:382
 translate spanish censor_avahscene_1360c7ac:
@@ -784,13 +784,13 @@ translate spanish censor_avahscene_57cb1d77:
 translate spanish censor_avahscene_477e3c5f:
 
     # "With his hand, he reached into her skirt and rubbed her through her panties."
-    "Con su mano, se extendió hacia dentro de su falta y la frotó a través de sus bragas."
+    "Con su mano, se movió hacia dentro de su falta y la frotó a través de sus bragas."
 
 # game/init_censored.rpy:385
 translate spanish censor_avahscene_bfa2327f:
 
     # ava "Ah... Mou... You're... really going all the way..."
-    ava "Ah... Mou... Tú... realmente vas en serio..."
+    ava "Ah... Mou... Tú... realmente vas a hacerlo hasta el final..."
 
 # game/init_censored.rpy:386
 translate spanish censor_avahscene_d1807482:
@@ -808,7 +808,7 @@ translate spanish censor_avahscene_d587b554:
 translate spanish censor_avahscene_d222bfb0:
 
     # ava "I can't help it... Even I have urges, you know..."
-    ava "No puedo evitarlo... Incluso yo tengo mis deseos, sabes..."
+    ava "No puedo evitarlo... Incluso yo tengo deseos, sabes..."
 
 # game/init_censored.rpy:389
 translate spanish censor_avahscene_b65449f4:
@@ -820,13 +820,13 @@ translate spanish censor_avahscene_b65449f4:
 translate spanish censor_avahscene_b03f5110:
 
     # ava "Idiot... Don't act so surprised. Everyone needs a release every now and then..."
-    ava "Idiota... No actúes tan sorprendido. Todo el mundo necesita liberarse de vez en cuando..."
+    ava "Idiota... No actúes tan sorprendido. Todo el mundo necesita soltarlo de vez en cuando..."
 
 # game/init_censored.rpy:391
 translate spanish censor_avahscene_141b9098:
 
     # "With her permission acquired, he eagerly pulled off her tights and soaked his finger in her juices. Peeling the roof of Ava's clit back, he gave her joy button a few presses."
-    "Con su permiso adquirido, él le quitó ansiosamente sus medias y mojó su dedo en sus jugos. Revelando la punta del clítoris de Ava, le dio a su botón de disfrute unas cuantas presionadas."
+    "Con su permiso adquirido, él le quitó ansiosamente sus medias y mojó su dedo en sus jugos. Revelando la punta del clítoris de Ava, le dio a su botón de placer unos cuantos empujones."
 
 # game/init_censored.rpy:392
 translate spanish censor_avahscene_16822467:
@@ -844,7 +844,7 @@ translate spanish censor_avahscene_a144b552:
 translate spanish censor_avahscene_6bc4518b:
 
     # "Her clit puffed up like dough, emerging from its hiding spot."
-    "Su clítoris se inchó como una masa, emergiendo de su escondite."
+    "Su clítoris se hinchó como una masa, emergiendo de su escondite."
 
 # game/init_censored.rpy:395
 translate spanish censor_avahscene_24482b94:
@@ -862,7 +862,7 @@ translate spanish censor_avahscene_29656996:
 translate spanish censor_avahscene_19311bdb:
 
     # kay "W-well, I'm just sayin'!"
-    kay "¡B-bueno, simplemente lo digo!"
+    kay "¡B-bueno, solo estoy diciendo!"
 
 # game/init_censored.rpy:398
 translate spanish censor_avahscene_318dcd5b:
@@ -874,7 +874,7 @@ translate spanish censor_avahscene_318dcd5b:
 translate spanish censor_avahscene_af799056:
 
     # kay "Oy..."
-    kay "Oy..."
+    kay "Oye..."
 
 # game/init_censored.rpy:400
 translate spanish censor_avahscene_b21492dd:
@@ -898,7 +898,7 @@ translate spanish censor_avahscene_ffbc0b10:
 translate spanish censor_avahscene_dfed84bc:
 
     # "He peeled off Ava's panties while pulling down his trousers."
-    "Le sacó las bragas a Ava mientras bajaba sus propios pantalones."
+    "Le sacó las bragas a Ava mientras bajaba sus propios calzones."
 
 # game/init_censored.rpy:404
 translate spanish censor_avahscene_12526fe5:
@@ -910,13 +910,13 @@ translate spanish censor_avahscene_12526fe5:
 translate spanish censor_avahscene_5670c46b:
 
     # "He soaked his shaft in Ava's juices and ran it against her puffed up clit, once again spilling soft moans from Ava's lips."
-    "Remojó su asta en los jugos de Ava y lo chocó contra su hinchado clítoris, una vez más derramando suaves gemidos desde los labios de Ava."
+    "Remojó su asta en los jugos de Ava y lo chocó contra su hinchado clítoris, una vez más haciendo derramar suaves gemidos desde los labios de Ava."
 
 # game/init_censored.rpy:406
 translate spanish censor_avahscene_9e343ae7:
 
     # kay "(This woman... She acts all high and mighty, but in reality she's just as much of a horny animal as I am.)"
-    kay "(Esta mujer... Ella actúa tan arrogante, pero en realidad es simplemente tan animal lujurioso como lo soy yo.)"
+    kay "(Esta mujer... Ella actúa tan arrogante, pero en realidad es simplemente un animal tan lujurioso como lo soy yo.)"
 
 # game/init_censored.rpy:407
 translate spanish censor_avahscene_4f9eb306:
@@ -928,7 +928,7 @@ translate spanish censor_avahscene_4f9eb306:
 translate spanish censor_avahscene_64c093f3:
 
     # "After thoroughly stimulating her clit, he aligned himself with her gate, and slowly guided himself in."
-    "Tras estimular exhaustivamente su clítoris, se alineó con su puerta, y lentamente se guió hacia adentro."
+    "Tras estimular exhaustivamente su clítoris, se alineó con su puerta, y lentamente se guio hacia adentro."
 
 # game/init_censored.rpy:409
 translate spanish censor_avahscene_83ac8546:
@@ -940,7 +940,7 @@ translate spanish censor_avahscene_83ac8546:
 translate spanish censor_avahscene_30697041:
 
     # kay "Dang... Still tight..."
-    kay "Ugh... Todavía está apretado..."
+    kay "Diablos... Todavía está apretado..."
 
 # game/init_censored.rpy:417
 translate spanish censor_avahscene_a1f521cf:
@@ -1000,7 +1000,7 @@ translate spanish censor_avahscene_423dd7b3:
 translate spanish censor_avahscene_47385e01:
 
     # "He reached down and gave her clit another press."
-    "Alcanzó abajo y le dio otra presionada a su clítoris."
+    "Llevó su mano abajo y le dio otro empujón a su clítoris."
 
 # game/init_censored.rpy:433
 translate spanish censor_avahscene_76253bd9:
@@ -1024,7 +1024,7 @@ translate spanish censor_avahscene_33c7b81f:
 translate spanish censor_avahscene_3a46637c:
 
     # kay "You're not pres any more. Can't boss me around."
-    kay "Tú ya no eres más la presidenta. No me puedes ordenar."
+    kay "Tú ya no eres más la presidenta. No me puedes dar órdenes."
 
 # game/init_censored.rpy:437
 translate spanish censor_avahscene_e388f1e4:
@@ -1036,7 +1036,7 @@ translate spanish censor_avahscene_e388f1e4:
 translate spanish censor_avahscene_2d78631c:
 
     # "He intensified his firepower, splitting her legs apart and assaulting the very end of Ava's passageway with his battering ram."
-    "Él intensificó su poder de fuego, separando las piernas de ella y asaltando hasta el final del pasaje de Ava con su ariete."
+    "Él intensificó su poder de fuego, separando las piernas de ella y asaltando hasta el mismísimo final del pasaje de Ava con su ariete."
 
 # game/init_censored.rpy:445
 translate spanish censor_avahscene_31788a3d:
@@ -1060,13 +1060,13 @@ translate spanish censor_avahscene_e875296d:
 translate spanish censor_avahscene_2c95d1fc:
 
     # "Poseidon going to wreck the USS Crescentia tonight. All hands aboard may truly be lost."
-    "Poseidón yendo a destrozar a la USS Crescentia esta noche. Toda la tripulación a bordo ciertamente sería perdida."
+    "Poseidón yendo a hundir a la USS Crescentia esta noche. Toda la tripulación a bordo podría perderse verdaderamente."
 
 # game/init_censored.rpy:449
 translate spanish censor_avahscene_ea2c3dfb:
 
     # "He wrapped both his hands around her chest mounds and molded them like dough. Breast spilled forth between his fingers."
-    "Envolvió ambas de sus manos alrededor de los montículos de su pecho y los moldeó como a masa. Los senos se derramaban hacia adelante entre sus dedos."
+    "Envolvió ambas manos alrededor de los montículos de su pecho y los moldeó como a masa. Los senos se derramaban hacia adelante entre sus dedos."
 
 # game/init_censored.rpy:450
 translate spanish censor_avahscene_b872fa52:
@@ -1120,7 +1120,7 @@ translate spanish censor_avahscene_39d79289:
 translate spanish censor_avahscene_5fd7b796:
 
     # "Her thighs tensed and her interior stretched out like a balloon as Ava came."
-    "Sus muslos se tensaron y su interior se estrechó como un globo cuando Ava se vino."
+    "Sus muslos se tensaron y su interior se ensanchó como un globo cuando Ava se vino."
 
 # game/init_censored.rpy:459
 translate spanish censor_avahscene_849b8e6a:
@@ -1138,7 +1138,7 @@ translate spanish censor_avahscene_98b5cda2:
 translate spanish censor_avahscene_42b970eb:
 
     # "Drool dripped down her mouth as her entire body lost control. She could only lay prone on the floor, asshole twitching, as Shields pounded even harder into her hole."
-    "La saliva goteó de su boca mientras todo su cuerpo perdía el control. Ella solo pudo tumbarse boca abajo en el suelo, con su trasero contrayéndose, mientras Shields golpeaba aún más fuerte dentro de su agujero."
+    "La saliva goteaba de su boca mientras todo su cuerpo perdía el control. Ella solo pudo tumbarse boca abajo en el suelo, con su trasero contrayéndose, mientras Shields golpeaba aún más fuerte dentro de su agujero."
 
 # game/init_censored.rpy:462
 translate spanish censor_avahscene_4261d7b9:
@@ -1162,13 +1162,13 @@ translate spanish censor_avahscene_612aeb9f:
 translate spanish censor_avahscene_1eb3400f:
 
     # "He intertwined his fingers with Ava and pulled her arms apart, spreading her helplessly against the floor."
-    "Entrelazó sus dedos con los de Ava y separó sus brazos, extendiéndola impotentemente contra el suelo."
+    "Entrelazó sus dedos con los de Ava y separó sus brazos, extendiéndola impotente contra el suelo."
 
 # game/init_censored.rpy:466
 translate spanish censor_avahscene_190a0513:
 
     # "Ava's face twisted as Shields pounded every shred of composure from her body. She screamed in joy as sweat and juices dripped down her ass."
-    "El rostro de Ava se desfiguraba mientras Shields golpeaba cada chispa de compostura de su cuerpo. Ella gritó en placer mientras sudor y jugos goteaban de su trasero."
+    "El rostro de Ava se desfiguraba mientras Shields golpeaba cada chispa de compostura de su cuerpo. Ella gritó de placer mientras sudor y jugos goteaban de su trasero."
 
 # game/init_censored.rpy:467
 translate spanish censor_avahscene_a4e9b661:
@@ -1204,7 +1204,7 @@ translate spanish censor_avahscene_4ba42cd8:
 translate spanish censor_avahscene_813a99ae:
 
     # "He bent forward and pressed their lips together. Now they were docked in two places at once."
-    "Se incinó hacia adelante y presionó sus labios juntándolos. Ahora estaban acoplados en dos lugares a la vez."
+    "Se inclinó hacia adelante y juntó sus labios. Ahora estaban acoplados en dos lugares a la vez."
 
 # game/init_censored.rpy:473
 translate spanish censor_avahscene_83d778e4:
@@ -1240,7 +1240,7 @@ translate spanish censor_avahscene_87b55683:
 translate spanish censor_avahscene_037910d1:
 
     # "Ava's taste and scent overpowered his senses. A tidal wave of juices poured from Ava's insides, drenching them until he had no idea where he ended and where Ava began."
-    "El sabor y la escencia de Ava superó sus sentidos. Una marea de jugos se derramó desde el interior de Ava, empapándolos hasta que él no tenía idea de dónde él terminaba y dónde empezaba Ava."
+    "El sabor y la esencia de Ava superaron sus sentidos. Una marea de jugos se derramó desde el interior de Ava, empapándolos hasta que no tuvo idea de dónde él terminaba y dónde empezaba Ava."
 
 # game/init_censored.rpy:479
 translate spanish censor_avahscene_14469b02:
@@ -1258,7 +1258,7 @@ translate spanish censor_avahscene_b806822a:
 translate spanish censor_avahscene_ac48262a:
 
     # "Ava's horny voice sent Shields past the point of no return. His gun rod was primed and ready to fire."
-    "La voz de Ava envió a Shields tras el punto de no retorno. Su arma estaba preparada y lista para disparar."
+    "La voz lasciva de Ava envió a Shields más allá del punto de no retorno. Su cañón estaba preparado y listo para disparar."
 
 # game/init_censored.rpy:482
 translate spanish censor_avahscene_b4c562f0:
@@ -1282,7 +1282,7 @@ translate spanish censor_avahscene_642bc04b:
 translate spanish censor_avahscene_e93ef9a9:
 
     # "Ava exploded into ecstasy for the second time, her eyes shut tight, her lips agape."
-    "Ava explotó en éxtasis por segunda vez, sus ojos se cerrron con fuerza, y sus labios se abrieron."
+    "Ava explotó en éxtasis por segunda vez, sus ojos se cerraron con fuerza, y sus labios se abrieron."
 
 # game/init_censored.rpy:486
 translate spanish censor_avahscene_d32812b4:
@@ -1348,13 +1348,13 @@ translate spanish censor_avahscene_5f2e924e:
 translate spanish censor_avahscene_ff61eb3d:
 
     # "Each burst caused white cream to drip from her pussy, down her ass."
-    "Cada explosión causo que crema blanca goteara de su vagina, hacia abajo de su trasero."
+    "Cada explosión provocó que crema blanca goteara de su vagina, hacia abajo de su trasero."
 
 # game/init_censored.rpy:504
 translate spanish censor_avahscene_0beedc6a:
 
     # "Finally they both collapsed on top of each other, their chests heaving."
-    "Finalmante ambos colapsaron encima del otro, con sus pechos exhalando."
+    "Finalmente ambos colapsaron encima del otro, con sus pechos exhalando."
 
 # game/init_censored.rpy:512
 translate spanish censor_avahscene_b9d035fb:
@@ -1426,13 +1426,13 @@ translate spanish censor_avahscene_3f990d9a:
 translate spanish censor_avahscene_e7088bfa:
 
     # ava "I expect you to disregard this event and to handle your responsibilities as ship captain dutifully once the timeline is fixed."
-    ava "Espero que hagas caso omiso de este evento y tomes tu responsabilidad como el capitán de la nave obedientemente una vez que la línea temporal haya sido arreglada."
+    ava "Espero que hagas caso omiso a este evento y tomes tu responsabilidad como el capitán de la nave obedientemente una vez que la línea temporal haya sido arreglada."
 
 # game/init_censored.rpy:531
 translate spanish censor_avahscene_c3a0c976:
 
     # kay "Sigh... I guess it's always like this with you..."
-    kay "Suspiro... Supongo que siempre es así contigo..."
+    kay "Haah... Supongo que siempre es así contigo..."
 
 # game/init_censored.rpy:532
 translate spanish censor_avahscene_1ce21b87:
@@ -1444,7 +1444,7 @@ translate spanish censor_avahscene_1ce21b87:
 translate spanish censor_avahscene_5095bc64:
 
     # kay "But I'm not going to forget about you. You're... more than just my XO. You've always been more."
-    kay "Pero no voy a olvidarme de tí. Tú eres... más que solo mi OE. Tú siempre has sido más."
+    kay "Pero no voy a olvidarme de ti. Tú eres... más que solo mi OE. Tú siempre has sido más."
 
 # game/init_censored.rpy:534
 translate spanish censor_avahscene_e2f35b90:
@@ -1486,7 +1486,7 @@ translate spanish censor_icarihscene_a8f6423d:
 translate spanish censor_icarihscene_e3773861:
 
     # "Shields ran his fingers along the lips of her opening, wetting it in juices."
-    "Shields recorrió sus dedos a lo largo de los labios de su abertura, mojándolos con jugo."
+    "Shields deslizó sus dedos a lo largo de los labios de su abertura, mojándolos con jugo."
 
 # game/init_censored.rpy:553
 translate spanish censor_icarihscene_3bbc7a5e:
@@ -1504,7 +1504,7 @@ translate spanish censor_icarihscene_caf6e940:
 translate spanish censor_icarihscene_bec832dd:
 
     # "He fit his index finger into her clit's hiding spot and coaxed it out."
-    "Puso su dedo índice en el escondíte de su clítoris y lo sacó."
+    "Puso su dedo índice en el escondite de su clítoris y lo sacó a la fuerza."
 
 # game/init_censored.rpy:556
 translate spanish censor_icarihscene_3d9bc6cf:
@@ -1528,7 +1528,7 @@ translate spanish censor_icarihscene_32afa757:
 translate spanish censor_icarihscene_9a60e267:
 
     # "Her clit slowly ballooned into a fleshy jewel as he rubbed it."
-    "Su clítoris lentamente se infló en una gorda joya mientras él lo frotaba."
+    "Su clítoris lentamente se infló en una joya carnosa mientras él lo frotaba."
 
 # game/init_censored.rpy:560
 translate spanish censor_icarihscene_e8873d4b:
@@ -1558,7 +1558,7 @@ translate spanish censor_icarihscene_95d1eb0c:
 translate spanish censor_icarihscene_324860a9:
 
     # ica "If you get any harder, your dick's gonna tear straight through your trousers!"
-    ica "¡Si te pones más duro, tu pene va a desgarrar directamente a través de tus pantalones!"
+    ica "¡Si te pones más duro, tu pene te va a desgarrar y atravesar directamente tus pantalones!"
 
 # game/init_censored.rpy:565
 translate spanish censor_icarihscene_e3f43985:
@@ -1570,7 +1570,7 @@ translate spanish censor_icarihscene_e3f43985:
 translate spanish censor_icarihscene_a277d48f:
 
     # ica "W-what are you doing, making me all hot out here... T-this is all your fault... Stupid unreliable captain..."
-    ica "Q-qué estás haciendo, poniéndome caliente aquí afuera... E-esto es todo tu culpa... Estúpido inconfiable capitán..."
+    ica "Q-qué estás haciendo, poniéndome toda caliente aquí fuera... T-todo esto es tu culpa... Estúpido capitán poco confiable..."
 
 # game/init_censored.rpy:567
 translate spanish censor_icarihscene_0ceb461c:
@@ -1582,7 +1582,7 @@ translate spanish censor_icarihscene_0ceb461c:
 translate spanish censor_icarihscene_97ec21d7:
 
     # ica "Hurry up... and fix me... C-come on...!"
-    ica "Apúrte... y entra en mí... ¡V-vamos...!"
+    ica "Apúrate... y entra en mí... ¡V-vamos...!"
 
 # game/init_censored.rpy:569
 translate spanish censor_icarihscene_b236726b:
@@ -1600,19 +1600,19 @@ translate spanish censor_icarihscene_7ff59300:
 translate spanish censor_icarihscene_8f077d8b:
 
     # "Shields pulled his pants down, his hot rod springing upwards, and grabbed Icari by the hips."
-    "Shields bajó sus pantalones, su caliente vara brotó hacia arriba, y agarró a Icari por las caderas."
+    "Shields se bajó sus calzones, con su caliente vara brotando hacia arriba, y agarró a Icari por las caderas."
 
 # game/init_censored.rpy:572
 translate spanish censor_icarihscene_ad9fff38:
 
     # ica "Y-you better not mess this up... O-or else I'll never forgive you...!"
-    ica "T-tú mejor no arruines esto... ¡O d-de lo contrario nunca te perdonaré...!"
+    ica "M-más te vale no arruines esto... ¡O d-de lo contrario nunca te perdonaré...!"
 
 # game/init_censored.rpy:573
 translate spanish censor_icarihscene_75865884:
 
     # kay "Oy... Have some faith in your captain!"
-    kay "Oy... ¡Ten algo de fe en tu capitán!"
+    kay "Oye... ¡Ten algo de fe en tu capitán!"
 
 # game/init_censored.rpy:577
 translate spanish censor_icarihscene_33839fcf:
@@ -1654,7 +1654,7 @@ translate spanish censor_icarihscene_42fd6981:
 translate spanish censor_icarihscene_aeaf98ad:
 
     # "Her tunnel hugged him from all angles as he pushed himself against her. Juices poured out from the deep end of her passageway, soaking Shields' pelvis with her warmth."
-    "Su túnel lo abrazaba desde todos los ángulos mientras él se presionaba contra ella. Jugos salían del profundo final de su pasaje, mojando la pelvis de Shields con su calor."
+    "Su túnel lo abrazaba desde todos los ángulos mientras él se presionaba contra ella. Salían jugos del profundo final de su pasaje, mojando la pelvis de Shields con su calor."
 
 # game/init_censored.rpy:587
 translate spanish censor_icarihscene_a3ffce16:
@@ -1666,7 +1666,7 @@ translate spanish censor_icarihscene_a3ffce16:
 translate spanish censor_icarihscene_0c6d3988:
 
     # "He had never noticed before how impressive her ass was. He grabbed handfuls with both palms, her bounty overflowing between his fingers. Her asshole flinched with each of his thrusts as pleasure shot up her spine."
-    "Él nunca había notado antes cuan impresionante era su trasero. Agarró un puñado con ambas palmas, con su recompensa virtiéndose entre sus dedos. El trasero de ella se sobresaltaba con cada uno de sus empujes mientras el placer se disparaba por su espina dorsal."
+    "Él nunca había notado antes cuán impresionante era su trasero. Agarró un puñado con ambas palmas, con su recompensa desbordándose entre sus dedos. El trasero de ella se sobresaltaba con cada uno de sus empujes mientras el placer se disparaba por su espina dorsal."
 
 # game/init_censored.rpy:589
 translate spanish censor_icarihscene_f0abc12a:
@@ -1684,7 +1684,7 @@ translate spanish censor_icarihscene_dbcf546f:
 translate spanish censor_icarihscene_5c31195f:
 
     # ica "A-ah...! I-I won't forgive this, captain!! M-making me feel like this...! M-mou...!"
-    ica "¡A-ah...! ¡¡N-no olvidaré esto, capitán!! ¡Ha-acerme sentir de de esta forma...! ¡M-mou...!"
+    ica "¡A-ah...! ¡¡N-no olvidaré esto, capitán!! ¡E-estar haciéndome sentir de esta forma...! ¡M-mou...!"
 
 # game/init_censored.rpy:595
 translate spanish censor_icarihscene_69225586:
@@ -1732,7 +1732,7 @@ translate spanish censor_icarihscene_ca443719:
 translate spanish censor_icarihscene_76fb886d:
 
     # "Juice leaked from her opening and dripped down."
-    "Jugo se filtró de su abertura y goteó hacia abajo."
+    "Se filtró jugo de su abertura y goteó hacia abajo."
 
 # game/init_censored.rpy:612
 translate spanish censor_icarihscene_a73f086b:
@@ -1744,19 +1744,19 @@ translate spanish censor_icarihscene_a73f086b:
 translate spanish censor_icarihscene_c871e8ab:
 
     # "Icari gyrated her ass, his dick sliding in and out of her."
-    "Icari dio vueltas a su trasero, con el pene de él deslizándose dentro y fuera de ella."
+    "Icari dio vueltas a su trasero, con su pene deslizándose dentro y fuera de ella."
 
 # game/init_censored.rpy:614
 translate spanish censor_icarihscene_d473de9a:
 
     # kay "(She says stop and yet she's the one moving on her own...)"
-    kay "(Ella dice detente y aún así es quien está moviéndose por su cuenta...)"
+    kay "(Ella dice detente y aun así es quien está moviéndose por su cuenta...)"
 
 # game/init_censored.rpy:615
 translate spanish censor_icarihscene_4083880d:
 
     # kay "It feels good, doesn't it?"
-    kay "¿Se siente bien, no?"
+    kay "Se siente bien, ¿no?"
 
 # game/init_censored.rpy:616
 translate spanish censor_icarihscene_bb363db7:
@@ -1810,7 +1810,7 @@ translate spanish censor_icarihscene_86a66384:
 translate spanish censor_icarihscene_ba55c616:
 
     # kay "(Looks like our fearless mercenary is quite the masochist...)"
-    kay "(Parece que nuestra intrépida mercenaria es una masoquista...)"
+    kay "(Parece que nuestra intrépida mercenaria es bastante masoquista...)"
 
 # game/init_censored.rpy:631
 translate spanish censor_icarihscene_acb9ceba:
@@ -1822,7 +1822,7 @@ translate spanish censor_icarihscene_acb9ceba:
 translate spanish censor_icarihscene_4f31b147:
 
     # "Shields grabbed her hips and pounded himself in, clapping against her rear."
-    "Shields agarró sus caderas y golpeó hacia adentro, ruidosamente contra su parte posterior."
+    "Shields agarró sus caderas y golpeó hacia adentro, chocando ruidosamente contra su parte trasera."
 
 # game/init_censored.rpy:633
 translate spanish censor_icarihscene_44e0ab2b:
@@ -1834,25 +1834,25 @@ translate spanish censor_icarihscene_44e0ab2b:
 translate spanish censor_icarihscene_2cba95e4:
 
     # "Her insides constricted, so tight that he nearly popped out."
-    "Su interior se apretó, tan ajustado que él casi se sale."
+    "Su interior se contrajo, tan apretado que él casi se sale."
 
 # game/init_censored.rpy:635
 translate spanish censor_icarihscene_fcfc5cde:
 
     # kay "(So... hot...!)"
-    kay "(¡Tan... caliente...!)"
+    kay "(¡Demasiado... caliente...!)"
 
 # game/init_censored.rpy:636
 translate spanish censor_icarihscene_56c5d331:
 
     # "He felt pressure build up as he approached his burst point."
-    "Él sintió la presión aumentar mientras se acercaba a su punto de explosión."
+    "Él sintió la presión acumulándose mientras se acercaba a su punto de explosión."
 
 # game/init_censored.rpy:637
 translate spanish censor_icarihscene_098fb2a5:
 
     # "With another firm slap to her ass, Icari finally gave out."
-    "Con otro firme manotazo a su trasero, Icari finalmente acabó."
+    "Con otro firme manotazo a su trasero, Icari finalmente no pudo más."
 
 # game/init_censored.rpy:638
 translate spanish censor_icarihscene_6ae08f59:
@@ -1864,7 +1864,7 @@ translate spanish censor_icarihscene_6ae08f59:
 translate spanish censor_icarihscene_5029c080:
 
     # "Her asshole clenched as a tidal wave of fluid poured from her pussy."
-    "Su trasero se contrajo con fuerza mientras una oleada de fluido se derramaba de su vagina."
+    "Su trasero se contrajo con fuerza mientras una oleada de fluido salía expulsada de su vagina."
 
 # game/init_censored.rpy:643
 translate spanish censor_icarihscene_efdbd327:
@@ -1894,7 +1894,7 @@ translate spanish censor_icarihscene_3bef3691:
 translate spanish censor_icarihscene_e7501593:
 
     # kay "(Shit... I can't take this much longer...!)"
-    kay "(Diablos... ¡No puedo aguantar esto mucho más...!)"
+    kay "(Diablos... ¡No puedo soportar esto mucho más...!)"
 
 # game/init_censored.rpy:648
 translate spanish censor_icarihscene_6ee03588:
@@ -1906,7 +1906,7 @@ translate spanish censor_icarihscene_6ee03588:
 translate spanish censor_icarihscene_926da1be:
 
     # "Entering the final stages of his launch sequence, he jammed himself as deep as he could push, the head of his rod banging against the roof of Icari's passageway."
-    "Entrando en las fases finales de su secuencia de lanzamiento, se metió a la fuerza tan profundo como pudo presionar, con la cabeza de su vara golpeando ruidosamente el techo del pasaje de Icari."
+    "Entrando en las fases finales de su secuencia de lanzamiento, se metió a la fuerza tan profundo como pudo empujar, con la cabeza de su vara golpeando ruidosamente el techo del pasadizo de Icari."
 
 # game/init_censored.rpy:650
 translate spanish censor_icarihscene_39b8a67b:
@@ -1924,7 +1924,7 @@ translate spanish censor_icarihscene_45d6b118:
 translate spanish censor_icarihscene_7e0226bf:
 
     # ica "A-ah... C-captain...!!"
-    ica "A-ah... ¡¡C-captain...!!"
+    ica "A-ah... ¡¡C-capitán...!!"
 
 # game/init_censored.rpy:657
 translate spanish censor_icarihscene_75032da1:
@@ -1948,25 +1948,25 @@ translate spanish censor_icarihscene_89a51a4f:
 translate spanish censor_icarihscene_b5ac1c0e:
 
     # "He pounded every drop of cum he had deep into her passageway, gasping for air."
-    "Él empujó cada gota de semen que tenía en lo profundo dentro de su pasaje, jadeando por aire."
+    "Él empujó cada gota de semen que tenía en lo profundo dentro de su pasadizo, jadeando por aire."
 
 # game/init_censored.rpy:661
 translate spanish censor_icarihscene_8f0005dd:
 
     # "Sweat was now dripping down her butt despite the cool evening air. Her asshole was still convulsing, soaked with cum and juices."
-    "Sudor ahora goteaba desde su trasero a pesar del fresco aire de la tarde. Su trasero estaba todavía convulsionando, empapado con semen y jugos."
+    "Sudor ahora goteaba desde el trasero de ella a pesar del fresco aire de la tarde. Su ano estaba todavía convulsionando, empapado con semen y jugos."
 
 # game/init_censored.rpy:662
 translate spanish censor_icarihscene_e33b7ab0:
 
     # "Finally, he finished unloading into her and pulled himself out."
-    "Finalmente, terminó de descargar dentro de ella y se sacó fuera."
+    "Finalmente, terminó de descargar dentro de ella y salió fuera."
 
 # game/init_censored.rpy:663
 translate spanish censor_icarihscene_40a98f03:
 
     # "Cream spurted out of her hole, and stringed down below."
-    "Crema salió a chorros desde su agujero, e hizo hilos hacia abajo."
+    "Crema salió a chorros desde su agujero, como hilos hacia abajo."
 
 # game/init_censored.rpy:667
 translate spanish censor_icarihscene_9c7322f9:
@@ -1984,7 +1984,7 @@ translate spanish censor_icarihscene_384772e2:
 translate spanish censor_icarihscene_dfe05516:
 
     # ica "W-was it... a-all right...?"
-    ica "¿E-estuvo... b-bien...?"
+    ica "¿E-estuvo... b-bueno...?"
 
 # game/init_censored.rpy:670
 translate spanish censor_icarihscene_353dbca7:
@@ -1996,7 +1996,7 @@ translate spanish censor_icarihscene_353dbca7:
 translate spanish censor_icarihscene_673de854:
 
     # kay "All right? It was great! Truly world class."
-    kay "¿Bien? ¡Fue genial! Realmente de primera clase."
+    kay "¿Bueno? ¡Fue genial! Realmente de primera clase."
 
 # game/init_censored.rpy:672
 translate spanish censor_icarihscene_91b08dd5:
@@ -2008,7 +2008,7 @@ translate spanish censor_icarihscene_91b08dd5:
 translate spanish censor_icarihscene_d10cf069:
 
     # kay "Nah, it was pretty damned hot!"
-    kay "¡Nah, fue bastante bueno!"
+    kay "¡Nah, fue estupendamente bueno!"
 
 # game/init_censored.rpy:674
 translate spanish censor_icarihscene_2c0feecb:
@@ -2026,13 +2026,13 @@ translate spanish censor_icarihscene_e949bff1:
 translate spanish censor_icarihscene_929212d5:
 
     # kay "O-oy... w-what's the matter!?"
-    kay "O-oy... ¿c-cuál es el problema?"
+    kay "O-oye... ¿q-qué te ocurre?"
 
 # game/init_censored.rpy:677
 translate spanish censor_icarihscene_d80c2209:
 
     # ica "'Cause... I was worried... y-you wouldn't like it...!!!"
-    ica "¡¡¡Porque... estaba preocupada... d-de que a tí no te gustara...!!!"
+    ica "¡¡¡Es que... estaba preocupada... d-de que a ti no te gustara...!!!"
 
 # game/init_censored.rpy:678
 translate spanish censor_icarihscene_5f096e4b:
@@ -2050,7 +2050,7 @@ translate spanish censor_icarihscene_6fe42742:
 translate spanish censor_icarihscene_9362587f:
 
     # kay "O-oy, Icari! P-pull yourself together!!!"
-    kay "¡O-oy, Icari! ¡¡¡R-recomponte!!!"
+    kay "¡O-oye, Icari! ¡¡¡A-anímate!!!"
 
 # game/init_censored.rpy:681
 translate spanish censor_icarihscene_b45f0263:
@@ -2080,7 +2080,7 @@ translate spanish censor_icarihscene_a20cefa7:
 translate spanish censor_icarihscene_60f83307:
 
     # ica "Sniffle..."
-    ica "Sorbo..."
+    ica "Huu..."
 
 # game/init_censored.rpy:693
 translate spanish censor_solahscene_182e6ea9:
@@ -2116,7 +2116,7 @@ translate spanish censor_solahscene_500e291a:
 translate spanish censor_solahscene_369c8006:
 
     # "Sola trembled and shyly wrapped her arms around her breasts as Shields pulled off her clothes, exposing her underwear."
-    "Sola tembló y tímidamente envolvió sus brazos alrededor de sus pechos mientras Shields le removía sus ropas, exponiendo su ropa interior."
+    "Sola tembló y tímidamente envolvió sus brazos alrededor de sus pechos mientras Shields le sacaba sus ropas, exponiendo su ropa interior."
 
 # game/init_censored.rpy:702
 translate spanish censor_solahscene_aea730b3:
@@ -2146,7 +2146,7 @@ translate spanish censor_solahscene_ce32d1eb:
 translate spanish censor_solahscene_df471e09:
 
     # "Shields unclipped her bra. Sola whimpered as her bare boobs spilled out into her arms."
-    "Shields desaprochó su sostén. Sola gimió mientras sus pechos desnudos se derramaban fuera de él hacia sus brazos."
+    "Shields desabrochó su sostén. Sola gimió cuando sus pechos desnudos se derramaron fuera hacia sus brazos."
 
 # game/init_censored.rpy:707
 translate spanish censor_solahscene_9c86ff65:
@@ -2158,19 +2158,19 @@ translate spanish censor_solahscene_9c86ff65:
 translate spanish censor_solahscene_bbf07f5f:
 
     # "Shields laughed to himself, mostly for Sola's sake."
-    "Shields se rió para sí mismo, mayormente por el bien de Sola."
+    "Shields se rio para sí mismo, mayormente por el bien de Sola."
 
 # game/init_censored.rpy:709
 translate spanish censor_solahscene_51f427a1:
 
     # sol "S-saying such unspeakable things... Truly, I shall walk out of this room forever shamed..."
-    sol "D-diciendo cosas tan inconfesables... Ciertamente, yo me iré de esta habitación avergonzada para siempre..."
+    sol "D-diciendo cosas tan inconfesables... Ciertamente, yo saldré de esta habitación avergonzada para siempre..."
 
 # game/init_censored.rpy:710
 translate spanish censor_solahscene_b28df970:
 
     # sol "Ah! Do as you will! Mark me with your taint so that I may forever become yours!"
-    sol "¡Ah! ¡Haz lo que quieras! ¡Márcame de forma que me vuelva para siempre tuya!"
+    sol "¡Ah! ¡Haz lo que desees! ¡Márcame con tu tinta de forma que me vuelva para siempre tuya!"
 
 # game/init_censored.rpy:711
 translate spanish censor_solahscene_574e67f8:
@@ -2188,13 +2188,13 @@ translate spanish censor_solahscene_1a0a2048:
 translate spanish censor_solahscene_ebb5c0c0:
 
     # "He marveled her perfect architecture, running his palms against her sleek back, and coming to a rest on her Imperial-tier ass."
-    "Él se maravilló de su perfecta arquitectura, moviendo sus palmas contra su lisa espalda, y llevándolas a un descanso en su trasero de clase-Imperial."
+    "Él se maravilló de su perfecta arquitectura, moviendo sus palmas contra su lisa espalda, y llevándolas a un descanso en su trasero de clase Imperial."
 
 # game/init_censored.rpy:714
 translate spanish censor_solahscene_cae6a121:
 
     # "He pulled down his trousers."
-    "Se bajó sus pantalones."
+    "Se bajó sus calzones."
 
 # game/init_censored.rpy:715
 translate spanish censor_solahscene_1aac712e:
@@ -2218,7 +2218,7 @@ translate spanish censor_solahscene_0b9f8560:
 translate spanish censor_solahscene_5bb02571:
 
     # "Sola tried her best to force a smile, but it was clear she was nearly chattering her teeth in terror."
-    "Sola dio su mayor esfuerzo por forzar una sonrisa, pero estaba claro de que ella estaba casi hablando en terror."
+    "Sola dio su mayor esfuerzo por forzar una sonrisa, pero estaba claro que ella estaba casi hablando en terror."
 
 # game/init_censored.rpy:719
 translate spanish censor_solahscene_70529b30:
@@ -2230,19 +2230,19 @@ translate spanish censor_solahscene_70529b30:
 translate spanish censor_solahscene_2244c7a1:
 
     # sol "F-fear not... I am used to pain... Surely this will be a simple matter next to the other trials I have endured..."
-    sol "N-no temas... Estoy acostumbrada al dolor... Seguramente este será un asunto simple comparado con los otros retos por los que he pasado..."
+    sol "N-no temas... Estoy acostumbrada al dolor... Seguramente este será un problema sencillo comparado con los otros retos por los que he pasado..."
 
 # game/init_censored.rpy:721
 translate spanish censor_solahscene_8e477c81:
 
     # sol "A-a-a... s-s-simple matter! Y-yes... A cake run, a turkey shoot... a-a...."
-    sol "¡U-u-un... a-a-asunto simple! S-sí... Pan comido, una competencia de disparo... u-un..."
+    sol "¡U-u-un... p-p-problema sencillo! S-sí... Pan comido, una blanco fácil... u-un..."
 
 # game/init_censored.rpy:722
 translate spanish censor_solahscene_8716400b:
 
     # "Shields patted her ass up, and slipped off her panties. Nothing but Sola sat before him."
-    "Shields palmeó su trasero hacia arriba y le quitó sus bragas. Nada más que Sola estaba frente a él."
+    "Shields palmeó su trasero hacia arriba y le quitó sus bragas. Nada excepto Sola estaba frente a él."
 
 # game/init_censored.rpy:723
 translate spanish censor_solahscene_a35b5169_1:
@@ -2254,7 +2254,7 @@ translate spanish censor_solahscene_a35b5169_1:
 translate spanish censor_solahscene_91b59ddd:
 
     # "He spread her entrance open with his fingers and slowly guided her in. He stared in wonder as he slowly vanished inside of her."
-    "Abrió su entrada con sus dedos y lentamente se guió dentro. Observó admirado cómo lentamente se desvanecía dentro de ella."
+    "Abrió su entrada estirándola con sus dedos y lentamente la guio para entrar. Observó con asombro cómo lentamente se desvanecía dentro de ella."
 
 # game/init_censored.rpy:728
 translate spanish censor_solahscene_f0cee6b6:
@@ -2266,7 +2266,7 @@ translate spanish censor_solahscene_f0cee6b6:
 translate spanish censor_solahscene_85e9b47d:
 
     # "The pressure around him was incredible as he jammed himself in. Every nook and cranny of Sola hugged him, threatening to drown him in her warmth."
-    "La presión alrededor de él era increíble mientras se metía. Cada rincón y grieta de Sola lo abrazaba, amenazando con ahogarlo en su calor."
+    "La presión alrededor de él era increíble mientras se metía dentro. Cada rincón y grieta de Sola lo abrazaba, amenazando con ahogarlo en su calor."
 
 # game/init_censored.rpy:730
 translate spanish censor_solahscene_cb0c0339:
@@ -2284,13 +2284,13 @@ translate spanish censor_solahscene_8312c1a5:
 translate spanish censor_solahscene_72fac040:
 
     # sol "I-it is not too bad... P-perhaps my body is accustomed to physical stress..."
-    sol "N-no está tan mal... Q-quizás mi cuerpo está acostumbrado al estrés físico..."
+    sol "N-no está tan mal... Q-quizá mi cuerpo está acostumbrado al estrés físico..."
 
 # game/init_censored.rpy:736
 translate spanish censor_solahscene_cfa3a8d5:
 
     # "Sola's eyes shut and her lips parted as Shields grabbed her hips and slowly raised her up."
-    "Los ojos de Sola se cerraron y sus labios se separaron mientras Shields la agarraba por las caderas y lentamente la levantaba."
+    "Los ojos de Sola se cerraron y sus labios se separaron cuando Shields la agarró por las caderas y lentamente la levantó."
 
 # game/init_censored.rpy:737
 translate spanish censor_solahscene_c68f8051:
@@ -2308,7 +2308,7 @@ translate spanish censor_solahscene_ae93f917:
 translate spanish censor_solahscene_9bc952e1:
 
     # "She gasped, her mouth agape, as she rode on top of him."
-    "Ella jadeó, con su boca abierta, mientras cabalgaba encima de él."
+    "Ella jadeó, con su boca abierta, mientras montaba encima de él."
 
 # game/init_censored.rpy:740
 translate spanish censor_solahscene_d94d220b:
@@ -2320,7 +2320,7 @@ translate spanish censor_solahscene_d94d220b:
 translate spanish censor_solahscene_149e6f24:
 
     # sol "T-this sensation... is indescribable..."
-    sol "E-esta sensación... es indescribible..."
+    sol "E-esta sensación... es indescriptible..."
 
 # game/init_censored.rpy:742
 translate spanish censor_solahscene_bac73d82:
@@ -2338,7 +2338,7 @@ translate spanish censor_solahscene_018a2d3f:
 translate spanish censor_solahscene_99813be3:
 
     # "Unable to hold back, Shields grabbed Sola by the ass and ran her against him, slamming against the roof of her passageway with each thrust."
-    "Incapaz de contenerse, Shields agarró a Sola por el trasero y la empujó contra él, golpeando ruidosamente el techo de su pasaje con cada empujón."
+    "Incapaz de contenerse, Shields agarró a Sola por el trasero y la empujó contra él, golpeando ruidosamente el techo de su pasadizo con cada empujón."
 
 # game/init_censored.rpy:745
 translate spanish censor_solahscene_cb29dd42:
@@ -2356,13 +2356,13 @@ translate spanish censor_solahscene_f509aae4:
 translate spanish censor_solahscene_b2ed9d8e:
 
     # "Her magnificent behind melded around his fingers. There was so much of it that he didn't even know where to begin."
-    "Su magnífico trasero se derritió alrededor de sus dedos. Había tanto que él ni siquiera sabía dónde comenzar."
+    "Su magnífico trasero se derretía alrededor de sus dedos. Había tanto que él ni siquiera sabía por dónde comenzar."
 
 # game/init_censored.rpy:748
 translate spanish censor_solahscene_d7089614:
 
     # "Everywhere his hands went, there was ass. More ass than he could ever have asked for."
-    "A todos los lugares donde sus manos fueran, había trasero. Más trasero del que él pudiera haber pedido nunca."
+    "Dondequiera que sus manos fueran, había trasero. Más trasero del que él jamás pudiera haber pedido."
 
 # game/init_censored.rpy:749
 translate spanish censor_solahscene_62cebc71:
@@ -2386,13 +2386,13 @@ translate spanish censor_solahscene_f4fd4f97:
 translate spanish censor_solahscene_369ce23f:
 
     # "But her words only made more juices flow down from the roof of her vagina, soaking Shields in sloppy warmth."
-    "Pero sus palabras solo hizo a más jugos fluir hacia abajo desde el techo de su vagina, empapando a Shields en un desordenado calor."
+    "Pero sus palabras solo hicieron a más jugos fluir hacia abajo desde el techo de su vagina, empapando a Shields en un desordenado calor."
 
 # game/init_censored.rpy:753
 translate spanish censor_solahscene_5858aa42:
 
     # "Her insides churned and tensed, popping Shields out."
-    "Su interior se revolvía y tensaba, sacando a Shields."
+    "Su interior se revolvía y tensaba, expulsando a Shields."
 
 # game/init_censored.rpy:754
 translate spanish censor_solahscene_8b17846a:
@@ -2404,7 +2404,7 @@ translate spanish censor_solahscene_8b17846a:
 translate spanish censor_solahscene_4d9d53fa:
 
     # "Sola panted, gasping for air. She turned and faced him with an enormously slutty expression, begging him to put it back in."
-    "Sola jadeaba, abriendo la boca por aire. Se dio la vuelta y lo miró con una enormemente lujuriosa expresión, rogándole que lo metiera dentro de vuelta."
+    "Sola jadeaba, buscando aire. Se dio la vuelta y lo miró con una expresión enormemente lujuriosa, rogándole que lo metiera de vuelta dentro."
 
 # game/init_censored.rpy:756
 translate spanish censor_solahscene_8312c1a5_1:
@@ -2440,7 +2440,7 @@ translate spanish censor_solahscene_a79038da:
 translate spanish censor_solahscene_a5a6ca21:
 
     # sol "F-foul man... M-making the Sharr of Ryuvia speak such shameful words... and do such shameful deeds..."
-    sol "T-tonto... Ha-aciendo a la Sharr de Ryuvia decir tan vergonzosas palabras... y hacer tan vergonzosas acciones..."
+    sol "T-tonto... E-estar haciendo a la Sharr de Ryuvia decir tan vergonzosas palabras... y hacer tan vergonzosas acciones..."
 
 # game/init_censored.rpy:762
 translate spanish censor_solahscene_a345271d:
@@ -2452,19 +2452,19 @@ translate spanish censor_solahscene_a345271d:
 translate spanish censor_solahscene_e039929d:
 
     # "Shields reached up and soaked his hands in Sola's cream."
-    "Shields alcanzó y empapó sus manos en la crema de Sola."
+    "Shields extendió las manos y las empapó en la crema de Sola."
 
 # game/init_censored.rpy:764
 translate spanish censor_solahscene_6ed1cb51:
 
     # "He ran his fingers across the lips of her south entrance, and came to rest at when the lips met to form her clit."
-    "Movió sus dedos por los labios de su entrada, y los llevó a descansar donde sus labios se encontraban para formar su clítoris."
+    "Movió sus dedos por los labios de su entrada al sur, y los llevó a descansar donde sus labios se encontraban para formar su clítoris."
 
 # game/init_censored.rpy:765
 translate spanish censor_solahscene_eb42fc5c:
 
     # "Sola shivered as he coaxed her activation button open and gave it a few presses."
-    "Sola temblaba mientras él tocaba sacaba su botón de activación y le daba unas pocas presionadas."
+    "Sola tembló cuando él abrió su botón de activación y le dio unos cuantos empujones."
 
 # game/init_censored.rpy:766
 translate spanish censor_solahscene_3d73dc67:
@@ -2512,13 +2512,13 @@ translate spanish censor_solahscene_b28f6c5f_1:
 translate spanish censor_solahscene_dd680c63:
 
     # sol "I desire your... penis... in my vagina! D-do it now!"
-    sol "¡Deseo tu... pene... en mi vagina! ¡Ha-azlo ahora!"
+    sol "¡Deseo tu... pene... dentro de mi vagina! ¡A-ahora hazlo!"
 
 # game/init_censored.rpy:774
 translate spanish censor_solahscene_41e45443:
 
     # "With the magic words spoken, Shields slipped himself back into her. Her passageway was now soaked with lubrication and more relaxed than before. Sola's face melted with pleasure as she dug into him, her ass bouncing with each thrust."
-    "Con las palabras mágicas dichas, Shields se deslizó de vuelta dentro de ella. Su pasaje estaba ahora empapado con lubricación y más relajado que antes. El rostro de Sola se fundió con placer mientras ella se cavaba en él, con su trasero rebotando con cada empuje."
+    "Con las palabras mágicas dichas, Shields se deslizó de vuelta dentro de ella. Su pasadizo estaba ahora empapado con lubricación y más relajado que antes. El rostro de Sola se derritió del placer mientras se hundía en él, con su trasero rebotando con cada empujón."
 
 # game/init_censored.rpy:775
 translate spanish censor_solahscene_9d220c18:
@@ -2536,7 +2536,7 @@ translate spanish censor_solahscene_ee5e7ee6:
 translate spanish censor_solahscene_793531d6:
 
     # sol "A-ah... A-ahh...! I-I can f-feel it... T-the captain's..."
-    sol "A-ah... ¡A-ahh...! P-puedo s-sentirlo... A-al capitán..."
+    sol "A-ah... ¡A-ahh...! P-puedo s-sentirlo... E-el del capitán..."
 
 # game/init_censored.rpy:778
 translate spanish censor_solahscene_057c3350:
@@ -2548,7 +2548,7 @@ translate spanish censor_solahscene_057c3350:
 translate spanish censor_solahscene_90136523:
 
     # "Her walls constricted, as if intent to crush his dick. But that only intensified Shields' pleasure."
-    "Sus paredes se contrajeron, como si intentaran aplastar al pene de él. Pero eso solo intensificó el placer de Shields."
+    "Las paredes de ella se contrajeron, como si intentaran aplastar su pene. Pero eso solo intensificó el placer de Shields."
 
 # game/init_censored.rpy:780
 translate spanish censor_solahscene_ae5c38c0:
@@ -2560,7 +2560,7 @@ translate spanish censor_solahscene_ae5c38c0:
 translate spanish censor_solahscene_f43e9b01:
 
     # "Sweat dripped down her back as her buttocks clapped against him. Shields felt pressure mount in his rod, elongating it to its maximum safe setting."
-    "El sudor goteó hacia abajo por su espalda mientras sus nalgas lo golpeaban ruidosamente. Shields sintió presión acumularse en su vara, alargándola hasta su máxima seguridad."
+    "El sudor goteó hacia abajo por su espalda mientras sus nalgas lo golpeaban ruidosamente. Shields sintió presión acumularse en su vara, alargándola hasta su configuración de máxima seguridad."
 
 # game/init_censored.rpy:782
 translate spanish censor_solahscene_578f5303:
@@ -2578,13 +2578,13 @@ translate spanish censor_solahscene_c0aa7ad1:
 translate spanish censor_solahscene_063f3d22:
 
     # "Sola covered her face in shame as she climaxed. But her attempts at modesty at futile, as her cute little asshole clenched and flared with each wave of pleasure that shot through her body."
-    "Sola cubrió su rostro con vergüenza mientras llegaba al clímax. Pero sus intentos de modestia fueron en vano, ya que su tierno y pequeño agujero se apretaba y contraía con cada ola de placer que se disparaba a través de su cuerpo."
+    "Sola cubrió su rostro con vergüenza cuando llegó al clímax. Pero sus intentos de modestia fueron en vano, ya que su tierno y pequeño agujero se apretaba y contraía con cada ola de placer que se disparaba a través de su cuerpo."
 
 # game/init_censored.rpy:785
 translate spanish censor_solahscene_6df5c935:
 
     # "Her eyes rolled into her skull and drool dripped down the corner of her lips as Shields pounded himself in harder as she was still coming."
-    "Sus ojos dieron vueltas en su cráneo y saliva goteó desde la esquina de sus labios mientras Shields golpeaba dentro más fuerte cuando ella todavía se estaba viniendo."
+    "Sus ojos dieron vueltas en su cráneo y saliva goteó desde la esquina de sus labios cuando Shields se empujó dentro más fuerte mientras ella todavía se estaba viniendo."
 
 # game/init_censored.rpy:786
 translate spanish censor_solahscene_d338531b:
@@ -2602,7 +2602,7 @@ translate spanish censor_solahscene_b9fd9777:
 translate spanish censor_solahscene_b7634307:
 
     # "Seeing the taciturn Sola devolved into the very image of lewdness brought Shields past the point of no return."
-    "Ver a la reservada Sola con una imagen lasciva llevó a Shields más allá del punto de no retorno."
+    "Ver a la reservada Sola convertida en la viva imagen de la lascividad llevó a Shields más allá del punto de no retorno."
 
 # game/init_censored.rpy:789
 translate spanish censor_solahscene_f0ceff44:
@@ -2626,25 +2626,25 @@ translate spanish censor_solahscene_c7504784:
 translate spanish censor_solahscene_f6c51927:
 
     # "He gasped as he erupted into her, instantly filling her opening with his white life fluid."
-    "Jadeó mientras erupcionaba dentro de ella, llenando instantáneamente su abertura con su fluido blanco de vida."
+    "Jadeó mientras erupcionaba dentro de ella, llenando instantáneamente su abertura con su fluido blanco vital."
 
 # game/init_censored.rpy:799
 translate spanish censor_solahscene_0667ea77:
 
     # "Great flashes of agonizing pleasure burned into his mind, overloading any other sense."
-    "Grandes chispas de placer agonizante se encendieron en su mente, sobrecargando cualquier otro sentido."
+    "Grandes chispas de placer agonizante se prendieron en su mente, sobrecargando cualquier otro sentido."
 
 # game/init_censored.rpy:800
 translate spanish censor_solahscene_b081ae74:
 
     # "His hips thrusted into her and slammed against the rear of her passageway as he shot forth again. His cum spurted from her opening and dripped down onto him."
-    "Sus caderas se empujaron contra ella y golpearon contra la parte trasera de su pasaje mientras él disparaba hacia adelante de nuevo. Su semen salió a chorros de su abertura y goteó sobre él."
+    "Sus caderas se empujaron contra ella y golpearon contra la parte trasera de su pasadizo mientras él disparaba hacia adelante de nuevo. Su semen salió a chorros de la abertura de ella y goteó sobre él."
 
 # game/init_censored.rpy:801
 translate spanish censor_solahscene_0001ca10:
 
     # "He emptied every last drop of his essence deep into her, his thoughts flooded with horny aggression."
-    "Vació hasta la última gota de su esencia dentro en lo profundo de ella, con sus pensamientos inundados con una agresión lujuriosa."
+    "Vació hasta la última gota de su esencia en lo profundo dentro de ella, con sus pensamientos inundados con una agresión lujuriosa."
 
 # game/init_censored.rpy:802
 translate spanish censor_solahscene_b4c6e0ea:
@@ -2674,7 +2674,7 @@ translate spanish censor_solahscene_e5b3bf2d:
 translate spanish censor_solahscene_805dee3a:
 
     # sol "T-the captain's..."
-    sol "E-el capitán..."
+    sol "Capitán, t-tu..."
 
 # game/init_censored.rpy:810
 translate spanish censor_solahscene_9ac426c6:
@@ -2704,13 +2704,13 @@ translate spanish censor_solahscene_f658b2f1:
 translate spanish censor_solahscene_daa48cc0:
 
     # kay "S-Sola...!?"
-    kay "¿¡S-Sola!?"
+    kay "¿¡S-Sola...!?"
 
 # game/init_censored.rpy:815
 translate spanish censor_solahscene_53dcdac4:
 
     # sol "Ah, I cannot force myself upon you like this! I shall take the well-treaded path of sorrow and cut my belly open upon this very bed!"
-    sol "¡Ah, no puedo forzarme sobre tí de esta forma! ¡Deberé tomar el bien marcado camino del lamento y abrir cortando mi vientre sobre esta misma cama!"
+    sol "¡Ah, no puedo imponerme sobre ti de esta forma! ¡Deberé tomar el bien marcado camino del lamento y abrir mi vientre cortándolo sobre esta misma cama!"
 
 # game/init_censored.rpy:816
 translate spanish censor_solahscene_c4c1e9f9:
@@ -2746,7 +2746,7 @@ translate spanish censor_solahscene_80cdecb6:
 translate spanish censor_solahscene_c37c3d57:
 
     # kay "W-well... Y-you're always so... into your Ryuvian rules... that I thought..."
-    kay "B-bueno... T-tú siempre estás tan... dentro de tus reglas Ryuvianas... que pensé que..."
+    kay "B-bueno... T-tú siempre estás tan... metida en tus reglas Ryuvianas... que pensé que..."
 
 # game/init_censored.rpy:825
 translate spanish censor_solahscene_6fb0f788:
@@ -2788,7 +2788,7 @@ translate spanish censor_solahscene_d8c1c394:
 translate spanish censor_solahscene_4fe9e467:
 
     # sol "I know not what grim trials await... but know that they will test you to the utmost of your abilities..."
-    sol "No conozco qué sombrías pruebas nos esperan... pero sepa que te probarán al máximo de tus habilidades..."
+    sol "No conozco qué sombríos retos nos deparan... pero debes saber que te probarán al máximo de tus habilidades..."
 
 # game/init_censored.rpy:832
 translate spanish censor_solahscene_6fc2cc94:
@@ -2806,13 +2806,13 @@ translate spanish censor_solahscene_dada58dd:
 translate spanish censor_claudehscene_71e34b16:
 
     # "With a snap of Claude's fingers, the scenery morphed into Shields' cabin. She clambered on top of him on all fours, and put her god-tier ass to his face."
-    "Con un chasquido de los dedos de Claude, el escenario se transformó en la habitación de Shields. Ella trepó encima de él en cuatro patas, y puso su "
+    "Con un chasquido de los dedos de Claude, el escenario se transformó en la habitación de Shields. Ella trepó encima de él en cuatro patas, y puso su trasero de clase dios en su cara."
 
 # game/init_censored.rpy:842
 translate spanish censor_claudehscene_6ec999b1:
 
     # cla "Impress your goddess! Then she shall consider letting you go!"
-    cla "¡Impresiona a tu diosa! ¡Entonces ella considerará dejarte ir!"
+    cla "¡Impresiona a tu diosa! ¡Luego ella considerará dejarte ir!"
 
 # game/init_censored.rpy:843
 translate spanish censor_claudehscene_21f91e04:
@@ -2836,7 +2836,7 @@ translate spanish censor_claudehscene_0fdd48cc:
 translate spanish censor_claudehscene_2b08b55f:
 
     # kay "(I did promise to do anything. Besides, I need Claude's help to get us out of this spectacular mess!)"
-    kay "(Prometí hacer cualquier cosa. ¡Aparte, necesito la ayuda de Claude para salir de este espectacular desastre!)"
+    kay "(Prometí hacer lo que sea. ¡Aparte, necesito la ayuda de Claude para sacarnos de este espectacular desastre!)"
 
 # game/init_censored.rpy:847
 translate spanish censor_claudehscene_51898aa4:
@@ -2848,7 +2848,7 @@ translate spanish censor_claudehscene_51898aa4:
 translate spanish censor_claudehscene_356441c1:
 
     # "Despite the surreal situation, he felt comfortable, as if he was floating on a pile of feathers."
-    "A pesar de la surreal situación, él se sintió cómodo, como si estuviera flotando en un montón de plumas."
+    "A pesar de la situación surrealista, él se sintió cómodo, como si estuviera flotando en un montón de plumas."
 
 # game/init_censored.rpy:849
 translate spanish censor_claudehscene_ae25669d:
@@ -2860,7 +2860,7 @@ translate spanish censor_claudehscene_ae25669d:
 translate spanish censor_claudehscene_0b555332:
 
     # "He reached up and split apart Claude's entryway. Juices were already dripping from her hole, stringing down and swaying as she moved her head."
-    "Levantó las manos y abrió la entrada de Claude separándola. Jugos ya estaban goteando de su agujero, creando oscilantes hilos hacia abajo mientras ella movía su cabeza."
+    "Levantó las manos y abrió la entrada de Claude separándola. Jugos ya estaban goteando de su agujero, cayendo como hilos y oscilando mientras ella movía su cabeza."
 
 # game/init_censored.rpy:851
 translate spanish censor_claudehscene_80c18a71:
@@ -2914,13 +2914,13 @@ translate spanish censor_claudehscene_4fe7de33:
 translate spanish censor_claudehscene_5ca3784f:
 
     # "By now, he had completely chucked his concerns for the space time continuum out the proverbial window. He had far more pressing concerns, such as Claude's massive ass hovering centimeters from his face."
-    "A estas alturas, había lanzado completamente sus preocupaciones por el continuo espacio tiempo fuera de la ventana proverbial. Él tenía asuntos mucho más urgentes, tales como el enorme trasero de Claude sobrevolando a centímetros de su cara."
+    "A estas alturas, había arrojado completamente sus preocupaciones por el continuo espacio tiempo fuera de la ventana proverbial. Él tenía asuntos mucho más urgentes, tales como el enorme trasero de Claude sobrevolando a centímetros de su cara."
 
 # game/init_censored.rpy:860
 translate spanish censor_claudehscene_77e2c853:
 
     # "He grabbed her ass by the hips and pushed her pussy into his mouth. He wrapped his lips around her clit and shoved his tongue up into its protective cover."
-    "Agarró su trasero por las caderas y presionó su vagina en su boca. Envolvió sus labios alrededor de su clítoris y empujó su lengua hacia su cobertura protectiva."
+    "Agarró su trasero por las caderas y presionó su vagina en su boca. Envolvió sus labios alrededor de su clítoris y empujó su lengua hacia su cobertura protectora."
 
 # game/init_censored.rpy:861
 translate spanish censor_claudehscene_60e60467:
@@ -2962,13 +2962,13 @@ translate spanish censor_claudehscene_27401984:
 translate spanish censor_claudehscene_f302bf45:
 
     # cla "Hmph! You're thinking that Claude is an easy girl, aren't you!? You are, aren't you!?"
-    cla "¡Hmph! ¿¡Piensas que Claude es una chica fácil, no!? ¿¡Lo estás haciendo, no!?"
+    cla "¡Hmph! ¿¡Piensas que Claude es una chica fácil, no es así!? ¿¡Lo estás haciendo, no es así!?"
 
 # game/init_censored.rpy:868
 translate spanish censor_claudehscene_0aa32f20:
 
     # cla "Mou, I'm not helping you anymore! You'll just have to figure out how to fix the universe by yourself!"
-    cla "¡Mou, no te ayudaré más! ¡Tendrás que averiguar cómo arreglar el universo por tí mismo!"
+    cla "¡Mou, no te ayudaré más! ¡Tendrás que averiguar cómo arreglar el universo por ti mismo!"
 
 # game/init_censored.rpy:869
 translate spanish censor_claudehscene_b7ce3462:
@@ -2980,7 +2980,7 @@ translate spanish censor_claudehscene_b7ce3462:
 translate spanish censor_claudehscene_3cdd2cf0:
 
     # "He resumed his attack, peeling back her clit's cover with his tongue and sucking it like a lollipop."
-    "Él resumió su ataque, pegando de vuelta la cubierta de su clítoris con su lengua y chupándola como una piruleta."
+    "Él reanudó su ataque, pelando de vuelta la cubierta de su clítoris con su lengua y chupándola como una piruleta."
 
 # game/init_censored.rpy:871
 translate spanish censor_claudehscene_61d275d7:
@@ -2992,7 +2992,7 @@ translate spanish censor_claudehscene_61d275d7:
 translate spanish censor_claudehscene_fb38a9c7:
 
     # "Hearing Claude's cries only fueled his desire to hear her scream harder. He wanted to suck her until she broke."
-    "Oír los gritos de Claude solo alimentó sus deseos de oírla gritar más fuerte. Él quiso chuparla hasta que se rompiera."
+    "Oír los gritos de Claude solo alimentó sus deseos de oírla gritar más fuerte. Él quiso chuparla hasta que ella se rompiera."
 
 # game/init_censored.rpy:873
 translate spanish censor_claudehscene_02c9b96d:
@@ -3016,7 +3016,7 @@ translate spanish censor_claudehscene_9e38e6a5:
 translate spanish censor_claudehscene_3b7ed2b6:
 
     # "She pressed her tits together and went down on Shields again. He felt pressure rush down his body as her boobs rubbed against the base of his shaft while her warm mouth attacked the top."
-    "Ella presionó sus pezones juntos y fue abajo de Shields de nuevo. Él sintió la presión irse hacia abajo de su cuerpo mientras los pechos de ella se frotaban contra la base de su vara mientras su caliente boca atacaba desde la cima."
+    "Ella juntó sus pezones presionándolos y fue abajo de Shields de nuevo. Él sintió la presión irse hacia abajo de su cuerpo mientras los pechos de ella se frotaban contra la base de su vara mientras su caliente boca atacaba desde la cima."
 
 # game/init_censored.rpy:877
 translate spanish censor_claudehscene_1f4b244e:
@@ -3028,7 +3028,7 @@ translate spanish censor_claudehscene_1f4b244e:
 translate spanish censor_claudehscene_5d2afe0d:
 
     # "He intensified his attack, her juices pouring down his face. Claude's ass once again clenched as she came again."
-    "Él intensificó su ataque, con los jugos de ella derramándose sobre su rostro. El trasero de Claude una vez más se sacudió mientras se venía de nuevo."
+    "Él intensificó su ataque, con los jugos de ella derramándose sobre su rostro. El trasero de Claude una vez más se sacudió cuando se vino otra vez."
 
 # game/init_censored.rpy:879
 translate spanish censor_claudehscene_45403458:
@@ -3064,7 +3064,7 @@ translate spanish censor_claudehscene_c5f38e30:
 translate spanish censor_claudehscene_418b82cc:
 
     # "That annoyance only strengthened his resolve to leave her completely defeated."
-    "Esa molestia solo fortaleció su resolución para dejarla completamente derrotada."
+    "Esa molestia solo fortaleció su determinación de dejarla completamente derrotada."
 
 # game/init_censored.rpy:885
 translate spanish censor_claudehscene_1fd71563:
@@ -3118,7 +3118,7 @@ translate spanish censor_claudehscene_6cf915ec:
 translate spanish censor_claudehscene_d03952a2:
 
     # kay "(My face is going to be a flood plain by the time she's through...!)"
-    kay "(¡Mi cara va a ser una llanura inundada para cuando ella termine...!)"
+    kay "(¡Mi cara va a ser una llanura inundada para cuando ella haya terminado...!)"
 
 # game/init_censored.rpy:894
 translate spanish censor_claudehscene_ecfe4bd9:
@@ -3130,13 +3130,13 @@ translate spanish censor_claudehscene_ecfe4bd9:
 translate spanish censor_claudehscene_a99e2754:
 
     # "She reached the base of his dick, the cannon rod ramming against her throat."
-    "Alcanzó la base de su pene, con su cañón golpeando duramente su garganta."
+    "Alcanzó la base de su pene, con el cañón estrellándose duramente contra su garganta."
 
 # game/init_censored.rpy:896
 translate spanish censor_claudehscene_9eb5faae:
 
     # "Her eyes are glazed over with stupid pleasure as she came continually."
-    "Sus ojos estaban recubiertos con estúpido placer mientras ella se venía contínuamente."
+    "Sus ojos estaban recubiertos con estúpido placer mientras ella se venía continuamente."
 
 # game/init_censored.rpy:900
 translate spanish censor_claudehscene_bbe9ac8b:
@@ -3256,7 +3256,7 @@ translate spanish censor_claudehscene_fd2976e4:
 translate spanish censor_claudehscene_0935cb0a:
 
     # cla "Mah, I guess it's not bad for now. But let's do it for real tonight, okay?"
-    cla "Mah, supongo que no está mal por ahora. Pero hagámoslo de verdad esta noche, ¿bien?"
+    cla "Mah, supongo que no está mal por ahora. Pero hagámoslo de verdad esta noche, ¿okey?"
 
 # game/init_censored.rpy:924
 translate spanish censor_claudehscene_e873d022:

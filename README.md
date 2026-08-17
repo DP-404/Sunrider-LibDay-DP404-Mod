@@ -1,6 +1,6 @@
 # Sunrider LibDay DP404 Mod
 # What is DP404 Mod?
-This is a mod for the visual novel Sunrider Liberation Day Captain's Edition 3.01 developed by [Love In Space](https://forum.loveinspace.moe/).
+This is a mod for the visual novel Sunrider Liberation Day Captain's Edition 3.01 developed by [Love In Space](https://linktr.ee/loveinspace).
 It contains several bug fixes of the code and other addings to the game.
 You are free to modify, translate and/or expand Sunrider or this mod in any maneer you desire, so long as you don't charge other people's money for any of Sunrider assets.
 
@@ -19,6 +19,26 @@ This mod works correctly whether or not you have the decensor patch installed.
 **Warning:** This mod tampers with several parts of the original game code in order to work properly. Compatibility with other mods is highly unlikely.
 
 # Changelog
+
+## DP404 Mod v2.0 (This will be the final version of the project)
+
+### Changes
+- Translated background images.
+- Translated CG images.
+- Translated battle UI buttons images.
+- Translated battle phases images.
+- Translated skirmish images.
+- Added more missing translations.
+
+### Bugs and Other Fixes
+- Enhanced ship map images.
+- Enhanced galaxy map images.
+- Enhanced store images.
+- Enhanced upgrade images.
+- Enhanced other UI images.
+- Enhanced REturn translation.
+- Enhanced censored translation.
+- Fixed spanish translation errors.
 
 ## DP404 Mod v1.1
 

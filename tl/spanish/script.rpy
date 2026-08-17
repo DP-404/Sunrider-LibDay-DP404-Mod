@@ -1,4 +1,4 @@
-﻿   # TODO: Translation updated at 2015-08-31 19:20
+  # TODO: Translation updated at 2015-08-31 19:20
 
 #translate spanish style default:
     #font "Fonts/NotoSansCJKjp-Medium.otf"
@@ -19,13 +19,13 @@ translate spanish _call_initialize_87861a75:
 translate spanish _call_beginstat_67c5abad:
 
     # nar "Following the devastating war between the democratic Solar Alliance and the tyrannical New Empire, the galaxy was split into two zones separated by the Neutral Rim, a buffer between the two states."
-    nar "La \"Guerra Alianza-Imperial\" fue una guerra devastadora entre la democrática Alainza Solar y el tiránico Nuevo Imperio. Después de la guerra, la galaxia se dividió en dos territorios y el Margen Neutral, un intermediario que separaba ambos poderes opuestos."
+    nar "La \"Guerra Alianza-Imperial\" fue una guerra devastadora entre la democrática Alianza Solar y el tiránico Nuevo Imperio. Después de la guerra, la galaxia se dividió en dos territorios y el Margen Neutral, un intermediario que separaba ambos poderes opuestos."
 
 # game/script.rpy:78
 translate spanish _call_beginstat_9ef1ebd4:
 
     # nar "Weakened by war, the New Empire collapsed from within in the Compact Revolution. A figure known only as VENICZAR ARCADIUS led the people against their Imperial oppressors. Following the New Empire's fall, Arcadius mysteriously vanished from public view."
-    nar "El Nuevo Imperio debilitado por la guerra fue desintegrado desde dentro por [[VENICZAR ARCADIUS], quien lideró la [[Revolución Compact]. Aún así, Arcadius desapareció al mismo tiempo de la vista de las personas."
+    nar "El Nuevo Imperio debilitado por la guerra fue desintegrado desde dentro por [[VENICZAR ARCADIUS], quien lideró la [[Revolución Compact]. Aun así, Arcadius desapareció al mismo tiempo de la vista de las personas."
 
 # game/script.rpy:80
 translate spanish _call_beginstat_cd01557b:
@@ -49,7 +49,7 @@ translate spanish _call_beginstat_dfe2bb29:
 translate spanish _call_beginstat_255041fe:
 
     # nar "What was envisioned by PACT leaders as a glorious invasion into the heart of Alliance space instead became a bloody foreign campaign fought in the undeveloped Neutral Rim."
-    nar "La gloriosa operación de subyagación ideada por los comandantes del PACT terminó siendo una devastadora guerra expedicionaria debido a un gran fallo en el subdesarrollado Margen Neutral."
+    nar "La gloriosa operación de subyugación ideada por los comandantes del PACT terminó siendo una devastadora guerra expedicionaria debido a un gran fallo en el subdesarrollado Margen Neutral."
 
 # game/script.rpy:88
 translate spanish _call_beginstat_55cdf203:
@@ -115,7 +115,7 @@ translate spanish _call_beginstat_98255b5b:
 translate spanish _call_beginstat_cd9665f6:
 
     # asa "What should we do with it, captain?"
-    asa "Capitán, ¿qué deberíamos hacer con él?"
+    asa "Capitán, ¿qué deberíamos hacer con él? ¿Deberíamos hacerle PUM?"
 
 # game/script.rpy:140
 translate spanish _call_beginstat_4a2155be:
@@ -127,7 +127,7 @@ translate spanish _call_beginstat_4a2155be:
 translate spanish _call_beginstat_8288a770:
 
     # ava "We must take the last prototype alive. The intel we could extract from it could..."
-    ava "Propongo que recuperemos al prototipo sobreviviente. Entonces deberemos extraerle información de cualquier forma..."
+    ava "Propongo que recuperemos al prototipo sobreviviente. Luego deberemos extraerle información de cualquier forma..."
 
 # game/script.rpy:142
 translate spanish _call_beginstat_f2f8ff9e:
@@ -157,7 +157,7 @@ translate spanish _call_beginstat_b30a300b:
 translate spanish _call_beginstat_659e4932:
 
     # ava "Sir. Liberty, prepare to tow the remains of the disabled Arcadius unit back to our hangar."
-    ava "¡Sí! Sunrider al Liberty. Atrape a la unidad Arcadius destruida y detenga al sobreviviente."
+    ava "¡Señor! Sunrider al Liberty. Atrapa a la unidad Arcadius destruida y detén al sobreviviente."
 
 # game/script.rpy:150
 translate spanish _call_beginstat_d752b1af:
@@ -169,7 +169,7 @@ translate spanish _call_beginstat_d752b1af:
 translate spanish _call_beginstat_ea07a9b1:
 
     # kry "If we were to capture the last prototype alive, the intel we could gain could..."
-    kry "Sugeriría que capturásemos al prototipo como prisionero de guerra y hacer que cooperara con nosotros proveyéndonos información."
+    kry "Sugeriría que capturásemos al prototipo como prisionero de guerra y hacer que cooperara con nosotros suministrándonos información."
 
 # game/script.rpy:152
 translate spanish _call_beginstat_f2f8ff9e_1:
@@ -181,7 +181,7 @@ translate spanish _call_beginstat_f2f8ff9e_1:
 translate spanish _call_beginstat_f06f6911_1:
 
     # kay "It... looked like her."
-    kay "(Eso luce como... no, estúpido...)"
+    kay "(Eso luce como... no, es estúpido...)"
 
 # game/script.rpy:154
 translate spanish _call_beginstat_5211c5cc:
@@ -241,7 +241,7 @@ translate spanish _call_beginstat_456e37b0:
 translate spanish _call_beginstat_decd4953:
 
     # pro "Sisters."
-    pro "¡¡...hermanas!!"
+    pro "¡¡...somos hermanas!!"
 
 # game/script.rpy:173
 translate spanish _call_beginstat_19b97610:
@@ -289,7 +289,7 @@ translate spanish _call_beginstat_79da8549:
 translate spanish _call_beginstat_d6b7ff88:
 
     # ica "Copy that, but the Liberty's-"
-    ica "Uh... Entendido. Sin embargo Ashada está-"
+    ica "Uh... Entendido. Sin embargo Chigara está-"
 
 # game/script.rpy:189
 translate spanish _call_beginstat_4308528d:
@@ -301,13 +301,13 @@ translate spanish _call_beginstat_4308528d:
 translate spanish _call_beginstat_bd2c9414:
 
     # ava "Bianca, tow the Arcadius unit back to the Sunrider!"
-    ava "Bianca, recupere en cambio a la unidad Arcadius rota."
+    ava "Bianca, recupera en su lugar a la unidad Arcadius rota."
 
 # game/script.rpy:197
 translate spanish _call_beginstat_99eaa019:
 
     # kry "Bianca, tow the Arcadius unit back to the Sunrider!"
-    kry "Claude, por favor recupera en cambio a la unidad Arcadius rota."
+    kry "Claude, por favor recupera en su lugar a la unidad Arcadius rota."
 
 # game/script.rpy:199
 translate spanish _call_beginstat_c2347381:
@@ -319,7 +319,7 @@ translate spanish _call_beginstat_c2347381:
 translate spanish _call_beginstat_d24da162:
 
     # ava "Warning, new hostiles inbound! Pirate forces, on a intercept course!"
-    ava "¡¡Un nuevo enemigo se muestra en el radar!! ¡Fuerzas piratas! ¡El enemigo se dirije hacia aquí!"
+    ava "¡¡Un nuevo enemigo se muestra en el radar!! ¡Fuerzas piratas! ¡El enemigo se dirige hacia aquí!"
 
 # game/script.rpy:209
 translate spanish _call_beginstat_db2ddd1f:
@@ -331,7 +331,7 @@ translate spanish _call_beginstat_db2ddd1f:
 translate spanish _call_beginstat_7739ad9a:
 
     # cos "Aren't you forgetting about someone--!?"
-    cos "¡Bueno, gente! Están en problemas... Se olvidaban de alguien... ¿¡Aah...!?"
+    cos "¡Bueno, escoria! Están en problemas... Se olvidaban de alguien... ¿¡Aah...!?"
 
 # game/script.rpy:220
 translate spanish _call_beginstat_10e350c7:
@@ -379,7 +379,7 @@ translate spanish _call_beginstat_a29c75ef:
 translate spanish _call_beginstat_96c1e31d:
 
     # cos "I can still take you out!! EAAHH!!!"
-    cos "¿¡Crees que me importa!? ¡¡Si te puedo matar, ya es suficiente razón!! ¡¡UAAAAAHH!!"
+    cos "¿¡Crees que me importa!? ¡¡Si los puedo matar, ya es suficiente razón!! ¡¡UAAAAAHH!!"
 
 # game/script.rpy:268
 translate spanish mission1_a23140ca:
@@ -439,7 +439,7 @@ translate spanish mission1_9b162ac3:
 translate spanish mission1_14cbab9e:
 
     # cos "H-hurk..."
-    cos "¿¡...ugh...!?"
+    cos "¿¡...H-hurk...!?"
 
 # game/script.rpy:306
 translate spanish mission1_633a23e9:
@@ -475,7 +475,7 @@ translate spanish mission1_252780a9:
 translate spanish mission1_e5ddf169:
 
     # cos "If Fontana doesn't have the gall to stand here, then we'll just kill them all ourselves!"
-    cos "Parece que huiste, Fontana... Ese cobarde. Bueno, ¡disfrutaremos nosotros solos vuestra matanza!"
+    cos "Parece que huiste, Fontana... Ese cobarde. No importa, ¡disfrutaremos nosotros solos vuestra matanza!"
 
 # game/script.rpy:312
 translate spanish mission1_2b4afc51:
@@ -523,7 +523,7 @@ translate spanish mission1_dbbf63c2:
 translate spanish mission1_b23fec32:
 
     # cos "So that our children will not bear the horrors we did! So that no one else but us will dirty their hands!"
-    cos "¡Para prevenir que los niños de Ongess tengan que recorrer este caminos! ¡De esa forma nosotros seremos los únicos que nos ensuciaremos nuestras manos!"
+    cos "¡Para prevenir que los niños de Ongess tengan que recorrer este camino! ¡De esa forma nosotros seremos los únicos que nos ensuciaremos nuestras manos!"
 
 # game/script.rpy:320
 translate spanish mission1_b967c434:
@@ -889,7 +889,7 @@ translate spanish prologue_cosettedead_a9a21b8f:
 translate spanish titlecardstart_cee3019e:
 
     # pof "My veniczar. Our ships have performed an orderly retreat."
-    pof "Fontana, nuestra flota se ha retirado del frente como ordenó."
+    pof "Veniczar Fontana, nuestra flota se ha retirado del frente como ordenó."
 
 # game/script.rpy:581
 translate spanish titlecardstart_e05ad779:
@@ -919,7 +919,7 @@ translate spanish titlecardstart_dee4b5ee:
 translate spanish titlecardstart_c2850800:
 
     # pof "Yes sir. We have rigged explosives throughout the Core to detonate as ordered. Our ships have now retreated safely away from the perimeter."
-    pof "¡Sí! Como ordenó, hemos instalado explosivos dentro del Core. ¡Nuestra flota fue evacuada, puede dar la orden!"
+    pof "¡Señor! Como ordenó, hemos instalado explosivos dentro del Core. ¡Nuestra flota fue evacuada, puede dar la orden!"
 
 # game/script.rpy:586
 translate spanish titlecardstart_4c4e3d0a:
@@ -973,7 +973,7 @@ translate spanish titlecardstart_be5dc19f:
 translate spanish titlecardstart_1f25f099:
 
     # pof "I am reading hyper brain waves! A prototype still lives!"
-    pof "¡El sensor de ondas hiper cerebrales está respondiendo! ¡Un prototipo! ¡Queda uno con vida!"
+    pof "¡El sensor de ondas hipercerebrales está respondiendo! ¡Un prototipo! ¡Queda uno con vida!"
 
 # game/script.rpy:595
 translate spanish titlecardstart_e51f9d03:
@@ -1051,7 +1051,7 @@ translate spanish titlecardstart_5088b59c:
 translate spanish titlecardstart_15da1c52:
 
     # ica "G-guck! W-who!?"
-    ica "¡Guh! ¿¡Quién es!?"
+    ica "¡G-guck! ¿¡Quién es!?"
 
 # game/script.rpy:654
 translate spanish titlecardstart_26c7f8ed:
@@ -1063,7 +1063,7 @@ translate spanish titlecardstart_26c7f8ed:
 translate spanish titlecardstart_84b09174:
 
     # ica "U-uck... A-ah..."
-    ica "Uck, aah..."
+    ica "U-uck... A-ah..."
 
 # game/script.rpy:663
 translate spanish titlecardstart_5ebc8810:
@@ -1327,7 +1327,7 @@ translate spanish titlecardstart_1cdc51db:
 translate spanish titlecardstart_94bfec4f:
 
     # kay "I'm Captain Shields. Welcome aboard the Sunrider."
-    kay "Soy el capitán de este acorazado, Kayto Shields. Bievenida al Sunrider."
+    kay "Soy el capitán de este acorazado, Kayto Shields. Bienvenida al Sunrider."
 
 # game/script.rpy:737
 translate spanish titlecardstart_8af4e306:
@@ -1513,7 +1513,7 @@ translate spanish titlecardstart_abd393a6:
 translate spanish titlecardstart_c7885712:
 
     # kay "As long as we don't run into another prototype, I don't think she has much power."
-    kay "Sería bueno mantenerla así como está, a menos que hayan otros prototipos cerca..."
+    kay "Sería bueno mantenerla así como está, a menos que haya otros prototipos cerca..."
 
 # game/script.rpy:782
 translate spanish titlecardstart_ce0be0d4:
@@ -1549,7 +1549,7 @@ translate spanish titlecardstart_c3a0ea22:
 translate spanish titlecardstart_ca5c6b4c:
 
     # chi "Okay, I'll try to help too!"
-    chi "¡Sí! ¡Yo también ayudaré!"
+    chi "¡Okey! ¡Yo también ayudaré!"
 
 # game/script.rpy:796
 translate spanish titlecardstart_776a8e05:
@@ -1657,7 +1657,7 @@ translate spanish ava_sickbaytalk_d7c69278:
 translate spanish ava_sickbaytalk_c48dd96f:
 
     # ava "Not that. The Legion."
-    ava "¡No eso! ... tos... El Legion."
+    ava "¡No eso...! Cof... El Legion."
 
 # game/script.rpy:844
 translate spanish ava_sickbaytalk_41fc80d8:
@@ -1747,7 +1747,7 @@ translate spanish ava_sickbaytalk_090c2507:
 translate spanish ava_sickbaytalk_2bf9c940:
 
     # kay "Should work even better than your old one, I hear."
-    kay "¡Es un artefacto exelente! ¡Si tienes esto podrías incluso trabajar como francotiradora!"
+    kay "¡Es un artefacto excelente! ¡Si tienes esto podrías incluso trabajar como francotiradora!"
 
 # game/script.rpy:859
 translate spanish ava_sickbaytalk_43da5497_3:
@@ -1867,7 +1867,7 @@ translate spanish ava_hallway_672b086b:
 translate spanish ava_hallway_c017884f:
 
     # kay "Ahem... Well..."
-    kay "¡¡Ahem!! Esto..."
+    kay "¡¡Ejem!! Esto..."
 
 # game/script.rpy:895
 translate spanish ava_hallway_80b9bb5a:
@@ -1897,7 +1897,7 @@ translate spanish ava_hallway_7ed6d348:
 translate spanish ava_hallway_8cf8b9eb:
 
     # ava "Despite expending considerable resources and lives in an attempt to exploit its weakness, you issued an order to ignore it when we had it in our sights!"
-    ava "¡No! En lo absoluto. ¿¡Cuánto cree que fue dañada la Flota Combinada para encontrar la debilidad del Legion!?"
+    ava "¡No! En absoluto. ¿¡Cuánto cree que fue dañada la Flota Combinada para encontrar la debilidad del Legion!?"
 
 # game/script.rpy:903
 translate spanish ava_hallway_0ab89a57:
@@ -1927,19 +1927,19 @@ translate spanish ava_hallway_74dd508f:
 translate spanish ava_hallway_728ec921:
 
     # ava "We had but one opportunity to strike the Legion while PACT was unaware of its vulnerability, and that opportunity was squandered!"
-    ava "¿¡Qué diablos estaba pensando para desperdiciar una opertunidad así!?"
+    ava "¿¡Qué diablos estaba pensando para desperdiciar una oportunidad así!?"
 
 # game/script.rpy:908
 translate spanish ava_hallway_442e35ef:
 
     # ava "All in all, the battle would have been a catastrophic loss for the Alliance, if it were not for Veniczar Fontana's fortuitous betrayal."
-    ava "¡Si Fontana no hubiera realizado ese acto, nosotros... no, toda la flota de la Alianza podría haber sido arrasada por su culpa!"
+    ava "¡Si Fontana no hubiera hecho eso, nosotros... no, toda la flota de la Alianza podría haber sido arrasada por su culpa!"
 
 # game/script.rpy:909
 translate spanish ava_hallway_46ad4be4:
 
     # ava "Our victory was entirely situational and had we not been so lucky, none of us would be alive right now!"
-    ava "¡Esta victoria fue pura suerte! ¡¡Es el patético resultado de una suerte irresponslable!!"
+    ava "¡Esta victoria fue pura suerte! ¡¡Es el patético resultado de una suerte irresponsable!!"
 
 # game/script.rpy:913
 translate spanish ava_hallway_220698ac:
@@ -1957,7 +1957,7 @@ translate spanish ava_hallway_77d0c438:
 translate spanish ava_hallway_d919fe72:
 
     # ava "I wholeheartedly denounce your highly inappropriate remarks regarding your... feelings towards me on the floor of the bridge!"
-    ava "-a pesar del hecho de que habían miembros de la tripulación en el puente, en la batalla... qué diablos fue ese [[comentario]!"
+    ava "-a pesar del hecho de que había miembros de la tripulación en el puente, en la batalla... qué diablos fue ese [[comentario]!"
 
 # game/script.rpy:916
 translate spanish ava_hallway_d53be009:
@@ -1993,13 +1993,13 @@ translate spanish ava_hallway_de1705ee:
 translate spanish ava_hallway_5df6b57b:
 
     #  "Shields scratched the back of his head in frustration."
-    "Shields se arrascó detrás de la cabeza como si se hubiera rendido, y casualmente suspiró en respuesta al sermón que la comandante le había dado con un acento distorsionado."
+    "Shields se rascó detrás de la cabeza como si se hubiera rendido, y casualmente suspiró en respuesta al sermón que la comandante le había dado con un acento distorsionado."
 
 # game/script.rpy:925
 translate spanish ava_hallway_b50b8149:
 
     # kay "I'm glad to see you safe and sound too, Ava."
-    kay "Sí-- Es bueno, estoy contento de que tú también estés bien Ava-"
+    kay "Es bueno, me alegro de que tú también estés bien Ava-"
 
 # game/script.rpy:929
 translate spanish ava_hallway_0bd052e5:
@@ -2041,7 +2041,7 @@ translate spanish ava_hallway_e4fea1d8:
 translate spanish ava_hallway_d2848be2:
 
     # kay "Enough Ceran lives have been lost to that ship."
-    kay "Muchas vidas se perdieron por el Legion en la Ciudad Cera..."
+    kay "Muchas vidas se perdieron por el Legion en Ciudad Cera..."
 
 # game/script.rpy:939
 translate spanish ava_hallway_1977b94e:
@@ -2083,7 +2083,7 @@ translate spanish ava_hallway_3e6c4413:
 translate spanish ava_hallway_d4d49749:
 
     # ava "Hmph."
-    ava "¡Hmm!"
+    ava "¡Hmph!"
 
 # game/script.rpy:946
 translate spanish ava_hallway_cf992fc3:
@@ -2095,7 +2095,7 @@ translate spanish ava_hallway_cf992fc3:
 translate spanish ava_hallway_b1958d0d:
 
     # kay "But considering Command was reduced to a smoking crater a while back, I doubt it's going to do any good."
-    kay "Bueno, es inútil de todas formas. El cuartel general se volvió un gran cráter en la tierra junto con la Ciudad Cera..."
+    kay "Bueno, es inútil de todas formas. El cuartel general se volvió un gran cráter en la tierra junto con Ciudad Cera..."
 
 # game/script.rpy:951
 translate spanish ava_hallway_6d7d147f:
@@ -2137,13 +2137,13 @@ translate spanish ava_hallway_e0a8f6ef:
 translate spanish ava_hallway_cdb36e8c:
 
     # kay "(Great, she totally hates me now...)"
-    kay "(A ella le disgustó completamente...)"
+    kay "(Me odia completamente...)"
 
 # game/script.rpy:961
 translate spanish ava_hallway_3e0e749c:
 
     # kay "(So much for getting closer...)"
-    kay "(Eso es lo que le solía gustar...)"
+    kay "(Y pensaba que nos acercaríamos más...)"
 
 # game/script.rpy:973
 translate spanish chigara_windows_5538eb44:
@@ -2185,7 +2185,7 @@ translate spanish chigara_windows_9e38c705:
 translate spanish chigara_windows_de69f6a6:
 
     # chi "I... I was completely clueless..."
-    chi "Yo no sabía nada, en lo absoluto..."
+    chi "Yo no sabía nada, en absoluto..."
 
 # game/script.rpy:986
 translate spanish chigara_windows_995745a4:
@@ -2221,7 +2221,7 @@ translate spanish chigara_windows_d6cd9e7b:
 translate spanish chigara_windows_68cd2647:
 
     # kay "(I'm sorry Chigara, but nothing about that sounds like a normal childhood.)"
-    kay "(Eh... ¿Jefa Chigara? ¿Qué parte de su infancia fue normal?)"
+    kay "(Eh... ¿Jefa Chigara? ¿Qué parte de tu infancia fue normal?)"
 
 # game/script.rpy:992
 translate spanish chigara_windows_f8d46d05:
@@ -2251,7 +2251,7 @@ translate spanish chigara_windows_0bf8021f:
 translate spanish chigara_windows_e8dd5973:
 
     # kay "We would never have made it this far without your help. You would never betray us."
-    kay "Cierto, es gracias a tí que hemos llegado tan lejos. Sería imposible que nos traicionaras."
+    kay "Cierto, es gracias a ti que hemos llegado tan lejos. Sería imposible que nos traicionaras."
 
 # game/script.rpy:1003
 translate spanish chigara_windows_de6632f5:
@@ -2263,7 +2263,7 @@ translate spanish chigara_windows_de6632f5:
 translate spanish chigara_windows_4ef62fee:
 
     # chi "Eh-heh... N-no, you mustn't keep saying things like that..."
-    chi "Ehehe... No me gusta, soy un poco tímida..."
+    chi "Eh-heh... No me gusta, soy un poco tímida..."
 
 # game/script.rpy:1008
 translate spanish chigara_windows_5538eb44_1:
@@ -2407,7 +2407,7 @@ translate spanish chigara_windows_52faee67:
 translate spanish chigara_windows_e4664d3f:
 
     # sha "At last, your powers have begun to germinate."
-    sha "Con el poder que has comenzado a despertar en tí..."
+    sha "Con el poder que has comenzado a despertar en ti..."
 
 # game/script.rpy:1050
 translate spanish chigara_windows_ac8344b2:
@@ -2497,7 +2497,7 @@ translate spanish chigara_windows_bff7141a:
 translate spanish chigara_windows_2542aca3:
 
     #  "Asaga turned around and came face to face with Sola."
-    "Cuando se dio la vuelta, Sola estába parada a su lado."
+    "Cuando se dio la vuelta, Sola estaba parada a su lado."
 
 # game/script.rpy:1071
 translate spanish chigara_windows_a8954308:
@@ -2521,7 +2521,7 @@ translate spanish chigara_windows_2b60a3ce:
 translate spanish chigara_windows_ba12d5d6:
 
     # asa "Uh. How long were you there?"
-    asa "Esto, ¿desde cuándo estás ahí...?"
+    asa "Uh. ¿Desde cuándo estás ahí...?"
 
 # game/script.rpy:1078
 translate spanish chigara_windows_b9844990:
@@ -2533,7 +2533,7 @@ translate spanish chigara_windows_b9844990:
 translate spanish chigara_windows_76b70e23:
 
     # asa "Huuuu... N-no way..."
-    asa "Whee... No puede ser-..."
+    asa "Huuuu... N-no puede ser-..."
 
 # game/script.rpy:1083
 translate spanish chigara_windows_73517402:
@@ -2611,13 +2611,13 @@ translate spanish chigara_windows_91f8d8a8_2:
 translate spanish chigara_windows_34cd167e:
 
     # asa "Easy for you."
-    asa "Bueno, bien por tí..."
+    asa "Bueno, bien por ti..."
 
 # game/script.rpy:1108
 translate spanish chigara_windows_9ec5e10b:
 
     # asa "You don't feel any emotions, Sola."
-    asa "Ya que tú Sola no sientes nada en lo absoluto."
+    asa "Ya que tú Sola no sientes nada en absoluto."
 
 # game/script.rpy:1112
 translate spanish chigara_windows_2039fa8c_2:
@@ -2635,7 +2635,7 @@ translate spanish chigara_windows_b16ed4a0:
 translate spanish chigara_windows_086b4480:
 
     # asa "I suppose that's true."
-    asa "Ah, uhmm... Supongo que es... cierto... ¿Uh, eh?"
+    asa "Ah, uhmm... Supongo que es... cierto... Uh, ¿eh?"
 
 # game/script.rpy:1118
 translate spanish chigara_windows_fb13288a:
@@ -2707,7 +2707,7 @@ translate spanish shipactivitybattle_ff5accfe:
 translate spanish shipactivitybattle_2ecfaa9f:
 
     #  "Everyone was still dazzled by the truth of Arcadius' identity. The air practically vibrated with excitement."
-    "Ahora que la verdadera identidad de Arcadius había sido revelada, el espíritu combativo de los soldados estaba completamente abierto."
+    "Ahora que la verdadera identidad de Arcadius había sido revelada, el espíritu combativo de los soldados estaba completamente arriba."
 
 # game/script.rpy:1141
 translate spanish shipactivitybattle_5ae10163:
@@ -2731,7 +2731,7 @@ translate spanish shipactivitybattle_fd780be1:
 translate spanish shipactivitybattle_6fe7beef:
 
     # kay "At ease, lieutenant."
-    kay "Descanse, teniente."
+    kay "Descansa, teniente."
 
 # game/script.rpy:1151
 translate spanish shipactivitybattle_dfcaec38:
@@ -2911,7 +2911,7 @@ translate spanish shipactivitybattle_0de9da66:
 translate spanish shipactivitybattle_fa653da6:
 
     # adr "Entire systems could be destroyed in the blink of an eye."
-    adr "Con este poder podríamos destruir cada sistema planetario en un instante..."
+    adr "Con este poder pudiéramos destruir cada sistema planetario en un instante..."
 
 # game/script.rpy:1199
 translate spanish shipactivitybattle_45831d86:
@@ -3079,7 +3079,7 @@ translate spanish shipactivitybattle_ad21051b:
 translate spanish shipactivitybattle_cf205a86:
 
     # adr "Though, I am disappointed the battle was not won through our fleet's might, but because of sedition within PACT's ranks."
-    adr "Pero estoy desepcionado, desafortunadamente la victoria del otro día no fue algo ganado por nuestra Flota Combinada, sino por el surgimiento de una guerra interna dentro del PACT."
+    adr "Pero estoy decepcionado, desafortunadamente la victoria del otro día no fue algo ganado por nuestra Flota Combinada, sino por el surgimiento de una guerra interna dentro del PACT."
 
 # game/script.rpy:1230
 translate spanish shipactivitybattle_a397d757:
@@ -3103,7 +3103,7 @@ translate spanish shipactivitybattle_e22fc63f:
 translate spanish shipactivitybattle_2d4f79aa:
 
     # adr "Cera is our goal."
-    adr "...hasta que tomemos a Cera de vuelta."
+    adr "...hasta que tomemos Cera de vuelta."
 
 # game/script.rpy:1234
 translate spanish shipactivitybattle_abb87ac1:
@@ -3127,7 +3127,7 @@ translate spanish shipactivitybattle_2387c65f:
 translate spanish shipactivitybattle_c273a269:
 
     # adr "By the way, I heard you captured one alive."
-    adr "Hablando de ellos, oí que fue usted quien capturó a solo una de esas [[cosas] con vida."
+    adr "Hablando de ellos, escuché que fue usted quien capturó a una de esas [[cosas] con vida."
 
 # game/script.rpy:1238
 translate spanish shipactivitybattle_0bb39632:
@@ -3247,7 +3247,7 @@ translate spanish shipactivitybattle_b6b115cd:
 translate spanish shipactivitybattle_36f176d1:
 
     #  "The Admiral chuckled and patted Shields' back."
-    "El Almirante Grey se rió y palmeó la espalda de Shields."
+    "El Almirante Grey se rio y palmeó la espalda de Shields."
 
 # game/script.rpy:1258
 translate spanish shipactivitybattle_b4c38bb9:
@@ -3259,7 +3259,7 @@ translate spanish shipactivitybattle_b4c38bb9:
 translate spanish shipactivitybattle_49754bb3:
 
     # adr "I can only take so much of this grotesque PACT architecture..."
-    adr "Esta mala arquitectura del PACT estoy cansado de verla."
+    adr "Estoy cansado de ver esta grotesca arquitectura del PACT."
 
 # game/script.rpy:1263
 translate spanish shipactivitybattle_4dd2115d:
@@ -3493,7 +3493,7 @@ translate spanish avaofficereport_c460b41d:
 translate spanish avaofficereport_da07da5b:
 
     # ava "O-on the ele--? And on what day!?"
-    ava "¿¡El elevador del bloque número cuál-!? ¿¡Espere, a qué se refiere con eso!?"
+    ava "¿¡El elevador de cuál bloque-!? ¿¡Espere, a qué se refiere con eso!?"
 
 # game/script.rpy:1352
 translate spanish avaofficereport_a7942713:
@@ -3559,7 +3559,7 @@ translate spanish avaofficereport_74db7eea:
 translate spanish avaofficereport_f98aabe2:
 
     # ava "Ahem. Well captain, I have no intention of allowing you to run this ship by yourself."
-    ava "¡Ahem! ¡En cualquier caso, usted capitán no puede tomar por sí solo la responsabilidad de esta nave!"
+    ava "¡Ejem! ¡En cualquier caso, usted capitán no puede tomar por sí solo la responsabilidad de esta nave!"
 
 # game/script.rpy:1376
 translate spanish avaofficereport_acf3ca5a:
@@ -3625,7 +3625,7 @@ translate spanish avaofficereport_0817a7d4:
 translate spanish avaofficereport_2c3f98df:
 
     # kay "And I have you to thank for that."
-    kay "Esto es también gracias a tí, Ava."
+    kay "Esto es también gracias a ti, Ava."
 
 # game/script.rpy:1390
 translate spanish avaofficereport_d704947e:
@@ -3703,7 +3703,7 @@ translate spanish avaofficereport_a1ee1f77:
 translate spanish avaofficereport_929c7eda:
 
     # chi "Here, take a look!"
-    chi "¡Tadán! ¡Ehem!"
+    chi "¡Tadá! ¡Ejem!"
 
 # game/script.rpy:1413
 translate spanish avaofficereport_066f294a:
@@ -3739,7 +3739,7 @@ translate spanish avaofficereport_9c63ba7d:
 translate spanish avaofficereport_07ccb702:
 
     # chi "Eh-heh... I managed to gather up all the fragments and bond then back together, piece by piece."
-    chi "Ehehe... Grabé los escombros recolectados con un escáner tridimensional, y lo reconstruí adivinando la posición de la forma original tanto como fue posible con un algoritmo automatizado como un puzle. Después de eso, utilicé Seraron Alpha para pegar las piezas una por una."
+    chi "Eh-heh... Grabé los escombros recolectados con un escáner tridimensional, y lo reconstruí adivinando la posición de la forma original tanto como fue posible con un algoritmo automatizado como un puzle. Después de eso, utilicé Seraron Alpha para pegar las piezas una por una."
 
 # game/script.rpy:1422
 translate spanish avaofficereport_1b97bff7:
@@ -3763,7 +3763,7 @@ translate spanish avaofficereport_fa63a1e5:
 translate spanish avaofficereport_2ced44fc:
 
     # ava "Ahem."
-    ava "¡¡Ahem!!"
+    ava "¡¡Ejem!!"
 
 # game/script.rpy:1435
 translate spanish avaofficereport_952f0e8d:
@@ -3811,7 +3811,7 @@ translate spanish avaofficereport_15c037df:
 translate spanish avaofficereport_62e07c70:
 
     # ava "Nothing at all, captain."
-    ava "...no. Nada en lo absoluto."
+    ava "...no. Nada en absoluto."
 
 # game/script.rpy:1446
 translate spanish avaofficereport_e850ff47:
@@ -4051,7 +4051,7 @@ translate spanish icarikryska_eating_58923776:
 translate spanish icarikryska_eating_1d9cdeeb:
 
     # ica "I definitely didn't do it because I cared about you! At all!"
-    ica "¡Eso no significa que estaba preocupada por tí!"
+    ica "¡Eso no significa que estaba preocupada por ti!"
 
 # game/script.rpy:1529
 translate spanish icarikryska_eating_d9f4df27:
@@ -4123,7 +4123,7 @@ translate spanish icarikryska_eating_9e4257bf:
 translate spanish icarikryska_eating_9d5dea30:
 
     # kry "H-hurk..."
-    kry "Goh..."
+    kry "H-hurk..."
 
 # game/script.rpy:1550
 translate spanish icarikryska_eating_2d90291e:
@@ -4135,7 +4135,7 @@ translate spanish icarikryska_eating_2d90291e:
 translate spanish icarikryska_eating_0e604ba3:
 
     # ica "O-oy... Are you all right?"
-    ica "O-oy, ¿qué te ocurre?"
+    ica "O-oye, ¿qué te ocurre?"
 
 # game/script.rpy:1555
 translate spanish icarikryska_eating_8fb6cac3:
@@ -4309,7 +4309,7 @@ translate spanish kaytoofficemeeting_262b0187:
 translate spanish kaytoofficemeeting_dd283868:
 
     # fon "But it shall be time which whither away the wealth of the imperialists. Not the blood of our men and women."
-    fon "Los imperialistas de la Alianza se destruirán a sí mismos eventualmete por su propia codicia. No necesitamos sacrificar a nuestra gente."
+    fon "Los imperialistas de la Alianza se destruirán a sí mismos eventualmente por su propia codicia. No necesitamos sacrificar a nuestra gente."
 
 # game/script.rpy:1601
 translate spanish kaytoofficemeeting_b854e471:
@@ -4321,7 +4321,7 @@ translate spanish kaytoofficemeeting_b854e471:
 translate spanish kaytoofficemeeting_250386af:
 
     # adr "In any matter, I have been involved in talks with PACT's peace faction."
-    adr "¡Ehem! Por el momento... he hablado con los moderadores del PACT acerca de la idea de un alto al fuego."
+    adr "¡Ejem! Por el momento... he hablado con los moderados del PACT acerca de la idea de un alto al fuego."
 
 # game/script.rpy:1603
 translate spanish kaytoofficemeeting_f42e2572:
@@ -4585,7 +4585,7 @@ translate spanish kaytoofficemeeting_263a779d:
 translate spanish kaytoofficemeeting_bd6b02fb:
 
     # lyn "We've already taken what is most precious to you."
-    lyn "Lo más preciado para tí ya está en nuestras manos."
+    lyn "Lo más preciado para ti ya está en nuestras manos."
 
 # game/script.rpy:1673
 translate spanish kaytoofficemeeting_43da5497_1:
@@ -4819,7 +4819,7 @@ translate spanish officechigaratea_77bece49:
 translate spanish officechigaratea_1d1f29e4:
 
     # chi "Mm..."
-    chi "Hmm..."
+    chi "Mm..."
 
 # game/script.rpy:1744
 translate spanish officechigaratea_5538eb44:
@@ -4855,7 +4855,7 @@ translate spanish officechigaratea_7746ce39:
 translate spanish officechigaratea_eb9fd4c4:
 
     # kay "Hopefully, when all of this is over, we can lay down our weapons and live in peace."
-    kay "Cuando todo haya terminado, espero que todos puedan tirar sus armas y vivir en paz."
+    kay "Cuando todo haya terminado, espero que todos puedan deponer sus armas y vivir en paz."
 
 # game/script.rpy:1750
 translate spanish officechigaratea_2632f639:
@@ -4969,7 +4969,7 @@ translate spanish officechigaratea_6baf5fc3:
 translate spanish officechigaratea_e97f81ff:
 
     # chi "Eh-heh... It's a little embarrassing..."
-    chi "Ehehe... Es un poco vergonzoso..."
+    chi "Eh-heh... Es un poco vergonzoso..."
 
 # game/script.rpy:1784
 translate spanish officechigaratea_745a090d:
@@ -4999,7 +4999,7 @@ translate spanish officechigaratea_25193e85:
 translate spanish officechigaratea_5920cd60_1:
 
     # chi "Eh-heh..."
-    chi "Ehehe..."
+    chi "Eh-heh..."
 
 # game/script.rpy:1789
 translate spanish officechigaratea_cbbac199:
@@ -5113,7 +5113,7 @@ translate spanish officechigaratea_b77f3ad4:
 translate spanish officechigaratea_8a1c07e4:
 
     # asa "(No, no, no! There's no way Chigara would--)"
-    asa "(Nononono, no creo que Chigara sea tan avanzada en eso...)"
+    asa "(No, no, no, no, no creo que Chigara sea tan avanzada en eso...)"
 
 # game/script.rpy:1830
 translate spanish officechigaratea_f54dab8d:
@@ -5221,7 +5221,7 @@ translate spanish officechigaratea_e4eca6fc:
 translate spanish officechigaratea_a9e99c06:
 
     # asa "U-uck..."
-    asa "Geh..."
+    asa "U-uck..."
 
 # game/script.rpy:1860
 translate spanish officechigaratea_d13ad427:
@@ -5281,7 +5281,7 @@ translate spanish officechigaratea_57b1d2f6:
 translate spanish officechigaratea_72e98442:
 
     # sol "Sigh..."
-    sol "Fuahh..."
+    sol "Haah..."
 
 # game/script.rpy:1882
 translate spanish officechigaratea_c78fb2db:
@@ -5299,7 +5299,7 @@ translate spanish officechigaratea_4c8b87bd:
 translate spanish officechigaratea_5981ef6b:
 
     # asa "Sola, listen to me--!!"
-    asa "¡¡S-o-l-a!!"
+    asa "¡¡Sola, escúchame--!!"
 
 # game/script.rpy:1888
 translate spanish officechigaratea_2039fa8c:
@@ -5335,7 +5335,7 @@ translate spanish hangarlecture_6d2541b0:
 translate spanish hangarlecture_d01caedf:
 
     # kay "Is something the matter?"
-    kay "¿Qué ocurre, comandante?."
+    kay "¿Qué ocurre, comandante?"
 
 # game/script.rpy:1903
 translate spanish hangarlecture_78b361f1:
@@ -5365,7 +5365,7 @@ translate spanish hangarlecture_54abf0a3:
 translate spanish hangarlecture_03514f28:
 
     # ava "I walk in here to inspect the Sunrider's repair work, and instead, I find this... criminal instrumentality being restored back to its original state!"
-    ava "¡¡Venía a aquí a inspeccionar los trabajos de reparaciones en el interior de la nave, y esta... encarnación de grandes pecados había sido reparada casi completamente!!"
+    ava "¡¡Vine aquí a inspeccionar los trabajos de reparaciones en el interior de la nave, y esta... encarnación de grandes pecados había sido reparada casi completamente!!"
 
 # game/script.rpy:1908
 translate spanish hangarlecture_a444e872:
@@ -5455,7 +5455,7 @@ translate spanish hangarlecture_fbc54b4c:
 translate spanish hangarlecture_f0f1279b:
 
     #  "Just as Shields was about to let Ava have her way, Kryska emerged from the crowd."
-    "Justo cuando no podía rechazar la queja de la comandante y se iba a rendir, una oficial de la Alianza apareció."
+    "Justo cuando no podía rechazar la queja de la comandante y se iba a rendir, cierta oficial de la Alianza apareció."
 
 # game/script.rpy:1934
 translate spanish hangarlecture_a1d1db38:
@@ -5473,7 +5473,7 @@ translate spanish hangarlecture_1b673f34:
 translate spanish hangarlecture_bba17437:
 
     # kry "Sir! That I am!"
-    kry "¡Sí! ¡Eso es correcto!"
+    kry "¡Señor! ¡Eso es correcto!"
 
 # game/script.rpy:1940
 translate spanish hangarlecture_0c78bad7:
@@ -5497,13 +5497,13 @@ translate spanish hangarlecture_9a9b34ee:
 translate spanish hangarlecture_4891fc6d:
 
     # kry "Sir! My personal opinion is that the Sunrider is still short on heavy bomber type ryders!"
-    kry "¡Sí! De hecho, siempre estuve preocupada acerca del balance del escuadrón de ryders de esta nave. ¡Y es que carece de bombarderos pesados!"
+    kry "¡Señor! De hecho, siempre estuve preocupada acerca del balance del escuadrón de ryders de esta nave. ¡Y es que carece de bombarderos pesados!"
 
 # game/script.rpy:1947
 translate spanish hangarlecture_8e5cc543:
 
     # kry "While I can perform the squad's anti-capital ship duties singlehandedly, sound military doctrine calls for at least one fail safe!"
-    kry "¡Está bien estando yo sola en un combate anti-acorazados, pero tener otro ryder en reserva que pueda realizar esa tarea, pienso que es una ventaja táctica!"
+    kry "¡Está bien estando yo sola en un combate contra acorazados, pero tener otro ryder en reserva que pueda realizar esa tarea, pienso que es una ventaja táctica!"
 
 # game/script.rpy:1948
 translate spanish hangarlecture_ee9da16c:
@@ -5545,7 +5545,7 @@ translate spanish hangarlecture_17f8a8bb:
 translate spanish hangarlecture_eca53713:
 
     # ica "'Sides, it's that pirate runt responsible for everything. The Havoc's just a tool. A tool we can take advantage of now for ourselves."
-    ica "Aún así, tanto el crimen como el robo y los asesinatos son responsabilidad de esa pequeña pirata. El Havoc es una herramienta sin culpa."
+    ica "Aun así, tanto el crimen como el robo y los asesinatos son responsabilidad de esa pequeña pirata. El Havoc es una herramienta sin culpa."
 
 # game/script.rpy:1959
 translate spanish hangarlecture_5fc514d7:
@@ -5725,7 +5725,7 @@ translate spanish scraphavoc_9e522efd:
 translate spanish scraphavoc_893af7fb:
 
     # kay "Ahem."
-    kay "¡Ahem!"
+    kay "¡Ejem!"
 
 # game/script.rpy:2047
 translate spanish scraphavoc_3505e30d:
@@ -5749,19 +5749,19 @@ translate spanish scraphavoc_dfcaec38:
 translate spanish scraphavoc_e5bdd217:
 
     # ica "Seriously... I can't believe our lives are in this guy's hands..."
-    ica "En serio... No puedo creer que le he dejado mi vida a un capitán tan estúpido..."
+    ica "En serio... No puedo creer que le he confiado mi vida a un capitán tan estúpido..."
 
 # game/script.rpy:2064
 translate spanish conference_80a98adc:
 
     #  "Shields sat in the gallery as the Alliance and PACT diplomats settled into their chairs."
-    "Shields estaba esperando en un asiento en la sala de reuniones para una reunión de comunicación FTL entre los diplomáticos de la Alianza y un grupo de moderadores del PACT."
+    "Shields estaba esperando en un asiento en la sala de reuniones para una reunión de comunicación FTL entre los diplomáticos de la Alianza y un grupo de moderados del PACT."
 
 # game/script.rpy:2065
 translate spanish conference_2bf76503:
 
     #  "These old men and women held the reins of the galaxy."
-    "En manos de estos viejos hombres estaba el destino de la galaxia."
+    "En manos de estos viejos hombres y mujeres estaba el destino de la galaxia."
 
 # game/script.rpy:2066
 translate spanish conference_dbe8c37a:
@@ -5773,13 +5773,13 @@ translate spanish conference_dbe8c37a:
 translate spanish conference_0a2699dc:
 
     #  "Grey brought the dignitaries to order."
-    "El Almirante Grey estaba reuniendo a los diplomáticos tras verse envuelto en cierta confusión."
+    "El Almirante Grey estaba reuniendo a los diplomáticos tras verse envueltos en cierta confusión."
 
 # game/script.rpy:2071
 translate spanish conference_1dc725b1:
 
     # adr "The Solar Alliance thanks our dignitaries from the People's Alliance for attending this vital meeting."
-    adr "Les doy la bienvenida a los moderadores del PACT, y les expreso mi más sincero agradecimiento como el representante de la Alianza Solar."
+    adr "Les doy la bienvenida a los moderados del PACT, y les expreso mi más sincero agradecimiento como el representante de la Alianza Solar."
 
 # game/script.rpy:2072
 translate spanish conference_f6c624d5:
@@ -5851,7 +5851,7 @@ translate spanish conference_692cf89d:
 translate spanish conference_223561e0:
 
     # fon "For peace, we shall return to our pre-war boundaries, provided the Alliance demands no reparations from PACT."
-    fon "Correcto. Restauraremos la frontera de antes de la guerra. En cambio, la Alianza no buscará compensaciones de nosotros."
+    fon "Correcto. Restauraremos la frontera de antes de la guerra. A cambio, la Alianza no buscará compensaciones de nosotros."
 
 # game/script.rpy:2098
 translate spanish conference_4de66f1c:
@@ -5875,7 +5875,7 @@ translate spanish conference_d325fc82:
 translate spanish conference_8e503e12:
 
     # adr "If they are merely left to their own devices, they will doubtlessly become pirate havens."
-    adr "Si no es ayudado, es áltamente probable que se convierta en un área sin ley infectada con grupos piratas."
+    adr "Si no es ayudado, es altamente probable que se convierta en un área sin ley infectada con grupos piratas."
 
 # game/script.rpy:2102
 translate spanish conference_e92b0c7f:
@@ -5905,7 +5905,7 @@ translate spanish conference_9dca003c:
 translate spanish conference_faacfe1c:
 
     # adr "Advisers must be left to ensure that free and fair elections will be conducted. As well as peacekeeping forces to control pirates and other criminal elements."
-    adr "Y además un asesor para garantizar las elecciones libres y justas para el reestablecimiento del gobierno, y una estación para mantener la ley y la paz---"
+    adr "Y además un asesor para garantizar las elecciones libres y justas para el restablecimiento del gobierno, y una estación para mantener la ley y la paz---"
 
 # game/script.rpy:2110
 translate spanish conference_553e4522:
@@ -5965,7 +5965,7 @@ translate spanish conference_20e55bd4:
 translate spanish conference_622a4859:
 
     # fon "Hmph. I see that this session shall not go anywhere."
-    fon "Hmm, entonces no habrá un acuerdo de alto al fuego."
+    fon "Hmph, entonces no habrá un acuerdo de alto al fuego."
 
 # game/script.rpy:2120
 translate spanish conference_872e2ec8:
@@ -5977,7 +5977,7 @@ translate spanish conference_872e2ec8:
 translate spanish conference_45b7e88a:
 
     #  "The diplomats vanished as they cut their FTL comms."
-    "Fontana cortó la comunicación FTL. Al mismo tiempo, los hologramas de los moderadores del PACT desaparecieron de la sala de reuniones."
+    "Fontana cortó la comunicación FTL. Al mismo tiempo, los hologramas de los moderados del PACT desaparecieron de la sala de reuniones."
 
 # game/script.rpy:2129
 translate spanish conference_e1aedf4c:
@@ -5995,7 +5995,7 @@ translate spanish conference_39b79be1:
 translate spanish conference_10dd1672:
 
     # adr "Fear not, captain. That boy is merely showboating in front of his comrades to find influence within their own ranks."
-    adr "...bueno, no se preocupe, Shields. Fontana probablemente se limitó a decir una solicitud irrazonable para mostrarle a los moderadores la iniciativa."
+    adr "...bueno, no se preocupe, Shields. Fontana probablemente se limitó a decir una solicitud irrazonable para mostrarles a los moderados la iniciativa."
 
 # game/script.rpy:2135
 translate spanish conference_9c02f52f:
@@ -6025,7 +6025,7 @@ translate spanish conference_82771eae:
 translate spanish conference_0e3644ee:
 
     # adr "If I don't do something to help the women and children now, you can goddamn wager the Progress Party will be running ads that I personally oversaw the execution of the war orphans of Ongess on prime time holovision."
-    adr "De lo contrario, probablemente comenzarían a anunciar que yo había asesinado a los huérfanos de guerra de Ongess."
+    adr "De lo contrario, probablemente comenzarían a transmitir anuncios de que yo había asesinado personalmente a los huérfanos de guerra de Ongess."
 
 # game/script.rpy:2140
 translate spanish conference_7aaed47c:
@@ -6139,7 +6139,7 @@ translate spanish avaofficesuspicion_a2d60572:
 translate spanish avaofficesuspicion_c02c803d:
 
     # kay "How could I forget? We nearly got vaporized when the Ryuvian super-dreadnought blew."
-    kay "Nunca lo olvidaré. Estuvimos a punto de ser atrapados en una explosión suicida de una antigua nave Ryuviana de clase super-acorazado."
+    kay "Nunca lo olvidaré. Estuvimos a punto de ser atrapados en una explosión suicida de una antigua nave Ryuviana de clase superacorazado."
 
 # game/script.rpy:2176
 translate spanish avaofficesuspicion_31452bd9:
@@ -6205,7 +6205,7 @@ translate spanish avaofficesuspicion_c6a5a931:
 translate spanish avaofficesuspicion_d8b715b9:
 
     # ava "Despite operating in shadow mode, the enemy managed to effortlessly track down our position."
-    ava "A pesar de movernos en modo sigilo, el enemigo interceptó sin ningún problema la pocisión del Sunrider."
+    ava "A pesar de movernos en modo sigilo, el enemigo interceptó sin ningún problema la posición del Sunrider."
 
 # game/script.rpy:2187
 translate spanish avaofficesuspicion_ffbd5873:
@@ -6241,7 +6241,7 @@ translate spanish avaofficesuspicion_0cc7bad4:
 translate spanish avaofficesuspicion_d9910635:
 
     # ava "Someone with inside knowledge of this ship's systems has been relaying our movements to PACT."
-    ava "Alguien familiarizado con todos los sistemas a bordo le estaba enviando informacion al PACT."
+    ava "Alguien familiarizado con todos los sistemas a bordo le estaba enviando información al PACT."
 
 # game/script.rpy:2196
 translate spanish avaofficesuspicion_4d93e318:
@@ -6319,7 +6319,7 @@ translate spanish avaofficesuspicion_73883b82:
 translate spanish avaofficesuspicion_c81c80a8:
 
     # kay "She could have destroyed this ship a thousand times over if she wanted to. But she's always been here, protecting all of us."
-    kay "Deben haber habido muchas oportunidades para matarnos. Sin embargo, Chigara nos ha estado protegiendo todo el tiempo."
+    kay "Debe haber habido muchas oportunidades para matarnos. Sin embargo, Chigara nos ha estado protegiendo todo el tiempo."
 
 # game/script.rpy:2212
 translate spanish avaofficesuspicion_6b2ed724:
@@ -6553,7 +6553,7 @@ translate spanish avaofficesuspicion_cc49260f:
 translate spanish avaofficesuspicion_cd8325c0:
 
     # ava "Order the crew to go into code black. Shield all electronic devices to prevent outages and move the crew deeper into the ship."
-    ava "¡Establézcanse en Código Negro! ¡Pongan a todos los dispositivos electrónicos en Modo Protectivo! ¡Muevan a la tripulación a bloques más internos!"
+    ava "¡Establézcanse en Código Negro! ¡Pongan a todos los dispositivos electrónicos en Modo Protector! ¡Muevan a la tripulación a bloques más internos!"
 
 # game/script.rpy:2286
 translate spanish avaofficesuspicion_f071ec28:
@@ -6673,7 +6673,7 @@ translate spanish avaofficesuspicion_03176193:
 translate spanish avaofficesuspicion_09838a9c:
 
     # chi "Huuu... Chigara almost peed herself..."
-    chi "Fueeeen... Por poco me hago pís en este lugar-..."
+    chi "Fueeeen... Por poco me hago pis en este lugar-..."
 
 # game/script.rpy:2326
 translate spanish avaofficesuspicion_a3c1f521:
@@ -6889,7 +6889,7 @@ translate spanish avaofficesuspicion_4efb607f:
 translate spanish avaofficesuspicion_b5bf19e1:
 
     # ava "No. All hands, prepare for combat!"
-    ava "No, nada en lo absoluto. ¡A toda la tripulación, estaciones de batalla!"
+    ava "No, nada en absoluto. ¡A toda la tripulación, estaciones de batalla!"
 
 # game/script.rpy:2419
 translate spanish mission2_dca4648b:
@@ -6913,7 +6913,7 @@ translate spanish mission2_5fd48568:
 translate spanish mission2_fd1cf914:
 
     # ica "C'mon, soldier boy, let's buy the Liberty some time before we can nuke these bastards again!"
-    ica "¡Oy, chico soldado! ¡Consigamos algo de tiempo antes de que lancen los fuegos artificiales!"
+    ica "¡Oye, chico soldado! ¡Consigamos algo de tiempo antes de que lancen los fuegos artificiales!"
 
 # game/script.rpy:2423
 translate spanish mission2_8723b60d:
@@ -6937,13 +6937,13 @@ translate spanish mission2_82e6b0f9:
 translate spanish mission2_95ce0490:
 
     # Unknown pilot "This is Cera hawk squad, dispatched to assist. We'll make short work of these mooks!"
-    "Piloto desconocido" "¡Aquí el pelotón del halcones perteneciente a la antigua armada de Cera! ¡Déjennos los peces pequeños a nostros!"
+    "Piloto desconocido" "¡Aquí el pelotón del halcones perteneciente a la antigua armada de Cera! ¡Déjennos los peces pequeños a nosotros!"
 
 # game/script.rpy:2458
 translate spanish mission2_780c781e:
 
     #  "Tip: Cera gunboats are effective at mowing down mooks."
-    "Guía de Combate: Los cañoneros de Cera son eficaces contra los enemigos de armadura ligera llamados [[Mooks]."
+    "Guía de Combate: Los cañoneros de Cera son eficaces contra los enemigos de armadura ligera llamados [[Mook]s."
 
 # game/script.rpy:2483
 translate spanish mission2_9ea13d9c:
@@ -7171,7 +7171,7 @@ translate spanish after_mission2_358966f0:
 translate spanish after_mission2_a111bdf4:
 
     # chi "A-ah..."
-    chi "E-eh, esto..."
+    chi "A-ah..."
 
 # game/script.rpy:2725
 translate spanish after_mission2_74751273:
@@ -7189,7 +7189,7 @@ translate spanish after_mission2_41b952cf:
 translate spanish after_mission2_4fede48a:
 
     # chi "A-ah...!"
-    chi "Esto... yo..."
+    chi "A-ah... yo..."
 
 # game/script.rpy:2731
 translate spanish after_mission2_b65fe050:
@@ -7441,19 +7441,19 @@ translate spanish officerepairscomplete_d640954f:
 translate spanish officerepairscomplete_d3790312:
 
     # ava "Ahem. Well then, let's go."
-    ava "...ehem. Entonces, vayamos."
+    ava "...ejem. Entonces, vayamos."
 
 # game/script.rpy:2797
 translate spanish officerepairscomplete_37d268a7:
 
     # cla "I've performed a deeper examination of Chigara than the initial checkup we performed when I first arrived on this ship."
-    cla "Realicé una revisión más profunda que el examen preeliminar que le hice a Lynn."
+    cla "Realicé una revisión más profunda que el examen preliminar que le hice a Lynn."
 
 # game/script.rpy:2798
 translate spanish officerepairscomplete_ff3ee171:
 
     # cla "The results of the examination show no areas of concern."
-    cla "Pero sabes, no había nada sospechoso en lo absoluto."
+    cla "Pero sabes, no había nada sospechoso en absoluto."
 
 # game/script.rpy:2799
 translate spanish officerepairscomplete_72132d69:
@@ -7471,7 +7471,7 @@ translate spanish officerepairscomplete_08483f54:
 translate spanish officerepairscomplete_357cdb7f:
 
     # kay "Well then, that's the end of that, right Ava?"
-    kay "¿Está satisfecha con esto, Ava?"
+    kay "¿Estás satisfecha con esto, Ava?"
 
 # game/script.rpy:2802
 translate spanish officerepairscomplete_f60ee594:
@@ -7483,7 +7483,7 @@ translate spanish officerepairscomplete_f60ee594:
 translate spanish officerepairscomplete_73e96b7f:
 
     # cla "None, commander."
-    cla "En lo absoluto."
+    cla "Para nada."
 
 # game/script.rpy:2804
 translate spanish officerepairscomplete_2d54a402:
@@ -7495,7 +7495,7 @@ translate spanish officerepairscomplete_2d54a402:
 translate spanish officerepairscomplete_02ddf1b1:
 
     # cla "Her skills are the result of her top tier training and years of practice. Not genetic manipulation."
-    cla "Su habilidad de genia son el resultado de un duro trabajo y dedicación. ¡No hay manipulación genética!"
+    cla "Su habilidad de genio son el resultado de un duro trabajo y dedicación. ¡No hay manipulación genética!"
 
 # game/script.rpy:2806
 translate spanish officerepairscomplete_43da5497_1:
@@ -7531,7 +7531,7 @@ translate spanish officerepairscomplete_f54a5afa:
 translate spanish officerepairscomplete_fa23732b:
 
     # ava "I... apologize for doubting your loyalty."
-    ava "Me disculpo por dudar..."
+    ava "Me disculpo por dudar de ti..."
 
 # game/script.rpy:2818
 translate spanish officerepairscomplete_b6fc128f:
@@ -7585,7 +7585,7 @@ translate spanish officerepairscomplete_6eb4ca73:
 translate spanish officerepairscomplete_a24be4a0:
 
     # cla "Ooh captain, my heart twists and turns at this sight..."
-    cla "Uhihi... Mirando al desarrollo actual, Claude estaba realmente emocionada..."
+    cla "Teeheehee... Mirando al desarrollo actual, Claude estaba realmente emocionada..."
 
 # game/script.rpy:2840
 translate spanish officerepairscomplete_6fecb25e:
@@ -7627,7 +7627,7 @@ translate spanish officerepairscomplete_d8bfbe53:
 translate spanish officerepairscomplete_b1a57803:
 
     # cla "Oh, how men wish to sully the unsullied! To mark the flesh before another rival takes that which can only be taken once!"
-    cla "Hya~, ¿no crees que es inútil ocultarlo? Los hombres siempre quieren deshacerse de las cosas hermosas con sus propias manos, ¿verdad? ¿Quieres ser el primero en marcar ese cuerpo inocente?"
+    cla "Ah~, ¿no crees que es inútil ocultarlo? Los hombres siempre quieren deshacerse de las cosas hermosas con sus propias manos, ¿verdad? ¿Quieres ser el primero en marcar ese cuerpo inocente?"
 
 # game/script.rpy:2850
 translate spanish officerepairscomplete_f4de295c:
@@ -7657,7 +7657,7 @@ translate spanish officerepairscomplete_7732e02f:
 translate spanish officerepairscomplete_e62ed22c:
 
     # cla "Teeheehee~ You think I wouldn't also check that~~"
-    cla "Kyahahahaha~ Por supuesto, por supuesto, siendo por tí capitán, ¿no crees que habría revisado secretamente la castidad de Chigara?"
+    cla "Teeheehee~ Por supuesto, por supuesto, siendo por ti capitán, ¿no crees que habría revisado secretamente la castidad de Chigara?"
 
 # game/script.rpy:2861
 translate spanish officerepairscomplete_4d235c69:
@@ -7669,7 +7669,7 @@ translate spanish officerepairscomplete_4d235c69:
 translate spanish officerepairscomplete_c2432f0d:
 
     # cla "I can prescript some remedies in case she says it hurts too much~"
-    cla "Si lo solicita, ¿quiere que le proporcione algún medicamento especial?"
+    cla "Si lo solicitas, ¿quieres que te proporcione algún medicamento especial?"
 
 # game/script.rpy:2863
 translate spanish officerepairscomplete_fb867fd7:
@@ -7729,7 +7729,7 @@ translate spanish officerepairscomplete_85091c51:
 translate spanish officerepairscomplete_53431101:
 
     # chi "I see..."
-    chi "Ah... ¿es eso?"
+    chi "Ah... ¿ya veo?"
 
 # game/script.rpy:2879
 translate spanish officerepairscomplete_4c60f576:
@@ -7759,7 +7759,7 @@ translate spanish officerepairscomplete_26828fbc:
 translate spanish officerepairscomplete_f4d56014:
 
     # cla "Teehee."
-    cla "Ehepuru~"
+    cla "Teehee~"
 
 # game/script.rpy:2884
 translate spanish officerepairscomplete_da65fa6d:
@@ -7771,7 +7771,7 @@ translate spanish officerepairscomplete_da65fa6d:
 translate spanish officerepairscomplete_c8482d01:
 
     # kay "I need to get back to work."
-    kay "Ahem... Regresaré pronto al puente."
+    kay "Ejem... Regresaré pronto al puente."
 
 # game/script.rpy:2889
 translate spanish officerepairscomplete_1cbef972:
@@ -7795,7 +7795,7 @@ translate spanish officerepairscomplete_0199048b:
 translate spanish officerepairscomplete_ed6c4074:
 
     # chi "Okay--"
-    chi "¿? De acuerdo..."
+    chi "¿? Okey..."
 
 # game/script.rpy:2896
 translate spanish officerepairscomplete_ef635018:
@@ -7915,7 +7915,7 @@ translate spanish sunriderwarpout_13974a22:
 translate spanish sunriderwarpout_4a398f8a:
 
     # ica "Asaga? What're you doing here?"
-    ica "¿Eh? ¿Oakrun? ¿Por qué estás aquí?"
+    ica "¿Eh? ¿Asaga? ¿Por qué estás aquí?"
 
 # game/script.rpy:2943
 translate spanish sunriderwarpout_e710b44d:
@@ -7939,7 +7939,7 @@ translate spanish sunriderwarpout_0c2a38ee:
 translate spanish sunriderwarpout_c9127b94:
 
     #  "Icari blinked in confusion."
-    "¿La escuchó bien? Eso fue lo que Icari pensó inemdiatamente."
+    "¿La escuchó bien? Eso fue lo que Icari pensó inmediatamente."
 
 # game/script.rpy:2950
 translate spanish sunriderwarpout_4c07c981:
@@ -7957,7 +7957,7 @@ translate spanish sunriderwarpout_00a89f81:
 translate spanish sunriderwarpout_c66d292e:
 
     # ica "H-hey, wait..."
-    ica "Oy, espera un momento..."
+    ica "Oye, espera un momento..."
 
 # game/script.rpy:2956
 translate spanish sunriderwarpout_52a302b5:
@@ -8029,7 +8029,7 @@ translate spanish sunriderwarpout_1c286381:
 translate spanish sunriderwarpout_9b862bd0:
 
     # lyn "Aah, looks like we've been found out."
-    lyn "A~ah, parece que ha sido descubierto... Esto es decepcionante..."
+    lyn "A~ah, parece que hemos sido descubiertos... Esto es decepcionante..."
 
 # game/script.rpy:2974
 translate spanish sunriderwarpout_6e25131a:
@@ -8209,7 +8209,7 @@ translate spanish sunriderwarpout_77e41be0:
 translate spanish sunriderwarpout_b7cdc879:
 
     #  "This nightmarish place was her home."
-    "Un lugar más aterraddor que esta pesadilla, era el hogar de 4L."
+    "Un lugar más aterrador que esta pesadilla, era el hogar de 4L."
 
 # game/script.rpy:3017
 translate spanish sunriderwarpout_0de56418:
@@ -8329,7 +8329,7 @@ translate spanish sunriderwarpout_f4da5741:
 translate spanish sunriderwarpout_0718b8d8:
 
     # ali "No. I was not the first. Merely the last."
-    ali "No. No fui el primer Acradius. Más bien, el último..."
+    ali "No. No fui el primer Arcadius. Más bien, el último..."
 
 # game/script.rpy:3047
 translate spanish sunriderwarpout_acbd4824:
@@ -8347,7 +8347,7 @@ translate spanish sunriderwarpout_513b212e:
 translate spanish sunriderwarpout_474d1f94:
 
     # ali "(Tsch! Get out of my mind, meddler!)"
-    ali "(¡No te preocupes, maldición! ¡Sal de mi mente!)"
+    ali "(¡No te entrometas, maldición! ¡Sal de mi mente!)"
 
 # game/script.rpy:3050
 translate spanish sunriderwarpout_df1415f1:
@@ -8395,7 +8395,7 @@ translate spanish sunriderwarpout_5d12d5a5:
 translate spanish sunriderwarpout_724f1ce7:
 
     # alp "And yet for you..."
-    alp "Pero, a tí..."
+    alp "Pero, a ti..."
 
 # game/script.rpy:3058
 translate spanish sunriderwarpout_d9a1d59f:
@@ -8407,7 +8407,7 @@ translate spanish sunriderwarpout_d9a1d59f:
 translate spanish sunriderwarpout_0849a9d6:
 
     #  "Her voice echoed through the chamber."
-    "Los gritos, hicieron eco por toda la instalación."
+    "Los gritos hicieron eco por toda la instalación."
 
 # game/script.rpy:3060
 translate spanish sunriderwarpout_8a9a924b:
@@ -8611,7 +8611,7 @@ translate spanish sunriderwarpout_b0affb6d:
 translate spanish sunriderwarpout_e4075236:
 
     # kay "No, it's definitely got to be a fully operational Ryuvian super dreadnought."
-    kay "Este debe de ser un antiguo super-acorazado Ryuviano que sobrevivió."
+    kay "Este debe de ser un antiguo superacorazado Ryuviano que sobrevivió."
 
 # game/script.rpy:3117
 translate spanish sunriderwarpout_e9c6e5f4:
@@ -8689,19 +8689,19 @@ translate spanish sunriderwarpout_e699de8e:
 translate spanish sunriderwarpout_c947432d:
 
     # kay "I'm sure the beaches at Tydaria are great this time of year. A real nice mix between the tar and sulfur."
-    kay "Esa razón parace demasiado irrazonable... Quiero decir, no importa cómo sean los soldados del PACT, no creo que tengan el mal gusto del alquitrán y el azufre."
+    kay "Esa razón parece demasiado irrazonable... Quiero decir, no importa cómo sean los soldados del PACT, no creo que tengan el mal gusto del alquitrán y el azufre."
 
 # game/script.rpy:3133
 translate spanish sunriderwarpout_4802e391:
 
     # ava "Ahem. Given recent events, the Union has decided to cut what little ties they have with PACT and arranged an Alliance fleet to drop in and sink the PACT fleet."
-    ava "Ahem... Por el momento, la Unión decidió romper la relación con el PACT aquí. Así que la Unión cooperó con la Alianza para difundir la información acerca de la flota del PACT atracada aquí."
+    ava "Ejem... Por el momento, la Unión decidió romper la relación con el PACT aquí. Así que la Unión cooperó con la Alianza para difundir la información acerca de la flota del PACT atracada aquí."
 
 # game/script.rpy:3134
 translate spanish sunriderwarpout_dd2b1d41:
 
     # ava "We are to join the Alliance fleet and... terminate the Union's business relationship with PACT."
-    ava "Nuestro trabajo será unir a la nave a la flota de la Alianza que viene a atacar la flota del PACT atracada, y hundirla en esa operación."
+    ava "Nuestro trabajo será unirnos a la flota de la Alianza que viene a atacar la flota del PACT atracada, y hundirla en esa operación."
 
 # game/script.rpy:3135
 translate spanish sunriderwarpout_1f3cc210:
@@ -8761,7 +8761,7 @@ translate spanish after_mission3_ae4815ff:
 translate spanish after_mission3_c118cc17:
 
     # ava "Mission accomplished. Smiles all around. Thanks for the assist, Sunrider."
-    ava "\[Al Sunrider: Operación completada. Final feliz. Gracias por su apoyo.\]"
+    ava "\[Sunrider: Operación completada. Final feliz. Gracias por su apoyo.\]"
 
 # game/script.rpy:3280
 translate spanish after_mission3_1a8ed35a:
@@ -8863,7 +8863,7 @@ translate spanish after_mission4_8d923b56:
 translate spanish after_mission4_13a9a19f:
 
     # ava "During the battle, I matched the configuration of the main ship to a squad sank during the Alliance-Imperial War, over one hundred years ago."
-    ava "Las naves enemigas de hoy estaban incluídas en la base de datos del historial de guerras. Esas eran definitivamente tropas que fueron derrotadas hace cien años."
+    ava "Las naves enemigas de hoy estaban incluidas en la base de datos del historial de guerras. Ese fue definitivamente un escuadrón que fue hundido en la Guerra Alianza-Imperial hace cien años."
 
 # game/script.rpy:3390
 translate spanish after_mission4_075e6ff3:
@@ -9061,7 +9061,7 @@ translate spanish battleofcera_63f05b81:
 translate spanish battleofcera_02b64f37:
 
     # kay "Ahem... What's the situation, commander?"
-    kay "Ahem... Comandante, ¿cuál es la situación actual?"
+    kay "Ejem... Comandante, ¿cuál es la situación actual?"
 
 # game/script.rpy:3606
 translate spanish battleofcera_bf22f25a:
@@ -9097,7 +9097,7 @@ translate spanish battleofcera_a508f162:
 translate spanish battleofcera_cc11f6c0:
 
     # ava "We are receiving a message from Machiavelli Actual."
-    ava "Comunicación entrante del Machiavelli Actual, la nave insignea de la Flota de la Alianza."
+    ava "Comunicación entrante del Machiavelli Actual, la nave insignia de la Flota de la Alianza."
 
 # game/script.rpy:3612
 translate spanish battleofcera_1f749924:
@@ -9139,7 +9139,7 @@ translate spanish battleofcera_8379051b:
 translate spanish battleofcera_0c434dcf:
 
     # adr "The ships under his command will not come to the prototypes' aid."
-    adr "En esta batalla, la flota de los moderadores no vendrán como refuerzos."
+    adr "En esta batalla, la flota de los moderados no vendrá como refuerzos."
 
 # game/script.rpy:3627
 translate spanish battleofcera_7ba9c3e9:
@@ -9193,7 +9193,7 @@ translate spanish battleofcera_c05fe746:
 translate spanish battleofcera_f7a253bc:
 
     # kay "Form up with the rest of the fleet. You have the bridge, commander."
-    kay "Unámonos a la Flota Combinada. Comandante, ¿puedo ´dejarte el puente?"
+    kay "Unámonos a la Flota Combinada. Comandante, ¿puedo dejarte el puente?"
 
 # game/script.rpy:3643
 translate spanish battleofcera_ab6432e6:
@@ -9301,7 +9301,7 @@ translate spanish messhallspeeches_a4889ce9:
 translate spanish messhallspeeches_34292f69:
 
     #  "Shields looked at their faces. Young women, gathered from across the galaxy."
-    "Viendo a las chicas que había reunído por toda la galaxia, Shields pensó:"
+    "Viendo a las chicas que había reunido por toda la galaxia, Shields pensó:"
 
 # game/script.rpy:3672
 translate spanish messhallspeeches_509f2c01:
@@ -9397,7 +9397,7 @@ translate spanish messhallspeeches_bf2678c1:
 translate spanish messhallspeeches_e0a3eea6:
 
     # Everyone "Hear, hear!!"
-    "Todos" "¡¡Hoo!!"
+    "Todos" "¡¡Hurra!!"
 
 # game/script.rpy:3693
 translate spanish messhallspeeches_8114b96c:
@@ -9439,7 +9439,7 @@ translate spanish messhallspeeches_77cf36b2:
 translate spanish messhallspeeches_2848b504:
 
     # cla "H-eeehh!?"
-    cla "¿¡Heeeee!?"
+    cla "¿¡H-eeehh!?"
 
 # game/script.rpy:3700
 translate spanish messhallspeeches_0f2d51dd:
@@ -9535,13 +9535,13 @@ translate spanish messhallspeeches_4ad27adb:
 translate spanish messhallspeeches_92a3034b:
 
     # cla "Huuu... I-I guess we're all just side characters now..."
-    cla "Tuhuhu... Entonces Claude y las otras ya no pueden capturar al capitán... Huh..."
+    cla "Huuu... Entonces Claude y las otras ya no pueden capturar al capitán... Huh..."
 
 # game/script.rpy:3719
 translate spanish messhallspeeches_3af9f254:
 
     # kay "What are you going to do when all of this is over, Asaga?"
-    kay "¿Qué hay de tí Asaga? Cuando esta guerra termine."
+    kay "¿Qué hay de ti Asaga? Cuando esta guerra termine."
 
 # game/script.rpy:3726
 translate spanish messhallspeeches_bfc2ea15:
@@ -9553,7 +9553,7 @@ translate spanish messhallspeeches_bfc2ea15:
 translate spanish messhallspeeches_3d203933:
 
     # kay "You're unusually quiet..."
-    kay "No eres así..."
+    kay "Tú no eres así..."
 
 # game/script.rpy:3728
 translate spanish messhallspeeches_ab970db1:
@@ -9631,7 +9631,7 @@ translate spanish messhallspeeches_727cc799:
 translate spanish messhallspeeches_beb01fa7:
 
     # asa "(All I want...)"
-    asa "(Yo... quiero...)"
+    asa "(Lo que... yo quiero...)"
 
 # game/script.rpy:3765
 translate spanish messhallspeeches_d88f8641:
@@ -9673,7 +9673,7 @@ translate spanish messhallspeeches_9f5e2533:
 translate spanish messhallspeeches_912798cb:
 
     # asa "Eh-heheh..."
-    asa "Ehehehe..."
+    asa "Eh-heheh..."
 
 # game/script.rpy:3780
 translate spanish messhallspeeches_09b76250:
@@ -9685,7 +9685,7 @@ translate spanish messhallspeeches_09b76250:
 translate spanish messhallspeeches_a71524a7:
 
     # chi "Please hurry up and win, okay?"
-    chi "¿Apresurémonos en ganar, bien?"
+    chi "Apresurémonos en ganar, ¿okey?"
 
 # game/script.rpy:3785
 translate spanish messhallspeeches_38e6995d:
@@ -9763,7 +9763,7 @@ translate spanish messhallspeeches_136ea17f:
 translate spanish messhallspeeches_45953c8e:
 
     # Voice "Teeheehee..."
-    "VOZ" "Tehehe..."
+    "VOZ" "Teeheehee..."
 
 # game/script.rpy:3818
 translate spanish messhallspeeches_62d476a3:
@@ -9775,7 +9775,7 @@ translate spanish messhallspeeches_62d476a3:
 translate spanish messhallspeeches_9f2543dc:
 
     # alp "Your assistance has been appreciated, wanderer."
-    alp "Su asistencia ha sido apreciada, peregrina."
+    alp "Su asistencia ha sido apreciada, errante."
 
 # game/script.rpy:3820
 translate spanish messhallspeeches_53d8d2da:
@@ -9823,7 +9823,7 @@ translate spanish messhallspeeches_1e2ae702:
 translate spanish messhallspeeches_d8df8b89:
 
     # alp "Yet, humanity opposed us."
-    alp "Aún así, la humanidad todavía nos rechaza."
+    alp "Aun así, la humanidad todavía nos rechaza."
 
 # game/script.rpy:3828
 translate spanish messhallspeeches_3aa370a9:
@@ -9853,7 +9853,7 @@ translate spanish messhallspeeches_8a9a924b:
 translate spanish messhallspeeches_adc020d5:
 
     # Voice "Then, I've done what you wanted."
-    "VOZ" "¡Aha! Bueno, he terminado aquí."
+    "VOZ" "¡Ha! Bueno, he terminado aquí."
 
 # game/script.rpy:3833
 translate spanish messhallspeeches_08548a00:
@@ -9889,7 +9889,7 @@ translate spanish messhallspeeches_f23d3da4:
 translate spanish messhallspeeches_f583af72:
 
     # ali "(Pah! Humans are but filth!)"
-    ali "(La existencia de la humanidad es inmundicia del mundo.)"
+    ali "(La existencia de la humanidad es la inmundicia del mundo.)"
 
 # game/script.rpy:3845
 translate spanish messhallspeeches_c71b0a4d:
@@ -9925,7 +9925,7 @@ translate spanish messhallspeeches_824f3113:
 translate spanish messhallspeeches_5d2219a5:
 
     # ali "(Accept this act of vengeance... As my final gift to you...)"
-    ali "(Esta venganza contra los humanos es mi regalo final para tí... Acéptalo...)"
+    ali "(Esta venganza contra los humanos es mi regalo final para ti... Acéptalo...)"
 
 # game/script.rpy:3857
 translate spanish messhallspeeches_c325f10d:
@@ -9961,7 +9961,7 @@ translate spanish messhallspeeches_454f4ac7:
 translate spanish messhallspeeches_7e31b5c0:
 
     # sol "It fills me with unease."
-    sol "La ansiedad incluso golpea a mi corazón."
+    sol "La ansiedad incluso me golpea a mí."
 
 # game/script.rpy:3869
 translate spanish messhallspeeches_2fad2994:
@@ -10321,7 +10321,7 @@ translate spanish officechigaralap_cd6ef3d1:
 translate spanish officechigaralap_781d0248:
 
     # kay "I have you now."
-    kay "Te tengo a tí ahora..."
+    kay "Te tengo a ti ahora..."
 
 # game/script.rpy:3968
 translate spanish officechigaralap_bc52ed2e:
@@ -10333,7 +10333,7 @@ translate spanish officechigaralap_bc52ed2e:
 translate spanish officechigaralap_1d1f29e4:
 
     # chi "Mm..."
-    chi "Hmm..."
+    chi "Mm..."
 
 # game/script.rpy:3970
 translate spanish officechigaralap_18ae03d6:
@@ -10375,7 +10375,7 @@ translate spanish officechigaralap_717edc2d:
 translate spanish officechigaralap_fa63a1e5:
 
     # chi "Eh-heheheh..."
-    chi "Ehehehe..."
+    chi "Eh-heheheh..."
 
 # game/script.rpy:3980
 translate spanish officechigaralap_926ea646:
@@ -10393,7 +10393,7 @@ translate spanish officechigaralap_1499da43:
 translate spanish officechigaralap_ec8f8f33:
 
     # chi "Eh-heh, then..."
-    chi "Ehehe... Entonces..."
+    chi "Eh-heh... Entonces..."
 
 # game/script.rpy:3983
 translate spanish officechigaralap_93c9140d:
@@ -10471,7 +10471,7 @@ translate spanish officechigaralap_7492d2a5:
 translate spanish officechigaralap_ee106271:
 
     # ava "But clearly, you had other... diversions in mind."
-    ava "Pero aparentemente... habían otros planes..."
+    ava "Pero aparentemente... había otros planes..."
 
 # game/script.rpy:4011
 translate spanish officechigaralap_b20ea92f:
@@ -10483,7 +10483,7 @@ translate spanish officechigaralap_b20ea92f:
 translate spanish officechigaralap_0348466c:
 
     # ava "And I ask that you keep it that way, captain!"
-    ava "¡¡¡Entonces, si es un capitán, haga bien su trabajo, perezoso!!!"
+    ava "¡¡¡Entonces, si es un capitán, haga bien su trabajo, holgazán!!!"
 
 # game/script.rpy:4013
 translate spanish officechigaralap_a0283711:
@@ -10501,19 +10501,19 @@ translate spanish officechigaralap_677f9f8e:
 translate spanish officechigaralap_64f76657:
 #warning
     #  "Shields picked up a holo with the battle plans and pretended to read through it."
-    "Shields tomó el holo con los planos de la batalla y pretendió leerlos."
+    "Shields tomó el holo con los planes de la batalla y pretendió leerlos."
 
 # game/script.rpy:4019
 translate spanish officechigaralap_80a0c889:
 
     # ava "Chief, you have work to do as well, do you not?"
-    ava "Jefa, supongo que usted también tiene trabajo que hacer..."
+    ava "Jefa, supongo que tú también tienes trabajo que hacer..."
 
 # game/script.rpy:4023
 translate spanish officechigaralap_5a322b85:
 
     # chi "Y-yes commander... Eh-heh..."
-    chi "S-sí, comandante... Eh-hehe..."
+    chi "S-sí, comandante... Eh-heh..."
 
 # game/script.rpy:4027
 translate spanish officechigaralap_02ada618:
@@ -10525,13 +10525,13 @@ translate spanish officechigaralap_02ada618:
 translate spanish officechigaralap_d78bdc09:
 
     # ava "Then I suggest you return to engineering!"
-    ava "¡¡Entonces le sugiero que regrese a ingeniería!!"
+    ava "¡¡Entonces te sugiero que regreses a ingeniería!!"
 
 # game/script.rpy:4032
 translate spanish officechigaralap_4a0c21cf:
 
     #  "Chigara pouted and dragged her feet out of the captain's office."
-    "Chigara hizo pucheros y salió lentemente de la oficina del capitán."
+    "Chigara hizo pucheros y salió lentamente de la oficina del capitán."
 
 # game/script.rpy:4036
 translate spanish officechigaralap_eb16fd1d:
@@ -10561,7 +10561,7 @@ translate spanish officechigaralap_3b9bcbf0:
 translate spanish officechigaralap_0df0a759:
 
     # kay "Sigh..."
-    kay "Suspiro..."
+    kay "Haah..."
 
 # game/script.rpy:4044
 translate spanish officechigaralap_5caedf0e:
@@ -10615,7 +10615,7 @@ translate spanish officechigaralap_50009455:
 translate spanish officechigaralap_ea9bc3bb:
 
     #  "The door closed behind her."
-    "La puerta de la sala del capitán se cerró, y la comandante se quedó parada en el pasillo durante un tiempo."
+    "La puerta del cuarto del capitán se cerró, y la comandante se quedó parada en el pasillo durante un tiempo."
 
 # game/script.rpy:4062
 translate spanish officechigaralap_ef0ac32d:
@@ -10639,7 +10639,7 @@ translate spanish officechigaralap_20bb73fc:
 translate spanish officechigaralap_ccbaaa24:
 
     # ava "(Then why did I interrupt that...)"
-    ava "(Aún así, por qué usé tal escusa...)"
+    ava "(Aun así, por qué usé tal escusa...)"
 
 # game/script.rpy:4066
 translate spanish officechigaralap_49bd4d1d:
@@ -10657,7 +10657,7 @@ translate spanish officechigaralap_48cc7e4e:
 translate spanish officechigaralap_d0a3d911:
 
     # ava "(We're paranoid, selfish creatures... Controlled by nothing more than fear. Jealousy. Hatred...)"
-    ava "(El ser humano será siempre una criatura egoísta... Esceptisismo, desconfianza, miedo, envidia, odio... Viven con todas estas emociones manipulables...)"
+    ava "(El ser humano será siempre una criatura egoísta... Escepticismo, desconfianza, miedo, envidia, odio... Viven con todas estas emociones manipulables...)"
 
 # game/script.rpy:4072
 translate spanish officechigaralap_f02d240f:
@@ -10693,7 +10693,7 @@ translate spanish officechigaralap_1746b82f:
 translate spanish officechigaralap_f39d1b16:
 
     # ava "(I only realized it when I saw them together...)"
-    ava "(Sí, debe ser eso... Cuando los ví a los dos juntos, este dolor en mi pecho debe ser la prueba.)"
+    ava "(Sí, debe ser eso... Cuando los vi a los dos juntos, este dolor en mi pecho debe ser la prueba.)"
 
 # game/script.rpy:4078
 translate spanish officechigaralap_8d883791:
@@ -10753,7 +10753,7 @@ translate spanish officechigaralap_846bce4f:
 translate spanish officechigaralap_c6caace3:
 
     # kay "They're attacking first before we can make our move..."
-    kay "Si no hacemos nada en mucho tiempo, perderemos, así que me pregunto si deberíamos haber atacado más temprano."
+    kay "Si no hacíamos nada en mucho tiempo, perderíamos, así que me preguntaba si deberíamos haber atacado más temprano."
 
 # game/script.rpy:4099
 translate spanish officechigaralap_8f4df0ce:
@@ -10801,7 +10801,7 @@ translate spanish officechigaralap_e43084e6:
 translate spanish officechigaralap_3bf5f285:
 
     # kay "Mm..."
-    kay "Hmm..."
+    kay "Mm..."
 
 # game/script.rpy:4120
 translate spanish officechigaralap_fe9a7f0b:
@@ -10849,7 +10849,7 @@ translate spanish officechigaralap_3aa0ebc7:
 translate spanish officechigaralap_31a8787d:
 
     # ava "As you know, shields have generally been lacking on Alliance ships. To compensate, specially designed cruisers disperse enormous amounts of shielding over a large area to protect the entire fleet from laser attacks."
-    ava "Como usted sabe, las naves de batalla de la Alianza no están diseñadas con su propio generador de escudos. Su rol es reemplazado por cruceros escolta, quienes se encargan de mantener una larga barrera que cubra toda la flota."
+    ava "Como usted sabe, las naves de batalla de la Alianza no están diseñadas con su propio generador de escudos. Su rol es remplazado por cruceros escolta, quienes se encargan de mantener una larga barrera que cubra toda la flota."
 
 # game/script.rpy:4135
 translate spanish officechigaralap_c31036ca:
@@ -10867,7 +10867,7 @@ translate spanish officechigaralap_d50bdffe:
 translate spanish officechigaralap_39fb2d74:
 
     # kay "Relay a message to the Alliance fleet. Prepare for anti-ryder combat."
-    kay "Transmitan un mensaje a la flota de la Alianza: Prepárense inmediatamente para una batalla anti-ryder."
+    kay "Transmitan un mensaje a la flota de la Alianza: Prepárense inmediatamente para una batalla antiryder."
 
 # game/script.rpy:4138
 translate spanish officechigaralap_45e2e9cb_1:
@@ -11077,7 +11077,7 @@ translate spanish mission6_94b5c63e:
 translate spanish mission6_ab772955:
 
     # adr "Bah! These flies are but a nuisance."
-    adr "¡¡Ey, hay demasiadas moscas molestas!!"
+    adr "¡¡Bah, hay demasiadas moscas molestas!!"
 
 # game/script.rpy:4294
 translate spanish mission6_5f78ac0b:
@@ -11203,7 +11203,7 @@ translate spanish after_mission6_2a48fb80:
 translate spanish after_mission6_e2a96b6a:
 
     # chi "U-ughh... T-the shoulder maneuvering valve has fractured!"
-    chi "U-uhh... ¡Acelerador del hombro izquierdo, fuera de control!"
+    chi "U-ughh... ¡Acelerador del hombro izquierdo, fuera de control!"
 
 # game/script.rpy:4422
 translate spanish after_mission6_16e40bfa:
@@ -11215,7 +11215,7 @@ translate spanish after_mission6_16e40bfa:
 translate spanish after_mission6_72c0416a:
 
     # ava "Captain, if the Liberty cannot regain control, she'll fall straight into the battleship's path!"
-    ava "¡Capitán, a este paso el Liberty caerá en frente del acorazado enemigo!"
+    ava "¡Capitán, a este paso el Liberty caerá enfrente del acorazado enemigo!"
 
 # game/script.rpy:4427
 translate spanish after_mission6_ffddcc7d:
@@ -11251,7 +11251,7 @@ translate spanish after_mission6_7858376f:
 translate spanish after_mission6_d269cf0d:
 
     # cla "H-huuu!!!"
-    cla "¡¡Huuu!!"
+    cla "¡¡H-huuu!!"
 
 # game/script.rpy:4436
 translate spanish after_mission6_f8224aeb:
@@ -11281,7 +11281,7 @@ translate spanish after_mission6_395b12b4:
 translate spanish after_mission6_251b8e13:
 
     # chi "H-arrgghhh!!! T-the inertial dampeners are..."
-    chi "¡Aargh! El controlador inercial está..."
+    chi "¡¡¡H-arrgghhh!!! El controlador inercial está..."
 
 # game/script.rpy:4447
 translate spanish after_mission6_dd690d50:
@@ -11437,19 +11437,19 @@ translate spanish after_mission6_ac50d013:
 translate spanish after_mission6_75b6bf0f:
 
     # cla "Just some whiplash which I managed to fix up."
-    cla "Creo que no necesita preocuparse y sentirse deprimido por una pequeña conmoción cerebral, ¿no?"
+    cla "Creo que no necesita preocuparse y sentirse deprimido por una pequeña conmoción cerebral, ¿okay?"
 
 # game/script.rpy:4511
 translate spanish after_mission6_1895e8fa:
 
     # cla "She should still be fit for fighting."
-    cla "De cualquier forma, esta chica es fuerte. Incluso aunque se estaba poniendo tan difícil... Ufufu~"
+    cla "De cualquier forma, esta chica es fuerte. Incluso aunque se estaba poniendo tan difícil... Teeheehee~"
 
 # game/script.rpy:4512
 translate spanish after_mission6_a0759176:
 
     # kay "That's good to hear."
-    kay "Sí... Pero está a salvo y todo se acabó."
+    kay "Sí... Pero está a salvo y todo acabó."
 
 # game/script.rpy:4513
 translate spanish after_mission6_7cf1f59d:
@@ -11503,7 +11503,7 @@ translate spanish after_mission6_e8b45df8:
 translate spanish after_mission6_ca5e20f0:
 
     # kay "But we'll be back in the fight within eight hours."
-    kay "Pero estoy planeando regresar a las primeras líneas en 8 horas."
+    kay "Pero estoy planeando regresar a las primeras líneas en ocho horas."
 
 # game/script.rpy:4532
 translate spanish after_mission6_c412bd2b:
@@ -11845,7 +11845,7 @@ translate spanish after_mission6_1aed7837:
 translate spanish after_mission6_815f27fe:
 
     # cla "Commander...?"
-    cla "¿Eh? ¿Comandante? Ahora-"
+    cla "¿Eh? ¿Comandante? Qué-"
 
 # game/script.rpy:4664
 translate spanish after_mission6_286f7dc0:
@@ -11875,7 +11875,7 @@ translate spanish after_mission6_079c4766:
 translate spanish after_mission6_cafb1597:
 
     # cla "Teeheehee..."
-    cla "Tehehehe..."
+    cla "Teeheehee..."
 
 # game/script.rpy:4669
 translate spanish after_mission6_2ece8d3e:
@@ -11959,7 +11959,7 @@ translate spanish after_mission6_e67149ae:
 translate spanish after_mission6_5920cd60:
 
     # chi "Eh-heh..."
-    chi "Tehehe..."
+    chi "Eh-heh..."
 
 # game/script.rpy:4691
 translate spanish after_mission6_68b4b7f1:
@@ -11977,7 +11977,7 @@ translate spanish after_mission6_afb1d86f:
 translate spanish after_mission6_11366cd6:
 
     # kay "Nervous? No, I don't mean that."
-    kay "¿Nerviosa...? No me preocupaba por eso..."
+    kay "¿Nerviosa...? No me refiero a eso..."
 
 # game/script.rpy:4700
 translate spanish after_mission6_9e904dd3:
@@ -11989,7 +11989,7 @@ translate spanish after_mission6_9e904dd3:
 translate spanish after_mission6_94386bc5:
 
     # chi "Don't worry captain! That little graze didn't hurt me at all!"
-    chi "¡Sí! No tiene mucha importancia-"
+    chi "¡Bien! No tiene mucha importancia-"
 
 # game/script.rpy:4702
 translate spanish after_mission6_62c4ca99:
@@ -12073,7 +12073,7 @@ translate spanish after_mission6_54e0c7c5:
 translate spanish after_mission6_952f0e8d:
 
     # chi "O-oh..."
-    chi "¿Uwah, e-esto...?"
+    chi "¿O-oh, a-ah...?"
 
 # game/script.rpy:4728
 translate spanish after_mission6_992b15ec:
@@ -12085,7 +12085,7 @@ translate spanish after_mission6_992b15ec:
 translate spanish after_mission6_1d6aca2d:
 
     # kay "I'll rally every damned ship in the galaxy and march to the depths of hell if I have to."
-    kay "Incluso si tengo que viajar hasta los confines de la galaxia, iré a por tí."
+    kay "Incluso si tengo que viajar hasta los confines de la galaxia, iré a por ti."
 
 # game/script.rpy:4730
 translate spanish after_mission6_c3f9a6a3:
@@ -12097,7 +12097,7 @@ translate spanish after_mission6_c3f9a6a3:
 translate spanish after_mission6_b74d4e95:
 
     # chi "E-eh heh..."
-    chi "Eh, ehehe..."
+    chi "E-eheh..."
 
 # game/script.rpy:4735
 translate spanish after_mission6_2c9f6056:
@@ -12109,7 +12109,7 @@ translate spanish after_mission6_2c9f6056:
 translate spanish after_mission6_25069f05:
 
     # chi "Saying such reckless things for me..."
-    chi "Decirle a Chigara... tales cosas irrazonables..."
+    chi "Decirle a Chigara... cosas tan irrazonables..."
 
 # game/script.rpy:4737
 translate spanish after_mission6_8d394431:
@@ -12205,7 +12205,7 @@ translate spanish after_mission6_fc9ac474:
 translate spanish after_mission6_46a0055a:
 
     # chi "Eh-heheh... N-no, not there, captain..."
-    chi "¡¡Ehehe, ah!! No... No... Ahí no, capitán..."
+    chi "¡¡Eh-heheh, ah!! No... No... Ahí no, capitán..."
 
 # game/script.rpy:4762
 translate spanish after_mission6_c80d8618:
@@ -12307,7 +12307,7 @@ translate spanish after_mission6_2df8a24a:
 translate spanish after_mission6_f9738cb1:
 
     #  "She crawled back to her feet."
-    "Intentó levantarse, pero todo el mundo alrededor de ella parecía distorsionado."
+    "Intentó levantarse, pero el mundo entero a su alrededor parecía distorsionado."
 
 # game/script.rpy:4796
 translate spanish after_mission6_b6ae2bca:
@@ -12433,7 +12433,7 @@ translate spanish after_mission6_d3011b84:
 translate spanish after_mission6_85d52d63:
 
     # kay "I-it's just the first time that hurts the most--"
-    kay "S-solo duele la primera vez, entonces apropiadamente-"
+    kay "S-solo duele la primera vez, luego apropiadamente-"
 
 # game/script.rpy:4822
 translate spanish after_mission6_d49fe818:
@@ -12445,7 +12445,7 @@ translate spanish after_mission6_d49fe818:
 translate spanish after_mission6_0c33c994:
 
     # chi "Just kidding..."
-    chi "Ufufu, solo bromeaba."
+    chi "Eh-heheh, solo bromeaba."
 
 # game/script.rpy:4827
 translate spanish after_mission6_c8395db6:
@@ -12493,7 +12493,7 @@ translate spanish after_mission6_c3b92706:
 translate spanish after_mission6_5920cd60_1:
 
     # chi "Eh-heh..."
-    chi "Ehehe..."
+    chi "Eh-heh..."
 
 # game/script.rpy:4835
 translate spanish after_mission6_2c7b6241:
@@ -12637,7 +12637,7 @@ translate spanish after_mission6_33625d62:
 translate spanish after_mission6_cd2f1abd:
 
     # asa "Hey... You were with the captain last night, weren't you!?"
-    asa "Hey... Tú, estabas con el capitán la última noche..."
+    asa "Hey... Tú, estuviste con el capitán anoche... ¿¡verdad!?"
 
 # game/script.rpy:4881
 translate spanish after_mission6_cda6ddbd:
@@ -12739,7 +12739,7 @@ translate spanish after_mission6_8bce7cc2:
 translate spanish after_mission6_84d32842:
 
     # asa "I will kill you and all your sisters without a second thought."
-    asa "Te mataré... ¡A tí, y a tus espeluznantes hermanas, los mataré a todos!"
+    asa "Te mataré... ¡A ti, y a tus espeluznantes hermanas, los mataré a todos!"
 
 # game/script.rpy:4909
 translate spanish after_mission6_5538eb44_2:
@@ -12751,7 +12751,7 @@ translate spanish after_mission6_5538eb44_2:
 translate spanish after_mission6_75aa2c95:
 
     # chi "What are you talking about..."
-    chi "¡Hmm! Asaga..."
+    chi "¡Hmph! Asaga..."
 
 # game/script.rpy:4911
 translate spanish after_mission6_17c320d6:
@@ -12859,7 +12859,7 @@ translate spanish after_mission6_6a3a1b4f:
 translate spanish after_mission6_d0ef217d:
 
     # ava "Aye aye, captain! Prepare to launch all ryders!"
-    ava "¡Afirmativo, capitán! ¡Pelotón de ryders, preparado para lanzar!"
+    ava "¡Afirmativo, capitán! ¡Pelotón de ryders, preparado para despegar!"
 
 # game/script.rpy:4941
 translate spanish after_mission6_df5a23e1:
@@ -12937,7 +12937,7 @@ translate spanish after_mission6_af0648a0:
 translate spanish after_mission6_a6994641:
 
     # ava "You're away, Seraphim! Load the Bianca to the linear rail!"
-    ava "¡Seraphim, fuera! ¡Muevan al Bianca a la catapulta!"
+    ava "¡Seraphim, fuera! ¡Muevan ahora al Bianca a la catapulta!"
 
 # game/script.rpy:4965
 translate spanish after_mission6_da8e3671:
@@ -12985,7 +12985,7 @@ translate spanish after_mission6_111beb43:
 translate spanish after_mission6_38bae9df:
 
     # kay "I always knew you liked it here, Icari."
-    kay "Sí, lo supe todo el tiempo. Que a tí Icari te gustaba este lugar."
+    kay "Sí, lo supe todo el tiempo. Que a ti Icari te gustaba este lugar."
 
 # game/script.rpy:4976
 translate spanish after_mission6_4a3aca81:
@@ -13117,7 +13117,7 @@ translate spanish after_mission6_ae5a6f5a:
 translate spanish after_mission6_ce7d6f5e:
 
     # kay "Let us pray this will be the last time they must be put in harm's way..."
-    kay "Hagamos esto por última vez para poner a estos tipos en peligro..."
+    kay "Recemos por que esta sea la última vez que deban ponerse en peligro..."
 
 # game/script.rpy:5008
 translate spanish after_mission6_09befc05:
@@ -13153,13 +13153,13 @@ translate spanish mission7_030d94bf:
 translate spanish mission7_e525bad9:
 
     # "PACT Officer" "My Veniczar! Our ships are nearly out of munitions!"
-    "Oficial del PACT" "¡Arcadius! ¡Nuestra flota ya se ha quedado sin municiones!"
+    "Oficial del PACT" "¡Veniczar Arcadius! ¡Nuestra flota ya se ha quedado sin municiones!"
 
 # game/script.rpy:3601
 translate spanish mission7_b01c08a5:
 
     # "PACT Officer" "We request that we be relieved by the second fleet while we rearm closer to the planet!"
-    "Oficial del PACT" "¡Solicite que seamos reemplazados por la segunda flota!"
+    "Oficial del PACT" "¡Solicitamos ser relevados por la segunda flota!"
 
 # game/script.rpy:3602
 translate spanish mission7_68d8efcb:
@@ -13195,7 +13195,7 @@ translate spanish mission7_418de414:
 translate spanish mission7_b0276b8e:
 
     # fon "You are far too confident of your powers, Prototype."
-    fon "Pareces estar muy confiado de tu infuencia, Prototipo."
+    fon "Pareces estar muy confiado de tu influencia, Prototipo."
 
 # game/script.rpy:3608
 translate spanish mission7_9033a88c:
@@ -13225,13 +13225,13 @@ translate spanish mission7_834981dd:
 translate spanish mission7_36621b8f:
 
     # fon "They are no longer comrades to the revolution, but merely your brain washed puppets."
-    fon "Mírales a los ojos, ya no están más aquí. ¡Eso es... porque tú les has lavado el cerebro!"
+    fon "Mírales a los ojos, ya no están más con la revolución. ¡Eso es... porque tú les has lavado el cerebro!"
 
 # game/script.rpy:3613
 translate spanish mission7_3ab90568:
 
     # fon "Our revolution is against tyrants of all colors! Even those who purport to fly our crimson flag."
-    fon "¡Estás utilizando al PACT para tu porpio bien! ¡No te permitiré que intentes hacer algo como eso!"
+    fon "¡Estás utilizando al PACT para tu propio bien! ¡No te permitiré que intentes hacer algo como eso!"
 
 # game/script.rpy:3614
 translate spanish mission7_a411c041:
@@ -13339,7 +13339,7 @@ translate spanish mission7_13118370:
 translate spanish mission7_889e218e:
 
     # arc "Activate the chain neural override!"
-    ali "¡Sobreescritura neural, activada!"
+    ali "¡Sobrescritura neuronal, activada!"
 
 # game/script.rpy:3641
 translate spanish mission7_bf622258:
@@ -13434,14 +13434,14 @@ translate spanish mission7_0c129d8b:
 # game/script.rpy:3659
 translate spanish mission7_eec9476a:
 
-    # chi "They seem to have wired the ships to respond to their neural waves!" "かくじんの間に特別な回路が仕込まれています。この回路はリモコンの受信機のように間をプロトタイプのように動かしてます。"
+    # chi "They seem to have wired the ships to respond to their neural waves!"
     chi "Un circuito especial está instalado entre ellos. Este circuito les permite a los prototipos mover a las naves como con un control remoto."
 
 # game/script.rpy:3660
 translate spanish mission7_4e7827da:
 
-    # chi "I will enter the prototype's neural link and attempt to interfere with their thoughts!" "簡単に仕組まれた回路を一つ一つたたく余裕はありません。私が直接プロトタイプの思考連接に侵入して各。"
-    chi "No puedo permitirme atacar los circuitos de la primera flota uno por uno. Así que invadiré directamente el enlace neural de los prototipos."
+    # chi "I will enter the prototype's neural link and attempt to interfere with their thoughts!"
+    chi "No puedo permitirme atacar los circuitos de la primera flota uno por uno. Así que invadiré directamente el enlace neuronal de los prototipos."
 
 # game/script.rpy:3661
 translate spanish mission7_4f1b1a4c:
@@ -13507,7 +13507,7 @@ translate spanish mission7_edf5fbf5:
 translate spanish mission7_b1f71c86:
 
     # "Objective: Cast the Liberty's DISRUPT ability six times. The Liberty cannot be lost!"
-    "Objetivo: Utiliza la habilidad DISRUPT del Liberty seis veces. ¡El Liberty no puede ser destruido!"
+    "Objetivo: Utiliza la habilidad INTERFERIR del Liberty seis veces. ¡El Liberty no puede ser destruido!"
 
 # game/script.rpy:3674
 translate spanish mission7_7549bd1b:
@@ -13519,13 +13519,13 @@ translate spanish mission7_7549bd1b:
 translate spanish mission7_a83c87f2:
 
     # arc "This is the end for you!"
-    pro "¡Este es vuestro fin!"
+    pro "¡Este es su fin!"
 
 # game/script.rpy:3676
 translate spanish mission7_e10e93c7:
 
     # asa "Eeeaah!!!"
-    asa "¡¡Hyaaaa...!!"
+    asa "¡¡Eeeaah...!!"
 
 # game/script.rpy:3677
 translate spanish mission7_4c6c4eeb:
@@ -13573,7 +13573,7 @@ translate spanish mission7_fc2451e5:
 translate spanish mission7_925dd900:
 
     # arc "Haaahahahahaha!!!"
-    pro "¡¡¡Hyahahahahahahahaha!!!"
+    pro "¡¡¡Hahahahahahahahaha!!!"
 
 # game/script.rpy:3685
 translate spanish mission7_e7040cb8:
@@ -13627,7 +13627,7 @@ translate spanish mission7_87701e6e:
 translate spanish mission7_82a7db7a:
 
     # arc "Heh-heh..."
-    pro "Fu-huhuhu..."
+    pro "Heh-hehehe..."
 
 # game/script.rpy:3694
 translate spanish mission7_c7e2d653:
@@ -13639,7 +13639,7 @@ translate spanish mission7_c7e2d653:
 translate spanish mission7_19bf8ce3:
 
     # asa "Don't.... Bullshit... ME!!!!"
-    asa "¡No... juegues... conmigo!"
+    asa "¡No... juegues... CONMIGO!"
 
 # game/script.rpy:3696
 translate spanish mission7_ae050451:
@@ -13651,7 +13651,7 @@ translate spanish mission7_ae050451:
 translate spanish mission7_1a0126f5:
 
     # asa "Perish."
-    asa "¡Muere!"
+    asa "¡Perece!"
 
 # game/script.rpy:3698
 translate spanish mission7_cc30d072:
@@ -13753,13 +13753,13 @@ translate spanish after_mission7_aeee1761:
 translate spanish after_mission7_501e9b67:
 
     # ica "A-Asaga's gone berserk!!!"
-    ica "¡O-Oakrun está fuera de sí!"
+    ica "¡A-Asaga está fuera de sí!"
 
 # game/script.rpy:3720
 translate spanish after_mission7_032cad4c:
 
     # ica "O-oy, captain!? W-what are we supposed to do!?"
-    ica "¡Oy, capitán! ¿¡Qué se supone que hagamos!?"
+    ica "¡Oye, capitán! ¿¡Qué se supone que hagamos!?"
 
 # game/script.rpy:3721
 translate spanish after_mission7_96b58508:
@@ -13831,7 +13831,7 @@ translate spanish after_mission7_686b9c4e:
 translate spanish after_mission7_2cfb26a2:
 
     # asa "EEAAAHHH!!!"
-    asa "¡¡¡EYAAAAAAAA---!!!"
+    asa "¡¡¡EEAAAHHH---!!!"
 
 # game/script.rpy:3733
 translate spanish after_mission7_e3ff690f:
@@ -13873,13 +13873,13 @@ translate spanish after_mission7_696d6715:
 translate spanish after_mission7_ced02bb7:
 
     # cla "Hooaaahh!!!"
-    cla "¡Espera...!"
+    cla "¡Hooaaahh...!"
 
 # game/script.rpy:3740
 translate spanish after_mission7_d39d9053:
 
     # asa "E-eaaahh!!!!"
-    asa "¡¡Uwaahaa...!!"
+    asa "¡¡E-eaaahh...!!"
 
 # game/script.rpy:3741
 translate spanish after_mission7_ab15186a:
@@ -14017,7 +14017,7 @@ translate spanish after_mission7_8e3c1d13:
 translate spanish after_mission7_cafb1597:
 
     # cla "Teeheehee..."
-    cla "Tehehe..."
+    cla "Teeheehee..."
 
 # game/script.rpy:3764
 translate spanish after_mission7_36b40ef3:
@@ -14059,13 +14059,13 @@ translate spanish after_mission7_2efae2a2:
 translate spanish after_mission7_dd50ce89:
 
     # ica "E-EEAAHHH!!!"
-    ica "¡¡Woahhh...!!"
+    ica "¡¡E-EEAAHHH...!!"
 
 # game/script.rpy:3772
 translate spanish after_mission7_cb242551:
 
     # kry "CLAAUUUDEEE!!!!!!!!!"
-    kry "¡¡¡Claude!!!"
+    kry "¡¡¡CLAAUUUDEEE!!!"
 
 # game/script.rpy:3773
 translate spanish after_mission7_5b942f5a:
@@ -14077,13 +14077,13 @@ translate spanish after_mission7_5b942f5a:
 translate spanish after_mission7_4d27ee49:
 
     # arc "Fool..."
-    pro "Idiota."
+    pro "Tonta."
 
 # game/script.rpy:3775
 translate spanish after_mission7_2a89300e:
 
     # arc "D-delivering long speeches in the middle of battle..."
-    pro "¿Distrayéndose en medio de una batalla?"
+    pro "¿Distrayéndote en medio de una batalla?"
 
 # game/script.rpy:3776
 translate spanish after_mission7_b7042fee:
@@ -14101,13 +14101,13 @@ translate spanish after_mission7_27524af1:
 translate spanish after_mission7_9858dc58:
 
     # asa "AAAHHHHHHH!!!!"
-    asa "¡¡¡UWHAAAAAAAAAAA--!!!"
+    asa "¡¡¡AAAHHHHHHH!!!"
 
 # game/script.rpy:3779
 translate spanish after_mission7_7094ec2e:
 
     # ica "S-SHIT!!! CLAUDE!!!"
-    ica "¡¡¡Maldición!!! ¡¡¡CLAUDE!!!"
+    ica "¡¡¡M-MALDICIÓN!!! ¡¡¡CLAUDE!!!"
 
 # game/script.rpy:3780
 translate spanish after_mission7_dba10be1:
@@ -14125,19 +14125,19 @@ translate spanish after_mission7_74cbcdff:
 translate spanish after_mission7_0a4b1f17:
 
     # ica "T-trying to act all cool!!!"
-    ica "¡¡Tratando de sonar genial!!"
+    ica "¡¡Tratando de actuar genial!!"
 
 # game/script.rpy:3783
 translate spanish after_mission7_d1bc567f:
 
     # ica "PROTOTYPE!!!!!"
-    ica "¡¡Ugh... PROTOTIPO!!"
+    ica "Ugh... ¡¡¡PROTOTIPO!!!"
 
 # game/script.rpy:3784
 translate spanish after_mission7_e1e02626:
 
     # kry "EAAHHH!!!"
-    kry "¡¡Uwaa...!!"
+    kry "¡¡EAAHHH...!!"
 
 # game/script.rpy:3788
 translate spanish after_mission7_d6457f5e:
@@ -14197,13 +14197,13 @@ translate spanish after_mission7_9326acab:
 translate spanish after_mission7_25996cd9:
 
     # chi "(Their voices... I can hear them...)"
-    chi "(Sus voces... Las puedo oir...)"
+    chi "(Sus voces... Los puedo escuchar...)"
 
 # game/script.rpy:3801
 translate spanish after_mission7_ead3c8e3:
 
     # chi "(My friends are in trouble! They need my help...!)"
-    chi "(¡Mis amigos están en peligro! ¡Tengo que ayudarlos...!)"
+    chi "(¡Mis amigos están en problemas! ¡Tengo que ayudarlos...!)"
 
 # game/script.rpy:3802
 translate spanish after_mission7_483560c4:
@@ -14269,7 +14269,7 @@ translate spanish after_mission7_e19aadbe:
 translate spanish after_mission7_5eba54e8:
 
     # arc "You were sent by us from the beginning."
-    pro "Tú desde el principio fuiste enviada por nosotras como una espía."
+    pro "Tú desde el principio fuiste enviada por nosotros como una espía."
 
 # game/script.rpy:3813
 translate spanish after_mission7_bd86b439:
@@ -14293,7 +14293,7 @@ translate spanish after_mission7_b2afafcb:
 translate spanish after_mission7_cc32c8a5:
 
     # arc "The insight you have brought us was... astounding."
-    pro "Y así, la información que obtuvimos de tí... fue asombrosa."
+    pro "Y así, la información que obtuvimos de ti... fue asombrosa."
 
 # game/script.rpy:3817
 translate spanish after_mission7_1671b0bf:
@@ -14353,7 +14353,7 @@ translate spanish after_mission7_5e437de8:
 translate spanish after_mission7_de3ddaa7:
 
     # que "You and prototype 4L1C3 have experienced the emotion they call love..."
-    alp "Tú, y 4L1C3 han experimentado la emoción llamada amor..."
+    alp "Tú y 4L1C3 han experimentado la emoción llamada amor..."
 
 # game/script.rpy:3827
 translate spanish after_mission7_9953adc8:
@@ -14365,7 +14365,7 @@ translate spanish after_mission7_9953adc8:
 translate spanish after_mission7_2da2c5da:
 
     # que "And yet, for 4L, it consumes her. Twists her body."
-    alp "Aún así, al corazón de 4L, lo consume."
+    alp "Y sin embargo, al corazón de 4L, lo consume."
 
 # game/script.rpy:3829
 translate spanish after_mission7_937a0490:
@@ -14443,7 +14443,7 @@ translate spanish after_mission7_259ebe79:
 translate spanish after_mission7_37be7c0d:
 
     # arc "It's over for you, humans!"
-    ali "¡Este es vuestro final, humanos!"
+    ali "¡Este es el final para ustedes, humanos!"
 
 # game/script.rpy:3845
 #translate spanish after_mission7_4d0ba57e_1:
@@ -14509,7 +14509,7 @@ translate spanish after_mission7_1d8de7d1:
 translate spanish after_mission7_c4132217:
 
     # chi "But I'll defend it!"
-    chi "¡Pero, lo defenderé con mi amor!"
+    chi "¡Pero, los defenderé con mi amor!"
 
 # game/script.rpy:3859
 translate spanish after_mission7_75f77f0c:
@@ -14527,7 +14527,7 @@ translate spanish after_mission7_ba577e8e:
 translate spanish after_mission7_a28f9aad:
 
     # arc "S-shit!"
-    ali "¡Maldición!"
+    ali "¡M-maldición!"
 
 # game/script.rpy:3865
 translate spanish after_mission7_40e27d57:
@@ -14569,7 +14569,7 @@ translate spanish after_mission7_aa7cacd8:
 translate spanish after_mission7_1538103b:
 
     # kay "Tell all the Alliance vessels to cease fire on the second fleet and advance towards the first!"
-    kay "¡Díganle a las naves de la Alianza que detengan el ataque a la segunda flota y carguen hacia la primera flota!"
+    kay "¡Díganles a las naves de la Alianza que detengan el ataque a la segunda flota y carguen hacia la primera flota!"
 
 # game/script.rpy:3872
 translate spanish after_mission7_f865cac4:
@@ -14653,7 +14653,7 @@ translate spanish after_mission8_b9e9d6a4:
 translate spanish after_mission8_77f6b79d:
 
     # fon "Hmph. To think I would fight side by side with the likes of you..."
-    fon "Hmph- Pensar que lucharía junto a alguien como tú..."
+    fon "Hmph. Pensar que lucharía junto a alguien como tú..."
 
 # game/script.rpy:6304
 translate spanish after_mission8_8024a8ea:
@@ -14689,7 +14689,7 @@ translate spanish after_mission8_84c653a9:
 translate spanish after_mission8_ce47a230:
 
     # ali "It's been so many years..."
-    ali "Hmm... ¡Ha llegado la hora de despertar de un largo sueño!"
+    ali "Hmph... ¡Ha llegado la hora de despertar de un largo sueño!"
 
 # game/script.rpy:6320
 translate spanish after_mission8_8facd815:
@@ -15031,7 +15031,7 @@ translate spanish after_mission8_2dca6a1c:
 translate spanish after_mission8_c7cb8aa0:
 
     # fon "But it is not a god. It was made by the hands of man, and it can be fallen by the same."
-    fon "Esa cosa no es un dios. Fue construído por personas, por tanto también puede ser derribado por personas."
+    fon "Esa cosa no es un dios. Fue construido por personas, por tanto también puede ser derribado por personas."
 
 # game/script.rpy:6443
 translate spanish after_mission8_810279dc:
@@ -15085,7 +15085,7 @@ translate spanish after_mission8_c4aede21:
 translate spanish after_mission8_a208977e:
 
     # asa "'Cause... That's not what I wanted at all!"
-    asa "¡Yo no quería nada de eso en lo absoluto!"
+    asa "¡Yo no quería nada de eso en absoluto!"
 
 # game/script.rpy:6455
 translate spanish after_mission8_41602e76:
@@ -15103,7 +15103,7 @@ translate spanish after_mission8_e766d8e4:
 translate spanish after_mission8_fcb3c70b:
 
     # asa "Hiiyaaah!!!!"
-    asa "¡¡Heyaaaaaa!!"
+    asa "¡¡Hiiyaaah!!"
 
 # game/script.rpy:6466
 translate spanish after_mission8_ef212d6e:
@@ -15169,7 +15169,7 @@ translate spanish mission9_ec72c8a6:
 translate spanish mission9_9751d1bf:
 
     # ali "A-argh!"
-    ali "¡Uwaah...!"
+    ali "¡A-argh...!"
 
 # game/script.rpy:6561
 translate spanish mission9_c15f7d1e:
@@ -15211,13 +15211,13 @@ translate spanish mission9_923f6a38:
 translate spanish mission9_f18025fc:
 
     # ali "Hahahaha......"
-    ali "Uhahahaha..."
+    ali "Hahahaha..."
 
 # game/script.rpy:6589
 translate spanish mission9_88c329df:
 
     # ali "HAAAHAHAAHAHAHA!!!!!"
-    ali "¡¡Uhahahahahahaha!!"
+    ali "¡¡Hahahahahahaha!!"
 
 # game/script.rpy:6590
 translate spanish mission9_c381d550:
@@ -15241,7 +15241,7 @@ translate spanish mission9_9ef833b6:
 translate spanish mission9_84d46e0c:
 
     # ali "Hahahaha..."
-    ali "Uhuhahahahaha..."
+    ali "Hahahahaha..."
 
 # game/script.rpy:6594
 translate spanish mission9_12241dd7:
@@ -15283,7 +15283,7 @@ translate spanish mission9_35f58b30:
 translate spanish mission9_cd82f715:
 
     # ali "Hahaha... Low lifes!"
-    ali "Uhuhuhuhuhuhu... ¡Como si pudieran hacer algo!"
+    ali "Hahaha... ¡Como si pudieran hacer algo!"
 
 # game/script.rpy:6616
 translate spanish mission9_60a1025f:
@@ -15301,13 +15301,13 @@ translate spanish mission9_c78fc464:
 translate spanish after_mission9_116f7a2e:
 
     # asa "Hiiyyaaah!!!!"
-    asa "¡¡¡Hyaaaaaaa!!!"
+    asa "¡¡¡Hiiyyaaah!!!"
 
 # game/script.rpy:6729
 translate spanish after_mission9_07132ad2:
 
     # ali "T-tsch!"
-    ali "¡Ugh...!"
+    ali "¡T-tsch...!"
 
 # game/script.rpy:6737
 translate spanish after_mission9_ea0b0550:
@@ -15385,13 +15385,13 @@ translate spanish after_mission9_a63f622d:
 translate spanish after_mission9_07b77c01:
 
     # asa "HHYYEEEAAAHHHHHHH!!!!"
-    asa "¡¡Haaaaaa!!"
+    asa "¡¡HHYYEEEAAAHHHHHHH!!"
 
 # game/script.rpy:6767
 translate spanish after_mission9_61f13f82:
 
     # ali "U-ugh..."
-    ali "¡Ugh...!"
+    ali "¡U-ugh...!"
 
 # game/script.rpy:6768
 translate spanish after_mission9_52f00964:
@@ -15625,7 +15625,7 @@ translate spanish after_mission9_1c5d4723:
 translate spanish after_mission9_eb531d07:
 
     # "PACT Officer" "Sir!"
-    "Oficial del PACT" "¡Sí, Fontana!"
+    "Oficial del PACT" "¡Entendido, Veniczar Fontana!"
 
 # game/script.rpy:6867
 translate spanish after_mission9_cee7bc01_1:
@@ -15655,13 +15655,13 @@ translate spanish after_mission9_da1a5ceb:
 translate spanish after_mission9_30dcdf1e:
 
     # fon "No longer will we overlook the suffering of our people for reckless misadventures on foreign lands."
-    fon "No volveremos a ignorar el sufrimiento de nuestra gente por querer adentrarnos en otros territorios."
+    fon "No volveremos a ignorar el sufrimiento de nuestro pueblo por querer adentrarnos en otros territorios."
 
 # game/script.rpy:6872
 translate spanish after_mission9_0901fbb7:
 
     # fon "Today, the People's Alliance shall be reborn!"
-    fon "¡Hoy, aquí, la Alianza de las Personas para un Trato Igualitario renacerá!"
+    fon "¡Hoy, aquí, la Alianza de los Pueblos para un Trato Igualitario renacerá!"
 
 # game/script.rpy:6876
 translate spanish after_mission9_a6cb1d8a:
@@ -15673,7 +15673,7 @@ translate spanish after_mission9_a6cb1d8a:
 translate spanish after_mission9_edd10a56:
 
     # kay "Hahaha... Everyone..."
-    kay "Hahaha... Gracias..."
+    kay "Hahaha... Todos..."
 
 # game/script.rpy:6878
 translate spanish after_mission9_7fd9f6e3:
@@ -15787,7 +15787,7 @@ translate spanish after_mission9_41bedf85:
 translate spanish after_mission9_fb4da25b:
 
     # chi "Eh-heheh... We won!!"
-    chi "Ehehe... ¡Ganamos!"
+    chi "Eh-heheh... ¡Ganamos!"
 
 # game/script.rpy:6909
 translate spanish after_mission9_653850e2:
@@ -15847,7 +15847,7 @@ translate spanish after_mission9_70acc2a4:
 translate spanish after_mission9_1a3651b8:
 
     # asa "I said all those things about you..."
-    asa "Dije tantas cosas malas de tí..."
+    asa "Dije tantas cosas malas de ti..."
 
 # game/script.rpy:6919
 translate spanish after_mission9_15bda82a:
@@ -15961,13 +15961,13 @@ translate spanish after_mission9_399e0437:
 translate spanish after_mission9_810a69d7:
 
     # ica "Huuuu....!!"
-    ica "¡Whuuu...!"
+    ica "¡Huuuu...!"
 
 # game/script.rpy:6938
 translate spanish after_mission9_7231dcc9:
 
     # ica "WAAHHH!!!"
-    ica "¡¡Waaaahaaaaaahaaaa...!!"
+    ica "¡¡WAAHHH...!!"
 
 # game/script.rpy:6939
 translate spanish after_mission9_cc1d1e81:
@@ -15985,7 +15985,7 @@ translate spanish after_mission9_11d7c9f6_1:
 translate spanish after_mission9_60f83307:
 
     # ica "Sniffle..."
-    ica "Uhh..."
+    ica "Huu..."
 
 # game/script.rpy:6970
 translate spanish asagawindows_91f8d8a8:
@@ -16027,7 +16027,7 @@ translate spanish asagawindows_d7598442:
 translate spanish asagawindows_2b68ae81:
 
     # asa "I really messed up, didn't I?"
-    asa "Realmente lo aruiné todo, ¿no?"
+    asa "Realmente lo arruiné todo, ¿no?"
 
 # game/script.rpy:6977
 translate spanish asagawindows_3015f381:
@@ -16105,7 +16105,7 @@ translate spanish asagawindows_13772a64:
 translate spanish asagawindows_0b7d436c:
 
     # asa "Besides, I don't want to be in the way."
-    asa "Además, no quiero meterme en medio."
+    asa "Además, no quiero entrometerme."
 
 # game/script.rpy:6999
 translate spanish asagawindows_0c052fbb:
@@ -16261,7 +16261,7 @@ translate spanish asagawindows_c8dca78e:
 translate spanish officechigarabathroom_c5c4e6ed:
 
     # "Shields sat on the couch as Chigara clamored in his bathroom."
-    "Shields estaba sentado en el sofá de su cuerto mientras Chigara se arreglaba en el baño."
+    "Shields estaba sentado en el sofá de su cuarto mientras Chigara se arreglaba en el baño."
 
 # game/script.rpy:7057
 translate spanish officechigarabathroom_2da92b36:
@@ -16387,32 +16387,32 @@ translate spanish officechigarabathroom_e06d3dea:
 translate spanish officechigarabathroom_0f6e9c6c:
 
     # "Admiral Grey held hands with Fontana as a small army of reporters took their holopics."
-    "El Almirante Grey sostenía las manos con Fontana mientras un pequeño grupo de reporteros les tomaban fotos."
+    "El Almirante Grey estrechaba la mano con Fontana mientras un pequeño grupo de reporteros les tomaban fotos."
 
 # game/script.rpy:7096
 translate spanish officechigarabathroom_94d85218:
 
     # adr "Glad your fleet could make it here in one piece, boy..."
-    adr "Estoy encantado de que tu flota pudiera salvarse de los prototipos, chico..."
+    adr "Me alegro de que tu flota pudiera salvarse de los prototipos, chico..."
 
 # game/script.rpy:7097
 translate spanish officechigarabathroom_a1262a77:
 
     # fon "Admiral... A pleasure, as always..."
-    fon "Oh, vaya... Estaba por decirle lo mismo, Almirante."
+    fon "Oh, vaya... Estaba por decirte lo mismo, Almirante."
 
 # game/script.rpy:7098
 translate spanish officechigarabathroom_d526f173:
 
     # fon "I've learned the most interesting thing... That the Alliance owes most of its successes to a foreign squad of beautiful young women..."
-    fon "Por cierto, es gracioso... Siendo ayudado por un carguero de asalto del Margen Neutral y por un escuadrón de ryders manejados por chicas desconocidas, no pensé que un representante de la Alianza diría algo así..."
+    fon "Por cierto, es gracioso... Tras ser ayudado por un carguero de asalto del Margen Neutral y por un escuadrón de ryders manejados por chicas desconocidas, no pensé que un representante de la Alianza diría algo así..."
     #fon "Por cierto, es gracioso... Que toda la victoria se debe a un escuadrón de ryders manejados por chicas que incluso salvó a la flota de la Alianza, y que por eso es que estamos aquí..."
 
 # game/script.rpy:7099
 translate spanish officechigarabathroom_e998eacf:
 
     # adr "Bah! The men spurt all sort of nonsense after a long voyage! This war was won by my men and the combined might of the Alliance navy!"
-    adr "¡Hah hah hah! ¡Qué cantidad de estupideces! Las personas suelen inventarse muchas historias. ¡Por supuesto, la victoria de esta guerrra, se debe a nuestra Flota Combinada, y a los valientes soldados de la Alianza!"
+    adr "¡Hah hah hah! ¡Qué cantidad de estupideces! Las personas suelen inventarse muchas historias. ¡Por supuesto, la victoria de esta guerra, se debe a nuestra Flota Combinada, y a los valientes soldados de la Alianza!"
 
 # game/script.rpy:7100
 translate spanish officechigarabathroom_8831ad68:
@@ -16490,7 +16490,7 @@ translate spanish officechigarabathroom_93de8f0a:
 translate spanish officechigarabathroom_da59d983:
 
     # kay "Just let the admiral make his speech and give you the medal."
-    kay "Simplemente deja que el Almirante dé su discurso y te dé la medalla."
+    kay "Simplemente deja que el Almirante dé su discurso y te entregue la medalla."
 
 # game/script.rpy:7122
 translate spanish officechigarabathroom_72a59cd9:
@@ -16562,7 +16562,7 @@ translate spanish officechigarabathroom_f06750ca:
 translate spanish officechigarabathroom_2b7d46a0:
 
     # ava "(Even in death, she's only good for comic relief.)"
-    ava "(Incluso muerta, ella solo es buena para la diversión.)"
+    ava "(Incluso muerta, ella solo es buena para el alivio cómico.)"
 
 # game/script.rpy:7145
 translate spanish officechigarabathroom_6dfa03d0:
@@ -16634,7 +16634,7 @@ translate spanish officechigarabathroom_59a1ccee:
 translate spanish officechigarabathroom_fab54fb7:
 
     # adr "...While we mourn for those who lost their lives, must also commemorate the living."
-    adr "...y además, le debemos esta victoria a todos los que perdieron la vida en el intento. Por supuesto, conmemoraremos su muerte por todo su esfuerzo."
+    adr "...y además, les debemos esta victoria a todos los que perdieron la vida en el intento. Por supuesto, conmemoraremos su muerte por todo su esfuerzo."
 
 # game/script.rpy:7175
 translate spanish officechigarabathroom_a6314b96:
@@ -16694,7 +16694,7 @@ translate spanish officechigarabathroom_7d7bfb9c:
 translate spanish officechigarabathroom_5920cd60:
 
     # chi "Eh-heh..."
-    chi "Eheh..."
+    chi "Eh-heh..."
 
 # game/script.rpy:7195
 translate spanish officechigarabathroom_9e578baf:
@@ -16724,7 +16724,7 @@ translate spanish officechigarabathroom_29b157ec:
 translate spanish officechigarabathroom_2acddf12:
 
     # kay "Hahahaha...!"
-    kay "¡Hahaha...!"
+    kay "¡Hahahaha...!"
 
 # game/script.rpy:7200
 translate spanish officechigarabathroom_cd5e5fba:
@@ -16850,7 +16850,7 @@ translate spanish finalchapter_7471c5f7:
 translate spanish finalchapter_2ee4da08:
 
     # adr "G-gughh..."
-    adr "Guh..."
+    adr "G-gughh..."
 
 # game/script.rpy:7299
 translate spanish finalchapter_732de511:
@@ -17102,7 +17102,7 @@ translate spanish finalchapter_5ef15bac:
 translate spanish finalchapter_ac6f1a04:
 
     # kay "She cares about the lowest of us, and can forgive anyone if they just ask!"
-    kay "¡Se preocupa por todos, y puede perdonar a cualquiera si solo preguntan!"
+    kay "¡Se preocupa por todos, y puede perdonar a cualquiera si solo lo piden!"
 
 # game/script.rpy:7344
 translate spanish finalchapter_97d97330:
@@ -17126,7 +17126,7 @@ translate spanish finalchapter_2d76a0e3:
 translate spanish finalchapter_3d82132b:
 
     # kay "I'M COMING FOR YOU!!!"
-    kay "¡¡VOY A POR TÍ!!"
+    kay "¡¡VOY A POR TI!!"
 
 # game/script.rpy:7352
 translate spanish finalchapter_b4661913:
@@ -17138,7 +17138,7 @@ translate spanish finalchapter_b4661913:
 translate spanish finalchapter_5ecd8f74:
 
     # "He gritted his teeth as he pulled himself up."
-    "Apretó fuértemente sus dientes mientras se levantaba."
+    "Apretó fuertemente sus dientes mientras se levantaba."
 
 # game/script.rpy:7354
 translate spanish finalchapter_1211ce30:
@@ -17198,7 +17198,7 @@ translate spanish finalchapter_22acbefe:
 translate spanish finalchapter_715eab3a:
 
     # ali "How can you resist the neural link!?"
-    ali "¿¡Cómo te puedes resistir al enlace neural!?"
+    ali "¿¡Cómo te puedes resistir al enlace neuronal!?"
 
 # game/script.rpy:7379
 translate spanish finalchapter_cdcf1486:
@@ -17366,7 +17366,7 @@ translate spanish finalchapter_5920cd60:
 translate spanish finalchapter_8f4f5444:
 
     # chi "I-it would have been... so nice..."
-    chi "Aún así... Chigara fue... muy feliz..."
+    chi "Aun así... Chigara fue... muy feliz..."
 
 # game/script.rpy:7440
 translate spanish finalchapter_36f38ea2:
@@ -17546,7 +17546,7 @@ translate spanish finalchapter_a4d60a35_1:
 translate spanish finalchapter_823b8a15:
 
     # "PACT troops busted through the locked door and exchanged fire with the drones."
-    "Tropas del PACT entraron a la sala derribando la puerta y le devolvieron el fuego a los drones."
+    "Tropas del PACT entraron a la sala derribando la puerta y les devolvieron el fuego a los drones."
 
 # game/script.rpy:7488
 translate spanish finalchapter_71f6a914:
@@ -17774,7 +17774,7 @@ translate spanish finalchapter_89c7933f:
 translate spanish finalchapter_f2f5e287:
 
     # kry "Sorry. Orders are orders..."
-    kry "Lo siento mucho, órdenes--"
+    kry "Lo siento mucho, son órdenes--"
 
 # game/script.rpy:7556
 translate spanish finalchapter_46bebd39:
@@ -17786,7 +17786,7 @@ translate spanish finalchapter_46bebd39:
 translate spanish finalchapter_b42669b3:
 
     # ica "You said... we were... comrades in arms!"
-    ica "Tú misma lo dijiste... ¡Que nostros éramos... compañeros!"
+    ica "Tú misma lo dijiste... ¡Que nosotros éramos... compañeros!"
 
 # game/script.rpy:7558
 translate spanish finalchapter_33e8423c:
@@ -17816,7 +17816,7 @@ translate spanish finalchapter_41f5dc64:
 translate spanish finalchapter_648ec50e:
 
     # ica "I trust you, lieutenant..."
-    ica "...creo en tí..."
+    ica "...creo en ti..."
 
 # game/script.rpy:7566
 translate spanish finalchapter_b3666b38:
@@ -17834,7 +17834,7 @@ translate spanish finalchapter_f6f6b18e:
 translate spanish finalchapter_d94c3094:
 
     # kry "ARGHH!!!"
-    kry "¡Agh...! ¡Maldición!"
+    kry "¡ARGHH...! ¡Maldición!"
 
 # game/script.rpy:7572
 translate spanish finalchapter_bcce9f99:
@@ -17846,7 +17846,7 @@ translate spanish finalchapter_bcce9f99:
 translate spanish finalchapter_8d9243da:
 
     # "She reached into her uniform and tore off her Alliance insignia."
-    "Se llevó una mano al unifome y se arrancó la insignia de la Alianza."
+    "Se llevó una mano al uniforme y se arrancó la insignia de la Alianza."
 
 # game/script.rpy:7574
 translate spanish finalchapter_711f184e:
@@ -17864,7 +17864,7 @@ translate spanish finalchapter_9dfce9ad:
 translate spanish finalchapter_c480234e:
 
     # ava "Can you walk, lieutenant?"
-    ava "¿Puede caminar, teniente?"
+    ava "¿Puedes caminar, teniente?"
 
 # game/script.rpy:7577
 translate spanish finalchapter_74dcfb19:
@@ -17918,19 +17918,19 @@ translate spanish finalchapter_e0cf4d2b:
 translate spanish finalchapter_5e24a846:
 
     # kay "Get me all the information you have about the new Paradox Core!"
-    kay "Cuéntame todo lo que sabes acerca del nuevo Paradox Core."
+    kay "¡Cuéntame toda la información que tienes sobre el nuevo Paradox Core!"
 
 # game/script.rpy:7599
 translate spanish finalchapter_c1eff262:
 
     # ava "Captain, we've got incoming hostiles all around us!"
-    ava "¡Capitán, detectamos enemigos en todos los alrededores!"
+    ava "¡Capitán, detectamos enemigos a todo nuestro alrededor!"
 
 # game/script.rpy:7600
 translate spanish finalchapter_600f0655:
 
     # ava "Seems like both the Alliance and PACT want us dead!"
-    ava "Parece que, tanto la Alianza como el PACT, nos quieren muertos."
+    ava "¡Parece que, tanto la Alianza como el PACT, nos quieren muertos!"
 
 # game/script.rpy:7601
 translate spanish finalchapter_f9f6afaf:
@@ -17942,7 +17942,7 @@ translate spanish finalchapter_f9f6afaf:
 translate spanish finalchapter_7b9b0689:
 
     # kay "So much for vacation."
-    kay "Necesitamos unas vacaciones..."
+    kay "Necesitamos unas vacaciones."
 
 # game/script.rpy:7603
 translate spanish finalchapter_98ea21c5:
@@ -17984,7 +17984,7 @@ translate spanish finalchapter_d96f58d6:
 translate spanish finalchapter_ab7d454e:
 
     # kay "This was the Alliance's backup plan, wasn't it..."
-    kay "Así que este era el plan de respaldo de la Alianza..."
+    kay "Este era el plan de respaldo de la Alianza, no es así..."
 
 # game/script.rpy:7610
 translate spanish finalchapter_e0dae061:
@@ -18008,7 +18008,7 @@ translate spanish finalchapter_ef9abf87:
 translate spanish finalchapter_a79d8490:
 
     # kay "How many ships do we have to fight to reach the torpedo?"
-    kay "¿Cuántas naves tenemos que derrotar para alcanzar ese torpedo?"
+    kay "¿Cuántas naves tenemos que derrotar para alcanzar el torpedo?"
 
 # game/script.rpy:7620
 translate spanish finalchapter_e5490da7:
@@ -18080,7 +18080,7 @@ translate spanish finalchapter_1509082c:
 translate spanish finalchapter_dfecb06a:
 
     # ava "Without the chief engineer, it is difficult to say..."
-    ava "Sin nuestra Injeniera Jefa, lograr realizar con éxito un salto así es difícil de decir..."
+    ava "Sin nuestra Ingeniera Jefa, lograr realizar con éxito un salto así es difícil de decir..."
 
 # game/script.rpy:7639
 translate spanish finalchapter_280903d8:
@@ -18092,7 +18092,7 @@ translate spanish finalchapter_280903d8:
 translate spanish finalchapter_2eee4ece:
 
     # kay "And the status of our ryder squad?"
-    kay "¿Cuál es el estado de nuestro escuadrón de ryders?"
+    kay "¿Y el estado de nuestro escuadrón ryder?"
 
 # game/script.rpy:7641
 translate spanish finalchapter_1599b043:
@@ -18116,7 +18116,7 @@ translate spanish finalchapter_ba0690ab:
 translate spanish finalchapter_03126a6c:
 
     # cos "HEY!!!"
-    cos "¡¡OY!!"
+    cos "¡¡OYE!!"
 
 # game/script.rpy:7648
 translate spanish finalchapter_88cab949:
@@ -18128,7 +18128,7 @@ translate spanish finalchapter_88cab949:
 translate spanish finalchapter_732fc37d:
 
     # kay "U-uh... Who is this...?"
-    kay "Uhm... ¿Quién es esta...?"
+    kay "U-uh... ¿Quién es esta...?"
 
 # game/script.rpy:7650
 translate spanish finalchapter_6538d276:
@@ -18158,7 +18158,7 @@ translate spanish finalchapter_8c917d97:
 translate spanish finalchapter_1c0b6389:
 
     # kay "O-oh! C-Cosette!"
-    kay "¡O-oh...! ¡Cosette!"
+    kay "¡O-oh! ¡C-Cosette!"
 
 # game/script.rpy:7658
 translate spanish finalchapter_1200d02d:
@@ -18194,19 +18194,19 @@ translate spanish finalchapter_7cf7dae3:
 translate spanish finalchapter_28af7399:
 
     # kay "Heh. Well, it's not like things can get any worse."
-    kay "Heh... Bueno, no es como si las cosas pudiesen ser peor."
+    kay "Heh. Bueno, no es como si las cosas pudieran volverse peor."
 
 # game/script.rpy:7668
 translate spanish finalchapter_6cca1464:
 
     # kay "All right Cosette... I'll let you out..."
-    kay "De acuerdo, Cosette. Te dejaré libre y lucharás con nosotros."
+    kay "De acuerdo, Cosette... Te dejaré libre..."
 
 # game/script.rpy:7669
 translate spanish finalchapter_b5de13d5:
 
     # kay "And I hear the hanger crew even fixed up your ryder as a hobby job..."
-    kay "También oí que la tripulación reparó tu ryder en el hangar..."
+    kay "Y escuché que la tripulación del hangar incluso reparó tu ryder como un pasatiempo..."
 
 # game/script.rpy:7670
 translate spanish finalchapter_30184d24:
@@ -18272,7 +18272,7 @@ translate spanish finalchapter_a3860d9f:
 translate spanish finalchapter_1662081f:
 
     # kay "From there, we will perform a frontal assault through their lines until we are in range of Machiavelli Actual!"
-    kay "¡Después, comenzaremos un ataque a través de sus líneas hasta que estemos en el rango del Machiavelli Actual!"
+    kay "¡Después, comenzaremos un asalto frontal a través de sus líneas hasta que estemos en el rango del Machiavelli Actual!"
 
 # game/script.rpy:7686
 translate spanish finalchapter_e67d10d2:
@@ -18290,7 +18290,7 @@ translate spanish finalchapter_9bde39b7:
 translate spanish finalchapter_778223e9:
 
     # kay "Spool up the warp drive, commander."
-    kay "Encienda el dispositivo de salto, comandante."
+    kay "Enciende el dispositivo de salto, comandante."
 
 # game/script.rpy:7692
 translate spanish finalchapter_8e21b0f0:
@@ -18392,7 +18392,7 @@ translate spanish after_mission10_ae52847d:
 translate spanish after_mission10_8a7315cf:
 
     # ava "Hull integrity down to 20 percent!"
-    ava "¡Defensas al 20 porciento!"
+    ava "¡Defensas al 20 por ciento!"
 
 # game/script.rpy:4429
 translate spanish after_mission10_99d28cc2:
@@ -18410,7 +18410,7 @@ translate spanish after_mission10_5dc5af41:
 translate spanish after_mission10_8246892d:
 
     # ica "T-tsch...! There're too many of them!"
-    ica "¡Ugh...! ¡Hay demasiados de ellos!"
+    ica "¡T-tsch...! ¡Hay demasiados de ellos!"
 
 # game/script.rpy:4435
 translate spanish after_mission10_5537b98a:
@@ -18422,7 +18422,7 @@ translate spanish after_mission10_5537b98a:
 translate spanish after_mission10_890361a2:
 
     # ica "E-eaah!!!"
-    ica "¡¡¡Ugh-waaaah!!!"
+    ica "¡¡¡E-eaah!!!"
 
 # game/script.rpy:4437
 translate spanish after_mission10_4247d3c6:
@@ -18434,7 +18434,7 @@ translate spanish after_mission10_4247d3c6:
 translate spanish after_mission10_e16e07f3:
 
     # kry "Hiyaah!!!"
-    kry "¡¡¡Whoaaaa!!!"
+    kry "¡¡¡Hiyaah!!!"
 
 # game/script.rpy:4439
 translate spanish after_mission10_9850b2eb:
@@ -18446,7 +18446,7 @@ translate spanish after_mission10_9850b2eb:
 translate spanish after_mission10_c64be2a0:
 
     # ica "T-tsch..."
-    ica "Tsch..."
+    ica "T-tsch..."
 
 # game/script.rpy:4441
 translate spanish after_mission10_16acf201:
@@ -18458,7 +18458,7 @@ translate spanish after_mission10_16acf201:
 translate spanish after_mission10_73d2f25d:
 
     # ica "Shit! This was the worst job ever!"
-    ica "Demonios... Esto es lo peor..."
+    ica "Demonios... Esto fue lo peor..."
 
 # game/script.rpy:4443
 translate spanish after_mission10_4152eddd:
@@ -18482,7 +18482,7 @@ translate spanish after_mission10_b7a3303f:
 translate spanish after_mission10_18ea756a:
 
     # kry "Stay back!"
-    kry "¡Quédate atrás!"
+    kry "¡Retrocede!"
 
 # game/script.rpy:4447
 translate spanish after_mission10_b7a3303f_1:
@@ -18578,7 +18578,7 @@ translate spanish after_mission10_f9cf5127:
 translate spanish after_mission10_cf7fe7eb:
 
     # "Steel beams rained down, skewering the bridge crew."
-    "Vigas de acero llovieron, atravezando a la tripulación del puente."
+    "Vigas de acero llovieron, atravesando a la tripulación del puente."
 
 # game/script.rpy:4469
 translate spanish after_mission10_9a7bac9c:
@@ -18614,7 +18614,7 @@ translate spanish after_mission10_6bdd8fc1:
 translate spanish after_mission10_6c1c306f:
 
     # ava "Our shields are down, and all contact has been lost with the hangar!"
-    ava "¡Escudos, cero porciento! ¡Y hemos perdido todo contacto con el hangar!"
+    ava "¡Escudos, cero por ciento! ¡Y hemos perdido todo contacto con el hangar!"
 
 # game/script.rpy:4475
 translate spanish after_mission10_36179a03:
@@ -18644,7 +18644,7 @@ translate spanish after_mission10_c62b5dba:
 translate spanish after_mission10_5d47e569:
 
     # kay "All hands, abandon ship."
-    kay "A toda la triupulación, abandonen la nave."
+    kay "A toda la tripulación, abandonen la nave."
 
 # game/script.rpy:4480
 translate spanish after_mission10_43da5497:
@@ -18656,13 +18656,13 @@ translate spanish after_mission10_43da5497:
 translate spanish after_mission10_047bb29d:
 
     # kay "I'm putting you in charge of the evacuation, commander."
-    kay "La estoy poniendo a cargo de la evacuación, comandante."
+    kay "Te estoy poniendo a cargo de la evacuación, comandante."
 
 # game/script.rpy:4482
 translate spanish after_mission10_0b44eb3c:
 
     # kay "Get everyone out of here. Keep them safe."
-    kay "Saque a todo el mundo de aquí. Manténgalos a salvo."
+    kay "Saca a todo el mundo de aquí. Mantenlos a salvo."
 
 # game/script.rpy:4483
 translate spanish after_mission10_8ca0cf8c:
@@ -18680,7 +18680,7 @@ translate spanish after_mission10_a81b19fb:
 translate spanish after_mission10_67a34a37:
 
     # kay "I am ordering you to abandon ship."
-    kay "Le estoy ordenando que abandone la nave"
+    kay "Te estoy ordenando que abandones la nave"
 
 # game/script.rpy:4486
 translate spanish after_mission10_43da5497_1:
@@ -18950,7 +18950,7 @@ translate spanish after_mission10_fd42d18b:
 translate spanish after_mission10_618914d8:
 
     # kay "We did not run, but protected all those we hold dear until we fell into the black night!"
-    kay "¡No huímos, sino protegimos a todos nuestros seres queridos hasta que caímos derrotados!"
+    kay "¡No huimos, sino protegimos a todos nuestros seres queridos hasta que caímos derrotados!"
 
 # game/script.rpy:4543
 translate spanish after_mission10_74792a90:
@@ -19010,7 +19010,7 @@ translate spanish after_mission10_328aced6:
 translate spanish after_mission10_f78889dd:
 
     # "In the first time in recent history, it unanimously passed a bill authorizing the full scale invasion of PACT space."
-    nar "Por primera vez en la historia reciente, se aprobó unánimamente una ley autorizando la invasión a escala completa del espacio del PACT."
+    nar "Por primera vez en la historia reciente, se aprobó unánimemente una ley autorizando la invasión a escala completa del espacio del PACT."
 
 # game/script.rpy:4555
 translate spanish after_mission10_809328c0:
@@ -19118,7 +19118,7 @@ translate spanish newend_785881e8:
 translate spanish newend_f44d0cb3:
 
     # ica "I knew all along you guys would come back to save us! H-heh... I definitely wasn't worried at all!"
-    ica "¡Supe todo el tiempo que ustedes regresarían a salvarnos! H-heh... ¡Yo definitivamente no estaba preocupada en lo absoluto!"
+    ica "¡Supe todo el tiempo que ustedes regresarían a salvarnos! H-heh... ¡Yo definitivamente no estaba preocupada en absoluto!"
 
 # game/script.rpy:8173
 translate spanish newend_524105c3:
@@ -19142,7 +19142,7 @@ translate spanish newend_552c113c:
 translate spanish newend_acdaf8ac:
 
     # kry "Even with two more ryders, we can't take everyone on ourselves!"
-    kry "¡Incluso con dos ryders más, no nos podemos encargar de todos por nosotras mismas!"
+    kry "¡Incluso con dos ryders más, no nos podemos encargar de todos nosotras solas!"
 
 # game/script.rpy:8183
 translate spanish newend_ada8d50a:
@@ -19202,7 +19202,7 @@ translate spanish newend_96c47d9c:
 translate spanish newend_b29851a3:
 
     # ica "O-oy, he's gonna...!"
-    ica "¡O-oy, él va a...!"
+    ica "¡O-oye, él va a...!"
 
 # game/script.rpy:8198
 translate spanish newend_3704e10c:
@@ -19310,13 +19310,13 @@ translate spanish newend_84cd0ec8:
 translate spanish newend_cceb4113:
 
     # alp "Wanderer..."
-    alp "Peregrina..."
+    alp "Errante..."
 
 # game/script.rpy:8229
 translate spanish newend_23ceffe9:
 
     # "The air distorted as the space time continuum parted in front of Alpha."
-    "El aire se distorsionó mientras el continuo espacio tiempo se dividía en frente de Alpha."
+    "El aire se distorsionó mientras el continuo espacio tiempo se dividía enfrente de Alpha."
 
 # game/script.rpy:8230
 translate spanish newend_2a20bfed:
@@ -19334,7 +19334,7 @@ translate spanish newend_5a140b3e:
 translate spanish newend_c1dc9bac:
 
     # cla "Huu... You know what explosive decompression does to my skin?"
-    cla "Huu... ¿Sabes lo que una decompresión explosiva le hace a mi piel?"
+    cla "Huu... ¿Sabes lo que una descompresión explosiva le hace a mi piel?"
 
 # game/script.rpy:8247
 translate spanish newend_2f50d6cf:
@@ -19352,7 +19352,7 @@ translate spanish newend_0789d7d1:
 translate spanish newend_61c9610d:
 
     # alp "(She could recreate the entire universe right now before me... and yet she chooses to gallivant across the galaxy... pursuing nothing but frivolities!)"
-    alp "(Ella podría recrear todo el universo ahora mismo en frente de mí... y aún así decide viajar por la galaxia... ¡persiguiendo nada más que frivolidades!)"
+    alp "(Ella podría recrear todo el universo ahora mismo enfrente de mí... y aun así decide viajar por la galaxia... ¡persiguiendo nada más que frivolidades!)"
 
 # game/script.rpy:8250
 translate spanish newend_72729ca5:
@@ -19370,13 +19370,13 @@ translate spanish newend_42b6fe22:
 translate spanish newend_daca6154:
 
     # cla "It was a piece of cake! All I had to do was just play the damsel in distress role, and he was all over me in a flash!"
-    cla "¡Fue realmente fácil! ¡Todo lo que tuve que hacer fue hacerme pasar por una damisela en peligro, y él vino a rescatarme sin demora!"
+    cla "¡Fue realmente fácil! ¡Todo lo que tuve que hacer fue hacerme pasar por una damisela en apuros, y él vino a rescatarme sin demora!"
 
 # game/script.rpy:8259
 translate spanish newend_dd738935:
 
     # cla "Iyaaa~ You should have seen what that brute did to me in the sickbay afterwards..."
-    cla "Iya~ Deberías haber visto lo que ese hombre me hizo en la bahía médica después..."
+    cla "Iyaa~ Deberías haber visto lo que ese hombre me hizo en la bahía médica después..."
 
 # game/script.rpy:8263
 translate spanish newend_7dc05c01:
@@ -19388,7 +19388,7 @@ translate spanish newend_7dc05c01:
 translate spanish newend_bba9ee5b:
 
     # cla "\"Kyyaaa... A-anything but Claude's chastity!\" The poor maiden squealed as the captain tore her clothes off and ravished her!"
-    cla "\"Kya~ ¡C-cualquier cosa menos la castidad de Claude!\", ¡Gritó la pobre doncella mientras el capitán le quitaba la ropa!"
+    cla "\"Kyyaaa... ¡C-cualquier cosa menos la castidad de Claude!\", ¡Gritó la pobre doncella mientras el capitán le quitaba la ropa!"
 
 # game/script.rpy:8265
 translate spanish newend_73597d68:
@@ -19400,7 +19400,7 @@ translate spanish newend_73597d68:
 translate spanish newend_737bcff7:
 
     # cla "Sniffle... Claude's world view changed a little after that day..."
-    cla "Huu~ La visión del mundo de Claude cambió un poco después de ese día..."
+    cla "Huu... La visión del mundo de Claude cambió un poco después de ese día..."
 
 # game/script.rpy:8267
 translate spanish newend_8a9a924b:
@@ -19412,7 +19412,7 @@ translate spanish newend_8a9a924b:
 translate spanish newend_1958fd39:
 
     # cla "Ahem."
-    cla "Ahem..."
+    cla "Ejem..."
 
 # game/script.rpy:8272
 translate spanish newend_8f39265a:
@@ -19454,7 +19454,7 @@ translate spanish newend_b598506a:
 translate spanish newend_7f829c57:
 
     # cla "Somehow, the Queen of Ryuvia could sense Chigara's hyper brain waves!"
-    cla "¡De alguna forma, la Reina de Ryuvia pudo sentir las ondas hiper cerebrales de Chigara!"
+    cla "¡De alguna forma, la Reina de Ryuvia pudo sentir las ondas hipercerebrales de Chigara!"
 
 # game/script.rpy:8282
 translate spanish newend_f077edb3:
@@ -19478,7 +19478,7 @@ translate spanish newend_d16c6c76:
 translate spanish newend_939e9327:
 
     # cla "Teeheehee. But life's not fair~"
-    cla "Tehehe... Pero la vida no es justa~"
+    cla "Teeheehee... Pero la vida no es justa~"
 
 # game/script.rpy:8289
 translate spanish newend_c885b902:
@@ -19634,7 +19634,7 @@ translate spanish newend_3469bb4f:
 translate spanish newend_2eeaa1af:
 
     # cla "When people and things start moving through time willy-nilly, and events get moved around all out of order, it's only a matter of... ahem... time, until something reeaallly bad happens to the entire universe..."
-    cla "Cuando las personas y las cosas se empiezan a mover a través del tiempo a la fuerza, y los eventos se salen todos del orden, es solo cuestión de... ahem... tiempo, para que algo realmente malo le ocurra a todo el universo..."
+    cla "Cuando las personas y las cosas se empiezan a mover a través del tiempo a la fuerza, y los eventos se salen todos del orden, es solo cuestión de... ejem... tiempo, para que algo realmente malo le ocurra a todo el universo..."
 
 # game/script.rpy:8330
 translate spanish newend_cf11c9c8:
@@ -19832,7 +19832,7 @@ translate spanish newend_4b1a28c1:
 translate spanish newend_52e379eb:
 
     # "Finally, dead silence returned to the grand cloning chamber."
-    "Finalmente, el total silencio regresó a la gran cámara de clonación."
+    "Finalmente, el silencio total regresó a la gran cámara de clonación."
 
 # game/script.rpy:8386
 translate spanish newend_2bec9d60:
@@ -19928,7 +19928,7 @@ translate spanish newend_3ae73986:
 translate spanish newend_c9f1d2b4:
 
     # lyn "...Oy."
-    lyn "...Oy."
+    lyn "...Oye."
 
 # game/script.rpy:8412
 translate spanish newend_4d32219a:
@@ -19946,7 +19946,7 @@ translate spanish newend_863dac92:
 translate spanish newend_68446011:
 
     # "He felt like the world had collapsed on top of his head."
-    "Sintió como si todo el mundo hubiera colapsado encima su cabeza."
+    "Sintió como si todo el mundo hubiera colapsado encima de su cabeza."
 
 # game/script.rpy:8415
 translate spanish newend_1101311b:
@@ -19970,7 +19970,7 @@ translate spanish newend_ee0907dc:
 translate spanish newend_8ff8889f:
 
     # "Shields pulled himself up against the seat."
-    "Shields se levantó y se arrecostó al asiento."
+    "Shields se levantó y se recostó al asiento."
 
 # game/script.rpy:8419
 translate spanish newend_41fc80d8:
@@ -20036,7 +20036,7 @@ translate spanish newend_290cebd2:
 translate spanish newend_9316381f:
 
     # lyn "Replaced by a new."
-    lyn "Reemplazada por una nueva."
+    lyn "Remplazada por una nueva."
 
 # game/script.rpy:8433
 translate spanish newend_0bc7194a:
@@ -20048,7 +20048,7 @@ translate spanish newend_0bc7194a:
 translate spanish newend_38a9e7b5:
 
     # kay "(She must be talking about the prototypes' hive mind...)"
-    kay "(Ella debe de estar hablando de la colmena de mentes de los prototipos...)"
+    kay "(Ella debe de estar hablando de la mente colmena de los prototipos...)"
 
 # game/script.rpy:8435
 translate spanish newend_c3e436f4:
@@ -20156,7 +20156,7 @@ translate spanish chigaranotyou_440e9bff:
 translate spanish chigaranotyou_1e13b41d:
 
     # lyn "Listen here, we can read the brain waves of other prototypes. That's how we communicate with each other."
-    lyn "Escucha, nosotros podemos leer las ondas hiper cerebrales de otros prototipos. Así es como nos comunicamos entre nosotros."
+    lyn "Escucha, nosotros podemos leer las ondas hipercerebrales de otros prototipos. Así es como nos comunicamos entre nosotros."
 
 # game/script.rpy:8474
 translate spanish chigaranotyou_f376bfea:
@@ -20354,7 +20354,7 @@ translate spanish premonitionurge_0fa8c1c7:
 translate spanish premonitionurge_e74096aa:
 
     # kay "(And with Fontana pissed off, you can bet he'll just stand me up in front of the first wall he can find and shoot me...)"
-    kay "(Y con Fontana furioso, puedes apostar a que él simplemente me pondrá de pie en frente de la primera pared que encuentre y me disparará...)"
+    kay "(Y con Fontana furioso, puedes apostar a que él simplemente me pondrá de pie frente a la primera pared que encuentre y me disparará...)"
 
 # game/script.rpy:8525
 translate spanish premonitionurge_14b33467:
@@ -20372,7 +20372,7 @@ translate spanish premonitionurge_4b80a569:
 translate spanish premonitionurge_2d741bda:
 
     # kay "(What happened to Icari and Kryska? And the crew!?)"
-    kay "(¿Qué le ocurrió a Icari y a Kryska? ¿¡Y a la tripulación!?)"
+    kay "(¿Qué les sucedió a Icari y a Kryska? ¿¡Y a la tripulación!?)"
 
 # game/script.rpy:8528
 translate spanish premonitionurge_4b5d0528:
@@ -20456,7 +20456,7 @@ translate spanish premonitionurge_e4e6e20b:
 translate spanish premonitionurge_fc413d26:
 
     # ica "O-oy, what are you-!?"
-    ica "¿¡O-oy, qué estás-!?"
+    ica "¿¡O-oye, qué estás-!?"
 
 # game/script.rpy:8557
 translate spanish premonitionurge_cb6e9c1d:
@@ -20606,7 +20606,7 @@ translate spanish premonitionurge_9d80c50e:
 translate spanish premonitionurge_4d3e2589:
 
     # kay "I'm about to receive a real red welcoming party here..."
-    kay "Estoy a punto de recibier una verdadera fiesta de bienvenida roja aquí..."
+    kay "Estoy a punto de recibir una verdadera fiesta de bienvenida roja aquí..."
 
 # game/script.rpy:8588
 translate spanish premonitionurge_6907603b:
@@ -20858,7 +20858,7 @@ translate spanish chigaradidntbetray_ac386847:
 translate spanish chigaradidntbetray_41417c84:
 
     # asa "After... playing with your feelings like that... To turn on you... and kill everyone..."
-    asa "Después de... jugar con tus sentimientos de esa forma... Volverse contra tí... y matar a todos..."
+    asa "Después de... jugar con tus sentimientos de esa forma... Volverse contra ti... y matar a todos..."
 
 # game/script.rpy:8679
 translate spanish chigaradidntbetray_cbba1ef7:
@@ -21008,7 +21008,7 @@ translate spanish thoughtbitbullet_8a88fab6:
 translate spanish thoughtbitbullet_06b65808:
 
     # ica "Don't you know that there are people who care about you!?"
-    ica "¿¡No sabes que hay personas que se preocupan por tí!?"
+    ica "¿¡No sabes que hay personas que se preocupan por ti!?"
 
 # game/script.rpy:8717
 translate spanish thoughtbitbullet_d203e91b:
@@ -21080,7 +21080,7 @@ translate spanish thoughtbitbullet_2ba77c93:
 translate spanish thoughtbitbullet_0d947e3d:
 
     # sol "Thanks to you, I feel more at home two thousand years from my own timeline, here, alongside all of you, than I did amongst the Ryuvians."
-    sol "Gracias a tí, me siento más en casa a dos mil años de mi época, aquí, junto a todos ustedes, que lo que lo hice entre los Ryuvianos."
+    sol "Gracias a ti, me siento más en casa a dos mil años de mi época, aquí, junto a todos ustedes, que lo que lo hice entre los Ryuvianos."
 
 # game/script.rpy:8729
 translate spanish thoughtbitbullet_5870dfff:
@@ -21152,7 +21152,7 @@ translate spanish thoughtbitbullet_108e9184:
 translate spanish thoughtbitbullet_df5a23e1:
 
     # kay "Everyone..."
-    kay "A todos..."
+    kay "Gente..."
 
 # game/script.rpy:8741
 translate spanish thoughtbitbullet_4140ba00:
@@ -21212,7 +21212,7 @@ translate spanish thoughtbitbullet_f9741ea7:
 translate spanish thoughtbitbullet_dc96aaa9:
 
     # kay "I fled... like a coward... unable to even look at her killer in the eye..."
-    kay "Huí... como un cobarde... incapaz de mirar siquiera a su asesino a los ojos..."
+    kay "Hui... como un cobarde... incapaz de mirar siquiera a su asesino a los ojos..."
 
 # game/script.rpy:8751
 translate spanish thoughtbitbullet_6555279f:
@@ -21416,7 +21416,7 @@ translate spanish thoughtbitbullet_f953e612:
 translate spanish thoughtbitbullet_2ced44fc:
 
     # ava "Ahem."
-    ava "Ahem."
+    ava "Ejem."
 
 # game/script.rpy:8789
 translate spanish thoughtbitbullet_32b9c92f:
@@ -21470,7 +21470,7 @@ translate spanish thoughtbitbullet_733d3816:
 translate spanish thoughtbitbullet_bfc8e19d:
 
     # kay "Ahem uhh..."
-    kay "Ahem, uhh..."
+    kay "Ejem, uhh..."
 
 # game/script.rpy:8804
 translate spanish thoughtbitbullet_80731342:
@@ -21770,7 +21770,7 @@ translate spanish thoughtbitbullet_02c1fa39:
 translate spanish thoughtbitbullet_2a565ea2:
 
     # ica "I doubt the Mining Union's gonna help us any more, what with us completely destroying the Alliance flag ship..."
-    ica "Dudo que la Unión Minera vaya a ayudarnos más, debido a que destruimos completamente la nave insignea de la Alianza..."
+    ica "Dudo que la Unión Minera vaya a ayudarnos más, debido a que destruimos completamente la nave insignia de la Alianza..."
 
 # game/script.rpy:8929
 translate spanish thoughtbitbullet_255f3b04:
@@ -21866,7 +21866,7 @@ translate spanish thoughtbitbullet_5c4d40af:
 translate spanish thoughtbitbullet_28308803:
 
     # ica "Oy... You're bein' way too naïve..."
-    ica "Oy... Estás siendo demasiado ingenua..."
+    ica "Oye... Estás siendo demasiado ingenua..."
 
 # game/script.rpy:8960
 translate spanish thoughtbitbullet_3d27a285:
@@ -21944,7 +21944,7 @@ translate spanish thoughtbitbullet_672f73e7:
 translate spanish thoughtbitbullet_37c2b72f:
 
     # ava "Captain!? What is she-"
-    ava "¿¡Capitán!? ¿¡Qué está ella-!?"
+    ava "¿¡Capitán!? ¿¡Qué está haciendo ella-!?"
 
 # game/script.rpy:9001
 translate spanish thoughtbitbullet_50cd1d09:
@@ -21992,7 +21992,7 @@ translate spanish thoughtbitbullet_00f8ce45:
 translate spanish thoughtbitbullet_72c9ea64:
 
     # ica "Oy, whatdaya mean, she saved you!? I thought the prototypes were our enemies!"
-    ica "¿¡Oy, qué quieres decir, ella te salvó!? ¡Pensé que los prototipos eran nuestros enemigos!"
+    ica "¿¡Oye, qué quieres decir, ella te salvó!? ¡Pensé que los prototipos eran nuestros enemigos!"
 
 # game/script.rpy:9021
 translate spanish thoughtbitbullet_950ea42b:
@@ -22100,7 +22100,7 @@ translate spanish tielynnup_ba905f77:
 translate spanish tielynnup_4f8515ed:
 
     # kry "Subduing hostile!"
-    kry "¡Subyagando al enemigo!"
+    kry "¡Subyugando al enemigo!"
 
 # game/script.rpy:9085
 translate spanish tielynnup_f8877437:
@@ -22184,13 +22184,13 @@ translate spanish didsavelearn_715ea0c9:
 translate spanish didsavelearn_86da5667:
 
     # kay "You heard them, Lynn. Don't try to pull anything."
-    kay "Ya las oiste, Lynn. No intentes hacer nada."
+    kay "Ya las escuchaste, Lynn. No intentes hacer nada."
 
 # game/script.rpy:9127
 translate spanish didsavelearn_97d17664:
 
     # lyn "Hmph..."
-    lyn "Humph..."
+    lyn "Hmph..."
 
 # game/script.rpy:9140
 translate spanish shieldslookedholoport_ef635018:
@@ -22214,7 +22214,7 @@ translate spanish shieldslookedholoport_5392c4a3:
 translate spanish shieldslookedholoport_5cf8013a:
 
     # "He saw his dirty, exhausted face in the reflection."
-    "Vio su sucio, y exhausto rostro en el reflejo."
+    "Vio su sucio y exhausto rostro en el reflejo."
 
 # game/script.rpy:9144
 translate spanish shieldslookedholoport_1cfe0d00:
@@ -22340,7 +22340,7 @@ translate spanish shieldslookedholoport_466ff6d3:
 translate spanish shieldslookedholoport_9f6391e1:
 
     # ava "Ultimately... it was the rift I created between us that day which doomed our mission. The prototypes exploited it... and used it to put a spy inside our ranks..."
-    ava "Al final... fue la fisura que creé entre nosotros aquel día lo que condenó nuestra misión. Los prototipos la explotaron... y la usaron para poner a un espía dentro de nuestras filas..."
+    ava "Al final... fue la fisura que creé entre nosotros aquel día lo que condenó nuestra misión. Los prototipos la explotaron... y la usaron para colocar un espía dentro de nuestras filas..."
 
 # game/script.rpy:9183
 translate spanish shieldslookedholoport_c1ba58e9:
@@ -22424,7 +22424,7 @@ translate spanish commanderunfairme_3bd76f42:
 translate spanish commanderunfairme_64d5fe9c:
 
     # asa "I was the one trying to warn you about Chigara the most, remember!"
-    asa "¡Yo fui quien intentó advertirle acerca de Chigara todo el tiempo, recuerde!"
+    asa "¡Yo fui quien intentó advertirles acerca de Chigara todo el tiempo, recuerden!"
 
 # game/script.rpy:9247
 translate spanish commanderunfairme_136ea434:
@@ -22436,7 +22436,7 @@ translate spanish commanderunfairme_136ea434:
 translate spanish commanderunfairme_40668f27:
 
     # asa "Eh heh... Still, my offer stands!"
-    asa "Eh, heh... ¡Aún así, mi oferta sigue en pie!"
+    asa "Eh, heh... ¡Aun así, mi oferta sigue en pie!"
 
 # game/script.rpy:9252
 translate spanish commanderunfairme_96e136bd:
@@ -22532,7 +22532,7 @@ translate spanish commanderunfairme_f953e612:
 translate spanish commanderunfairme_02d56736:
 
     # sol "I understand we will be spending much time together from now..."
-    sol "Entiendo que estaremos pasando mucho tiempo juntos a partir de ahora..."
+    sol "Tengo entendido que estaremos pasando mucho tiempo juntos a partir de ahora..."
 
 # game/script.rpy:9286
 translate spanish commanderunfairme_f3af294d:
@@ -22598,7 +22598,7 @@ translate spanish commanderunfairme_2040a8b4:
 translate spanish commanderunfairme_756d3ae9:
 
     # kay "(Just... what else could possibly go wrong!?)"
-    kay "(Simplemente... ¿¡qué más podría salir mal!?)"
+    kay "(Simplemente... ¿¡qué más pudiera salir mal!?)"
 
 # game/script.rpy:9324
 translate spanish commanderunfairme_12db3add:
@@ -22622,19 +22622,19 @@ translate spanish commanderunfairme_7e2ef83d:
 translate spanish commanderunfairme_b89a8d69:
 
     # cla "That sure was a messy entry... piro-tee~"
-    cla "Esa fue ciertamente una entrada desastroza..."
+    cla "Esa fue ciertamente una entrada desastrosa... Teehee..."
 
 # game/script.rpy:9334
 translate spanish commanderunfairme_9763370e:
 
     # "Everyone" "WHHHAAATTT!!????"
-    "Todos" "¿¡QUÉEEEEEEE!?"
+    "Todos" "¿¡QUÉÉÉÉÉÉÉÉ!?"
 
 # game/script.rpy:9338
 translate spanish commanderunfairme_d0181333:
 
     # ava "That... good for nothing but fan service... incompetent... nympho woman...!"
-    ava "¡Esa... buena para nada e incompetente mujer... buena solo para divertirse...!"
+    ava "¡Esa... buena para nada excepto fan service... incompetente... mujer ninfómana...!"
 
 # game/script.rpy:9339
 translate spanish commanderunfairme_90a423bb:
@@ -22724,7 +22724,7 @@ translate spanish commanderunfairme_a590a66d:
 translate spanish commanderunfairme_37a81966:
 
     # fon "Further, you are hereby commissioned as the captain of our flagship."
-    fon "Además, se te asignará como la capitán de nuestra nave insignea."
+    fon "Además, se te asignará como la capitán de nuestra nave insignia."
 
 # game/script.rpy:9376
 translate spanish commanderunfairme_9be682c8:
@@ -22766,7 +22766,7 @@ translate spanish commanderunfairme_18f5e3c0:
 translate spanish commanderunfairme_364bfe76:
 
     # kuu "She was but a broken, destitute girl when Arcadius met her..."
-    kuu "Ella no era más que una destrozada, y mísera chica cuando Arcadius la encontró..."
+    kuu "Ella no era más que una destrozada y mísera chica cuando Arcadius la encontró..."
 
 # game/script.rpy:9384
 translate spanish commanderunfairme_2ce32bfd:
@@ -22826,13 +22826,13 @@ translate spanish commanderunfairme_8b0b7075:
 translate spanish commanderunfairme_383ea592:
 
     # kuu "Alice was there that day, when Arcadius stood before the mobs, trying to protect the Emperor..."
-    kuu "Alice estaba allí aquel día, cuando Arcadius se puso delante de la gente, intentando proteger al Emperador..."
+    kuu "Alice estuvo allí aquel día, cuando Arcadius se puso delante de la gente, intentando proteger al Emperador..."
 
 # game/script.rpy:9394
 translate spanish commanderunfairme_99d8e1bf:
 
     # kuu "He was cut down. Killed. By the very people he had sought to liberate."
-    kuu "Fue matado. Asesinado. Por la misma gente que él había buscado liberar."
+    kuu "Fue derribado. Asesinado. Por la misma gente que él había buscado liberar."
 
 # game/script.rpy:9395
 translate spanish commanderunfairme_aac42459:
@@ -22844,7 +22844,7 @@ translate spanish commanderunfairme_aac42459:
 translate spanish commanderunfairme_9da1c084:
 
     # kuu "In the end... she sought justice for Arcadius... In her own, twisted logic..."
-    kuu "Al final... ella buscaba justicia por Arcadius... En su propia, lógica retorcida..."
+    kuu "Al final... ella buscaba justicia por Arcadius... En su propia lógica retorcida..."
 
 # game/script.rpy:9397
 translate spanish commanderunfairme_5067a5b4:
@@ -22862,7 +22862,7 @@ translate spanish commanderunfairme_79e52df8:
 translate spanish commanderunfairme_55245f6d:
 
     # kuu "Just know that if you prove unworthy of flying the crimson flag, then I will dispose of you, myself."
-    kuu "Solo ten en cuenta que si demuestras no ser merecedor de portar la bandera carmesí, entonces me desharé de tí, yo misma."
+    kuu "Solo ten en cuenta que si demuestras no ser merecedor de portar la bandera carmesí, entonces me desharé de ti, yo misma."
 
 # game/script.rpy:9400
 translate spanish commanderunfairme_6a3f5be3:
@@ -22892,7 +22892,7 @@ translate spanish commanderunfairme_25da339a:
 translate spanish commanderunfairme_43ae82a5:
 
     # kuu "They assemble their fleets at Barona... While our forces are still stationed at Cera."
-    kuu "Ellos reunen sus flotas en Barona... Mientras que nuestras fuerzas siguen estacionadas en Cera."
+    kuu "Ellos reúnen sus flotas en Barona... Mientras que nuestras fuerzas siguen estacionadas en Cera."
 
 # game/script.rpy:9408
 translate spanish commanderunfairme_b7745c6f:
@@ -22922,7 +22922,7 @@ translate spanish commanderunfairme_51058870:
 translate spanish commanderunfairme_36e36aa6:
 
     # kuu "The Alliance will seek a target which will deal the most damage to our will. And a heavily populated core world like Tethra would be too tantalizing a target if it were to remain completely undefended..."
-    kuu "La Alianza buscará un objetivo con el que haga el mayor daño a nuestra determinación. Y un mundo interior áltamente poblado como Tethra sería un objetivo muy tentador si fuese a quedarse completamente indefenso..."
+    kuu "La Alianza buscará un objetivo con el que haga el mayor daño a nuestra determinación. Y un mundo interior altamente poblado como Tethra sería un objetivo muy tentador si fuese a quedarse completamente indefenso..."
 
 # game/script.rpy:9413
 translate spanish commanderunfairme_cebd5add:
@@ -22976,7 +22976,7 @@ translate spanish commanderunfairme_f842fb0a:
 translate spanish commanderunfairme_5c7293ba:
 
     # fon "Very well. We shall see if your predictions come to fruition."
-    fon "Muy bien. Veremos si tus predicciónes se hacen realidad."
+    fon "Muy bien. Veremos si tus predicciones se hacen realidad."
 
 # game/script.rpy:9422
 translate spanish commanderunfairme_f85a3d18:
@@ -22988,7 +22988,7 @@ translate spanish commanderunfairme_f85a3d18:
 translate spanish commanderunfairme_180f961d:
 
     # fon "(Her stratagems are the stuff of legends...)"
-    fon "(Sus estratagemas son cosas de leyendas...)"
+    fon "(Sus estratagemas son cosa de leyendas...)"
 
 # game/script.rpy:9424
 translate spanish commanderunfairme_aa8ce4c6:
@@ -23252,7 +23252,7 @@ translate spanish commanderunfairme_f6c0e95a:
 translate spanish commanderunfairme_10245324:
 
     # chi "{size=+50}COMING FOR YOU...{/size}"
-    chi "{size=+50}VINIENDO A POR TÍ...{/size}"
+    chi "{size=+50}YENDO A POR TI...{/size}"
 
 # game/script.rpy:9492
 translate spanish commanderunfairme_e135fef1:
@@ -23360,7 +23360,7 @@ translate spanish commanderunfairme_07823555:
 translate spanish commanderunfairme_a606835e:
 
     # kay "Argghh... If only she hadn't been such an idiot... We could have known that Chigara was a prototype much earlier!"
-    kay "Argghh... Si solo ella no hubiera sido tan idiota... Podríamos haber sabido que Chigara era un prototipo mucho antes!"
+    kay "Argghh... Si solo ella no hubiera sido tan idiota... Pudiéramos haber sabido que Chigara era un prototipo mucho antes!"
 
 # game/script.rpy:9519
 translate spanish commanderunfairme_765a6d8e:
@@ -23474,13 +23474,13 @@ translate spanish commanderunfairme_acc00a44:
 translate spanish commanderunfairme_4af5eee5:
 
     # sol "Such powers were beyond even the Ryuvians... For if such a power had been attained, the Holy Empire would never have collapsed. Even if it had, one could easily restore the Empire by simply travelling back in time."
-    sol "Tales poderes estaban incluso por encima de los Ryuvianos... Si un poder así hubiera sido alcanzado, el Sagrado Imperio nunca hubiera colapsado. Incluso si lo hubiese hecho, cualquiera podría restaurar el Imperio al simplemente volver atrás en el tiempo."
+    sol "Tales poderes estaban incluso por encima de los Ryuvianos... Si un poder así hubiera sido alcanzado, el Sagrado Imperio nunca hubiera colapsado. Incluso si lo hubiese hecho, cualquiera pudiera restaurar el Imperio al simplemente volver atrás en el tiempo."
 
 # game/script.rpy:9544
 translate spanish commanderunfairme_76d7551b:
 
     # sol "The implications of this discovery were too terrifying for me to dare speak..."
-    sol "Las implicaciones de este descubrimiento fueron demasiado aterradoras como para atraverme a hablar..."
+    sol "Las implicaciones de este descubrimiento fueron demasiado aterradoras como para atreverme a hablar..."
 
 # game/script.rpy:9545
 translate spanish commanderunfairme_5278cf28:
@@ -23570,7 +23570,7 @@ translate spanish commanderunfairme_a044dc6c:
 translate spanish commanderunfairme_3d3c7cc3:
 
     # sol "Yet, the situation is still more troubling..."
-    sol "Sin embargo, la situación todavía es más preocupante..."
+    sol "Sin embargo, la situación es aún más preocupante..."
 
 # game/script.rpy:9567
 translate spanish commanderunfairme_f4405416:
@@ -23630,13 +23630,13 @@ translate spanish commanderunfairme_48159b90:
 translate spanish commanderunfairme_7e64fce2:
 
     # sol "If I were to remain here... Surely, the entire fate of the universe may be at stake!"
-    sol "Si yo fuese a quedarme aquí... `¡Seguramente, todo el destino del univero podría estar en peligro!"
+    sol "Si yo fuese a permanecer aquí... ¡Seguramente, todo el destino del universo podría estar en peligro!"
 
 # game/script.rpy:9577
 translate spanish commanderunfairme_d88e4e4c:
 
     # kay "Slow down, Sola! I'm... not quite following!"
-    kay "¡Ve más despacio, Sola! ¡Yo... no logro entenderte muy bien!"
+    kay "¡Ve más despacio, Sola! ¡Yo... no te estoy siguiendo bien!"
 
 # game/script.rpy:9578
 translate spanish commanderunfairme_4e6eb90f:
@@ -23660,7 +23660,7 @@ translate spanish commanderunfairme_a83a563e:
 translate spanish commanderunfairme_3096f82e:
 
     # sol "I am effectively a rogue agent which should not exist in this universe. If am to accidentally cause an event which would otherwise be impossible in the original timeline, then the entire space-time continuum could very well collapse."
-    sol "Yo soy efectivamente alguien que no debería existir en este universo. Si yo accidentalmente causara un evento que de otra forma fuera imposible en la línea del tiempo original, entonces todo el continuo espacio-tiempo podría muy bien colapsar."
+    sol "Yo soy efectivamente alguien que no debería existir en este universo. Si yo accidentalmente causara un evento que de otra forma fuera imposible en la línea del tiempo original, entonces todo el continuo espacio-tiempo pudiera muy bien colapsar."
 
 # game/script.rpy:9582
 translate spanish commanderunfairme_cc1620c0:
@@ -23786,7 +23786,7 @@ translate spanish notallowsola_53b98956:
 translate spanish notallowsola_49fe85fd:
 
     # kay "Ahem... Uhh..."
-    kay "Ahem... Uhh..."
+    kay "Ejem... Uhh..."
 
 # game/script.rpy:9629
 translate spanish notallowsola_41fc80d8:
@@ -23858,7 +23858,7 @@ translate spanish howevendo_a95c539d:
 translate spanish howevendo_5aa0a65b:
 
     # kay "Oy, you're just going back to the way you used to think, Sola..."
-    kay "Oy, estás simplemente volviendo a la forma en la que solías pensar, Sola..."
+    kay "Oye, estás simplemente volviendo a la forma en la que solías pensar, Sola..."
 
 # game/script.rpy:9656
 translate spanish paradoxyearclaude_ac869926:
@@ -23966,7 +23966,7 @@ translate spanish paradoxyearclaude_10c76cb7:
 translate spanish paradoxyearclaude_f7fcc5f9:
 
     # kay "Uhh... So... by the way, what's this hideout that Ava's got prepared for us anyways?"
-    kay "Uhh... Así que... a porpósito, ¿qué es este escondite que Ava logró preparar para nosotros de todas formas?"
+    kay "Uhh... Así que... a propósito, ¿qué es este escondite que Ava logró preparar para nosotros de todas formas?"
 
 # game/script.rpy:9680
 translate spanish paradoxyearclaude_3779a0b7:
@@ -24014,7 +24014,7 @@ translate spanish paradoxyearclaude_41fc80d8_1:
 translate spanish paradoxyearclaude_dd2ee063:
 
     # kay "(WWHHHAAATTTTTTTT!? AVA, YOU DIDN'T MENTION THIS!!!!!!!!!)"
-    kay "(¿¡QUÉEEEEEEEEEEE!? ¡¡¡¡¡AVA, NO MENCIONASTE ESTO!!!!!)"
+    kay "(¿¡QUÉÉÉÉÉÉÉÉÉÉÉÉ!? ¡¡¡¡¡AVA, NO MENCIONASTE ESTO!!!!!)"
 
 # game/script.rpy:9694
 translate spanish paradoxyearclaude_4d1d4c1e:
@@ -24116,7 +24116,7 @@ translate spanish paradoxyearclaude_d166bb72:
 translate spanish paradoxyearclaude_2740c1e8:
 
     # "When his crew needed his leadership, he instead had sought his own happiness..."
-    "Cuando su tripulación necesitaba su liderazgo, él en cambio había buscado su propia felicidad..."
+    "Cuando su tripulación necesitó su liderazgo, él en cambio había buscado su propia felicidad..."
 
 # game/script.rpy:9716
 translate spanish paradoxyearclaude_adef8484:
@@ -24224,7 +24224,7 @@ translate spanish postcredits_e94a8575:
 translate spanish postcredits_f7d40fe6:
 
     # "A mammoth super-dreadnought of unknown origins emerged from warp space."
-    "Un gigantesco super-acorazado de orígenes desconocidos emergió de un salto en el espacio."
+    "Un gigantesco superacorazado de orígenes desconocidos emergió de un salto en el espacio."
 
 # game/script.rpy:4565
 translate spanish postcredits_fcb19427:
@@ -24235,14 +24235,14 @@ translate spanish postcredits_fcb19427:
 # game/script.rpy:4566
 translate spanish postcredits_ca2fc4d8:
 
-    # unof "Instead of being transported to before the battle, we were flung five thousand years into the future instead..."
-    pof "En vez de ser transportados a antes de la batalla, fuimos en cambio arrojados a cinco mil años al futuro..."
+    # unof "Instead of being transported to before the battle, we were flung two thousand years into the future instead..."
+    pof "En vez de ser transportados a antes de la batalla, fuimos en cambio arrojados a dos mil años al futuro..."
 
 # game/script.rpy:4567
 translate spanish postcredits_1050cf97:
 
     # unof "Further, it appears the Farari bitch was also caught in the temporal blast and flung into this time line as well..."
-    pof "Además, parece que esa mujer de Farari también fue atrapada en la explosión temporal y lanzada a esta época..."
+    pof "Además, parece que esa mujer Farari también fue atrapada en la explosión temporal y lanzada a esta época..."
 
 # game/script.rpy:4568
 translate spanish postcredits_b8a11707:
@@ -24266,7 +24266,7 @@ translate spanish postcredits_ea49cf4b:
 translate spanish postcredits_b55d84e1:
 
     # unof "I-I beg your forgiveness, my lord Crow..."
-    pof "Lo lamento, señor Crow..."
+    pof "Lo lamento, lord Crow..."
 
 # game/script.rpy:4572
 translate spanish postcredits_97468851:
@@ -24278,13 +24278,13 @@ translate spanish postcredits_97468851:
 translate spanish postcredits_ef1b6bee:
 
     # unof "S-surely, my lord can expect to easily subjugate them for his ends..."
-    pof "S-seguramente, el señor Crow pueda esclavizarlos fácilmente para sus fines..."
+    pof "S-seguramente, lord Crow pueda esclavizarlos fácilmente para sus fines..."
 
 # game/script.rpy:4574
 translate spanish postcredits_bbf3ad67:
 
     # cro "Grrgg..."
-    cro "Hmm..."
+    cro "Grrgg..."
 
 # game/script.rpy:4575
 translate spanish postcredits_91730280:
@@ -24296,7 +24296,7 @@ translate spanish postcredits_91730280:
 translate spanish postcredits_ac0013ea:
 
     # cro "If I am to be robbed of my victory against the Farari lowbloods, then I shall rebuild our glorious empire here."
-    cro "Si me fue robada la victoria, contra la bastarda de Farari, entonces deberé reconstruir nuestro glorioso imperio en este mundo."
+    cro "Si me fue robada la victoria, contra la bastarda Farari, entonces deberé reconstruir nuestro glorioso imperio en este mundo."
 
 # game/script.rpy:4577
 translate spanish postcredits_d75409ac:
@@ -24470,7 +24470,7 @@ translate spanish strings:
 
     # game/script.rpy:9057
     old "She did save me... I think we still have a lot we could learn by keeping her here."
-    new "Ella me salvó... Creo que todavía tenemos mucho que podríamos aprender manteniéndola aquí."
+    new "Ella me salvó... Creo que aún tenemos mucho que pudiéramos aprender manteniéndola aquí."
 
     # game/script.rpy:9202
     old "I know, Ava... I always knew. I'm sorry... It was my fault for pushing you away..."
@@ -24486,5 +24486,4 @@ translate spanish strings:
 
     # game/script.rpy:9584
     old "How can we even do that!?"
-    new "¿¡Cómo podríamos siquiera hacer eso!?"
-
+    new "¿¡Cómo pudiéramos siquiera hacer eso!?"

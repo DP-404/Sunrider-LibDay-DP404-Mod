@@ -247,7 +247,7 @@ label start:
     $ BM.mission = 1
     call bcheckset from _call_bcheckset
     pause 1.0
-    scene bg paradoxback with battlewipe
+    scene bg paradoxbattleback with battlewipe
     $BM.battle_bg = "Background/paradoxback.jpg"
 
     jump battle_start

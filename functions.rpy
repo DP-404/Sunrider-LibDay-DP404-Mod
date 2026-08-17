@@ -547,7 +547,7 @@ init -6 python:
 #        ships = copy(BM.ships)
 
         if not silent:
-            show_message('You loaded a save file from a previous version of the game. reinitializing game data...')
+            show_message(_('You loaded a save file from a previous version of the game. reinitializing game data...'))
             try:
                 renpy.pause(1.0) #this will typically fail when a ui.interact is running, like it usually is during battle
             except:
@@ -635,7 +635,7 @@ init -6 python:
             # update_upgrades(pship)        
         
         if not silent:
-            show_message('Reinitialization complete.')
+            show_message(_('Reinitialization complete.'))
         return
 
     def update_weapon(weapon):
@@ -1110,7 +1110,7 @@ init -6 python:
             strat,duration = BM.active_strategy
             if strat != None:
                 if duration <= 1:
-                    message = "{} has expired!".format(strat)
+                    message = __("{} has expired!").format(__(strat))
                     BM.battle_log_insert(['order'], message)
                     show_message(message)
                     order_expired = True
